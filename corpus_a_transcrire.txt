@@ -9,11 +9,11 @@ lien: https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f15.item.r=Manuscrit%20Ap
 	Marizibill : 1p
 		 - 15r : Axelle
 	Mai : 1p
-		 - 16r :
+		 - 16r :Pauline
 	Les cloches : 1p
-		 - 17r : 
+		 - 17r : Pauline
 	1909 : 2p
-		- 18r + 19r :
+		- 18r + 19r :Pauline
 	À la santé : 6p
 		- 20r/v +  21 r/v :
 		- 22 r/v + 23 r/v :
@@ -33,8 +33,8 @@ lien : https://gallica.bnf.fr/ark:/12148/btv1b525088021/f145.item.r=Apollinaire%
 Contient des textes imprimés et des textes manuscrits.
 	
 	f145-f152 (f145 manuscrit, f146-f152 imprimés) : 
-	f153-f161 (imprimés) :
-	f162-f170 (f169 blank) (f162-f164 imprimés, f165-f168 manuscrits, f170 manuscrit)  : 
+	f153-f161 (imprimés) : 
+	f162-f170 (f169 blank) (f162-f164 imprimés, f165-f168 manuscrits, f170 manuscrit)  : Pauline
 	f171-f179 (f171 blank, f174 blank, f179 blank) (manuscrits) : 
 	f180-f188 (f184 blank, f186 blank) (manuscrits) : 
 	f189-f197 (f195 blank, f197 blank) (manuscrits) : Axelle
