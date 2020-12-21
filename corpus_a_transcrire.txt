@@ -15,8 +15,8 @@ lien: https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f15.item.r=Manuscrit%20Ap
 	1909 : 2p
 		- 18r + 19r :Pauline
 	À la santé : 6p
-		- 20r/v +  21 r/v :
-		- 22 r/v + 23 r/v :
+		- 20r/v +  21 r/v :Léa
+		- 22 r/v + 23 r/v :Léa
 
 POÈMES PUBLIÉS
 Océrisation de ces 7 poèmes
@@ -32,7 +32,7 @@ lien : https://gallica.bnf.fr/ark:/12148/btv1b525088021/f145.item.r=Apollinaire%
 
 Contient des textes imprimés et des textes manuscrits.
 	
-	f145-f152 (f145 manuscrit, f146-f152 imprimés) : 
+	f145-f152 (f145 manuscrit, f146-f152 imprimés) : Léa
 	f153-f161 (imprimés) : 
 	f162-f170 (f169 blank) (f162-f164 imprimés, f165-f168 manuscrits, f170 manuscrit)  : Pauline
 	f171-f179 (f171 blank, f174 blank, f179 blank) (manuscrits) : 
