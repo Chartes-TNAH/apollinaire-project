@@ -4,8 +4,8 @@ lien: https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f15.item.r=Manuscrit%20Ap
 	Le pont mirabeau : 1 page à transcrire
 		 - 1r : Axelle
 	La chanson du mal-aimé : 2-14 seulement les recto(!!) + 14v soit 13p 
-		 - 2r à 8r (6pages) :
-		 - 8r à 14r + 14v(7p) :  
+		 - 2r à 8r (6pages) : Arsène
+		 - 8r à 14r + 14v(7p) : Arsène
 	Marizibill : 1p
 		 - 15r : Axelle
 	Mai : 1p
