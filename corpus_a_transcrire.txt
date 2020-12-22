@@ -4,7 +4,7 @@ lien: https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f15.item.r=Manuscrit%20Ap
 	Le pont mirabeau : 1 page à transcrire
 		 - 1r : Axelle
 	La chanson du mal-aimé : 2-14 seulement les recto(!!) + 14v soit 13p 
-		 - 2r à 8r (6pages) :
+		 - 2r à 8r (6pages) : Arsène
 		 - 8r à 14r + 14v(7p) :  
 	Marizibill : 1p
 		 - 15r : Axelle
@@ -33,7 +33,7 @@ lien : https://gallica.bnf.fr/ark:/12148/btv1b525088021/f145.item.r=Apollinaire%
 Contient des textes imprimés et des textes manuscrits.
 	
 	f145-f152 (f145 manuscrit, f146-f152 imprimés) : Léa
-	f153-f161 (imprimés) : 
+	f153-f161 (imprimés) : Arsène
 	f162-f170 (f169 blank) (f162-f164 imprimés, f165-f168 manuscrits, f170 manuscrit)  : Pauline
 	f171-f179 (f171 blank, f174 blank, f179 blank) (manuscrits) : 
 	f180-f188 (f184 blank, f186 blank) (manuscrits) : 
