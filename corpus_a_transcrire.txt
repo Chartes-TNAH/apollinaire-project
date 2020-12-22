@@ -37,5 +37,5 @@ Contient des textes imprimés et des textes manuscrits.
 	f162-f170 (f169 blank) (f162-f164 imprimés, f165-f168 manuscrits, f170 manuscrit)  : Pauline
 	f171-f179 (f171 blank, f174 blank, f179 blank) (manuscrits) : 
 	f180-f188 (f184 blank, f186 blank) (manuscrits) : 
-	f189-f197 (f195 blank, f197 blank) (manuscrits) : Axelle
+	f189-f197 (f195 blank, f197 blank) (manuscrits) : Axelle  || REMARQUE: f196 est la copie de f189, même lettre de Nicolas Beauduin
 	f198-f206 (f199 blank, f204-f205 blank) (f198 manuscrit, f200-f202 imprimés, f203 manuscrit, f206 imprimé) : 
