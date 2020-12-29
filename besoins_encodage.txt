@@ -13,4 +13,5 @@ POÈMES MANUSCRITS :
 
 - balises pour indiquer qu'un mot est barré : elles devront pouvoir s'imbriquer entre elles lorsque un même passage est barré à différentes échelles
 - balises de mise en page (ligne de séparation, écriture en colonnes, dans la marge et dans l'interligne)
+- balise pour indiquer qu'un mot est illisible (souvent lorsqu'il est barré plusieurs fois par l'auteur)
 
