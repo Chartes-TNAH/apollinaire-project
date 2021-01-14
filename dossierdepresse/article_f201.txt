@@ -1,3 +1,5 @@
+(Disponible pour être modifié sur la branche "transcription_article_f201")
+
 ((24: barré)
 83: coin supérieur gauche)
 (Vue 1)
