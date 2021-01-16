@@ -5,6 +5,7 @@ import os
 import sys
 from PIL import Image
 import io
+import re
 
 
 def ark_query(ark, from_f, to_f):
@@ -58,6 +59,8 @@ def download_image(url_img_list, directory_name):
     """
 
     print(url_img_list)
+    
+    pattern = "\/f[0-9]+"
 
     try:
         os.mkdir(directory_name)
@@ -71,7 +74,9 @@ def download_image(url_img_list, directory_name):
             print("fetching : {0}".format(request))
             f = io.BytesIO(r.content)
             i = Image.open(f)
-            i.save('./{0}/{1}.jpg'.format(directory_name, request[54:58]), 'jpeg')
+            name_result = re.findall(pattern, request)[0]
+            name_result = name_result[1:]
+            i.save('./{0}/{1}.jpg'.format(directory_name, name_result), 'jpeg')
             i.close()
 
             # Couche de sécurité pour ne pas surcharger l'API en cas de téléchargement important
