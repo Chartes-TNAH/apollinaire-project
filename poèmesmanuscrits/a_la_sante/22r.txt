@@ -6,7 +6,7 @@ Que je m'ennuie entre ces quatre murs tous nus
 Une mouche sur le papier à pas menus
 Parcourt mes lignes inégales.
 (Mais les couloirs où crie:barré)
-(? le ?:barré)
+(Dans les couloirs:barré)
 (Cette chaise illisible où je m'assieds:barré)
 Que deviendrai-je ? ô Dieu qui connais ma douleur
 Toi qui me l'as donnée
@@ -14,7 +14,7 @@ Prends en pitié mes yeux sans larmes, ma pâleur
 Le bruit de ma chaise enchaînée
 
 (Prends en pitié le(s:barré) coeur(s:barré) de qui veut bien m'aimer:barré)
-(Et ? que ceux qui souffrent:barré)
+(Et puis que ceux qui souffrent:barré)
 (Accuse de moi seul:barré)
 Et tous ces pauvres coeurs battant dans la prison
 L'amour qui m'acccompagne
@@ -31,5 +31,5 @@ Et que les Douze abandonnèrent
 Je viens de retrouver la foi
 Comme aux beaux jours de mon enfance
 (et bien plus fermement:barré)
-? ! Agrées mes louanges
+Seigneur ! Agrées mes louanges
 Je crois en vous, je crois, je crois.
