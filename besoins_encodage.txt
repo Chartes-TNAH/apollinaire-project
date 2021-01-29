@@ -10,9 +10,48 @@ DOSSIER DE PRESSE :
 
 
 POÈMES MANUSCRITS :
+=>documentation: https://www.tei-c.org/release/doc/tei-p5-doc/it/html/PH.html
+
+- balises de mise en page (ligne de séparation, écriture en colonnes, dans la marge et dans l'interligne)
+        -Description de l'aspect structurel de la page https://www.tei-c.org/release/doc/tei-p5-doc/it/html/PH.html#PHLAY
+        <sourceDoc> https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-sourceDoc.html
+        <surface> https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-surface.html
+        <zone> https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-zone.html
+        <line> https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-line.html
+        => à voir quelles balises utiliser, jusqu'à quel niveau de précision en plus de <line>
+        => pour transcrire les colonnes, soit utiliser un attribut @type avec une valeur colonne pour une balise <surface> ou <zone> soit utiliser pour la description structurelle les balises <pb> pour page, <cb> pour colonne <lb> pour ligne.
+        -pour les éléments en dehors du corps du document: <fw> https://www.tei-c.org/release/doc/tei-p5-doc/it/html/PH.html#PHSK
+            @type: header, footer, numéro de page...
+            @place: emplacement (marge...)
+            réfléchir si un spanGrp ou span ne peut pas être plus facile https://tei-c.org/release/doc/tei-p5-doc/fr/html/ref-span.html
+-balise intéressante pour les lignes de suppression:
+        <metamark>:permet de décrire les symboles du document et de donner leur fonction. https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-metamark.html
+        @function: description de la fonction du symbole 
+        @rend: description de l'aspect du symbole
+        @target: élément sur lequel le métamark s'applique
+        dans le cas d'une ligne barrant le texte, on peut encoder celui-ci avec la balise: <metamark function="used" rend="line" target=""/>
 
 - balises pour indiquer qu'un mot est barré : elles devront pouvoir s'imbriquer entre elles lorsque un même passage est barré à différentes échelles
-- balises de mise en page (ligne de séparation, écriture en colonnes, dans la marge et dans l'interligne)
+        <del>:  indique une lettre ou mot supprimé par un auteur du document. regarder delSpan également. https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-del.html 
+        @rend: type de suppression (barré)
+        @hand: auteur de la suppression
+
+-balise pour indiquer un mot ajouté: 
+        <add>: lettres, mots inséré dans le texte par l'auteur. voir addSpan également. https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-add.html
+        @place: indique l'emplacement de l'ajout (interligne, marge par exemple)
+        pour une suppression d'un mot remplacé par un autre: <subst>, <del> et <add> https://www.tei-c.org/release/doc/tei-p5-doc/it/html/PH.html#PHSU
+
+- balise pour indiquer lorsqu'un passage a été effacé (dégradation) et devient illisible:
+        à réfléchir entre <gap> (cf plus bas) et <damage> en fonction du degrès de destruction.
+        <damage>: encoder une zone qui a subi des dommages (illisibilité pas due à l'auteur du document) https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-damage.html
+        @agent: ce qui a détruit la partie effacé (eau...)
+        possibilité d'ajouter une balise <unclear> à l'intérieur de damage afin de donner plus d'indications sur la destruction. https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-unclear.html
+        
+
 - balise pour indiquer qu'un mot est illisible (souvent lorsqu'il est barré plusieurs fois par l'auteur)
-- balise pour indiquer lorsqu'un passage a été effacé (dégradation) et devient illisible
+        combinaison de <del> et <gap>: <gap> indique une omission dans la transcription car matériau illisible.https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-gap.html
+        @quantity: nombre d'éléments non visible    
+        @unit: type d'éléments (mot, lettre...)
+        @reason: raison de l'illisibilité (barré...)
+
 
