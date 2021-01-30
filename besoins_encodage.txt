@@ -11,8 +11,33 @@ DOSSIER DE PRESSE :
 
 POÈMES MANUSCRITS :
 
-- balises pour indiquer qu'un mot est barré : elles devront pouvoir s'imbriquer entre elles lorsque un même passage est barré à différentes échelles
-- balises de mise en page (ligne de séparation, écriture en colonnes, dans la marge et dans l'interligne)
-- balise pour indiquer qu'un mot est illisible (souvent lorsqu'il est barré plusieurs fois par l'auteur)
-- balise pour indiquer lorsqu'un passage a été effacé (dégradation) et devient illisible
+=>https://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html
 
+- balises de mise en page (ligne de séparation, écriture en colonnes, dans la marge et dans l'interligne)
+
+    -structuration: https://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHFAX
+            _soit imbrication des balises <facsimile> <surface> <zone> pour les colonnes puis <line> pour les lignes
+            _soit utilisation de <pb>, <cb>, <lb> pour encoder la structure en page, colonne et lignes
+    -éléments en dehors du corps de texte:
+        -symboles: <metamark> contains or describes any kind of graphic or written signal within a document the function of which is to determine how it should be read rather than forming part of the actual content of the document. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-metamark.html
+            @function: utilisation du symbole 
+            @rend: forme du symbole
+
+- balises pour indiquer qu'un mot est barré : elles devront pouvoir s'imbriquer entre elles lorsque un même passage est barré à différentes échelles
+        <del>:  contains a letter, word, or passage deleted, marked as deleted, or otherwise indicated as superfluous or spurious in the copy text by an author, scribe, or a previous annotator or corrector https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-del.html 
+également delSpan pour une grosse séquence de texte barré https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-delSpan.html
+            @rend: type de suppression (barré...)
+            @hand: auteur de la suppression
+        <add>: contains letters, words, or phrases inserted in the source text by an author, scribe, or a previous annotator or corrector. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-add.html
+            @place: emplacement de l'ajout (interligne, marge...)
+        association <subst> <del> <add>: lorsque le mot a été remplacé par un autre par l'auteur https://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHSU
+
+- balise pour indiquer qu'un mot est illisible (souvent lorsqu'il est barré plusieurs fois par l'auteur)
+        <gap> indicates a point where material has been omitted in a transcription, whether for editorial reasons described in the TEI header, as part of sampling practice, or because the material is illegible, invisible, or inaudible https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-gap.html
+            @quantity: éléments non visibles
+            @unit: type d'élément
+            @reason: pourquoi illisibilité
+
+- balise pour indiquer lorsqu'un passage a été effacé (dégradation) et devient illisible
+        <damage>: contains an area of damage to the text witness https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-damage.html       
+            @agent: type de dégradation
