@@ -40,11 +40,11 @@
             </div>
             <div type="verso" n="193" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f193.item">
                <spanGrp type="postmarked">
-                  <span type="postmark" rend="rouge">République français 10c</span>
+                  <span type="postmark" rend="red">République français 10c</span>
                   <span type="stamp">
                      <date when="1913-06-20">Paris Ste Anne 20-6-13</date>
                   </span>
-                  <span type="destinataire">
+                  <span type="receiver">
                      <address>
                         <persName>Monsieur Guillaume Apollinaire</persName>
                         <street>202 Boulevard St Germain</street>
@@ -53,7 +53,6 @@
                   </span>
                </spanGrp>
             </div>
-            
          </div>
       </body>
   </text>
