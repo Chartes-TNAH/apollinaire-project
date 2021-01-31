@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/Users/dorianehare/Documents/M2%20TNAH/Git/out/articles_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>f. 158</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Essai encodage pour échantillon</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>https://gallica.bnf.fr/ark:/12148/btv1b525088021/f158.item</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         
+         <pb n="f. 158"  facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f158.item"/>
+         <div type="article" n="?">
+         
+         
+         <head> <hi rend="caps">A GUILLAUME APOLLINAIRE</hi> <num rend="right">117</num>
+         </head>
+
+         <p rend="italic">
+         Puis virtuose du pas de quatre
+         Du cavalier seul
+         Et de la mesure classique ;
+         Il tricote des jarrets,
+         Gavotte sur deux temps à la française,
+         Valse sur trois à la viennoise,
+         Fait des ronds de jambe,
+         Se campe, se cambre,
+         Se dandine, s‘étire
+         Et, soudain, en ascension,
+         Comme Apollonius de Tyane dans Ephèse
+         Il reste en l'air, y oscille et vire,
+         Sorte de lampe diaphane,
+         Et pareil à cette chrysalide
+         Que suspend aux branches hautes
+         La chenille dite : Vanesse du grand Paon du Jour,
+         Apollinaire est un fastueux danseur.
+         </p>
+         
+         <p rend="italic">
+         <num rend="center">III</num>
+            
+         Sphinx lépidoptère au vol variant,
+         Tour à tour couleur de l‘Ornéode,
+         Du Panthoüs, des Vulcains, de l‘Atropos,
+         Du Morpho—Ménélas, de la Danaïde,
+         De l‘Amaryllis ou de la Saturnie,
+         Du Polyommate Dispar ou du Papillon Flambé,
+         Tout à coup il devient quelque immatériel Argus
+         Qui poudroie et semble nimber d‘idéal
+         Ses ailes d‘un bleu violet
+         Flammées de vert,
+         Ocellées d‘ocre
+         Et cernées d‘or.
+         Et voilà qu‘au milieu des Elus, ses précurseurs,
+         Il tourbillonne ainsi qu‘une immense fleur de punch
+         </p>
+            <note type="ref_article"  rend="manuscript on support">La Phalange</note>
+         </div>
+      </body>
+     
+  </text>
+   <standOff>
+      <note>Remarques <list>
+         <item>Ajouter l'estampille ?</item>
+         <item>Numéroter les articles grâce à @n ?</item>
+         <item>xml:id par article ?</item>
+      </list>
+         
+      </note>
+   </standOff>
+</TEI>

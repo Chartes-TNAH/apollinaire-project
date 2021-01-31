@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/Users/dorianehare/Documents/M2%20TNAH/Git/out/articles_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>f. 201</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Essai encodage pour échantillon</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+        
+        
+        <pb n="f. 201" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f201.item"/>
+        <note type="ancienne_pagination"><num rend="barré">24</num><num>83</num></note>
+
+
+            <div type="article" n="?" xml:lang="de">
+               <head rend="center">
+                 <lb/> <persName rend="gras">
+                     <forename>Guilaume</forename>
+                     <surname>Apollinaire</surname>
+                  </persName>,
+                  <title rend="gras">Alcools</title>.
+               <lb/>Poèmes, 1898—1913. Paris, 1913. Mercure de France,
+               <lb/>26 rue de Condé.
+               </head>
+               <p>
+                  <lb/>Der vorliegende Band des ausgezeigneten Pariser
+                  <lb/>Dichters enthält Werke, die nicht nur aus verschiedenen
+                  <lb/>Jahren, sondern auch aus verschiedenen Abschnitten seines
+                  <lb/>poetischen Schaffens stammen. In den Gedichten, die
+                  <lb/>offenbar älteren Datums, sind, lebt noch die neufranzösische
+                  <lb/>Romantik aus der Zeit um und nach Paul Verlaine. Wie 
+                  <lb/>bei Paul Fort nähert sich die Form dem Volksliede: die
+                  <lb/>Lechnik des Verses ist Hocker, der Reim geht in Assonanz
+                  <lb/>über, refrainartige Zeilen schreiten durch das Gedicht hin-
+                  <lb break="no"/>durch, und der Rhythmus ist rein musikalisch, fast gefang-
+                  <lb/>haft. In diesem Gewande gibt der Dichter ganz persön-
+                  <lb break="no"/>liche intime Stimmungen Herbstlandschaften und Notturnos,
+                  <lb/>in denen der mystische Zauber der Natur mit Er-
+                  <lb break="no"/>innerungen und Sehnsichten zur poetischen Einheit ver-
+                  <lb break="no"/>schmilzt und in denen 
+               
+               <quote rend="centre">
+                  <l>Les souvenirs sont cors de chasse,</l>
+                  <l>Dont meurt le bruit parmi les vents</l>
+               </quote>
+                  </p>
+               <p>
+                  <lb/>Eine ganze Reihe dieser Gedichte ist am Rhein ent-
+                  <lb break="no"/>standen, „in dessen truntenen Fluten sich die Weinberge
+                  <lb/>spiegeln, und in den das ganze Gold der Nacht zitternd
+                  <lb/>und glänzend fällt, während die Feen in grünen Haaren
+                  <lb/>mit todesröchelndem Schluchzen vom Sommer singer, bis
+                  <lb/>das Glas des Dichters wie ein lautes Lachen zerspringt.
+                  <lb/>Eine dieser „Rhénanes” ist eine französische Umdichtung
+                  <lb/>vont Brentanos „Lorelei” : 
+                  
+                  <quote rend="centre">
+                     <l>A Bacharach il y avait une sorcière blonde,</l>
+                     <l>Qui laissait mourir d'amour tous les hommes
+                        <lb rend="interligne"/>à la ronde</l>
+                     <l>Devant son tribunal l'évêque la fit citer</l>
+                     <l>D'avance il l'absolvit à cause de beauté.</l>
+                  </quote>
+               </p>
+               
+               <p>
+                  <lb/>Als Beispiel dieser landschaftlichen Stimmungsbilder
+                  <lb/>kann das folgende in reimloser Uebersetzung wieder
+                  <lb/>gegebene Gedicht „Herbst” gelten:
+                  
+                  <quote>
+                     <lg>
+                        <l>Ein alter Bauer stolpert durch den Nebel</l>
+                        <l>Mit seinem Ochsen. Durch den Herbstesnebel,</l>
+                        <l>Der sich ums Elend armer Dörfer windet.</l>
+                     </lg>
+                     <lg>
+                        <l>Und wie er hingeht, singt der Bauer summend</l>
+                        <l>Ein Lied von Liebe und gebrochner Treue,</l>
+                        <l>Das spricht von einem Ring und herzzerbrechen.</l>
+                     </lg>
+                     <lg>
+                        <l>Der Herbst, der Herbst, er ließ den Sommer sterben,</l>
+                        <l>Und durch den Nebel ziehn die beiden grauen Schatten.</l>
+                     </lg>
+                  </quote>
+               </p>
+               <p>
+                  <lb/>Um starken Gegensatze hierzu stehen die Gedichte, die
+                  <lb/>den Stempel späterer Entstehung tragen. An die Stelle der
+                  <lb/>musikalischen Stimmungen ist das moderne, das modernste
+                  <lb/>Leben der Großstadt getreten. Die Automobile knattern über
+                  <lb/>den Asphalt, die Lichter der Straße slimmern und leuchten,
+                  <lb/>die Lippmädels ziehen Arm in Arm vorbei und der un-
+                  <lb break="no"/>bewegliche Eiffelturm starrt auf dieses Treiben herab. In 
+                  <lb/>seiner Mitte aber steht der Dichter mit seinen rapiden, oft
+                  <lb/>danken und Assoziationen. Er sieht die Körper der Toten
+                  <lb/>im Leichenschauhause zu München durch die Scheiben
+                  <lb/>grinsen und lädt sie zu einem Ausfluge aufs Land ein, wo
+                  <lb/>denn ihre posthumen Liebkofungen und Freuden ein ge-
+                  <lb break="no"/>spenstiges Dasein führen. Die Alkoholrausch wirkt das
+                  <lb/>Durcheinander hastigen Lebens und hin und her flatternder
+                  <lb/>Gedanken und Visionen, die jetzt in völlständig freie Rhythmen 
+                  <lb/>gebannt fsind. Von der Hassischen französischen Brosodie
+                  <lb/>ist kaum noch etwas zu merken, und das Ganze ist zu einer
+                  <lb/>subtilen, eigenwilligen Nervenkunst geworden.
+                  <lb/><hi rend="right">Albert Haas.</hi>
+               </p>
+               <note type="ref_article" rend="manuscript on support">
+                  Börfen-Courrier <date>23 octobre 1913</date>
+                  </note>
+            </div>
+         
+         
+         <div type="article" n="?" xml:lang="de">
+            
+          <head>
+             <persName><forename>Guillaume</forename><surname>Apollinaire</surname></persName>
+             <title> DIE DAME</title>
+          </head>
+          <lg>
+             <l>Poch poch Verschlossen hat er die Pforte </l>
+             <l> Mit den Lilien im Garten ists aus</l>
+             <l> Was ist das für eine Totenescorte</l>
+          </lg>
+          <lg>
+             <l> Du pochtest eben an seine Pforte</l>
+             <l> Und trotte trotte</l>
+             <l> Trottet die kleine Maus</l>
+          </lg>
+          <p rend="right">
+             Uebertragen von <persName>Fritz Max Cahén</persName>
+            </p>
+         <p rend="left"><num>6</num></p>
+       </div>
+         
+         
+         <div type="article" n="?" xml:lang="de">
+            
+            <head><hi rend="gras"><persName><forename>Guillaume</forename> <surname>Apollinaire</surname></persName></hi>, <title>Alcools</title>. Paris, Mercure de France.</head>
+            <p>
+            <lb/>Es ist manches in diesem Buche Apollinaires, was von rasch und
+            <lb/>allzu rasch urteilenden achselzuckend als vieux jeu bezeichnet werden
+            <lb/>könnte. So zeigt sich wieder, wie leicht die unbedingte Forderung nach
+            <lb/>Inhalten, die für die „Jungen” schon fast zu einer neuen Convention ge-
+            <lb break="no"/>worden sind, den Blick für das wahrhaft Ausschlaggebende zu trüben
+            <lb/>vermag. Nämlich für die graduelle Intensität des Sehens, das Gewicht
+            <lb/>der einzelnen Vorstellung und das Tempo der Mitteilung. (Auch die
+            <lb/>heroische Landschaft kann in unserer „Zeit der Maschine” Inhalte für
+            <lb/>die Kunst hergeben, und „Akademische” wie Poussin und Ingres stehen
+            <lb/>im direktesten Zusammenhang mit den malerischen Problemen unserer
+            <lb/>Zeit.) In Apollinaires Gedichtbuch ist manche Landschaft, manche
+            <lb/>Mondnacht in den Gesichtswinkel des modernen Menschen gerückt. 
+            <lb/>Au fond sind wir ja doch alle sentimental, und unser Einspruch gegen
+            <lb/>alles Sentimentale ist ebenso verlogen wie jene Art von Sentimentalität,
+            <lb/>gegen den er sich mit Recht richten könnte. Der Dichter wird, ganz
+            <lb/>wie dieser Apollinaire, eben immer zur Erscheinung hinzukämpfen
+            <lb/>haben, um nicht parallel der Welt gleitend ins Unaufhaltbare zu geraten,
+            <lb/>ins Unaufhaltbare, Unendliche, das den Weltschmerz der Romantik eben-
+            <lb/>so schuf wie den Cynismus des neuen Lyrikers, und das seinen letzten 
+            <lb/>Grund im bewußtsein um die Begrenztheit des Willens aufdeckt. -
+            <lb/>Für Gedichte wie z. B. die „Rhénanes” des Bandes „Alcools” erübrigt
+            <lb/>sich also die - wenn unternommen - sicherlich nicht unfruchtbar
+            <lb/>verlaufende literarische récherche de la paternité, denn ihr Ton ist neu, 
+            <lb/>ohne sich auf den neuen Jargon zu beschränken. Apollinaire, dieser
+            <lb/>vielleicht gegen seinen Willen rabiat christliche polnische Jude franzö-
+            <lb break="no"/>sischer Sprache, ist ein romantischer Rationalist; aus diesem Zwiespalt
+            <lb/>heraus greift er nach den Dingen der Welt. Ist es noch erlaubt, Goethe
+            <lb/>dafür zu zitieren : daß es auf „die lebendige Empfindung für die Zu-
+            <lb break="no"/>stände” und auf „die Fähighkeit sie auszudrücken” ankomme, um
+            <lb/>Dichter zu sein? <hi rend="right">Fritz Max Cahén</hi>
+            </p>
+            <note type="ref_article" rend="manuscript on support">
+               Das Beiblatt. Der Buecherei Maiandros <date>19 Novembre 1913</date>
+            </note>
+         </div>
+         
+         
+         <div type="article" n="?" xml:lang="fr">
+            <p>
+               <lb/>(trait bleu au niveau de la première et deuxième ligne)M. Guillaume Apollinaire s'est affirmé, par la publication de son livre
+               <lb/><hi rend="italic">Alcools</hi>‚ comme l'un des poètes les plus brülants de sa génération. On connais—
+               <lb break="no"/>sait déja un grand nombre de ces poèmes parus au <hi rend="italic">Festin d'Esope</hi>, à la <hi rend="italic">Revue
+               <lb/>Blanche</hi>, au <hi rend="italic souligné en rouge">Mercure</hi>, à la <hi rend="italic">Phalange</hi>, aux <hi rend="italic">Soirées de Paris</hi>, etc., mais ce n'est
+               <lb/>pas sans quelque impatience que l'on attendait qu'ils fussent réunis en recueil.
+               <lb/>La personnalité lyrique de M. Guillaume Apollinaire nous est offerte là sous
+               <lb/>ses multiples aspects. Nul mieux que lui ne connaît l'art de la métamorphose,
+               <lb/>le jeu des vers, nul mieux que lui ne sait donner aux mots un sens étoilé.
+               <lb/>Les amateurs d'art moderne trouveront au seuil de ce volume un portrait
+               <lb/>sans égal de M. Apollinaire par M. Picasso. Le grand peintre espagnol a élaboré
+               <lb/>une synthèse de décoration métaphysique et a réussi à nous montrer M. Guil—
+               <lb break="no"/>laume Apollinaire tout a la fois de face, de profil et de dos; cette oeuvre est
+               <lb/>surprenante plus que nous ne saurions dire et tous les admirateurs de M. Apol—
+               <lb break="no"/>linaire aimeront avoir ce portrait de notre nouvel Amphion, rendu dans son
+               <lb/>entéléchie.
+               <hi rend="caps center"><persName><forename>MARC</forename> <surname>BRESIL</surname></persName> et <persName><forename>LOUIS</forename> <nameLink>DE</nameLink> <surname>GONZAGUE FRICK</surname></persName></hi>
+            </p>
+            <note type="ref_article" rend="manuscript on support">
+               La Phalange <date>20 Juillet 1913</date></note>
+         </div>
+      </body>
+  </text>
+   <standOff>
+      <note>Remarques <list>
+         <item>Ajouter l'estampille ?</item>
+         <item>Numéroter les articles grâce à @n ?</item>
+         <item>xml:id par article ?</item>
+      </list>
+      </note>
+   </standOff>
+</TEI>

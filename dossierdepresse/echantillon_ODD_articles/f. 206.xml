@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/Users/dorianehare/Documents/M2%20TNAH/Git/out/articles_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>f.206</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Essai encodage pour échantillon</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>https://gallica.bnf.fr/ark:/12148/btv1b525088021/f206.item</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         
+         <pb n="f. 206" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f206.item"/>
+         <note type="ancienne_pagination"><num rend="left">26</num></note>
+         
+         
+         <div type="article" n="?">
+            
+            
+         <cb n="1"/>
+         <head rend= "centre"><hi rend="tall large">Les Poètes et Nice</hi></head>
+         <p>
+            <lb/>Ce n'est pas au Lycée de <placeName>Nice</placeName> que j'ai
+            <lb/>connu <persName><forename>Guillaume</forename> <surname>Apollinaire</surname></persName> ; nous y 
+            <lb/>fûmes cependant élevés en partie et il
+            <lb/>nous arrive de découvrir que nous 
+            <lb/>eûmes à quelque intervalle les mêmes 
+            <lb/>maîtres. Un souvenir en appelle d'au-
+            <lb break="no"/>tres, et, dans le petit restaurant du <placeName>bou-
+               <lb/>levard Saint-Germain</placeName>, où je déjeune
+            <lb/>souvent avec le poète d'<hi rend="italic">Alcool</hi>, le repas
+            <lb/>s'achève bien des fois que nous parlons
+            <lb/>encore du temps où nous hantions la
+            <lb/>permanence et le jardin qu'on nous in-
+            <lb break="no"/>terdisait en vain. 
+         </p>
+         <p>
+            <lb/>Je l'avoue : si <persName><forename>Guillaume</forename> <surname>Apollinaire</surname></persName>
+            <lb/>ne fut pas un élève brillant, je n'ai rien
+            <lb/>à lui envier... Douce permanence !
+            <lb/>Que d'heures charmantes elle nous a 
+            <lb/>valu. Nous y trouvions le calme absolu
+            <lb/>de l'exil, et tandis que nos camarades
+            <lb/>déclinaient : rosa, la rose, ou tradui-
+            <lb/>saient les fables d'Esope, un rayon de 
+            <lb/>soleil glissant sur un pupitre suffisait 
+            <lb/>à notre bonheur. Le répétiteur, dans sa 
+            <lb/>chaire, somnolait. Du <placeName>quai Félix-Faure</placeName>
+            <lb/>arrivait la rumeur des voitures et le
+            <lb/>rayon de soleil tournait ; il éblouissait
+            <lb/>les murs blanchis à la chaux... Nous
+            <lb/>attendions... Enfin, le tambour du con-
+            <lb break="no"/>cierge roulait sous le préau et nous nous 
+            <lb/>hâtions vers la sortie.
+         </p>
+         <p>
+            <lb/>Le jardin, lui aussi, nous procurait
+            <lb/>des joies profondes. A sa place, aujour-
+            <lb break="no"/>d'hui s'élève le bâtiment neuf qui bor-
+            <lb/>de la rue Gioffredo. Mais alors les hauts
+            <lb/>eucalyptus, les platanes, les sureaux et 
+            <lb/>les orangers, en faisaient une retraite
+            <lb/>délicieuse où l'oeil du surveillant géné-
+            <lb break="no"/>ral ne savait pas nous découvrir. A
+            <lb/>trois ou quatre, nous escaladions les ar-
+            <lb break="no"/>bres et, protégés par le feuillage, nous
+            <lb/>restions à califourchon sur une bran-
+            <lb break="no"/>che pendant toute la durée de la clas-
+            <lb break="no"/>se... Evidemment, la discipline n'y per-
+            <lb break="no"/>dait rien, mais nous préférions les
+            <lb/>longs pensums et les retenues du di-
+            <lb break="no"/>manche, qu'on n'omettait pas de nous
+            <lb/>infiger, à l'enseignement du grec, du
+            <lb/>latin et même du français. 
+         </p>
+         
+         <p>
+            <lb/>N'avons-nous pas gardé dans la vie,
+            <lb/>d'ailleurs, cet amour des choses défen-
+            <lb break="no"/>dues et l'instinct puissant de l'indépen-
+            <lb break="no"/>dance ? Apollinaire, qui commit cent
+            <lb/>folies, est encore prêt, je crois, à les
+            <lb/>commettre. La place que lui a donné
+            <lb/>son talent dans la littérature actuelle,
+            <lb/>il ne la doit à aucune contrainte. Ses li-
+            <lb break="no"/>vres le démontreraient.. Ils sont pleins
+            <lb/>de ce naturel aimable qui lui fit écrire
+            <lb/>tant de pages ingénues et savoureuses
+            <lb/>et tant de petits poèmes aussi purs que
+            <lb/>celui-là:
+            
+            <quote rend="small center">
+               <l>Je demande dans ma maison</l>
+               <l>Une femme ayant sa raison,</l>
+               <l>Un Chat passant parmi des livres,</l>
+               <l>Des amis en toute saison,</l>
+               <l>Sans lesquels je ne puis pas vivre.</l>
+            </quote>
+         </p>
+         
+         <p>
+            <lb/>Il n'habitait <placeName>Nice</placeName> que l'hiver. Pen-
+         <lb break="no"/>dant les autres mois de l'année, il vaga-
+         <lb break="no"/>bonfait selon l'humeur des siens, tan-
+         <lb break="no"/>tôt à l'étranger, tantôt en France, ici et
+         <lb/>là... Quelle vie ! J'ai connu ces départs
+            <cb n="2"/>
+         <lb/>où tout à la fois vous manque, ces arri-
+         <lb break="no"/>vées dans l'inconnu, l'hôtel, les paque-
+         <lb break="no"/>bots et les trains. Mais, toujours, mon
+            <lb/>esprit revenait à <placeName>Nice</placeName>. A travers les gri-
+         <lb break="no"/>sailles, ou sous le vent du large, ou
+         <lb/>par les petites pluies méticuleuses de
+         <lb/>province, je ne pouvais imaginer, sans
+         <lb/>un serrement de coeur, le soleil et le ciel
+         <lb/>si beaux qui, là-bas, sur une ville blan-
+         <lb break="no"/>che, au bord de la mer, se lèvent cha-
+         <lb/>que jour pour le bonheur de tous.
+         </p>
+         
+         <p>
+         <lb/>Une mélancolie poignate s'empare
+         <lb/>à la longue de ces rêves les plus tendres.
+         <lb/>Cet enfant, cet adolescent, cet homme
+         <lb/>est formé pour longtemps. Il n'aura
+         <lb/>pas, comme la plupart de ses amis, cette
+         <lb/>sécurité, cette précieuse et grave séré-
+         <lb break="no"/>nité de ceux qui, toujours, vécurent au
+            <lb/>même endroit.
+            </p>
+         <p>
+            <lb/>Rappelez-vous les vers d'<persName>Henry Ba-
+               <lb break="no"/>taille</persName>:
+            
+            <quote rend="small center">
+               <l>As-tu pleuré ? Oui, j'ai pleuré. As-tu souffert ?</l>
+               <l>Oui, j'ai souffert. Et qu'en as-tu gardé ? Rien.</l>
+               <l>Des dates comme des vieilles lettres... Oui, j'ai souf-
+                  <lb break="no" rend="interligne"/>fert !</l>
+               <l>Un mouvement incessant vers des demeures nou-
+                  <lb break="no" rend="interligne"/>[velles</l>
+               <l>M'a porté jusqu'à vous. Et les regrets ? Non. Quels ?</l>
+               <l>Pourtant les lieux que l'on aimait... J'ai tant voyagé. </l>
+               <l>Ne vous ai-je pas dit que, souvent, je me lève</l>
+               <l>Pour chercher un objet que je crois avoir posé</l>
+               <l>Dans telle chambre, à tel endroit. « Mais, non. Je
+               <lb break="no" rend="interligne"/>[rêve.</l>
+               <l>C'était à <placeName>Bordeaux</placeName>, dis-je... non, c'était à <placeName>Lyon</placeName>...</l>
+               <l>Ou la dernière fois que je fus à Marseille... »</l>
+               <l>J'ai quelquefois pleuré de tout ce qui s'éveille</l>
+               <l>Et renaît d'une si mystérieuse confusion. </l>
+            </quote>
+            
+            </p>
+         <p>
+            <lb/>En connaissons-nous de ces perpé-
+            <lb break="no"/>tuels errants ! Ils passent... Où vont-
+            <lb/>ils ?... Plus tard !... Plus tard!... ou
+            <lb/>bien nous le saurons jamais.
+         </p>
+         <p>
+            <lb/>Comme <persName><forename>Henry</forename> <surname>Bataille</surname></persName>, <persName><forename>Guillaume</forename>
+               <lb/><surname>Apollinaire</surname></persName> a noté jusqu'aux nuances
+            <lb/>les plus subtiles du découragement qui
+            <lb/>s'empare d'une homme à qui tout s'of-
+            <lb break="no"/>fre, à chaque instant, dans le spectacle
+            <lb/>de sa dispersion. Il voudrait, hélas ! 
+            <lb/>que la minute qui passe fût éternelle. 
+            <lb/>Il s'attache aux formes les plus périssa-
+            <lb break="no"/>bles du moment et les supplie de ne 
+            <lb/>pas le décevoir. 
+            
+            <quote rend="small center">
+               <l>J'ai cueilli ce brin de bruyère.</l>
+               <l>L'automne est morte, souviens-t'en.</l>
+               <l>Nous ne nous verrons plus sur terre,</l>
+               <l>Odeur du temps, brin de bruyère...</l>
+               <l>Et souviens-toi que je t'attends !</l>
+            </quote>
+            </p>
+            
+         <p>
+            <lb/>Souviens-toi ! Mais il n'est pas dupe.
+            <lb/>Il sait que tout nous échappe et nous
+            <lb/>blesse et quand il se plaint il imprime
+            <lb/>à son pathétique un mouvement d'une
+            <lb/>discrétion parfaite.
+            
+            <quote rend="small center">
+            <l>Je passais au bord de la Seine,</l>
+               <l>Un livre ancien sous le bras.</l>
+               <l>Le fleuve est pareil à ma peine...</l>
+               <l>Il s'écoute et ne tarit pas...</l>
+               <l>Quand donc finira la semaine !</l>
+            </quote>
+         </p>
+            
+         <p>
+            <lb/>Son oeuvre entière aboutit à cette dé-
+            <lb break="no"/>chirante inquiétude et je ne connais 
+            <lb/>pas de miroir plus fidèle d'une âme de
+            <lb/>poète. Elle nous permet en effet de
+            <lb/>saisir toutes les attitudes qu'il veut
+            <lb/>prendre et quelquefois la parodie qu'il
+            <lb/>fait de sa trop grande détresse quand
+            <lb/>il lui sied d'être un matin de bonne
+            <lb/>humeur.
+         </p>
+         <p>
+            <lb/><persName><surname>Apollinaire</surname></persName> n'est pas un anguissant
+            <lb/>et fade artiste. Au contraire ! Il est
+            <lb/>gaillard ; il est mordant et je ne veux,
+            <lb/>pour preuve de son attachement aux
+            <lb/>joies quotidiennes, que les étonnants
+            
+            <cb n="3"/>
+   
+            <lb/>menus qu'il élabore sous l'oeil effaré
+            <lb/>de notre bon garçon de restaurant.
+            
+            <said>
+            <lb/>« Le premier devoir d'un homme,
+            <lb/>« assure un cabaret de Montmartre où
+            <lb/>« nous fréquentions autrefois, est d'a-
+            <lb/>« bon estomac ».
+            </said>
+            <lb/>N'est-il pas vrai ? 
+         </p>
+         <p>
+            <lb/>Cependant, pour ne pas négliger les
+            <lb/>contrastes, j'ajoute maintenant que je 
+            <lb/>connus, au lycée de <placeName>Nice</placeName>, un poète si
+            <lb/>opposé de goût, de style et d'existence
+            <lb/>au précédent, qu'il faut bien que j'en
+            <lb/>parle ici. <persName><forename>Louis</forename> <surname>Cappatti</surname></persName> est plus jeune
+            <lb/>qu'<persName><surname>Apollinaire</surname></persName>. Il a mon âge et sa na-
+            <lb break="no"/>ture sans artifice me plaît. Elle dénote 
+            <lb/>un caractère. En plus, la force que je 
+            <lb/>découvre dans ses vers n'est pas négli-
+            <lb break="no"/>geable. Ce jeune homme chérit son
+            <lb/>pays. Il aie <placeName>Nice</placeName>. Il y vit actuellement
+            <lb/>et les deux livres qu'il a déjà publiés
+            <lb/>l'acheminent, sans détour, vers une ex-
+            <lb break="no"/>pression vigoureuse de la beauté de nos
+            <lb/>montagnes, de nos rivages et de la lu-
+            <lb break="no"/>mière étincelante qui frappe notre ciel.
+         </p>
+            
+         <p>
+            <lb/>Son inspiration n'a rien d'étroitement
+            <lb/>local. Elle trouve, dans la coupe ramas-
+            <lb break="no"/>sée de ses meilleurs poèmes la forme
+            <lb/>véhémente qui lui convient.
+         </p>
+            
+         <p>
+            <lb/>Il s'écrie : 
+            <quote>
+               <l>... Je t'évoque, ô sombre Mëcris,</l>
+               <l>Entre tes sapins noirs, je vois les Alpes blanches,</l>
+               <l>Près des monts désolés,sous la nuit de tes branches,</l>
+               <l>J'erre en ton bois profond qui n'a ni chant, ni cris.</l>
+            </quote>
+         </p>
+            
+         <p>
+            <lb/>Cette violence a de l'allure. Je ne sais
+            <lb/>pas ce que Louis Cappatti réalisera de-
+            <lb break="no"/>main, mais il faut attendre beaucoup
+            <lb/>de sa précoce expérience.
+         </p>
+         <p>
+            <lb/>Mes lecteurs, certainement, le con-
+            <lb break="no"/>naissent autant que moi et, déjà, ont-ils 
+            <lb/>fait crédit au poète qui écrivit avec cette
+            <lb/>belle assurance de rythme :
+            
+            <quote rend="small center">
+               <l>S'il brille dans mes vers quelques éclairs de beauté,</l>
+               <l>Si jamais je dois être orgueilleux de la flemme</l>
+               <l>Qu'un Dieu mystérieux entretient dans mon âme,</l>
+               <l>Pallas, fais-moi chanter la force et la raison.</l>
+            </quote>
+         </p>
+            
+         <p>
+            <lb/>Et le poème s'achève sur cette large
+            <lb/>et saine supplication :
+            <quote rend="small center">
+               <l>Fais entrer le soleil d'Hellas dans ma maison.</l>
+            </quote>
+         </p>
+            
+         <p>
+            <lb/>Il est encore d'autres poètes dans no-
+            <lb break="no"/>tre admirable pays et personne ne l'i-
+            <lb break="no"/>gnore ; mais, en parlant de <persName><forename>Guillaume</forename>
+               <lb/><surname>Apollinaire</surname></persName> et de <persName><forename>Louis</forename> <surname>Cappatti</surname></persName>, j'ai
+            <lb/>voulu montrer avec quelle heureuse di-
+            <lb break="no"/>versité notre ciel savait toucher les
+            <lb/>coeurs sensibles. N'allons pas plus loin. 
+            <lb/>Il suffit que la Poésie reçoive un si bril-
+            <lb break="no"/>lant hommage. 
+         </p>
+         <p>
+           <persName rend="right">Francis Carco</persName>
+         </p>
+            <note type="ref_article" rend="manuscript on support">
+            Le Petit Niçois 31 Juillet 1913
+            </note>
+         </div>
+      </body>
+  </text>
+   <standOff>
+      <note>Remarques <list>
+         <item>Ajouter l'estampille ?</item>
+         <item>Numéroter les articles grâce à @n ?</item>
+         <item>xml:id par article ?</item>
+      </list>
+      </note>
+   </standOff>
+</TEI>
