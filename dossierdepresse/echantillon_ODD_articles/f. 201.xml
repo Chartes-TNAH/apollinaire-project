@@ -211,12 +211,4 @@
          </div>
       </body>
   </text>
-   <standOff>
-      <note>Remarques <list>
-         <item>Ajouter l'estampille ?</item>
-         <item>Numéroter les articles grâce à @n ?</item>
-         <item>xml:id par article ?</item>
-      </list>
-      </note>
-   </standOff>
 </TEI>
