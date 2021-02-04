@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>f. 158</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Essai encodage pour échantillon</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>https://gallica.bnf.fr/ark:/12148/btv1b525088021/f158.item</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="page">
+            <pb n="f.158" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f158.item"/>
+            <!-- à mon avis j'incorpererais <pb> dans la div. Comme ça on a un gros conteneur, la div, avec l'article en entier, le pb y compris avec son @facs -->
+            <div type="article" n="1">     
+               <head>
+                  <hi rend="caps">A GUILLAUME APOLLINAIRE</hi>
+                  <num rend="right">117</num>
+               </head>
+
+               <p rend="italic">
+                  <lb/>Puis virtuose du pas de quatre <lb/>Du cavalier seul <lb/>Et de la mesure
+                  classique ; <lb/><rs type="person" ref="#Apollinaire">Il</rs> tricote des jarrets,
+                  <lb/>Gavotte sur deux temps à la française, <lb/>Valse sur trois à la viennoise,
+                  <lb/>Fait des ronds de jambe, <lb/>Se campe, se cambre, <lb/>Se dandine, s‘étire
+                  <lb/>Et, soudain, en ascension, <lb/>Comme Apollonius de Tyane dans Ephèse
+                     <lb/><rs type="person" ref="#Apollinaire">Il</rs> reste en l'air, y oscille et
+                  vire, <lb/>Sorte de lampe diaphane, <lb/>Et pareil à cette chrysalide <lb/>Que
+                  suspend aux branches hautes <lb/>La chenille dite : Vanesse du grand Paon du Jour,
+                     <lb/><persName>Apollinaire</persName> est un fastueux danseur.
+                  <!-- ajout de persName -->
+               </p>
+
+               <p rend="italic">
+                  <num rend="center">III</num>
+                  <lb/>Sphinx lépidoptère au vol variant, <lb/>Tour à tour couleur de l‘Ornéode,
+                  <lb/>Du Panthoüs, des Vulcains, de l‘Atropos, <lb/>Du Morpho—Ménélas, de la
+                  Danaïde, <lb/>De l‘Amaryllis ou de la Saturnie, <lb/>Du Polyommate Dispar ou du
+                  Papillon Flambé, <lb/>Tout à coup il devient quelque immatériel Argus <lb/>Qui
+                  poudroie et semble nimber d‘idéal <lb/>Ses ailes d‘un bleu violet <lb/>Flammées de
+                  vert, <lb/>Ocellées d‘ocre <lb/>Et cernées d‘or. <lb/>Et voilà qu‘au milieu des
+                  Elus, ses précurseurs, <lb/>Il tourbillonne ainsi qu‘une immense fleur de punch
+               </p>
+            </div>
+            <note type="ref_article" rend="handwritten" hand="#Apollinaire">La Phalange</note>
+            <!-- ok pour note et pour @type et @rend, je propose "handwritten" en valeur de @rend, indiquant simplement que c'est écrit à la main. Question : doit-on s'accorder sur des valeurs d'attributs uniquement en anglais ? Ou partons-nous uniquement sur du français ? -->
+         </div>
+         <!-- @hand prend en valeur la personne responsable de la note, ça me semble bien à préciser, mais peut-être redondant car on travaille sur des documents produits par Apollinaire, donc par déduction les notes sont très certainement uniquement de lui. Sauf si intervention bibliothécaire ? -->
+
+         <!-- proposition qui pourra peut-être chronophage : <rs> pour indiquer les "reference strings" faisant justement référence à Apollinaire. ça peut être intéressant d'avoir accès directement à toutes les références faites par l'auteur de l'article à Apollinaire. Je pense notamment à d'autres articles où l'auteur fait référence à d'autres poètes, on pourrait ainsi faire un tri et avoir accès rapidement à l'info. Après, à voir quand utiliser rs : seulement pour les pronoms personnels, ou aussi pour les surnoms qui sont parfois donnés à Apollinaire ? Pour cet exemple, j'encode seulement les pronoms personnels. @type permet d'indiquer que le mot fait référence à une personne, et @ref à qui. Vraiment pas sûr cependant car c'est pas mal de travail que de chercher tous les pronoms. -->
+         
+         <!-- En ce qui concerne la structure des div. Je propose qu'on en mette deux. Une qui englobe la page matérielle, c'est-à-dire celle sur laquelle est collé l'article. La deuxième engloberait l'article en lui-même. Cela permettrait de mettre la balise <note> au sein de la première div, étant donné que c'est une annotation n'appartenant pas à l'article mais ajouté par Apollinaire sur la page. De plus, si nous décidons qu'un article = un fichier XML, cela permettra de garder à l'intérieur du fichier xml la matérialité du texte. -->
+      </body>
+   </text>
+   <standOff>
+      <listPerson>
+         <person xml:id="Apollinaire">
+            <persName><forename>Guillaume</forename><surname>Apollinaire</surname></persName>
+         </person>
+      </listPerson>
+   </standOff>
+</TEI>
