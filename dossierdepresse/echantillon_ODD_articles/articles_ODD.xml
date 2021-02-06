@@ -10,7 +10,7 @@
             <p>Unpublished first draft </p>
          </publicationStmt>
          <sourceDesc>
-            <p>Derived from <ref target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base odd</ref> after an analysis of 7 files in file:/Users/dorianehare/Documents/M2%20TNAH/Git/</p>
+            <p>Derived from <ref target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base odd</ref> after an analysis of 3 files in file:/home/hugoscheithauer/Dev/projet_git/apollinaire-project/dossierdepresse/echantillon_ODD_articles/%C3%A9chantillon/</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -33,11 +33,14 @@
             <!--Checking module msdescription-->
             <classRef key="model.physDescPart"/>
             <!--Checking module namesdates-->
+            <classRef key="att.datable.iso"/>
             <classRef key="model.persNamePart"/>
-            <moduleRef key="namesdates" include="persName surname forename nameLink placeName"/>
+            <moduleRef key="namesdates"
+                       include="persName surname forename nameLink placeName listPerson listPlace person place"/>
             <elementSpec ident="persName" mode="change">
                <attList>
                   <attDef ident="facs" mode="delete"/>
+                  <attDef ident="when-iso" mode="delete"/>
                   <attDef ident="full" mode="change">
                      <valList mode="add" type="closed">
                         <valItem ident="yes"/>
@@ -54,6 +57,8 @@
                         <valItem ident="yes"/>
                      </valList>
                   </attDef>
+                  <attDef ident="role" mode="delete"/>
+                  <attDef ident="ref" mode="delete"/>
                   <attDef ident="type" mode="delete"/>
                </attList>
             </elementSpec>
@@ -65,6 +70,8 @@
                         <valItem ident="yes"/>
                      </valList>
                   </attDef>
+                  <attDef ident="role" mode="delete"/>
+                  <attDef ident="ref" mode="delete"/>
                   <attDef ident="type" mode="delete"/>
                </attList>
             </elementSpec>
@@ -76,15 +83,60 @@
             </elementSpec>
             <elementSpec ident="placeName" mode="change">
                <attList>
+                  <attDef ident="when-iso" mode="delete"/>
                   <attDef ident="facs" mode="delete"/>
                   <attDef ident="full" mode="change">
                      <valList mode="add" type="closed">
                         <valItem ident="yes"/>
                      </valList>
                   </attDef>
+                  <attDef ident="role" mode="delete"/>
                   <attDef ident="type" mode="delete"/>
                </attList>
             </elementSpec>
+            <elementSpec ident="listPerson" mode="change">
+               <attList>
+                  <attDef ident="facs" mode="delete"/>
+                  <attDef ident="type" mode="delete"/>
+                  <attDef ident="default" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="false"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="listPlace" mode="change">
+               <attList>
+                  <attDef ident="facs" mode="delete"/>
+                  <attDef ident="type" mode="delete"/>
+                  <attDef ident="default" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="false"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="person" mode="change">
+               <attList>
+                  <attDef ident="sex" mode="delete"/>
+                  <attDef ident="age" mode="delete"/>
+                  <attDef ident="facs" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="place" mode="change">
+               <attList>
+                  <attDef ident="facs" mode="delete"/>
+                  <attDef ident="type" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <classSpec ident="att.datable.iso" type="atts" mode="change">
+               <attList>
+                  <attDef ident="notBefore-iso" mode="delete"/>
+                  <attDef ident="notAfter-iso" mode="delete"/>
+                  <attDef ident="from-iso" mode="delete"/>
+                  <attDef ident="to-iso" mode="delete"/>
+               </attList>
+            </classSpec>
             <!--Checking module dictionaries-->
             <classRef key="att.lexicographic"/>
             <classRef key="model.entryLike"/>
@@ -107,108 +159,14 @@
             <classRef key="att.combinable"/>
             <classRef key="att.identified"/>
             <classRef key="model.contentPart"/>
-            <moduleRef key="tagdocs"
-                       include="classRef moduleRef schemaSpec elementSpec classSpec attList attDef valItem valList"/>
-            <elementSpec ident="classRef" mode="change">
+            <classSpec ident="att.combinable" type="atts" mode="change">
                <attList>
-                  <attDef ident="expand" mode="delete"/>
-                  <attDef ident="include" mode="delete"/>
-                  <attDef ident="except" mode="delete"/>
-                  <attDef ident="facs" mode="delete"/>
-               </attList>
-            </elementSpec>
-            <elementSpec ident="moduleRef" mode="change">
-               <attList>
-                  <attDef ident="prefix" mode="delete"/>
-                  <attDef ident="except" mode="delete"/>
-                  <attDef ident="url" mode="delete"/>
-                  <attDef ident="facs" mode="delete"/>
-               </attList>
-            </elementSpec>
-            <elementSpec ident="schemaSpec" mode="change">
-               <attList>
-                  <attDef ident="prefix" mode="delete"/>
-                  <attDef ident="targetLang" mode="delete"/>
-                  <attDef ident="docLang" mode="delete"/>
-                  <attDef ident="defaultExceptions" mode="delete"/>
-                  <attDef ident="facs" mode="delete"/>
                   <attDef ident="mode" mode="delete"/>
                </attList>
-            </elementSpec>
-            <elementSpec ident="elementSpec" mode="change">
-               <attList>
-                  <attDef ident="prefix" mode="delete"/>
-                  <attDef ident="facs" mode="delete"/>
-                  <attDef ident="mode" mode="change">
-                     <valList mode="add" type="closed">
-                        <valItem ident="change"/>
-                     </valList>
-                  </attDef>
-               </attList>
-            </elementSpec>
-            <elementSpec ident="classSpec" mode="change">
-               <attList>
-                  <attDef ident="type" mode="change">
-                     <valList mode="add" type="closed">
-                        <valItem ident="atts"/>
-                     </valList>
-                  </attDef>
-                  <attDef ident="generate" mode="delete"/>
-                  <attDef ident="facs" mode="delete"/>
-                  <attDef ident="mode" mode="change">
-                     <valList mode="add" type="closed">
-                        <valItem ident="change"/>
-                     </valList>
-                  </attDef>
-                  <attDef ident="type" mode="change">
-                     <valList mode="add" type="closed">
-                        <valItem ident="atts"/>
-                     </valList>
-                  </attDef>
-               </attList>
-            </elementSpec>
-            <elementSpec ident="attList" mode="change">
-               <attList>
-                  <attDef ident="org" mode="delete"/>
-                  <attDef ident="facs" mode="delete"/>
-               </attList>
-            </elementSpec>
-            <elementSpec ident="attDef" mode="change">
-               <attList>
-                  <attDef ident="usage" mode="delete"/>
-                  <attDef ident="ns" mode="delete"/>
-                  <attDef ident="facs" mode="delete"/>
-                  <attDef ident="mode" mode="change">
-                     <valList mode="add" type="closed">
-                        <valItem ident="change"/>
-                        <valItem ident="delete"/>
-                     </valList>
-                  </attDef>
-               </attList>
-            </elementSpec>
-            <elementSpec ident="valItem" mode="change">
-               <attList>
-                  <attDef ident="facs" mode="delete"/>
-                  <attDef ident="mode" mode="delete"/>
-               </attList>
-            </elementSpec>
-            <elementSpec ident="valList" mode="change">
-               <attList>
-                  <attDef ident="type" mode="change">
-                     <valList mode="add" type="closed">
-                        <valItem ident="closed"/>
-                     </valList>
-                  </attDef>
-                  <attDef ident="facs" mode="delete"/>
-                  <attDef ident="mode" mode="change">
-                     <valList mode="add" type="closed">
-                        <valItem ident="add"/>
-                     </valList>
-                  </attDef>
-               </attList>
-            </elementSpec>
+            </classSpec>
             <classSpec ident="att.identified" type="atts" mode="change">
                <attList>
+                  <attDef ident="ident" mode="delete"/>
                   <attDef ident="predeclare" mode="delete"/>
                   <attDef ident="module" mode="delete"/>
                </attList>
@@ -216,6 +174,11 @@
             <classSpec ident="att.ascribed.directed" type="atts" mode="change">
                <attList>
                   <attDef ident="toWhom" mode="delete"/>
+               </attList>
+            </classSpec>
+            <classSpec ident="att.canonical" type="atts" mode="change">
+               <attList>
+                  <attDef ident="key" mode="delete"/>
                </attList>
             </classSpec>
             <classSpec ident="att.dimensions" type="atts" mode="change">
@@ -254,19 +217,12 @@
             </classSpec>
             <classSpec ident="att.naming" type="atts" mode="change">
                <attList>
-                  <attDef ident="role" mode="delete"/>
                   <attDef ident="nymRef" mode="delete"/>
                </attList>
             </classSpec>
             <classSpec ident="att.typed" type="atts" mode="change">
                <attList>
                   <attDef ident="subtype" mode="delete"/>
-               </attList>
-            </classSpec>
-            <classSpec ident="att.pointing" type="atts" mode="change">
-               <attList>
-                  <attDef ident="targetLang" mode="delete"/>
-                  <attDef ident="evaluate" mode="delete"/>
                </attList>
             </classSpec>
             <classSpec ident="att.pointing.group" type="atts" mode="change">
@@ -300,7 +256,7 @@
             </classSpec>
             <!--Checking module core-->
             <moduleRef key="core"
-                       include="p hi said quote num date ref list item head note pb lb cb title l lg"/>
+                       include="p hi said quote num date head note pb lb cb title l lg"/>
             <elementSpec ident="p" mode="change">
                <attList>
                   <attDef ident="facs" mode="delete"/>
@@ -309,11 +265,13 @@
                         <valItem ident="N"/>
                      </valList>
                   </attDef>
+                  <attDef ident="hand" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="hi" mode="change">
                <attList>
                   <attDef ident="facs" mode="delete"/>
+                  <attDef ident="hand" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="said" mode="change">
@@ -339,38 +297,21 @@
             <elementSpec ident="date" mode="change">
                <attList>
                   <attDef ident="facs" mode="delete"/>
+                  <attDef ident="ref" mode="delete"/>
                   <attDef ident="type" mode="delete"/>
-               </attList>
-            </elementSpec>
-            <elementSpec ident="ref" mode="change">
-               <attList>
-                  <attDef ident="facs" mode="delete"/>
-                  <attDef ident="type" mode="delete"/>
-               </attList>
-            </elementSpec>
-            <elementSpec ident="list" mode="change">
-               <attList>
-                  <attDef ident="type" mode="delete"/>
-                  <attDef ident="facs" mode="delete"/>
-                  <attDef ident="type" mode="delete"/>
-               </attList>
-            </elementSpec>
-            <elementSpec ident="item" mode="change">
-               <attList>
-                  <attDef ident="facs" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="head" mode="change">
                <attList>
                   <attDef ident="facs" mode="delete"/>
                   <attDef ident="type" mode="delete"/>
+                  <attDef ident="hand" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="note" mode="change">
                <attList>
                   <attDef ident="targetEnd" mode="delete"/>
                   <attDef ident="facs" mode="delete"/>
-                  <attDef ident="target" mode="delete"/>
                   <attDef ident="type" mode="change">
                      <valList mode="add" type="closed">
                         <valItem ident="ancienne_pagination"/>
@@ -401,17 +342,11 @@
             <elementSpec ident="title" mode="change">
                <attList>
                   <attDef ident="level" mode="delete"/>
-                  <attDef ident="type" mode="change">
-                     <valList mode="add" type="closed">
-                        <valItem ident="short"/>
-                     </valList>
-                  </attDef>
+                  <attDef ident="type" mode="delete"/>
                   <attDef ident="facs" mode="delete"/>
-                  <attDef ident="type" mode="change">
-                     <valList mode="add" type="closed">
-                        <valItem ident="short"/>
-                     </valList>
-                  </attDef>
+                  <attDef ident="type" mode="delete"/>
+                  <attDef ident="ref" mode="delete"/>
+                  <attDef ident="when-iso" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="l" mode="change">
@@ -515,6 +450,7 @@
                <attList>
                   <attDef ident="facs" mode="delete"/>
                   <attDef ident="type" mode="delete"/>
+                  <attDef ident="hand" mode="delete"/>
                </attList>
             </elementSpec>
             <elementSpec ident="body" mode="change">
@@ -543,8 +479,10 @@
                   <attDef ident="type" mode="change">
                      <valList mode="add" type="closed">
                         <valItem ident="article"/>
+                        <valItem ident="page"/>
                      </valList>
                   </attDef>
+                  <attDef ident="hand" mode="delete"/>
                </attList>
             </elementSpec>
          </schemaSpec>
