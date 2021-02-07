@@ -14,16 +14,16 @@
 - Pour merger des PR, avoir la majorité des sous-groupes : 2 personnes d’accord suffisent pour merger la PR.
 - Création d’une branch pour teiheader (Pauline)
 
-### Groupe poèmes (Arsène, Juliette, Pauline) : 
+## Groupe poèmes (Arsène, Juliette, Pauline) : 
 - Faire renvois vers les versions définitives des poèmes et non les encoder.
 - Pas d’analyse littéraire : rester sur la réception des poèmes ; laisser tomber les balises sur la versification (type `<rhyme>`)
-- **Echéances :**
+### **Echéances :**
 - terminer l’ODD pour le 14
 - encoder tous les poèmes pour le 21
 
-### Groupe dossier de presse (Axelle, Doriane, Hugo, Léa) :
+## Groupe dossier de presse (Axelle, Doriane, Hugo, Léa) :
 - Sourcedoc 
 - Création d’un index de noms (apr. le 17?) 
-- **Échéances:**
+### **Échéances:**
 - Vers le 17/18 avoir fini l’encodage des lettres et des articles pour ensuite “fusionner” les encodages
 
