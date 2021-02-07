@@ -21,10 +21,10 @@
       <body>
          <div type="letter">
             <div type="recto" n="177" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f177.item.r=Apollinaire%20manuscrits">
-               <span type="page_number" rend="top_right">72</span>
+               <note type="ancienne_pagination" hand="librarian" rend="top_right"><num>72</num></note>
                <opener>
-                  <dateline><date when="1913-06-19" rend="top_left">19 Juin 13-</date></dateline>
-                  <address rend="top_right"><addrLine>Cuverville<lb/>
+                  <dateline><date when="1913-06-19" rend="align(left)">19 Juin 13-</date></dateline>
+                  <address rend="align(top right)"><addrLine>Cuverville<lb/>
                      par Criquetot L'Esneval<lb/>
                      8<hi rend="sup">me</hi> Inf<hi rend="sup">rie</hi></addrLine></address>
                   <salute>Mon cher Apollinaire,</salute>
