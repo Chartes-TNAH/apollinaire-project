@@ -28,7 +28,7 @@
                   <address rend="align(top right) case(allcaps)" style="printed">
                      <addrLine>17 quai Voltaire </addrLine>
                   </address>
-                  <dateline><date when="1913-06-14" rend="top_left">14 juin 1913</date></dateline>
+                  <dateline><date when="1913-06-14" rend="align(top left)">14 juin 1913</date></dateline>
                   <salute>Mon cher Ami,</salute>
                </opener>
                <p>Nous venons de boire vos <lb/>alcools, ces vers ingénus et <lb/>subtils,

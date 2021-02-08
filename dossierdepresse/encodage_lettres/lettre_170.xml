@@ -22,12 +22,12 @@
          <div type="letter">
             <div type="recto" n="170"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f170.item.r=Apollinaire%20manuscrits">
-               <note type="ancienne_pagination" hand="librarian" rend="top_right"><num>83</num></note>
+               <note type="ancienne_pagination" hand="librarian" rend="align(top right)"><num>83</num></note>
                <opener>
                   <address rend="align(top right)">
                      <addrLine>Paris</addrLine>
                   </address>
-                  <dateline><date when="1913-06-07" rend="top_left">7 juin 1913</date></dateline>
+                  <dateline><date when="1913-06-07" rend="align(top left)">7 juin 1913</date></dateline>
                   <salute>Mon cher Ami,</salute>
                </opener>
                <p>Je reçois ce matin votre livre, et je vous <lb/>remercie tout de suite de la

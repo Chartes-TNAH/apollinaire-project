@@ -21,7 +21,7 @@
       <body>
          <div type="letter">
             <div type="recto" n="177" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f177.item.r=Apollinaire%20manuscrits">
-               <note type="ancienne_pagination" hand="librarian" rend="top_right"><num>72</num></note>
+               <note type="ancienne_pagination" hand="librarian" rend="align(top right)"><num>72</num></note>
                <opener>
                   <dateline><date when="1913-06-19" rend="align(left)">19 Juin 13-</date></dateline>
                   <address rend="align(top right)"><addrLine>Cuverville<lb/>
@@ -42,7 +42,7 @@
             </div>
             <div type="verso" n="178" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f178.item.r=Apollinaire%20manuscrits">
                <pb n="2"/> 
-               <span type="page_number" rend="top_right">73</span>
+               <span type="page_number" rend="align(top right)">73</span>
                <p>Je regrette aussi que la N.R.F. n'ait<lb/>
                   jamais revu votre nom à nos sommaires,<lb/>
                   depuis le jour de la note sur le Romains!</p>
