@@ -21,7 +21,7 @@
       <body>
          <div type="letter">
             <div type="recto" n="192" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f192.item">
-               <span type="page_number" rend="top_right">79</span>
+               <note type="ancienne_pagination" hand="librarian" rend="(top right)"><num>79</num></note>
                <opener>
                   <dateline><date when="1913-06-19">19 Juin 1913</date></dateline>
                   <stamp>3, RUE LAS-CASES. VIIe.</stamp>
