@@ -38,9 +38,8 @@
             <div type="poeme" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f21">
                 <head>La chanson du mal aimé</head>
                 <pb n="4" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f25"/>
-                <metamark place="top left" rend="gribouilli"/>
-                <metamark place="top right" function="numerotation">4</metamark>
-                <metamark function="used" rend="line" place="allpage"/>
+                <figure place="top left" rend="gribouilli"/>
+                <p><add place="top right">4</add></p>
                 <lg type="quintil" n="1">
                     <l>Adieu, faux Amour qui t’éloignes </l>
                     <l>
@@ -52,7 +51,7 @@
                     <l>
                         <del><gap extent="1" unit="word" reason="illegible"/></del>gît sanglant, le
                         cou <del><gap extent="1" unit="word" reason="illegible"/></del></l>
-                    <l><unclear>D</unclear>errière les sept montagnes</l> <metamark place="left" rend="gribouilli"/>
+                    <l><unclear>D</unclear>errière les sept montagnes</l> <figure place="left" rend="gribouilli"/>
                 </lg>
 
                 <lg type="quintil" n="2">
