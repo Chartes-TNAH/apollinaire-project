@@ -40,6 +40,8 @@
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f168.item.r=Apollinaire%20manuscrits">
                <note type="ancienne_pagination" hand="librarian" rend="align(top right)"
                   ><num>67</num></note>
+               <pb n="1"/> <!--Cette page est vide-->
+               <pb n="2"/>
                <p>compris que
                   sentis, moins <lb/>sentis que rêvés – char<lb break="no"/>mants (au sens de
                   carmen!)</p>
