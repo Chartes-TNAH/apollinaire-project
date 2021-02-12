@@ -22,7 +22,7 @@
          <div type="letter">
             <div type="recto" n="172"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f172.item.r=Apollinaire%20manuscrits">
-               <note type="ancienne_pagination" hand="librarian" rend="top_right"
+               <note type="ancienne_pagination" hand="librarian" rend="align(top right)"
                   ><num>69</num></note>
                <opener>
                   <address rend="align(top left)">
