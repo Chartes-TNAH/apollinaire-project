@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lettre_190-191</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="letter" n="190,191" xml:id="lettre_190-191">
+            <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f190.item.r=Apollinaire%20manuscrits"/>
+            <figure rend="align(top left)">
+               <figDesc>Dessin imprimé représentant des fleurs dans un vase accompagné des initiales "a.m."</figDesc>
+            </figure>
+            <opener>
+               <address><addrLine>22 rue Visconti</addrLine></address>
+               <dateline><date>mercredi</date></dateline>
+               <salute>Mon cher ami,</salute>
+            </opener>
+            <p>je ne puis aller vous voir tout à l'heu-<lb/>
+               re car je suis accablé de besogne. Ce matin j'ai<lb/>
+               pris au Mercure votre beau livre que l'autre<lb/>
+               nuit, chez Pierre Mac Orlan, nous avons lu<lb/>
+               avec une admiration profonde. Vous savez<lb/>
+               si j'aime votre art qui déguise mal la<lb/>
+               souffrance d'un coeur que chaque minute<lb/>
+               déçoit et blesse. Je veux écrire l'article que<lb/>
+               vous m'avez proposé à l'Intransigeant.</p>
+            <pb type="verso" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f191.item.r=Apollinaire%20manuscrits"/>
+            <p>Donnez moi qqs. renseignement à ce sujet.<lb/>
+               La longueur ? le ton (actualité ou littérature<lb/>
+               pure?).. J'ai hâte d'être fixé par vous pour<lb/>
+               vous donner la preuve de ma sincère et<lb/>
+               franche admiration</p>
+            <closer>
+               <salute>Tout à vous</salute>
+               <signed>F. Carco</signed>
+            </closer>
+         </div> 
+      </body>
+  </text>
+</TEI>
