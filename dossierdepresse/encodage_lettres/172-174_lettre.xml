@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dossier de presse</title>
+            <title type="sub">Lettre 172-174</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="172, 173, 174" xml:id="lettre_172-174">
+            <pb type="recto" n="172"
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f172.item.r=Apollinaire%20manuscrits"/>
+            <opener>
+               <address rend="align(top left)">
+                  <addrLine><placeName ref="#Cap-ail">Cap d'ail</placeName></addrLine>
+               </address>
+               <dateline><date when="1913-05-30" rend="align(left)">30 mai 1913</date></dateline>
+               <salute>Mon cher <persName ref="#Apollinaire">Guillaume</persName>,</salute>
+            </opener>
+            <p>Je vous remercie vivement et de l'envoi <lb/>de votre beau livre, et de la pièce que
+               <lb/>vous m'y avez dédiée. Ce "<ref target="#le-voyageur">Voyageur</ref>", c'est
+               <lb/>la chanson qui fait entendre le gabier du <lb/>vaisseau de Tristan, et qui
+               traverse l'oeuvre <lb/>de <persName ref="#Wagner">Wagner</persName> comme un oiseau
+               plaintif, un <lb/>alcyon sur l'Europe même. Un soir <lb/>que la pluie tombait sur le
+                  <placeName ref="#Rhin">Rhin</placeName>, à <placeName ref="#Coblence"
+                  >Coblentz</placeName>, où <lb/>son flot <hi rend="strikethrough">se divise et</hi>
+               tranche sur la couleur de son <lb/>compagnon marin, j'ai songé à semblable poème.
+               <lb/>Et je songeais aussi à vous, je me souviens, <lb/>qui vous étiez promené là
+               avant moi. C'est <lb/>pourquoi le mélancolique paysage <placeName ref="#Rhin"
+                  >rhénan</placeName> m'est <lb/>aussitôt venu à l'esprit en vous lisant; et c'est
+               <lb/>pourquoi son souvenir sera désormais inséparable <lb/>de vos vers.</p>
+            <p>La chanson du mail-aimé vous rend l'égal <lb/>du pauvre écolier François, notre plus
+               grand <lb/>et peut être comique grand poète. J'y <lb/>retrouve son art nourri
+               d'Histoire sacrée et <lb/>profane, son culte des héros, ses choix rares, <lb/>son
+               rythme bondissant et docile comme une <lb/>balle de paume, et cette sincérité, de
+               chagrin, <lb/>que l'art le plus travaillé ne sait étouffer.</p>
+
+            <pb type="verso" subtype="empty"
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f173.item.r=Apollinaire%20manuscrits"/>
+            <p>Votre <ref target="#salomé">Salomé</ref> est une estampe charmante de <persName
+                  ref="#Dürer">Dürer</persName> ou <lb/>d'<persName ref="#Holbein"
+                  >Holbein</persName>; quant au <ref target="#larron">Larron</ref>, c'est un chef
+               d'oeuvre. Il <lb/>contient les raisons philosophiques et charnelles de notre
+               <lb/>détachement du christ, que nous eussions <hi rend="strikethrough">aisément</hi>
+               suivi, s'il <lb/>avait chanté comme le beau Thrace ou parlé comme <lb/><persName
+                  ref="#Platon">Platon</persName>, amoureux, lui aussi, d'un disciple, que le XVème
+               siècle, <lb/><hi rend="strikethrough">nous</hi> le prenant pour une femme, nommait
+               Archipiada. </p>
+            <p>"Que n'avait-il la voix et les jupes d'Orphée!" <lb/><persName ref="#Louvigné"
+                  >Louvigné</persName>, poète mineur, a dit: </p>
+            <p>" Je n'aime qu'un martyr, ô Jésus, c'est Orphée!!! </p>
+            <p>Vous étiez fait, vous même, pour porter la mitre de <lb/>l'enchanteur à la cour
+                  d'<persName ref="#Oukama">Abgar Oukâma</persName>, ou pour <lb/>discuter à l'École
+               d'Edesse. Hérétique Marcion, vous <lb/>auriez, contrairement à l'histoire, vaincu en
+               beau langage <lb/><persName ref="#Bardesane">Bardesane le Syrien</persName>.</p>
+            <p>Mais c'est en négromant que je vous vois, menant <lb/>un cortège de phantasmes.
+                  <persName ref="#LéonXIII">Léon XIII</persName> y montre son <lb/>derrière couleur
+               de prune, suivi des menins de <lb/>Belcini, dont le beau déhanchement et la braguette
+               <lb/>rebondie séduisent les Sept Sages. Il y a aussi <lb/>l'arépin, Palmeran d'Olive,
+               Jésus, escorté <lb/>des Ménades, les deux <ref target="#larron">Larrons</ref>, avec
+               des boucles matelottes <lb/>aux oreilles, et <ref target="#salomé">Salomé</ref> toute
+               nue, poilue <lb/>jusqu'au nombril, et sa mère, atournée en <lb/><persName
+                  ref="#Vélasquez">Vélasquez</persName>; les zannis <gap quantity="7" unit="char"
+                  reason="illegible"/> napolitains au <lb/>visage masqué, le brigand <ref
+                  target="#schinderhannes">Schinederhannes</ref>, avec <lb/>son mourant damasquiné;
+               le Matelot hollandais, <lb/>son papegaut et son ouistiti, Nicolas Flannel <lb/>et sa
+               femme, Perrine, Hermès, au front cornu, et <lb/>les archanges habillés de plumes.
+               Devant cette <lb/>horde triste comme l'amour, la gloire et le génie, <lb/>volent les
+               trois sirènes, ainsi que les oiseaux <lb/>machinés qui précédaient les rois dans les
+               bonnes <lb/>villes. c'est avec cet "errain d'histoire en voyage" </p>
+            <pb type="recto"
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f173.item.r=Apollinaire%20manuscrits"/>
+            <p>que vous parviendrez "heureusement aux époques lointaines" où <lb/>verdoie l'arbre
+               palladien : <lb/>--- Palladis arbor <lb/>Inclinat varias pondere negra cornas.</p>
+            <p>Vous savez des histoires merveilleuses, à souffler dans la nuque <lb/>des reines, et
+               d'anciennes de chansons de bord où il est <lb/>parlé d'un navire-fantôme, de la croix
+               du Sud, et de <lb/>poissons-pilotes. </p>
+            <p>Après vous avoir lu, je médite ce mot de <persName ref="#Baudelaire"
+                  >Baudelaire</persName>, <lb/>qui n'est après tout, qu'une "lapalissade": La Beauté
+               <lb/>est toujours bizarre. Il a dit <gap quantity="5" unit="char" reason="illegible"/>
+               <add place="above">encore</add>: "Le poncif, c'est <lb/>le génie." Aussi ai-je
+               regretté de vous voir abandonner <lb/>celui de <ref target="#salomé">Salomé</ref>, du
+                  <ref target="#le-mal-aimé">mal-aimé</ref> et du <ref target="#larron"
+               >Larron</ref>, que vous <lb/>aviez si heureusement créé. C'est peut être que
+               l'archaïsme <lb/>m'en séduit plus que le modernisme des autres pièces, <lb/>où vit
+               mon époque si contraire à mes goûts, et si <lb/>contraintes à vous autres poètes.
+               Mais cette appréciation <lb/>est trop personnelle pour être discutée.</p>
+            <p>Il m'a donc été donné de lire dans l'espace <lb/>d'un mois deux admirables ouvrages,
+               le vôtre et la <lb/><ref target="#légende-de-la-mort">Légende de la mort</ref>
+               d'Anatole le Braz. Lisez cette <lb/>"<ref target="#légende-de-la-mort">Légende de la
+                  mort en Bretagne</ref>", parue depuis longtemps, <lb/>et dont l'esprit vous
+               plaira. <lb/>Certes, votre dédicace <hi rend="strikethrough">est</hi> beaucoup trop
+               flatteuse, <lb/>- je ne suis rien qu'un rimeur qui vous aime-, et <lb/>le don du
+                  "<ref target="#le-voyageur">Voyageur</ref>" contiennent beaucoup <lb/>plus
+               d'amitié que toutes les formules épistolaires: <lb/>cependant, j'aimerais que vous
+               m'écriviez <lb/>un peu.</p>
+            <closer>
+               <salute>Au revoir donc, mon cher <persName ref="#Apollinaire">Guillaume</persName>,
+                  je vous serre personnellement les mains en vous remerciant encore, et en vous
+                  priant de me rappeler au souvenir de Marie, à qui j'ai écrit au 32 de la rue
+                  Lapontaire.</salute>
+               <signed rend="align(left)">Votre ami <lb/><persName ref="#Fleuret">Fernand
+                     Fleuret</persName>.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listPerson>
+         <person xml:id="Apollinaire">
+            <persName><forename>Guillaume</forename><surname>Apollinaire</surname></persName>
+         </person>
+         <person xml:id="Fleuret">
+            <persName><forename>Fernand</forename><surname>Fleuret</surname></persName>
+            <note>Écrivain et poète français.</note>
+         </person>
+         <person xml:id="Baudelaire">
+            <persName><forename>Charles</forename><surname>Baudelaire</surname></persName>
+            <note>Écrivain et poète français.</note>
+         </person>
+         <person xml:id="Dürer">
+            <persName><forename>Albrecht</forename><surname>Dürer</surname></persName>
+            <note>Dessinateur, graveur et peintre allemand de la Renaissance. Il est également connu
+               comme théoricien de la géométrie et de la perspective linéaire.</note>
+         </person>
+         <person xml:id="Holbein">
+            <persName><forename>Hans</forename><surname>Holbein le Jeune</surname></persName>
+            <note>Peintre et graveur allemand du XVIe siècle</note>
+         </person>
+         <person xml:id="Wagner">
+            <persName><forename>Richard</forename><surname>Wagner</surname></persName>
+            <note>Compositeur, directeur de théâtre, écrivain, chef d'orchestre et polémiste
+               allemand de la période romantique</note>
+         </person>
+         <person xml:id="Vélasquez">
+            <persName><forename>Diego</forename><surname>Vélasquez</surname></persName>
+            <note>Peintre baroque espagnol</note>
+         </person>
+         <person xml:id="Platon">
+            <persName>Platon</persName>
+            <note>Philosophe antique de la Grèce classique.</note>
+         </person>
+         <person xml:id="Louvigné">
+            <persName><forename>Louvigné</forename><surname>du Dezert</surname></persName>
+            <note>Poète libertin fictif inventé par <persName ref="#Fleuret">Fernand
+                  Fleuret</persName></note>
+         </person>
+         <person xml:id="Oukama">
+            <persName>Abgar V Oukâma ou Le Noir</persName>
+            <note>Roi d Edesse (15-30 ap. J.-C.). Édesse était la capitale de l'Osroène, un petit
+               État d'abord indépendant (132 av. J.-C. - 216 ap. J.-C.) en actuelle Turquie. Cet
+               état est devenu province romaine en 216.</note>
+         </person>
+         <person xml:id="LéonXIII">
+            <persName>Léon XIII</persName>
+            <note>Pape de l'Église catholique de 1878 à 1903.</note>
+         </person>
+         <person xml:id="Bardesane">
+            <persName>Bardesane d'Édesse ou Bar-Daïsan</persName>
+            <note>Philosophe et poète chrétien de Syrie, né en 154 à Édesse, mort en 222 dans la
+               même ville.</note>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place>
+            <country>Allemagne</country>
+            <placeName xml:id="Rhin">Rhin</placeName>
+            <placeName xml:id="Coblence"><orig>Coblentz</orig>
+               <reg>Coblence</reg></placeName>
+         </place>
+         <place>
+            <country>France</country>
+            <placeName xml:id="Cap-ail">Cap d'ail</placeName>
+         </place>
+      </listPlace>
+      <listBibl>
+         <head>Références bibliographiques</head>
+         <listBibl>
+            <listBibl>
+               <head>Référence à Alcools (1913)</head>
+               <bibl>
+                  <title>Alcools (1913)</title>
+                  <relatedItem>
+                     <listBibl>
+                        <bibl><title type="poem" xml:id="le-mal-aimé">Le mal aimé</title></bibl>
+                        <bibl><title type="poem" xml:id="le-voyageur">Le voyageur</title></bibl>
+                        <bibl><title type="poem" xml:id="salomé">Salomé</title></bibl>
+                        <bibl><title type="poem" xml:id="larron">Le Larron</title></bibl>
+                        <bibl><title type="poem" xml:id="schinderhannes"
+                           >Schinderhannes</title></bibl>
+                     </listBibl>
+                  </relatedItem>
+               </bibl>
+            </listBibl>
+            <listBibl>
+            <head>Références littéraires</head>
+            <listBibl>
+               <bibl xml:id="légende-de-la-mort"><title>La légende de la mort</title>
+                  <author>Anatole Le Braz</author>
+                  <date>1893</date></bibl>
+            </listBibl>
+            </listBibl>
+         </listBibl>
+      </listBibl>
+   </standOff>
+</TEI>
