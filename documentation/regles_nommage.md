@@ -1,5 +1,4 @@
-# Règles de nommages au sein
-# du projet Apollinaire
+# Règles de nommages au sein du projet Apollinaire
 
 ## Nommage des fichiers .txt
 Les fichiers .txt n'ont pas reçu de normalisation
@@ -26,6 +25,5 @@ Le nommage se fait donc comme suit :
 - `article1_201` --> pour le premier article du folio 201
 - `article-202-203` --> pour un article sur deux folios différents
 
-### xml:id des personnes, lieux et
-### références bibliographiques
+### xml:id des personnes, lieux et références bibliographiques
 <!--à discuter-->
