@@ -1,0 +1,5 @@
+Remarques sur l'encodage :
+
+- Encoder les estampilles ? (Cf. issue#27)
+- Numéroter les articles grâce à @n ? -> voir dans les suggestions_encodage
+- xml:id par article ? -> à discuter, voir comment on structure les encodages
