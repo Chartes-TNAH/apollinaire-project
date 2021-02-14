@@ -147,7 +147,7 @@
 
             <p>Si le titre de votre recueil, chez <lb/>Monsieur, a fait tiquer le <lb/><hi
                   rend="align(center) case(allcaps)" style="printed">DOCTEUR <persName
-                     ref="#henri-aimé">HENRI AIMÉ</persName></hi>
+                     ref="#Aimé">HENRI AIMÉ</persName></hi>
                <lb/>spécialiste, l'amateur de belles-lettres a pris plaisir à <lb/>lire son contenu
                et je ne <lb/><hi rend="align(left) style(italic)" style="printed"><placeName
                      ref="#Paris">15 rue Châteaubriand (VIII<hi rend="sup"
@@ -158,12 +158,12 @@
                féliciter.</p>
             <closer>
                <date when="1913-06-22" rend="align(left)s">22 juin 1913</date>
-               <signed rend="align(center)"><persName ref="#henri-aimé">Henri
+               <signed rend="align(center)"><persName ref="#Aimé">Henri
                   Aimé</persName></signed>
             </closer>
          </div>
          <div type="letter" n="177, 178">
-            <pb type="recto"
+            <pb type="verso"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f177.item.r=Apollinaire%20manuscrits"/>
             <opener>
                <dateline><date when="1913-06-19" rend="align(left)">19 Juin 13-</date></dateline>
@@ -193,6 +193,7 @@
                je ressortirai cela quelque jour.</p>
             <pb type="recto" n="178"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f178.item.r=Apollinaire%20manuscrits"/>
+            <space dim="vertical"/>
             <closer>
                <salute>Au revoir mon cher <persName ref="#Apollinaire">Apollinaire</persName>;
                   croyez à ma<lb/> bien attentive affection</salute>
@@ -304,7 +305,7 @@
             <persName><forename>Fernand</forename><surname>Fleuret</surname></persName>
             <note>Écrivain et poète français.</note>
          </person>
-         <person xml:id="henri-aimé">
+         <person xml:id="Aimé">
             <persName><forename>Henri</forename><surname>Aimé</surname></persName>
             <note>Docteur</note>
          </person>
