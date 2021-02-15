@@ -35,54 +35,68 @@
                     </objectDesc>
                 </physDesc>
             </msDesc>
-            <div type="poeme" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f21">
+            <div type="poeme">
                 <head>La chanson du mal aimé</head>
-                <pb n="4" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f25"/>
-                <figure place="top left" rend="gribouilli"/>
-                <p><add place="top right">4</add></p>
-                <lg type="quintil" n="1">
-                    <l>Adieu, faux Amour qui t’éloignes </l>
-                    <l>
-                        <del>
-                            <gap extent="3" unit="word" reason="illegible"/>
-                        </del> je l’ai perdue</l>
-                    <l><del><unclear reason="illegible">Da</unclear></del>ns une forêt
-                                d’Allema<del><unclear reason="illegible">gne</unclear></del></l>
-                    <l>
-                        <del><gap extent="1" unit="word" reason="illegible"/></del>gît sanglant, le
-                        cou <del><gap extent="1" unit="word" reason="illegible"/></del></l>
-                    <l><unclear>D</unclear>errière les sept montagnes</l> <figure place="left" rend="gribouilli"/>
-                </lg>
+                <div type="recto" n="4" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f25">
+                    <figure place="align(top left)">
+                        <figDesc>Grande rature ronde</figDesc>
+                    </figure>
+                    <p><add place="top right">4</add></p>
+                    <lg type="quintil" n="1">
+                        <l>Adieu, faux Amour qui t’éloignes </l>
+                        <l>
+                            <del>
+                                <gap quantity="3" unit="word" reason="illegible"/>
+                            </del> je l’ai perdue</l>
+                        <l><del><unclear reason="illegible">Da</unclear></del>ns une forêt
+                                    d’Allema<del><unclear reason="illegible">gne</unclear></del></l>
+                        <l>
+                            <del><gap quantity="1" unit="word" reason="illegible"/></del>gît
+                            sanglant, le cou <del><gap quantity="1" unit="word" reason="illegible"
+                                /></del></l>
+                        <l><unclear>D</unclear>errière les sept montagnes</l>
+                        <figure rend="align(left)">
+                            <figDesc>Points alignés horizontalement</figDesc>
+                        </figure>
+                    </lg>
 
-                <lg type="quintil" n="2">
-                    <l><del><unclear>V</unclear></del>ous qui aimez, vous n’avez</l>
+                    <lg type="quintil" n="2">
+                        <l><del><unclear>V</unclear></del>ous qui aimez, vous n’avez</l>
 
-                    <l><subst>
-                            <del rend="line">Connu d’Amour de cette sor<unclear>te</unclear></del>
-                            <add place="above"> vu, couché dans les feuilles m<unclear>ortes</unclear></add>
-                        </subst></l>
-                    <l><subst>
-                            <del rend="line">D’Amour aime jusqu’au t<unclear>répas</unclear></del>
-                            <add place="above">Mon <del rend="line">pauvre</del> Amour après son
-                                trépas</add>
-                        </subst></l> <metamark place="left" rend="tampon"/>
-                    <l>
-                        <del><gap extent="1" unit="word" reason="illegible"/></del> coeurs bougent
-                                <del><gap extent="1" unit="word" reason="illegible"/></del>
-                        portes,</l>
-                    <l> Vous n’aimez p<unclear>a</unclear>s, vou<unclear>s</unclear> n'<unclear>aim</unclear>ez pas…</l>
-                </lg>
+                        <l><subst>
+                                <del>Connu d’Amour de cette sor<unclear>te</unclear></del>
+                                <add rend="overtyped"> vu, couché dans les feuilles
+                                        m<unclear>ortes</unclear></add>
+                            </subst></l>
+                        <l><subst>
+                                <del>D’Amour aime jusqu’au t<unclear>répas</unclear></del>
+                                <add rend="overtyped">Mon <del quantity="1" unit="word"
+                                        rend="strikethrough">pauvre</del> Amour après son
+                                    trépas</add>
+                            </subst></l>
+                        <metamark place="left" rend="tampon"/>
+                        <l>
+                            <del><gap quantity="1" unit="word" reason="illegible"/></del> coeurs
+                            bougent <del><gap quantity="1" unit="word" reason="illegible"/></del>
+                            portes,</l>
+                        <l> Vous n’aimez p<unclear>a</unclear>s, vou<unclear>s</unclear>
+                                n'<unclear>aim</unclear>ez pas…</l>
+                    </lg>
 
-                <lg type="septain" n="1">
-                    <l>Voie lactée ô sœur lumineuse</l>
-                    <l>Des blancs ruisseaux de Chanaan</l>
-                    <pb n="4bis" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f26"/>
-                    <l>Je me souviens d’une autre année,</l>
-                    <l>C’était l’aube d’un jour d’avril.</l>
-                    <l>J’ai chanté ma joie bien-aimée,</l>
-                    <l>Chanté l’amour à voix virile,</l>
-                    <l> Au moment d’amour de l’année.</l>
-                </lg>
+                    <lg type="septain" n="1" part="I">
+                        <l>Voie lactée ô sœur lumineuse</l>
+                        <l>Des blancs ruisseaux de Chanaan</l>
+                    </lg>
+                </div>
+                <div type="verso" n="5" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f26">
+                    <lg type="septain" n="1" part="F">
+                        <l>Je me souviens d’une autre année,</l>
+                        <l>C’était l’aube d’un jour d’avril.</l>
+                        <l>J’ai chanté ma joie bien-aimée,</l>
+                        <l>Chanté l’amour à voix virile,</l>
+                        <l> Au moment d’amour de l’année.</l>
+                    </lg>
+                </div>
             </div>
         </body>
     </text>
