@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Le mal aimé</title>
+            <author>Guillaume Apollinaire</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc>
+            <msIdentifier>
+               <repository>Bibliothèque nationale de France</repository>
+            </msIdentifier>
+            <physDesc>
+               <objectDesc>
+                  <supportDesc>
+                     <extent>2 pages</extent>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1">Strophes séparées par un saut de ligne et disposées sur une
+                        seule colonne.</layout>
+                  </layoutDesc>
+               </objectDesc>
+            </physDesc>
+         </msDesc>
+         <div type="poeme">
+            <div type="recto" n="47" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f21">
+               <head>La lettre écrite au sultan par les cosaques zaporogues</head>
+               <p><add place="top">14</add></p>
+		    <p><add place="top">Réponse des cosaques zaporogues au sultan de Constantinople</add></p>
+
+               <lg type="tercet" n="1">
+                  <figure rend="align(margin)">
+                     <figDesc>Accolade regroupant les trois vers notée "2" puis corrigée en
+                        "3".</figDesc>
+                  </figure>
+                  <l>Quel chevalier es-tu là bas ?</l>
+                  <l><subst>
+                        <del><gap quantity="1" unit="word" reason="illegible"/></del>
+                     <add place="above"><del rend="strikethrough"><gap quantity="1" unit="word"
+                                 reason="illegible"/></del></add>
+                        <add rend="overtyped">Sultan</add>
+                     </subst> de Turcs puants qui manges</l>
+                  <l>Ce que Satan chie aux sabbats</l>
+               </lg>
+               <lg type="distique" n="1">
+                  <l><del quantity="3" unit="word" rend="strikethrough">Nous n’ain</del></l>
+                  <l><del quantity="2" unit="word" rend="strikethrough">Cornu commes</del></l>
+                  <figure rend="align(margin)">
+                     <figDesc>Autre accolade regroupant mes deux vers suivants, notés "2" et "1", et
+                        avec un nombre barré.</figDesc>
+                  </figure>
+                  <figure rend="align(center)">
+                     <figDesc>Tampon sur lequel on lit "Bibliothèque nationale MSS.</figDesc>
+                  </figure>
+                  <l>Cornu comme les mauvais anges</l>
+                  <l>Plus criminel que Barrabas</l>
+                  <l><del quantity="3" unit="word" rend="strikethrough">Ne réponds rien</del></l>
+               </lg>
+               <l>Poisson <subst>
+                     <del><gap quantity="1" unit="word" reason="illegible"/></del>
+                     <add rend="overtyped">pourri</add>
+                  </subst> de Salonique,</l>
+               <l>Gemmes de cabochons affreux</l>
+               <l>Des yeux creuvés à coup de piques</l>
+               <l>Ta <subst>
+                     <del quantity="2" unit="char">fi</del>
+                     <add rend="overtyped">pourri</add>
+                  </subst> fit un pet foireux</l>
+               <l>Et tu naquis de sa colique</l>
+               <l><del quantity="3" unit="word" rend="strikethrough">Ne réponds rien</del></l>
+               <lg type="quintil" n="1">
+                  <l>Bourreau de l’Arménie, amant</l>
+                  <l>De femmes que des soldats fourent</l>
+                  <l>Groin de cochon, cul de jument</l>
+                  <l><del quantity="2" unit="word" rend="strikethrough">Tes riches</del></l>
+                  <l>Tes richesses garde<del rend="strikethrough">nt</del> les toutes</l>
+                  <l>Pour payer <subst>
+                        <del quantity="1" unit="char">d</del>
+                        <add rend="overtyped">t</add>
+                     </subst>es médicaments.</l>
+               </lg>
+            </div>
+            <div type="verso" n="48"
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f48.item.zoom">
+               <lg type="tercet" n="2">
+                  <figure rend="align(margin)">
+                     <figDesc>Accolade indiquant qu'il s'agit d'un morceau du poème du
+                        Mal-Aimé</figDesc>
+                  </figure>
+                  <l><del quantity="6" unit="word" rend="strikethrough">L’amour un jour je l’ai
+                        perdu</del></l>
+                  <l><del quantity="6" unit="word" rend="strikethrough">Au fond d’une forêt d’une
+                        Germaine</del></l>
+                  <l>Pour incanter l’amour perdu</l>
+                  <l>Le violon à la vie en peine</l>
+                  <l>Et à cordes de pendus</l>
+               </lg>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
