@@ -39,7 +39,7 @@
             <div type="recto" n="47" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f21">
                <head>La lettre écrite au sultan par les cosaques zaporogues</head>
                <p><add place="top">14</add></p>
-               <p><add place="top"/>Réponse des cosaques zaporogues au sultan de Constantinople</p>
+		    <p><add place="top">Réponse des cosaques zaporogues au sultan de Constantinople</add></p>
 
                <lg type="tercet" n="1">
                   <figure rend="align(margin)">
