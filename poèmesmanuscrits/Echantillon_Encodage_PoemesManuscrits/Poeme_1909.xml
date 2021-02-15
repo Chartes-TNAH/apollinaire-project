@@ -51,13 +51,13 @@
                <l>  Elle était décolletée en rond</l>
                <l>Et coiffée à la Récamier</l>
                <l>Avec de beaux bras nus.</l>
-               <l><delSpan spanTo="#l7" extent="4 lines"/>Pareils au col candide</l> 
+               <l><delSpan spanTo="#l7" quantity="4" unit="line"/>Pareils au col candide</l> 
                <l>De l’amant divin et ailé</l>
                <l>De cette Léda solitaire</l>
                <l>Que deux étoiles appellent ma mère<anchor xml:id="l7"/></l>
             </lg>
             <lg type="monostiche" n="1">
-               <l> - N’entendra-t-on jamais sonner minuit <del><gap extent="1 word" reason="illegible"/></del></l>
+               <l> - N’entendra-t-on jamais sonner minuit <del><gap quantity="1" unit="word" reason="illegible"/></del></l>
             </lg>
              <lg type="quatrain" n="1"> 
                 <l>La dame en robe d’ottoman violine</l>
@@ -80,7 +80,7 @@
             </lg>
             <lg type="tercet" n="1">
                <l>Cette femme était si belle</l>
-               <l>Que je n’aurais pas osé l’aimer (rayé)</l>
+               <l><del quantity="1" unit="line" rend="strikethrough">Que je n’aurais pas osé l’aimer</del></l>
                <l>qu’elle me faisait peur.</l>
             </lg>
          </div>
