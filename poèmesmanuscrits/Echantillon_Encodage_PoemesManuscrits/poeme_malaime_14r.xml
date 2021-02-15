@@ -48,16 +48,16 @@
                   </figure>
                   <l>Quel chevalier es-tu là bas ?</l>
                   <l><subst>
-                        <del extent="1" unit="word"><gap reason="illegible"/></del>
-                        <add place="above"><del extent="1" unit="word" rend="strikethrough"><gap
+                        <del><gap quantity="1" unit="word" reason="illegible"/></del>
+                     <add place="above"><del rend="strikethrough"><gap quantity="1" unit="word"
                                  reason="illegible"/></del></add>
                         <add rend="overtyped">Sultan</add>
                      </subst> de Turcs puants qui manges</l>
                   <l>Ce que Satan chie aux sabbats</l>
                </lg>
-               <lg type="distique" n="2">
-                  <l><del extent="3" unit="word" rend="strikethrough">Nous n’ain</del></l>
-                  <l><del extent="2" unit="word" rend="strikethrough">Cornu commes</del></l>
+               <lg type="distique" n="1">
+                  <l><del quantity="3" unit="word" rend="strikethrough">Nous n’ain</del></l>
+                  <l><del quantity="2" unit="word" rend="strikethrough">Cornu commes</del></l>
                   <figure rend="align(margin)">
                      <figDesc>Autre accolade regroupant mes deux vers suivants, notés "2" et "1", et
                         avec un nombre barré.</figDesc>
@@ -67,10 +67,10 @@
                   </figure>
                   <l>Cornu comme les mauvais anges</l>
                   <l>Plus criminel que Barrabas</l>
-                  <l><del extent="3" unit="word" rend="strikethrough">Ne réponds rien</del></l>
+                  <l><del quantity="3" unit="word" rend="strikethrough">Ne réponds rien</del></l>
                </lg>
                <l>Poisson <subst>
-                     <del extent="1" unit="word"><gap reason="illegible"/></del>
+                     <del><gap quantity="1" unit="word" reason="illegible"/></del>
                      <add rend="overtyped">pourri</add>
                   </subst> de Salonique,</l>
                <l>Gemmes de cabochons affreux</l>
@@ -80,29 +80,29 @@
                      <add rend="overtyped">pourri</add>
                   </subst> fit un pet foireux</l>
                <l>Et tu naquis de sa colique</l>
-               <l><del extent="3" unit="word" rend="strikethrough">Ne réponds rien</del></l>
-               <lg type="quintil" n="3">
+               <l><del quantity="3" unit="word" rend="strikethrough">Ne réponds rien</del></l>
+               <lg type="quintil" n="1">
                   <l>Bourreau de l’Arménie, amant</l>
                   <l>De femmes que des soldats fourent</l>
                   <l>Groin de cochon, cul de jument</l>
-                  <l><del extent="2" unit="word" rend="strikethrough">Tes riches</del></l>
+                  <l><del quantity="2" unit="word" rend="strikethrough">Tes riches</del></l>
                   <l>Tes richesses garde<del rend="strikethrough">nt</del> les toutes</l>
                   <l>Pour payer <subst>
-                        <del extent="1" unit="char">d</del>
+                        <del quantity="1" unit="char">d</del>
                         <add rend="overtyped">t</add>
                      </subst>es médicaments.</l>
                </lg>
             </div>
             <div type="verso" n="48"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f48.item.zoom">
-               <lg type="tercet" n="4">
+               <lg type="tercet" n="2">
                   <figure rend="align(margin)">
                      <figDesc>Accolade indiquant qu'il s'agit d'un morceau du poème du
                         Mal-Aimé</figDesc>
                   </figure>
-                  <l><del extent="6" unit="word" rend="strikethrough">L’amour un jour je l’ai
+                  <l><del quantity="6" unit="word" rend="strikethrough">L’amour un jour je l’ai
                         perdu</del></l>
-                  <l><del extent="6" unit="word" rend="strikethrough">Au fond d’une forêt d’une
+                  <l><del quantity="6" unit="word" rend="strikethrough">Au fond d’une forêt d’une
                         Germaine</del></l>
                   <l>Pour incanter l’amour perdu</l>
                   <l>Le violon à la vie en peine</l>
