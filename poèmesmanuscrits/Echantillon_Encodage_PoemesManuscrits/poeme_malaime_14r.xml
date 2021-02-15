@@ -76,7 +76,7 @@
                <l>Gemmes de cabochons affreux</l>
                <l>Des yeux creuvés à coup de piques</l>
                <l>Ta <subst>
-                     <del>fi</del>
+                     <del quantity="2" unit="char">fi</del>
                      <add rend="overtyped">pourri</add>
                   </subst> fit un pet foireux</l>
                <l>Et tu naquis de sa colique</l>
