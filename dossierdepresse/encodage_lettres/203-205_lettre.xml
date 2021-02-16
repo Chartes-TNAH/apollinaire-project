@@ -31,8 +31,7 @@
                C'est personnel, vif, aigu,<lb/> 
                vivant. Toutes mes bonnes<lb/>
                felicitations vont vers vous</p>
-            <space dim="vertical" rend="align(left)"/>
-            <p>Comme je me souviens du Festin d'Esope !</p>
+            <p rend="align(left) format(landscape)">Comme je me souviens du Festin d'Esope !</p>
             <closer>
                <salute>Votre</salute>
                <signed><gap quantity="11" unit="char" reason="illegible"/></signed>
