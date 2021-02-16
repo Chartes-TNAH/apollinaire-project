@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dossier de presse</title>
+            <title type="sub">Lettres du folio 185 au folio 205</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="letter" n="185,186,187" xml:id="lettre_185-187">
+            <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f185.item.r=Apollinaire%20manuscrits"/>
+            <cb n="1"/>
+            <opener>
+               <dateline><date when="1919-06-24">24 juin 1913</date></dateline>
+               <stamp>49, RUE DE LONGCHAMP<lb/>
+                  <placeName ref="#neuilly_sur_seine">NEUILLY-S-SEINE</placeName></stamp>
+               <salute>Cher Monsieur,</salute>
+            </opener>
+            <p>Je vous remercie<lb/>
+               bien vivement de m'avoir<lb/>
+               envoyé vos poèmes si<lb/> 
+               pleins de fantaisie et<lb/> 
+               de tristesse.</p>
+            <p>J'en connaissais<lb/>
+               déjà plus d'un et j'avais</p>
+            <pb type="verso" subtype="empty" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f186.item.r=Apollinaire%20manuscrits"/>
+            <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f187.item.r=Apollinaire%20manuscrits"/>
+            <cb n="2"/>
+            <p>admiré dans la Phalange vos<lb/>
+               <ref target="#rhenane">Rhénanes</ref> lorsqu'elles y ont<lb/> 
+               paru.</p>
+            <p>Croyez à toute l'expres-<lb/>
+               sion de ma gratitude, et<lb/>
+               recevez cher monsieur,<lb/> 
+               je vous prie, à l'expression<lb/> 
+               de mes sentiments très distingu<unclear reason="illegible">ées</unclear>.</p>
+            <closer><signed><persName ref="#aspiq">Aspiq</persName></signed></closer>
+         </div>
+         <div type="letter" n="188" xml:id="lettre_188" sameAs="#lettre_190-191">
+            <pb type="recto" subtype="copy" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f188.item.r=Apollinaire%20manuscrits.zoom"/>
+         </div>
+         <div type="letter" n="189" xml:id="lettre_189" sameAs="#lettre_196-197">
+            <pb type="recto" subtype="copy" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f189.item.r=Apollinaire%20manuscrits.zoom"/>
+         </div>
+         <div type="letter" n="190,191" xml:id="lettre_190-191">
+            <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f190.item.r=Apollinaire%20manuscrits"/>
+            <figure rend="align(top left)">
+               <figDesc>Dessin imprimé représentant des fleurs dans un vase accompagné des initiales "a.m."</figDesc>
+            </figure>
+            <opener>
+               <address><addrLine>22 rue Visconti</addrLine></address>
+               <dateline><date>mercredi</date></dateline>
+               <salute>Mon cher ami,</salute>
+            </opener>
+            <p>je ne puis aller vous voir tout à l'heu-<lb/>
+               re car je suis accablé de besogne. Ce matin j'ai<lb/>
+               pris au Mercure votre beau livre que l'autre<lb/>
+               nuit, chez <persName ref="#mac_orlan_pierre">Pierre Mac Orlan</persName>, nous avons lu<lb/>
+               avec une admiration profonde. Vous savez<lb/>
+               si j'aime votre art qui déguise mal la<lb/>
+               souffrance d'un coeur que chaque minute<lb/>
+               déçoit et blesse. Je veux écrire l'article que<lb/>
+               vous m'avez proposé à l'Intransigeant.</p>
+            <pb type="verso" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f191.item.r=Apollinaire%20manuscrits"/>
+            <p>Donnez moi qqs. renseignement à ce sujet.<lb/>
+               La longueur ? le ton (actualité ou littérature<lb/>
+               pure?).. J'ai hâte d'être fixé par vous pour<lb/>
+               vous donner la preuve de ma sincère et<lb/>
+               franche admiration</p>
+            <closer>
+               <salute>Tout à vous</salute>
+               <signed><persName ref="#carco_francis">F. Carco</persName></signed>
+            </closer>
+         </div> 
+         <div type="letter" n="192,193" xml:id="lettre_192-193">
+            <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f192.item"/>
+            <opener>
+               <dateline><date when="1913-06-19">19 Juin 1913</date></dateline>
+               <stamp>3, RUE LAS-CASES. VIIe.</stamp>
+               <salute>Mon cher ami.</salute></opener>
+            <p>Je viens de rentrer de<lb/>
+               la campagne et de trouver chez moi votre<lb/>
+               livre. Je vous en remercie bien<lb/>
+               cordialement. Ce que j'en ai déjà lu<lb/>
+               hier soir m'intéresse extrèmement<lb/>
+               autout par le fond que par la forme.<lb/>
+               Je vous en reparlerai quand j'aurai<lb/>
+               tout lu et que nous nous reverrons<lb/>
+               ce qui sera bientôt, j'espère,</p>
+            <closer><salute rend="center">Bien cordialement à vous.</salute>
+               <signed rend="center"><persName ref="#boutet_frederic">frédéric Boutet</persName>.</signed>
+            </closer>
+            <pb type="verso" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f193.item"/> 
+            <spanGrp type="postmarked">
+               <span type="postmark" rend="red">République français 10c</span>
+               <span type="stamp">
+                  <date when="1913-06-20"><placeName ref="#paris">Paris</placeName> Ste Anne 20-6-13</date>
+               </span>
+               <span type="receiver">
+                  <address>
+                     <persName>Monsieur <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName></persName>
+                     <street>202 Boulevard St Germain</street>
+                     <settlement><placeName ref="#paris">Paris</placeName></settlement>
+                  </address>
+               </span>
+            </spanGrp>
+         </div>
+         <div type="letter" n="194,195" xml:id="lettre_194-195">
+            <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f194.item.r=Apollinaire%20manuscrits.zoom"/>
+            <p>Je vois que le <hi rend="underlined">Mercure</hi> est devenu<lb/>
+               une impasse où l'on assassine.<lb/>
+               Tous vos amis seront avec vous,<lb/>
+               et leur plus beau jour sera<lb/>
+               celui où vous tuerez votre<lb/>
+               ennemi.</p>
+            <closer><signed><persName ref="#fleuret_fernand">fernandfleuret</persName></signed></closer>
+            <pb type="verso" subtype="empty" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f195.item.r=Apollinaire%20manuscrits"/>
+         </div>
+         <div type="letter" n="196,197" xml:id="lettre_196-197">
+            <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f196.item.r=Apollinaire%20manuscrits"/>
+            <opener>
+               <stamp>LA VIE DES LETTRES<lb/>
+                  COLLECTION ANTHOLOGIQUE ET CRITIQUE<lb/>
+                  DE HAUTE LITTÉRATURE ET D'ART<lb/>
+                  DIRECTEUR : <persName ref="#beauduin_nicolas">NICOLAS BEAUDUIN</persName><lb/>
+                  <address><addrLine>20, RUE DE CHARTES, <placeName ref="#paris">PARIS</placeName>-<placeName ref="#neuilly_sur_seine">NEUILLY</placeName></addrLine></address></stamp>
+               <dateline><date when="1913-07-01"><stamp>CE</stamp> 1er juillet <stamp>191</stamp>3</date></dateline>
+               <salute>Mon cher Poète et ami,</salute> 
+            </opener>
+            <p>Je vous remercie de votre livre de poèmes "Alcool".<lb/>
+               Je n'ai, depuis lontemps, rien lu de plus curieux, de<lb/>
+               plus bizarre, de plus ahurissant, étonnant, - de<lb/>
+               plus fort.</p>
+            <p>Votre érudition est accablante. C'est fou, c'est<lb/>
+               énorme.</p>
+            <p><persName ref="#rossiard">Rossiard</persName> partage mon admiration fervente. Il m'a<lb/>
+               lu tout dernièrement un poeme écrit en votre honneur.<lb/>
+               "<persName ref="apollinaire_guillaume">Apollinaire</persName> est un fastueux danseur" (danseur au sens<lb/>
+               nietzchéen s'entend).</p>
+            <p>Aux pays verts de La vie des Lettres vous trouverez annoncé,<lb/>
+               comme je vous l'avais promis, votre livre sur <hi rend="underlined">le Cubisme</hi>.</p>
+            <p>Encore mille fois merci de l'envoi de votre livre de<lb/>
+               poèmes.</p>
+            <closer>
+               <salute>Et mes deux mains admiratives</salute>
+               <signed><persName ref="#beauduin_nicolas">Nicolas Beauduin</persName></signed>
+            </closer>
+            <pb type="verso" subtype="empty" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f197.item.r=Apollinaire%20manuscrits"/>
+         </div>
+         <div type="letter" n="198,199" xml:id="lettre_198-199">
+            <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f198.item.r=Apollinaire%20manuscrits"/>
+            <span type="gratitude" rend="align(top left)">
+               Votre volume de<lb/>
+               vers me charme de plus<lb/>
+               en plus et je sais combien<lb/>
+               est rare l'édition<lb/>
+               que vous m'avez<lb/>
+               si aimablement offerte.<lb/>
+               Merci donc<lb/>
+               encore une<lb/>
+               fois.</span>
+            <opener>
+               <salute>Mon cher ami</salute>
+            </opener>
+            <p>Voilà le temps qui passe, et nous ne<lb/>
+               sommes plus pour bien longtemps<lb/>
+               à <placeName ref="#paris">Paris</placeName>. Or nous serions très heureux<lb/>
+               de passer encore quelques bons<lb/>
+               moments <del rend="crossed">aV vous</del> avec vous.</p>
+            <p>Voulez-vous venir déjeuner<lb/>
+               samedi matin, chez Baty ... ou<lb/>
+               ailleurs si vous préférez. (vers midi ?)</p>
+            <closer>
+               <salute>Amitiés de nous trois</salute>
+               <signed rend="center"><persName ref="#de_chamaillard_ernest">E de Chamaillard</persName></signed>
+               <address>
+                  <addrLine rend="center">3 Rue Joseph Bara</addrLine>
+               </address>
+            </closer>
+            <postscript>
+               <p>Si samedi ne vous convient pas, propo-<lb/>
+                  sez-nous un autre jour.</p>
+               <p>Jeudi matin.</p>
+            </postscript>
+            <pb type="verso" subtype="empty" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f199.item.r=Apollinaire%20manuscrits"/>
+         </div>
+         <div type="letter" n="203,204,205" xml:id="lettre_203-205">
+            <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f203.item.r=Apollinaire%20manuscrits"/>
+            <opener>
+               <salute>Mon cher Poete</salute>
+            </opener>
+            <p>Comme certaines<lb/>
+               de vos pieces ou vers me plai-<lb/>
+               sent. Je note surtout "<ref target="#la_maison_des_morts">La<lb/>
+               maison des morts</ref> &amp; <ref target="#poeme_lu_au_mariage_d_andre_salmon">le poeme<lb/>
+               pour le mariage de Salmon</ref>.<lb/>
+               C'est personnel, vif, aigu,<lb/> 
+               vivant. Toutes mes bonnes<lb/>
+               felicitations vont vers vous</p>
+            <p rend="align(left) format(landscape)">Comme je me souviens du Festin d'Esope !</p>
+            <closer>
+               <salute>Votre</salute>
+               <signed><persName ref="illisible_name"><gap quantity="11" unit="char" reason="illegible"/></persName></signed>
+            </closer>
+            <pb type="verso" subtype="empty" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f204.item.r=Apollinaire%20manuscrits"/>
+            <pb type="verso" subtype="empty" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f205.item.r=Apollinaire%20manuscrits"/>
+         </div>
+      </body>
+  </text>
+   <standOff>
+      <listPerson type="receiver">
+         <person xml:id="apollinaire_guillaume">
+            <persName><forename>Guillaume</forename><surname>Apollinaire</surname></persName>
+         </person>
+      </listPerson>
+      <listPerson type="senders">
+         <person xml:id="fleuret_fernand">
+            <persName><forename>Fernand</forename><surname>Fleuret</surname></persName>
+            <note>Écrivain et poète français.</note>
+         </person>
+         <person xml:id="aspiq">
+            <persName>Aspiq</persName>
+         </person>
+         <person xml:id="carco_francis">
+            <persName><forename>Francis</forename><surname>Carco</surname></persName>
+            <note>Écrivain, poète, journaliste et parolier français.</note>
+         </person>
+         <person xml:id="boutet_frederic">
+            <persName><forename>Frédéric</forename><surname>Boutet</surname></persName>
+            <note>Nouvelliste et romancier français.</note>
+         </person>
+         <person xml:id="beauduin_nicolas">
+            <persName><forename>Nicolas</forename><surname>Beauduin</surname></persName>
+            <note>Poète et romancier français, directeur de la revue littéraire "La vie des lettres"</note>
+         </person>
+         <person xml:id="de_chamaillard_ernest">
+            <persName><forename>Ernest</forename><surname>de Chamaillard</surname></persName>
+            <note>Peintre français.</note>
+         </person>
+         <person xml:id="illisible_name">
+            <persName>Nom illisible</persName>
+         </person>
+      </listPerson>
+      <listPerson>
+         <person xml:id="mac_orlan_pierre">
+            <persName>
+               <forename>Pierre</forename>
+               <surname>Dumarchey</surname>
+               <addName type="pseudo">Pierre Mac Orlan</addName>
+            </persName>
+            <note>Écrivain, poète, essayiste français</note>
+         </person>
+         <person xml:id="rossiard">
+            <persName>Rossiard</persName>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place>
+            <country>France</country>
+            <placeName xml:id="paris">Paris</placeName>
+            <placeName xml:id="neuilly_sur_seine">Neuilly-sur-Seine</placeName>
+         </place>
+      </listPlace>
+      <listBibl>
+         <head>Références bibliographiques</head>
+         <listBibl>
+            <listBibl>
+               <head>Référence à Alcools (1913)</head>
+               <bibl>
+                  <title>Alcools (1913)</title>
+                  <relatedItem>
+                     <listBibl>
+                        <bibl><title type="poem" xml:id="la_maison_des_morts">La maison des morts</title></bibl>
+                        <bibl><title type="poem" xml:id="rhenane">Rhénane</title></bibl>
+                        <bibl><title type="poem" xml:id="poeme_lu_au_mariage_d_andre_salmon">Poème lu au mariage d'André Salmon</title></bibl>
+                     </listBibl>
+                  </relatedItem>
+               </bibl>
+            </listBibl>
+            <listBibl>
+               <head>Revues et journaux</head>
+               <bibl type="review">
+                  <title>La Phalange</title>
+               </bibl>
+               <bibl type="review">
+                  <title>La vie des lettres</title>
+               </bibl>
+               <bibl type="review">
+                  <title>Le mercure de France</title>
+               </bibl>
+               <bibl type="newspaper">
+                  <title>L'Intransigeant</title>
+               </bibl>
+            </listBibl>
+         </listBibl>
+      </listBibl>
+   </standOff>
+</TEI>
