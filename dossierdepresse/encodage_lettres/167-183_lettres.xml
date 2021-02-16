@@ -42,7 +42,8 @@
                de carmen!)</p>
             <closer>
                <salute rend="align(center)">Amitiés</salute>
-               <signed rend="align(center)"><persName ref="tharaud_jean_jacques">J.J Tharaud</persName></signed>
+               <signed rend="align(center)"><persName ref="tharaud_jean_jacques">J.J
+                     Tharaud</persName></signed>
             </closer>
          </div>
          <div type="letter" n="172, 173, 174" xml:id="lettre_172-174">
@@ -53,14 +54,15 @@
                   <addrLine><placeName ref="#cap_d_ail">Cap d'ail</placeName></addrLine>
                </address>
                <dateline><date when="1913-05-30" rend="align(left)">30 mai 1913</date></dateline>
-               <salute>Mon cher <persName ref="#apollinaire_guillaume">Guillaume</persName>,</salute>
+               <salute>Mon cher <persName ref="#apollinaire_guillaume"
+                  >Guillaume</persName>,</salute>
             </opener>
             <p>Je vous remercie vivement et de l'envoi <lb/>de votre beau livre, et de la pièce que
                <lb/>vous m'y avez dédiée. Ce "<ref target="#le_voyageur">Voyageur</ref>", c'est
                <lb/>la chanson qui fait entendre le gabier du <lb/>vaisseau de Tristan, et qui
-               traverse l'oeuvre <lb/>de <persName ref="#wagner_richard">Wagner</persName> comme un oiseau
-               plaintif, un <lb/>alcyon sur l'Europe même. Un soir <lb/>que la pluie tombait sur le
-                  <placeName ref="#rhin">Rhin</placeName>, à <placeName ref="#coblence"
+               traverse l'oeuvre <lb/>de <persName ref="#wagner_richard">Wagner</persName> comme un
+               oiseau plaintif, un <lb/>alcyon sur l'Europe même. Un soir <lb/>que la pluie tombait
+               sur le <placeName ref="#rhin">Rhin</placeName>, à <placeName ref="#coblence"
                   >Coblentz</placeName>, où <lb/>son flot <hi rend="strikethrough">se divise et</hi>
                tranche sur la couleur de son <lb/>compagnon marin, j'ai songé à semblable poème.
                <lb/>Et je songeais aussi à vous, je me souviens, <lb/>qui vous étiez promené là
@@ -84,13 +86,14 @@
                   ref="#platon">Platon</persName>, amoureux, lui aussi, d'un disciple, que le XVème
                siècle, <lb/><hi rend="strikethrough">nous</hi> le prenant pour une femme, nommait
                Archipiada. </p>
-            <p>"Que n'avait-il la voix et les jupes d'Orphée!" <lb/><persName ref="#louvigné_du_dézert"
-                  >Louvigné</persName>, poète mineur, a dit: </p>
+            <p>"Que n'avait-il la voix et les jupes d'Orphée!" <lb/><persName
+                  ref="#louvigné_du_dézert">Louvigné</persName>, poète mineur, a dit: </p>
             <p>" Je n'aime qu'un martyr, ô Jésus, c'est Orphée!!! </p>
             <p>Vous étiez fait, vous même, pour porter la mitre de <lb/>l'enchanteur à la cour
-                  d'<persName ref="#abgar_v_oukama">Abgar Oukâma</persName>, ou pour <lb/>discuter à l'École
-               d'Edesse. Hérétique Marcion, vous <lb/>auriez, contrairement à l'histoire, vaincu en
-               beau langage <lb/><persName ref="#bardesane_d_edesse">Bardesane le Syrien</persName>.</p>
+                  d'<persName ref="#abgar_v_oukama">Abgar Oukâma</persName>, ou pour <lb/>discuter à
+               l'École d'Edesse. Hérétique Marcion, vous <lb/>auriez, contrairement à l'histoire,
+               vaincu en beau langage <lb/><persName ref="#bardesane_d_edesse">Bardesane le
+                  Syrien</persName>.</p>
             <p>Mais c'est en négromant que je vous vois, menant <lb/>un cortège de phantasmes.
                   <persName ref="#léon_xiii">Léon XIII</persName> y montre son <lb/>derrière couleur
                de prune, suivi des menins de <lb/>Belcini, dont le beau déhanchement et la braguette
@@ -98,14 +101,14 @@
                Jésus, escorté <lb/>des Ménades, les deux <ref target="#larron">Larrons</ref>, avec
                des boucles matelottes <lb/>aux oreilles, et <ref target="#salomé">Salomé</ref> toute
                nue, poilue <lb/>jusqu'au nombril, et sa mère, atournée en <lb/><persName
-                  ref="#vélasquez_diego">Vélasquez</persName>; les zannis <gap quantity="7" unit="char"
-                  reason="illegible"/> napolitains au <lb/>visage masqué, le brigand <ref
-                  target="#schinderhannes">Schinederhannes</ref>, avec <lb/>son mourant damasquiné;
-               le Matelot hollandais, <lb/>son papegaut et son ouistiti, Nicolas Flannel <lb/>et sa
-               femme, Perrine, Hermès, au front cornu, et <lb/>les archanges habillés de plumes.
-               Devant cette <lb/>horde triste comme l'amour, la gloire et le génie, <lb/>volent les
-               trois sirènes, ainsi que les oiseaux <lb/>machinés qui précédaient les rois dans les
-               bonnes <lb/>villes. c'est avec cet "errain d'histoire en voyage" </p>
+                  ref="#vélasquez_diego">Vélasquez</persName>; les zannis <gap quantity="7"
+                  unit="char" reason="illegible"/> napolitains au <lb/>visage masqué, le brigand
+                  <ref target="#schinderhannes">Schinederhannes</ref>, avec <lb/>son mourant
+               damasquiné; le Matelot hollandais, <lb/>son papegaut et son ouistiti, Nicolas Flannel
+               <lb/>et sa femme, Perrine, Hermès, au front cornu, et <lb/>les archanges habillés de
+               plumes. Devant cette <lb/>horde triste comme l'amour, la gloire et le génie,
+               <lb/>volent les trois sirènes, ainsi que les oiseaux <lb/>machinés qui précédaient
+               les rois dans les bonnes <lb/>villes. c'est avec cet "errain d'histoire en voyage" </p>
             <pb type="recto"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f173.item.r=Apollinaire%20manuscrits"/>
             <p>que vous parviendrez "heureusement aux époques lointaines" où <lb/>verdoie l'arbre
@@ -125,18 +128,18 @@
                Mais cette appréciation <lb/>est trop personnelle pour être discutée.</p>
             <p>Il m'a donc été donné de lire dans l'espace <lb/>d'un mois deux admirables ouvrages,
                le vôtre et la <lb/><ref target="#la_légende_de_la_mort">Légende de la mort</ref>
-               d'Anatole le Braz. Lisez cette <lb/>"<ref target="#la_légende_de_la_mort">Légende de la
-                  mort en Bretagne</ref>", parue depuis longtemps, <lb/>et dont l'esprit vous
+               d'Anatole le Braz. Lisez cette <lb/>"<ref target="#la_légende_de_la_mort">Légende de
+                  la mort en Bretagne</ref>", parue depuis longtemps, <lb/>et dont l'esprit vous
                plaira. <lb/>Certes, votre dédicace <hi rend="strikethrough">est</hi> beaucoup trop
                flatteuse, <lb/>- je ne suis rien qu'un rimeur qui vous aime-, et <lb/>le don du
                   "<ref target="#le_voyageur">Voyageur</ref>" contiennent beaucoup <lb/>plus
                d'amitié que toutes les formules épistolaires: <lb/>cependant, j'aimerais que vous
                m'écriviez <lb/>un peu.</p>
             <closer>
-               <salute>Au revoir donc, mon cher <persName ref="#apollinaire_guillaume">Guillaume</persName>,
-                  je vous serre personnellement les mains en vous remerciant encore, et en vous
-                  priant de me rappeler au souvenir de Marie, à qui j'ai écrit au 32 de la rue
-                  Lapontaire.</salute>
+               <salute>Au revoir donc, mon cher <persName ref="#apollinaire_guillaume"
+                     >Guillaume</persName>, je vous serre personnellement les mains en vous
+                  remerciant encore, et en vous priant de me rappeler au souvenir de Marie, à qui
+                  j'ai écrit au 32 de la rue Lapontaire.</salute>
                <signed rend="align(left)">Votre ami <lb/><persName ref="#fleuret_ferdinand">Fernand
                      Fleuret</persName>.</signed>
             </closer>
@@ -169,10 +172,11 @@
                <dateline><date when="1913-06-19" rend="align(left)">19 Juin 13-</date></dateline>
                <address rend="align(top right)">
                   <addrLine><placeName ref="#curverville">Cuverville</placeName><lb/> par <placeName
-                        ref="#criquetot_l_esneval">Criquetot L'Esneval</placeName><lb/> 8<hi rend="sup"
-                        >me</hi> Inf<hi rend="sup">rie</hi></addrLine>
+                        ref="#criquetot_l_esneval">Criquetot L'Esneval</placeName><lb/> 8<hi
+                        rend="sup">me</hi> Inf<hi rend="sup">rie</hi></addrLine>
                </address>
-               <salute>Mon cher <persName ref="#apollinaire_guillaume">Apollinaire</persName>,</salute>
+               <salute>Mon cher <persName ref="#apollinaire_guillaume"
+                  >Apollinaire</persName>,</salute>
             </opener>
             <p>Votre livre, un des rares que j'emporte<lb/> ici avec moi, augmente mes regrets de
                vous<lb/> avoir si peu vu cet hiver _ ou même:<lb/> pas du tout. J'aime votre poésie,
@@ -187,16 +191,19 @@
             <p>Et je suis reparti un peu triste, l'autre<lb/> soir, des ballets russes, de ne vous
                avoir<lb/> qu'entrevu. Car c'était bien vous, n'est-<lb/> ce pas?</p>
             <p>Vous êtes cause que Merrille, puis<lb/>
-               <persName ref="#balzaguette_léon">Bazalgette</persName>, ont écrit de bien pompeuses<lb/>
-               absurdités au sujet de <ref target="#walt_whitman_l_homme_et_son_oeuvre">Whitman</ref>; j'ai<lb/>
+               <persName ref="#balzaguette_léon">Bazalgette</persName>, ont écrit de bien
+               pompeuses<lb/> absurdités au sujet de <ref
+                  target="#walt_whitman_l_homme_et_son_oeuvre">Whitman</ref>; j'ai<lb/>
                soigneusement découpé tout cela, puis<lb/> épinglé au verso de votre chronique;<lb/>
                je ressortirai cela quelque jour.</p>
             <pb type="recto" n="178"
-               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f178.item.r=Apollinaire%20manuscrits" rend="align(center) format(landscape)"/>
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f178.item.r=Apollinaire%20manuscrits"
+               rend="align(center) format(landscape)"/>
             <closer>
-               <salute>Au revoir mon cher <persName ref="#apollinaire_guillaume">Apollinaire</persName>;
-                  croyez à ma<lb/> bien attentive affection</salute>
-               <signed><persName ref="#illisible_name"><gap quantity="8" unit="char" reason="illegible"/></persName></signed>
+               <salute>Au revoir mon cher <persName ref="#apollinaire_guillaume"
+                     >Apollinaire</persName>; croyez à ma<lb/> bien attentive affection</salute>
+               <signed><persName ref="#illisible_name"><gap quantity="8" unit="char"
+                        reason="illegible"/></persName></signed>
             </closer>
             <postscript>
                <p>Un mot de vous qui me disait ce que vous<lb/> devenez me ferait plaisir</p>
@@ -219,8 +226,9 @@
                en a <lb/>aussi qui demandent <lb/>toute mon attention pour <lb/>que je les comprenne
                ! ... <lb/>Je sais que vous dites qu'il <lb/>ne faut pas vouloir tou- <lb/>jours
                comprendre. Mais <lb/>je ne puis pas faire <lb/>autrement.</p>
-            <p>Et <persName ref="#rétif_de_la_bretonne">Restif</persName> ? J'ai une <lb/>nouvelle chose de lui
-                  <lb/><ref target="#l_enclos_et_les_oiseaux">L'Enclos et les oiseaux</ref>
+            <p>Et <persName ref="#rétif_de_la_bretonne">Restif</persName> ? J'ai une <lb/>nouvelle
+               chose de lui <lb/><ref target="#l_enclos_et_les_oiseaux">L'Enclos et les
+                  oiseaux</ref>
                <metamark function="separation" rend="line"/>
                <lb/>La connaissez-vous?</p>
             <closer>
@@ -232,7 +240,8 @@
             <span rend="align(top left) style(underlined)">poster</span>
             <span type="receiver">
                <address rend="align(center)">
-                  <persName>Monsieur <persName ref="#apollinaire_guillaume">Apollinaire</persName></persName>
+                  <persName>Monsieur <persName ref="#apollinaire_guillaume"
+                     >Apollinaire</persName></persName>
                   <street><placeName ref="#paris">202 Bv St Germain</placeName></street>
                </address>
             </span>
@@ -247,15 +256,15 @@
             <p>Il est très beau, votre <lb/>livre très pénétrant et <lb/>d'un art savant. Vous
                <lb/>auriez pu me conquérir <lb/>avec votre <gap quantity="6" unit="char"
                   reason="illegible"/><add place="above">originalité</add> toute <lb/>nue . J'en
-               goute <lb/>la singulière acuité <lb/>humaine, avec des <lb/>parties de vous
-               <lb/>si rare, et qui </p>
+               goute <lb/>la singulière acuité <lb/>humaine, avec des <lb/>parties de vous <lb/>si
+               rare, et qui </p>
             <pb type="verso"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f181.item.r=Apollinaire%20manuscrits"/>
             <p>prolongent si haut leurs <lb/>perspectives. Et puis, <lb/>la parfaite série des
                <lb/>souvenirs de prison ! Tout <lb/>cela m'a charmé, et <lb/>je vous admire.</p>
             <closer>
                <salute rend="align(center)">Bien à vous</salute>
-               <signed rend="align(center)"><persName ref='#bounélier'>Bounélier</persName></signed>
+               <signed rend="align(center)"><persName ref="#bounélier">Bounélier</persName></signed>
             </closer>
          </div>
          <div type="letter" n="170">
@@ -272,30 +281,28 @@
             <p>Je reçois ce matin votre livre, et je vous <lb/>remercie tout de suite de la
                charmante <lb/>attention, mais tout aussitôt le bibliophile <lb/>(tout est relatif,
                hélas!) prend la parole <lb/>et vous signale que, en dépit de l’attention <lb/>de la
-               couverture, aucun portrait par <persName ref="#picasso_pablo">Pablo <lb/>Picasso</persName>
-               n’accompagne mon exemplaire. <lb/>Est-il omis aux exemplaires de service, ou
-               <lb/>bien est-ce négligence réparable ? Je ne coupe <lb/>pas les pages du livre, en
-               attendant de savoir, <lb/>et cependant j’en suis impatient, d’autant <lb/>plus que
-               j’ai au passage reconnu plus d’un <lb/>titre de poème que j’ai aimé et que je
-               <lb/>relirai avec joie. </p>
+               couverture, aucun portrait par <persName ref="#picasso_pablo">Pablo
+                  <lb/>Picasso</persName> n’accompagne mon exemplaire. <lb/>Est-il omis aux
+               exemplaires de service, ou <lb/>bien est-ce négligence réparable ? Je ne coupe
+               <lb/>pas les pages du livre, en attendant de savoir, <lb/>et cependant j’en suis
+               impatient, d’autant <lb/>plus que j’ai au passage reconnu plus d’un <lb/>titre de
+               poème que j’ai aimé et que je <lb/>relirai avec joie. </p>
             <closer>
                <salute>Bien cordialement</salute>
                <signed><persName ref="#fontainas_andré">André Fontainas</persName></signed>
             </closer>
             <postscript>
                <p><placeName ref="#paris">38 rue Desbordes Valmore (XVI<hi rend="sup"
-                  >e</hi>)</placeName></p>
+                     >e</hi>)</placeName></p>
             </postscript>
          </div>
       </body>
    </text>
    <standOff>
-      <listPerson type="receiver">
+      <listPerson>
          <person xml:id="apollinaire_guillaume">
             <persName><forename>Guillaume</forename><surname>Apollinaire</surname></persName>
          </person>
-      </listPerson>
-      <listPerson type="senders">
          <person xml:id="tharaud_jean_jacques">
             <persName><forename>Jean-Jacques</forename><surname>Tharaud</surname></persName>
             <note>Écrivain français</note>
@@ -321,8 +328,6 @@
          <person xml:id="ac">
             <persName>A.C</persName>
          </person>
-      </listPerson>
-      <listPerson type="references">
          <person xml:id="picasso_pablo">
             <persName><forename>Pablo</forename><surname>Picasso</surname></persName>
             <note>Peintre, dessinateur, sculpteur et graveur espagnol.</note>
@@ -364,7 +369,7 @@
          <person xml:id="louvigné_du_dézert">
             <persName><forename>Louvigné</forename><surname>du Dezert</surname></persName>
             <note>Poète libertin fictif inventé par <persName ref="#fleuret_ferdinand">Fernand
-               Fleuret</persName></note>
+                  Fleuret</persName></note>
          </person>
          <person xml:id="abgar_v_oukama">
             <persName>Abgar V Oukâma ou Le Noir</persName>
@@ -401,7 +406,7 @@
          <head>Références bibliographiques</head>
          <listBibl>
             <listBibl>
-               <head>Référence à Alcools (1913)</head>
+               <head>Références à Alcools (1913)</head>
                <bibl>
                   <title>Alcools (1913)</title>
                   <relatedItem>
@@ -419,14 +424,29 @@
             <listBibl>
                <head>Références littéraires</head>
                <listBibl>
-                  <bibl type="fiction" xml:id="la_légende_de_la_mort"><title>La légende de la mort</title>
+                  <bibl type="fiction" xml:id="la_légende_de_la_mort"><title>La légende de la mort
+                        en Basse-Bretagne</title>
                      <author>Anatole Le Braz</author>
-                     <date>1893</date></bibl>
-                  <bibl type="biography" xml:id="walt_whitman_l_homme_et_son_oeuvre"><title>Walt Whitman: l'homme et son oeuvre</title>
+                     <editor>
+                        <name>Honoré Champion</name>
+                     </editor>
+                     <pubPlace>Paris</pubPlace>
+                     <date when="1893">1893</date></bibl>
+                  <bibl type="biography" xml:id="walt_whitman_l_homme_et_son_oeuvre"><title>Walt
+                        Whitman: l'homme et son oeuvre</title>
                      <author><persName ref="#balzaguette_léon">Léon Balzaguette</persName></author>
-                     <date>1908</date></bibl>
-                  <bibl type="shortstory" xml:id="l_enclos_et_les_oiseaux"><title>L'enclos et les oiseaux</title>
-                     <author><persName ref="#rétif_de_la_bretonne">Rétif de la Bretonne</persName></author>
+                     <editor>
+                        <name>Mercure de France</name>
+                     </editor>
+                     <pubPlace>Paris</pubPlace>
+                     <date when="1908">1908</date>
+                     <note
+                        facs="https://gallica.bnf.fr/ark:/12148/bpt6k96692828.r=walt%20whitman%20l%27homme%20et%20son%20oeuvre?rk=21459;2"
+                        >La 3e édition, datant de 1926, est disponible sur Gallica</note></bibl>
+                  <bibl type="shortstory" xml:id="l_enclos_et_les_oiseaux"><title>L'enclos et les
+                        oiseaux</title>
+                     <author><persName ref="#rétif_de_la_bretonne">Rétif de la
+                        Bretonne</persName></author>
                   </bibl>
                </listBibl>
             </listBibl>
