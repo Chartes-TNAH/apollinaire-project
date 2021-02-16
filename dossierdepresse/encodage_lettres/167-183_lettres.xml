@@ -19,7 +19,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="letter" n="167, 168">
+         <div type="letter" n="167, 168" xml:id="lettre_167-168">
             <pb type="recto"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f167.item.r=Apollinaire%20manuscrits"/>
             <opener>
@@ -46,7 +46,7 @@
             </closer>
          </div>
          <div type="letter" n="172, 173, 174" xml:id="lettre_172-174">
-            <pb type="recto" n="172"
+            <pb type="recto"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f172.item.r=Apollinaire%20manuscrits"/>
             <opener>
                <address rend="align(top left)">
