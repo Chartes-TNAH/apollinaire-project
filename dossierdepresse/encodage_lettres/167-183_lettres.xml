@@ -192,8 +192,7 @@
                soigneusement découpé tout cela, puis<lb/> épinglé au verso de votre chronique;<lb/>
                je ressortirai cela quelque jour.</p>
             <pb type="recto" n="178"
-               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f178.item.r=Apollinaire%20manuscrits"/>
-            <space dim="vertical"/>
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f178.item.r=Apollinaire%20manuscrits" rend="align(center) format(landscape)"/>
             <closer>
                <salute>Au revoir mon cher <persName ref="#Apollinaire">Apollinaire</persName>;
                   croyez à ma<lb/> bien attentive affection</salute>
