@@ -99,8 +99,8 @@
                Je vous en reparlerai quand j'aurai<lb/>
                tout lu et que nous nous reverrons<lb/>
                ce qui sera bientôt, j'espère,</p>
-            <closer><salute rend="center">Bien cordialement à vous.</salute>
-               <signed rend="center"><persName ref="#boutet_frederic">frédéric Boutet</persName>.</signed>
+            <closer><salute rend="align(center)">Bien cordialement à vous.</salute>
+               <signed rend="align(center)"><persName ref="#boutet_frederic">frédéric Boutet</persName>.</signed>
             </closer>
             <pb type="verso" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f193.item"/> 
             <spanGrp type="postmarked">
@@ -184,9 +184,9 @@
                ailleurs si vous préférez. (vers midi ?)</p>
             <closer>
                <salute>Amitiés de nous trois</salute>
-               <signed rend="center"><persName ref="#de_chamaillard_ernest">E de Chamaillard</persName></signed>
+               <signed rend="align(center)"><persName ref="#de_chamaillard_ernest">E de Chamaillard</persName></signed>
                <address>
-                  <addrLine rend="center">3 Rue Joseph Bara</addrLine>
+                  <addrLine rend="align(center)">3 Rue Joseph Bara</addrLine>
                </address>
             </closer>
             <postscript>
