@@ -705,7 +705,9 @@
                   <bibl type="review" xml:id="la_phalange">
                      <title>La Phalange</title>
                      <note>Revue littéraire, <date from="1906" to="1939">crée en 1906. Sa parution a
-                           duré jusqu'en 1939</date></note>
+                           duré jusqu'en 1939</date>. La revue accueille dans ses pages <persName
+                           ref="#carco_francis">Francis Carco</persName> et <persName
+                           ref="#apollinaire_guillaume">Apollinaire</persName>, en autres.</note>
                   </bibl>
                   <bibl type="review" xml:id="la_vie_des_lettres">
                      <title>La vie des lettres</title>
@@ -723,7 +725,9 @@
                   <bibl type="newspaper" xml:id="l_instransigeant">
                      <title>L'Intransigeant</title>
                      <note>Quotidien qui a paru à Paris de <date from="1880" to="1948">1880 à
-                           1948</date>.</note>
+                           1948</date>. <persName ref="#apollinaire_guillaume"
+                           >Apollinaire</persName> fait parti des collaborateurs notoires du
+                        quotidien en tant que critique d'art de 1910 à 1914. </note>
                   </bibl>
                </listBibl>
             </listBibl>
