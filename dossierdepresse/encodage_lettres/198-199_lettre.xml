@@ -43,9 +43,9 @@
                ailleurs si vous préférez. (vers midi ?)</p>
             <closer>
                <salute>Amitiés de nous trois</salute>
-               <signed rend="center">S de Chamaillares</signed>
+               <signed rend="align(center)">S de Chamaillares</signed>
                <address>
-                  <addrLine rend="center">3 Rue Joseph Bara</addrLine>
+                  <addrLine rend="align(center)">3 Rue Joseph Bara</addrLine>
                </address>
             </closer>
             <postscript>
