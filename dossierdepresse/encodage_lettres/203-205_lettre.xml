@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lettre_203-205</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="letter" n="203,204,205" xml:id="lettre_203-205">
+            <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f203.item.r=Apollinaire%20manuscrits"/>
+            <opener>
+               <salute>Mon cher Poete</salute>
+            </opener>
+            <p>Comme certaines<lb/>
+               de vos pieces ou vers me plai-<lb/>
+               sent. Je note surtout "La<lb/>
+               maison des morts &amp; le poeme<lb/>
+               pour le mariage de Salmon.<lb/>
+               C'est personnel, vif, aigu,<lb/> 
+               vivant. Toutes mes bonnes<lb/>
+               felicitations vont vers vous</p>
+            <p rend="align(left) format(landscape)">Comme je me souviens du Festin d'Esope !</p>
+            <closer>
+               <salute>Votre</salute>
+               <signed><gap quantity="11" unit="char" reason="illegible"/></signed>
+            </closer>
+            <pb type="verso" subtype="empty" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f204.item.r=Apollinaire%20manuscrits"/>
+            <pb type="verso" subtype="empty" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f205.item.r=Apollinaire%20manuscrits"/>
+         </div>
+      </body>
+  </text>
+</TEI>
