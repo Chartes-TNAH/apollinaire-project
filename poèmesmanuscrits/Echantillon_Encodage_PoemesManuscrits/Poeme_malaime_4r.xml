@@ -36,7 +36,7 @@
                 </physDesc>
             </msDesc>
             <div type="poeme">
-                <head>La chanson du mal aimé</head>
+                <head>La chanson du Mal aimé</head>
                 <div type="recto" n="4" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f25">
                     <figure place="align(top left)">
                         <figDesc>Grande rature ronde</figDesc>
@@ -64,17 +64,16 @@
                         <l><del><unclear>V</unclear></del>ous qui aimez, vous n’avez</l>
 
                         <l><subst>
-                                <del>Connu d’Amour de cette sor<unclear>te</unclear></del>
-                                <add rend="overtyped"> vu, couché dans les feuilles
+                                <del quantity="6" unit="word" rend="overtyped">Connu d’Amour de cette sor<unclear>te</unclear></del>
+                                <add> vu, couché dans les feuilles
                                         m<unclear>ortes</unclear></add>
                             </subst></l>
                         <l><subst>
-                                <del>D’Amour aime jusqu’au t<unclear>répas</unclear></del>
-                                <add rend="overtyped">Mon <del quantity="1" unit="word"
+                                <del quantity="4" unit="word" rend="overtyped">D’Amour aime jusqu’au t<unclear>répas</unclear></del>
+                                <add>Mon <del quantity="1" unit="word"
                                         rend="strikethrough">pauvre</del> Amour après son
                                     trépas</add>
                             </subst></l>
-                        <metamark place="left" rend="tampon"/>
                         <l>
                             <del><gap quantity="1" unit="word" reason="illegible"/></del> coeurs
                             bougent <del><gap quantity="1" unit="word" reason="illegible"/></del>
