@@ -567,7 +567,7 @@
          <person xml:id="du_dézert_louvigné">
             <persName><forename>Louvigné</forename><surname>du Dezert</surname></persName>
             <note>Poète libertin fictif inventé par <persName ref="#fleuret_ferdinand">Fernand
-               Fleuret</persName></note>
+                  Fleuret</persName></note>
          </person>
          <person xml:id="dürer_albrecht">
             <persName><forename>Albrecht</forename><surname>Dürer</surname></persName>
@@ -619,7 +619,7 @@
          <person xml:id="tharaud_jean_jacques">
             <persName><forename>Jean-Jacques</forename><surname>Tharaud</surname></persName>
             <note>Écrivain français</note>
-         </person>   
+         </person>
          <person xml:id="velasquez_diego">
             <persName><forename>Diego</forename><surname>Vélasquez</surname></persName>
             <note>Peintre baroque espagnol</note>
@@ -690,7 +690,7 @@
                         Whitman: l'homme et son oeuvre</title>
                      <author><persName ref="#balzaguette_léon">Léon Balzaguette</persName></author>
                      <editor>
-                        <name>Mercure de France</name>
+                        <name ref="#mercure_de_france">Mercure de France</name>
                      </editor>
                      <pubPlace>Paris</pubPlace>
                      <date when="1908">1908</date>
@@ -704,15 +704,26 @@
                <listBibl>
                   <bibl type="review" xml:id="la_phalange">
                      <title>La Phalange</title>
+                     <note>Revue littéraire, <date from="1906" to="1939">crée en 1906. Sa parution a
+                           duré jusqu'en 1939</date></note>
                   </bibl>
                   <bibl type="review" xml:id="la_vie_des_lettres">
                      <title>La vie des lettres</title>
+                     <note>Revue littéraire dirigé par <persName ref="#beauduin_nicolas">Nicolas
+                           Beauduin</persName>. La première série de cette revue paraît entre
+                           d'<date from="1913" to="1914">avril 1913 et juillet 1914</date>.</note>
                   </bibl>
                   <bibl type="review" xml:id="mercure_de_france">
                      <title>Le mercure de France</title>
+                     <note>Revue française fondée en <date from="1672" to="1954">1672 sous le nom de
+                           Mercure galent, elle devient Mercure de France en 1724 et disparue en
+                           1954</date>. Elle a évolué en maison d'édition à la fin du XIXe
+                        siècle.</note>
                   </bibl>
                   <bibl type="newspaper" xml:id="l_instransigeant">
                      <title>L'Intransigeant</title>
+                     <note>Quotidien qui a paru à Paris de <date from="1880" to="1948">1880 à
+                           1948</date>.</note>
                   </bibl>
                </listBibl>
             </listBibl>
