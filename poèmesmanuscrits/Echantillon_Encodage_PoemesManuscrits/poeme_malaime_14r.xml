@@ -62,22 +62,19 @@
                      <figDesc>Autre accolade regroupant mes deux vers suivants, notés "2" et "1", et
                         avec un nombre barré.</figDesc>
                   </figure>
-                  <figure rend="align(center)">
-                     <figDesc>Tampon sur lequel on lit "Bibliothèque nationale MSS.</figDesc>
-                  </figure>
                   <l>Cornu comme les mauvais anges</l>
                   <l>Plus criminel que Barrabas</l>
                   <l><del quantity="3" unit="word" rend="strikethrough">Ne réponds rien</del></l>
                </lg>
                <l>Poisson <subst>
-                     <del><gap quantity="1" unit="word" reason="illegible"/></del>
-                     <add rend="overtyped">pourri</add>
+                     <del rend="overtyped"><gap quantity="1" unit="word" reason="illegible"/></del>
+                     <add>pourri</add>
                   </subst> de Salonique,</l>
                <l>Gemmes de cabochons affreux</l>
                <l>Des yeux creuvés à coup de piques</l>
                <l>Ta <subst>
-                     <del quantity="2" unit="char">fi</del>
-                     <add rend="overtyped">pourri</add>
+                     <del quantity="2" unit="char" rend="overtyped">fi</del>
+                     <add>pourri</add>
                   </subst> fit un pet foireux</l>
                <l>Et tu naquis de sa colique</l>
                <l><del quantity="3" unit="word" rend="strikethrough">Ne réponds rien</del></l>
@@ -88,8 +85,8 @@
                   <l><del quantity="2" unit="word" rend="strikethrough">Tes riches</del></l>
                   <l>Tes richesses garde<del rend="strikethrough">nt</del> les toutes</l>
                   <l>Pour payer <subst>
-                        <del quantity="1" unit="char">d</del>
-                        <add rend="overtyped">t</add>
+                        <del quantity="1" unit="char" rend="overtyped">d</del>
+                        <add>t</add>
                      </subst>es médicaments.</l>
                </lg>
             </div>
