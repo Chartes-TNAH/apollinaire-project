@@ -38,7 +38,7 @@
             <pb type="verso" subtype="empty" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f186.item.r=Apollinaire%20manuscrits"/>
             <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f187.item.r=Apollinaire%20manuscrits"/>
             <cb n="2"/>
-            <p>admiré dans la Phalange vos<lb/>
+            <p>admiré dans <ref target="#la_phalange">la Phalange</ref> vos<lb/>
                <ref target="#rhenane">Rhénanes</ref> lorsqu'elles y ont<lb/> 
                paru.</p>
             <p>Croyez à toute l'expres-<lb/>
@@ -66,13 +66,13 @@
             </opener>
             <p>je ne puis aller vous voir tout à l'heu-<lb/>
                re car je suis accablé de besogne. Ce matin j'ai<lb/>
-               pris au Mercure votre beau livre que l'autre<lb/>
+               pris au <ref target="#mercure_de_france">Mercure</ref> votre beau livre que l'autre<lb/>
                nuit, chez <persName ref="#mac_orlan_pierre">Pierre Mac Orlan</persName>, nous avons lu<lb/>
                avec une admiration profonde. Vous savez<lb/>
                si j'aime votre art qui déguise mal la<lb/>
                souffrance d'un coeur que chaque minute<lb/>
                déçoit et blesse. Je veux écrire l'article que<lb/>
-               vous m'avez proposé à l'Intransigeant.</p>
+               vous m'avez proposé à <ref target="#l_instransigeant">l'Intransigeant</ref>.</p>
             <pb type="verso" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f191.item.r=Apollinaire%20manuscrits"/>
             <p>Donnez moi qqs. renseignement à ce sujet.<lb/>
                La longueur ? le ton (actualité ou littérature<lb/>
@@ -119,7 +119,7 @@
          </div>
          <div type="letter" n="194,195" xml:id="lettre_194-195">
             <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f194.item.r=Apollinaire%20manuscrits.zoom"/>
-            <p>Je vois que le <hi rend="underlined">Mercure</hi> est devenu<lb/>
+            <p>Je vois que le <hi rend="underlined"><ref target="#mercure_de_france">Mercure</ref></hi> est devenu<lb/>
                une impasse où l'on assassine.<lb/>
                Tous vos amis seront avec vous,<lb/>
                et leur plus beau jour sera<lb/>
@@ -131,7 +131,7 @@
          <div type="letter" n="196,197" xml:id="lettre_196-197">
             <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f196.item.r=Apollinaire%20manuscrits"/>
             <opener>
-               <stamp>LA VIE DES LETTRES<lb/>
+               <stamp><ref target="#la_vie_des_lettres">LA VIE DES LETTRES</ref><lb/>
                   COLLECTION ANTHOLOGIQUE ET CRITIQUE<lb/>
                   DE HAUTE LITTÉRATURE ET D'ART<lb/>
                   DIRECTEUR : <persName ref="#beauduin_nicolas">NICOLAS BEAUDUIN</persName><lb/>
@@ -149,7 +149,7 @@
                lu tout dernièrement un poeme écrit en votre honneur.<lb/>
                "<persName ref="apollinaire_guillaume">Apollinaire</persName> est un fastueux danseur" (danseur au sens<lb/>
                nietzchéen s'entend).</p>
-            <p>Aux pays verts de La vie des Lettres vous trouverez annoncé,<lb/>
+            <p>Aux pays verts de <ref target="#la_vie_des_lettres">La vie des Lettres</ref> vous trouverez annoncé,<lb/>
                comme je vous l'avais promis, votre livre sur <hi rend="underlined">le Cubisme</hi>.</p>
             <p>Encore mille fois merci de l'envoi de votre livre de<lb/>
                poèmes.</p>
@@ -291,16 +291,16 @@
             </listBibl>
             <listBibl>
                <head>Revues et journaux</head>
-               <bibl type="review">
+               <bibl type="review" xml:id="la_phalange">
                   <title>La Phalange</title>
                </bibl>
-               <bibl type="review">
+               <bibl type="review" xml:id="la_vie_des_lettres">
                   <title>La vie des lettres</title>
                </bibl>
-               <bibl type="review">
+               <bibl type="review" xml:id="mercure_de_france">
                   <title>Le mercure de France</title>
                </bibl>
-               <bibl type="newspaper">
+               <bibl type="newspaper" xml:id="l_instransigeant">
                   <title>L'Intransigeant</title>
                </bibl>
             </listBibl>
