@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dossier de presse</title>
+            <title type="sub">Lettre 180-181</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="180, 181">
+            <pb type="recto"
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f180.item.r=Apollinaire%20manuscrits"/>
+            <opener>
+               <dateline><date when="1913-06" rend="align(top left)">juin 1913</date></dateline>
+               <address>
+                  <addrLine rend="align(top left)"><placeName ref="#Paris"
+                     >Paris</placeName></addrLine>
+               </address>
+               <salute>Mon Monsieur,</salute>
+            </opener>
+            <p>Voici les lettres, puis <lb break="no"/>que je viens d’acheter les oeuvres
+               <lb/>complètes de cette dame. <lb/>Bien merci pour <hi rend="underligned"
+                  >Alcools</hi> (souligné) <lb/>Je les lis. Il y a des choses <lb/>exquises, et il y
+               en a <lb/>aussi qui demandent <lb/>toute mon attention pour <lb/>que je les comprenne
+               ! ... <lb/>Je sais que vous dites qu'il <lb/>ne faut pas vouloir tou- <lb/>jours
+               comprendre. Mais <lb/>je ne puis pas faire <lb/>autrement.</p>
+            <p>Et <persName ref="#Retif">Restif</persName> ? J'ai une <lb/>nouvelle chose de lui
+               <lb/><ref target="#enclos-oiseaux">L'Enclos et les oiseaux</ref> <metamark function="separation" rend="line"/>
+               <lb/>La connaissez-vous?</p>
+            <closer>
+               <salute rend="align(center)">Amicalement</salute>
+               <signed rend="align(center)">AC</signed>
+            </closer>
+            <pb type="verso"
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f181.item.r=Apollinaire%20manuscrits"/>
+            <span rend="align(top left) style(underlined)">poster</span>
+            <span type="receiver">
+               <address rend="align(center)">
+                  <persName>Monsieur <persName ref="#Apollinaire">Apollinaire</persName></persName>
+                  <street><placeName ref="#Paris">202 Bv St Germain</placeName></street>
+               </address>
+            </span>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listPerson>
+         <person xml:id="Apollinaire">
+            <persName><forename>Guillaume</forename><surname>Apollinaire</surname></persName>
+         </person>
+         <person xml:id="Retif">
+            <persName><forename>Nicolas</forename><surname>Rétif de la Bretonne</surname></persName>
+            <note>Écrivain français de la seconde moitié du XVIIe siècle</note>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place>
+            <country>France</country>
+            <placeName xml:id="Paris">Paris</placeName>
+         </place>
+      </listPlace>
+      <listBibl>
+         <head>Références littéraires</head>
+         <listBibl>
+            <bibl xml:id="enclos-oiseaux"><title>L'enclos et les oiseaux</title>
+               <author><persName ref="#Retif">Rétif de la Bretonne</persName></author>
+            </bibl>
+         </listBibl>
+      </listBibl>
+   </standOff>
+</TEI>

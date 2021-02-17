@@ -1,9 +1,9 @@
                     Répartition encodage lettres
 
 Axelle :
-
-Lettre_f165_f168
-lettre-f166
+lettre_165 ==> est la copie de la lettre 167-168
+lettre-f166 ==> est la copie du recto de la lettre 177-179
+Lettre_f167_f168
 Lettre_f170
 lettre_fernand_fleuret-f172-174
 carte_visite_docteur_aime-f175-176
