@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lettre 198_199</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="198,199" xml:id="lettre_198-199">
+            <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f198.item.r=Apollinaire%20manuscrits"/>
+            <span type="gratitude" rend="align(top left)">
+               Votre volume de<lb/>
+               vers me charme de plus<lb/>
+               en plus et je sais combien<lb/>
+               est rare l'édition<lb/>
+               que vous m'avez<lb/>
+               si aimablement offerte.<lb/>
+               Merci donc<lb/>
+               encore une<lb/>
+               fois.</span>
+            <opener>
+               <salute>Mon cher ami</salute>
+            </opener>
+            <p>Voilà le temps qui passe, et nous ne<lb/>
+               sommes plus pour bien longtemps<lb/>
+               à Paris. Or nous serions très heureux<lb/>
+               de passer encore quelques bons<lb/>
+               moments <del rend="crossed">aV vous</del> avec vous.</p>
+            <p>Voulez-vous venir déjeuner<lb/>
+               samedi matin, chez Baty ... ou<lb/>
+               ailleurs si vous préférez. (vers midi ?)</p>
+            <closer>
+               <salute>Amitiés de nous trois</salute>
+               <signed rend="align(center)">S de Chamaillares</signed>
+               <address>
+                  <addrLine rend="align(center)">3 Rue Joseph Bara</addrLine>
+               </address>
+            </closer>
+            <postscript>
+               <p>Si samedi ne vous convient pas, propo-<lb/>
+                  sez-nous un autre jour.</p>
+               <p>Jeudi matin.</p>
+            </postscript>
+            <pb type="verso" subtype="empty" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f199.item.r=Apollinaire%20manuscrits"/>
+         </div>
+      </body>
+   </text>
+</TEI>
