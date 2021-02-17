@@ -32,13 +32,14 @@
              </physDesc> 
          </msDesc>
          <div type="poeme" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f63.item.r=Manuscrit%20Apollinaire">
-            <head>1909 <add place="beside">88:</add></head>
+            <head>1909 <add place="beside">88</add></head>
+		 <p><add place="top">18</add></p>
             <lg type="quintil" n="1">
                <l>La dame avait une robe</l>
                <l>En ottoman violine</l>
                <l>Et sa tunique brodée d’or</l>
                <l>Était composée de deux panneaux</l>
-               <l> S’attachant sur l’épaule.</l>
+               <l>S’attachant sur l’épaule.</l>
             </lg>
             <lg type="quintil" n="2"> 
                <l>Les yeux dansants comme des anges</l>
@@ -48,22 +49,25 @@
                <l>Elle avait un visage aux couleurs de France.</l>
             </lg>
             <lg type="septain" n="1"> 
-               <l>  Elle était décolletée en rond</l>
+               <l>Elle était décolletée en rond</l>
                <l>Et coiffée à la Récamier</l>
                <l>Avec de beaux bras nus.</l>
-               <l><delSpan spanTo="#l7" quantity="4" unit="line"/>Pareils au col candide</l> 
+               <l><delSpan spanTo="#l7" quantity="4" unit="line" rend="strikethrough"/>Pareils au col candide</l> 
                <l>De l’amant divin et ailé</l>
                <l>De cette Léda solitaire</l>
                <l>Que deux étoiles appellent ma mère<anchor xml:id="l7"/></l>
             </lg>
             <lg type="monostiche" n="1">
-               <l> - N’entendra-t-on jamais sonner minuit <del><gap quantity="1" unit="word" reason="illegible"/></del></l>
+               <l> - N’entendra-t-on jamais sonner minuit <del rend="strikethrough"><gap quantity="1" unit="word" reason="illegible"/></del></figure>
+                  <figure rend="align(center)">
+                     <figDesc>Tampon de la BnF</figDesc>
+                  </figure></l>
             </lg>
              <lg type="quatrain" n="1"> 
                 <l>La dame en robe d’ottoman violine</l>
                 <l>Et en tunique brodée d’or</l>
-                <l> Décolletée en rond</l> 
-                <l><subst><add>Promène</add><del>promenait</del></subst> ses boucles</l>
+                <l>Décolletée en rond</l> 
+                <l><subst><del quantity="3" unit="char" rend="overtyped">promenait</del><add>Promène</add></subst> ses boucles</l>
             </lg>
             <lg type="quatrain" n="2"> 
                <l>Son bandeau d’or</l>
