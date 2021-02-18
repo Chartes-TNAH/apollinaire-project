@@ -30,7 +30,7 @@
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f166.item.r=Apollinaire%20manuscrits.zoom"
             />
          </div>
-         <div type="letter" n="167, 168" xml:id="lettre_167-168">
+         <div type="letter" n="167, 168, 169" xml:id="lettre_167-169">
             <pb type="recto"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f167.item.r=Apollinaire%20manuscrits"/>
             <opener>
@@ -56,6 +56,8 @@
                <signed rend="align(center)"><persName ref="tharaud_jean_jacques">J.J
                      Tharaud</persName></signed>
             </closer>
+            <pb type="verso" subtype="empty"
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f169.item.r=Apollinaire%20manuscrits"/>
          </div>
          <div type="letter" n="170, 171" xml:id="lettre_170-171">
             <pb type="recto"
@@ -116,7 +118,7 @@
                rythme bondissant et docile comme une <lb/>balle de paume, et cette sincérité, de
                chagrin, <lb/>que l'art le plus travaillé ne sait étouffer.</p>
 
-            <pb type="verso" subtype="empty"
+            <pb type="verso"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f173.item.r=Apollinaire%20manuscrits"/>
             <p>Votre <ref target="#salomé">Salomé</ref> est une estampe charmante de <persName
                   ref="#dürer_albrecht">Dürer</persName> ou <lb/>d'<persName ref="#holbein_hans"
@@ -184,6 +186,8 @@
                <signed rend="align(left)">Votre ami <lb/><persName ref="#fleuret_ferdinand">Fernand
                      Fleuret</persName>.</signed>
             </closer>
+            <pb type="verso" subtype="empty"
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f174.item.r=Apollinaire%20manuscrits"/>
          </div>
          <div type="letter" n="175, 176" xml:id="lettre_175-176">
             <pb type="recto"
@@ -225,7 +229,7 @@
                s'abandonne<lb/> à vous; vous le menez où il me plait<lb/> d'aller _ et si piètre
                causeur que je<lb/> sois il me semble que je m'entendrais<lb/> aussi bien avec
                vous.</p>
-            <pb type="verso" n="178"
+            <pb type="verso"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f178.item.r=Apollinaire%20manuscrits"/>
             <p>Je regrette aussi que la N.R.F. n'ait<lb/> jamais revu votre nom à nos
                sommaires,<lb/> depuis le jour de la note sur le Romains!</p>
@@ -237,7 +241,7 @@
                   target="#walt_whitman_l_homme_et_son_oeuvre">Whitman</ref>; j'ai<lb/>
                soigneusement découpé tout cela, puis<lb/> épinglé au verso de votre chronique;<lb/>
                je ressortirai cela quelque jour.</p>
-            <pb type="recto" n="178"
+            <pb type="recto"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f178.item.r=Apollinaire%20manuscrits"
                rend="align(center) format(landscape)"/>
             <closer>
@@ -249,7 +253,7 @@
             <postscript>
                <p>Un mot de vous qui me disait ce que vous<lb/> devenez me ferait plaisir</p>
             </postscript>
-            <pb type="verso" subtype="empty" n="179" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f179.item.r=Apollinaire%20manuscrits"/>
+            <pb type="verso" subtype="empty" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f179.item.r=Apollinaire%20manuscrits"/>
          </div>
          <div type="letter" n="180, 181" xml:id="lettre_180-181">
             <pb type="recto"
@@ -300,15 +304,17 @@
                   reason="illegible"/><add place="above">originalité</add> toute <lb/>nue . J'en
                goute <lb/>la singulière acuité <lb/>humaine, avec des <lb/>parties de vous <lb/>si
                rare, et qui </p>
-            <pb type="verso"
-               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f181.item.r=Apollinaire%20manuscrits"/>
+            <pb type="verso" subtype="empty"
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f183.item.r=Apollinaire%20manuscrits"/>
+            <pb type="recto"
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f183.item.r=Apollinaire%20manuscrits"/>
             <p>prolongent si haut leurs <lb/>perspectives. Et puis, <lb/>la parfaite série des
                <lb/>souvenirs de prison ! Tout <lb/>cela m'a charmé, et <lb/>je vous admire.</p>
             <closer>
                <salute rend="align(center)">Bien à vous</salute>
                <signed rend="align(center)"><persName ref="#bounélier">Bounélier</persName></signed>
             </closer>
-            <pb type="recto" subtype="empty"
+            <pb type="verso" subtype="empty"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f184.item.r=Apollinaire%20manuscrits"/>
          </div>
          <div type="letter" n="185, 186, 187" xml:id="lettre_185-187">
