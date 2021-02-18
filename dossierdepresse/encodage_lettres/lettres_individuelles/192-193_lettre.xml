@@ -18,7 +18,7 @@
   </teiHeader>
   <text>
       <body>
-          <div type="letter" n="192,193" xml:id="lettre_192-193">
+          <div type="letter" n="192, 193" xml:id="lettre_192-193">
              <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f192.item"/>
              <opener>
                 <dateline><date when="1913-06-19">19 Juin 1913</date></dateline>
