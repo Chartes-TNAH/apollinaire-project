@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dossier de presse</title>
+            <title type="sub">Lettre 177-178</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="177, 178, 179" xml:id="lettre_177-179">
+            <pb type="recto"
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f177.item.r=Apollinaire%20manuscrits"/>
+            <opener>
+               <dateline><date when="1913-06-19" rend="align(left)">19 Juin 13-</date></dateline>
+               <address rend="align(top right)">
+                  <addrLine><placeName ref="#Cuverville">Cuverville</placeName><lb/> par <placeName
+                        ref="#Criquetot">Criquetot L'Esneval</placeName><lb/> 8<hi rend="sup"
+                        >me</hi> Inf<hi rend="sup">rie</hi></addrLine>
+               </address>
+               <salute>Mon cher <persName ref="#Apollinaire">Apollinaire</persName>,</salute>
+            </opener>
+            <p>Votre livre, un des rares que j'emporte<lb/> ici avec moi, augmente mes regrets de
+               vous<lb/> avoir si peu vu cet hiver _ ou même:<lb/> pas du tout. J'aime votre poésie,
+               et<lb/> je m'entends bien avec elle; mon esprit<lb/> s'y sent sur sa pente et
+               s'abandonne<lb/> à vous; vous le menez où il me plait<lb/> d'aller _ et si piètre
+               causeur que je<lb/> sois il me semble que je m'entendrais<lb/> aussi bien avec
+               vous.</p>
+            <pb type="verso" n="178"
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f178.item.r=Apollinaire%20manuscrits"/>
+            <p>Je regrette aussi que la N.R.F. n'ait<lb/> jamais revu votre nom à nos
+               sommaires,<lb/> depuis le jour de la note sur le Romains!</p>
+            <p>Et je suis reparti un peu triste, l'autre<lb/> soir, des ballets russes, de ne vous
+               avoir<lb/> qu'entrevu. Car c'était bien vous, n'est-<lb/> ce pas?</p>
+            <p>Vous êtes cause que Merrille, puis<lb/>
+               <persName ref="#Balzaguette">Bazalgette</persName>, ont écrit de bien pompeuses<lb/>
+               absurdités au sujet de <ref target="#whitman-ouvrage">Whitman</ref>; j'ai<lb/>
+               soigneusement découpé tout cela, puis<lb/> épinglé au verso de votre chronique;<lb/>
+               je ressortirai cela quelque jour.</p>
+            <pb type="recto" n="178"
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f178.item.r=Apollinaire%20manuscrits"/>
+            <closer>
+               <salute>Au revoir mon cher <persName ref="#Apollinaire">Apollinaire</persName>;
+                  croyez à ma<lb/> bien attentive affection</salute>
+               <signed><gap quantity="8" unit="char" reason="illegible"/></signed>
+            </closer>
+            <postscript>
+               <p>Un mot de vous qui me disait ce que vous<lb/> devenez me ferait plaisir</p>
+            </postscript>
+            <pb type="verso" subtype="empty" n="179" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f179.item.r=Apollinaire%20manuscrits"/>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listPerson>
+         <person xml:id="Apollinaire">
+            <persName><forename>Guillaume</forename><surname>Apollinaire</surname></persName>
+         </person>
+         <person xml:id="Balzaguette">
+            <persName><forename>Léon</forename><surname>Balzaguette</surname></persName>
+            <note>Écrivain, critique littéraire, biographe et traducteur français.</note>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place>
+            <country>France</country>
+            <placeName xml:id="Cuverville">Cuverville</placeName>
+            <placeName xml:id="Criquetot">Criquetot L'Esneval</placeName>
+         </place>
+      </listPlace>
+      <listBibl>
+         <head>Références littéraires</head>
+         <listBibl>
+            <bibl xml:id="whitman-ouvrage"><title>Walt Whitman: l'homme et son oeuvre</title>
+               <author><persName ref="#Balzaguette">Léon Balzaguette</persName></author>
+               <date>1908</date></bibl>
+         </listBibl>
+      </listBibl>
+   </standOff>
+</TEI>
