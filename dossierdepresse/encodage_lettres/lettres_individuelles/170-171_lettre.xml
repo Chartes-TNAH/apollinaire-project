@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dossier de presse</title>
+            <title type="sub">Lettre 170</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="170,171" xml:id="lettre_170-171">
+            <pb type="recto"
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f170.item.r=Apollinaire%20manuscrits"/>
+            <opener>
+               <address rend="align(top right)">
+                  <addrLine><placeName ref="#Paris">Paris</placeName></addrLine>
+               </address>
+               <dateline><date when="1913-06-07" rend="align(top left)">7 juin
+                  1913</date></dateline>
+               <salute>Mon cher Ami,</salute>
+            </opener>
+            <p>Je reçois ce matin votre livre, et je vous <lb/>remercie tout de suite de la
+               charmante <lb/>attention, mais tout aussitôt le bibliophile <lb/>(tout est relatif,
+               hélas!) prend la parole <lb/>et vous signale que, en dépit de l’attention <lb/>de la
+               couverture, aucun portrait par <persName ref="#Picasso">Pablo <lb/>Picasso</persName>
+               n’accompagne mon exemplaire. <lb/>Est-il omis aux exemplaires de service, ou
+               <lb/>bien est-ce négligence réparable ? Je ne coupe <lb/>pas les pages du livre, en
+               attendant de savoir, <lb/>et cependant j’en suis impatient, d’autant <lb/>plus que
+               j’ai au passage reconnu plus d’un <lb/>titre de poème que j’ai aimé et que je
+               <lb/>relirai avec joie. </p>
+            <closer>
+               <salute>Bien cordialement</salute>
+               <signed><persName ref="#Fontainas">André Fontainas</persName></signed>
+            </closer>
+            <postscript>
+               <p><placeName ref="#Paris">38 rue Desbordes Valmore (XVI<hi rend="sup"
+                     >e</hi>)</placeName></p>
+            </postscript>
+            <pb type="verso" subtype="empty" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f171.item.r=Apollinaire%20manuscrits"/>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listPerson>
+         <person xml:id="Fontainas">
+            <persName><forename>André</forename><surname>Fontainas</surname></persName>
+            <note>Poète et un critique français, belge de naissance.</note>
+         </person>
+         <person xml:id="Picasso">
+            <persName><forename>Pablo</forename><surname>Picasso</surname></persName>
+            <note>Peintre, dessinateur, sculpteur et graveur espagnol.</note>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place>
+            <country>France</country>
+            <placeName xml:id="Paris">Paris</placeName>
+         </place>
+      </listPlace>
+   </standOff>
+</TEI>
