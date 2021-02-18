@@ -25,27 +25,27 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItemStruct n="1" xml:lang="fr" xml:id="P1">
+                  <msItemStruct n="1" xml:lang="fr" xml:id="le-pont-mirabeau">
                      <locus>f.1</locus>
                      <title>Le Pont Mirabeau</title>
                      <note>Manuscrit autographe</note>
                   </msItemStruct>
-                  <msItemStruct n="2" xml:lang="fr" xml:id="P2">
+                  <msItemStruct n="2" xml:lang="fr" xml:id="la-chanson-du-mal-aime">
                      <locus>ff. 2-14</locus>
                      <title>La chanson du Mal-Aimé</title>
                      <note>Manuscrit autographe. Un premier feuillet correspondant aux strophes 1 à 4 est manquant. La fin du poème manque aussi (depuis la strophe 46), à l'exception de la strophe 57. Au verso, fragments manuscrits de <title>La femme assise</title>.</note>
                   </msItemStruct>
-                  <msItemStruct n="3" xml:lang="fr" xml:id="P3">
+                  <msItemStruct n="3" xml:lang="fr" xml:id="marizibill">
                      <locus>f. 15</locus>
                      <title>Marizibill</title>
                      <note>Manuscrit autographe</note>
                   </msItemStruct>
-                  <msItemStruct n="4" xml:lang="fr" xml:id="P4">
+                  <msItemStruct n="4" xml:lang="fr" xml:id="mai">
                      <locus>f. 16</locus>
                      <title>Mai.</title>
                      <note>Manuscrit autographe signé et daté de Leutesdorf, mai 1902. Avec des indications manuscrites en vue de l'impression dans "Vers et prose".</note>
                   </msItemStruct>
-                  <msItemStruct n="5" xml:lang="fr" xml:id="P5">
+                  <msItemStruct n="5" xml:lang="fr" xml:id="les-cloches">
                      <locus>f. 17</locus>
                      <title>Les Cloches</title>
                      <note>Manuscrit autographe signé et daté de Oberpleis, mai 1902.</note>
@@ -55,7 +55,7 @@
                      <title>1909</title>
                      <note>Manuscrit autographe</note>
                   </msItemStruct>
-                  <msItemStruct n="7" xml:lang="fr" xml:id="P7">
+                  <msItemStruct n="7" xml:lang="fr" xml:id="a-la-sante">
                      <locus>ff. 20-23</locus>
                      <title>A la santé</title>
                      <note>Manuscrit de premier jet. Au verso, fragments manuscrits de <title>La Femme assise</title></note>
