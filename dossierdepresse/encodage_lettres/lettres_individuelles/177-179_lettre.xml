@@ -7,7 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title>Dossier de presse</title>
-            <title type="sub">Lettre 177-178</title>
+            <title type="sub">Lettre 177-179</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -37,7 +37,7 @@
                s'abandonne<lb/> à vous; vous le menez où il me plait<lb/> d'aller _ et si piètre
                causeur que je<lb/> sois il me semble que je m'entendrais<lb/> aussi bien avec
                vous.</p>
-            <pb type="verso" n="178"
+            <pb type="verso"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f178.item.r=Apollinaire%20manuscrits"/>
             <p>Je regrette aussi que la N.R.F. n'ait<lb/> jamais revu votre nom à nos
                sommaires,<lb/> depuis le jour de la note sur le Romains!</p>
@@ -48,7 +48,7 @@
                absurdités au sujet de <ref target="#whitman-ouvrage">Whitman</ref>; j'ai<lb/>
                soigneusement découpé tout cela, puis<lb/> épinglé au verso de votre chronique;<lb/>
                je ressortirai cela quelque jour.</p>
-            <pb type="recto" n="178"
+            <pb type="recto"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f178.item.r=Apollinaire%20manuscrits"/>
             <closer>
                <salute>Au revoir mon cher <persName ref="#Apollinaire">Apollinaire</persName>;
@@ -58,7 +58,7 @@
             <postscript>
                <p>Un mot de vous qui me disait ce que vous<lb/> devenez me ferait plaisir</p>
             </postscript>
-            <pb type="verso" subtype="empty" n="179" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f179.item.r=Apollinaire%20manuscrits"/>
+            <pb type="verso" subtype="empty" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f179.item.r=Apollinaire%20manuscrits"/>
          </div>
       </body>
    </text>
