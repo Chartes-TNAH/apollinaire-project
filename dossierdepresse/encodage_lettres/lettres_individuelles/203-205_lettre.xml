@@ -18,7 +18,7 @@
   </teiHeader>
   <text>
       <body>
-         <div type="letter" n="203,204,205" xml:id="lettre_203-205">
+         <div type="letter" n="203, 204, 205" xml:id="lettre_203-205">
             <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f203.item.r=Apollinaire%20manuscrits"/>
             <opener>
                <salute>Mon cher Poete</salute>
