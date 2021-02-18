@@ -57,7 +57,7 @@
                      Tharaud</persName></signed>
             </closer>
          </div>
-         <div type="letter" n="170" xml:id="lettre_170">
+         <div type="letter" n="170, 171" xml:id="lettre_170-171">
             <pb type="recto"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f170.item.r=Apollinaire%20manuscrits"/>
             <opener>
@@ -85,6 +85,7 @@
                <p><placeName ref="#paris">38 rue Desbordes Valmore (XVI<hi rend="sup"
                      >e</hi>)</placeName></p>
             </postscript>
+            <pb type="verso" subtype="empty" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f171.item.r=Apollinaire%20manuscrits"/>
          </div>
          <div type="letter" n="172, 173, 174" xml:id="lettre_172-174">
             <pb type="recto"
@@ -205,7 +206,7 @@
                   Aimé</persName></signed>
             </closer>
          </div>
-         <div type="letter" n="177, 178" xml:id="lettre_177-178">
+         <div type="letter" n="177, 178, 179" xml:id="lettre_177-179">
             <pb type="verso"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f177.item.r=Apollinaire%20manuscrits"/>
             <opener>
@@ -248,6 +249,7 @@
             <postscript>
                <p>Un mot de vous qui me disait ce que vous<lb/> devenez me ferait plaisir</p>
             </postscript>
+            <pb type="verso" subtype="empty" n="179" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f179.item.r=Apollinaire%20manuscrits"/>
          </div>
          <div type="letter" n="180, 181" xml:id="lettre_180-181">
             <pb type="recto"
@@ -286,7 +288,7 @@
                </address>
             </span>
          </div>
-         <div type="letter" n="182, 183" xml:id="lettre_182-183">
+         <div type="letter" n="182, 183, 184" xml:id="lettre_182-184">
             <pb type="recto"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f182.item.r=Apollinaire%20manuscrits"/>
             <opener>
@@ -306,8 +308,10 @@
                <salute rend="align(center)">Bien à vous</salute>
                <signed rend="align(center)"><persName ref="#bounélier">Bounélier</persName></signed>
             </closer>
+            <pb type="recto" subtype="empty"
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f184.item.r=Apollinaire%20manuscrits"/>
          </div>
-         <div type="letter" n="185,186,187" xml:id="lettre_185-187">
+         <div type="letter" n="185, 186, 187" xml:id="lettre_185-187">
             <pb type="recto"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f185.item.r=Apollinaire%20manuscrits"/>
             <cb n="1"/>
@@ -342,7 +346,7 @@
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f189.item.r=Apollinaire%20manuscrits.zoom"
             />
          </div>
-         <div type="letter" n="190,191" xml:id="lettre_190-191">
+         <div type="letter" n="190, 191" xml:id="lettre_190-191">
             <pb type="recto"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f190.item.r=Apollinaire%20manuscrits"/>
             <figure rend="align(top left)">
@@ -373,7 +377,7 @@
                <signed><persName ref="#carco_francis">F. Carco</persName></signed>
             </closer>
          </div>
-         <div type="letter" n="192,193" xml:id="lettre_192-193">
+         <div type="letter" n="192, 193" xml:id="lettre_192-193">
             <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f192.item"/>
             <opener>
                <dateline><date when="1913-06-19">19 Juin 1913</date></dateline>
@@ -405,7 +409,7 @@
                </span>
             </spanGrp>
          </div>
-         <div type="letter" n="194,195" xml:id="lettre_194-195">
+         <div type="letter" n="194, 195" xml:id="lettre_194-195">
             <pb type="recto"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f194.item.r=Apollinaire%20manuscrits.zoom"/>
             <p>Je vois que le <hi rend="underlined"><ref target="#mercure_de_france"
@@ -418,7 +422,7 @@
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f195.item.r=Apollinaire%20manuscrits"
             />
          </div>
-         <div type="letter" n="196,197" xml:id="lettre_196-197">
+         <div type="letter" n="196, 197" xml:id="lettre_196-197">
             <pb type="recto"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f196.item.r=Apollinaire%20manuscrits"/>
             <opener>
@@ -454,7 +458,7 @@
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f197.item.r=Apollinaire%20manuscrits"
             />
          </div>
-         <div type="letter" n="198,199" xml:id="lettre_198-199">
+         <div type="letter" n="198, 199" xml:id="lettre_198-199">
             <pb type="recto"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f198.item.r=Apollinaire%20manuscrits"/>
             <span type="gratitude" rend="align(top left)"> Votre volume de<lb/> vers me charme de
@@ -485,7 +489,7 @@
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f199.item.r=Apollinaire%20manuscrits"
             />
          </div>
-         <div type="letter" n="203,204,205" xml:id="lettre_203-205">
+         <div type="letter" n="203, 204, 205" xml:id="lettre_203-205">
             <pb type="recto"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f203.item.r=Apollinaire%20manuscrits"/>
             <opener>
