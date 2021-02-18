@@ -18,7 +18,7 @@
   </teiHeader>
   <text>
       <body>
-         <div type="letter" n="190,191" xml:id="lettre_190-191">
+         <div type="letter" n="190, 191" xml:id="lettre_190-191">
             <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f190.item.r=Apollinaire%20manuscrits"/>
             <figure rend="align(top left)">
                <figDesc>Dessin imprimé représentant des fleurs dans un vase accompagné des initiales "a.m."</figDesc>
