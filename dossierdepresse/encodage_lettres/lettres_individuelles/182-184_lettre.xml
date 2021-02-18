@@ -7,7 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title>Dossier de presse</title>
-            <title type="sub">Lettre 182-183</title>
+            <title type="sub">Lettre 182-184</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -31,15 +31,17 @@
                      reason="illegible"/><add place="above">originalité</add> toute <lb/>nue . J'en
                   goute <lb/>la singulière acuité <lb/>humaine, avec des <lb/>parties de vous
                   <lb/>si rare, et qui </p>
-            <pb type="verso"
-               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f181.item.r=Apollinaire%20manuscrits"/>
+            <pb type="verso" subtype="empty"
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f183.item.r=Apollinaire%20manuscrits"/>
+            <pb type="recto"
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f183.item.r=Apollinaire%20manuscrits"/>
                <p>prolongent si haut leurs <lb/>perspectives. Et puis, <lb/>la parfaite série des
                   <lb/>souvenirs de prison ! Tout <lb/>cela m'a charmé, et <lb/>je vous admire.</p>
                <closer>
                   <salute rend="align(center)">Bien à vous</salute>
                   <signed rend="align(center)"><persName ref='#Bounélier'>Bounélier</persName></signed>
                </closer>
-            <pb type="recto" subtype="empty"
+            <pb type="verso" subtype="empty"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f184.item.r=Apollinaire%20manuscrits"/>
          </div>
       </body>
