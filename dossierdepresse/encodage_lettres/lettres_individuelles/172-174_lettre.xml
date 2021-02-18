@@ -20,7 +20,7 @@
    <text>
       <body>
          <div type="letter" n="172, 173, 174" xml:id="lettre_172-174">
-            <pb type="recto" n="172"
+            <pb type="recto"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f172.item.r=Apollinaire%20manuscrits"/>
             <opener>
                <address rend="align(top left)">
@@ -47,7 +47,7 @@
                rythme bondissant et docile comme une <lb/>balle de paume, et cette sincérité, de
                chagrin, <lb/>que l'art le plus travaillé ne sait étouffer.</p>
 
-            <pb type="verso" subtype="empty"
+            <pb type="verso"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f173.item.r=Apollinaire%20manuscrits"/>
             <p>Votre <ref target="#salomé">Salomé</ref> est une estampe charmante de <persName
                   ref="#Dürer">Dürer</persName> ou <lb/>d'<persName ref="#Holbein"
@@ -114,6 +114,9 @@
                <signed rend="align(left)">Votre ami <lb/><persName ref="#Fleuret">Fernand
                      Fleuret</persName>.</signed>
             </closer>
+            <pb type="verso" subtype="empty"
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f174.item.r=Apollinaire%20manuscrits"
+            />
          </div>
       </body>
    </text>
@@ -205,12 +208,12 @@
                </bibl>
             </listBibl>
             <listBibl>
-            <head>Références littéraires</head>
-            <listBibl>
-               <bibl xml:id="légende-de-la-mort"><title>La légende de la mort</title>
-                  <author>Anatole Le Braz</author>
-                  <date>1893</date></bibl>
-            </listBibl>
+               <head>Références littéraires</head>
+               <listBibl>
+                  <bibl xml:id="légende-de-la-mort"><title>La légende de la mort</title>
+                     <author>Anatole Le Braz</author>
+                     <date>1893</date></bibl>
+               </listBibl>
             </listBibl>
          </listBibl>
       </listBibl>
