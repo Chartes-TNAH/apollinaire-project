@@ -10,7 +10,7 @@
             <author>Guillaume Apollinaire</author>
          </titleStmt>
          <publicationStmt>
-            <p>Recueil de versions préparatoires édité dans le cadre d'un exercice évalué (Projet Github) à l'école nationale des Chartes.</p>
+            <p>Recueil de versions préparatoires édité dans le cadre d'un exercice évalué (Projet Github) à l'Ecole nationale des chartes.</p>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -25,12 +25,12 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItemStruct n="1" xml:lang="fr" xml:id="le-pont-mirabeau">
+                  <msItemStruct n="1" xml:lang="fr" xml:id="le_pont_mirabeau">
                      <locus>f.1</locus>
                      <title>Le Pont Mirabeau</title>
                      <note>Manuscrit autographe</note>
                   </msItemStruct>
-                  <msItemStruct n="2" xml:lang="fr" xml:id="la-chanson-du-mal-aime">
+                  <msItemStruct n="2" xml:lang="fr" xml:id="la_chanson_du_mal_aime">
                      <locus>ff. 2-14</locus>
                      <title>La chanson du Mal-Aimé</title>
                      <note>Manuscrit autographe. Un premier feuillet correspondant aux strophes 1 à 4 est manquant. La fin du poème manque aussi (depuis la strophe 46), à l'exception de la strophe 57. Au verso, fragments manuscrits de <title>La femme assise</title>.</note>
@@ -45,17 +45,17 @@
                      <title>Mai.</title>
                      <note>Manuscrit autographe signé et daté de Leutesdorf, mai 1902. Avec des indications manuscrites en vue de l'impression dans "Vers et prose".</note>
                   </msItemStruct>
-                  <msItemStruct n="5" xml:lang="fr" xml:id="les-cloches">
+                  <msItemStruct n="5" xml:lang="fr" xml:id="les_cloches">
                      <locus>f. 17</locus>
                      <title>Les Cloches</title>
                      <note>Manuscrit autographe signé et daté de Oberpleis, mai 1902.</note>
                   </msItemStruct>
-                  <msItemStruct n="6" xml:lang="fr" xml:id="P6">
+                  <msItemStruct n="6" xml:lang="fr" xml:id="1909">
                      <locus>ff. 18-19</locus>
                      <title>1909</title>
                      <note>Manuscrit autographe</note>
                   </msItemStruct>
-                  <msItemStruct n="7" xml:lang="fr" xml:id="a-la-sante">
+                  <msItemStruct n="7" xml:lang="fr" xml:id="a_la_sante">
                      <locus>ff. 20-23</locus>
                      <title>A la santé</title>
                      <note>Manuscrit de premier jet. Au verso, fragments manuscrits de <title>La Femme assise</title></note>
@@ -64,12 +64,13 @@
                <physDesc>   
                   <objectDesc form="codex">
                      <supportDesc>
-                        <support>Papier</support>
+                        <support>Papier, <stamp>utilisation quasi-systématique d'une estampille sur laquelle on lit "Bibliothèque Nationale MSS"
+                              sur les pages du document.</stamp></support>
                         <extent>
                            <width unit="mm">250</width>
                            <height unit="mm">220</height>
                         </extent>
-                        <foliation>23 feuillets</foliation>        
+                        <foliation>23 feuillets</foliation>
                      </supportDesc>
                   </objectDesc>
                   <bindingDesc>
