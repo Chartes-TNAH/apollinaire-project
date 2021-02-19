@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         VUE 149 - ⚠️ texte coupé sur la fin des phrases à cause du collage de l'article
+         
+         (2:haut,gauche) (BVLLETIN DE LA LIBRAIRIE:haut,centré)
+         
+         (ligne tracée - limite en-tête)
+         
+         du Premier Consul, sur le modèle de l'(Enfer:italique) de la Bibliothè-
+         que du Vatican. Il contient un certain nombre d'ouvrages qui
+         n'avaient pas encore été décrits et dont il n'existe aucun cata-
+         logue. L'ouvrage de MM. Apollinaire, Fleuret et Perceau
+         comble donc une importance lacune bibliographique. Il a de
+         plus son attrait de pittoresque, de curiosité, d'indiscrétion
+         même. Tous ces livres, qu'il nous présente et nous décrit
+         livres condamnables, si l'on veut, ont un mérite qui fait leu
+         valeur : ils renseignent sur l'histoire des mœurs. A côté d
+         la littérature morale, en effet, il y a l'autre, et qui n'est pas
+         socialement et littérairement, un document moindre, on pour
+         rait même dire souvent plus véridique. Les satiriques licen
+         cieux des XV(e:exposant), XVI(e:exposant) et XVII(e:exposant) siècles sont aussi des poètes, après
+         tout. Les pamphlets et les romans de la Révolution ont leu
+         intérêt historique. On ne saurait ôter les uns et les autres d
+         notre littérature sans fausser l'aspect de celle-ci.
+         
+         (RENÉ ARCOS:gras,centré,grand)
+         
+         ((L'Ile perdue,:gras) poème dramatique. Vol. in-18. 3,50:grand)
+         
+         Dans ce drame, qui respecte les exigences de la scène
+         M. René Arcos expose avec lyrisme un conflit d'idées et de sen
+         timents entre individus supérieurs. Des hommes et des fem
+         mes ont quitté leur patrie où règne un odieux tyran. Dan
+         une île lointaine et enchantée, ils commencent une nouvell
+         vie. L'arrivée d'un de leurs anciens compagnons, qui a tué l
+         desporte et qui veut les regagner à leur patrie, décide le con
+         flit. Ils quittent l'île à la fin du poème,à l'exception d'un seu
+         d'entre eux qui se donne la mort, marquant ainsi de sa chut
+         la faillite d'un grand rêve.
+         
+         (BOTTOM:gras,centré,grand)
+         
+         ((Ainsi parlait Jéroboam:gras) ou la Finance en ac
+         tions:italique.) Vol. petit in-18:grand) .....................  2 
+         
+         Voici un petit livre qui a eu un vif succès. Jéroboam, c'es
+         le Zarathoustra de la finance. Assis au café, place de l
+         Bourse, devant des piles de soucoupes, en considérant d'u
+         œil narquois ce qu'il appelait la « Boite à finances », il laissa
+         s'en aller de lui ses sarcasmes, entouré de disciples qu'amu
+         
+         (ligne tracée - pied de page)
+         (Envoi franco du Catalogue complet sur demande:gras,centré)
+         
+         
+         
+      </body>
+  </text>
+</TEI>
