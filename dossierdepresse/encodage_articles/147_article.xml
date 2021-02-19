@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dossier de presse</title>
+            <title>Folio 147</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         
+         <div type="article" n="147" xml:id="article1_147" sameAs="article_150">
+            <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f147.item"/>
+         </div>
+         
+         <div type="article" n="147" xml:id="article2_147">
+            <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f147.item"/>
+        <head rend="bold center caps">ALCOOL</head>
+         
+         <p>
+         <lb/>Poème, par <hi rend="italic"><persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName></hi>.
+            </p>
+            <p>
+            <lb/>M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> fait des vers qui
+            <lb/>godaillent et festionnent agréablement. Mais
+            <lb/>ce n'est pas là le capital de sa gloire. La
+            <lb/>vériatable originalité de M. <persName ref="#apollinaire_guillaume">Guillaume Apol-
+            <lb break="no"/>linaire</persName>, ce qui lui assigne, sans conteste, une place hors
+            <lb/>de pair dans la troupe tumultueuse et délirante des mâche-
+            <lb break="no"/>lauriers, c'est qu'il pratique éperdument le <hi rend="italic">conjugo</hi>. J'ai
+            <lb/>bien dit : le <hi rend="italic">conjungo</hi>, ne souriez pas. Le <hi rend="italic">conjungo</hi> n'est
+            <lb/>pas du tout ce que vous croyez. Rien n'est grave et austère,
+            <lb/>sachez-le, comme le <hi rend="italic">conjungo</hi>. C'est simplement une vieille
+            <lb/>méthode d'écriture qui supprime, comme inutile, toute
+            <lb/>ponctuation.
+               </p>
+            <p>
+            <lb/>Ainsi des <hi rend="italic"><ref target="#alcools">Alcools</ref></hi> : plus de virgules ou de points-virgules
+            <lb/>pour marquer les pauses, fortes ou faibles. Plus d'acco-
+            <lb break="no"/>lades, de crochets, de parenthèses, de signe excalamatif,
+            <lb/>interrogatif, suspensif... Ce sont là ornements superflus
+            <lb/>dont une muse, honnête et bien buvante, se peut passer.
+            <lb/>Voilà qui est neuf et hardi à force d'être archaïque.
+               </p>
+            <p>
+            <lb/>Mais pourquoi diable M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> a-t-il
+            <lb/>biaisé dans l'application de son principe ? Le véritable
+            <lb/><hi rend="italic">conjungiste</hi> supprime, non seulement la ponctuation, mais
+            <lb/>encore les espaces entre les mots. Dans la prochane édi-
+            <lb break="no"/>tion de <hi rend="italic"><ref target="#alcools">Alcools</ref></hi>, de M. <persName ref="#apollinaire_guillaume">Apollinaire</persName>, il ne faut pas le
+            <lb/>moindre blanc dans les vers de son poème. Une seule ligne,
+            <lb/>un seul vers de la première page à la dernière. Ah ! le
+            <lb/>bon nougat ! 
+               <hi rend="right caps">L'AVEUGLE DU PONT DES ARTS</hi>
+            </p>
+               <closer>
+                  <signed></signed>
+               </closer>
+      
+            <note type="ref_article" rend="handwritten">
+            <ref target="#fantasio">Fantasio</ref> 
+               <date>Juillet 1913</date></note>
+        </div>
+         
+         
+         
+         <div type="article" n="147" xml:id="article3_147">
+           <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f147.item"/>
+              <head>
+         <hi rend="center caps">LES CHRONIQUES</hi> <num type="pagination" rend="bold right">269</num>
+              </head>
+         <quote rend="center">
+         <ref target="#crépuscule"><l>Un charlatan crépusculaire</l>
+         <l>Vante les tours que l'on va faire.</l>
+         <l>Le ciel sans teinte est constellé</l>
+         <l>D'astres pâles comme du lait.</l></ref>
+         </quote>
+            <p>
+         <lb/>Mais je n'ai malheureusement pas la place d'en
+               <lb/>citer davantage, et je ne puis inventorier toutes
+               <lb/>les richesses de ce passionnant brocanteur. Je
+               <lb/>veux dire seulement encore combien j'aime le
+               <lb/>rythme de certaines complaintes, et, dans la <hi rend="italic"><ref target="#les-sept-épées">Chan-
+               <lb/>son des Epées</ref></hi>, combien me ravit la musique de ces
+               <lb/>cinq vers :
+         
+         <quote rend="center">
+            <l>La quatrième, Malourène,</l>
+         <l>Est une fleuve vert et doré :</l>
+         <l>C'est le soir quand les riveraines</l>
+         <l>Y baignent leurs corps adorés,</l>
+         <l>Et des chants de rameurs s'y trainent.</l>
+         </quote>
+              </p>
+            <note type="ref_article" rend="handwritten">
+               <ref target="#le_divan">Le Divan</ref> 
+               <date>Octobre 1913</date>
+            </note>
+         
+         </div>
+         
+         
+         
+         <div type="article" n="147" xml:id="article4_147">
+            <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f147.item"/>
+            
+            <head><hi rend="center bold tall underline">Les lettres</hi>
+              <hi rend="center bold underline">Le livre du Jour</hi>
+            </head>
+            
+            <p rend="center">
+         
+         <ref target="#alcools">
+            <bibl>
+            <hi rend="caps"><title>ALCOOLS</title></hi>, par 
+            <hi rend="italic"><author>Guillaume Apollinaire</author> (<publisher>Mer-
+            <lb/>cure de France</publisher>)</hi>.
+            </bibl>
+         </ref>
+            </p>
+            
+            
+            <p rend="italic">
+               
+        <lb/>M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> est, par ses
+               <lb/>ouvrages d'érudition, connu, estimé du
+               <lb/>grand public. Ce livre qui paraît <hi rend="roman"><ref target="#alcools">Alcools</ref></hi>,
+               <lb/>et dont tous les lettrés savent déjà les
+               <lb/>poèmes, ne peut manquer d'attirer l'atten-
+               <lb break="no"/>tion sur une des personnalités les plus
+               <lb/>curieuses de la littérature contemporaine.
+               <lb/>Ces strophes, où une inspiration parfois
+               <lb/>tourmentée, déroutée, laisse jaillir de très
+               <lb/>beaux cris, cette bizarrerie et aussi cette
+               <lb/>maitrise, cette netteté, si parfois elles dé-
+               <lb break="no"/>concertent ne peuvent que retenir et char-
+               <lb break="no"/>mer.
+            </p>
+            <p rend="italic">
+               <lb/>Lorsque parut au <hi rend="roman"><ref target="#mercure_de_france">Mercure</ref></hi>, la <hi rend="roman"><ref target="#la-chanson-du-mal-aimée">Chanson
+                  <lb/>du Mal Aimé</ref></hi>, il y eut quelques sceptiques
+               <lb/>mais encore plus d'admirateurs. C'était
+               <lb/>bien là une poésie nouvelle, d'une richesse
+               <lb/>d'images inconnue. Et ceux qui ont suivi
+               <lb/>M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> jusqu'à sa der-
+               <lb break="no"/>nère formule, ce <quote>« poème conversation »</quote>
+               <lb/>capricieux et évocateur, retrouvent avec
+               <lb/>joie toutes les étapes de leur enthousiasme.
+               <lb/>Voici <hi rend="roman">l'Ermite, <ref target="#la-chanson-du-mal-aimée">la Chanson du Mal Aimé</ref>,
+               <lb/><ref target="#les-colchiques">les Colchiques</ref>, <ref target="#zone">Zones</ref></hi>. Et pour ceux qui
+               <lb/>lisent <persName ref="#apollinaire_guillaume">Apollinaire</persName> critique d'art, voici un
+               <lb/>portrait dû à <persName ref="#picasso_pablo">Pablo Picasso</persName>. — J .P.
+         </p>
+            <note type="ref_article" rend="handwritten">
+               <ref target="#gil_blas">Gil Blas</ref>
+            </note>
+         
+         </div>
+      </body>
+  </text>
+   
+   
+   
+   
+   
+   
+   <standOff>
+      <listPerson>
+         <person xml:id="picasso_pablo">
+            <persName>Pablo Picasso</persName>
+         </person>
+         <person xml:id="apollinaire_guillaume">
+            <persName>Guillaume Apollinaire</persName>
+         </person>
+         <person xml:id="bayard_jean">
+            <persName>Jean Bayard</persName>
+         </person>
+         <person xml:id="de_gonzague_frick_louis">
+            <persName>Louis de Gonzague Frick</persName>
+         </person>
+         <person xml:id="picard_gaston">
+            <persName>Gaston Picard</persName>
+         </person>
+         <person xml:id="mallarmé_stéphane">
+            <persName>Stéphane Mallarmé</persName>
+         </person>
+      </listPerson>
+      
+      <listPlace>
+         <place xml:id="paris">
+            <placeName>Paris</placeName>
+         </place>
+         <place xml:id="vladivostock">
+            <placeName>Vladivostock</placeName>
+         </place>
+      </listPlace>
+      
+      <listBibl>
+         <bibl xml:id="les-sept-épées">Les sept épées</bibl>
+         <bibl xml:id="crépuscule">Crépuscule</bibl>
+         <bibl xml:id="la-chanson-du-mal-aimée">La Chanson du mal-aimé</bibl>
+         <bibl xml:id="l-ermite">L'Ermite</bibl>
+         <bibl xml:id="zone">Zone</bibl>
+         <bibl xml:id="les-colchiques">Les colchiques</bibl>
+      </listBibl>
+      <listBibl>
+         <bibl xml:id="mercure_de_france">Mercure de France</bibl>
+         <bibl xml:id="gazette_de_france">Gazette de France</bibl>
+         <bibl xml:id="paris_midi">Paris-Midi</bibl>
+         <bibl xml:id="alcools">Alcool</bibl>
+         <bibl xml:id="fantasio">Fantasio</bibl>
+         <bibl xml:id="le_divan">Le Divan</bibl>
+         <bibl xml:id="gil_blas">Gil Blas</bibl>
+
+            
+      </listBibl>
+      
+      
+      
+      
+   </standOff>
+</TEI>
