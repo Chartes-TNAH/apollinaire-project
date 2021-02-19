@@ -19,164 +19,270 @@
   </teiHeader>
   <text>
       <body>
-         <p>VUE 152
+         <div type="article" n="152 153 154" xml:id="article_152-154">
+            <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f152.item"/>
+         
+            <head rend="tall caps">LE MOIS DU POÈTE <lb/>
+               <ref target="#alcools">
+                  <bibl><author rend="caps">GUILLAUME APOLLINAIRE</author> : <title rend="caps italic">ALCOOLS</title> (<publisher rend="italic underlign red">Mercure</publisher>.)</bibl>
+               </ref>
+            </head>
             
-            (18:haut,gauche,barré,gras,numéro de page du dossier)
+            <p>
+            <lb/>Voici, recueilli en un in-18 d'à peine deux cents pages, l'œuvre poétique
+               <lb/>presque entière d'<persName ref="#apollinaire_guillaume">Apollinaire</persName>. Quinze ans de poésie reposent sur ce petit
+               <lb/>volume. Je ne l'ouvre donc pas sans presque un parti-pris d'admiration. En
+               <lb/>poésie, abondance signifie stérilité et l'on n'écrit trois volumes en un an que
+               <lb/>par impuissance de consacrer sa vie à un livre.
+            </p>
+            <p>
+               <lb/><persName ref="#apollinaire_guillaume">Apolllinaire</persName>, évidemment, ne laissera qu'un livre de vers, comme <persName ref="#baudelaire_charles">Baudelaire</persName>
+               <lb/>et <persName ref="#mallarmé_stéphane">Mallarmé</persName>, comme <persName ref="#rimbaud_arthur">Rimbaud</persName> : c'est une chance considérable d'immortalité,
+               <lb/>car le vrai poète est celui qui a ce don trop rare de condensation. L'admirable
+               <lb/>écrivain, <persName ref="#de_gourmont_remy">Remy de Gourmont</persName>, regrette de <hi rend="italic">son</hi> poète, <persName ref="#mallarmé_stéphane">Mallarmé</persName>, qu'il n'ait
+               <lb/>produit que quelques poèmes, mais du plus grand lyrique combien la postérité
+               <lb/>retient-elle de vers, par cœur? Or, l'immortalité, <hi rend="italic">en acte</hi>, ne porte que sur ce
+               <lb/>qui demeure dans la mémoire de quelques siècles : le surplus n'est que de
+               <lb/>l'immortalité en <hi rend="italic">puissance</hi>.
+            </p>
+            <p>
+               <lb/><persName ref="#apollinaire_guillaume">Apollinaire</persName>, à l'exemple de <persName ref="#mallarmé_stéphane">Mallarmé</persName>, ne refait pas le même poème, et par
+               <lb/>suite, son livre, complexe, est très riche. Il représente, si l'on veut, vingt
+               <lb/>volumes, à supposer qu'il y ait vingt types de poèmes différents dans son
+               <lb/>recueil (je ne les ai pas comptés). Le premier bénéfice est, pour le lecteur, une
+               <lb/>jouissance de variété. Il a devant lui des poésies <hi rend="italic">dispersées</hi>, qui ne sont pas
+               <lb/>des poésies <hi rend="italic">fugitives</hi>, oh non! Les trois premiers poèmes par exemple, <hi rend="italic"><ref target="#zone">Zone</ref></hi>,
+               <lb/>le <hi  rend="italic"><ref target="#le_pont_mirabeau">Pont Mirabeau</ref></hi>, la <hi rend="italic"><ref target="#la_chanson_du_mal_aimée">Chanson du Mal-Aimé</ref></hi>, sont aussi dissemblables que
+               <lb/>possible. Chez un artiste personnel, cette diversité peut paraître extraordi-
+               <lb break="no"/>naire, mais c'est parce que la personnalité d'Apollinaire est strictement poéti-
+               <lb break="no"/>que, profonde, je veux dire verbale. Elle ne vient pas de l'inspiration, mais
+               <lb/>de l'art. Pour <persName ref="#apollinaire_guillaume">Apollinaire</persName>, comme pour <persName ref="#baudelaire_charles">Baudelaire</persName>, l'inspiration n'existe
+               <lb/>presque pas : les mots sont tout, j'entends l'<hi rend="caps">EXPRESSION</hi>. Or, chez ce poète
+               <lb/>de fond si disparate, si inconsistant, on admire une parfaite homogénéité
+               <lb/>d'expression : il use indifféremment des rythmes les plus variés, illustrant
+               <lb/>cette conviction à laquelle je suis peu à peu parvenu que c'est la langue, en
+               <lb/>poésie, qui est essentielle, non le rythme; la création verbale engendre la
+               <lb/>création rythmique. Toujours avec le même bonheur, <persName ref="#apollinaire_guillaume">Apollinaire</persName> emploie
+               <lb/>le vers libre ou le vers régulier, mais chaque fois en poète pur, c'est-à-dire en
+               <lb/>artisan de mots. Son livre mérite une étude minutieuse à cet unique point
+               <lb/>de vue : elle serait instructive et compléterait, en l'éclairant, cette question
+               <lb/>de rythme, débattue presque exclusivement depuis trente ans, tandis qu'on
+               <lb/>n'a presque rien dit du <hi rend="italic">langage</hi> poétique, comme si l'on n'avait pas encore vu
+               <lb/>que là est le nœud, le roc de notre esthétique.
+            </p>
+            <p>
+               <lb/>Le second bénéfice, pour le lecteur, est l'obscurité. L'instinct — frondeur,
             
-            (LE MOIS DU POÈTE:grand)
-            
-            GUILLAUME APOLLINAIRE : (ALCOOLS:italique) ((Mercure.:italique))
-            
-            Voici, recueilli en un in-18 d'à peine deux cents pages, l'œuvre poétique
-            presque entière d'Apollinaire. Quinze ans de poésie reposent sur ce petit
-            volume. Je ne l'ouvre donc pas sans presque un parti-pris d'admiration. En
-            poésie, abondance signifie stérilité et l'on n'écrit trois volumes en un an que
-            par impuissance de consacrer sa vie à un livre.
-            Apolllinaire, évidemment, ne laissera qu'un livre de vers, comme Baudelaire
-            et Mallarmé, comme Rimbaud : c'est une chance considérable d'immortalité,
-            car le vrai poète est celui qui a ce don trop rare de condensation. L'admirable
-            écrivain, Remy de Gourmont, regrette de (son:italique) poète, Mallarmé, qu'il n'ait
-            produit que quelques poèmes, mais du plus grand lyrique combien la postérité
-            retient-elle de vers, par cœur? Or, l'immortalité, (en acte:italique), ne porte que sur ce
-            qui demeure dans la mémoire de quelques siècles : le surplus n'est que de
-            l'immortalité en (puissance:italique).
-            Apollinaire, à l'exemple de Mallarmé, ne refait pas le même poème, et par
-            suite, son livre, complexe, est très riche. Il représente, si l'on veut, vingt
-            volumes, à supposer qu'il y ait vingt types de poèmes différents dans son
-            recueil (je ne les ai pas comptés). Le premier bénéfice est, pour le lecteur, une
-            jouissance de variété. Il a devant lui des poésies (dispersées:italique), qui ne sont pas
-            des poésies (fugitives:italiques), oh non! Les trois premiers poèmes par exemple, (Zone:italique),
-            le (Pont Mirabeau:italique), la (Chanson du Mal-Aimé:italique), sont aussi dissemblables que
-            possible. Chez un artiste personnel, cette diversité peut paraître extraordi-
-            naire, mais c'est parce que la personnalité d'Apollinaire est strictement poéti-
-            que, profonde, je veux dire verbale. Elle ne vient pas de l'inspiration, mais
-            de l'art. Pour Apollinaire, comme pour Baudelaire, l'inspiration n'existe
-            presque pas : les mots sont tout, j'entends l'EXPRESSION. Or, chez ce poète
-            de fond si disparate, si inconsistant, on admire une parfaite homogénéité
-            d'expression : il use indifféremment des rythmes les plus variés, illustrant
-            cette conviction à laquelle je suis peu à peu parvenu que c'est la langue, en
-            poésie, qui est essentielle, non le rythme; la création verbale engendre la
-            création rythmique. Toujours avec le même bonheur, Apollinaire emploie
-            le vers libre ou le vers régulier, mais chaque fois en poète pur, c'est-à-dire en
-            artisan de mots. Son livre mérite une étude minutieuse à cet unique point
-            de vue : elle serait instructive et compléterait, en l'éclairant, cette question
-            de rythme, débattue presque exclusivement depuis trente ans, tandis qu'on
-            n'a presque rien dit du (langage:italique) poétique, comme si l'on n'avait pas encore vu
-            que là est le nœud, le roc de notre esthétique.
-            Le second bénéfice, pour le lecteur, est l'obscurité. L'instinct — frondeur,
-            
-            (La Phalange:inscription manuscrite en bas de la page 18)
-            
-            
-            
-            
+               <note type="ref_article" rend="handwritten">
+                  <ref target="#la_phalange">La Phalange</ref>
+               </note>
+ 
+               <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f153.item"/>
             
             (LE MOIS DU POÈTE:centré) (505:droite)
             
             
             
-            mais qu‘importe? — du gros public a vu juste sur ce point : il sera difficile,
-            plus tard, de délimiter le (Symbolisme:italique). Les tendances les plus diverses se sont
-            fait jour dans cet art de liberté, mais un certain hermétisme, ou ésotérisme,
-            est commun à tous nos poètes. Le droit à l‘obscurité, même à ce que le vulgaire
-            appelle l‘incompréhensibilité, est notre plus grande conquête. C'est une
-            conséquence de ce qui précède. La poésie est une certaine manière de dire
-            qui définit une certaine manière de sentir, et partant de penser; mais la fonc-
-            tion de ce langage n‘est pas discursive et son but n‘est donc pas la clarté. Le
-            langage poétique est, en soi, obscur pour l‘esprit, clair pour les sens : le langage
-            de la prose, qui n‘est clair que pour l‘esprit, est neutre à l‘égard des sens. Ces
-            distinctions, bien entendu, sont théoriques, et, partant, simples, comme des
-            principes. Apollinaire, assez proche du poète pur, est ainsi un poète assez
-            obscur : métaphoriquement, vous l‘appellerez musicien, encore que les deux
-            arts soient spécifiquement très distincts.
-            Lorsqu‘un symbole conduit le poème, comme dans celui intitulé (Le Larron:italique),
-            cette obscurité fondamentale n‘est plus que superficielle ou plutôt relative :
-            le mythe, chez Platon, imite la Dialectique. Mais il est rare qu‘un symbole,
-            chez un poète symboliste, soit strictement conduit et rigidement tressé. Ce
-            serait introduire l‘ennemi, — le didactisme, la prose, — dans la place. (Le Larron:italique)
-            d‘Apollinaire est hermétique d‘être un amas de symboles, de lueurs, encore
-            qu‘il y ait dans la pensée d‘Apollinaire une ingénuité qui répugne aux simples
-            intuitions. Sa pensée le possède toujours : mais il s‘évade des lacs syllogisti—
-            ques par son imagination, hardie et sûre d‘elle, et par le goût. Cest un poète
-            d‘un tact très décisif. Cette obscurité est un bénéfice pour le lecteur qu‘elle
-            stimule et induit en poésie. Les poètes d‘autrefois, les beaux discoureurs,
-            étaient des égoïstes : ils faisaient les beaux devant ñous, comme pout nous
-            « épater ». Les poètes d‘aujourd‘hui répandent leur poésie : ils nous rendent
-            beaux. C‘est au prix de quelque effort, mais avantageux, et qui écarte le pro—
-            fane.
-            Je ne puis, dans un article forcément rapide, approfondir les diverses ques-
-            tions d‘art que pose ce livre, important entre beaucoup. C‘est une œuvre et
-            l‘on se doit d‘en reparler. Je laisse donc de côté l‘artiste pour considérer un
-            instant, chez Apollinaire, la source de sa poésie. C‘est le poète, à coup sûr un
-            des plus grands poètes, de l‘enfance. Il y a, chez lui, ce don d‘émerveillement
-            qui rend cet âge si intense, et l‘acuité, la netteté, la fraîcheur des souvenirs.
-            Il écrit
+               <lb/>mais qu'importe? — du gros public a vu juste sur ce point : il sera difficile,
+               <lb/>plus tard, de délimiter le <hi rend="italic">Symbolisme</hi>. Les tendances les plus diverses se sont
+               <lb/>fait jour dans cet art de liberté, mais un certain hermétisme, ou ésotérisme,
+               <lb/>est commun à tous nos poètes. Le droit à l'obscurité, même à ce que le vulgaire
+               <lb/>appelle l'incompréhensibilité, est notre plus grande conquête. C'est une
+               <lb/>conséquence de ce qui précède. La poésie est une certaine manière de dire
+               <lb/>qui définit une certaine manière de sentir, et partant de penser; mais la fonc-
+               <lb break="no"/>tion de ce langage n'est pas discursive et son but n'est donc pas la clarté. Le
+               <lb/>langage poétique est, en soi, obscur pour l'esprit, clair pour les sens : le langage
+               <lb/>de la prose, qui n'est clair que pour l'esprit, est neutre à l'égard des sens. Ces
+               <lb/>distinctions, bien entendu, sont théoriques, et, partant, simples, comme des
+               <lb/>principes. <persName ref="#apollinaire_guillaume">Apollinaire</persName>, assez proche du poète pur, est ainsi un poète assez
+               <lb/>obscur : métaphoriquement, vous l'appellerez musicien, encore que les deux
+               <lb/>arts soient spécifiquement très distincts.
+            </p>
+            <p>
+               <lb/>Lorsqu'un symbole conduit le poème, comme dans celui intitulé (Le Larron:italique),
+               <lb/>cette obscurité fondamentale n'est plus que superficielle ou plutôt relative :
+               <lb/>le mythe, chez Platon, imite la Dialectique. Mais il est rare qu'un symbole,
+               <lb/>chez un poète symboliste, soit strictement conduit et rigidement tressé. Ce
+               <lb/>serait introduire l'ennemi, — le didactisme, la prose, — dans la place. (Le Larron:italique)
+               <lb/>d'Apollinaire est hermétique d'être un amas de symboles, de lueurs, encore
+               <lb/>qu'il y ait dans la pensée d'Apollinaire une ingénuité qui répugne aux simples
+               <lb/>intuitions. Sa pensée le possède toujours : mais il s'évade des lacs syllogisti—
+               <lb/>ques par son imagination, hardie et sûre d'elle, et par le goût. Cest un poète
+               <lb/>d'un tact très décisif. Cette obscurité est un bénéfice pour le lecteur qu'elle
+               <lb/>stimule et induit en poésie. Les poètes d'autrefois, les beaux discoureurs,
+               <lb/>étaient des égoïstes : ils faisaient les beaux devant ñous, comme pout nous
+               <lb/>« épater ». Les poètes d'aujourd'hui répandent leur poésie : ils nous rendent
+               <lb/>beaux. C'est au prix de quelque effort, mais avantageux, et qui écarte le pro—
+               <lb break="no"/>fane.
+            </p>
+            <p>
+               <lb/>Je ne puis, dans un article forcément rapide, approfondir les diverses ques-
+               <lb break="no"/>tions d'art que pose ce livre, important entre beaucoup. C'est une œuvre et
+               <lb/>l'on se doit d'en reparler. Je laisse donc de côté l'artiste pour considérer un
+               <lb/>instant, chez Apollinaire, la source de sa poésie. C'est le poète, à coup sûr un
+               <lb/>des plus grands poètes, de l'enfance. Il y a, chez lui, ce don d'émerveillement
+               <lb/>qui rend cet âge si intense, et l'acuité, la netteté, la fraîcheur des souvenirs.
+               <lb/>Il écrit
             
             
-            (J‘ai hiverné dans mon passé:centre, italique)
+            <ref target="#la_chanson_du_mal_aimée">
+               <quote rend="align(center) italic">
+               <l>J'ai hiverné dans mon passé</l>
+            </quote>
+            </ref>
             
             
-            mais c‘est parce que l‘hiver est la « saison lucide ». Les émotions ou mieux les
-            émois de l‘enfant revivent dans ses notations avec une force hallucinatoire et
-            Apollinaire leur conserve leurs formes conventionnelles d‘anges.
+               <lb/>mais c'est parce que l'hiver est la « saison lucide ». Les émotions ou mieux les
+               <lb/>émois de l'enfant revivent dans ses notations avec une force hallucinatoire et
+               <lb/>Apollinaire leur conserve leurs formes conventionnelles d'anges.
             
             
-            (Les dimanches s‘y éternisent...:centré, italique))
+               <ref target="#la_chanson_du_mal_aimée">
+                  <quote rend="align(center) italic">
+                     <l>Les dimanches s'y éternisent...</l></quote></ref>
+            
+               <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f154.item"/>
+            
+               <lb/>L'imagination de l'enfant fait corps avec son intelligence et il réalise en
+               <lb/>les incarnant autour de lui, les idoles métaphysiques et religieuses. Apollinaire
+               <lb/>possède cet émoi double et son livre est, comme son âme, religieux. Les huit
+               <lb/>jours que dure la « retraite » avant la première communion sont consacrés,
+               <lb/>sous la direction du prêtre, à des exercices de méditation. C'est une distraction
+               <lb/>perpétuelle des sens flottant sur un effort méditatif de l'esprit gracieux et qui
+               <lb/>a la grâce, et n'est—ce pas une image du jeu de contemplation que j'admire
+               <lb/>dans cette poésie ingénue, ingénieuse et grande? Elle mérite d'être insultée
+               <lb/>par les admirateurs de <persName>M. J. Romains</persName>.
+            
+            <persName>JEAN ROYÈRE</persName>
+            
+            </p>
             
             
+            <p>
             
+              <hi rend="align(left) caps underlign">REVUES</hi>
             
-            L‘imagination de l‘enfant fait corps avec son intelligence et il réalise en
-            les incarnant autour de lui, les idoles métaphysiques et religieuses. Apollinaire
-            possède cet émoi double et son livre est, comme son âme, religieux. Les huit
-            jours que dure la « retraite » avant la première communion sont consacrés,
-            sous la direction du prêtre, à des exercices de méditation. C‘est une distraction
-            perpétuelle des sens flottant sur un effort méditatif de l‘esprit gracieux et qui
-            a la grâce, et n‘est—ce pas une image du jeu de contemplation que j‘admire
-            dans cette poésie ingénue, ingénieuse et grande? Elle mérite d‘être insultée
-            par les admirateurs de M. J. Romains.
-            
-            (JEAN ROYÈRE:droite)
-            
-            (-----:trait centré faisant séparation)
-            
-            
-            (REVUES:gauche, souligné) 
-            
-            Voici que, par les soins de M. Henry—D. Davyray, le (Merure de France:gras) nous
-            donne, d‘Oscar Wilde, une lettre tout à la fois hautaine et pitoyable.
-            Au mois d‘avril dernier eut lieu à Londres un procès qu‘intenta Lord
-            Alfred—Bruce Douglas à M. Arthur Ransome. Celui—ci avait publié un livre :
-            (Oscar Wilde a critical Study:italique), dans lequel se jugeait diffamé le joli Lord Douglas
-            que l‘on sait.
-            Cette intervention de Lord Douglas fut au reste déplorable. Il se vit débouté
-            de sa plamte condamné aux dépens, et discuté par la presse comme il conve—
-            nait, peut-être même plus qu‘il ne convenait.
-            A Paris, les tribunaux correctionnels accueillent assez fréquemment et fus—
-            tigent quelquefois de ces pâles voyous que ne méprise sans doute pas Lord
-            Douglas, et qui sont sur plus d‘un point dignes de lui; il ne saurait être, pour
-            tels bars de Montmartre ou d‘ailleurs, question de monopoles de cette sorte.
-            Mais ceux—là, s‘ils font aux Phrynés cotées une concurrence évidente, et s‘ils
-            recueillent les mêmes bénéfices somptuaires qui faisaient les délices de « Bo—
-            sey » (I), ne s‘en targuent pas du moins avec cette inconscience assurée dont
-            fait étalage le mignon d‘Oscar Wilde. Pour ce cynisme insolemment bête —
-            et non pour ses faiblesses — ce bardache d‘outre—Manche eût reçu à Paris
-            teile leçon qui l‘eût sans doute dissuadé d‘évoquer à nouveau le charme de
-            son intimité quelque peu démonétisée — pour recourir à une malencontreuse
-            image montmartroise que Lord Douglas n‘ignore pas.
-            Mais revenons à cette lettre qui nous révèle la générosité d‘âme de « Bosey ».
-            Du fond de sa prison, Wilde déplorait que, loin d‘être soutenu par son « ami »,
-            il n‘eût jamais reçu un mot de lui, alors que Lord Douglas lui dédiait publi—
-            quement certains poèmes dont eût pu le dispenser la plus élémentaire délica—
-            tesse. Cette lettre écrite sans violence est désespérée, pénible. Wilde reproche
-            amèrement à son fâcheux correspondant d‘avoir provoqué sa disgrâce, et se
-            méprise de s‘être laissé acheminer, « par cette fatale et lamentable amitié »,
-            aux pires déchéances.
+               <lb/>Voici que, par les soins de M. Henry—D. Davyray, le (Merure de France:gras) nous
+               <lb/>donne, d'Oscar Wilde, une lettre tout à la fois hautaine et pitoyable.
+               <lb/>Au mois d'avril dernier eut lieu à Londres un procès qu'intenta Lord
+               <lb/>Alfred—Bruce Douglas à M. Arthur Ransome. Celui—ci avait publié un livre :
+               <lb/>(Oscar Wilde a critical Study:italique), dans lequel se jugeait diffamé le joli Lord Douglas
+               <lb/>que l'on sait.
+            </p>
+            <p>
+               <lb/>Cette intervention de Lord Douglas fut au reste déplorable. Il se vit débouté
+               <lb/>de sa plamte condamné aux dépens, et discuté par la presse comme il conve—
+               <lb/>nait, peut-être même plus qu'il ne convenait.
+            </p>
+            <p>
+               <lb/>A Paris, les tribunaux correctionnels accueillent assez fréquemment et fus—
+               <lb/>tigent quelquefois de ces pâles voyous que ne méprise sans doute pas Lord
+               <lb/>Douglas, et qui sont sur plus d'un point dignes de lui; il ne saurait être, pour
+               <lb/>tels bars de Montmartre ou d'ailleurs, question de monopoles de cette sorte.
+               <lb/>Mais ceux—là, s'ils font aux Phrynés cotées une concurrence évidente, et s'ils
+               <lb/>recueillent les mêmes bénéfices somptuaires qui faisaient les délices de « Bo—
+               <lb/>sey » (I), ne s'en targuent pas du moins avec cette inconscience assurée dont
+               <lb/>fait étalage le mignon d'Oscar Wilde. Pour ce cynisme insolemment bête —
+               <lb/>et non pour ses faiblesses — ce bardache d'outre—Manche eût reçu à Paris
+               <lb/>teile leçon qui l'eût sans doute dissuadé d'évoquer à nouveau le charme de
+               <lb/>son intimité quelque peu démonétisée — pour recourir à une malencontreuse
+               <lb/>image montmartroise que Lord Douglas n'ignore pas.
+            </p>
+            <p>
+               <lb/>Mais revenons à cette lettre qui nous révèle la générosité d'âme de « Bosey ».
+               <lb/>Du fond de sa prison, Wilde déplorait que, loin d'être soutenu par son « ami »,
+               <lb/>il n'eût jamais reçu un mot de lui, alors que Lord Douglas lui dédiait publi—
+               <lb/>quement certains poèmes dont eût pu le dispenser la plus élémentaire délica—
+               <lb/>tesse. Cette lettre écrite sans violence est désespérée, pénible. Wilde reproche
+               <lb/>amèrement à son fâcheux correspondant d'avoir provoqué sa disgrâce, et se
+               <lb/>méprise de s'être laissé acheminer, « par cette fatale et lamentable amitié »,
+               <lb/>aux pires déchéances.
             
             
             (-----:trait séparation pour notes de bas de page)
             ((I) Nom familier de Lord Douglas.:note de bas de page)
-         </p>
+            </p>
+          
+         </div>
       </body>
   </text>
+   
+   <standOff>
+      <listPerson>
+         <person xml:id="picasso_pablo">
+            <persName>Pablo Picasso</persName>
+         </person>
+         <person xml:id="apollinaire_guillaume">
+            <persName>Guillaume Apollinaire</persName>
+         </person>
+         <person xml:id="bayard_jean">
+            <persName>Jean Bayard</persName>
+         </person>
+         <person xml:id="de_gonzague_frick_louis">
+            <persName>Louis de Gonzague Frick</persName>
+         </person>
+         <person xml:id="picard_gaston">
+            <persName>Gaston Picard</persName>
+         </person>
+         <person xml:id="mallarmé_stéphane">
+            <persName>Stéphane Mallarmé</persName>
+         </person>
+         <person xml:id="laforgue_jules">
+            <persName>Jules Laforgue</persName>
+         </person>
+         <person xml:id="rimbaud_arthur">
+            <persName>Arthur Rimbaud</persName>
+         </person>
+         <person xml:id="baudelaire_charles">
+            <persName>Charles Baudelaire</persName>
+         </person>
+         <person xml:id="de_gourmont_remy">
+            <persName>Remy de Gourmont</persName>
+         </person>
+      </listPerson>
+      
+      <listPlace>
+         <place xml:id="paris">
+            <placeName>Paris</placeName>
+         </place>
+         <place xml:id="vladivostock">
+            <placeName>Vladivostock</placeName>
+         </place>
+         <place xml:id="graville">
+            <placeName>Graville</placeName>
+         </place>
+         <place xml:id="rhin"><placeName>Rhin</placeName></place>
+      </listPlace>
+      
+      <listBibl>
+         <head>Référence aux poèmes de Apollinaire et à Alcools</head>
+         <bibl xml:id="alcools">Alcool</bibl>
+         <bibl xml:id="les_sept_épées">Les sept épées</bibl>
+         <bibl xml:id="crépuscule">Crépuscule</bibl>
+         <bibl xml:id="la_chanson_du_mal_aimée">La Chanson du mal-aimé</bibl>
+         <bibl xml:id="l_ermite">L'Ermite</bibl>
+         <bibl xml:id="zone">Zone</bibl>
+         <bibl xml:id="les_colchiques">Les colchiques</bibl>
+         <bibl xml:id="l_emigrant_de_landor_road">L'Émigrant de Landor Road</bibl>
+         <bibl xml:id="a_la_santé">A la Santé</bibl>
+         <bibl xml:id="mai">Mai</bibl>
+         <bibl xml:id="le_pont_mirabeau">Le Pont Mirabeau</bibl>
+      </listBibl>
+      
+      <listBibl><head>Référence à la presse</head>
+         <bibl xml:id="mercure_de_france">Mercure de France</bibl>
+         <bibl xml:id="gazette_de_france">Gazette de France</bibl>
+         <bibl xml:id="paris_midi">Paris-Midi</bibl>
+         <bibl xml:id="fantasio">Fantasio</bibl>
+         <bibl xml:id="le_divan">Le Divan</bibl>
+         <bibl xml:id="gil_blas">Gil Blas</bibl>
+         <bibl xml:id="les_chroniques">Les chroniques</bibl>
+         <bibl xml:id="la_phalange">La Phalange</bibl>
+         
+      </listBibl>
+      
+      
+      
+      
+   </standOff>
 </TEI>
