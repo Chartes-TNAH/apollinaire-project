@@ -21,8 +21,8 @@
          <div type="article" n="200" xml:id="article_200" xml:lang="fr">
             <pb
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f200.item.r=Apollinaire%20manuscrits"/>
-            <note><ref target="#la_démocratie_sociale">La Démocratie Sociale</ref> <date when-iso="08-09-1913">18 août 1913</date></note>
             <cb n="1" rend="left"/>
+            
             <head rend="center">LA LITTERATURE <lb/> ALCOOLS <lb/> PAR <lb/>
                <emph rend="bold">GUILLAUME APOLLINAIRE</emph></head>
 
@@ -66,7 +66,9 @@
 
             <p>
                <lb/>En vérité ce livre est un des plus cu— <lb/>rieux qui aient paru au cours de ces
+               
                   <cb n="2" rend="right"/>
+               
                <lb/>dernières années et bien peu des écri— <lb break="no"/>vains qui se trouvent du
                même bord <lb/>que l‘auteur d‘<ref target="#alcools" rend="italic">Alcools</ref> connaissent com— <lb
                   break="no"/>me lui l‘art de parter une langue plus <lb/>neuve et savent mieux que
@@ -135,6 +137,7 @@
                   poète d‘un tact très décisif. <lb/>Cette obscurité est un bénéfice pour le
                   <lb/>lecteur qu‘elle stimule et induit en poé— <lb break="no"/>sie. »</quote>
             </p>
+            <note><ref target="#la_démocratie_sociale">La Démocratie Sociale</ref> <date when-iso="08-09-1913">18 août 1913</date></note>
          </div>
       </body>
    </text>
