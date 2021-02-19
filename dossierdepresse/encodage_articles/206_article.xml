@@ -22,6 +22,7 @@
             <pb
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f206.item.r=Apollinaire%20manuscrits"/>
             <cb n="1" rend="left"/>
+            
             <p>
                <lb/>Ce n'est pas au Lycée de <placeName ref="#nice">Nice</placeName> que j'ai
                <lb/>connu <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> ;
@@ -104,8 +105,205 @@
                <lb/>bonfait selon l'humeur des siens, tan-
                <lb/>tôt à l'étranger, tantôt en <placeName ref="#france">France</placeName>, ici et
                <lb/>là... Quelle vie ! J'ai connu ces départs
+               
                <cb n="2" rend="center"/>
+               
+               <lb/>où tout à la fois vous manque, ces arri-
+               <lb break="no"/>vées dans l'inconnu, l'hôtel, les paque-
+               <lb/>bots et les trains. Mais, toujours, mon
+               <lb/>esprit revenait à <placeName ref="#nice">Nice</placeName>. A travers les gri-
+               <lb break="no"/>sailles, ou sous le vent du large, ou
+               <lb/>par les petites pluies méticuleuses de
+               <lb/>province, je ne pouvais imaginer, sans
+               <lb/>un serrement de coeur, le soleil et le ciel
+               <lb/>si beaux qui, là-bas, sur une ville blan-
+               <lb break="no"/>che, au bord de la mer, se lèvent cha-
+               <lb/>que jour pour le bonheur de tous.
             </p>
+            
+            <p>
+               <lb/>Une mélancolie poignate s'empare
+               <lb/>à la longue de ces rêves les plus tendres.
+               <lb/>Cet enfant, cet adolescent, cet homme
+               <lb/>est formé pour longtemps. Il n'aura
+               <lb/>pas, comme la plupart de ses amis, cette
+               <lb/> sécurité, cette précieuse et grave séré-
+               <lb break="no"/>nité de ceux qui, toujours, vécurent au
+               <lb/>même endroit.
+            </p>
+            
+            <p>
+               <lb/>Rappelez-vous les vers d'<persName ref="#bataille_henry">Henry Ba-
+               <lb/>taille</persName> :
+               <quote>
+                  <l>As-tu pleuré ? Oui, j'ai pleuré. As-tu souffert ?</l>
+                  <l>Oui, j'ai souffert. Et qu'en as-tu gardé ? Rien.</l>
+                  <l>Des dates comme des vieilles lettres... Oui, j'ai souf-<lb rend="interline"/>fert !</l>
+                  <l>Un mouvement incessant vers des demeures nou-<lb rend="interline"/>velles</l>
+                  <l>M'a porté jusqu'à vous. Et les regrets ? Non. Quels ?</l>
+                  <l>Pourtant les lieux que l'on aimait... J'ai tant voyagé.</l> 
+                  <l>Ne vous ai-je pas dit que, souvent, je me lève</l>
+                  <l>Pour chercher un objet que je crois avoir posé</l>
+                  <l>Dans telle chambre, à tel endroit. « Mais, non. Je <lb rend="interline"/>rêve.</l>
+                  <l>C'était à Bordeaux, dis-je... non, c'était à Lyon...</l>
+                  <l>Ou la dernière fois que je fus à Marseille... »</l>
+                  <l>J'ai quelquefois pleuré de tout ce qui s'éveille</l>
+                  <l>Et renaît d'une si mystérieuse confusion. </l>
+               </quote>
+            </p>
+            
+            <p>
+               <lb/>En connaissons-nous de ces perpé-
+               <lb break="no"/>tuels errants ! Ils passent... Où vont-
+               <lb/>ils ?... Plus tard !... Plus tard!... ou
+               <lb/>bien nous le saurons jamais.
+            </p>
+            
+            <p>
+               <lb/>Comme <persName ref="#bataille_henry">Henry Bataille</persName>, <persName ref="#apollinaire_guillaume">Guillaume
+               <lb/>Apollinaire</persName> a noté jusqu'aux nuances
+               <lb/>les plus subtiles du découragement qui
+               <lb/>s'empare d'une homme à qui tout s'of-
+               <lb break="no"/>fre, à chaque instant, dans le spectacle
+               <lb/>de sa dispersion. Il voudrait, hélas ! 
+               <lb/>que la minute qui passe fût éternelle. 
+               <lb/>Il s'attache aux formes les plus périssa-
+               <lb break="no"/>bles du moment et les supplie de ne 
+               <lb/>pas le décevoir. 
+               <quote rend="center">
+                  <l>J'ai cueilli ce brin de bruyère.</l>
+                  <l>L'automne est morte, souviens-t'en.</l>
+                  <l>Nous ne nous verrons plus sur terre,</l>
+                  <l>Odeur du temps, brin de bruyère...</l>
+                  <l>Et souviens-toi que je t'attends !</l>
+               </quote>
+            </p>
+            
+            <p>
+               <lb/>Souviens-toi ! Mais il n'est pas dupe.
+               <lb/>Il sait que tout nous échappe et nous
+               <lb/>blesse et quand il se plaint il imprime
+               <lb/>à son pathétique un mouvement d'une
+               <lb/>discrétion parfaite.
+               <quote rend="center">
+                  <l>Je passais au bord de la Seine,</l>
+                  <l>Un livre ancien sous le bras.</l>
+                  <l>Le fleuve est pareil à ma peine...</l>
+                  <l>Il s'écoute et ne tarit pas...</l>
+                  <l>Quand donc finira la semaine !</l>
+               </quote>
+            </p>
+            
+            <p>
+               <lb/>Son oeuvre entière aboutit à cette dé-
+               <lb break="no"/>chirante inquiétude et je ne connais 
+               <lb/>pas de miroir plus fidèle d'une âme de
+               <lb/>poète. Elle nous permet en effet de
+               <lb/>saisir toutes les attitudes qu'il veut
+               <lb/>prendre et quelquefois la parodie qu'il
+               <lb/>fait de sa trop grande détresse quand
+               <lb/>il lui sied d'être un matin de bonne
+               <lb/>humeur.
+            </p>
+            
+            <p>
+               <lb/><persName ref="#apollinaire_guillaume">Apollinaire</persName> n'est pas un anguissant
+               <lb/>et fade artiste. Au contraire ! Il est
+               <lb/>gaillard ; il est mordant et je ne veux,
+               <lb/>pour preuve de son attachement aux
+               <lb/>joies quotidiennes, que les étonnants
+               
+               <cb n="3" rend="right"/>
+               
+               <lb/>menus qu'il élabore sous l'oeil effaré
+               <lb/>de notre bon garçon de restaurant.
+               <quote>
+                  <p> <lb/>« Le premier devoir d'un homme,
+                     <lb/>« assure un cabaret de Montmartre où
+                     <lb/>« nous fréquentions autrefois, est d'a-
+                     <lb/>« bon estomac ».</p>
+               </quote>
+               <lb/>N'est-il pas vrai ? 
+            </p>
+            
+            <p>
+               <lb/>Cependant, pour ne pas négliger les
+               <lb/>contrastes, j'ajoute maintenant que je 
+               <lb/>connus, au lycée de <placeName ref="#nice">Nice</placeName>, un poète si
+               <lb/>opposé de goût, de style et d'existence
+               <lb/>au précédent, qu'il faut bien que j'en
+               <lb/>parle ici. <persName ref="#cappatti_louis">Louis Cappati</persName> est plus jeune
+               <lb/>qu'<persName ref="#apollinaire_guillaume">Apollinaire</persName>. Il a mon âge et sa na-
+               <lb break="no"/>ture sans artifice me plaît. Elle dénote 
+               <lb/>un caractère. En plus, la force que je 
+               <lb/>découvre dans ses vers n'est pas négli-
+               <lb break="no"/>geable. Ce jeune homme chérit son
+               <lb/>pays. Il aime <placeName ref="#nice">Nice</placeName>. Il y vit actuellement
+               <lb/>et les deux livres qu'il a déjà publiés
+               <lb/>l'acheminent, sans détour, vers une ex-
+               <lb break="no"/>pression vigoureuse de la beauté de nos
+               <lb/>montagnes, de nos rivages et de la lu-
+               <lb break="no"/>mière étincelante qui frappe notre ciel.
+            </p>
+            
+            <p>
+               <lb/>Son inspiration n'a rien d'étroitement
+               <lb/>local. Elle trouve, dans la coupe ramas-
+               <lb break="no"/>sée de ses meilleurs poèmes la forme
+               <lb/>véhémente qui lui convient.
+            </p>
+            
+            <p>
+               <lb/>Il s'écrie :
+               <quote>
+                  <l>... Je t'évoque, ô sombre Mëcris,</l>
+                  <l>Entre tes sapins noirs, je vois les Alpes blanches,</l>
+                  <l>Près des monts désolés,sous la nuit de tes branches,</l>
+                  <l>J'erre en ton bois profond qui n'a ni chant, ni cris.</l>
+               </quote>
+            </p>
+            
+            <p>
+               <lb/>Cette violence a de l'allure. Je ne sais
+               <lb/>pas ce que Louis Cappatti réalisera de-
+               <lb break="no"/>main, mais il faut attendre beaucoup
+               <lb/>de sa précoce expérience.
+            </p>
+            
+            <p>
+               <lb/>Mes lecteurs, certainement, le con-
+               <lb break="no"/>naissent autant que moi et, déjà, ont-ils 
+               <lb/>fait crédit au poète qui écrivit avec cette
+               <lb/>belle assurance de rythme :
+               <quote>
+                  <l>S'il brille dans mes vers quelques éclairs de beauté,</l>
+                  <l>Si jamais je dois être orgueilleux de la flamme</l>
+                  <l>Qu'un Dieu mystérieux entretient dans mon âme,</l>
+                  <l>Pallas, fais-moi chanter la force et la raison.</l>
+               </quote>
+            </p>
+            
+            <p>
+               <lb/>Et le poème s'achève sur cette large
+               <lb/>et saine supplication :
+               <quote>
+                  <l>Fais entrer le soleil d'Hellas dans ma maison.</l>
+               </quote>
+            </p>
+            
+            <p>
+               <lb/>Il est encore d'autres poètes dans no-
+               <lb break="no"/>tre admirable pays et personne ne l'i-
+               <lb break="no"/>gnore ; mais, en parlant de <persName ref="#apollinaire_guillaume">Guillaume
+               <lb/>Apollinaire</persName> et de <persName ref="#cappatti_louis">Louis Cappatti</persName>, j'ai
+               <lb/>voulu montrer avec quelle heureuse di-
+               <lb break="no"/>versité notre ciel savait toucher les
+               <lb/>coeurs sensibles. N'allons pas plus loin. 
+               <lb/>Il suffit que la Poésie reçoive un si bril-
+               <lb break="no"/>lant hommage.
+            </p>
+            <p rend="align right"><persName ref="#carco_francis">Francis Carco</persName>.</p>
+            <note rend="handwritten"><ref target="#le_petit_niçois">Le Petit Niçois</ref> <date when-iso="07-31-1913">31 Juillet 1913</date></note>
          </div>
       </body>
    </text>
@@ -154,7 +352,7 @@
             <note>Ecrivain, romancier, journaliste et critique d'art français, né en 1858 à
                Bazoches-au-Houlme, France, et mort en 1915 à Paris, France.</note>
          </person>
-         <person>
+         <person xml:id="bachelin_marie">
             <persName><forename>Marie</forename><surname>Bachelin</surname></persName>
             <note>Journaliste pour l'Echo Littéraire du Boulevard</note>
          </person>
@@ -190,6 +388,14 @@
          <person xml:id="mercereau_jack">
             <persName><forename>Jack</forename><surname>Mercereau</surname></persName>
             <note>Journaliste pour Paris-Journal</note>
+         </person>
+         <person xml:id="bataille_henry">
+            <persName><forename>Henry</forename><surname>Bataille</surname></persName>
+            <note>Dramaturge, poète et lithographe français né en 1872 à Nîmes, France, et mort en 1922 à Rueil-Malmaison, France.</note>
+         </person>
+         <person xml:id="cappatti_louis">
+            <persName><forename>Louis</forename><surname>Cappatti</surname></persName>
+            <note>H>omme de lettres, historien, critique d'art français, né en 1886 à la Trinité-Victor, France, et mort en 1966 à Nice, France.</note>
          </person>
       </listPerson>
       <listPlace>
@@ -286,6 +492,7 @@
                         France</title>
                      <note>Revue française fondée en 1672 et disparue en 1965.</note></bibl>
                   <bibl type="journal" xml:id="paris-journal"><title>Paris-Journal</title></bibl>
+                  <bibl type="journal" xml:id="le_petit_niçois"><title>Le Petit Niçois</title></bibl>
                </listBibl>
             </listBibl>
          </listBibl>
