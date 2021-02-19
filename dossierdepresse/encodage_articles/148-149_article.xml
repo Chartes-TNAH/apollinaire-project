@@ -6,7 +6,8 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Dossier de presse</title>
+            <title>Folio 148-149</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -21,130 +22,165 @@
          
          
          
-         <div type="article" n="148" xml:id="article_148">
+         <div type="article" n="148 149" xml:id="article_148-149">
             <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f148.item"/>
             
-         texte coupé sur la partie gauche à cause du collage de l'article
+            <div>
+            <head>
+            <ref target="#mercure_de_france">
+               <bibl>
+            <date rend="bold"><hi rend="align(left)">10</hi> <hi rend="align(center)">1913</hi> <hi rend="align(right">Mai</hi></date>
+            <title rend="align(center)"><lb/>BVLLETIN DE LA LIBRAIRIE 
+            <lb/>DV
+            <lb/><damage agent="collage"><unclear>M</unclear></damage>ERCVRE DE FRANCE
+            <lb/>XXVI, RVE DE CONDÉ, PARIS</title>
+                  <lb/>Publications nouvelles
          
-         <head>
-         <date rend="bold"><hi rend="align(left)">10</hi> <hi rend="align(center)">1913</hi> <hi rend="align(right">Mai</hi></date>
+                  <date>Novembre-Mai — 1913</date>
+            </bibl>
+            </ref>
+               <stamp>Tampon postale de la ville de poitiers
+                  <mentioned>P.P. Poitiers<date>30.5.13</date></mentioned>
+               </stamp>
+            </head>
+            
+            
+          <div>
+             <head>
+           
+         <hi rend="align(center) bold tall caps">GUILLAUME APOLLINAIRE</hi>
          
-         
-         (BVLLETIN DE LA LIBRAIRIE
-         DV
-         ERCVRE DE FRANCE
-         XXVI, RVE DE CONDÉ, PARIS
-         
-         (trait tracé)
-         
-         Publications nouvelles
-         Novembre-Mai — 1913
-         
-         (tampon sur l'article avec inscription : Poitiers)
-         
-         (trait tracé)
-         </head>
+               <lb/><damage agent="collage"><unclear>A</unclear></damage><hi rend="bold">cools</hi>, poèmes (1898-1913). Avec un portrait de l'au-
+               <lb/><damage agent="collage"/>teur par <persName ref="#picasso_pablo" rend="caps">PABLO PICASSO</persName>. Vol. in-18 ..........  3,50
+             </head>
             
             
             <p>
-         GUILLAUME APOLLINAIRE:centré,gras,grand)
+               
+               <lb/><damage agent="collage"/>C'est une chose extrêmement particulière que la poésie de
+               <lb/><damage agent="collage"/><persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName>. Peut-être est-elle un peu décon-
+               <lb break="no"/><damage agent="collage"><unclear>cer</unclear></damage>tante, au premier abord, pour le lecteur habitué aux ordi-
+               <lb break="no"/><damage agent="collage"><unclear>nai</unclear></damage>res volumes de vers. Mais qu'on y prête attention, et alors
+               <lb/><damage agent="collage"><unclear>le</unclear></damage>charme opère aussitôt. C'est la poésie d'un homme à l'âme
+               <lb/><damage agent="collage"><unclear>mu</unclear></damage>ltiple, flottante, vagabonde, pleine d'ingénuité aussi. Comme
+               <lb/><damage agent="collage"><unclear>dan</unclear></damage>s ses nouvelles, par exemple ce curieux <hi rend="italique"><ref target="#l_hérésiarque_et_cie">Hérésiarque et
+                  <lb/><damage agent="collage"><unclear>Cie</unclear></damage></ref></hi>, M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> nous donne dans ses poèmes
+               <lb/><damage agent="collage"><unclear>l'im</unclear></damage>pression d'un homme qui a tout lu et vu tous les pays,
+               <lb/><damage agent="collage"><unclear>e</unclear></damage>t il sait nous évoquer de choses, sentiments et paysages,
+               <lb/><damage agent="collage"><unclear>d</unclear></damage>orées et lointaines. Il s'y ajoute ici le rythme, étrange sou-
+               <lb break="no"/><damage agent="collage"><unclear>ven</unclear></damage>t, mais souvent pénétrant, comme une musique à la fois
+               <lb/><damage agent="collage"><unclear>bar</unclear></damage>bare et raffinée, et l'émotion la plus rare, qui font de ce
+               <lb/><damage agent="collage"><gap reason="illegible"/></damage>, auquel suffirait seule la <hi rend="italic"><ref target="#la_chanson_du_mal_aimé">Chanson du Mal aimé</ref></hi> un
+               <lb/><damage agent="collage"><gap reason="illegible"/></damage>e tout à fait à part dans la production poétique actuelle.
          
-         ((cools:gras), poèmes ( 1898-1913). Avec un portrait de l'au-
-         teur par PABLO PICASSO. Vol. in-18 ..........  3,50:grand)
+               <note rend="handwritten format(landscape) underlign right">
+                  <persName ref="#leautaud_paul">Paul Leautaud</persName>
+               </note>
             </p>
+               </div>
+         <div>
+            <head rend="align(center) bold tall">
+         
+               <bibl><lb/><author>GUILLAUME APOLLINAIRE
+               <lb/><damage><supplied>F</supplied></damage>ERNAND FLEURET et LOUIS PERCEAU</author>
+       
+                  <lb/><title><damage><unclear>L'en</unclear></damage>fer de la Bilbiothèque Nationale. Icono-
+               <lb/><damage><gap reason="illegible"/></damage>-bibliographie de tous les ouvrages composant cette
+               <lb/><damage><unclear>cél</unclear></damage>èbre collection.</title> Vol in-8 ................. 7.50</bibl>
+            </head>
+            
+            <note rend="handwritten format(landscape) right">
+               <persName ref="#leautaud_paul">Leautaud</persName>
+            </note>
+            
+               <p>
+                  
+               <lb/><damage><unclear>L'</unclear></damage><hi rend="italic">Enfer</hi> de la Bibliothèque Nationale a été créé sur l'ordre
+         
+         
+rend="bold align(center)" -> Envoi franco du Catalogue complet sur demande
+      
+               
+                  <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f149.item"/>
+
+(2:haut,gauche) (BVLLETIN DE LA LIBRAIRIE:haut,centré)
+(ligne tracée - limite en-tête)
+         
+                  <lb/>du Premier Consul, sur le modèle de l'<hi rend="italic">Enfer</hi> de la <placeName ref="#vatican">Bibliothè-<damage agent="collage"/>
+                     <lb break="no"/>que du Vatican</placeName>. Il contient un certain nombre d'ouvrages qui<damage agent="collage"/>
+                  <lb/>n'avaient pas encore été décrits et dont il n'existe aucun cata-<damage agent="collage"/>
+                  <lb break="no"/>logue. L'ouvrage de MM. <persName ref="#apollinaire_guillaume">Apollinaire</persName>, <persName ref="#fleuret_ferdinand">Fleuret</persName> et <persName ref="#perceau_louis">Perceau</persName><damage agent="collage"/>
+                  <lb/>comble donc une importance lacune bibliographique. Il a de <damage agent="collage"/>
+                  <lb/>plus son attrait de pittoresque, de curiosité, d'indiscrétion <damage agent="collage"/>
+                  <lb/>même. Tous ces livres, qu'il nous présente et nous décrit <damage agent="collage"/>
+                  <lb/>livres condamnables, si l'on veut, ont un mérite qui fait leu<damage agent="collage"><unclear>r</unclear></damage>
+                  <lb/>valeur : ils renseignent sur l'histoire des mœurs. A côté d<damage agent="collage"><unclear>e</unclear></damage>
+                  <lb/>la littérature morale, en effet, il y a l'autre, et qui n'est pas<damage agent="collage"/>
+                  <lb/>socialement et littérairement, un document moindre, on pour<damage agent="collage"><unclear>-</unclear></damage>
+                  <lb break="no"/>rait même dire souvent plus véridique. Les satiriques licen<damage agent="collage"><unclear>-</unclear></damage>
+                  <lb break="no"/>cieux des XVe, XVIe et XVIIe siècles sont aussi des poètes, après<damage agent="collage"/>
+                  <lb/>tout. Les pamphlets et les romans de la Révolution ont leu<damage agent="collage"><unclear>r</unclear></damage>
+                  <lb/>intérêt historique. On ne saurait ôter les uns et les autres d<damage agent="collage"><unclear>e</unclear></damage>
+                  <lb/>notre littérature sans fausser l'aspect de celle-ci.
+         
+         
+         </p>
+            </div>
+               
+         <div>
+            <head>
+               <bibl>
+               <author><lb/><hi rend="bold, align(center) tall caps">RENÉ ARCOS</hi></author>
+               <title><lb/><hi rend="bold">L'Ile perdue</hi>, poème dramatique</title>. Vol. in-18. 3,50
+               </bibl>
+            </head>
+         <p>
+            <lb/>Dans ce drame, qui respecte les exigences de la scène<damage agent="collage"/>
+            <lb/>M. René Arcos expose avec lyrisme un conflit d'idées et de sen<damage agent="collage"/>
+            <lb/>timents entre individus supérieurs. Des hommes et des fem<damage agent="collage"/>
+            <lb/>mes ont quitté leur patrie où règne un odieux tyran. Dan<damage agent="collage"/>
+            <lb/>une île lointaine et enchantée, ils commencent une nouvell<damage agent="collage"/>
+            <lb/>vie. L'arrivée d'un de leurs anciens compagnons, qui a tué l<damage agent="collage"/>
+            <lb/>desporte et qui veut les regagner à leur patrie, décide le con<damage agent="collage"/>
+            <lb/>flit. Ils quittent l'île à la fin du poème,à l'exception d'un seu<damage agent="collage"/>
+            <lb/>d'entre eux qui se donne la mort, marquant ainsi de sa chut<damage agent="collage"/>
+            <lb/>la faillite d'un grand rêve.
+         </p>
+         </div>
             
             
-            <p>
-         C'est une chose extrêmement particulière que la poésie de
-         Guillaume Apollinaire. Peut-être est-elle un peu décon-
-         tante, au premier abord, pour le lecteur habitué aux ordi-
-         res volumes de vers. Mais qu'on y prête attention, et alors
-         charme opère aussitôt. C'est la poésie d'un homme à l'âme
-         ltiple, flottante, vagabonde, pleine d'ingénuité aussi. Comme
-         s ses nouvelles, par exemple ce curieux (Hérésiarque et:italique)
-         , M. Guillaume Apollinaire nous donne dans ses poèmes
-         pression d'un homme qui a tout lu et vu tous les pays,
-         t il sait nous évoquer de choses, sentiments et paysages,
-         orées et lointaines. Il s'y ajoute ici le rythme, étrange sou-
-         t, mais souvent pénétrant, comme une musique à la fois
-         bare et raffinée, et l'émotion la plus rare, qui font de ce
-         ei, auquel suffirait seule (la Chanson du Mal aimé:italique) un
-         e tout à fait à part dans la production poétique actuelle.
+           <div>
+        <head rend="tall">
+           <bibl>
+              <author rend="bold, align(center) tall caps">
+                 BOTTOM
+              </author>
+              
+         <title><lb/><hi rend="bold">Ainsi parlait Jéroboam</hi><hi rend="italic"> ou la Finance en ac
+         <lb/>tions</hi></title> Vol. petit in-18  .....................  2 
+           </bibl>
+           
+        </head>
+        
+         <p>
+            <lb/>Voici un petit livre qui a eu un vif succès. Jéroboam, c'es<damage agent="collage"/>
+            <lb/>le Zarathoustra de la finance. Assis au café, place de l<damage agent="collage"/>
+            <lb/>Bourse, devant des piles de soucoupes, en considérant d'u<damage agent="collage"/>
+            <lb/>œil narquois ce qu'il appelait la « Boite à finances », il laissa<damage agent="collage"/>
+            <lb/>s'en aller de lui ses sarcasmes, entouré de disciples qu'amu<damage agent="collage"/>
+         </p>
          
-         (Paul Leautaud:inscription manuscrite à côté du paragraphe,soulignée)
-         
-         (GUILLAUME APOLLINAIRE
-         ERNAND FLEURET et LOUIS PERCEAU:centré,gras)
-         
-         ((Lnfer de la Bilbiothèque Nationale.:gras) Icono-
-         -bibliographie de tous les ouvrages composant cette
-         èbre collection. Vol in-8 ................. 7.50:grand)
-         Enfer de la Bibliothèque Nationale a été créé sur l'ordre
-         
-         (Leautaud:inscription manuscrite à côté du paragraphe)
-         
-         (ligne tracée - pied de page)
-         (Envoi franco du Catalogue complet sur demande:gras,centré)
-         
-         
-               <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f149.item"/>
-         
-         VUE 149 - ⚠️ texte coupé sur la fin des phrases à cause du collage de l'article
-         
-         (2:haut,gauche) (BVLLETIN DE LA LIBRAIRIE:haut,centré)
-         
-         (ligne tracée - limite en-tête)
-         
-         du Premier Consul, sur le modèle de l'(Enfer:italique) de la Bibliothè-
-         que du Vatican. Il contient un certain nombre d'ouvrages qui
-         n'avaient pas encore été décrits et dont il n'existe aucun cata-
-         logue. L'ouvrage de MM. Apollinaire, Fleuret et Perceau
-         comble donc une importance lacune bibliographique. Il a de
-         plus son attrait de pittoresque, de curiosité, d'indiscrétion
-         même. Tous ces livres, qu'il nous présente et nous décrit
-         livres condamnables, si l'on veut, ont un mérite qui fait leu
-         valeur : ils renseignent sur l'histoire des mœurs. A côté d
-         la littérature morale, en effet, il y a l'autre, et qui n'est pas
-         socialement et littérairement, un document moindre, on pour
-         rait même dire souvent plus véridique. Les satiriques licen
-         cieux des XV(e:exposant), XVI(e:exposant) et XVII(e:exposant) siècles sont aussi des poètes, après
-         tout. Les pamphlets et les romans de la Révolution ont leu
-         intérêt historique. On ne saurait ôter les uns et les autres d
-         notre littérature sans fausser l'aspect de celle-ci.
-         
-         (RENÉ ARCOS:gras,centré,grand)
-         
-         ((L'Ile perdue,:gras) poème dramatique. Vol. in-18. 3,50:grand)
-         
-         Dans ce drame, qui respecte les exigences de la scène
-         M. René Arcos expose avec lyrisme un conflit d'idées et de sen
-         timents entre individus supérieurs. Des hommes et des fem
-         mes ont quitté leur patrie où règne un odieux tyran. Dan
-         une île lointaine et enchantée, ils commencent une nouvell
-         vie. L'arrivée d'un de leurs anciens compagnons, qui a tué l
-         desporte et qui veut les regagner à leur patrie, décide le con
-         flit. Ils quittent l'île à la fin du poème,à l'exception d'un seu
-         d'entre eux qui se donne la mort, marquant ainsi de sa chut
-         la faillite d'un grand rêve.
-         
-         (BOTTOM:gras,centré,grand)
-         
-         ((Ainsi parlait Jéroboam:gras) ou la Finance en ac
-         tions:italique.) Vol. petit in-18:grand) .....................  2 
-         
-         Voici un petit livre qui a eu un vif succès. Jéroboam, c'es
-         le Zarathoustra de la finance. Assis au café, place de l
-         Bourse, devant des piles de soucoupes, en considérant d'u
-         œil narquois ce qu'il appelait la « Boite à finances », il laissa
-         s'en aller de lui ses sarcasmes, entouré de disciples qu'amu
-         
-         (ligne tracée - pied de page)
-         (Envoi franco du Catalogue complet sur demande:gras,centré)
-         
-            </p>
          
          </div>
-         
+            
+            
+          
+(ligne tracée - pied de page)
+(Envoi franco du Catalogue complet sur demande:gras,centré)
+           
+          
+         </div>
+        </div>
       </body>
   </text>
    
@@ -208,6 +244,15 @@
          <person xml:id="duhamel_georges">
             <persName>Georges Duhamel</persName>
          </person>
+         <person xml:id="leautaud_paul">
+            <persName>Paul Leautaud</persName>
+         </person>
+         <person xml:id="fleuret_ferdinand">
+            <persName>Ferdinand Fleuret</persName>
+         </person>
+         <person xml:id="perceau_louis">
+            <persName>Louis Perceau</persName>
+         </person>
       </listPerson>
       
       <listPlace>
@@ -221,6 +266,9 @@
             <placeName>Graville</placeName>
          </place>
          <place xml:id="rhin"><placeName>Rhin</placeName></place>
+         <place xml:id="vatican">
+            <placeName>Vatican</placeName>
+         </place>
       </listPlace>
       
       <listBibl>
@@ -272,6 +320,7 @@
          <bibl xml:id="les_oeuvres_mystiques_et_burlesque">Les Oeuvres mystiques et burlesques de Frères Matorel, mort au convent, Max Jacob</bibl>
          <bibl xml:id="la_symbolique_des_évangiles">La Symolique des Evangiles, Max Jacob</bibl>
          <bibl xml:id="le_phanérogramme">Le Phanérogramme, Max Jacob</bibl>
+         <bibl xml:id="l_hérésiarque_et_cie">l'Hérésiarque et Cie, Apollinaire</bibl>
          
       </listBibl>
       
