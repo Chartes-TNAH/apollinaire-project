@@ -19,138 +19,296 @@
   </teiHeader>
   <text>
       <body>
-         <p>(première vue)
-            M. GUILLAUME APOLLINAIRE a le plus grand mépris de ses
-            contemporains. Il ne les juge pas capables de le com-
-            prendre, et son langage leur fait des concessions. Pourquoi
-            n‘a—t—il pas écrit tous les vers d‘Alcools(1:note bas de page) ! à la file, tous ses
-            poèmes à la queue leu leue, sans blancs, sans pagination,
-            puisqu‘il y supprima les points et jusqu‘à l‘humble virgule ?
-            Lisez pourtant cette « Marie » :
-            (Vous y dansiez petite fille
-            Y danserez—vous mère—grand
-            C‘est la maclotte qui sautille
-            Toutes les cloches sonneront
-            Quand donc reviendrez—vous Marie
+         
+         
+         <div type="article" n="156" xml:id="article1_156">
+            <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f156.item"/>
+         
+            <p>
+            <lb/>M. <persName ref="#apollinaire_guillaume" rend="caps">GUILLAUME APOLLINAIRE</persName> a le plus grand mépris de ses
+               <lb/>contemporains. Il ne les juge pas capables de le com-
+               <lb break="no"/>prendre, et son langage leur fait des concessions. Pourquoi
+               <lb/>n'a—t—il pas écrit tous les vers d'<ref target="#alcools">Alcools</ref>
+               <note anchored="true" n="1" place="foot">1. Mercure de France.</note>
+                ! à la file, tous ses
+               <lb/>poèmes à la queue leu leue, sans blancs, sans pagination,
+               <lb/>puisqu'il y supprima les points et jusqu'à l'humble virgule ?
+               <lb/>Lisez pourtant cette « Marie » :
             
-            Les brebis s‘en vont dans la neige
-            Flocons de laine et ceux d‘argent
-            Des soldats passent et que n‘ai—je:centre)
+            <ref target="#marie">
+               <quote rend="align(center)">
+               <lg><l>Vous y dansiez petite fille</l>
+            <l>Y danserez—vous mère—grand</l>
+            <l>C'est la maclotte qui sautille</l>
+            <l>Toutes les cloches sonneront</l>
+            <l>Quand donc reviendrez—vous Marie</l></lg>
             
-            (1. Mercure de France.:note de bas de page)
+            <lg><l>Les brebis s'en vont dans la neige</l>
+            <l>Flocons de laine et ceux d'argent</l>
+            <l>Des soldats passent et que n'ai—je:</l>
+            <l>Un cœur à moi ce cœur changeant</l>
+            <l>Changeant et puis encore que sais—je</l></lg>
             
-            (Un cœur à moi ce cœur changeant 
-            Changeant et puis encore que sais—je
+            <lg><l>Sais—je où s'on iront tes cheveux</l>
+            <l>Crépus comme mer qui moutonne</l>
+            <l>Sais—je où s'en iront tes cheveux</l>
+            <l>Et tes mains feuilles de l'automne</l>
+            <l>Que jonchent aussi nos aveux</l></lg>
             
-            Sais—je où s‘on iront tes cheveux
-            Crépus comme mer qui moutonne
-            Sais—je où s‘en iront tes cheveux
-            Et tes mains feuilles de l‘automne
-            Que jonchent aussi nos aveux
+            <lg><l>Je passais au bord de la Seine</l>
+            <l>Un livre ancien sous le bras</l>
+            <l>Le fleuve est pareil à ma peine</l>
+            <l>Il s'écoule et ne tarit pas</l>
+            <l>Quand donc finira la semaine</l>
+            </lg>
+               </quote>
+            </ref>
+            </p>
             
-            Je passais au bord de la Seine
-            Un livre ancien sous le bras
-            Le fleuve est pareil à ma peine
-            Il s‘écoule et ne tarit pas
-            Quand donc finira la semaine:centre)
+            <p>
+               <lb/>Il me semble que M. Apollinaire se bat les flancs, qu'en
+               <lb/>dites-vous ? Je croirais volontiers qu'il n'est qu'intelligence
+               <lb/>érudite, et c'est une mauvaise condition pour la poésie.
+               <lb/>Vous me dites que tant de poètes sont bêtes...</p>
             
-            Il me semble que M. Apollinaire se bat les flancs, qu'en
-            dites-vous ? Je croirais volontiers qu'il n'est qu'intelligence
-            érudite, et c'est une mauvaise condition pour la poésie.
-            Vous me dites que tant de poètes sont bêtes...
-            
-            (1913 Henri Clouard (Revue Critique des Idées et des Livres Octob:sur papier support, manuscrit, coupé en fin de phrase)
-            
-            
-            
-            (deuxième vue)
-            (Ça recommence.:gras, gauche)
-            
-            Une grande nouvelle. M. Guillaume Apolli-
-            naire va publier des vers sans ponctuation. Que
-            c'est intéressant, n'est-ce pas ! Il paraît que M.
-            Alfred Valette, le mari de Rachilde, s'en est
-            trouvé mal. Tout le (Mercure de France:italique) en fut
-            bouleversé... Pour si peu... et le cu-cubisme
-            réapparut en vedette, sous les auspices de Pi-
-            casso, vous le connaissez ? Il a fait le portrait
-            de M. Guillaume Apollinaire, et ce portrait ser-
-            vira de frontispice au volume de vers...
-            sans ponctuation... N'y a-t-il pas là de quoi révolu-
-            tionner la rive gauche, voire même de ressus-
-            citer la guerre des Deux-Rives ? Remettez-vous,
-            je vous prie, tout s'est arrangé. Il paraît que
-            les vers sans ponctuations seront désormais le
-            genre vraiment artisse... Qu'en pensez-vous, o 
-            Paul Fort, prince des poètes ?
-            
-            (Courrier Français 22 février 1913: sur papier support, manuscrit)
+            <note type="ref_article" rend="handwritten" >
+               <date>1913</date> <persName ref="#clouard_henri">Henri Clouard</persName> <ref target="#revue_critique_des_idées">Revue Critique des Idées et des Livres</ref> Octob
+         </note>
             
             
+         </div>
+         <div type="article" n="156" xml:id="article2_156">
+            <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f156.item"/>
             
-            (troisième vue)
+            <p>
+            <hi rend="align(left) bold">Ça recommence.</hi>
+            </p>
+            
+            <p>
+               <lb/>Une grande nouvelle. M. <persName ref="#apollinaire_guillaume">Guillaume Apolli-
+               <lb break="no"/>naire</persName> va publier des vers sans ponctuation. Que
+               <lb/>c'est intéressant, n'est-ce pas ! Il paraît que M.
+               <lb/><persName ref="#valette_alfred">Alfred Valette</persName>, le mari de Rachilde, s'en est
+               <lb/>trouvé mal. Tout le <hi rend="italic"><ref target="#mercure_de_france">Mercure de France</ref></hi> en fut
+               <lb/>bouleversé... Pour si peu... et le cu-cubisme
+               <lb/>réapparut en vedette, sous les auspices de <persName ref="#picasso_pablo">Pi-
+               <lb break="no"/>casso</persName>, vous le connaissez ? Il a fait le portrait
+               <lb/>de M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName>, et ce portrait ser-
+               <lb break="no"/>vira de frontispice au volume de vers...
+               <lb/>sans ponctuation... N'y a-t-il pas là de quoi révolu-
+               <lb break="no"/>tionner la <placeName ref="#paris">rive gauche</placeName>, voire même de ressus-
+               <lb break="no"/>citer la guerre des Deux-Rives ? Remettez-vous,
+               <lb/>je vous prie, tout s'est arrangé. Il paraît que
+               <lb/>les vers sans ponctuations seront désormais le
+               <lb/>genre vraiment artisse... Qu'en pensez-vous, o 
+               <lb/><persName ref="#fort_paul">Paul Fort</persName>, prince des poètes ?
+            </p>
+            
+            <note type="ref_article" rend="handwritten" >
+            <ref target="#courrier_français">Courrier Français</ref> <date>22 février 1913</date>
+            </note>
+            
+         </div>
+         <div type="article" n="156" xml:id="article3_156">
+            <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f156.item"/>
+            <p>
             (Les Lettres: centre, gras, taille police très large)
             (-----: trait séparation, centre)
             (Un héros: centre, gras, taille police large)
+            </p>
             
-            On n'avait jamais eu à signaler, croyons-
-            nous, le cas d'un écrivain qui, pour obliger
-            un confrère, renie à peu près tous les ouvra-
-            ges qui composent son oeuvre. M. Max Ja
-            cob, poète, romancier, dramaturge, confé-
-            rencier, occultiste et peintre de talent, nous
-            semble être le premier héros d'une telle
-            aventure, et il faut entendre ici le mot héros
-            dans son sens absolu. Voici les faits : en
-            un article très discuté, M. Georges Duhamel,
-            dans (Le Mercure de France: italiqué, souligné d'un trait bleu par Apollinaire), affirma recon-
-            naître dans les poésies de M. Guillaume
-            Apollinaire l'influence d'écrivains de la
-            même génération, celle de 1898, parmi les-
-            quels M. Max Jacob. Or, ce dernier, adres-
-            sant une protestation à M. Alfred Vallette,
-            déclare : « ...M. Guillaume Apollinaire n'a
-            pas cessé de publier des vers depuis 18989;
-            en 1905, je n'écrivais encore en vers ni en
-            prose et mon premier recueil date de 1911. »
-            Nous ne faillirons pas au devoir qui s'im-
-            pose à un ami et contemporain des deux
-            écrivains en cause. L'originalité du poète
-            d'(Alcools:italique) nous semble indiscutable. Mais M.
-            Max Jacob pousse trop loin le zèle, au gré
-            de ceux qui furent ses lecteurs toujours amu-
-            sés. Au reste, si l'on ouvre, à rebours, le 
-            recueil publié en 1911, la (Côte:italique), on lit : Du
-            même auteur : (Saint-Matorel, le Siège de 
-            Jérusalem:italique) (suite de (Saint-Matorel:italique)) ; ces ou-
-            vrages de luxe furent furent publiés dans les trois
-            années précédentes. On lit encore : Manus-
-            crits achevés : (Le Terrain Bouchaballa: italique), co-
-            médie en trois actes; (La Chronique de Gui-
-            chin:italique), roman ; (Mémoires apocryphes:italique), nouvel-
-            les ; (Les Oeuvres mystiques et burlesques de
-            Frères Matorel, mort au convent:italique); (La Sym-
-            bolique des Evangiles:italique), essai d'exégèse nou-
-            velle (conférence faite dans les salons du
-            plus moderne des couturiers); (Le Phanéro-
-            gramme:italique), roman anglo-saxon. A ces oeuvres,
-            il convient d'ajouter les très nombreux et
-            pittoresques poèmes en prose publiés dans
-            diverses revues, notamment l'introuvable
-            (Revue Immoraliste:italique), en 1905, et lus à la plu-
-            part des poètes et écrivains qui, de 1903 à 
-            1913, escaladèrent la Butte Montmartre.
-            Respectueux de la vérité historique littéraire
-            et veillant sur elle comme un gardien de 
-            (phare veille sur sa lumière, nous avions le
-            devoir dire ces choses. Ce devoir accom-
-            pli nous laisse fort à l'aise pour proclamer
-            que M. Max Jacob pratique en héros le
-            culte de l'amitié. Toutefois, son sacrifice
-            apparaît bien inutile. - A. S.: trait vertical bleu fait par Apollinaire à droite des lignes)
+            <p>
+               <lb/>On n'avait jamais eu à signaler, croyons-
+               <lb/>nous, le cas d'un écrivain qui, pour obliger
+               <lb/>un confrère, renie à peu près tous les ouvra-
+               <lb break="no"/>ges qui composent son oeuvre. M. <persName ref="#jacob_max">Max Ja
+               <lb/>cob</persName>, poète, romancier, dramaturge, confé-
+               <lb break="no"/>rencier, occultiste et peintre de talent, nous
+               <lb/>semble être le premier héros d'une telle
+               <lb/>aventure, et il faut entendre ici le mot héros
+               <lb/>dans son sens absolu. Voici les faits : en
+               <lb/>un article très discuté, M. <persName ref="#duhamel_georges">Georges Duhamel</persName>,
+               <lb/>dans <hi rend="italic underligne(blue)"><ref target="#mercure_de_france">Le Mercure de France</ref></hi>, affirma recon-
+               <lb break="no"/>naître dans les poésies de M. <persName ref="#apollinaire_guillaume">Guillaume
+               <lb/>Apollinaire</persName> l'influence d'écrivains de la
+               <lb/>même génération, celle de 1898, parmi les-
+               <lb break="no"/>quels M. <persName ref="#jacob_max">Max Jacob</persName>. Or, ce dernier, adres-
+               <lb break="no"/>sant une protestation à M. <persName ref="#valette_alfred">Alfred Vallette</persName>,
+               <lb/>déclare : <quote>« ...M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> n'a
+               <lb/>pas cessé de publier des vers depuis <date>1898</date>;
+               <lb/>en <date>1905</date>, je n'écrivais encore en vers ni en
+               <lb/>prose et mon premier recueil date de <date>1911</date>. »</quote>
+               <lb/>Nous ne faillirons pas au devoir qui s'im-
+               <lb break="no"/>pose à un ami et contemporain des deux
+               <lb/>écrivains en cause. L'originalité du poète
+               <lb/>d'<hi rend="italic"><ref target="#alcools">Alcools</ref></hi> nous semble indiscutable. Mais M.
+               <lb/><persName ref="#jacob_max">Max Jacob</persName> pousse trop loin le zèle, au gré
+               <lb/>de ceux qui furent ses lecteurs toujours amu-
+               <lb break="no"/>sés. Au reste, si l'on ouvre, à rebours, le 
+               <lb/>recueil publié en <date>1911</date>, <hi rend="italic"><ref target="#la_côte">la Côte</ref></hi>, on lit : Du
+               <lb/>même auteur : <hi rend="italic"><ref target="#saint_matorel">Saint-Matorel</ref></hi>, <hi rend="italic"><ref target="#le_siège_de_jérusalem">le Siège de 
+               <lb/>Jérusalem</ref></hi> (suite de <hi rend="italic"><ref target="#saint_matorel">Saint-Matorel</ref></hi>) ; ces ou-
+               <lb break="no"/>vrages de luxe furent furent publiés dans les trois
+               <lb/>années précédentes. On lit encore : Manus-
+               <lb break="no"/>crits achevés : <hi rend="italic"><ref>Le Terrain Bouchaballa</ref></hi>, co-
+               <lb break="no"/>médie en trois actes; <hi rend="italic"><ref target="#la_chronique_de_Guichin">La Chronique de Gui-
+                  <lb break="no"/>chin</ref></hi>, roman ; <hi rend="italic"><ref target="#mémoires_apocryphes">Mémoires apocryphes</ref></hi>, nouvel-
+               <lb break="no"/>les ; <hi rend="italic"><ref target="#les_oeuvres_mystiques_et_burlesque">Les Oeuvres mystiques et burlesques de
+                  <lb/>Frères Matorel, mort au convent</ref></hi>; <hi rend="italic"><ref target="#la_symbolique_des_évangiles">La Sym-
+               <lb break="no"/>bolique des Evangiles</ref></hi>, essai d'exégèse nou-
+               <lb break="no"/>velle (conférence faite dans les salons du
+               <lb/>plus moderne des couturiers); <hi rend="italic"><ref target="#le_phanérogramme">Le Phanéro-
+                  <lb break="no"/>gramme</ref></hi>, roman anglo-saxon. A ces oeuvres,
+               <lb/>il convient d'ajouter les très nombreux et
+               <lb/>pittoresques poèmes en prose publiés dans
+               <lb/>diverses revues, notamment l'introuvable
+               <lb/><hi rend="italique"><ref target="#revue_immoraliste">Revue Immoraliste</ref></hi>, en <date>1905</date>, et lus à la plu-
+               <lb break="no"/>part des poètes et écrivains qui, de <date>1903</date> à 
+               <lb/><date>1913</date>, escaladèrent la <placeName ref="#paris">Butte Montmartre</placeName>.
+               <lb/>Respectueux de la vérité historique littéraire
+               <lb/>et veillant sur elle comme un gardien de 
+               <lb/>phare veille sur sa lumière, nous avions le
+               <lb/>devoir dire ces choses. Ce devoir accom-
+               <lb break="no"/>pli nous laisse fort à l'aise pour proclamer
+               <lb/>que M. <persName ref="#jacob_max">Max Jacob</persName> pratique en héros le
+               <lb/>culte de l'amitié. Toutefois, son sacrifice
+               <lb/>apparaît bien inutile. - A. S.
+         </p>
             
-            
-            (Gil Blas 2 juillet 1913: sur papier support, manuscrit)</p>
+         <note type="ref_article" rend="handwritten">
+            <ref target="#gil_blas">Gil Blas</ref> 
+               <date>2 juillet 1913</date>
+         </note>
+         </div>
       </body>
   </text>
+   
+   <standOff>
+      <listPerson>
+         <person xml:id="picasso_pablo">
+            <persName>Pablo Picasso</persName>
+         </person>
+         <person xml:id="apollinaire_guillaume">
+            <persName>Guillaume Apollinaire</persName>
+         </person>
+         <person xml:id="bayard_jean">
+            <persName>Jean Bayard</persName>
+         </person>
+         <person xml:id="de_gonzague_frick_louis">
+            <persName>Louis de Gonzague Frick</persName>
+         </person>
+         <person xml:id="picard_gaston">
+            <persName>Gaston Picard</persName>
+         </person>
+         <person xml:id="mallarmé_stéphane">
+            <persName>Stéphane Mallarmé</persName>
+         </person>
+         <person xml:id="laforgue_jules">
+            <persName>Jules Laforgue</persName>
+         </person>
+         <person xml:id="rimbaud_arthur">
+            <persName>Arthur Rimbaud</persName>
+         </person>
+         <person xml:id="baudelaire_charles">
+            <persName>Charles Baudelaire</persName>
+         </person>
+         <person xml:id="de_gourmont_remy">
+            <persName>Remy de Gourmont</persName>
+         </person>
+         <person xml:id="salmon_andré">
+            <persName>André Salmon</persName>
+         </person>
+         <person xml:id="pellerin_jean">
+            <persName>Jean Pellerin</persName>
+         </person>
+         <person xml:id="derème_tristan">
+            <persName>Tristan Derème</persName>
+         </person>
+         <person xml:id="deubel_léon">
+            <persName>Léon Deubel</persName>
+         </person>
+         <person xml:id="clouard_henri">
+            <persName>Henri Clouard</persName>
+         </person>
+         <person xml:id="valette_alfred">
+            <persName>Alfred Valette</persName>
+         </person>
+         <person xml:id="fort_paul">
+            <persName>Paul Fort</persName>
+         </person>
+         <person xml:id="jacob_max">
+            <persName>Max Jacob</persName>
+         </person>
+         <person xml:id="duhamel_georges">
+            <persName>Georges Duhamel</persName>
+         </person>
+      </listPerson>
+      
+      <listPlace>
+         <place xml:id="paris">
+            <placeName>Paris</placeName>
+         </place>
+         <place xml:id="vladivostock">
+            <placeName>Vladivostock</placeName>
+         </place>
+         <place xml:id="graville">
+            <placeName>Graville</placeName>
+         </place>
+         <place xml:id="rhin"><placeName>Rhin</placeName></place>
+      </listPlace>
+      
+      <listBibl>
+         <head>Référence aux poèmes de Alcools</head>
+         <bibl xml:id="alcools">Alcool</bibl>
+         <bibl xml:id="les_sept_épées">Les sept épées</bibl>
+         <bibl xml:id="crépuscule">Crépuscule</bibl>
+         <bibl xml:id="la_chanson_du_mal_aimé">La Chanson du mal-aimé</bibl>
+         <bibl xml:id="l_ermite">L'Ermite</bibl>
+         <bibl xml:id="zone">Zone</bibl>
+         <bibl xml:id="les_colchiques">Les colchiques</bibl>
+         <bibl xml:id="l_emigrant_de_landor_road">L'Émigrant de Landor Road</bibl>
+         <bibl xml:id="a_la_santé">A la Santé</bibl>
+         <bibl xml:id="mai">Mai</bibl>
+         <bibl xml:id="le_pont_mirabeau">Le Pont Mirabeau</bibl>
+         <bibl xml:id="marie">Marie</bibl>
+         <bibl xml:id="l_adieu">L'Adieu</bibl>
+         <bibl xml:id="poème_lu_au_mariage">Poème lu au mariage d'André Salmon</bibl>
+      </listBibl>
+      
+      <listBibl><head>Référence à la presse</head>
+         <bibl xml:id="mercure_de_france">Mercure de France</bibl>
+         <bibl xml:id="gazette_de_france">Gazette de France</bibl>
+         <bibl xml:id="paris_midi">Paris-Midi</bibl>
+         <bibl xml:id="fantasio">Fantasio</bibl>
+         <bibl xml:id="le_divan">Le Divan</bibl>
+         <bibl xml:id="gil_blas">Gil Blas</bibl>
+         <bibl xml:id="les_chroniques">Les chroniques</bibl>
+         <bibl xml:id="la_phalange">La Phalange</bibl>
+         <bibl xml:id="l_intransigeant">L'Intransigeant</bibl>
+         <bibl xml:id="revue_critique_des_idées">Revue Critique des Idées et des Livres</bibl>
+         <bibl xml:id="courrier_français">Courrier français</bibl>
+         <bibl xml:id="revue_immoraliste">Revue Immoraliste</bibl>
+         
+      </listBibl>
+      
+      <listBibl>
+         <head>Référence à d'autres oeuvres</head>
+         <bibl xml:id="demain_Deubel">Demain, Léon Deubel</bibl>
+         <bibl xml:id="le_chat">le chat, dans Le Bestiaire, ou Cortège d’Orphée, Appolinaire</bibl>
+         <bibl xml:id="le_bestiaire">Le Bestiaire, ou Cortège d’Orphée, apollinaire</bibl>
+         <bibl xml:id="le_coeur_supplicié">Le coeur supplicié, Poésie, Rimbaud</bibl>
+         <bibl xml:id="la_côte">La Côte, Max Jacob</bibl>
+         <bibl xml:id="saint_matorel">Saint-Matorel, Max Jacob</bibl>
+         <bibl xml:id="le_siège_de_jérusalem">le Siège de Jérusalem, Max Jacob</bibl>
+         <bibl xml:id="le_terrain_Bouchaballa">Le Terrain Bouchaballa, Max Jacob</bibl>
+         <bibl xml:id="la_chronique_de_Guichin">La Chronique de Guichin, Max Jacob</bibl>
+         <bibl xml:id="mémoires_apocryphes">Mémoires apocryphes, Max Jacob</bibl>
+         <bibl xml:id="les_oeuvres_mystiques_et_burlesque">Les Oeuvres mystiques et burlesques de Frères Matorel, mort au convent, Max Jacob</bibl>
+         <bibl xml:id="la_symbolique_des_évangiles">La Symolique des Evangiles, Max Jacob</bibl>
+         <bibl xml:id="le_phanérogramme">Le Phanérogramme, Max Jacob</bibl>
+      
+      </listBibl>
+      
+      
+   </standOff>
 </TEI>
