@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="article" n="200" xml:id="article_200" xml:lang="fr">
+            <pb
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f200.item.r=Apollinaire%20manuscrits"/>
+            <note><ref target="#la_démocratie_sociale">La Démocratie Sociale</ref> <date when-iso="08-09-1913">18 août 1913</date></note>
+            <cb n="1" rend="left"/>
+            <head rend="center">LA LITTERATURE <lb/> ALCOOLS <lb/> PAR <lb/>
+               <emph rend="bold">GUILLAUME APOLLINAIRE</emph></head>
+
+            <p>
+               <lb/>Il y a deux jeunesses littéraires. Elles <lb/>marchent parallèlement. Elles ont
+               des <lb/>formules d‘art, des conceptions intellec— <lb break="no"/>tuelles propres et
+               se disputent la con— <lb/>quête de la postérité. Toutes deux ont <lb/>leur vérité et
+               toutes deux, alors même <lb/>qu‘elles s‘en défendraient, sont filles du <lb/>même
+               effort symboliste qui aux envi— <lb break="np"/>rons de 1880 a opposé l‘idéalisme à
+               la <lb/>théorie naturaliste. L‘une se fait l‘écho <lb/>du cœur, l‘autre veut au
+               contraire se <lb/>dégager de ce qu‘elle considère comme <lb/>de la sensiblerie et
+               laisse dominer la <lb/>raison. Quoi qu‘il en soit, avec des idées <lb/>directrices
+               différentes et des états d‘âme <lb/>divers, l‘une et l‘autre aboutissent à des
+               <lb/>œuvres qui ont leur beauté et retien— <lb/>nent l‘attention. Leur différence est
+               <lb/>moins dans la façon dont elles s‘effor— <lb/>cent d‘échapper aux influences
+               d‘une lit— <lb break="no"/>térature précédente que dans l‘affirma— <lb break="no"
+               />tion par l‘une que la poésie doit être <lb/> dans le cœur ou par l‘autre que la
+               rai— <lb/>son seule est source de poésie. </p>
+
+            <p>
+               <lb/>La <ref target="#floraison_des_eaux" rend="italic">Floraison des Eaux</ref> et le <ref target="#du_livre_de_la_mort" rend="italic">Livre de
+                  <lb/>la mort</ref> de <persName ref="#lavaud_guy">Guy Lavaud</persName> furent la plus <lb/>pure et
+               la plus délicieuse expression <lb/>poétique de la première jeunesse, de cel— <lb/>le
+               qui comptait les battements de son <lb/>cœur est, en les répétant, se faisait l‘his—
+                  <lb break="no"/>torien d‘une vie intime et profonde. A <lb/>cette tendiance
+               intimiste, l‘autre jeunes— <lb/>se, moins sentimentale, oppose la sienne <lb/>et
+               l‘œuvre nouvelle que <persName ref="#apollinaire_guillaume">Guillaume Apol— <lb/>linaire</persName> publie aux
+               éditions du Mercure <lb/>de France a le mérite d‘exprimer
+               d‘une <lb/>façon complète sa manière propre que <lb/>l‘on pourrait appeler la
+               sensibilité de Ia <lb/>raison. </p>
+
+            <p>
+               <lb/>En éditant sous le titre d'<ref target="#alcools" rend="italic">Alcools</ref> di— <lb break="no"
+               />vers poèmes écrits au cours d‘une pé— <lb break="no"/>riode qui va de 1898 à 1913,
+               <persName ref="#apollinaire_guillaume">Guillaume <lb/>Apollinaire</persName> a réuni les éléments indica—
+               <lb/>tifs d‘une poésie hardie, purement in— <lb/>tellectuelle, où les souvenirs
+               personnels <lb/>ne communiquent au cœur qu‘une part <lb/>légère d‘émotion. Encore que
+               tous ces <lb/>souvenirs soient les vies successivement <lb/>vécues par le poète qui
+               donne au récit <lb/>qu‘il en esquisse la valeur d‘un symbole <lb/>mirifique et
+               parfaitement original. </p>
+
+            <p>
+               <lb/>En vérité ce livre est un des plus cu— <lb/>rieux qui aient paru au cours de ces
+                  <cb n="2" rend="right"/>
+               <lb/>dernières années et bien peu des écri— <lb break="no"/>vains qui se trouvent du
+               même bord <lb/>que l‘auteur d‘<ref target="#alcools" rend="italic">Alcools</ref> connaissent com— <lb
+                  break="no"/>me lui l‘art de parter une langue plus <lb/>neuve et savent mieux que
+               lui faire <lb/>rendre aux mots sybillins tout leur sens <lb/><emph rend="italic"
+                  >originel</emph> et toute leur force profonde. Sa <lb/>phrase fonmée des mots
+               essentiels se <lb/>prolonge dans la saveur qui en demeu— <lb break="no"/>re. Ce style
+               concis, buriné, à la fois mys— <lb break="no"/>tique et concret est d‘une vigueur ri—
+                  <lb break="no"/>goureusement classique qui fait parfois <lb/>penser à la langue
+               subtile d‘un <persName ref="#villon_françois">Villon</persName>
+               <lb/>ou d‘un <persName ref="#marot_clément">Clément Marot</persName>. </p>
+
+            <p>
+               <lb/><persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> établit que l‘ar— <lb break="no"
+               />tiste doit être SOI : il ne l‘est qu‘en re— <lb break="no"/>jetant les émotions
+               accessibles de l‘âme <lb/>vulgaire et en parlant un langage éloi— <lb break="np"/>gné
+               des rhétoriques banales. Ainsi très <lb/>courageusement, au risque peut—être de
+               <lb/>frayer avec l‘excès, donnera—t—il sa sym— <lb break="no"/>pathie aux
+               manifestations intellectuelles <lb/>dont les hardiesses de ces derniers <lb/>temps
+               ont apeuré les bourgeois gentils— <lb/>hommes, les conservateurs anodins de <lb/>la
+               littérature et des arts. Ainsi évitera— <lb/>t—il de se faire l‘éditeur d‘idées
+               généra— <lb/>les dont, pour le moins qu‘on puisse di— <lb break="no"/>re, c‘est que,
+               étant générales, elles ces— <lb break="no"/>sent d‘être intéressantes quand elles ne
+               <lb/>parviennet pas à être tout à fait niaises. <lb/>Ainsi pour rendre et définir ses
+               impres— <lb break="no"/>sions a—t—il soin de le faire en formules <lb/>qui font
+               jaillir du cœur et surtout de <lb/>l‘esprit le rayon d‘une lumiière variée à
+               <lb/>l'infini : <lb/>dit—il dans le <ref target="#le_voyageur">poème du voyageur</ref> : <quote
+                  rend="small">
+                  <l>Te souviens—tu du long orphelinat des gares</l>
+                  <l>Nous traversâmes des villes qui tout le jour <lb rend="interline"
+                     />(tournaient:dans l'interligne, pour terminer le vers malgré le manque de
+                     place)</l>
+                  <l>Et vomissaient la nuit le soleil des journées.</l>
+               </quote>
+            </p>
+
+            <p>
+               <lb/>Quelle vibration vaudra celle du poète <lb/>évoquant le défilé des souvenirs qui
+               <lb/>constituent sa vie : <lb/>et quel symbolisme plus inquiet que ce— <lb/>lui que
+               l‘on retrouve dans l‘affabulation <lb/>de Merlin et la vieille femme : <quote
+                  rend="small italic">
+                  <l>Les villes que j‘ai vues vivaient comme des <lb rend="interline"/>folles</l>
+                  <l>Au carrefour où nulle fleur sinon la rose</l>
+                  <l>Des vents mais sans épines n‘a fleuri l'univers</l>
+                  <l>Merlin guettait la vie et l‘éternelle cause</l>
+                  <l>Qui fait mourir et puis renaître l'univers.</l>
+               </quote>
+            </p>
+
+            <p>
+               <lb/>Il n‘y a point trace chez <persName ref="#apollinaire_guillaume">Guil. Apol— <lb break="no"
+                  />linaire</persName> d‘une vaine et futile émotion. Il <lb/>passe à côté des
+               choses de la vie en ar— <lb break="no"/>tiste hautain et s‘il ne dédaigne pas, Ma—
+                  <lb break="no"/>ge du verbe, de la mélodie et de la cou— <lb break="no"/>leur, de
+               s‘arrêter aux sensations que la <lb/>formidable Nature impose aux poètes, <lb/>du
+               moins il a l‘orgueil de ne les traduire <lb/>que sous une forme personnelle, dans
+               <lb/>un vocabulaire qui porte le témoignage <lb/>d‘une érudition nourrie aux festins,
+               <lb/>somptueux de la divine et féconde fan— <lb break="no"/>taisie antique. Le poète
+                  <persName ref="#royère_jean">Jean Royère</persName>
+               <lb/>écrit dans <ref target="#la_phalange">la Phalange</ref> : <quote>« <ref target="#larron">Le Larron</ref>
+                  <lb/>(un des poèmes d‘<ref target="#alcools" rend="italic">Alcools</ref>) est herméti— <lb
+                     break="no"/> que d‘être un amas de symboles, de <lb/>lueurs, encore qu‘il y ait
+                  dans la pen— <lb break="no"/>sée d‘<persName ref="#apollinaire_guillaume">Apollinaire</persName> une ingénuité
+                  qui ré— <lb break="no"/>pugne aux simples intuitions. Sa pen— <lb break="no"/>sée
+                  le possède toujours : mais il s‘évade <lb/>des lacs syllogistiques par son
+                  imagina— <lb break="no"/>tion, hardie et sûre d‘elle et par le goût. <lb/>C‘est un
+                  poète d‘un tact très décisif. <lb/>Cette obscurité est un bénéfice pour le
+                  <lb/>lecteur qu‘elle stimule et induit en poé— <lb break="no"/>sie. »</quote>
+            </p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listPerson>
+         <person xml:id="apollinaire_guillaume">
+            <persName><forename>Guillaume</forename><surname>Apollinaire</surname></persName>
+         </person>
+         <person xml:id="guy_lavaud">
+            <persName><forename>Guy</forename><surname>Lavaud</surname></persName>
+            <note>Poète symboliste français, né à Terrasson, France, en 1883 et mort en 1958 à Saint-Germain-en-Laye, France.</note>
+         </person>
+         <person xml:id="françois_villon">
+            <persName><forename>François</forename><surname>Villon</surname></persName>
+            <note>Célèbre poète français de la fin du Moyen Âge, né en 1431 à Paris, France, et mort après 1463.</note>
+         </person>
+         <person xml:id="clement_marot">
+            <persName><forename>Clément</forename><surname>Marot</surname></persName>
+            <note>Poète français de la Renaissance, né en 1496 à Cahors, France, et mort en 1544, à Turin, Italie.</note>
+         </person>
+         <person xml:id="jean_royere">
+            <persName><forename>Jean</forename><surname>Royère</surname></persName>
+            <note>Poète et éditeur français, né en 1871 à Aix-en-Provence, France, et mort en 1956 à Paris, France.</note>
+         </person>
+      </listPerson>
+      <listBibl>
+         <head>Références bibliographiques</head>
+         <listBibl>
+            <listBibl>
+               <head>Références à Alcools (1913)</head>
+               <bibl type="poetry" xml:id="alcools">
+                  <title>Alcools (1913)</title>
+                  <relatedItem>
+                     <listBibl>
+                        <bibl><title type="poem" xml:id="le_voyageur">Le voyageur</title></bibl>
+                        <bibl><title type="poem" xml:id="larron">Le Larron</title></bibl>
+                     </listBibl>
+                  </relatedItem>
+               </bibl>
+            </listBibl>
+            <listBibl>
+               <head>Références littéraires</head>
+               <listBibl>
+                  <bibl type="poetry" xml:id="floraison_des_eaux"><title>La floraison des
+                     eaux</title>
+                     <author>Guy Lavaud</author>
+                     <editor>Bibliothèque de l'Occident</editor>
+                     <pubPlace>Paris</pubPlace>
+                     <date when="1907">1907</date></bibl>
+                  <bibl type="poetry" xml:id="du_livre_de_la_mort"><title>Du livre de la
+                     mort</title>
+                     <author>Guy Lavaud</author>
+                     <editor>La Phalange</editor>
+                     <pubPlace>Paris</pubPlace>
+                     <date when="1908">1908</date></bibl>
+               </listBibl>
+            </listBibl>
+            <listBibl>
+               <head>Références presse</head>
+               <listBibl>
+                  <bibl type="literary_magazine" xml:id="la_phalange"><title>La Phalange</title>
+                     <note>Revue littéraire dirigée par Jean Royère, de 1906 à 1939.</note></bibl>
+                  <bibl type="journal" xml:id="la_démocratie_sociale"><title>La démocratie
+                     sociale</title></bibl>
+               </listBibl>
+            </listBibl>
+         </listBibl>
+      </listBibl>
+   </standOff>
+</TEI>
