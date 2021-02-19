@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="article" n="201" xml:id="article1_201" xml:lang="de">
+            <pb
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f201.item.r=Apollinaire%20manuscrits.zoom"/>
+            
+            <head rend="center"><emph rend="bold"><persName ref="#apollinaire_guillaume">Guilaume Apollinaire</persName>, <ref target="#alcools">Alcools</ref>.</emph><lb/>Poèmes, 1898—1913. Paris, 1913. Mercure de France,
+               26 rue de Condé.</head>
+            <p>
+               <lb/>Der vorliegende Band des ausgezeigneten Pariser
+               <lb/>Dichters enthält Werke, die nicht nur aus verschiedenen
+               <lb/>Jahren, sondern auch aus verschiedenen Abschnitten seines
+               <lb/>poetischen Schaffens stammen. In den Gedichten, die
+               <lb/>offenbar älteren Datums, sind, lebt noch die neufranzösische
+               <lb/>Romantik aus der Zeit um und nach <persName ref="#verlaine_paul">Paul Verlaine</persName>. Wie 
+               <lb/>bei <persName ref="#fort_paul">Paul Fort</persName> nähert sich die Form dem Volksliede: die
+               <lb/>Lechnik des Verses ist Hocker, der Reim geht in Assonanz
+               <lb/>über, refrainartige Zeilen schreiten durch das Gedicht hin-
+               <lb break="no"/>durch, und der Rhythmus ist rein musikalisch, fast gefang-
+               <lb/>haft. In diesem Gewande gibt der Dichter ganz persön-
+               <lb break="no"/>liche intime Stimmungen Herbstlandschaften und Notturnos,
+               <lb/>in denen der mystische Zauber der Natur mit Er-
+               <lb break="no"/>innerungen und Sehnsichten zur poetischen Einheit ver-
+               <lb break="no"/>schmilzt und in denen
+               <quote rend="center">
+                  <l>Les souvenirs sont cors de chasse,</l>
+                  <l>Dont meurt le bruit parmi les vents.</l>
+               </quote>
+            </p>
+            
+            <p>
+               <lb/>Eine ganze Reihe dieser Gedichte ist am Rhein ent-
+               <lb break="no"/>standen, „in dessen truntenen Fluten sich die Weinberge
+               <lb/>spiegeln, und in den das ganze Gold der Nacht zitternd
+               <lb/>und glänzend fällt, während die Feen in grünen Haaren
+               <lb/>mit todesröchelndem Schluchzen vom Sommer singer, bis
+               <lb/>das Glas des Dichters wie ein lautes Lachen zerspringt.
+               <lb/>Eine dieser <ref target="#nuit_rhénane, #rhénane_d_automne">„Rhénanes”</ref> ist eine französische Umdichtung
+               <lb/>vont <persName ref="#brentano_clemens">Brentanos</persName> <ref target="#godwi">„Lorelei”</ref> : 
+               <quote rend="center">
+                  <l>A Bacharach il y avait une sorcière blonde,</l>
+                  <l>Qui laissait mourir d'amour tous les hommes<lb rend="interline"/>à la ronde</l>
+                  <l>Devant son tribunal l'évêque la fit citer</l>
+                  <l>D'avance il l'absolvit à cause de beauté.</l>
+               </quote>
+            </p>
+            
+            <p>
+               <lb/>Als Beispiel dieser landschaftlichen Stimmungsbilder
+               <lb/>kann das folgende in reimloser Uebersetzung wieder
+               <lb/>gegebene Gedicht <ref target="#automne">„Herbst”</ref> gelten :
+               <quote rend="center">
+                  <l>Ein alter Bauer stolpert durch den Nebel</l>
+                  <l>Mit seinem Ochsen. Durch den Herbstesnebel,</l>
+                  <l>Der sich ums Elend armer Dörfer windet.</l>
+                  <l>Und wie er hingeht, singt der Bauer summend</l>
+                  <l>Ein Lied von Liebe und gebrochner Treue,</l>
+                  <l>Das spricht von einem Ring und herzzerbrechen.</l>
+                  <l>Der Herbst, der Herbst, er ließ den Sommer sterben,</l>
+                  <l>Und durch den Nebel ziehn die beiden grauen Schatten.</l>
+               </quote>
+            </p>
+            
+            <p>
+               <lb/>Um starken Gegensatze hierzu stehen die Gedichte, die
+               <lb/>den Stempel späterer Entstehung tragen. An die Stelle der
+               <lb/>musikalischen Stimmungen ist das moderne, das modernste
+               <lb/>Leben der Großstadt getreten. Die Automobile knattern über
+               <lb/>den Asphalt, die Lichter der Straße slimmern und leuchten,
+               <lb/>die Lippmädels ziehen Arm in Arm vorbei und der un-
+               <lb break="no"/>bewegliche <placeName ref="#tour_eiffel">Eiffelturm</placeName> starrt auf dieses Treiben herab. In 
+               <lb/>seiner Mitte aber steht der Dichter mit seinen rapiden, oft
+               <lb/>danken und Assoziationen. Er sieht die Körper der Toten
+               <lb/>im Leichenschauhause zu <placeName ref="#munich">München</placeName> durch die Scheiben
+               <lb/>grinsen und lädt sie zu einem Ausfluge aufs Land ein, wo
+               <lb/>denn ihre posthumen Liebkofungen und Freuden ein ge-
+               <lb break="no"/>spenstiges Dasein führen. Die Alkoholrausch wirkt das
+               <lb/>Durcheinander hastigen Lebens und hin und her flatternder
+               <lb/>Gedanken und Visionen, die jetzt in völlständig freie Rhythmen 
+               <lb/>gebannt fsind. Von der Hassischen französischen Brosodie
+               <lb/>ist kaum noch etwas zu merken, und das Ganze ist zu einer
+               <lb/>subtilen, eigenwilligen Nervenkunst geworden.
+            </p>
+            <p><persName ref="#haas_albert">Albert Haas</persName></p>
+            <note><ref target="#börfen_courrier">Börfen-Courrier</ref> <date when-iso="10-23-1913">23 octobre 1913</date></note>
+         </div>
+         
+         <div type="article" n="201" xml:id="article2_201" xml:lang="de">
+            <head><persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> <lb/> <ref target="#la_dame">DIE DAME</ref></head>
+            <lg>
+               <l>Poch poch Verschlossen hat er die Pforte</l>
+               <l>Mit den Lilien im Garten ists aus</l>
+               <l>Was ist das für eine Totenescorte</l>
+               <l>Du pochtest eben an seine Pforte</l>
+               <l>Und trotte trotte</l>
+               <l>Trottet die kleine Maus</l>
+            </lg>
+            <p>Uebertragen von <persName ref="#max_cahén_fritz">Fritz Max Cahén</persName></p>
+         </div>
+         
+         <div type="article" n="201" xml:id="article3_201" xml:lang="de">
+            <head><persName ref="#apollinaire_guillaume"><emph rend="bold">Guillaume Apollinaire</emph></persName>, <ref target="#alcools">Alcools</ref>. Paris, Mercure de France.</head>
+            
+            <p>
+               <lb/>Es ist manches in diesem Buche <persName ref="#apollinaire_guillaume">Apollinaires</persName>, was von rasch und
+               <lb/>allzu rasch urteilenden achselzuckend als vieux jeu bezeichnet werden
+               <lb/>könnte. So zeigt sich wieder, wie leicht die unbedingte Forderung nach
+               <lb/>Inhalten, die für die „Jungen” schon fast zu einer neuen Convention ge-
+               <lb break="no"/>worden sind, den Blick für das wahrhaft Ausschlaggebende zu trüben
+               <lb/>vermag. Nämlich für die graduelle Intensität des Sehens, das Gewicht
+               <lb/>der einzelnen Vorstellung und das Tempo der Mitteilung. (Auch die
+               <lb/>heroische Landschaft kann in unserer „Zeit der Maschine” Inhalte für
+               <lb/>die Kunst hergeben, und „Akademische” wie <persName ref="#poussin_nicolas">Poussin</persName> und <persName ref="#ingres_jean-auguste-dominique">Ingres</persName> stehen
+               <lb/>im direktesten Zusammenhang mit den malerischen Problemen unserer
+               <lb/>Zeit.) In <persName ref="#apollinaire_guillaume">Apollinaires</persName> Gedichtbuch ist manche Landschaft, manche
+               <lb/>Mondnacht in den Gesichtswinkel des modernen Menschen gerückt. 
+               <lb/>Au fond sind wir ja doch alle sentimental, und unser Einspruch gegen
+               <lb/>alles Sentimentale ist ebenso verlogen wie jene Art von Sentimentalität,
+               <lb/>gegen den er sich mit Recht richten könnte. Der Dichter wird, ganz
+               <lb/>wie dieser <persName ref="#apollinaire_guillaume">Apollinaire</persName>, eben immer zur Erscheinung hinzukämpfen
+               <lb/>haben, um nicht parallel der Welt gleitend ins Unaufhaltbare zu geraten,
+               <lb/>ins Unaufhaltbare, Unendliche, das den Weltschmerz der Romantik eben-
+               <lb/>so schuf wie den Cynismus des neuen Lyrikers, und das seinen letzten 
+               <lb/>Grund im bewußtsein um die Begrenztheit des Willens aufdeckt. -
+               <lb/>Für Gedichte wie z. B. die <ref target="#rhénane_d_automne, #nuit_rhénane">„Rhénanes”</ref> des Bandes <ref target="#alcools">„Alcools”</ref> erübrigt
+               <lb/>sich also die - wenn unternommen - sicherlich nicht unfruchtbar
+               <lb/>verlaufende literarische récherche de la paternité, denn ihr Ton ist neu, 
+               <lb/>ohne sich auf den neuen Jargon zu beschränken. <persName ref="#apollinaire_guillaume">Apollinaire</persName>, dieser
+               <lb/>vielleicht gegen seinen Willen rabiat christliche polnische Jude franzö-
+               <lb break="no"/>sischer Sprache, ist ein romantischer Rationalist; aus diesem Zwiespalt
+               <lb/>heraus greift er nach den Dingen der Welt. Ist es noch erlaubt, <persName ref="#goethe_johann_wolfgang_von">Goethe</persName>
+               <lb/>dafür zu zitieren : daß es auf <quote>„die lebendige Empfindung für die Zu-
+               <lb break="no"/>stände”</quote> und auf <quote>„die Fähighkeit sie auszudrücken”</quote> ankomme, um
+               <lb/>Dichter zu sein?
+            </p>
+            <p><persName ref="#max_cahén_fritz">Fritz Max Cahén</persName></p>
+            <note><ref target="#das_beiblatt">Das Beiblatt. Der Buecherei Maiandros</ref> <date when-iso="11-19-1913">19 Novembre 1913</date></note>
+         </div>
+         
+         <div type="article" n="201" xml:id="article4_201" xml:lang="fr">
+            <p>
+               <lb/><persName ref="#apollinaire_guillaume">M. Guillaume Apollinaire</persName> s'est affirmé, par la publication de son livre
+               <lb/><ref target="#alcools"><emph rend="italic">Alcools</emph></ref>‚ comme l'un des poètes les plus brulants de sa génération. On connais—
+               <lb break="no"/>sait déja un grand nombre de ces poèmes parus au <ref target="#le_festin_d_ésope"><emph rend="italic">Festin d'Esope</emph></ref>, à la <ref target="#la_revue_blanche"><emph rend="italic">Revue
+               <lb/>Blanche</emph></ref>, au <ref target="#le_mercure_de_france"><emph rend="italic">Mercure</emph></ref>, à la <ref target="#la_phalange"><emph rend="italic">Phalange</emph></ref>, aux <ref target="#soirées_de_paris"><emph rend="italic">Soirées de Paris</emph></ref>, etc., mais ce n'est
+               <lb/>pas sans quelque impatience que l'on attendait qu'ils fussent réunis en recueil.
+               <lb/>La personnalité lyrique de <persName ref="#apollinaire_guillaume">M. Guillaume Apollinaire</persName> nous est offerte là sous
+               <lb/>ses multiples aspects. Nul mieux que lui ne connaît l'art de la métamorphose,
+               <lb/>le jeu des vers, nul mieux que lui ne sait donner aux mots un sens étoilé.
+               <lb/>Les amateurs d'art moderne trouveront au seuil de ce volume un portrait
+               <lb/>sans égal de <persName ref="#apollinaire_guillaume">M. Apollinaire</persName> par <persName ref="#picasso_pablo">M. Picasso</persName>. Le grand peintre espagnol a élaboré
+               <lb/>une synthèse de décoration métaphysique et a réussi à nous montrer <persName ref="#apollinaire_guillaume">M. Guil—
+               <lb break="no"/>laume Apollinaire</persName> tout a la fois de face, de profil et de dos; cette oeuvre est
+               <lb/>surprenante plus que nous ne saurions dire et tous les admirateurs de <persName ref="#apollinaire_guillaume">M. Apol—
+               <lb break="no"/>linaire</persName> aimeront avoir ce portrait de notre nouvel Amphion, rendu dans son
+               <lb/>entéléchie.
+            </p>
+            <p><persName ref="#bresil_marc">MARC BRESIL</persName> et <persName ref="#gonzague_frick_louis_de">LOUIS DE GONZAGUE FRICK</persName></p>
+            <note><ref target="#la_phalange">La Phalange</ref> <date when-iso="07-20-1913">20 Juillet 1913</date></note>
+         </div>
+      </body>
+  </text>
+   <standOff>
+      <listPerson>
+         <person xml:id="apollinaire_guillaume">
+            <persName><forename>Guillaume</forename><surname>Apollinaire</surname></persName>
+         </person>
+         <person xml:id="guy_lavaud">
+            <persName><forename>Guy</forename><surname>Lavaud</surname></persName>
+            <note>Poète symboliste français, né en 1883 à Terrasson, France, et mort en 1958 à
+               Saint-Germain-en-Laye, France.</note>
+         </person>
+         <person xml:id="françois_villon">
+            <persName><forename>François</forename><surname>Villon</surname></persName>
+            <note>Célèbre poète français de la fin du Moyen Âge, né en 1431 à Paris, France, et mort
+               après 1463.</note>
+         </person>
+         <person xml:id="clement_marot">
+            <persName><forename>Clément</forename><surname>Marot</surname></persName>
+            <note>Poète français de la Renaissance, né en 1496 à Cahors, France, et mort en 1544, à
+               Turin, Italie.</note>
+         </person>
+         <person xml:id="jean_royere">
+            <persName><forename>Jean</forename><surname>Royère</surname></persName>
+            <note>Poète et éditeur français, né en 1871 à Aix-en-Provence, France, et mort en 1956 à
+               Paris, France.</note>
+         </person>
+         <person xml:id="roinard_paul-napoléon">
+            <persName><forename>Paul-Napoléon</forename><surname>Roinard</surname></persName>
+            <note>Poète anarchiste français, né en 1856 à Neufchâtel-en-Bray, France,, et mort à
+               Courbevoie, France, en 1930.</note>
+         </person>
+         <person xml:id="rimbaud_arthur">
+            <persName><forename>Arthur</forename><surname>Rimbaud</surname></persName>
+            <note>Poète français né en 1854 à Charleville-Mézières, France, et mort en 1891 à
+               Marseille, France.</note>
+         </person>
+         <person xml:id="taine_hippolyte">
+            <persName><forename>Hippolyte</forename><surname>Taine</surname></persName>
+            <note>Philosophe et historien français, né en 1828 à Vouziers, France, et mort en 1893 à
+               Paris, France.</note>
+         </person>
+         <person xml:id="gourmont_remy_de">
+            <persName><forename>Remy</forename><nameLink>de</nameLink><surname>Gourmont</surname></persName>
+            <note>Ecrivain, romancier, journaliste et critique d'art français, né en 1858 à
+               Bazoches-au-Houlme, France, et mort en 1915 à Paris, France.</note>
+         </person>
+         <person xml:id="bachelin_marie">
+            <persName><forename>Marie</forename><surname>Bachelin</surname></persName>
+            <note>Journaliste pour l'Echo Littéraire du Boulevard</note>
+         </person>
+         <person xml:id="clouard_henri">
+            <persName><forename>Henri</forename><surname>Clouard</surname></persName>
+            <note>Journaliste et critique littéraire français né en 1889 et mort en 1974.</note>
+         </person>
+         <person xml:id="merrill_stuart">
+            <persName><forename>Stuart</forename><surname>Merrill</surname></persName>
+            <note>Poète américain, né en 1863 à Hempstead, New York, Etats-Unis d'Amérique, et mort
+               en 1915 à Versailles, France.</note>
+         </person>
+         <person xml:id="salmon_andré">
+            <persName><forename>André</forename><surname>Salmon</surname></persName>
+            <note>Ecrivain, poète, romancier, journaliste et critique d'art français né en 1881 à
+               Paris, France, et mort en 1969 à Sanary-sur-Mer, France.</note>
+         </person>
+         <person xml:id="dereme_tristan">
+            <persName><forename>Tristan</forename><surname>Derème</surname></persName>
+            <note>Poète et écrivain français né en 1889 et mort en 1941 à Oloron-Sainte-Marie,
+               France.</note>
+         </person>
+         <person xml:id="carco_francis">
+            <persName><forename>Francis</forename><surname>Carco</surname></persName>
+            <note>Ecrivain, poète, journaliste et parolier français né en 1886 à Nouméa,
+               Nouvelle-Calédonie, et mort en 1958 à Paris, France.</note>
+         </person>
+         <person xml:id="musset_alfred_de">
+            <persName><forename>Alfred</forename><nameLink>de</nameLink><surname>Musset</surname></persName>
+            <note>Poète, dramaturge et romancier français né en 1810 à Paris, France, et mort en
+               1857 à Paris, France.</note>
+         </person>
+         <person xml:id="mercereau_jack">
+            <persName><forename>Jack</forename><surname>Mercereau</surname></persName>
+            <note>Journaliste pour Paris-Journal</note>
+         </person>
+         <person xml:id="bataille_henry">
+            <persName><forename>Henry</forename><surname>Bataille</surname></persName>
+            <note>Dramaturge, poète et lithographe français né en 1872 à Nîmes, France, et mort en 1922 à Rueil-Malmaison, France.</note>
+         </person>
+         <person xml:id="cappatti_louis">
+            <persName><forename>Louis</forename><surname>Cappatti</surname></persName>
+            <note>H>omme de lettres, historien, critique d'art français, né en 1886 à la Trinité-Victor, France, et mort en 1966 à Nice, France.</note>
+         </person>
+         <person xml:id="verlaine_paul">
+            <persName><forename>Paul</forename><surname>Verlaine</surname></persName>
+            <note>Poète français né en 1844 à Metz, France, et mort en 1896 à Paris, France.</note>
+         </person>
+         <person xml:id="fort_paul">
+            <persName><forename>Paul</forename><surname>Fort</surname></persName>
+            <note>Poète et dramaturge français né en 1872 à Reims, France, et mort en 1960 à Montlhéry, France.</note>
+         </person>
+         <person xml:id="brentano_clemens">
+            <persName><forename>Clemens</forename><surname>Brentano</surname></persName>
+            <note>Poète et écrivain allemand, né en 1778 et mort en 1842.</note>
+         </person>
+         <person xml:id="haas_albert">
+            <persName><forename>Albert</forename><surname>Haas</surname></persName>
+         </person>
+         <person xml:id="max_cahén_fritz">
+            <persName><forename>Max</forename><surname>Max Cahén</surname></persName>
+            <note>Journaliste allemand né en 1891 à Saarlouis, Allemagne, et mort en 1966 à Bonn, Allemagne.</note>
+         </person>
+         <person xml:id="poussin_nicolas">
+            <persName><forename>Nicolas</forename><surname>Poussin</surname></persName>
+            <note>Peintre français né en 1594 au hameau de Villers, France, et mort en 1665 à Rome, Italie.</note>
+         </person>
+         <person xml:id="ingres_jean-auguste-dominique">
+            <persName><forename>Jean-Auguste-Dominique</forename><surname>Ingres</surname></persName>
+            <note>Peintre franças né en 1780 à Montauban, France, et mort en 1867 à Paris, France.</note>
+         </person>
+         <person xml:id="goethe_johann_wolfgang_von">
+            <persName><forename>Johann Wolfgang</forename><nameLink>von</nameLink><surname>Goethe</surname></persName>
+            <note>Romancier, dramaturge, poète, scientifique, théoricien de l'art et homme d'Etat allemand né en 1749 à Francfort, Allemagne, et mort en 1832 à Weimar, Allemagne.</note>
+         </person>
+         <person xml:id="picasso_pablo">
+            <persName><forename>Pablo</forename><surname>Picasso</surname></persName>
+            <note>Peintre, dessinateur, sculpteur et graveur espagnol né en 1881 à Malaga, Espagne, et mort en 1973 à Mougins, France.</note>
+         </person>
+         <person xml:id="bresil_marc">
+            <persName><forename>Marc</forename><surname>Brésil</surname></persName>
+            <note>Journaliste pour La Phalange</note>
+         </person>
+         <person xml:id="gonzague_frick_louis_de">
+            <persName><forename>Louis</forename><nameLink>de</nameLink><surname>Gonzague Frick</surname></persName>
+            <note>Journaliste pour La Phalange</note>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place>
+            <country xml:id="france">France</country>
+            <placeName xml:id="paris">Paris</placeName>
+            <placeName xml:id="boulevard_saint_germain">Boulevard Saint-Germain</placeName>
+            <placeName xml:id="tour_eiffel">Tour Eiffel</placeName>
+         </place>
+         <place>
+            <country>France</country>
+            <placeName xml:id="nice">Nice</placeName>
+            <placeName xml:id="quai_félix_faure">Quai Félix-Faure</placeName>
+            <placeName xml:id="rue_gioffredo">Rue Gioffredo</placeName>
+         </place>
+         <place>
+            <country>Allemagne</country>
+            <placeName xml:id="munich">Munich</placeName>
+         </place>
+         <place>
+            <country>République Tchèque</country>
+            <placeName xml:id="prague">Prague</placeName>
+         </place>
+         <place>
+            <country>Pays-Bas</country>
+            <placeName xml:id="amsterdam">Amsterdam</placeName>
+         </place>
+         <place>
+            <country>Royaume-Uni</country>
+            <placeName xml:id="londres">Londres</placeName>
+         </place>
+         <place>
+            <country>Ukraine</country>
+            <placeName xml:id="ukraine">Ukraine</placeName>
+         </place>
+      </listPlace>
+      <listBibl>
+         <head>Références bibliographiques</head>
+         <listBibl>
+            <listBibl>
+               <head>Références à Alcools (1913)</head>
+               <bibl type="poetry" xml:id="alcools">
+                  <title>Alcools (1913)</title>
+                  <relatedItem>
+                     <listBibl>
+                        <bibl><title type="poem" xml:id="vendémiaire">Vendémiaire</title></bibl>
+                        <bibl><title type="poem" xml:id="zone">Zone</title></bibl>
+                        <bibl><title type="poem" xml:id="la_maison_des_morts">La Maison des
+                           Morts</title></bibl>
+                        <bibl><title type="poem" xml:id="l_ermite">L'Ermite</title></bibl>
+                        <bibl><title type="poem" xml:id="l_adieu">L'Adieu</title></bibl>
+                        <bibl><title type="poem" xml:id="nuit_rhénane">Nuit rhénane</title></bibl>
+                        <bibl><title type="poem" xml:id="rhénane_d_automne">Rhénane d'automne</title></bibl>
+                        <bibl><title type="poem" xml:id="automne">Automne</title></bibl>
+                        <bibl><title type="poem" xml:id="la_dame">La Dame</title></bibl>
+                     </listBibl>
+                  </relatedItem>
+               </bibl>
+            </listBibl>
+            <listBibl>
+               <head>Références littéraires</head>
+               <listBibl>
+                  <bibl type="poetry" xml:id="floraison_des_eaux"><title>La floraison des
+                     eaux</title>
+                     <author>Guy Lavaud</author>
+                     <editor>Bibliothèque de l'Occident</editor>
+                     <pubPlace>Paris</pubPlace>
+                     <date when="1907">1907</date></bibl>
+                  <bibl type="poetry" xml:id="du_livre_de_la_mort"><title>Du livre de la
+                     mort</title>
+                     <author>Guy Lavaud</author>
+                     <editor>La Phalange</editor>
+                     <pubPlace>Paris</pubPlace>
+                     <date when="1908">1908</date></bibl>
+                  <bibl type="literary_criticism" xml:id="les_disciplines"><title>Les disciplines :
+                     nécessité littéraire et sociale d'une renaissance classique</title>
+                     <author>Henri Clouard</author>
+                     <editor><name>M. Rivière</name></editor>
+                     <pubPlace>Paris</pubPlace>
+                     <date when="1913">1913</date></bibl>
+                  <bibl type="poem" xml:id="les_fiançailles"><title>Les Fiançailles</title>
+                     <author>Guillaume Apollinaire</author>
+                     <date when="1908">1908</date></bibl>
+                  <bibl type="fables" xml:id="fables_d_ésope"><title>Fables d'Ésope</title>
+                     <author>Esope</author>
+                     <date>VIIe siècle av. J.-C. - VIe siècle av. J.-C.</date>                    
+                  </bibl>
+                  <bibl type="novel" xml:id="godwi"><title>Godwi</title>
+                  <author>Clemens Brentano</author>
+                  <date>1801</date>
+                  </bibl>
+               </listBibl>
+            </listBibl>
+            <listBibl>
+               <head>Références presse</head>
+               <listBibl>
+                  <bibl type="literary_magazine" xml:id="la_phalange"><title>La Phalange</title>
+                     <note>Revue littéraire dirigée par Jean Royère, de 1906 à 1939.</note></bibl>
+                  <bibl type="journal" xml:id="la_démocratie_sociale"><title>La démocratie
+                     sociale</title></bibl>
+                  <bibl type="journal" xml:id="echo_littéraire_du_boulevard"><title>Echo Littéraire
+                     du Boulevard</title></bibl>
+                  <bibl type="journal" xml:id="revue_critique"><title>La Revue
+                     Critique</title></bibl>
+                  <bibl type="journal" xml:id="paris-midi"><title>Paris-Midi</title></bibl>
+                  <bibl type="journal" xml:id="le_mercure_de_france"><title>Le Mercure de
+                     France</title>
+                     <note>Revue française fondée en 1672 et disparue en 1965.</note></bibl>
+                  <bibl type="journal" xml:id="paris-journal"><title>Paris-Journal</title></bibl>
+                  <bibl type="journal" xml:id="le_petit_niçois"><title>Le Petit Niçois</title></bibl>
+                  <bibl type="journal" xml:id="börfen_courrier"><title>Börfen-Courrier</title></bibl>
+                  <bibl type="journal" xml:id="das_beiblatt"><title>Das Beiblatt. Der Buecherei Maiandros</title></bibl>
+                  <bibl type="literary_magazine" xml:id="le_festin_d_ésope"><title>Le Festin d'Esope</title><note>Fondée et dirigée par Guillaume Apollinaire, la revue est parue de novembre 1903 à août 1904.</note></bibl>
+                  <bibl type="literary_magazine" xml:id="la_revue_blanche"><title>La Revue Blanche</title></bibl>
+                  <bibl type="literary_magazine" xml:id="soirées_de_paris"><title>Soirée de Paris</title></bibl>
+               </listBibl>
+            </listBibl>
+         </listBibl>
+      </listBibl>
+   </standOff>
+</TEI>
