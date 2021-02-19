@@ -182,7 +182,6 @@
          </div>
       </body>
   </text>
-   
    <standOff>
       <listPerson>
          <person xml:id="picasso_pablo">
@@ -242,6 +241,15 @@
          <person xml:id="duhamel_georges">
             <persName>Georges Duhamel</persName>
          </person>
+         <person xml:id="leautaud_paul">
+            <persName>Paul Leautaud</persName>
+         </person>
+         <person xml:id="fleuret_ferdinand">
+            <persName>Ferdinand Fleuret</persName>
+         </person>
+         <person xml:id="perceau_louis">
+            <persName>Louis Perceau</persName>
+         </person>
       </listPerson>
       
       <listPlace>
@@ -255,6 +263,9 @@
             <placeName>Graville</placeName>
          </place>
          <place xml:id="rhin"><placeName>Rhin</placeName></place>
+         <place xml:id="vatican">
+            <placeName>Vatican</placeName>
+         </place>
       </listPlace>
       
       <listBibl>
@@ -306,7 +317,8 @@
          <bibl xml:id="les_oeuvres_mystiques_et_burlesque">Les Oeuvres mystiques et burlesques de Frères Matorel, mort au convent, Max Jacob</bibl>
          <bibl xml:id="la_symbolique_des_évangiles">La Symolique des Evangiles, Max Jacob</bibl>
          <bibl xml:id="le_phanérogramme">Le Phanérogramme, Max Jacob</bibl>
-      
+         <bibl xml:id="l_hérésiarque_et_cie">l'Hérésiarque et Cie, Apollinaire</bibl>
+         
       </listBibl>
       
       
