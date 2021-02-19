@@ -18,7 +18,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="article" n="206" xml:id="article_206">
+         <div type="article" n="206" xml:id="article_206" xml:lang="fr">
             <pb
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f206.item.r=Apollinaire%20manuscrits"/>
             <cb n="1" rend="left"/>

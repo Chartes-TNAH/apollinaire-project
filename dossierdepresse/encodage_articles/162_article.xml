@@ -18,7 +18,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="article" n="162" xml:id="article1_162">
+         <div type="article" n="162" xml:id="article1_162" xml:lang="fr">
             <pb
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f162.item.r=Apollinaire%20manuscrits"/>
             <p>
@@ -64,7 +64,7 @@
             </p>
          </div>
 
-         <div type="article" n="162" xml:id="article2_162">
+         <div type="article" n="162" xml:id="article2_162" xml:lang="fr">
             <p>
                <lb/><persName ref="#clouard_henri">M. Henry Clouard</persName>, dans sa petite
                anthologie des poètes qu’il nous donne <lb/>à la <ref target="#revue_critique">Revue
@@ -103,7 +103,7 @@
             <note><ref target="#la_phalange">La Phalange</ref></note>
          </div>
 
-         <div type="article" n="162" xml:id="article3_162">
+         <div type="article" n="162" xml:id="article3_162" xml:lang="fr">
             <p>
                <lb/>- Ces <ref target="#alcools"><emph rend="italic">Alcools</emph></ref> de
                   <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName>
