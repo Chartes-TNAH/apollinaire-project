@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="article" n="206" xml:id="article_206">
+            <pb
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f206.item.r=Apollinaire%20manuscrits"/>
+            <cb n="1" rend="left"/>
+            <p>
+               <lb/>Ce n'est pas au Lycée de <placeName ref="#nice">Nice</placeName> que j'ai
+               <lb/>connu <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> ;
+               nous y <lb/>fûmes cependant élevés en partie et il <lb/>nous arrive de découvrir que
+               nous <lb/>eûmes à quelque intervalle les mêmes <lb/>maîtres. Un souvenir en appelle
+               d'au- <lb break="np"/>tres, et, dans le petit restaurant du <placeName ref="#boulevard_saint_germain">bou- <lb
+                     break="no"/>levard Saint-Germain</placeName>, où je déjeune <lb/>souvent avec
+               le poète d'<ref target="#alcools"><emph rend="italic">Alcools</emph></ref>, le repas
+               <lb/>s'achève bien des fois que nous parlons <lb/>encore du temps où nous hantions la
+               <lb/>permanence et le jardin qu'on nous in- <lb break="no"/>terdisait en vain.
+            </p>
+            
+            <p>
+               <lb/>Je l'avoue : si <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName>
+               <lb/>ne fut pas un élève brillant, je n'ai rien
+               <lb/>à lui envier... Douce permanence !
+               <lb/>Que d'heures charmantes elle nous a 
+               <lb/>valu. Nous y trouvions le calme absolu
+               <lb/>de l'exil, et tandis que nos camarades
+               <lb/>déclinaient : rosa, la rose, ou tradui-
+               <lb/>saient les <ref target="#fables_d_ésope">fables d'Esope</ref>, un rayon de 
+               <lb/>soleil glissant sur un pupitre suffisait 
+               <lb/>à notre bonheur. Le répétiteur, dans sa 
+               <lb/>chaire, somnolait. Du <placeName ref="#quai_félix_faure">quai Félix-Faure</placeName>
+               <lb/>arrivait la rumeur des voitures et le
+               <lb/>rayon de soleil tournait ; il éblouissait
+               <lb/>les murs blanchis à la chaux... Nous
+               <lb/>attendions... Enfin, le tambour du con-
+               <lb break="no"/>cierge roulait sous le préau et nous nous 
+               <lb/>hâtions vers la sortie.
+            </p>
+            
+            <p>
+               <lb/>Le jardin, lui aussi, nous procurait
+               <lb/>des joies profondes. A sa place, aujour-
+               <lb break="no"/>d'hui s'élève le bâtiment neuf qui bor-
+               <lb/>de la <placeName ref="#rue_gioffredo">rue Gioffredo</placeName>. Mais alors les hauts
+               <lb/>eucalyptus, les platanes, les sureaux et 
+               <lb/>les orangers, en faisaient une retraite
+               <lb/>délicieuse où l'oeil du surveillant géné-
+               <lb break="no"/>ral ne savait pas nous découvrir. A
+               <lb/>trois ou quatre, nous escaladions les ar-
+               <lb break="no"/>bres et, protégés par le feuillage, nous
+               <lb/>restions à califourchon sur une bran-
+               <lb break="no"/>che pendant toute la durée de la clas-
+               <lb break="no"/>se... Evidemment, la discipline n'y per-
+               <lb/>dait rien, mais nous préférions les
+               <lb/>longs pensums et les retenues du di-
+               <lb break="no"/>manche, qu'on n'omettait pas de nous
+               <lb/>infiger, à l'enseignement du grec, du
+               <lb/>latin et même du français. 
+            </p>
+            
+            <p>
+               <lb/>N'avons-nous pas gardé dans la vie,
+               <lb/>d'ailleurs, cet amour des choses défen-
+               <lb break="no"/>dues et l'instinct puissant de l'indépen-
+               <lb break="no"/>dance ? <persName ref="#apollinaire_guillaume">Apollinaire</persName>, qui commit cent
+               <lb/>folies, est encore prêt, je crois, à les
+               <lb/>commettre. La place que lui a donné
+               <lb/>son talent dans la littérature actuelle,
+               <lb/>il ne la doit à aucune contrainte. Ses li-
+               <lb break="no"/>vres le démontreraient.. Ils sont pleins
+               <lb/>de ce naturel aimable qui lui fit écrire
+               <lb/>tant de pages ingénues et savoureuses
+               <lb/>et tant de petits poèmes aussi purs que
+               <lb/>celui-là:
+               <quote rend="center">
+                  <l>Je demande dans ma maison</l>
+                  <l>Une femme ayant sa raison,</l>
+                  <l>Un Chat passant parmi des livres,</l>
+                  <l>Des amis en toute saison,</l>
+                  <l>Sans lesquels je ne puis pas vivre.</l>
+               </quote>
+            </p>
+            
+            <p>
+               <lb/>Il n'habitait <placeName ref="#nice">Nice</placeName> que l'hiver. Pen-
+               <lb/>dant les autres mois de l'année, il vaga-
+               <lb/>bonfait selon l'humeur des siens, tan-
+               <lb/>tôt à l'étranger, tantôt en <placeName ref="#france">France</placeName>, ici et
+               <lb/>là... Quelle vie ! J'ai connu ces départs
+               <cb n="2" rend="center"/>
+            </p>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listPerson>
+         <person xml:id="apollinaire_guillaume">
+            <persName><forename>Guillaume</forename><surname>Apollinaire</surname></persName>
+         </person>
+         <person xml:id="guy_lavaud">
+            <persName><forename>Guy</forename><surname>Lavaud</surname></persName>
+            <note>Poète symboliste français, né en 1883 à Terrasson, France, et mort en 1958 à
+               Saint-Germain-en-Laye, France.</note>
+         </person>
+         <person xml:id="françois_villon">
+            <persName><forename>François</forename><surname>Villon</surname></persName>
+            <note>Célèbre poète français de la fin du Moyen Âge, né en 1431 à Paris, France, et mort
+               après 1463.</note>
+         </person>
+         <person xml:id="clement_marot">
+            <persName><forename>Clément</forename><surname>Marot</surname></persName>
+            <note>Poète français de la Renaissance, né en 1496 à Cahors, France, et mort en 1544, à
+               Turin, Italie.</note>
+         </person>
+         <person xml:id="jean_royere">
+            <persName><forename>Jean</forename><surname>Royère</surname></persName>
+            <note>Poète et éditeur français, né en 1871 à Aix-en-Provence, France, et mort en 1956 à
+               Paris, France.</note>
+         </person>
+         <person xml:id="roinard_paul-napoléon">
+            <persName><forename>Paul-Napoléon</forename><surname>Roinard</surname></persName>
+            <note>Poète anarchiste français, né en 1856 à Neufchâtel-en-Bray, France,, et mort à
+               Courbevoie, France, en 1930.</note>
+         </person>
+         <person xml:id="rimbaud_arthur">
+            <persName><forename>Arthur</forename><surname>Rimbaud</surname></persName>
+            <note>Poète français né en 1854 à Charleville-Mézières, France, et mort en 1891 à
+               Marseille, France.</note>
+         </person>
+         <person xml:id="taine_hippolyte">
+            <persName><forename>Hippolyte</forename><surname>Taine</surname></persName>
+            <note>Philosophe et historien français, né en 1828 à Vouziers, France, et mort en 1893 à
+               Paris, France.</note>
+         </person>
+         <person xml:id="gourmont_remy_de">
+            <persName><forename>Remy</forename><nameLink>de</nameLink><surname>Gourmont</surname></persName>
+            <note>Ecrivain, romancier, journaliste et critique d'art français, né en 1858 à
+               Bazoches-au-Houlme, France, et mort en 1915 à Paris, France.</note>
+         </person>
+         <person>
+            <persName><forename>Marie</forename><surname>Bachelin</surname></persName>
+            <note>Journaliste pour l'Echo Littéraire du Boulevard</note>
+         </person>
+         <person xml:id="clouard_henri">
+            <persName><forename>Henri</forename><surname>Clouard</surname></persName>
+            <note>Journaliste et critique littéraire français né en 1889 et mort en 1974.</note>
+         </person>
+         <person xml:id="merrill_stuart">
+            <persName><forename>Stuart</forename><surname>Merrill</surname></persName>
+            <note>Poète américain, né en 1863 à Hempstead, New York, Etats-Unis d'Amérique, et mort
+               en 1915 à Versailles, France.</note>
+         </person>
+         <person xml:id="salmon_andré">
+            <persName><forename>André</forename><surname>Salmon</surname></persName>
+            <note>Ecrivain, poète, romancier, journaliste et critique d'art français né en 1881 à
+               Paris, France, et mort en 1969 à Sanary-sur-Mer, France.</note>
+         </person>
+         <person xml:id="dereme_tristan">
+            <persName><forename>Tristan</forename><surname>Derème</surname></persName>
+            <note>Poète et écrivain français né en 1889 et mort en 1941 à Oloron-Sainte-Marie,
+               France.</note>
+         </person>
+         <person xml:id="carco_francis">
+            <persName><forename>Francis</forename><surname>Carco</surname></persName>
+            <note>Ecrivain, poète, journaliste et parolier français né en 1886 à Nouméa,
+               Nouvelle-Calédonie, et mort en 1958 à Paris, France.</note>
+         </person>
+         <person xml:id="musset_alfred_de">
+            <persName><forename>Alfred</forename><nameLink>de</nameLink><surname>Musset</surname></persName>
+            <note>Poète, dramaturge et romancier français né en 1810 à Paris, France, et mort en
+               1857 à Paris, France.</note>
+         </person>
+         <person xml:id="mercereau_jack">
+            <persName><forename>Jack</forename><surname>Mercereau</surname></persName>
+            <note>Journaliste pour Paris-Journal</note>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place>
+            <country xml:id="france">France</country>
+            <placeName xml:id="paris">Paris</placeName>
+            <placeName xml:id="boulevard_saint_germain">Boulevard Saint-Germain</placeName>
+         </place>
+         <place>
+            <country>France</country>
+            <placeName xml:id="nice">Nice</placeName>
+            <placeName xml:id="quai_félix_faure">Quai Félix-Faure</placeName>
+            <placeName xml:id="rue_gioffredo">Rue Gioffredo</placeName>
+         </place>
+         <place>
+            <country>République Tchèque</country>
+            <placeName xml:id="prague">Prague</placeName>
+         </place>
+         <place>
+            <country>Pays-Bas</country>
+            <placeName xml:id="amsterdam">Amsterdam</placeName>
+         </place>
+         <place>
+            <country>Royaume-Uni</country>
+            <placeName xml:id="londres">Londres</placeName>
+         </place>
+         <place>
+            <country>Ukraine</country>
+            <placeName xml:id="ukraine">Ukraine</placeName>
+         </place>
+      </listPlace>
+      <listBibl>
+         <head>Références bibliographiques</head>
+         <listBibl>
+            <listBibl>
+               <head>Références à Alcools (1913)</head>
+               <bibl type="poetry" xml:id="alcools">
+                  <title>Alcools (1913)</title>
+                  <relatedItem>
+                     <listBibl>
+                        <bibl><title type="poem" xml:id="vendémiaire">Vendémiaire</title></bibl>
+                        <bibl><title type="poem" xml:id="zone">Zone</title></bibl>
+                        <bibl><title type="poem" xml:id="la_maison_des_morts">La Maison des
+                              Morts</title></bibl>
+                        <bibl><title type="poem" xml:id="l_ermite">L'Ermite</title></bibl>
+                        <bibl><title type="poem" xml:id="l_adieu">L'Adieu</title></bibl>
+                     </listBibl>
+                  </relatedItem>
+               </bibl>
+            </listBibl>
+            <listBibl>
+               <head>Références littéraires</head>
+               <listBibl>
+                  <bibl type="poetry" xml:id="floraison_des_eaux"><title>La floraison des
+                        eaux</title>
+                     <author>Guy Lavaud</author>
+                     <editor>Bibliothèque de l'Occident</editor>
+                     <pubPlace>Paris</pubPlace>
+                     <date when="1907">1907</date></bibl>
+                  <bibl type="poetry" xml:id="du_livre_de_la_mort"><title>Du livre de la
+                        mort</title>
+                     <author>Guy Lavaud</author>
+                     <editor>La Phalange</editor>
+                     <pubPlace>Paris</pubPlace>
+                     <date when="1908">1908</date></bibl>
+                  <bibl type="literary_criticism" xml:id="les_disciplines"><title>Les disciplines :
+                        nécessité littéraire et sociale d'une renaissance classique</title>
+                     <author>Henri Clouard</author>
+                     <editor><name>M. Rivière</name></editor>
+                     <pubPlace>Paris</pubPlace>
+                     <date when="1913">1913</date></bibl>
+                  <bibl type="poem" xml:id="les_fiançailles"><title>Les Fiançailles</title>
+                     <author>Guillaume Apollinaire</author>
+                     <date when="1908">1908</date></bibl>
+                  <bibl type="fables" xml:id="fables_d_ésope"><title>Fables d'Ésope</title>
+                     <author>Esope</author>
+                     <date>VIIe siècle av. J.-C. - VIe siècle av. J.-C.</date>                    
+                  </bibl>
+               </listBibl>
+            </listBibl>
+            <listBibl>
+               <head>Références presse</head>
+               <listBibl>
+                  <bibl type="literary_magazine" xml:id="la_phalange"><title>La Phalange</title>
+                     <note>Revue littéraire dirigée par Jean Royère, de 1906 à 1939.</note></bibl>
+                  <bibl type="journal" xml:id="la_démocratie_sociale"><title>La démocratie
+                        sociale</title></bibl>
+                  <bibl type="journal" xml:id="echo_littéraire_du_boulevard"><title>Echo Littéraire
+                        du Boulevard</title></bibl>
+                  <bibl type="journal" xml:id="revue_critique"><title>La Revue
+                     Critique</title></bibl>
+                  <bibl type="journal" xml:id="paris-midi"><title>Paris-Midi</title></bibl>
+                  <bibl type="journal" xml:id="le_mercure_de_france"><title>Le Mercure de
+                        France</title>
+                     <note>Revue française fondée en 1672 et disparue en 1965.</note></bibl>
+                  <bibl type="journal" xml:id="paris-journal"><title>Paris-Journal</title></bibl>
+               </listBibl>
+            </listBibl>
+         </listBibl>
+      </listBibl>
+   </standOff>
+</TEI>
