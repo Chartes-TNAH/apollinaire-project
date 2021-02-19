@@ -60,7 +60,7 @@
                Béotiens les plus sincères). S’il y a des êtres vivants à la <lb/>surface de la Lune,
                c’est sous cet aspect que je me les représente. <note><ref
                      target="#echo_littéraire_du_boulevard">Echo Littéraire du Boulevard</ref>,
-                     <date when-iso="07-01-1913">1er juillet 1913</date> (Marie Bachelin)</note>
+                     <date when-iso="07-01-1913">1er juillet 1913</date> <persName ref="#bachelin_marie">Marie Bachelin</persName></note>
             </p>
          </div>
 
@@ -167,7 +167,7 @@
             <note>Ecrivain, romancier, journaliste et critique d'art français, né en 1858 à
                Bazoches-au-Houlme, France, et mort en 1915 à Paris, France.</note>
          </person>
-         <person>
+         <person xml:id="bachelin_marie">
             <persName><forename>Marie</forename><surname>Bachelin</surname></persName>
             <note>Journaliste pour l'Echo Littéraire du Boulevard</note>
          </person>
@@ -175,11 +175,71 @@
             <persName><forename>Henri</forename><surname>Clouard</surname></persName>
             <note>Journaliste et critique littéraire français né en 1889 et mort en 1974.</note>
          </person>
+         <person xml:id="merrill_stuart">
+            <persName><forename>Stuart</forename><surname>Merrill</surname></persName>
+            <note>Poète américain, né en 1863 à Hempstead, New York, Etats-Unis d'Amérique, et mort
+               en 1915 à Versailles, France.</note>
+         </person>
+         <person xml:id="salmon_andré">
+            <persName><forename>André</forename><surname>Salmon</surname></persName>
+            <note>Ecrivain, poète, romancier, journaliste et critique d'art français né en 1881 à
+               Paris, France, et mort en 1969 à Sanary-sur-Mer, France.</note>
+         </person>
+         <person xml:id="dereme_tristan">
+            <persName><forename>Tristan</forename><surname>Derème</surname></persName>
+            <note>Poète et écrivain français né en 1889 et mort en 1941 à Oloron-Sainte-Marie,
+               France.</note>
+         </person>
+         <person xml:id="carco_francis">
+            <persName><forename>Francis</forename><surname>Carco</surname></persName>
+            <note>Ecrivain, poète, journaliste et parolier français né en 1886 à Nouméa,
+               Nouvelle-Calédonie, et mort en 1958 à Paris, France.</note>
+         </person>
+         <person xml:id="musset_alfred_de">
+            <persName><forename>Alfred</forename><nameLink>de</nameLink><surname>Musset</surname></persName>
+            <note>Poète, dramaturge et romancier français né en 1810 à Paris, France, et mort en
+               1857 à Paris, France.</note>
+         </person>
+         <person xml:id="mercereau_jack">
+            <persName><forename>Jack</forename><surname>Mercereau</surname></persName>
+            <note>Journaliste pour Paris-Journal</note>
+         </person>
+         <person xml:id="bataille_henry">
+            <persName><forename>Henry</forename><surname>Bataille</surname></persName>
+            <note>Dramaturge, poète et lithographe français né en 1872 à Nîmes, France, et mort en 1922 à Rueil-Malmaison, France.</note>
+         </person>
+         <person xml:id="cappatti_louis">
+            <persName><forename>Louis</forename><surname>Cappatti</surname></persName>
+            <note>H>omme de lettres, historien, critique d'art français, né en 1886 à la Trinité-Victor, France, et mort en 1966 à Nice, France.</note>
+         </person>
       </listPerson>
       <listPlace>
          <place>
-            <country>France</country>
+            <country xml:id="france">France</country>
             <placeName xml:id="paris">Paris</placeName>
+            <placeName xml:id="boulevard_saint_germain">Boulevard Saint-Germain</placeName>
+         </place>
+         <place>
+            <country>France</country>
+            <placeName xml:id="nice">Nice</placeName>
+            <placeName xml:id="quai_félix_faure">Quai Félix-Faure</placeName>
+            <placeName xml:id="rue_gioffredo">Rue Gioffredo</placeName>
+         </place>
+         <place>
+            <country>République Tchèque</country>
+            <placeName xml:id="prague">Prague</placeName>
+         </place>
+         <place>
+            <country>Pays-Bas</country>
+            <placeName xml:id="amsterdam">Amsterdam</placeName>
+         </place>
+         <place>
+            <country>Royaume-Uni</country>
+            <placeName xml:id="londres">Londres</placeName>
+         </place>
+         <place>
+            <country>Ukraine</country>
+            <placeName xml:id="ukraine">Ukraine</placeName>
          </place>
       </listPlace>
       <listBibl>
@@ -194,7 +254,7 @@
                         <bibl><title type="poem" xml:id="vendémiaire">Vendémiaire</title></bibl>
                         <bibl><title type="poem" xml:id="zone">Zone</title></bibl>
                         <bibl><title type="poem" xml:id="la_maison_des_morts">La Maison des
-                              Morts</title></bibl>
+                           Morts</title></bibl>
                         <bibl><title type="poem" xml:id="l_ermite">L'Ermite</title></bibl>
                         <bibl><title type="poem" xml:id="l_adieu">L'Adieu</title></bibl>
                      </listBibl>
@@ -205,19 +265,19 @@
                <head>Références littéraires</head>
                <listBibl>
                   <bibl type="poetry" xml:id="floraison_des_eaux"><title>La floraison des
-                        eaux</title>
+                     eaux</title>
                      <author>Guy Lavaud</author>
                      <editor>Bibliothèque de l'Occident</editor>
                      <pubPlace>Paris</pubPlace>
                      <date when="1907">1907</date></bibl>
                   <bibl type="poetry" xml:id="du_livre_de_la_mort"><title>Du livre de la
-                        mort</title>
+                     mort</title>
                      <author>Guy Lavaud</author>
                      <editor>La Phalange</editor>
                      <pubPlace>Paris</pubPlace>
                      <date when="1908">1908</date></bibl>
                   <bibl type="literary_criticism" xml:id="les_disciplines"><title>Les disciplines :
-                        nécessité littéraire et sociale d'une renaissance classique</title>
+                     nécessité littéraire et sociale d'une renaissance classique</title>
                      <author>Henri Clouard</author>
                      <editor><name>M. Rivière</name></editor>
                      <pubPlace>Paris</pubPlace>
@@ -225,6 +285,10 @@
                   <bibl type="poem" xml:id="les_fiançailles"><title>Les Fiançailles</title>
                      <author>Guillaume Apollinaire</author>
                      <date when="1908">1908</date></bibl>
+                  <bibl type="fables" xml:id="fables_d_ésope"><title>Fables d'Ésope</title>
+                     <author>Esope</author>
+                     <date>VIIe siècle av. J.-C. - VIe siècle av. J.-C.</date>                    
+                  </bibl>
                </listBibl>
             </listBibl>
             <listBibl>
@@ -233,12 +297,17 @@
                   <bibl type="literary_magazine" xml:id="la_phalange"><title>La Phalange</title>
                      <note>Revue littéraire dirigée par Jean Royère, de 1906 à 1939.</note></bibl>
                   <bibl type="journal" xml:id="la_démocratie_sociale"><title>La démocratie
-                        sociale</title></bibl>
+                     sociale</title></bibl>
                   <bibl type="journal" xml:id="echo_littéraire_du_boulevard"><title>Echo Littéraire
-                        du Boulevard</title></bibl>
+                     du Boulevard</title></bibl>
                   <bibl type="journal" xml:id="revue_critique"><title>La Revue
                      Critique</title></bibl>
                   <bibl type="journal" xml:id="paris-midi"><title>Paris-Midi</title></bibl>
+                  <bibl type="journal" xml:id="le_mercure_de_france"><title>Le Mercure de
+                     France</title>
+                     <note>Revue française fondée en 1672 et disparue en 1965.</note></bibl>
+                  <bibl type="journal" xml:id="paris-journal"><title>Paris-Journal</title></bibl>
+                  <bibl type="journal" xml:id="le_petit_niçois"><title>Le Petit Niçois</title></bibl>
                </listBibl>
             </listBibl>
          </listBibl>
