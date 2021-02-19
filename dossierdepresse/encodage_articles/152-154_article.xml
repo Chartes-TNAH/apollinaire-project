@@ -239,6 +239,42 @@
          <person xml:id="de_gourmont_remy">
             <persName>Remy de Gourmont</persName>
          </person>
+         <person xml:id="salmon_andré">
+            <persName>André Salmon</persName>
+         </person>
+         <person xml:id="pellerin_jean">
+            <persName>Jean Pellerin</persName>
+         </person>
+         <person xml:id="derème_tristan">
+            <persName>Tristan Derème</persName>
+         </person>
+         <person xml:id="deubel_léon">
+            <persName>Léon Deubel</persName>
+         </person>
+         <person xml:id="clouard_henri">
+            <persName>Henri Clouard</persName>
+         </person>
+         <person xml:id="valette_alfred">
+            <persName>Alfred Valette</persName>
+         </person>
+         <person xml:id="fort_paul">
+            <persName>Paul Fort</persName>
+         </person>
+         <person xml:id="jacob_max">
+            <persName>Max Jacob</persName>
+         </person>
+         <person xml:id="duhamel_georges">
+            <persName>Georges Duhamel</persName>
+         </person>
+         <person xml:id="leautaud_paul">
+            <persName>Paul Leautaud</persName>
+         </person>
+         <person xml:id="fleuret_ferdinand">
+            <persName>Ferdinand Fleuret</persName>
+         </person>
+         <person xml:id="perceau_louis">
+            <persName>Louis Perceau</persName>
+         </person>
       </listPerson>
       
       <listPlace>
@@ -252,14 +288,17 @@
             <placeName>Graville</placeName>
          </place>
          <place xml:id="rhin"><placeName>Rhin</placeName></place>
+         <place xml:id="vatican">
+            <placeName>Vatican</placeName>
+         </place>
       </listPlace>
       
       <listBibl>
-         <head>Référence aux poèmes de Apollinaire et à Alcools</head>
+         <head>Référence aux poèmes de Alcools</head>
          <bibl xml:id="alcools">Alcool</bibl>
          <bibl xml:id="les_sept_épées">Les sept épées</bibl>
          <bibl xml:id="crépuscule">Crépuscule</bibl>
-         <bibl xml:id="la_chanson_du_mal_aimée">La Chanson du mal-aimé</bibl>
+         <bibl xml:id="la_chanson_du_mal_aimé">La Chanson du mal-aimé</bibl>
          <bibl xml:id="l_ermite">L'Ermite</bibl>
          <bibl xml:id="zone">Zone</bibl>
          <bibl xml:id="les_colchiques">Les colchiques</bibl>
@@ -267,6 +306,9 @@
          <bibl xml:id="a_la_santé">A la Santé</bibl>
          <bibl xml:id="mai">Mai</bibl>
          <bibl xml:id="le_pont_mirabeau">Le Pont Mirabeau</bibl>
+         <bibl xml:id="marie">Marie</bibl>
+         <bibl xml:id="l_adieu">L'Adieu</bibl>
+         <bibl xml:id="poème_lu_au_mariage">Poème lu au mariage d'André Salmon</bibl>
       </listBibl>
       
       <listBibl><head>Référence à la presse</head>
@@ -278,10 +320,31 @@
          <bibl xml:id="gil_blas">Gil Blas</bibl>
          <bibl xml:id="les_chroniques">Les chroniques</bibl>
          <bibl xml:id="la_phalange">La Phalange</bibl>
+         <bibl xml:id="l_intransigeant">L'Intransigeant</bibl>
+         <bibl xml:id="revue_critique_des_idées">Revue Critique des Idées et des Livres</bibl>
+         <bibl xml:id="courrier_français">Courrier français</bibl>
+         <bibl xml:id="revue_immoraliste">Revue Immoraliste</bibl>
          
       </listBibl>
       
-      
+      <listBibl>
+         <head>Référence à d'autres oeuvres</head>
+         <bibl xml:id="demain_Deubel">Demain, Léon Deubel</bibl>
+         <bibl xml:id="le_chat">le chat, dans Le Bestiaire, ou Cortège d’Orphée, Appolinaire</bibl>
+         <bibl xml:id="le_bestiaire">Le Bestiaire, ou Cortège d’Orphée, apollinaire</bibl>
+         <bibl xml:id="le_coeur_supplicié">Le coeur supplicié, Poésie, Rimbaud</bibl>
+         <bibl xml:id="la_côte">La Côte, Max Jacob</bibl>
+         <bibl xml:id="saint_matorel">Saint-Matorel, Max Jacob</bibl>
+         <bibl xml:id="le_siège_de_jérusalem">le Siège de Jérusalem, Max Jacob</bibl>
+         <bibl xml:id="le_terrain_Bouchaballa">Le Terrain Bouchaballa, Max Jacob</bibl>
+         <bibl xml:id="la_chronique_de_Guichin">La Chronique de Guichin, Max Jacob</bibl>
+         <bibl xml:id="mémoires_apocryphes">Mémoires apocryphes, Max Jacob</bibl>
+         <bibl xml:id="les_oeuvres_mystiques_et_burlesque">Les Oeuvres mystiques et burlesques de Frères Matorel, mort au convent, Max Jacob</bibl>
+         <bibl xml:id="la_symbolique_des_évangiles">La Symolique des Evangiles, Max Jacob</bibl>
+         <bibl xml:id="le_phanérogramme">Le Phanérogramme, Max Jacob</bibl>
+         <bibl xml:id="l_hérésiarque_et_cie">l'Hérésiarque et Cie, Apollinaire</bibl>
+         
+      </listBibl>
       
       
    </standOff>
