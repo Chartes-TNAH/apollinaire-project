@@ -24,7 +24,8 @@
             
             
             <div type="article" n="146" xml:id="article1_146" sameAs="article_148" >
-               <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f146.item"/>
+               <pb type="copy" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f146.item"/>
+               <!-- Je ne peux pas avoir de subtype sans type, donc j'ai passé la valeur copie en type -->
             </div>
             
             
@@ -32,8 +33,8 @@
             <div type="article" n="" xml:id="article2_146">
             
                <head><hi rend="caps bold">M. <persName ref="#de_gonzague_frick_louis">LOUIS DE GONZAGUE FRICK</persName></hi></head>
-               <p> M. <persName ref="#de_gonzague_frick_louis">Louis de Gonzague Frick</persName> m'adres-
-            se la lettre suivante : 
+               <p> <lb/>M. <persName ref="#de_gonzague_frick_louis">Louis de Gonzague Frick</persName> m'adres-
+            <lb break="no"/>se la lettre suivante : 
             
             <quote>
             <lb/>Mon cher confrère,
@@ -54,9 +55,9 @@
                <lb break="no"/>ras-tu à faire couper tes cheveux, acerso-
                <lb break="no"/>come <placeName ref="#paris">quartier Latin</placeName>, à te départir de tes
                <lb/> petits airs d'intellectuel, à te vêtir chez
-               <lb/>des tailleurs modernes, comme l'<hi rend="underlign blue"><hi rend="italic">Emi-
-               <lb break="no"/>grant</hi> de M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName></hi> ? Ah !
-               <lb break="no"/>radieux sourire de Paris, comme tu réson-
+               <lb/>des tailleurs modernes, comme l'<hi rend="underlign blue"><ref target="#l_emigrant_de_landor_road" rend="italic">Emi-
+               <lb break="no"/>grant</ref> de M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName></hi> ? Ah !
+               <lb break="no"/>radieux sourire de <placeName ref="#paris">Paris</placeName>, comme tu réson-
                <lb break="no"/>nes faux sur le <placeName ref="#paris">boulevard Saint-Michel</placeName>. Les
                <lb/>ailes de quelque moulin rougeoyant em-
                <lb break="no"/>portent mes souvenirs sans faste du <placeName ref="#paris">quar-
@@ -125,25 +126,25 @@
                <lb/>Ce livre est orné du portrait de l'au-
                <lb break="no"/>teur par <persName ref="#picasso_pablo">Pablo Picasso</persName>. Vous verrez un
                <lb/>certain nombre de tuyaux de poêle der-
-               <lb/>rière lesquels une mèche s'échevèle. Tel
+               <lb break="no"/>rière lesquels une mèche s'échevèle. Tel
                <lb/>est M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> suivant
                <lb/>l'esthétique de l'école futuriste dont il
                <lb/>apparaît comme l'exégète. Autre singu-
                <lb break="no"/>larité : nul signe de ponctuation dans ce
                <lb/>volume de poèmes. Voilà bien des re-
-               <lb/>cherches de bizarrerie !
+               <lb break="no"/>cherches de bizarrerie !
             </p>
                <p>
                <lb/>Vous en trouverez d'autres. Vous se-
-               <lb break="no"/>rez agacé par l'expression volontairemenet
+               <lb break="no"/>rez agacé par l'expression volontairement
                <lb/>nébuleuse d'une pensée que l'on devine
                <lb/>rare, subtile, précieuse. Des mètres bi-
                <lb break="no"/>zarres, des vers blancs, des étrangetés
                <lb/>laborieuses, un cosmopolitisme forcené,
                <lb/>de l'argot, des jurons, de la bohème,
                <lb/>d'esprit et de cœur vous choqueront dans
-               <lb/>ce volume (1 vol. in-18, <hi rend="italic"><hi rend="underlign red">Mercure</hi> de Fran-
-               <lb break="no"/>ce</hi> où M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> a re-
+               <lb/>ce volume <bibl>(1 vol. in-18, <publisher rend="italic"><hi rend="underlign red">Mercure</hi> de Fran-
+               <lb break="no"/>ce</publisher>)</bibl> où M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> a re-
                <lb break="no"/>cueilli ses poèmes de <date>1898</date> à <date>1913</date>. Et avec
                <lb/>cela, dans ce désordre, dans cette ivro-
                <lb break="no"/>gnerie, on trouvera des vers exquis, 
@@ -151,7 +152,7 @@
                </p>
                
                <note type="ref_article" rend="handwritten" >
-                  <ref target="#gazette_de_france">Gazette de France</ref> <date>27 juin 1913</date> [ Graville
+                  <ref target="#gazette_de_france">Gazette de France</ref> <date>27 juin 1913</date> [ <placeName>Graville</placeName>
                </note>
          
             </div>
@@ -182,8 +183,6 @@
          <person xml:id="mallarmé_stéphane">
             <persName>Stéphane Mallarmé</persName>
          </person>
-         
-         
       </listPerson>
       
       <listPlace>
@@ -193,17 +192,36 @@
          <place xml:id="vladivostock">
             <placeName>Vladivostock</placeName>
          </place>
+         <place xml:id="graville">
+            <placeName>Graville</placeName>
+         </place>
       </listPlace>
       
+      <listBibl>
+         <head>Référence aux poèmes de Apollinaire et à Alcools</head>
+         <bibl xml:id="alcools">Alcool</bibl>
+         <bibl xml:id="les_sept_épées">Les sept épées</bibl>
+         <bibl xml:id="crépuscule">Crépuscule</bibl>
+         <bibl xml:id="la_chanson_du_mal_aimée">La Chanson du mal-aimé</bibl>
+         <bibl xml:id="l_ermite">L'Ermite</bibl>
+         <bibl xml:id="zone">Zone</bibl>
+         <bibl xml:id="les_colchiques">Les colchiques</bibl>
+         <bibl xml:id="l_emigrant_de_landor_road">L'Émigrant de Landor Road</bibl>
+      </listBibl>
       
-     <listBibl>
-        <bibl xml:id="mercure_de_france">Mercure de France</bibl>
-        <bibl xml:id="gazette_de_france">Gazette de France</bibl>
-        <bibl xml:id="paris_midi">Paris-Midi</bibl>
-     </listBibl>
+      <listBibl><head>Référence à la presse</head>
+         <bibl xml:id="mercure_de_france">Mercure de France</bibl>
+         <bibl xml:id="gazette_de_france">Gazette de France</bibl>
+         <bibl xml:id="paris_midi">Paris-Midi</bibl>
+         <bibl xml:id="fantasio">Fantasio</bibl>
+         <bibl xml:id="le_divan">Le Divan</bibl>
+         <bibl xml:id="gil_blas">Gil Blas</bibl>
          
-            
          
+      </listBibl>
+      
+      
+      
       
    </standOff>
 </TEI>
