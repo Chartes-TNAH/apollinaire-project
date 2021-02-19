@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dossier de presse</title>
+            <title>Folio 150-151</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="article" n="150-151" xml:id="article1_150-151">
+            <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f150.item"/>
+
+            <head> <ref><title rend="caps">LES CHRONIQUES</title></ref> <num rend="align(right)">267</num></head>
+
+            <p> 
+               avait appartenu à M. de Brenier, mari de Mlle de Vaulserre et comte de
+               (Vaulserre:italique) ». Quelque beyliste relèvera peut-être dans cette rédaction
+               l'ironie fameuse de Stendhal. (FRANCIS ÉON:à droite)
+            </p>
+            
+            
+            <p rend="align(right)">LES POÈMES</p>
+               
+            <p>
+                  
+               <ref
+                  target="#alcools"><bibl><author rend="bold"><persName ref="#apollinaire_guillaume"
+                           >Guillaume Apollinaire</persName></author>: <title rend="italic"
+                        >Alcools.</title>
+                     <pubPlace>Paris</pubPlace>, <publisher>Mer- <lb break="no"/> cure de
+                        France</publisher>, <date>1913</date>.</bibl>
+               </ref> — <bibl><author rend="bold">Carlos Larronde</author>: <title rend="italic">Le
+                     <lb/> Livre d'Heures.</title>
+                  <pubPlace>Paris</pubPlace>, <publisher>Figuière</publisher>,
+                  <date>1913</date>.</bibl> — <bibl>
+                  <author rend="bold">Auguste <lb/> Gaud</author>
+                  <title rend="italic">Stances à Jeannie.</title>
+                  <pubPlace>Paris</pubPlace>, <publisher>Lemerre</publisher>, <date>1913</date>.
+               </bibl> — <bibl>
+                  <author rend="bold">Léon Bocquet</author> : <title rend="italic">La Lumière
+                     d'Hellas.</title>
+                  <pubPlace>Paris</pubPlace>, <publisher>« Le Beffroi »</publisher>,
+                     <date>1913</date>. </bibl> — <bibl>
+                  <author rend="bold">André Biguet</author>
+                  <title rend="italic">Le Feu et <lb/>la Cendre</title>. <pubPlace>Paris</pubPlace>,
+                     <publisher>Crès</publisher>, <date>1913</date>.</bibl> — <bibl><author
+                     rend="bold">Noël Noüet</author> : <title rend="italic">Les CLoches des
+                     Champs</title>. <pubPlace>Paris</pubPlace>, <publisher>« Le Temps pré- <lb
+                        break="no"/>sent »</publisher>, <date>1913</date>.</bibl> — <bibl>
+                  <author rend="bold">Philibert Blanc</author>
+                  <title rend="italic">La Moisson des <lb/>jours</title>.
+                  <pubPlace>Paris</pubPlace>, <publisher>Figuière</publisher>,
+                  <date>1913</date>.</bibl> — <bibl>
+                  <author rend="bold">André Delacour</author>
+                  <lb/><title rend="italic">L'Angoisse</title>. <pubPlace>Paris</pubPlace>,
+                     <publisher>« Le Temps présent »</publisher>, <date>1913</date>. </bibl> — <lb/><bibl>
+                  <author rend="bold">Maurice Guyot</author> : <title rend="italic">Le Vent sur la
+                     Mer</title>. <pubPlace>Paris</pubPlace>, <lb/><publisher>Oudin</publisher>,
+                     <date>1912</date>.</bibl> — <bibl><author rend="bold">André Lafon</author>
+                  ::gras) (Poèmes:italique). Paris, <lb/><publisher>« Le Temps présent
+                  »</publisher>, <date>1913</date>.</bibl>
+               </p>
+            
+               <p>
+               <lb/>J'ai dû lire depuis un mois bien des livres de vers. 
+                  <lb/>Je ne parlerai point
+               de tous, mais de ceux seule- 
+                  <lb break="no"/>ment où j'ai pris quelque plaisir,
+               quelque intérêt. 
+               </p>
+               
+            <p>
+                  <lb/>M. <persName ref="#apollinaire_guillaume">Guillaume
+                  Apollinaire</persName>, dans la jeune litté- 
+               <lb break="no"/>rature, fait figure
+               d'original sympathique. J'aime 
+               <lb/>me le représenter comme un très fin lettré qui
+               <lb/>s'amuse et qui ne craint pas d'afficher son goût 
+               <lb/>pour la bizarrerie. Noussavons aussi combien 
+               
+                  <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f151.item"/>
+                  
+                  <lb/>il excelle à pousser la farce jusqu'à la mystifica-
+                  <lb break="no"/>tion. Nous voilà averti ; et, avant même que de lire
+                  <lb/>ses vers, notons dès le volume ouvert ce nouveau
+                  <lb/>souci de négliger toute ponctuation et qui nous
+                  <lb/>livre deux cents pages sans un point ni une vir-
+                  <lb break="no"/>gule. Du moins sommes-nous récompensés de no-
+                  <lb break="no"/>tre effort : <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> est un poète
+                  <lb/>charmant. Sans doute je ne place pas tout au
+                  <lb/>même rang, mais bien peu de pages sont négligea-
+                  <lb break="no"/>bles dans un livre où nous rencontrons même quel-
+                  <lb break="no"/>ques vers réellement émus :
+                  
+                  
+               <ref target="#a_la_santé">
+                  <quote rend="center">
+                  <l>J'écoute les bruits de la ville</l>
+                  <l>Et prisonnier sans horizon,</l>
+                  <l>Je ne vois rien qu'un ciel hostile</l>
+                  <l>Et les murs nus de ma prison.</l>
+                  </quote>
+               </ref>
+            </p>
+               
+            <p>
+                  <lb/>Les fraîches descriptions non plus n'y sont pas
+                  <lb/>rares :
+               
+               <ref target="#mai">
+                  <quote rend="center">
+                  <l>Le mai, le joli mai, a paré les ruines</l>
+                  <l>De lierre, de vigne vierge et de rosiers ;</l>
+                  <l>Le vent du <placeName ref="#rhin">Rhin</placeName> secoue sur le bord, les osiers</l>
+                  <l>Et les roseaux jaseurs et les fleurs nues des vignes</l>
+                  </quote>
+               </ref>
+               
+            </p>
+               
+            <p>
+                  <lb/>J'aimerai citer encore une Salomé qui dans sa
+                  <lb/>fantaisie est un bref et digne pendant du conte de
+               <lb/><persName ref="#laforgue_jules">Jules Laforgue</persName>, ou quelque autre poème que la
+                  <lb/>muse funambulesque d'<persName ref="#apollinaire_guillaume">Apollinaire</persName> campe avec
+                  <lb/>tant de verve :
+                  
+                  <ref target="#crépuscule">
+                     <quote rend="center">
+                        <l>Frôlée par les ombres des morts,</l>
+                        <l>Sur l'herbe où le jour s'exténue,</l>
+                        <l>L'arlequine s'est mise nue</l>
+                        <l>Et dans l'étang mire son corps</l>
+                     </quote>
+                  </ref>
+                  
+            </p>
+               
+          
+                  
+                
+                  
+                  
+          
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listPerson>
+         <person xml:id="picasso_pablo">
+            <persName>Pablo Picasso</persName>
+         </person>
+         <person xml:id="apollinaire_guillaume">
+            <persName>Guillaume Apollinaire</persName>
+         </person>
+         <person xml:id="bayard_jean">
+            <persName>Jean Bayard</persName>
+         </person>
+         <person xml:id="de_gonzague_frick_louis">
+            <persName>Louis de Gonzague Frick</persName>
+         </person>
+         <person xml:id="picard_gaston">
+            <persName>Gaston Picard</persName>
+         </person>
+         <person xml:id="mallarmé_stéphane">
+            <persName>Stéphane Mallarmé</persName>
+         </person>
+         <person xml:id="laforgue_jules">
+            <persName>Jules Laforgue</persName>
+         </person>
+      </listPerson>
+      
+      <listPlace>
+         <place xml:id="paris">
+            <placeName>Paris</placeName>
+         </place>
+         <place xml:id="vladivostock">
+            <placeName>Vladivostock</placeName>
+         </place>
+         <place xml:id="graville">
+            <placeName>Graville</placeName>
+         </place>
+         <place xml:id="rhin"><placeName>Rhin</placeName></place>
+      </listPlace>
+      
+      <listBibl>
+         <head>Référence aux poèmes de Apollinaire et à Alcools</head>
+         <bibl xml:id="alcools">Alcool</bibl>
+         <bibl xml:id="les_sept_épées">Les sept épées</bibl>
+         <bibl xml:id="crépuscule">Crépuscule</bibl>
+         <bibl xml:id="la_chanson_du_mal_aimée">La Chanson du mal-aimé</bibl>
+         <bibl xml:id="l_ermite">L'Ermite</bibl>
+         <bibl xml:id="zone">Zone</bibl>
+         <bibl xml:id="les_colchiques">Les colchiques</bibl>
+         <bibl xml:id="l_emigrant_de_landor_road">L'Émigrant de Landor Road</bibl>
+         <bibl xml:id="a_la_santé">A la Santé</bibl>
+         <bibl xml:id="mai">Mai</bibl>
+      </listBibl>
+      
+      <listBibl><head>Référence à la presse</head>
+         <bibl xml:id="mercure_de_france">Mercure de France</bibl>
+         <bibl xml:id="gazette_de_france">Gazette de France</bibl>
+         <bibl xml:id="paris_midi">Paris-Midi</bibl>
+         <bibl xml:id="fantasio">Fantasio</bibl>
+         <bibl xml:id="le_divan">Le Divan</bibl>
+         <bibl xml:id="gil_blas">Gil Blas</bibl>
+         <bibl xml:id="les_chroniques">Les chroniques</bibl>
+         
+      </listBibl>
+      
+      
+      
+      
+   </standOff>
+</TEI>
