@@ -21,7 +21,8 @@
       <body>
          <div type="article" n="152 153 154" xml:id="article_152-154">
             <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f152.item"/>
-         
+            
+            <div type="critique" n="1">
             <head rend="tall caps">LE MOIS DU POÈTE <lb/>
                <ref target="#alcools">
                   <bibl><author rend="caps">GUILLAUME APOLLINAIRE</author> : <title rend="caps italic">ALCOOLS</title> (<publisher rend="italic underlign red">Mercure</publisher>.)</bibl>
@@ -29,7 +30,7 @@
             </head>
             
             <p>
-            <lb/>Voici, recueilli en un in-18 d'à peine deux cents pages, l'œuvre poétique
+               <lb/>Voici, recueilli en un in-18 d'à peine deux cents pages, l'œuvre poétique
                <lb/>presque entière d'<persName ref="#apollinaire_guillaume">Apollinaire</persName>. Quinze ans de poésie reposent sur ce petit
                <lb/>volume. Je ne l'ouvre donc pas sans presque un parti-pris d'admiration. En
                <lb/>poésie, abondance signifie stérilité et l'on n'écrit trois volumes en un an que
@@ -78,10 +79,7 @@
                </note>
  
                <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f153.item"/>
-            
-            (LE MOIS DU POÈTE:centré) (505:droite)
-            
-            
+               <metamark function="header">LE MOIS DU POÈTE <num type="pagination">505</num></metamark>
             
                <lb/>mais qu'importe? — du gros public a vu juste sur ce point : il sera difficile,
                <lb/>plus tard, de délimiter le <hi rend="italic">Symbolisme</hi>. Les tendances les plus diverses se sont
@@ -99,15 +97,15 @@
                <lb/>arts soient spécifiquement très distincts.
             </p>
             <p>
-               <lb/>Lorsqu'un symbole conduit le poème, comme dans celui intitulé (Le Larron:italique),
+               <lb/>Lorsqu'un symbole conduit le poème, comme dans celui intitulé <hi rend="italic"><ref target="#le_larron">Le Larron</ref></hi>,
                <lb/>cette obscurité fondamentale n'est plus que superficielle ou plutôt relative :
-               <lb/>le mythe, chez Platon, imite la Dialectique. Mais il est rare qu'un symbole,
+               <lb/>le mythe, chez <persName>Platon</persName>, imite la Dialectique. Mais il est rare qu'un symbole,
                <lb/>chez un poète symboliste, soit strictement conduit et rigidement tressé. Ce
-               <lb/>serait introduire l'ennemi, — le didactisme, la prose, — dans la place. (Le Larron:italique)
+               <lb/>serait introduire l'ennemi, — le didactisme, la prose, — dans la place. <hi rend="italic"><ref target="#le_larron">Le Larron</ref></hi>
                <lb/>d'Apollinaire est hermétique d'être un amas de symboles, de lueurs, encore
-               <lb/>qu'il y ait dans la pensée d'Apollinaire une ingénuité qui répugne aux simples
+               <lb/>qu'il y ait dans la pensée d'<persName ref="#apollinaire_guillaume">Apollinaire</persName> une ingénuité qui répugne aux simples
                <lb/>intuitions. Sa pensée le possède toujours : mais il s'évade des lacs syllogisti—
-               <lb/>ques par son imagination, hardie et sûre d'elle, et par le goût. Cest un poète
+               <lb break="no"/>ques par son imagination, hardie et sûre d'elle, et par le goût. Cest un poète
                <lb/>d'un tact très décisif. Cette obscurité est un bénéfice pour le lecteur qu'elle
                <lb/>stimule et induit en poésie. Les poètes d'autrefois, les beaux discoureurs,
                <lb/>étaient des égoïstes : ils faisaient les beaux devant ñous, comme pout nous
@@ -119,27 +117,23 @@
                <lb/>Je ne puis, dans un article forcément rapide, approfondir les diverses ques-
                <lb break="no"/>tions d'art que pose ce livre, important entre beaucoup. C'est une œuvre et
                <lb/>l'on se doit d'en reparler. Je laisse donc de côté l'artiste pour considérer un
-               <lb/>instant, chez Apollinaire, la source de sa poésie. C'est le poète, à coup sûr un
+               <lb/>instant, chez <persName ref="#apollinaire_guillaume">Apollinaire</persName>, la source de sa poésie. C'est le poète, à coup sûr un
                <lb/>des plus grands poètes, de l'enfance. Il y a, chez lui, ce don d'émerveillement
                <lb/>qui rend cet âge si intense, et l'acuité, la netteté, la fraîcheur des souvenirs.
                <lb/>Il écrit
-            
-            
-            <ref target="#la_chanson_du_mal_aimée">
-               <quote rend="align(center) italic">
-               <l>J'ai hiverné dans mon passé</l>
-            </quote>
-            </ref>
-            
-            
+               <ref target="#la_chanson_du_mal_aimée">
+                  <quote rend="align(center) italic">
+                     <l>J'ai hiverné dans mon passé</l>
+                  </quote>
+               </ref>
                <lb/>mais c'est parce que l'hiver est la « saison lucide ». Les émotions ou mieux les
                <lb/>émois de l'enfant revivent dans ses notations avec une force hallucinatoire et
                <lb/>Apollinaire leur conserve leurs formes conventionnelles d'anges.
-            
-            
                <ref target="#la_chanson_du_mal_aimée">
                   <quote rend="align(center) italic">
-                     <l>Les dimanches s'y éternisent...</l></quote></ref>
+                     <l>Les dimanches s'y éternisent...</l>
+                  </quote>
+               </ref>
             
                <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f154.item"/>
             
@@ -152,58 +146,56 @@
                <lb/>a la grâce, et n'est—ce pas une image du jeu de contemplation que j'admire
                <lb/>dans cette poésie ingénue, ingénieuse et grande? Elle mérite d'être insultée
                <lb/>par les admirateurs de <persName>M. J. Romains</persName>.
-            
-            <persName>JEAN ROYÈRE</persName>
-            
+               <lb rend="caps align(right)"/><persName>JEAN ROYÈRE</persName>
             </p>
+               
+            </div>
             
-            
-            <p>
-            
-              <hi rend="align(left) caps underlign">REVUES</hi>
-            
-               <lb/>Voici que, par les soins de M. Henry—D. Davyray, le (Merure de France:gras) nous
-               <lb/>donne, d'Oscar Wilde, une lettre tout à la fois hautaine et pitoyable.
-               <lb/>Au mois d'avril dernier eut lieu à Londres un procès qu'intenta Lord
-               <lb/>Alfred—Bruce Douglas à M. Arthur Ransome. Celui—ci avait publié un livre :
-               <lb/>(Oscar Wilde a critical Study:italique), dans lequel se jugeait diffamé le joli Lord Douglas
-               <lb/>que l'on sait.
-            </p>
-            <p>
-               <lb/>Cette intervention de Lord Douglas fut au reste déplorable. Il se vit débouté
-               <lb/>de sa plamte condamné aux dépens, et discuté par la presse comme il conve—
-               <lb/>nait, peut-être même plus qu'il ne convenait.
-            </p>
-            <p>
-               <lb/>A Paris, les tribunaux correctionnels accueillent assez fréquemment et fus—
-               <lb/>tigent quelquefois de ces pâles voyous que ne méprise sans doute pas Lord
-               <lb/>Douglas, et qui sont sur plus d'un point dignes de lui; il ne saurait être, pour
-               <lb/>tels bars de Montmartre ou d'ailleurs, question de monopoles de cette sorte.
-               <lb/>Mais ceux—là, s'ils font aux Phrynés cotées une concurrence évidente, et s'ils
-               <lb/>recueillent les mêmes bénéfices somptuaires qui faisaient les délices de « Bo—
-               <lb/>sey » (I), ne s'en targuent pas du moins avec cette inconscience assurée dont
-               <lb/>fait étalage le mignon d'Oscar Wilde. Pour ce cynisme insolemment bête —
-               <lb/>et non pour ses faiblesses — ce bardache d'outre—Manche eût reçu à Paris
-               <lb/>teile leçon qui l'eût sans doute dissuadé d'évoquer à nouveau le charme de
-               <lb/>son intimité quelque peu démonétisée — pour recourir à une malencontreuse
-               <lb/>image montmartroise que Lord Douglas n'ignore pas.
-            </p>
-            <p>
-               <lb/>Mais revenons à cette lettre qui nous révèle la générosité d'âme de « Bosey ».
-               <lb/>Du fond de sa prison, Wilde déplorait que, loin d'être soutenu par son « ami »,
-               <lb/>il n'eût jamais reçu un mot de lui, alors que Lord Douglas lui dédiait publi—
-               <lb/>quement certains poèmes dont eût pu le dispenser la plus élémentaire délica—
-               <lb/>tesse. Cette lettre écrite sans violence est désespérée, pénible. Wilde reproche
-               <lb/>amèrement à son fâcheux correspondant d'avoir provoqué sa disgrâce, et se
-               <lb/>méprise de s'être laissé acheminer, « par cette fatale et lamentable amitié »,
-               <lb/>aux pires déchéances.
-            
-            
-            (-----:trait séparation pour notes de bas de page)
-            ((I) Nom familier de Lord Douglas.:note de bas de page)
-            </p>
+            <div type="critique" n="2">
+            <!-- Ne concerne ni Apollinaire, ni Alcools -->
+               <head rend="align(left) caps underlign">REVUES</head>
+                  <p>
+                     <lb/>Voici que, par les soins de M. Henry—D. Davyray, le <hi rend="bold">Merure de France</hi> nous
+                     <lb/>donne, d'Oscar Wilde, une lettre tout à la fois hautaine et pitoyable.
+                     <lb/>Au mois d'avril dernier eut lieu à Londres un procès qu'intenta Lord
+                     <lb/>Alfred—Bruce Douglas à M. Arthur Ransome. Celui—ci avait publié un livre :
+                     <lb/><hi rend="italic">Oscar Wilde a critical Study</hi>, dans lequel se jugeait diffamé le joli Lord Douglas
+                     <lb/>que l'on sait.
+                  </p>
+                  <p>
+                     <lb/>Cette intervention de Lord Douglas fut au reste déplorable. Il se vit débouté
+                     <lb/>de sa plamte condamné aux dépens, et discuté par la presse comme il conve—
+                    <lb break="no"/>nait, peut-être même plus qu'il ne convenait.
+                 </p>
+                  <p>
+                     <lb/>A Paris, les tribunaux correctionnels accueillent assez fréquemment et fus—
+                     <lb break="no"/>tigent quelquefois de ces pâles voyous que ne méprise sans doute pas Lord
+                     <lb/>Douglas, et qui sont sur plus d'un point dignes de lui; il ne saurait être, pour
+                     <lb/>tels bars de Montmartre ou d'ailleurs, question de monopoles de cette sorte.
+                     <lb/>Mais ceux—là, s'ils font aux Phrynés cotées une concurrence évidente, et s'ils
+                     <lb/>recueillent les mêmes bénéfices somptuaires qui faisaient les délices de « Bo—
+                     <lb break="no"/>sey » <note anchored="true">(I) Nom familier de Lord Douglas.</note>, ne s'en targuent pas du moins avec cette inconscience assurée dont
+                     <lb/>fait étalage le mignon d'Oscar Wilde. Pour ce cynisme insolemment bête —
+                     <lb/>et non pour ses faiblesses — ce bardache d'outre—Manche eût reçu à Paris
+                     <lb/>teile leçon qui l'eût sans doute dissuadé d'évoquer à nouveau le charme de
+                     <lb/>son intimité quelque peu démonétisée — pour recourir à une malencontreuse
+                     <lb/>image montmartroise que Lord Douglas n'ignore pas.
+                  </p>
+                  <p>
+                     <lb/>Mais revenons à cette lettre qui nous révèle la générosité d'âme de « Bosey ».
+                     <lb/>Du fond de sa prison, Wilde déplorait que, loin d'être soutenu par son « ami »,
+                     <lb/>il n'eût jamais reçu un mot de lui, alors que Lord Douglas lui dédiait publi—
+                     <lb break="no"/>quement certains poèmes dont eût pu le dispenser la plus élémentaire délica—
+                     <lb break="no"/>tesse. Cette lettre écrite sans violence est désespérée, pénible. Wilde reproche
+                     <lb/>amèrement à son fâcheux correspondant d'avoir provoqué sa disgrâce, et se
+                     <lb/>méprise de s'être laissé acheminer, « par cette fatale et lamentable amitié »,
+                     <lb/>aux pires déchéances.
+                  </p>
+               
+            </div>
           
          </div>
+         
       </body>
   </text>
    
@@ -275,6 +267,9 @@
          <person xml:id="perceau_louis">
             <persName>Louis Perceau</persName>
          </person>
+         <person xml:id="caro_francis">
+            <persName>Francis Caro</persName>
+         </person>
       </listPerson>
       
       <listPlace>
@@ -309,6 +304,7 @@
          <bibl xml:id="marie">Marie</bibl>
          <bibl xml:id="l_adieu">L'Adieu</bibl>
          <bibl xml:id="poème_lu_au_mariage">Poème lu au mariage d'André Salmon</bibl>
+         <bibl xml:id="le_larron">Le Larron</bibl>
       </listBibl>
       
       <listBibl><head>Référence à la presse</head>
