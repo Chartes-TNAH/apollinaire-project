@@ -238,6 +238,9 @@
          <person xml:id="perceau_louis">
             <persName>Louis Perceau</persName>
          </person>
+         <person xml:id="caro_francis">
+            <persName>Francis Caro</persName>
+         </person>
       </listPerson>
       
       <listPlace>
@@ -272,6 +275,7 @@
          <bibl xml:id="marie">Marie</bibl>
          <bibl xml:id="l_adieu">L'Adieu</bibl>
          <bibl xml:id="poème_lu_au_mariage">Poème lu au mariage d'André Salmon</bibl>
+         <bibl xml:id="le_larron">Le Larron</bibl>
       </listBibl>
       
       <listBibl><head>Référence à la presse</head>
