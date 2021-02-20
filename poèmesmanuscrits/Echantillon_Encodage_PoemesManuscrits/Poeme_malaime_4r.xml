@@ -35,9 +35,10 @@
                     </objectDesc>
                 </physDesc>
             </msDesc>
-            <div type="poeme" n="4" xml:id="la_chanson_du_mal_aime">
+            <div type="poeme" xml:id="la_chanson_du_mal_aime">       
+                <div type="page" n="4">
+                <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f25.item.r=ManuscritApollinaire"/>
                 <head>La chanson du Mal aimé</head>
-                <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f25.item.r=Manuscrit%20Apollinaire"/>
                     <figure place="align(top left)">
                         <figDesc>Grande rature ronde</figDesc>
                     </figure>
@@ -85,13 +86,14 @@
                     <lg type="septain" n="1">
                         <l>Voie lactée ô sœur lumineuse</l>
                         <l>Des blancs ruisseaux de Chanaan</l>
-                        <pb type="verso" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f26.item.r=Manuscrit%20Apollinaire%"/>
+                        <pb type="verso" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f26.item.r=ManuscritApollinaire"/>
                         <l>Je me souviens d’une autre année,</l>
                         <l>C’était l’aube d’un jour d’avril.</l>
                         <l>J’ai chanté ma joie bien-aimée,</l>
                         <l>Chanté l’amour à voix virile,</l>
                         <l> Au moment d’amour de l’année.</l>
                     </lg>
+            </div>
             </div>
         </body>
     </text>
