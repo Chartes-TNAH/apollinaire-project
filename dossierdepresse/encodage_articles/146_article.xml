@@ -31,45 +31,51 @@
             
             
             <div type="article" n="" xml:id="article2_146">
+               <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f146.item"/>
             
-               <head><hi rend="caps bold">M. <persName ref="#de_gonzague_frick_louis">LOUIS DE GONZAGUE FRICK</persName></hi></head>
-               <p> <lb/>M. <persName ref="#de_gonzague_frick_louis">Louis de Gonzague Frick</persName> m'adres-
-            <lb break="no"/>se la lettre suivante : 
+               <head>
+                  <hi rend="caps bold">M. <persName ref="#de_gonzague_frick_louis">LOUIS DE GONZAGUE FRICK</persName></hi>
+               </head>
+               
+               <p>
+                  <lb/>M. <persName ref="#de_gonzague_frick_louis">Louis de Gonzague Frick</persName> m'adres-
+                  <lb break="no"/>se la lettre suivante : 
             
-            <quote>
-            <lb/>Mon cher confrère,
-            <lb/>A l'encontre de M. <persName ref="#picard_gaston">Gaston Picard</persName>, le
-               <lb/>prototype de l'informateur littéraire, je
-               <lb/>suis un enfant de la <placeName ref="#paris">rive droite</placeName>. Je naquis
-               <lb/>devant les grands <placeName ref="#paris">magasins du Printemps</placeName>,
-               <lb/>dans ce quartier de la <placeName ref="#paris">gare Saint-Lazare</placeName>
-               <lb/>qu'occupa le prestige de <persName ref="#mallarmé_stéphane">Stéphane Mallar-
-               <lb break="no"/>mé</persName>.
-               <lb/>Le <placeName ref="#paris">quartier Latin</placeName> m'a toujours paru infi-
-               <lb break="no"/>niment triste et lointain... Il a pleuré là-
-               <lb/>bas sans rémission sur mon cœur. Collè-
-               <lb break="no"/>ges, couvents, hôpitaux et prisons ! <placeName ref='#paris'>quar-
-               <lb break="no"/>tier Latin</placeName>, grave et ennuyeux, tu es la
-               <lb/>cité de pierre malgré tes popines de fri-
-               <lb break="no"/>carelles et d'étudiants ; quand te décide-
-               <lb break="no"/>ras-tu à faire couper tes cheveux, acerso-
-               <lb break="no"/>come <placeName ref="#paris">quartier Latin</placeName>, à te départir de tes
-               <lb/> petits airs d'intellectuel, à te vêtir chez
-               <lb/>des tailleurs modernes, comme l'<hi rend="underlign blue"><ref target="#l_emigrant_de_landor_road" rend="italic">Emi-
-               <lb break="no"/>grant</ref> de M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName></hi> ? Ah !
-               <lb break="no"/>radieux sourire de <placeName ref="#paris">Paris</placeName>, comme tu réson-
-               <lb break="no"/>nes faux sur le <placeName ref="#paris">boulevard Saint-Michel</placeName>. Les
-               <lb/>ailes de quelque moulin rougeoyant em-
-               <lb break="no"/>portent mes souvenirs sans faste du <placeName ref="#paris">quar-
-               <lb break="no"/>tier Latin</placeName>, cependant que les musagètes de
-               <lb/>ma rive chantent tels que de nouveaux
-               <lb/>amphions.
-            
-            <persName ref="#de_gonzague_frick_louis">Louis de GONZAGUE FRICK</persName>. 
-            </quote>
-            </p>
-               <p rend="bold right"><persName ref="#bayard_jean">Jean Bayard</persName></p>
-               <p rend="left italic">(A suivre)</p>
+                     <quote>
+                        <lb/>Mon cher confrère,
+                        <lb/>A l'encontre de M. <persName ref="#picard_gaston">Gaston Picard</persName>, le
+                        <lb/>prototype de l'informateur littéraire, je
+                        <lb/>suis un enfant de la <placeName ref="#paris">rive droite</placeName>. Je naquis
+                        <lb/>devant les grands <placeName ref="#paris">magasins du Printemps</placeName>,
+                        <lb/>dans ce quartier de la <placeName ref="#paris">gare Saint-Lazare</placeName>
+                        <lb/>qu'occupa le prestige de <persName ref="#mallarmé_stéphane">Stéphane Mallar-
+                        <lb break="no"/>mé</persName>.
+                        <lb/>Le <placeName ref="#paris">quartier Latin</placeName> m'a toujours paru infi-
+                        <lb break="no"/>niment triste et lointain... Il a pleuré là-
+                        <lb/>bas sans rémission sur mon cœur. Collè-
+                        <lb break="no"/>ges, couvents, hôpitaux et prisons ! <placeName ref='#paris'>quar-
+                        <lb break="no"/>tier Latin</placeName>, grave et ennuyeux, tu es la
+                        <lb/>cité de pierre malgré tes popines de fri-
+                        <lb break="no"/>carelles et d'étudiants ; quand te décide-
+                        <lb break="no"/>ras-tu à faire couper tes cheveux, acerso-
+                        <lb break="no"/>come <placeName ref="#paris">quartier Latin</placeName>, à te départir de tes
+                        <lb/> petits airs d'intellectuel, à te vêtir chez
+                        <lb/>des tailleurs modernes, comme l'<hi rend="underlign blue"><ref target="#l_emigrant_de_landor_road" rend="italic">Emi-
+                        <lb break="no"/>grant</ref> de M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName></hi> ? Ah !
+                        <lb break="no"/>radieux sourire de <placeName ref="#paris">Paris</placeName>, comme tu réson-
+                        <lb break="no"/>nes faux sur le <placeName ref="#paris">boulevard Saint-Michel</placeName>. Les
+                        <lb/>ailes de quelque moulin rougeoyant em-
+                        <lb break="no"/>portent mes souvenirs sans faste du <placeName ref="#paris">quar-
+                        <lb break="no"/>tier Latin</placeName>, cependant que les musagètes de
+                        <lb/>ma rive chantent tels que de nouveaux
+                        <lb/>amphions.
+                        <lb/><persName ref="#de_gonzague_frick_louis">Louis de GONZAGUE FRICK</persName>. 
+                     </quote>
+           
+                  <lb/><persName ref="#bayard_jean" rend="bold align(right)">Jean Bayard</persName>
+                  <lb rend="align(left) italic"/>(A suivre)
+               </p>
+               
             </div>
             
             
@@ -77,42 +83,41 @@
             <div type="article" n="" xml:id="article3_146">
                <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f146.item"/>
            
-               <head><hi rend="center bold tall italic"><ref>Gazette des Lettres</ref></hi></head>
-            <p>
-            <lb/>— Délassements d'été.
+               <head><hi rend="center bold tall italic">Gazette des Lettres</hi></head>
             
-            <lb/>Quel est l'auteur des vers suivants ? Ils sont
-            <lb/>inédits mais portent une marque assez per-
-            <lb break="no"/>sonnelle pour que nos lecteurs distinguent au
-            <lb/>premier coup d'œil leur véritable origine :
-            </p>
                <p>
-            <quote>
-               <title><hi rend="center caps">PRIÈRE DU SOIR</hi></title>
-            <l>Une femme qui porte un enfant sur son bras va
-               <lb rend="interligne"/>[faire signe à un autobus</l>
-            <l>Il avait joué <hi rend="italic">Nimbus</hi> placé dans la troisième</l>
-            <l>Et la tente rayée rouge et blanc du roi Makano-
-               <lb break="no" rend="interligne"/>[nulu aux Iles sous le vent</l>
-            <l>Tribade au ventre d'agate polie</l>
-            <l>Une jeune fille est entrée au W.-C. des hommes à 
-               <lb rend="interligne"/>[la <placeName ref="#vladivostock">gare de Vladivostock</placeName></l>
-            <l>J'ai mangé avec mes amis le gâteau nommé 
-               <lb rend="interligne"/>[<hi rend="italic">rossir</hi></l>
-            <l>Et nous avons gardé sa part au Mannekenpis</l>
-            <l>Trois mille trois cent soixante dix huit <num>3.378</num></l>
-            <l>Est-ce une motocyclette ou le reflet de la lune
-               <lb rend="interligne"/>[qui laboure la mer</l>
-            <l>La soleil se ferme avec un accordéon</l>
-            <l>Le prince polonais pleure en voyant jouer la
-               <lb rend="interligne"/>[<hi rend="italic">Dame de chez Maxim's</hi></l>
-            <l>Et le disque du phonographe était troué comme
-               <lb rend="interligne"/>[un fromage de gruyère.</l>
-            </quote>
+                  <lb/>— Délassements d'été.
+                  <lb/>Quel est l'auteur des vers suivants ? Ils sont
+                  <lb/>inédits mais portent une marque assez per-
+                  <lb break="no"/>sonnelle pour que nos lecteurs distinguent au
+                  <lb/>premier coup d'œil leur véritable origine :
+                  <quote>
+                     <title><hi rend="align(center) caps">PRIÈRE DU SOIR</hi></title>
+                     <l>Une femme qui porte un enfant sur son bras va
+                        <lb rend="interligne"/>[faire signe à un autobus</l>
+                     <l>Il avait joué <hi rend="italic">Nimbus</hi> placé dans la troisième</l>
+                     <l>Et la tente rayée rouge et blanc du roi Makano-
+                        <lb break="no" rend="interligne"/>[nulu aux Iles sous le vent</l>
+                     <l>Tribade au ventre d'agate polie</l>
+                     <l>Une jeune fille est entrée au W.-C. des hommes à 
+                        <lb rend="interligne"/>[la <placeName ref="#vladivostock">gare de Vladivostock</placeName></l>
+                     <l>J'ai mangé avec mes amis le gâteau nommé 
+                        <lb rend="interligne"/>[<hi rend="italic">rossir</hi></l>
+                     <l>Et nous avons gardé sa part au Mannekenpis</l>
+                     <l>Trois mille trois cent soixante dix huit <num>3.378</num></l>
+                     <l>Est-ce une motocyclette ou le reflet de la lune
+                        <lb rend="interligne"/>[qui laboure la mer</l>
+                     <l>La soleil se ferme avec un accordéon</l>
+                     <l>Le prince polonais pleure en voyant jouer la
+                        <lb rend="interligne"/>[<hi rend="italic">Dame de chez Maxim's</hi></l>
+                     <l>Et le disque du phonographe était troué comme
+                        <lb rend="interligne"/>[un fromage de gruyère.</l>
+                  </quote>
             </p>
                
                <note type="ref_article" rend="handwritten format(landscape)">
-            <ref target="#paris_midi">Paris-Midi</ref></note>
+                  <ref target="#paris_midi">Paris-Midi</ref>
+               </note>
             
             
             
@@ -121,34 +126,34 @@
             <div type="article" n="" xml:id="article4_146">
                <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f146.item"/>
             
-               <head><hi rend="caps bold center underlign">ALCOOLS</hi></head>
-            <p>
-               <lb/>Ce livre est orné du portrait de l'au-
-               <lb break="no"/>teur par <persName ref="#picasso_pablo">Pablo Picasso</persName>. Vous verrez un
-               <lb/>certain nombre de tuyaux de poêle der-
-               <lb break="no"/>rière lesquels une mèche s'échevèle. Tel
-               <lb/>est M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> suivant
-               <lb/>l'esthétique de l'école futuriste dont il
-               <lb/>apparaît comme l'exégète. Autre singu-
-               <lb break="no"/>larité : nul signe de ponctuation dans ce
-               <lb/>volume de poèmes. Voilà bien des re-
-               <lb break="no"/>cherches de bizarrerie !
-            </p>
+               <head><hi rend="align(center) caps bold underline">ALCOOLS</hi></head>
                <p>
-               <lb/>Vous en trouverez d'autres. Vous se-
-               <lb break="no"/>rez agacé par l'expression volontairement
-               <lb/>nébuleuse d'une pensée que l'on devine
-               <lb/>rare, subtile, précieuse. Des mètres bi-
-               <lb break="no"/>zarres, des vers blancs, des étrangetés
-               <lb/>laborieuses, un cosmopolitisme forcené,
-               <lb/>de l'argot, des jurons, de la bohème,
-               <lb/>d'esprit et de cœur vous choqueront dans
-               <lb/>ce volume <bibl>(1 vol. in-18, <publisher rend="italic"><hi rend="underlign red">Mercure</hi> de Fran-
-               <lb break="no"/>ce</publisher>)</bibl> où M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> a re-
-               <lb break="no"/>cueilli ses poèmes de <date>1898</date> à <date>1913</date>. Et avec
-               <lb/>cela, dans ce désordre, dans cette ivro-
-               <lb break="no"/>gnerie, on trouvera des vers exquis, 
-               <lb/>étrangement suggestifs.
+                  <lb/>Ce livre est orné du portrait de l'au-
+                  <lb break="no"/>teur par <persName ref="#picasso_pablo">Pablo Picasso</persName>. Vous verrez un
+                  <lb/>certain nombre de tuyaux de poêle der-
+                  <lb break="no"/>rière lesquels une mèche s'échevèle. Tel
+                  <lb/>est M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> suivant
+                  <lb/>l'esthétique de l'école futuriste dont il
+                  <lb/>apparaît comme l'exégète. Autre singu-
+                  <lb break="no"/>larité : nul signe de ponctuation dans ce
+                  <lb/>volume de poèmes. Voilà bien des re-
+                  <lb break="no"/>cherches de bizarrerie !
+               </p>
+               <p>
+                  <lb/>Vous en trouverez d'autres. Vous se-
+                  <lb break="no"/>rez agacé par l'expression volontairement
+                  <lb/>nébuleuse d'une pensée que l'on devine
+                  <lb/>rare, subtile, précieuse. Des mètres bi-
+                  <lb break="no"/>zarres, des vers blancs, des étrangetés
+                  <lb/>laborieuses, un cosmopolitisme forcené,
+                  <lb/>de l'argot, des jurons, de la bohème,
+                  <lb/>d'esprit et de cœur vous choqueront dans
+                  <lb/>ce volume <bibl>(1 vol. in-18, <publisher rend="italic"><hi rend="underline red">Mercure</hi> de Fran-
+                  <lb break="no"/>ce</publisher>)</bibl> où M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> a re-
+                  <lb break="no"/>cueilli ses poèmes de <date>1898</date> à <date>1913</date>. Et avec
+                  <lb/>cela, dans ce désordre, dans cette ivro-
+                  <lb break="no"/>gnerie, on trouvera des vers exquis, 
+                  <lb/>étrangement suggestifs.
                </p>
                
                <note type="ref_article" rend="handwritten" >
@@ -156,14 +161,16 @@
                </note>
          
             </div>
+            
          </div>
-         
-         
          
       </body>
      
   </text>
+   
+   
    <standOff>
+      
       <listPerson>
          <person xml:id="picasso_pablo">
             <persName>Pablo Picasso</persName>
