@@ -20,114 +20,108 @@
   <text>
       <body>
          
-         
-         
-         <div type="article" n="148 149" xml:id="article_148-149">
+         <div type="article" n="148 149" xml:id="article_148-149" sameAs="article1_146">
             <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f148.item"/>
             
-            <div>
             <head>
-            <ref target="#mercure_de_france">
-               <bibl>
-            <date rend="bold"><hi rend="align(left)">10</hi> <hi rend="align(center)">1913</hi> <hi rend="align(right">Mai</hi></date>
-            <title rend="align(center)"><lb/>BVLLETIN DE LA LIBRAIRIE 
-            <lb/>DV
-            <lb/><damage agent="collage"><unclear>M</unclear></damage>ERCVRE DE FRANCE
-            <lb/>XXVI, RVE DE CONDÉ, PARIS</title>
-                  <lb/>Publications nouvelles
-         
-                  <date>Novembre-Mai — 1913</date>
-            </bibl>
-            </ref>
+               <ref target="#mercure_de_france">
+                  <bibl>
+                     <date rend="bold"><hi rend="align(left)">10</hi> <hi rend="align(center)">1913</hi> <hi rend="align(right">Mai</hi></date>
+                     <title rend="align(center)">
+                        <lb/>BVLLETIN DE LA LIBRAIRIE 
+                        <lb/>DV
+                        <lb/><damage agent="collage"><unclear>M</unclear></damage>ERCVRE DE FRANCE
+                        <lb/>XXVI, RVE DE CONDÉ, PARIS
+                     </title>
+                     <lb/>Publications nouvelles
+                     <lb/><date>Novembre-Mai — 1913</date>
+                  </bibl>
+               </ref>
                <stamp>Tampon postale de la ville de poitiers
                   <mentioned>P.P. Poitiers<date>30.5.13</date></mentioned>
                </stamp>
             </head>
             
-            
-          <div>
-             <head>
-           
-         <hi rend="align(center) bold tall caps">GUILLAUME APOLLINAIRE</hi>
-         
-               <lb/><damage agent="collage"><unclear>A</unclear></damage><hi rend="bold">cools</hi>, poèmes (1898-1913). Avec un portrait de l'au-
-               <lb/><damage agent="collage"/>teur par <persName ref="#picasso_pablo" rend="caps">PABLO PICASSO</persName>. Vol. in-18 ..........  3,50
+            <div type="critique" n="1">
+               <head>
+                  <bibl>
+                     <lb/><author rend="align(center) bold tall caps"><persName ref="#apollinaire_guillaume">GUILLAUME APOLLINAIRE</persName></author>
+                     <lb/><title>
+                        <damage agent="collage"><unclear>A</unclear></damage><hi rend="bold">cools</hi>, poèmes (1898-1913). Avec un portrait de l'au-
+                        <lb break="no"/><damage agent="collage"/>teur par <persName ref="#picasso_pablo" rend="caps">PABLO PICASSO</persName></title>. Vol. in-18 ..........  3,50
+                  </bibl>
              </head>
-            
-            
-            <p>
                
-               <lb/><damage agent="collage"/>C'est une chose extrêmement particulière que la poésie de
-               <lb/><damage agent="collage"/><persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName>. Peut-être est-elle un peu décon-
-               <lb break="no"/><damage agent="collage"><unclear>cer</unclear></damage>tante, au premier abord, pour le lecteur habitué aux ordi-
-               <lb break="no"/><damage agent="collage"><unclear>nai</unclear></damage>res volumes de vers. Mais qu'on y prête attention, et alors
-               <lb/><damage agent="collage"><unclear>le</unclear></damage>charme opère aussitôt. C'est la poésie d'un homme à l'âme
-               <lb/><damage agent="collage"><unclear>mu</unclear></damage>ltiple, flottante, vagabonde, pleine d'ingénuité aussi. Comme
-               <lb/><damage agent="collage"><unclear>dan</unclear></damage>s ses nouvelles, par exemple ce curieux <hi rend="italique"><ref target="#l_hérésiarque_et_cie">Hérésiarque et
+               <p>
+                  <lb/><damage agent="collage"/>C'est une chose extrêmement particulière que la poésie de
+                  <lb/><damage agent="collage"/><persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName>. Peut-être est-elle un peu décon-
+                  <lb break="no"/><damage agent="collage"><unclear>cer</unclear></damage>tante, au premier abord, pour le lecteur habitué aux ordi-
+                  <lb break="no"/><damage agent="collage"><unclear>nai</unclear></damage>res volumes de vers. Mais qu'on y prête attention, et alors
+                  <lb/><damage agent="collage"><unclear>le</unclear></damage>charme opère aussitôt. C'est la poésie d'un homme à l'âme
+                  <lb/><damage agent="collage"><unclear>mu</unclear></damage>ltiple, flottante, vagabonde, pleine d'ingénuité aussi. Comme
+                  <lb/><damage agent="collage"><unclear>dan</unclear></damage>s ses nouvelles, par exemple ce curieux <hi rend="italique"><ref target="#l_hérésiarque_et_cie">Hérésiarque et
                   <lb/><damage agent="collage"><unclear>Cie</unclear></damage></ref></hi>, M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> nous donne dans ses poèmes
-               <lb/><damage agent="collage"><unclear>l'im</unclear></damage>pression d'un homme qui a tout lu et vu tous les pays,
-               <lb/><damage agent="collage"><unclear>e</unclear></damage>t il sait nous évoquer de choses, sentiments et paysages,
-               <lb/><damage agent="collage"><unclear>d</unclear></damage>orées et lointaines. Il s'y ajoute ici le rythme, étrange sou-
-               <lb break="no"/><damage agent="collage"><unclear>ven</unclear></damage>t, mais souvent pénétrant, comme une musique à la fois
-               <lb/><damage agent="collage"><unclear>bar</unclear></damage>bare et raffinée, et l'émotion la plus rare, qui font de ce
-               <lb/><damage agent="collage"><gap reason="illegible"/></damage>, auquel suffirait seule la <hi rend="italic"><ref target="#la_chanson_du_mal_aimé">Chanson du Mal aimé</ref></hi> un
-               <lb/><damage agent="collage"><gap reason="illegible"/></damage>e tout à fait à part dans la production poétique actuelle.
-         
-               <note rend="handwritten format(landscape) underlign right">
+                  <lb/><damage agent="collage"><unclear>l'im</unclear></damage>pression d'un homme qui a tout lu et vu tous les pays,
+                  <lb/><damage agent="collage"><unclear>e</unclear></damage>t il sait nous évoquer de choses, sentiments et paysages,
+                  <lb/><damage agent="collage"><unclear>d</unclear></damage>orées et lointaines. Il s'y ajoute ici le rythme, étrange sou-
+                  <lb break="no"/><damage agent="collage"><unclear>ven</unclear></damage>t, mais souvent pénétrant, comme une musique à la fois
+                  <lb/><damage agent="collage"><unclear>bar</unclear></damage>bare et raffinée, et l'émotion la plus rare, qui font de ce
+                  <lb/><damage agent="collage"><gap reason="illegible"/></damage>, auquel suffirait seule la <hi rend="italic"><ref target="#la_chanson_du_mal_aimé">Chanson du Mal aimé</ref></hi> un
+                  <lb/><damage agent="collage"><gap reason="illegible"/></damage>e tout à fait à part dans la production poétique actuelle.
+               </p>
+               
+               <note type="ref_article" rend="handwritten format(landscape) underlign right">
                   <persName ref="#leautaud_paul">Paul Leautaud</persName>
                </note>
-            </p>
-               </div>
-         <div>
+               
+            </div>
+            
+         <div type="critique" n="2">
             <head rend="align(center) bold tall">
-         
-               <bibl><lb/><author>GUILLAUME APOLLINAIRE
-               <lb/><damage><supplied>F</supplied></damage>ERNAND FLEURET et LOUIS PERCEAU</author>
-       
+               <bibl>
+                  <lb/><author>GUILLAUME APOLLINAIRE
+                     <lb/><damage><supplied>F</supplied></damage>ERNAND FLEURET et LOUIS PERCEAU</author>
                   <lb/><title><damage><unclear>L'en</unclear></damage>fer de la Bilbiothèque Nationale. Icono-
-               <lb/><damage><gap reason="illegible"/></damage>-bibliographie de tous les ouvrages composant cette
-               <lb/><damage><unclear>cél</unclear></damage>èbre collection.</title> Vol in-8 ................. 7.50</bibl>
+                  <lb/><damage><gap reason="illegible"/></damage>-bibliographie de tous les ouvrages composant cette
+                  <lb/><damage><unclear>cél</unclear></damage>èbre collection.</title> Vol in-8 ................. 7.50
+               </bibl>
             </head>
             
-            <note rend="handwritten format(landscape) right">
+            <note type="ref_article" rend="handwritten format(landscape) right">
                <persName ref="#leautaud_paul">Leautaud</persName>
             </note>
             
-               <p>
-                  
+            <p>
                <lb/><damage><unclear>L'</unclear></damage><hi rend="italic">Enfer</hi> de la Bibliothèque Nationale a été créé sur l'ordre
          
-         
-rend="bold align(center)" -> Envoi franco du Catalogue complet sur demande
-      
+               <metamark function="footer" rend="align(center) bold">Envoi franco du Catalogue complet sur demande</metamark>
                
-                  <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f149.item"/>
+               <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f149.item"/>
 
-(2:haut,gauche) (BVLLETIN DE LA LIBRAIRIE:haut,centré)
-(ligne tracée - limite en-tête)
-         
-                  <lb/>du Premier Consul, sur le modèle de l'<hi rend="italic">Enfer</hi> de la <placeName ref="#vatican">Bibliothè-<damage agent="collage"/>
-                     <lb break="no"/>que du Vatican</placeName>. Il contient un certain nombre d'ouvrages qui<damage agent="collage"/>
-                  <lb/>n'avaient pas encore été décrits et dont il n'existe aucun cata-<damage agent="collage"/>
-                  <lb break="no"/>logue. L'ouvrage de MM. <persName ref="#apollinaire_guillaume">Apollinaire</persName>, <persName ref="#fleuret_ferdinand">Fleuret</persName> et <persName ref="#perceau_louis">Perceau</persName><damage agent="collage"/>
-                  <lb/>comble donc une importance lacune bibliographique. Il a de <damage agent="collage"/>
-                  <lb/>plus son attrait de pittoresque, de curiosité, d'indiscrétion <damage agent="collage"/>
-                  <lb/>même. Tous ces livres, qu'il nous présente et nous décrit <damage agent="collage"/>
-                  <lb/>livres condamnables, si l'on veut, ont un mérite qui fait leu<damage agent="collage"><unclear>r</unclear></damage>
-                  <lb/>valeur : ils renseignent sur l'histoire des mœurs. A côté d<damage agent="collage"><unclear>e</unclear></damage>
-                  <lb/>la littérature morale, en effet, il y a l'autre, et qui n'est pas<damage agent="collage"/>
-                  <lb/>socialement et littérairement, un document moindre, on pour<damage agent="collage"><unclear>-</unclear></damage>
-                  <lb break="no"/>rait même dire souvent plus véridique. Les satiriques licen<damage agent="collage"><unclear>-</unclear></damage>
-                  <lb break="no"/>cieux des XVe, XVIe et XVIIe siècles sont aussi des poètes, après<damage agent="collage"/>
-                  <lb/>tout. Les pamphlets et les romans de la Révolution ont leu<damage agent="collage"><unclear>r</unclear></damage>
-                  <lb/>intérêt historique. On ne saurait ôter les uns et les autres d<damage agent="collage"><unclear>e</unclear></damage>
-                  <lb/>notre littérature sans fausser l'aspect de celle-ci.
-         
-         
-         </p>
-            </div>
+               <metamark function="header" rend="align(center)">BVLLETIN DE LA LIBRAIRIE<num rend="align(left)">2</num></metamark>
+
+               <lb/>du Premier Consul, sur le modèle de l'<hi rend="italic">Enfer</hi> de la <placeName ref="#vatican">Bibliothè-<damage agent="collage"/>
+               <lb break="no"/>que du Vatican</placeName>. Il contient un certain nombre d'ouvrages qui<damage agent="collage"/>
+               <lb/>n'avaient pas encore été décrits et dont il n'existe aucun cata-<damage agent="collage"/>
+               <lb break="no"/>logue. L'ouvrage de MM. <persName ref="#apollinaire_guillaume">Apollinaire</persName>, <persName ref="#fleuret_ferdinand">Fleuret</persName> et <persName ref="#perceau_louis">Perceau</persName><damage agent="collage"/>
+               <lb/>comble donc une importance lacune bibliographique. Il a de <damage agent="collage"/>
+               <lb/>plus son attrait de pittoresque, de curiosité, d'indiscrétion <damage agent="collage"/>
+               <lb/>même. Tous ces livres, qu'il nous présente et nous décrit <damage agent="collage"/>
+               <lb/>livres condamnables, si l'on veut, ont un mérite qui fait leu<damage agent="collage"><unclear>r</unclear></damage>
+               <lb/>valeur : ils renseignent sur l'histoire des mœurs. A côté d<damage agent="collage"><unclear>e</unclear></damage>
+               <lb/>la littérature morale, en effet, il y a l'autre, et qui n'est pas<damage agent="collage"/>
+               <lb/>socialement et littérairement, un document moindre, on pour<damage agent="collage"><unclear>-</unclear></damage>
+               <lb break="no"/>rait même dire souvent plus véridique. Les satiriques licen<damage agent="collage"><unclear>-</unclear></damage>
+               <lb break="no"/>cieux des XVe, XVIe et XVIIe siècles sont aussi des poètes, après<damage agent="collage"/>
+               <lb/>tout. Les pamphlets et les romans de la Révolution ont leu<damage agent="collage"><unclear>r</unclear></damage>
+               <lb/>intérêt historique. On ne saurait ôter les uns et les autres d<damage agent="collage"><unclear>e</unclear></damage>
+               <lb/>notre littérature sans fausser l'aspect de celle-ci.
+            </p>
+            
+         </div>
                
-         <div>
+         <div type="critique" n="3">
+            <!-- Ne concerne ni Apollinaire, ni Alcools -->
             <head>
                <bibl>
                <author><lb/><hi rend="bold, align(center) tall caps">RENÉ ARCOS</hi></author>
@@ -148,38 +142,27 @@ rend="bold align(center)" -> Envoi franco du Catalogue complet sur demande
          </p>
          </div>
             
+         <div type="critique" n="3">
+              <!-- Ne concerne ni Apollinaire, ni Alcools -->
+            <head rend="tall">
+               <bibl>
+                  <lb/><author rend="bold, align(center) tall caps">BOTTOM</author>
+                  <lb/><title><hi rend="bold">Ainsi parlait Jéroboam</hi><hi rend="italic"> ou la Finance en ac
+                     <lb break="no"/>tions</hi></title> Vol. petit in-18  .....................  2 
+               </bibl>
+            </head>
             
-           <div>
-        <head rend="tall">
-           <bibl>
-              <author rend="bold, align(center) tall caps">
-                 BOTTOM
-              </author>
-              
-         <title><lb/><hi rend="bold">Ainsi parlait Jéroboam</hi><hi rend="italic"> ou la Finance en ac
-         <lb/>tions</hi></title> Vol. petit in-18  .....................  2 
-           </bibl>
-           
-        </head>
-        
-         <p>
-            <lb/>Voici un petit livre qui a eu un vif succès. Jéroboam, c'es<damage agent="collage"/>
-            <lb/>le Zarathoustra de la finance. Assis au café, place de l<damage agent="collage"/>
-            <lb/>Bourse, devant des piles de soucoupes, en considérant d'u<damage agent="collage"/>
-            <lb/>œil narquois ce qu'il appelait la « Boite à finances », il laissa<damage agent="collage"/>
-            <lb/>s'en aller de lui ses sarcasmes, entouré de disciples qu'amu<damage agent="collage"/>
-         </p>
-         
-         
+            <p>
+               <lb/>Voici un petit livre qui a eu un vif succès. Jéroboam, c'es<damage agent="collage"/>
+               <lb/>le Zarathoustra de la finance. Assis au café, place de l<damage agent="collage"/>
+               <lb/>Bourse, devant des piles de soucoupes, en considérant d'u<damage agent="collage"/>
+               <lb/>œil narquois ce qu'il appelait la « Boite à finances », il laissa<damage agent="collage"/>
+               <lb/>s'en aller de lui ses sarcasmes, entouré de disciples qu'amu<damage agent="collage"/>
+            </p>
          </div>
             
-            
-          
-(ligne tracée - pied de page)
-(Envoi franco du Catalogue complet sur demande:gras,centré)
-           
-          
-         </div>
+            <metamark function="footer" rend="align(center) bold">Envoi franco du Catalogue complet sur demande</metamark>
+       
         </div>
       </body>
   </text>
@@ -253,6 +236,9 @@ rend="bold align(center)" -> Envoi franco du Catalogue complet sur demande
          <person xml:id="perceau_louis">
             <persName>Louis Perceau</persName>
          </person>
+         <person xml:id="caro_francis">
+            <persName>Francis Caro</persName>
+         </person>
       </listPerson>
       
       <listPlace>
@@ -287,6 +273,7 @@ rend="bold align(center)" -> Envoi franco du Catalogue complet sur demande
          <bibl xml:id="marie">Marie</bibl>
          <bibl xml:id="l_adieu">L'Adieu</bibl>
          <bibl xml:id="poème_lu_au_mariage">Poème lu au mariage d'André Salmon</bibl>
+         <bibl xml:id="le_larron">Le Larron</bibl>
       </listBibl>
       
       <listBibl><head>Référence à la presse</head>
