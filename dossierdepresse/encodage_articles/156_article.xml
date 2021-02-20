@@ -25,64 +25,67 @@
             <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f156.item"/>
          
             <p>
-            <lb/>M. <persName ref="#apollinaire_guillaume" rend="caps">GUILLAUME APOLLINAIRE</persName> a le plus grand mépris de ses
+               <lb/>M. <persName ref="#apollinaire_guillaume" rend="caps">GUILLAUME APOLLINAIRE</persName> a le plus grand mépris de ses
                <lb/>contemporains. Il ne les juge pas capables de le com-
                <lb break="no"/>prendre, et son langage leur fait des concessions. Pourquoi
-               <lb/>n'a—t—il pas écrit tous les vers d'<ref target="#alcools">Alcools</ref>
-               <note anchored="true" n="1" place="foot">1. Mercure de France.</note>
-                ! à la file, tous ses
+               <lb/>n'a—t—il pas écrit tous les vers d'<ref target="#alcools">Alcools</ref><note anchored="true" n="1" place="foot">1. Mercure de France.</note>! à la file, tous ses
                <lb/>poèmes à la queue leu leue, sans blancs, sans pagination,
                <lb/>puisqu'il y supprima les points et jusqu'à l'humble virgule ?
                <lb/>Lisez pourtant cette « Marie » :
-            
-            <ref target="#marie">
-               <quote rend="align(center)">
-               <lg><l>Vous y dansiez petite fille</l>
-            <l>Y danserez—vous mère—grand</l>
-            <l>C'est la maclotte qui sautille</l>
-            <l>Toutes les cloches sonneront</l>
-            <l>Quand donc reviendrez—vous Marie</l></lg>
-            
-            <lg><l>Les brebis s'en vont dans la neige</l>
-            <l>Flocons de laine et ceux d'argent</l>
-            <l>Des soldats passent et que n'ai—je:</l>
-            <l>Un cœur à moi ce cœur changeant</l>
-            <l>Changeant et puis encore que sais—je</l></lg>
-            
-            <lg><l>Sais—je où s'on iront tes cheveux</l>
-            <l>Crépus comme mer qui moutonne</l>
-            <l>Sais—je où s'en iront tes cheveux</l>
-            <l>Et tes mains feuilles de l'automne</l>
-            <l>Que jonchent aussi nos aveux</l></lg>
-            
-            <lg><l>Je passais au bord de la Seine</l>
-            <l>Un livre ancien sous le bras</l>
-            <l>Le fleuve est pareil à ma peine</l>
-            <l>Il s'écoule et ne tarit pas</l>
-            <l>Quand donc finira la semaine</l>
-            </lg>
-               </quote>
-            </ref>
+               
+               <ref target="#marie">
+                  <quote rend="align(center)">
+                     <lg>
+                        <l>Vous y dansiez petite fille</l>
+                        <l>Y danserez—vous mère—grand</l>
+                        <l>C'est la maclotte qui sautille</l>
+                        <l>Toutes les cloches sonneront</l>
+                        <l>Quand donc reviendrez—vous Marie</l>
+                     </lg>
+                     <lg>
+                        <l>Les brebis s'en vont dans la neige</l>
+                        <l>Flocons de laine et ceux d'argent</l>
+                        <l>Des soldats passent et que n'ai—je:</l>
+                        <l>Un cœur à moi ce cœur changeant</l>
+                        <l>Changeant et puis encore que sais—je</l>
+                     </lg>
+                     <lg>
+                        <l>Sais—je où s'on iront tes cheveux</l>
+                        <l>Crépus comme mer qui moutonne</l>
+                        <l>Sais—je où s'en iront tes cheveux</l>
+                        <l>Et tes mains feuilles de l'automne</l>
+                        <l>Que jonchent aussi nos aveux</l>
+                     </lg>
+                     <lg>
+                        <l>Je passais au bord de la Seine</l>
+                        <l>Un livre ancien sous le bras</l>
+                        <l>Le fleuve est pareil à ma peine</l>
+                        <l>Il s'écoule et ne tarit pas</l>
+                        <l>Quand donc finira la semaine</l>
+                     </lg>
+                  </quote>
+               </ref>
             </p>
             
             <p>
-               <lb/>Il me semble que M. Apollinaire se bat les flancs, qu'en
+               <lb/>Il me semble que M. <persName ref="#apollinaire_guillaume">Apollinaire</persName> se bat les flancs, qu'en
                <lb/>dites-vous ? Je croirais volontiers qu'il n'est qu'intelligence
                <lb/>érudite, et c'est une mauvaise condition pour la poésie.
-               <lb/>Vous me dites que tant de poètes sont bêtes...</p>
+               <lb/>Vous me dites que tant de poètes sont bêtes...
+            </p>
             
             <note type="ref_article" rend="handwritten" >
                <date>1913</date> <persName ref="#clouard_henri">Henri Clouard</persName> <ref target="#revue_critique_des_idées">Revue Critique des Idées et des Livres</ref> Octob
-         </note>
-            
-            
+            </note>
+          
          </div>
+         
+         
+         
          <div type="article" n="156" xml:id="article2_156">
             <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f156.item"/>
             
-            <p>
-            <hi rend="align(left) bold">Ça recommence.</hi>
-            </p>
+            <head rend="align(left) bold">Ça recommence.</head>
             
             <p>
                <lb/>Une grande nouvelle. M. <persName ref="#apollinaire_guillaume">Guillaume Apolli-
@@ -105,24 +108,27 @@
             </p>
             
             <note type="ref_article" rend="handwritten" >
-            <ref target="#courrier_français">Courrier Français</ref> <date>22 février 1913</date>
+               <ref target="#courrier_français">Courrier Français</ref> <date>22 février 1913</date>
             </note>
             
          </div>
+         
+         
+         
          <div type="article" n="156" xml:id="article3_156">
             <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f156.item"/>
-            <p>
-            (Les Lettres: centre, gras, taille police très large)
-            (-----: trait séparation, centre)
-            (Un héros: centre, gras, taille police large)
-            </p>
+            
+            <head rend="align(center) bold tall">
+               <lb/>Les Lettres
+               <lb/>Un héros
+            </head>
             
             <p>
                <lb/>On n'avait jamais eu à signaler, croyons-
                <lb/>nous, le cas d'un écrivain qui, pour obliger
                <lb/>un confrère, renie à peu près tous les ouvra-
                <lb break="no"/>ges qui composent son oeuvre. M. <persName ref="#jacob_max">Max Ja
-               <lb/>cob</persName>, poète, romancier, dramaturge, confé-
+               <lb break="no"/>cob</persName>, poète, romancier, dramaturge, confé-
                <lb break="no"/>rencier, occultiste et peintre de talent, nous
                <lb/>semble être le premier héros d'une telle
                <lb/>aventure, et il faut entendre ici le mot héros
@@ -131,7 +137,7 @@
                <lb/>dans <hi rend="italic underligne(blue)"><ref target="#mercure_de_france">Le Mercure de France</ref></hi>, affirma recon-
                <lb break="no"/>naître dans les poésies de M. <persName ref="#apollinaire_guillaume">Guillaume
                <lb/>Apollinaire</persName> l'influence d'écrivains de la
-               <lb/>même génération, celle de 1898, parmi les-
+               <lb/>même génération, celle de <date>1898</date>, parmi les-
                <lb break="no"/>quels M. <persName ref="#jacob_max">Max Jacob</persName>. Or, ce dernier, adres-
                <lb break="no"/>sant une protestation à M. <persName ref="#valette_alfred">Alfred Vallette</persName>,
                <lb/>déclare : <quote>« ...M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> n'a
@@ -176,12 +182,18 @@
          </p>
             
          <note type="ref_article" rend="handwritten">
-            <ref target="#gil_blas">Gil Blas</ref> 
-               <date>2 juillet 1913</date>
+            <ref target="#gil_blas">Gil Blas</ref> <date>2 juillet 1913</date>
          </note>
+            
          </div>
+         
       </body>
+     
   </text>
+   
+   
+   
+   
    <standOff>
       <listPerson>
          <person xml:id="picasso_pablo">
