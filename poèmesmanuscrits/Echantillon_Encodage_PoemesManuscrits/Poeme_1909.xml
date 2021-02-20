@@ -31,8 +31,8 @@
             </objectDesc>
              </physDesc> 
          </msDesc>
-         <div type="poeme" n="63" xml:id="1909">
-            <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f63.item.r=Manuscrit%20Apollinaire"/>
+         <div type="poeme">
+            <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f63.item.r=ManuscritApollinaire"/>
             <head>1909 <add place="beside">88</add></head>
 		 <p><add place="top">18</add></p>
             <lg type="quintil" n="1">
