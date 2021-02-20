@@ -19,22 +19,27 @@
    </teiHeader>
    <text>
       <body>
-         <div type="article" n="150 151" xml:id="article_150-151">
+         <div type="article" n="150 151" xml:id="article_150-151" sameAs="article1_147">
             <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f150.item"/>
-
-            <head> <ref><title rend="caps">LES CHRONIQUES</title></ref> <num rend="align(right)">267</num></head>
-
+            
+            <metamark><title rend="caps">LES CHRONIQUES</title> <num rend="align(right)">267</num></metamark>
+            
+            <div type="critique" n="1">
+           <!-- Ne concerne pas Apollinaire -->
             <p> 
-               avait appartenu à M. de Brenier, mari de Mlle de Vaulserre et comte de
-               (Vaulserre:italique) ». Quelque beyliste relèvera peut-être dans cette rédaction
-               l'ironie fameuse de Stendhal. (FRANCIS ÉON:à droite)
+               <lb/>avait appartenu à M. de Brenier, mari de Mlle de Vaulserre et comte de
+               <lb/><hi rend="italic">Vaulserre</hi> ». Quelque beyliste relèvera peut-être dans cette rédaction
+               <lb/>l'ironie fameuse de Stendhal. FRANCIS ÉON
             </p>
             
             
-            <p rend="align(right)">LES POÈMES</p>
+            </div>
+            
+            <div type="critique" n="2">
+            
+            <head rend="align(right)">LES POÈMES</head>
                
             <p>
-                  
                <ref
                   target="#alcools"><bibl><author rend="bold"><persName ref="#apollinaire_guillaume"
                            >Guillaume Apollinaire</persName></author>: <title rend="italic"
@@ -72,23 +77,18 @@
                   ::gras) (Poèmes:italique). Paris, <lb/><publisher>« Le Temps présent
                   »</publisher>, <date>1913</date>.</bibl>
                </p>
-            
-               <p>
-               <lb/>J'ai dû lire depuis un mois bien des livres de vers. 
-                  <lb/>Je ne parlerai point
-               de tous, mais de ceux seule- 
-                  <lb break="no"/>ment où j'ai pris quelque plaisir,
-               quelque intérêt. 
-               </p>
                
-            <p>
-                  <lb/>M. <persName ref="#apollinaire_guillaume">Guillaume
-                  Apollinaire</persName>, dans la jeune litté- 
-               <lb break="no"/>rature, fait figure
-               d'original sympathique. J'aime 
-               <lb/>me le représenter comme un très fin lettré qui
-               <lb/>s'amuse et qui ne craint pas d'afficher son goût 
-               <lb/>pour la bizarrerie. Noussavons aussi combien 
+               <p>
+                  <lb/>J'ai dû lire depuis un mois bien des livres de vers. 
+                  <lb/>Je ne parlerai point de tous, mais de ceux seule- 
+                  <lb break="no"/>ment où j'ai pris quelque plaisir, quelque intérêt. 
+               </p>
+               <p>
+                  <lb/>M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName>, dans la jeune litté- 
+                  <lb break="no"/>rature, fait figure d'original sympathique. J'aime 
+                  <lb/>me le représenter comme un très fin lettré qui
+                  <lb/>s'amuse et qui ne craint pas d'afficher son goût 
+                  <lb/>pour la bizarrerie. Nous savons aussi combien 
                
                   <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f151.item"/>
                   
@@ -103,40 +103,33 @@
                   <lb/>même rang, mais bien peu de pages sont négligea-
                   <lb break="no"/>bles dans un livre où nous rencontrons même quel-
                   <lb break="no"/>ques vers réellement émus :
-                  
-                  
-               <ref target="#a_la_santé">
-                  <quote rend="center">
-                  <l>J'écoute les bruits de la ville</l>
-                  <l>Et prisonnier sans horizon,</l>
-                  <l>Je ne vois rien qu'un ciel hostile</l>
-                  <l>Et les murs nus de ma prison.</l>
-                  </quote>
-               </ref>
-            </p>
-               
-            <p>
+                  <ref target="#a_la_santé">
+                     <quote rend="center">
+                        <l>J'écoute les bruits de la ville</l>
+                        <l>Et prisonnier sans horizon,</l>
+                        <l>Je ne vois rien qu'un ciel hostile</l>
+                        <l>Et les murs nus de ma prison.</l>
+                     </quote>
+                  </ref>
+               </p>
+               <p>
                   <lb/>Les fraîches descriptions non plus n'y sont pas
                   <lb/>rares :
-               
-               <ref target="#mai">
-                  <quote rend="center">
-                  <l>Le mai, le joli mai, a paré les ruines</l>
-                  <l>De lierre, de vigne vierge et de rosiers ;</l>
-                  <l>Le vent du <placeName ref="#rhin">Rhin</placeName> secoue sur le bord, les osiers</l>
-                  <l>Et les roseaux jaseurs et les fleurs nues des vignes</l>
-                  </quote>
-               </ref>
-               
-            </p>
-               
-            <p>
+                  <ref target="#mai">
+                     <quote rend="center">
+                        <l>Le mai, le joli mai, a paré les ruines</l>
+                        <l>De lierre, de vigne vierge et de rosiers ;</l>
+                        <l>Le vent du <placeName ref="#rhin">Rhin</placeName> secoue sur le bord, les osiers</l>
+                        <l>Et les roseaux jaseurs et les fleurs nues des vignes</l>
+                     </quote>
+                  </ref>
+               </p>
+               <p>
                   <lb/>J'aimerai citer encore une Salomé qui dans sa
                   <lb/>fantaisie est un bref et digne pendant du conte de
-               <lb/><persName ref="#laforgue_jules">Jules Laforgue</persName>, ou quelque autre poème que la
+                  <lb/><persName ref="#laforgue_jules">Jules Laforgue</persName>, ou quelque autre poème que la
                   <lb/>muse funambulesque d'<persName ref="#apollinaire_guillaume">Apollinaire</persName> campe avec
                   <lb/>tant de verve :
-                  
                   <ref target="#crépuscule">
                      <quote rend="center">
                         <l>Frôlée par les ombres des morts,</l>
@@ -145,14 +138,15 @@
                         <l>Et dans l'étang mire son corps</l>
                      </quote>
                   </ref>
-                  
             </p>
+               <!-- La suite de l'article est xml:id= article1_147 -->
                     
-                  
-          
+            </div>
          </div>
       </body>
    </text>
+   
+   
    <standOff>
       <listPerson>
          <person xml:id="picasso_pablo">
@@ -221,6 +215,9 @@
          <person xml:id="perceau_louis">
             <persName>Louis Perceau</persName>
          </person>
+         <person xml:id="caro_francis">
+            <persName>Francis Caro</persName>
+         </person>
       </listPerson>
       
       <listPlace>
@@ -255,6 +252,7 @@
          <bibl xml:id="marie">Marie</bibl>
          <bibl xml:id="l_adieu">L'Adieu</bibl>
          <bibl xml:id="poème_lu_au_mariage">Poème lu au mariage d'André Salmon</bibl>
+         <bibl xml:id="le_larron">Le Larron</bibl>
       </listBibl>
       
       <listBibl><head>Référence à la presse</head>
