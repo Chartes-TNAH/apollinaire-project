@@ -22,7 +22,7 @@
          <div type="article" n="152 153 154" xml:id="article_152-154">
             <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f152.item"/>
             
-            <div type="critique" n="1">
+            <div type="rubrique" n="1">
             <head rend="tall caps">LE MOIS DU POÈTE <lb/>
                <ref target="#alcools">
                   <bibl><author rend="caps">GUILLAUME APOLLINAIRE</author> : <title rend="caps italic">ALCOOLS</title> (<publisher rend="italic underlign red">Mercure</publisher>.)</bibl>
@@ -151,7 +151,7 @@
                
             </div>
             
-            <div type="critique" n="2">
+            <div type="rubrique" n="2">
             <!-- Ne concerne ni Apollinaire, ni Alcools -->
                <head rend="align(left) caps underlign">REVUES</head>
                   <p>
