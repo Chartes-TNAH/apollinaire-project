@@ -623,63 +623,90 @@
       <listPerson>
          <person xml:id="ac">
             <persName>A.C</persName>
+            <!-- Personne non identifiée. Par conséquent, les dates de naissance et de mort sont inconnues-->
          </person>
          <person xml:id="abgar_v_oukama">
             <persName>Abgar V Oukâma ou Le Noir</persName>
+            <!-- Les dates de naissance et de mort sont inconnues-->
             <note>Roi d Edesse (15-30 ap. J.-C.). Édesse était la capitale de l'Osroène, un petit
                État d'abord indépendant (132 av. J.-C. - 216 ap. J.-C.) en actuelle Turquie. Cet
                état est devenu province romaine en 216.</note>
          </person>
          <person xml:id="aimé_henri">
             <persName><forename>Henri</forename><surname>Aimé</surname></persName>
-            <note>Docteur</note>
+            <birth>Né le 2 août 1872 à Nancy.</birth>
+            <death>Décédé le 14 mai 1942 à Paris.</death>
+            <note>Médecin spécialiste des maladies nerveuses, il exercie à Paris. Il est également
+               Chevalier de la légion d'honneur.</note>
          </person>
          <person xml:id="apollinaire_guillaume">
             <persName><forename>Guillaume</forename><surname>Apollinaire</surname></persName>
+               <birth>Né en 1880 à Rome, Italie.</birth>
+               <death>Mort en 1918 à Paris, France.</death>
+               <note>Poète et écrivain français.</note>
          </person>
          <person xml:id="aspiq">
             <persName>Aspiq</persName>
+            <!-- Personne non identifiée. Par conséquent, les dates de naissance et de mort sont inconnues-->
          </person>
          <person xml:id="balzaguette_léon">
             <persName><forename>Léon</forename><surname>Balzaguette</surname></persName>
+            <birth>Né le 8 mai 1873 à Paris.</birth>
+            <death>Décédé le 31 décembre 1928 à Paris.</death>
             <note>Écrivain, critique littéraire, biographe et traducteur français.</note>
          </person>
          <person xml:id="bardesane_d_edesse">
             <persName>Bardesane d'Édesse ou Bar-Daïsan</persName>
+            <birth>Né le 11 juillet 154 à Édesse.</birth>
+            <death>Mort en 222 à Édesse</death>
             <note>Philosophe et poète chrétien de Syrie, né en 154 à Édesse, mort en 222 dans la
                même ville.</note>
          </person>
          <person xml:id="baudelaire_charles">
             <persName><forename>Charles</forename><surname>Baudelaire</surname></persName>
+            <birth>Né le 9 avril 1821 à Paris.</birth>
+            <death>Décédé le 31 août 1867 à Paris.</death>
             <note>Écrivain et poète français.</note>
          </person>
          <person xml:id="beauduin_nicolas">
             <persName><forename>Nicolas</forename><surname>Beauduin</surname></persName>
+            <birth>Né le 10 septembre 1880 à Poix-de-Picardie.</birth>
+            <death>Décédé le 5 septembre 1960 aux Corvées-les-Yys.</death>
             <note>Poète et romancier français, directeur de la revue littéraire "La vie des
                lettres"</note>
          </person>
          <person xml:id="boutet_frederic">
             <persName><forename>Frédéric</forename><surname>Boutet</surname></persName>
+            <birth>Né le 5 novembre 1874 à Bourges.</birth>
+            <death>Décède le 31 janvier 1941 à Arcachon.</death>
             <note>Nouvelliste et romancier français.</note>
          </person>
          <person xml:id="bounélier">
             <persName>Bounélier</persName>
+            <!-- Personne non identifiée. Par conséquent, les dates de naissance et de mort sont inconnues-->
          </person>
          <person xml:id="carco_francis">
             <persName><forename>Francis</forename><surname>Carco</surname></persName>
+            <birth>Né le 3 juillet 1886 à Nouméa.</birth>
+            <death>Décédé le 26 mai 1958 à Paris.</death>
             <note>Écrivain, poète, journaliste et parolier français.</note>
          </person>
          <person xml:id="de_chamaillard_ernest">
             <persName><forename>Ernest</forename><surname>de Chamaillard</surname></persName>
+            <birth>Né le 9 décembre 1862 à Gourlizon.</birth>
+            <death>Décédé le 30 septembre 1931 à Eaubonne.</death>
             <note>Peintre français.</note>
          </person>
          <person xml:id="du_dézert_louvigné">
             <persName><forename>Louvigné</forename><surname>du Dezert</surname></persName>
             <note>Poète libertin fictif inventé par <persName ref="#fleuret_ferdinand">Fernand
                   Fleuret</persName></note>
+            <!--Étant un personnage fictif, ses dates de naissance et de décès sont inexistantes.-->
          </person>
          <person xml:id="dürer_albrecht">
             <persName><forename>Albrecht</forename><surname>Dürer</surname></persName>
+            <birth>Né le 21 mai 1471 à Nuremberg.</birth>
+            <death>Décédé le 6 avril 1528 à Nuremberg.</death>
             <note>Dessinateur, graveur et peintre allemand de la Renaissance. Il est également connu
                comme théoricien de la géométrie et de la perspective linéaire.</note>
          </person>
