@@ -27,9 +27,9 @@
             
               
             <!-- Début de l'article : xml:id article_150-151. -->
-            <metamark><hi rend="center caps">LES CHRONIQUES</hi> <num type="pagination" rend="bold right">269</num></metamark>
+            <metamark rend="center caps">LES CHRONIQUES <num type="pagination" rend="bold align(right)">269</num></metamark>
             
-            <quote rend="center">
+            <quote rend="align(center)">
                <ref target="#crépuscule"><l>Un charlatan crépusculaire</l>
                   <l>Vante les tours que l'on va faire.</l>
                   <l>Le ciel sans teinte est constellé</l>
@@ -41,8 +41,8 @@
                <lb/>citer davantage, et je ne puis inventorier toutes
                <lb/>les richesses de ce passionnant brocanteur. Je
                <lb/>veux dire seulement encore combien j'aime le
-               <lb/>rythme de certaines complaintes, et, dans la <hi rend="italic"><ref target="#les-sept-épées">Chan-
-                  <lb/>son des Epées</ref></hi>, combien me ravit la musique de ces
+               <lb/>rythme de certaines complaintes, et, dans la <ref target="#les_sept_épées" rend="italic">Chan-
+                  <lb break="no"/>son des Epées</ref>, combien me ravit la musique de ces
                <lb/>cinq vers :
                
                <quote rend="center">
@@ -85,7 +85,7 @@
                <lb/>ponctuation.
             </p>
             <p>
-               <lb/>Ainsi des <hi rend="italic"><ref target="#alcools">Alcools</ref></hi> : plus de virgules ou de points-virgules
+               <lb/>Ainsi des <ref target="#alcools" rend="italic">Alcools</ref> : plus de virgules ou de points-virgules
                <lb/>pour marquer les pauses, fortes ou faibles. Plus d'acco-
                <lb break="no"/>lades, de crochets, de parenthèses, de signe excalamatif,
                <lb/>interrogatif, suspensif... Ce sont là ornements superflus
@@ -140,8 +140,8 @@
             </p>
             
             <p rend="italic">
-               <lb/>Lorsque parut au <hi rend="roman"><ref target="#mercure_de_france">Mercure</ref></hi>, la <hi rend="roman"><ref target="#la-chanson-du-mal-aimée">Chanson
-                  <lb/>du Mal Aimé</ref></hi>, il y eut quelques sceptiques
+               <lb/>Lorsque parut au <ref target="#mercure_de_france" rend="roman">Mercure</ref>, la <ref target="#la_chanson_du_mal_aimé" rend="roman">Chanson
+                  <lb/>du Mal Aimé</ref>, il y eut quelques sceptiques
                <lb/>mais encore plus d'admirateurs. C'était
                <lb/>bien là une poésie nouvelle, d'une richesse
                <lb/>d'images inconnue. Et ceux qui ont suivi
@@ -149,8 +149,8 @@
                <lb break="no"/>nère formule, ce <quote>« poème conversation »</quote>
                <lb/>capricieux et évocateur, retrouvent avec
                <lb/>joie toutes les étapes de leur enthousiasme.
-               <lb/>Voici <hi rend="roman">l'Ermite, <ref target="#la-chanson-du-mal-aimée">la Chanson du Mal Aimé</ref>,
-               <lb/><ref target="#les-colchiques">les Colchiques</ref>, <ref target="#zone">Zones</ref></hi>. Et pour ceux qui
+               <lb/>Voici <hi rend="roman">l'Ermite, <ref target="#la_chanson_du_mal_aimé">la Chanson du Mal Aimé</ref>,
+               <lb/><ref target="#les_colchiques">les Colchiques</ref>, <ref target="#zone">Zones</ref></hi>. Et pour ceux qui
                <lb/>lisent <persName ref="#apollinaire_guillaume">Apollinaire</persName> critique d'art, voici un
                <lb/>portrait dû à <persName ref="#picasso_pablo">Pablo Picasso</persName>. — J .P.
          </p>
