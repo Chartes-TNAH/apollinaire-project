@@ -24,8 +24,8 @@
             <cb n="1" rend="align(left)"/>
 
             <head rend="align(center) caps">LA LITTERATURE <lb/> ALCOOLS <lb/> PAR <lb/>
-               <emph rend="bold"><persName ref="#apollinaire_guillaume">GUILLAUME
-                     APOLLINAIRE</persName></emph></head>
+               <hi rend="bold"><persName ref="#apollinaire_guillaume">GUILLAUME
+                     APOLLINAIRE</persName></hi></head>
 
             <p>
                <lb/>Il y a deux jeunesses littéraires. Elles <lb/>marchent parallèlement. Elles ont
@@ -57,7 +57,7 @@
                la sensibilité de Ia <lb/>raison. </p>
 
             <p>
-               <lb/>En éditant sous le titre d'<emph rend="italic">Alcools</emph> di— <lb break="no"
+               <lb/>En éditant sous le titre d'<hi rend="italic">Alcools</hi> di— <lb break="no"
                />vers poèmes écrits au cours d‘une pé— <lb break="no"/>riode qui va de 1898 à 1913,
                   <persName ref="#apollinaire_guillaume">Guillaume <lb/>Apollinaire</persName> a
                réuni les éléments indica— <lb/>tifs d‘une poésie hardie, purement in—
@@ -70,10 +70,10 @@
                <lb/>En vérité ce livre est un des plus cu— <lb/>rieux qui aient paru au cours de ces
                   <cb n="2" rend="align(right)"/>
                <lb/>dernières années et bien peu des écri— <lb break="no"/>vains qui se trouvent du
-               même bord <lb/>que l‘auteur d‘<emph rend="italic">Alcools</emph> connaissent com— <lb
+               même bord <lb/>que l‘auteur d‘<hi rend="italic">Alcools</hi> connaissent com— <lb
                   break="no"/>me lui l‘art de parter une langue plus <lb/>neuve et savent mieux que
-               lui faire <lb/>rendre aux mots sybillins tout leur sens <lb/><emph rend="italic"
-                  >originel</emph> et toute leur force profonde. Sa <lb/>phrase fonmée des mots
+               lui faire <lb/>rendre aux mots sybillins tout leur sens <lb/><hi rend="italic"
+                  >originel</hi> et toute leur force profonde. Sa <lb/>phrase fonmée des mots
                essentiels se <lb/>prolonge dans la saveur qui en demeu— <lb break="no"/>re. Ce style
                concis, buriné, à la fois mys— <lb break="no"/>tique et concret est d‘une vigueur ri—
                   <lb break="no"/>goureusement classique qui fait parfois <lb/>penser à la langue
@@ -129,7 +129,7 @@
                Le poète <persName ref="#royère_jean">Jean Royère</persName>
                <lb/>écrit dans <ref target="#la_phalange">la Phalange</ref> : <quote>« <ref
                      target="#larron">Le Larron</ref>
-                  <lb/>(un des poèmes d‘<emph rend="italic">Alcools</emph> est herméti— <lb
+                  <lb/>(un des poèmes d‘<hi rend="italic">Alcools</hi> est herméti— <lb
                      break="no"/> que d‘être un amas de symboles, de <lb/>lueurs, encore qu‘il y ait
                   dans la pen— <lb break="no"/>sée d‘<persName ref="#apollinaire_guillaume"
                      >Apollinaire</persName> une ingénuité qui ré— <lb break="no"/>pugne aux simples
@@ -139,7 +139,7 @@
                   obscurité est un bénéfice pour le <lb/>lecteur qu‘elle stimule et induit en poé—
                      <lb break="no"/>sie. »</quote>
             </p>
-            <note><ref target="#la_démocratie_sociale">La Démocratie Sociale</ref>
+            <note type="ref_article" rend="handwritten"><ref target="#la_démocratie_sociale">La Démocratie Sociale</ref>
                <date when-iso="08-09-1913">18 août 1913</date></note>
          </div>
       </body>

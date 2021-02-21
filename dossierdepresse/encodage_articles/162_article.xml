@@ -36,7 +36,7 @@
                images destinées à devenir lieux <lb/>communs, pas plus que celles de <persName
                   ref="#rimbaud_arthur">Rimbaud</persName> – qui sont en puissance, - celles de
                   <lb/><persName ref="#apollinaire_guillaume">M. Apollinaire</persName> n’ont à
-               redouter ce sort. Ses <emph rend="italic">Alcools</emph> ? Il les a bus dans tous les
+               redouter ce sort. Ses <hi rend="italic">Alcools</hi> ? Il les a bus dans tous les
                <lb/>pays du monde, et même sur le zinc des bistros de <placeName ref="#paris"
                   >Paris</placeName>. « Je suis ivre d’avoir <lb/>bu tout l’univers ! » s’écrie
                t-il. On le serait à moins. Quand j’ai eu fini de lire <lb/>ce livre, j’étais comme
@@ -58,7 +58,7 @@
                de ce calibre je resterai longtemps le dernier – ou, au choix, <lb/>le premier, - des
                Béotiens les plus sincères). S’il y a des êtres vivants à la <lb/>surface de la Lune,
                c’est sous cet aspect que je me les représente.</p>
-            <note><ref target="#echo_littéraire_du_boulevard">Echo Littéraire du Boulevard</ref>,
+            <note type="ref_article" rend="handwritten"><ref target="#echo_littéraire_du_boulevard">Echo Littéraire du Boulevard</ref>,
                   <date when-iso="07-01-1913">1er juillet 1913</date>
                <persName ref="#bachelin_marie">Marie Bachelin</persName></note>
 
@@ -70,8 +70,8 @@
                anthologie des poètes qu’il nous donne <lb/>à la <ref target="#revue_critique">Revue
                   critique</ref>, nous entretient assez succinctement de <persName
                   ref="#apollinaire_guillaume">M. Guillaume <lb/>Apollinaire</persName> ; mais il
-               est vrai que l’auteur des <ref target="#les_disciplines"><emph rend="italic"
-                     >Disciplines</emph></ref> a soin de nous avertir, <lb/>au seuil de la
+               est vrai que l’auteur des <ref target="#les_disciplines"><hi rend="italic"
+                     >Disciplines</hi></ref> a soin de nous avertir, <lb/>au seuil de la
                chronique, que les livres vont plus vite que nous. </p>
 
             <p>
@@ -85,7 +85,7 @@
 
             <p>
                <lb/>Ne recrée-t-il pas son univers le poète qui écrivit <ref
-                  target="#les_fiançailles"><emph rend="italic">Fiançailles</emph></ref> dont nous
+                  target="#les_fiançailles"><hi rend="italic">Fiançailles</hi></ref> dont nous
                <lb/>détachons ces quelques vers pour la méditation fructueuse de <persName
                   ref="#clouard_henri">M. Clouard</persName>, <lb/>dont l’autorité nous semble ici
                surprise. <quote rend="italic">
@@ -100,12 +100,12 @@
                   <l>Mais la mienne arrive en sifflant comme un ouragan</l>
                </quote>
             </p>
-            <note><ref target="#la_phalange">La Phalange</ref></note>
+            <note type="ref_article" rend="handwritten"><ref target="#la_phalange">La Phalange</ref></note>
          </div>
 
          <div type="article" n="162" xml:id="article3_162" xml:lang="fr">
             <p>
-               <lb/>- Ces <emph rend="italic">Alcools</emph> de <persName
+               <lb/>- Ces <hi rend="italic">Alcools</hi> de <persName
                   ref="#apollinaire_guillaume">Guillaume Apollinaire</persName>
                <lb/>sont d’ailleurs d’une émouvante et trou- <lb break="no"/>blante beauté.
                Donnons-en, pour aujourd’hui, <lb/>un extrait, car c’est bien le « livre dont on
@@ -118,7 +118,7 @@
                   <l>Et souviens-toi que je t’attends.</l>
                </quote>
             </p>
-            <note><ref target="#paris-midi">Paris-Midi</ref></note>
+            <note type="ref_article" rend="handwritten"><ref target="#paris-midi">Paris-Midi</ref></note>
          </div>
       </body>
    </text>

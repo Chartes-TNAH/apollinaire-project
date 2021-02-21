@@ -27,7 +27,7 @@
             <p>
                <lb/>Nous connaissions déjà beaucoup de ces <lb/>poèmes donnés au hasard des revues.
                Ce <lb/>fut donc pour nous grande joie que d‘ouvrir <lb/>large le livre que le <ref
-                  target="#le_mercure_de_france"><emph rend="italic">Mercure de France</emph></ref>
+                  target="#le_mercure_de_france"><hi rend="italic">Mercure de France</hi></ref>
                ve— <lb break="no"/>nait de publier afin d'y retoruver moult <lb/>jolies choses. </p>
 
             <p>
@@ -56,7 +56,7 @@
                </quote>
                <lb/>Il ne faudra pas vous hâter de proclamer : <lb/><persName
                   ref="#apollinaire_guillaume">G. Apollinaire</persName> est obsédé d‘un idéal chré—
-                  <lb break="no"/>tien. Car alors il <emph rend="italic">craquera</emph> une
+                  <lb break="no"/>tien. Car alors il <hi rend="italic">craquera</hi> une
                allumette, <lb/>allumera sa pipe sous votre nez et puis, <lb/>souriant, vous conduira
                vers la danse de <lb/>Salomé : <quote>« Prends, dit—elle au fou du roi, <lb/>« Prends
                   cette tête au lieu de ta marotte et danse <lb/>Sire marchez devant trabants
@@ -140,7 +140,7 @@
             </p>
 
             <p>
-               <lb/>En résumé, <emph rend="italic">Alcools</emph> est le meilleur livre <lb/>de vers
+               <lb/>En résumé, <hi rend="italic">Alcools</hi> est le meilleur livre <lb/>de vers
                paru cette année. C‘est tout ce qu‘il <lb/>importe de dire et nous n‘avons pas voulu
                <lb/>faire plus. </p>
 
@@ -170,7 +170,7 @@
                <lb/>Et ainsi nous comptons sur cette école <lb/>des fantaisistes pour marquer la fin
                de no- <lb/>tre siècle de transition où manque la foi <lb/>où manque l'enthousiasme. </p>
             <p><ref>Jack Mercereau</ref></p>
-            <note><ref target="#paris-journal">Paris-Journal</ref>
+            <note type="ref_article" rend="handwritten"><ref target="#paris-journal">Paris-Journal</ref>
                <date when-iso="11-02-1913">2 Novembre 1913</date></note>
          </div>
       </body>

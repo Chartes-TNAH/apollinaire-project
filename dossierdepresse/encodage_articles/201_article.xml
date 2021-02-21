@@ -22,8 +22,8 @@
             <pb
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f201.item.r=Apollinaire%20manuscrits.zoom"/>
 
-            <head rend="align(center)"><emph rend="bold"><persName ref="#apollinaire_guillaume"
-                     >Guilaume Apollinaire</persName>, Alcools.</emph><lb/>Poèmes, 1898—1913. Paris,
+            <head rend="align(center)"><hi rend="bold"><persName ref="#apollinaire_guillaume"
+                     >Guilaume Apollinaire</persName>, Alcools.</hi><lb/>Poèmes, 1898—1913. Paris,
                1913. Mercure de France, 26 rue de Condé.</head>
             <p>
                <lb/>Der vorliegende Band des ausgezeigneten Pariser <lb/>Dichters enthält Werke, die
@@ -92,7 +92,7 @@
                Hassischen französischen Brosodie <lb/>ist kaum noch etwas zu merken, und das Ganze
                ist zu einer <lb/>subtilen, eigenwilligen Nervenkunst geworden. </p>
             <p><persName ref="#haas_albert">Albert Haas</persName></p>
-            <note><ref target="#börfen_courrier">Börfen-Courrier</ref>
+            <note type="ref_article" rend="handwritten"><ref target="#börfen_courrier">Börfen-Courrier</ref>
                <date when-iso="10-23-1913">23 octobre 1913</date></note>
          </div>
 
@@ -112,8 +112,8 @@
          </div>
 
          <div type="article" n="201" xml:id="article3_201" xml:lang="de">
-            <head><persName ref="#apollinaire_guillaume"><emph rend="bold">Guillaume
-                     Apollinaire</emph></persName>, <ref target="#alcools">Alcools</ref>. Paris,
+            <head><persName ref="#apollinaire_guillaume"><hi rend="bold">Guillaume
+                     Apollinaire</hi></persName>, <ref target="#alcools">Alcools</ref>. Paris,
                Mercure de France.</head>
 
             <p>
@@ -152,22 +152,22 @@
                      break="no"/>stände”</quote> und auf <quote>„die Fähighkeit sie
                   auszudrücken”</quote> ankomme, um <lb/>Dichter zu sein? </p>
             <p><persName ref="#max_cahén_fritz">Fritz Max Cahén</persName></p>
-            <note><ref target="#das_beiblatt">Das Beiblatt. Der Buecherei Maiandros</ref>
+            <note type="ref_article" rend="handwritten"><ref target="#das_beiblatt">Das Beiblatt. Der Buecherei Maiandros</ref>
                <date when-iso="11-19-1913">19 Novembre 1913</date></note>
          </div>
 
          <div type="article" n="201" xml:id="article4_201" xml:lang="fr">
             <p>
                <lb/><persName ref="#apollinaire_guillaume">M. Guillaume Apollinaire</persName> s'est
-               affirmé, par la publication de son livre <lb/><ref target="#alcools"><emph
-                     rend="italic">Alcools</emph></ref>‚ comme l'un des poètes les plus brulants de
+               affirmé, par la publication de son livre <lb/><ref target="#alcools"><hi
+                     rend="italic">Alcools</hi></ref>‚ comme l'un des poètes les plus brulants de
                sa génération. On connais— <lb break="no"/>sait déja un grand nombre de ces poèmes
-               parus au <ref target="#le_festin_d_ésope"><emph rend="italic">Festin
-                  d'Esope</emph></ref>, à la <ref target="#la_revue_blanche"><emph rend="italic"
-                     >Revue <lb/>Blanche</emph></ref>, au <ref target="#le_mercure_de_france"><emph
-                     rend="italic">Mercure</emph></ref>, à la <ref target="#la_phalange"><emph
-                     rend="italic">Phalange</emph></ref>, aux <ref target="#soirées_de_paris"><emph
-                     rend="italic">Soirées de Paris</emph></ref>, etc., mais ce n'est <lb/>pas sans
+               parus au <ref target="#le_festin_d_ésope"><hi rend="italic">Festin
+                  d'Esope</hi></ref>, à la <ref target="#la_revue_blanche"><hi rend="italic"
+                     >Revue <lb/>Blanche</hi></ref>, au <ref target="#le_mercure_de_france"><hi
+                     rend="italic">Mercure</hi></ref>, à la <ref target="#la_phalange"><hi
+                     rend="italic">Phalange</hi></ref>, aux <ref target="#soirées_de_paris"><hi
+                     rend="italic">Soirées de Paris</hi></ref>, etc., mais ce n'est <lb/>pas sans
                quelque impatience que l'on attendait qu'ils fussent réunis en recueil. <lb/>La
                personnalité lyrique de <persName ref="#apollinaire_guillaume">M. Guillaume
                   Apollinaire</persName> nous est offerte là sous <lb/>ses multiples aspects. Nul
@@ -184,7 +184,7 @@
                avoir ce portrait de notre nouvel Amphion, rendu dans son <lb/>entéléchie. </p>
             <p><persName ref="#bresil_marc">MARC BRESIL</persName> et <persName
                   ref="#gonzague_frick_louis_de">LOUIS DE GONZAGUE FRICK</persName></p>
-            <note><ref target="#la_phalange">La Phalange</ref>
+            <note type="ref_article" rend="handwritten"><ref target="#la_phalange">La Phalange</ref>
                <date when-iso="07-20-1913">20 Juillet 1913</date></note>
          </div>
       </body>

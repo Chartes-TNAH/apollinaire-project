@@ -30,8 +30,8 @@
                nous <lb/>eûmes à quelque intervalle les mêmes <lb/>maîtres. Un souvenir en appelle
                d'au- <lb break="np"/>tres, et, dans le petit restaurant du <placeName
                   ref="#boulevard_saint_germain">bou- <lb break="no"/>levard
-                  Saint-Germain</placeName>, où je déjeune <lb/>souvent avec le poète d'<emph
-                  rend="italic">Alcools</emph>, le repas <lb/>s'achève bien des fois que nous
+                  Saint-Germain</placeName>, où je déjeune <lb/>souvent avec le poète d'<hi
+                  rend="italic">Alcools</hi>, le repas <lb/>s'achève bien des fois que nous
                parlons <lb/>encore du temps où nous hantions la <lb/>permanence et le jardin qu'on
                nous in- <lb break="no"/>terdisait en vain. </p>
 
@@ -234,7 +234,7 @@
                sensibles. N'allons pas plus loin. <lb/>Il suffit que la Poésie reçoive un si bril-
                   <lb break="no"/>lant hommage. </p>
             <p rend="align(right)"><persName ref="#carco_francis">Francis Carco</persName>.</p>
-            <note rend="handwritten"><ref target="#le_petit_niçois">Le Petit Niçois</ref>
+            <note type="ref_article" rend="handwritten"><ref target="#le_petit_niçois">Le Petit Niçois</ref>
                <date when-iso="07-31-1913">31 Juillet 1913</date></note>
          </div>
       </body>
