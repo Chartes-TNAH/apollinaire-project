@@ -634,8 +634,8 @@
          </person>
          <person xml:id="aimé_henri">
             <persName><forename>Henri</forename><surname>Aimé</surname></persName>
-            <birth>Né le 2 août 1872 à Nancy.</birth>
-            <death>Décédé le 14 mai 1942 à Paris.</death>
+            <birth>Né le 2 août 1872 à Nancy, France.</birth>
+            <death>Décédé le 14 mai 1942 à Paris, France.</death>
             <note>Médecin spécialiste des maladies nerveuses, il exercie à Paris. Il est également
                Chevalier de la légion d'honneur.</note>
          </person>
@@ -657,28 +657,28 @@
          </person>
          <person xml:id="bardesane_d_edesse">
             <persName>Bardesane d'Édesse ou Bar-Daïsan</persName>
-            <birth>Né le 11 juillet 154 à Édesse.</birth>
-            <death>Mort en 222 à Édesse</death>
+            <birth>Né le 11 juillet 154 à Édesse, actuelle Syrie.</birth>
+            <death>Mort en 222 à Édesse, actuelle Syrie.</death>
             <note>Philosophe et poète chrétien de Syrie, né en 154 à Édesse, mort en 222 dans la
                même ville.</note>
          </person>
          <person xml:id="baudelaire_charles">
             <persName><forename>Charles</forename><surname>Baudelaire</surname></persName>
-            <birth>Né le 9 avril 1821 à Paris.</birth>
-            <death>Décédé le 31 août 1867 à Paris.</death>
+            <birth>Né le 9 avril 1821 à Paris, France.</birth>
+            <death>Décédé le 31 août 1867 à Paris, France.</death>
             <note>Écrivain et poète français.</note>
          </person>
          <person xml:id="beauduin_nicolas">
             <persName><forename>Nicolas</forename><surname>Beauduin</surname></persName>
-            <birth>Né le 10 septembre 1880 à Poix-de-Picardie.</birth>
-            <death>Décédé le 5 septembre 1960 aux Corvées-les-Yys.</death>
+            <birth>Né le 10 septembre 1880 à Poix-de-Picardie, France.</birth>
+            <death>Décédé le 5 septembre 1960 aux Corvées-les-Yys, France.</death>
             <note>Poète et romancier français, directeur de la revue littéraire "La vie des
                lettres"</note>
          </person>
          <person xml:id="boutet_frederic">
             <persName><forename>Frédéric</forename><surname>Boutet</surname></persName>
-            <birth>Né le 5 novembre 1874 à Bourges.</birth>
-            <death>Décède le 31 janvier 1941 à Arcachon.</death>
+            <birth>Né le 5 novembre 1874 à Bourges, France.</birth>
+            <death>Décède le 31 janvier 1941 à Arcachon, France.</death>
             <note>Nouvelliste et romancier français.</note>
          </person>
          <person xml:id="bounélier">
@@ -687,14 +687,14 @@
          </person>
          <person xml:id="carco_francis">
             <persName><forename>Francis</forename><surname>Carco</surname></persName>
-            <birth>Né le 3 juillet 1886 à Nouméa.</birth>
-            <death>Décédé le 26 mai 1958 à Paris.</death>
+            <birth>Né le 3 juillet 1886 à Nouméa, Nouvelle-Calédonie.</birth>
+            <death>Décédé le 26 mai 1958 à Paris, , France.</death>
             <note>Écrivain, poète, journaliste et parolier français.</note>
          </person>
          <person xml:id="de_chamaillard_ernest">
             <persName><forename>Ernest</forename><surname>de Chamaillard</surname></persName>
-            <birth>Né le 9 décembre 1862 à Gourlizon.</birth>
-            <death>Décédé le 30 septembre 1931 à Eaubonne.</death>
+            <birth>Né le 9 décembre 1862 à Gourlizon, France.</birth>
+            <death>Décédé le 30 septembre 1931 à Eaubonne, France.</death>
             <note>Peintre français.</note>
          </person>
          <person xml:id="du_dézert_louvigné">
@@ -705,8 +705,8 @@
          </person>
          <person xml:id="dürer_albrecht">
             <persName><forename>Albrecht</forename><surname>Dürer</surname></persName>
-            <birth>Né le 21 mai 1471 à Nuremberg.</birth>
-            <death>Décédé le 6 avril 1528 à Nuremberg.</death>
+            <birth>Né le 21 mai 1471 à Nuremberg, Allemagne.</birth>
+            <death>Décédé le 6 avril 1528 à Nuremberg, Allemagne.</death>
             <note>Dessinateur, graveur et peintre allemand de la Renaissance. Il est également connu
                comme théoricien de la géométrie et de la perspective linéaire.</note>
          </person>
@@ -756,8 +756,8 @@
          </person>
          <person xml:id="platon">
             <persName>Platon</persName>
-            <birth>Né vers 428/427 av. J.-C. à Athènes.</birth>
-            <death>Mort vers 347 av. J.-C. à Ahtènes.</death>
+            <birth>Né vers 428/427 av. J.-C. à Athènes, actuelle Grèce.</birth>
+            <death>Mort vers 347 av. J.-C. à Athènes, actuelle Grèce.</death>
             <note>Philosophe antique de la Grèce classique.</note>
          </person>
          <person xml:id="rétif_de_la_bretonne">
