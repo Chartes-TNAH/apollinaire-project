@@ -8,11 +8,112 @@ DOSSIER DE PRESSE :
 - balises pour proposer des corrections quand le texte est coupé à cause du collages des articles par exemple
 - balises propres à la mise en page des articles (titre, ligne de séparation, pied de page, en-tête, etc.)
 
+- Pauline: balises pour encoder l'intégralité du dossier de presse dans le même encodage:
+<sourceDoc> contains a transcription or other representation of a single source document potentially forming part of a dossier génétique or collection of sources. 
+
+<group> contains the body of a composite text, grouping together a sequence of distinct texts (or groups of such texts) which are regarded as a unit for some purpose, for example the collected works of an author, a sequence of prose essays, etc.
+
+<floatingText> contains a single text of any kind, whether unitary or composite, which interrupts the text containing it at any point and after which the surrounding text resumes.
 
 POÈMES MANUSCRITS :
 
-- balises pour indiquer qu'un mot est barré : elles devront pouvoir s'imbriquer entre elles lorsque un même passage est barré à différentes échelles
-- balises de mise en page (ligne de séparation, écriture en colonnes, dans la marge et dans l'interligne)
-- balise pour indiquer qu'un mot est illisible (souvent lorsqu'il est barré plusieurs fois par l'auteur)
-- balise pour indiquer lorsqu'un passage a été effacé (dégradation) et devient illisible
+=>https://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html
 
+STRUCTURATION
+
+Pauline:
+<div>
+@type @n @rhyme
+
+<l> (verse line) contains a single, possibly incomplete, line of verse.
+
+<lg> (line group) contains one or more verse lines functioning as a formal unit, e.g. a stanza, refrain, verse paragraph, etc. 
+Ajouter un @type @n @rhyme
+
+<lb> à n’utiliser que lorsque le retour à la ligne se fait avant la fin d’un vers (car l'élément <l> engage implicitement un changement de ligne dans les pratiques tei)
+
+<rhyme>
+Ajouter un@label
+<rhyme label="A">Harden</rhyme>s and grows <rhyme label="B">cold</rhyme>,</l>
+<l>We cannot cage the <rhyme label="C">minute</rhyme>
+
+- balises de mise en page (ligne de séparation, écriture en colonnes, dans la marge et dans l'interligne)
+
+    -structuration: https://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHFAX
+            _soit imbrication des balises <facsimile> <surface> <zone> pour les colonnes puis <line> pour les lignes
+            _soit utilisation de <pb>, <cb>, <lb> pour encoder la structure en page, colonne et lignes
+    -éléments en dehors du corps de texte:
+        -symboles: <metamark> contains or describes any kind of graphic or written signal within a document the function of which is to determine how it should be read rather than forming part of the actual content of the document. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-metamark.html
+            @function: utilisation du symbole 
+            @rend: forme du symbole
+
+AJOUTS ET CORRECTIONS
+
+Pauline: 
+
+- balises pour décrire plusieurs ajouts réalisés sur le même document encodé:
+<additions>
+Ex: <additions>
+<p>The text of this manuscript is not interpolated with sentences from Royal
+decrees promulgated in 1294, 1305 and 1314. In the margins, however, another
+some what later scribe has added the relevant paragraphs of these decrees, see
+pp. 8, 24, 44, 47 etc.</p>
+<p>As a humorous gesture the scribe in one opening of the manuscript, pp. 36 and
+37, has prolonged the lower stems of one letter f and five letters þ and has
+them drizzle down the margin.</p>
+</additions>
+
+<addSpan> (added span of text) marks the beginning of a longer sequence of text added by an author, scribe.
+
+<choice> groups a number of alternative encodings for the same point in a text.
+
+<corr> (correction) contains the correct form of a passage apparently erroneous in the copy text.
+
+Liste d'attributs utiles:
+@evidence indicates the nature of the evidence supporting the reliability or accuracy of the
+intervention or interpretation.
+@cert (certainty) signifies the degree of certainty associated with the intervention or
+interpretation.
+
+Juliette
+- balises pour indiquer qu'un mot est barré : elles devront pouvoir s'imbriquer entre elles lorsque un même passage est barré à différentes échelles
+        <del>:  contains a letter, word, or passage deleted, marked as deleted, or otherwise indicated as superfluous or spurious in the copy text by an author, scribe, or a previous annotator or corrector https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-del.html 
+également delSpan pour une grosse séquence de texte barré https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-delSpan.html
+
+            @rend: type de suppression (barré...)
+            @hand: auteur de la suppression
+        <add>: contains letters, words, or phrases inserted in the source text by an author, scribe, or a previous annotator or corrector. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-add.html
+            @place: emplacement de l'ajout (interligne, marge...)
+        association <subst> <del> <add>: lorsque le mot a été remplacé par un autre par l'auteur https://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHSU
+ 
+Pauline: <delSpan> (deleted span of text) marks the beginning of a longer sequence of text deleted, marked as
+deleted, or otherwise signaled as superfluous or spurious by an author, scribe, annotator, or corrector.
+
+- balise pour indiquer qu'un mot est illisible (souvent lorsqu'il est barré plusieurs fois par l'auteur)
+        <gap> indicates a point where material has been omitted in a transcription, whether for editorial reasons described in the TEI header, as part of sampling practice, or because the material is illegible, invisible, or inaudible https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-gap.html
+            @quantity: éléments non visibles
+            @unit: type d'élément
+            @reason: pourquoi illisibilité
+	    
+Pauline ATTENTION: pour encoder un élément illisible, l'élément <unclear> pour la description des sources primaires semble être préférable que l'élément <gap> en terme de bonne pratique.
+
+- balise pour indiquer lorsqu'un passage a été effacé (dégradation) et devient illisible
+        <damage>: contains an area of damage to the text witness https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-damage.html       
+            @agent: type de dégradation
+
+SUBSTITUTION ET RESTAURATION
+Pauline:
+<subst> (substitution) groups one or more deletions (or surplus text) with one or more additions when the combination is to be regarded as a single intervention in the text.
+<substJoin> (substitution join) identifies a series of possibly fragmented additions, deletions, or other
+revisions on a manuscript that combine to make up a single intervention in the text.
+<restore> indicates restoration of text to an earlier state by cancellation of an editorial or authorial marking or instruction.
+<supplied> signifies text supplied by the transcriber or editor for any reason; for example because the
+original cannot be read due to physical damage, or because of an obvious omission by the author or
+scribe.
+
+- Pauline: Balises qui indique l'état du document et ses éventuelles dégradations matérielles:
+<supportDesc>
+<condition>
+<p>The manuscript shows signs of damage from water and mould on its
+outermost leaves.</p>
+</condition>

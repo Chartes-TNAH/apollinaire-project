@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Le mal aimé</title>
+                <author>Guillaume Apollinaire</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <msDesc>
+                <msIdentifier>
+                    <repository>Bibliothèque nationale de France</repository>
+                </msIdentifier>
+                <physDesc>
+                    <objectDesc>
+                        <supportDesc>
+                            <extent>1 page</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                            <layout columns="1">Strophes séparées par un saut de ligne et disposées
+                                sur une seule colonne.</layout>
+                        </layoutDesc>
+                    </objectDesc>
+                </physDesc>
+            </msDesc>
+            <div type="poeme" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f21">
+                <head>La chanson du mal aimé</head>
+                <pb n="4" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f25"/>
+                <figure place="top left" rend="gribouilli"/>
+                <p><add place="top right">4</add></p>
+                <lg type="quintil" n="1">
+                    <l>Adieu, faux Amour qui t’éloignes </l>
+                    <l>
+                        <del>
+                            <gap extent="3" unit="word" reason="illegible"/>
+                        </del> je l’ai perdue</l>
+                    <l><del><unclear reason="illegible">Da</unclear></del>ns une forêt
+                                d’Allema<del><unclear reason="illegible">gne</unclear></del></l>
+                    <l>
+                        <del><gap extent="1" unit="word" reason="illegible"/></del>gît sanglant, le
+                        cou <del><gap extent="1" unit="word" reason="illegible"/></del></l>
+                    <l><unclear>D</unclear>errière les sept montagnes</l> <figure place="left" rend="gribouilli"/>
+                </lg>
+
+                <lg type="quintil" n="2">
+                    <l><del><unclear>V</unclear></del>ous qui aimez, vous n’avez</l>
+
+                    <l><subst>
+                            <del rend="line">Connu d’Amour de cette sor<unclear>te</unclear></del>
+                            <add place="above"> vu, couché dans les feuilles m<unclear>ortes</unclear></add>
+                        </subst></l>
+                    <l><subst>
+                            <del rend="line">D’Amour aime jusqu’au t<unclear>répas</unclear></del>
+                            <add place="above">Mon <del rend="line">pauvre</del> Amour après son
+                                trépas</add>
+                        </subst></l> <metamark place="left" rend="tampon"/>
+                    <l>
+                        <del><gap extent="1" unit="word" reason="illegible"/></del> coeurs bougent
+                                <del><gap extent="1" unit="word" reason="illegible"/></del>
+                        portes,</l>
+                    <l> Vous n’aimez p<unclear>a</unclear>s, vou<unclear>s</unclear> n'<unclear>aim</unclear>ez pas…</l>
+                </lg>
+
+                <lg type="septain" n="1">
+                    <l>Voie lactée ô sœur lumineuse</l>
+                    <l>Des blancs ruisseaux de Chanaan</l>
+                    <pb n="4bis" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f26"/>
+                    <l>Je me souviens d’une autre année,</l>
+                    <l>C’était l’aube d’un jour d’avril.</l>
+                    <l>J’ai chanté ma joie bien-aimée,</l>
+                    <l>Chanté l’amour à voix virile,</l>
+                    <l> Au moment d’amour de l’année.</l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

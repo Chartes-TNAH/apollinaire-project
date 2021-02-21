@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sept poèmes d'Alcools</title>
+            <author>Guillaume Apollinaire</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Recueil de versions préparatoires édité dans le cadre d'un exercice évalué (Projet Github) à l'Ecole nationale des chartes.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <repository>Bibliothèque nationale de France. Département des Manuscrits.</repository>
+                  <altIdentifier>
+                     <idno>NAF 25608</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>ark:/12148/btv1b52505641f</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItemStruct n="1" xml:lang="fr" xml:id="le_pont_mirabeau">
+                     <locus>f.1</locus>
+                     <title>Le Pont Mirabeau</title>
+                     <note>Manuscrit autographe</note>
+                  </msItemStruct>
+                  <msItemStruct n="2" xml:lang="fr" xml:id="la_chanson_du_mal_aime">
+                     <locus>ff. 2-14</locus>
+                     <title>La chanson du Mal-Aimé</title>
+                     <note>Manuscrit autographe. Un premier feuillet correspondant aux strophes 1 à 4 est manquant. La fin du poème manque aussi (depuis la strophe 46), à l'exception de la strophe 57. Au verso, fragments manuscrits de <title>La femme assise</title>.</note>
+                  </msItemStruct>
+                  <msItemStruct n="3" xml:lang="fr" xml:id="marizibill">
+                     <locus>f. 15</locus>
+                     <title>Marizibill</title>
+                     <note>Manuscrit autographe</note>
+                  </msItemStruct>
+                  <msItemStruct n="4" xml:lang="fr" xml:id="mai">
+                     <locus>f. 16</locus>
+                     <title>Mai.</title>
+                     <note>Manuscrit autographe signé et daté de Leutesdorf, mai 1902. Avec des indications manuscrites en vue de l'impression dans "Vers et prose".</note>
+                  </msItemStruct>
+                  <msItemStruct n="5" xml:lang="fr" xml:id="les_cloches">
+                     <locus>f. 17</locus>
+                     <title>Les Cloches</title>
+                     <note>Manuscrit autographe signé et daté de Oberpleis, mai 1902.</note>
+                  </msItemStruct>
+                  <msItemStruct n="6" xml:lang="fr" xml:id="1909">
+                     <locus>ff. 18-19</locus>
+                     <title>1909</title>
+                     <note>Manuscrit autographe</note>
+                  </msItemStruct>
+                  <msItemStruct n="7" xml:lang="fr" xml:id="a_la_sante">
+                     <locus>ff. 20-23</locus>
+                     <title>A la santé</title>
+                     <note>Manuscrit de premier jet. Au verso, fragments manuscrits de <title>La Femme assise</title></note>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>   
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>Papier, <stamp>utilisation quasi-systématique d'une estampille sur laquelle on lit "Bibliothèque Nationale MSS"
+                              sur les pages du document.</stamp></support>
+                        <extent>
+                           <width unit="mm">250</width>
+                           <height unit="mm">220</height>
+                        </extent>
+                        <foliation>23 feuillets</foliation>
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <p>Reliure demi-chagrin bleu roi</p>
+                  </bindingDesc>
+               </physDesc> 
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <date>1901-1902</date>
+           <lang xml:lang="fr"/>
+        </creation>
+     </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="poeme" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f63.item.r=Manuscrit%20Apollinaire">
+            <head>1909 <add place="beside">88:</add></head>
+            <lg type="quintil" n="1">
+               <l>La dame avait une robe</l>
+               <l>En ottoman violine</l>
+               <l>Et sa tunique brodée d’or</l>
+               <l>Était composée de deux panneaux</l>
+               <l> S’attachant sur l’épaule.</l>
+            </lg>
+            <lg type="quintil" n="2"> 
+               <l>Les yeux dansants comme des anges</l>
+               <l>Elle riait, elle riait</l>
+               <l>Elle avait un visage aux couleurs de France</l>
+               <l>Les yeux bleus, les dents blanches et les lèvres très rouges</l> 
+               <l>Elle avait un visage aux couleurs de France.</l>
+            </lg>
+            <lg type="septain" n="1"> 
+               <l>  Elle était décolletée en rond</l>
+               <l>Et coiffée à la Récamier</l>
+               <l>Avec de beaux bras nus.</l>
+               <l><delSpan spanTo="#l7" quantity="4" unit="lines"/>Pareils au col candide</l> 
+               <l>De l’amant divin et ailé</l>
+               <l>De cette Léda solitaire</l>
+               <l>Que deux étoiles appellent ma mère<anchor xml:id="l7"/></l>
+            </lg>
+            <lg type="monostiche" n="1">
+               <l> - N’entendra-t-on jamais sonner minuit <del><gap quantity="1" unit="word" reason="illegible"/></del></l>
+            </lg>
+             <lg type="quatrain" n="1"> 
+                <l>La dame en robe d’ottoman violine</l>
+                <l>Et en tunique brodée d’or</l>
+                <l> Décolletée en rond</l> 
+                <l><subst><add>Promène</add><del>promenait</del></subst> ses boucles</l>
+            </lg>
+            <lg type="quatrain" n="2"> 
+               <l>Son bandeau d’or</l>
+               <l>Et traînant ses petits souliers à boucles</l>
+               <l>Elle était si belle</l> 
+               <l>Que je n’aurais pas osé l’aimer.</l>
+            </lg>
+            <lg type="quintil" n="1">
+               <l>J’aimais les flammes atroces dans les quartiers énormes</l>
+               <l>Où naissaient chaque jour quelques êtres nouveaux</l>
+               <l>Le fer était leur sang, la flamme leur cerveau.</l>
+               <l>J’aimais, j’aimais le peuple habile des machines</l>
+               <l> de luxe et la beauté ne sont que son écume.</l>
+            </lg>
+            <lg type="tercet" n="1">
+               <l>Cette femme était si belle</l>
+               <l>Que je n’aurais pas osé l’aimer (rayé)</l>
+               <l>qu’elle me faisait peur.</l>
+            </lg>
+         </div>
+      </body>
+  </text>
+</TEI>
