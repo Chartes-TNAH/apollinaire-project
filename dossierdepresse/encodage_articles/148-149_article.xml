@@ -42,7 +42,7 @@
                </stamp>
             </head>
             
-            <div type="critique" n="1">
+            <div type="rubrique" n="1">
                <head>
                   <bibl>
                      <lb/><author rend="align(center) bold tall caps"><persName ref="#apollinaire_guillaume">GUILLAUME APOLLINAIRE</persName></author>
@@ -59,8 +59,8 @@
                   <lb break="no"/><damage agent="collage"><unclear>nai</unclear></damage>res volumes de vers. Mais qu'on y prête attention, et alors
                   <lb/><damage agent="collage"><unclear>le</unclear></damage>charme opère aussitôt. C'est la poésie d'un homme à l'âme
                   <lb/><damage agent="collage"><unclear>mu</unclear></damage>ltiple, flottante, vagabonde, pleine d'ingénuité aussi. Comme
-                  <lb/><damage agent="collage"><unclear>dan</unclear></damage>s ses nouvelles, par exemple ce curieux <hi rend="italique"><ref target="#l_hérésiarque_et_cie">Hérésiarque et
-                  <lb/><damage agent="collage"><unclear>Cie</unclear></damage></ref></hi>, M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> nous donne dans ses poèmes
+                  <lb/><damage agent="collage"><unclear>dan</unclear></damage>s ses nouvelles, par exemple ce curieux <ref target="#l_hérésiarque_et_cie" rend="italique">Hérésiarque et
+                  <lb/><damage agent="collage"><unclear>Cie</unclear></damage></ref>, M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> nous donne dans ses poèmes
                   <lb/><damage agent="collage"><unclear>l'im</unclear></damage>pression d'un homme qui a tout lu et vu tous les pays,
                   <lb/><damage agent="collage"><unclear>e</unclear></damage>t il sait nous évoquer de choses, sentiments et paysages,
                   <lb/><damage agent="collage"><unclear>d</unclear></damage>orées et lointaines. Il s'y ajoute ici le rythme, étrange sou-
@@ -76,7 +76,7 @@
                
             </div>
             
-         <div type="critique" n="2">
+         <div type="rubrique" n="2">
             <head rend="align(center) bold tall">
                <bibl>
                   <lb/><author>GUILLAUME APOLLINAIRE
@@ -120,7 +120,7 @@
             
          </div>
                
-         <div type="critique" n="3">
+         <div type="rubrique" n="3">
             <!-- Ne concerne ni Apollinaire, ni Alcools -->
             <head>
                <bibl>
@@ -142,7 +142,7 @@
          </p>
          </div>
             
-         <div type="critique" n="3">
+         <div type="rubrique" n="3">
               <!-- Ne concerne ni Apollinaire, ni Alcools -->
             <head rend="tall">
                <bibl>
