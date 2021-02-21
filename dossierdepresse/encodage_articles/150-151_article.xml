@@ -20,11 +20,12 @@
    <text>
       <body>
          <div type="article" n="150 151" xml:id="article_150-151" sameAs="article1_147">
+            
             <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f150.item"/>
             
             <metamark><title rend="caps">LES CHRONIQUES</title> <num rend="align(right)">267</num></metamark>
             
-            <div type="critique" n="1">
+            <div type="rubrique" n="1">
            <!-- Ne concerne pas Apollinaire -->
             <p> 
                <lb/>avait appartenu à M. de Brenier, mari de Mlle de Vaulserre et comte de
@@ -35,48 +36,105 @@
             
             </div>
             
-            <div type="critique" n="2">
+            <div type="rubrique" n="2">
             
             <head rend="align(right)">LES POÈMES</head>
                
             <p>
-               <ref
-                  target="#alcools"><bibl><author rend="bold"><persName ref="#apollinaire_guillaume"
-                           >Guillaume Apollinaire</persName></author>: <title rend="italic"
-                        >Alcools.</title>
-                     <pubPlace>Paris</pubPlace>, <publisher>Mer- <lb break="no"/> cure de
-                        France</publisher>, <date>1913</date>.</bibl>
-               </ref> — <bibl><author rend="bold">Carlos Larronde</author>: <title rend="italic">Le
-                     <lb/> Livre d'Heures.</title>
-                  <pubPlace>Paris</pubPlace>, <publisher>Figuière</publisher>,
-                  <date>1913</date>.</bibl> — <bibl>
-                  <author rend="bold">Auguste <lb/> Gaud</author>
-                  <title rend="italic">Stances à Jeannie.</title>
-                  <pubPlace>Paris</pubPlace>, <publisher>Lemerre</publisher>, <date>1913</date>.
-               </bibl> — <bibl>
-                  <author rend="bold">Léon Bocquet</author> : <title rend="italic">La Lumière
-                     d'Hellas.</title>
-                  <pubPlace>Paris</pubPlace>, <publisher>« Le Beffroi »</publisher>,
-                     <date>1913</date>. </bibl> — <bibl>
-                  <author rend="bold">André Biguet</author>
-                  <title rend="italic">Le Feu et <lb/>la Cendre</title>. <pubPlace>Paris</pubPlace>,
-                     <publisher>Crès</publisher>, <date>1913</date>.</bibl> — <bibl><author
-                     rend="bold">Noël Noüet</author> : <title rend="italic">Les CLoches des
-                     Champs</title>. <pubPlace>Paris</pubPlace>, <publisher>« Le Temps pré- <lb
-                        break="no"/>sent »</publisher>, <date>1913</date>.</bibl> — <bibl>
-                  <author rend="bold">Philibert Blanc</author>
-                  <title rend="italic">La Moisson des <lb/>jours</title>.
-                  <pubPlace>Paris</pubPlace>, <publisher>Figuière</publisher>,
-                  <date>1913</date>.</bibl> — <bibl>
-                  <author rend="bold">André Delacour</author>
-                  <lb/><title rend="italic">L'Angoisse</title>. <pubPlace>Paris</pubPlace>,
-                     <publisher>« Le Temps présent »</publisher>, <date>1913</date>. </bibl> — <lb/><bibl>
-                  <author rend="bold">Maurice Guyot</author> : <title rend="italic">Le Vent sur la
-                     Mer</title>. <pubPlace>Paris</pubPlace>, <lb/><publisher>Oudin</publisher>,
-                     <date>1912</date>.</bibl> — <bibl><author rend="bold">André Lafon</author>
-                  ::gras) (Poèmes:italique). Paris, <lb/><publisher>« Le Temps présent
-                  »</publisher>, <date>1913</date>.</bibl>
-               </p>
+               <list>
+                  <item>
+                  <ref target="#alcools">
+                     <bibl>
+                        <author rend="bold"><persName ref="#apollinaire_guillaume"
+                           >Guillaume Apollinaire</persName></author>: 
+                        <title rend="italic">Alcools.</title>
+                        <pubPlace>Paris</pubPlace>, 
+                        <publisher>Mer- <lb break="no"/> cure de France</publisher>,
+                        <date>1913</date>.
+                     </bibl>
+                  </ref> 
+                  </item>
+                  <item>
+                     — <bibl>
+                        <author rend="bold">Carlos Larronde</author>: 
+                        <title rend="italic">Le<lb/> Livre d'Heures.</title>
+                        <pubPlace>Paris</pubPlace>, 
+                        <publisher>Figuière</publisher>,
+                        <date>1913</date>.</bibl> 
+                  </item>
+                  <item>
+                     — <bibl>
+                        <author rend="bold">Auguste <lb/> Gaud</author>
+                        <title rend="italic">Stances à Jeannie.</title>
+                        <pubPlace>Paris</pubPlace>, 
+                        <publisher>Lemerre</publisher>, 
+                        <date>1913</date>.
+                     </bibl> 
+                  </item>
+                  <item>
+                  — <bibl>
+                     <author rend="bold">Léon Bocquet</author> : 
+                     <title rend="italic">La Lumière d'Hellas.</title>
+                     <pubPlace>Paris</pubPlace>, 
+                     <publisher>« Le Beffroi »</publisher>,
+                     <date>1913</date>. 
+                  </bibl> 
+                  </item>
+                  <item>
+                  — <bibl>
+                     <author rend="bold">André Biguet</author>
+                     <title rend="italic">Le Feu et <lb/>la Cendre</title>. 
+                     <pubPlace>Paris</pubPlace>,
+                     <publisher>Crès</publisher>, 
+                     <date>1913</date>.</bibl> 
+                  </item>
+                  <item>
+                     — <bibl>
+                        <author rend="bold">Noël Noüet</author> : 
+                        <title rend="italic">Les CLoches des Champs</title>. 
+                        <pubPlace>Paris</pubPlace>, 
+                        <publisher>« Le Temps pré- <lb break="no"/>sent »</publisher>, 
+                        <date>1913</date>.
+                     </bibl> 
+                  </item>
+                  <item>
+                     — <bibl>
+                        <author rend="bold">Philibert Blanc</author>
+                        <title rend="italic">La Moisson des <lb/>jours</title>.
+                        <pubPlace>Paris</pubPlace>, 
+                        <publisher>Figuière</publisher>,
+                        <date>1913</date>.
+                     </bibl> 
+                  </item>
+                  <item>
+                     — <bibl>
+                        <author rend="bold">André Delacour</author>
+                        <lb/><title rend="italic">L'Angoisse</title>. 
+                        <pubPlace>Paris</pubPlace>,
+                        <publisher>« Le Temps présent »</publisher>, 
+                        <date>1913</date>. 
+                     </bibl> 
+                  </item>
+                  <item>
+                     — <lb/><bibl>
+                        <author rend="bold">Maurice Guyot</author> : 
+                        <title rend="italic">Le Vent sur la Mer</title>. 
+                        <pubPlace>Paris</pubPlace>, 
+                        <lb/><publisher>Oudin</publisher>,
+                        <date>1912</date>.
+                     </bibl> 
+                  </item>
+                  <item>
+                     — <bibl>
+                        <author rend="bold">André Lafon</author>
+                        <title rend="italic">Poèmes</title>. 
+                        <pubPlace>Paris</pubPlace>, 
+                        <lb/><publisher>« Le Temps présent»</publisher>, 
+                        <date>1913</date>.
+                     </bibl>
+                  </item>
+            </list>   
+            </p>
                
                <p>
                   <lb/>J'ai dû lire depuis un mois bien des livres de vers. 
