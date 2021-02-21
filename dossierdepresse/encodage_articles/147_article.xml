@@ -170,148 +170,363 @@
    
    
    <standOff>
+      
+     
+      
+      
       <listPerson>
-         <person xml:id="picasso_pablo">
-            <persName>Pablo Picasso</persName>
-         </person>
+         
          <person xml:id="apollinaire_guillaume">
-            <persName>Guillaume Apollinaire</persName>
+            <persName><forename>Guillaume</forename> <surname>Apollinaire</surname></persName>
+            <birth>Né en 1881 à Malaga, Espagne.</birth>
+            <death>Mort en 1973 à Mougins, France.</death>
+            <note>Peintre, dessinateur, sculpteur et graveur espagnol.</note>
          </person>
-         <person xml:id="bayard_jean">
-            <persName>Jean Bayard</persName>
-         </person>
-         <person xml:id="de_gonzague_frick_louis">
-            <persName>Louis de Gonzague Frick</persName>
-         </person>
-         <person xml:id="picard_gaston">
-            <persName>Gaston Picard</persName>
-         </person>
-         <person xml:id="mallarmé_stéphane">
-            <persName>Stéphane Mallarmé</persName>
-         </person>
-         <person xml:id="laforgue_jules">
-            <persName>Jules Laforgue</persName>
-         </person>
-         <person xml:id="rimbaud_arthur">
-            <persName>Arthur Rimbaud</persName>
-         </person>
+         
          <person xml:id="baudelaire_charles">
-            <persName>Charles Baudelaire</persName>
+            <persName><forename>Charles</forename> <surname>Baudelaire</surname></persName>
+            <birth>Né 9 avril 1821, Paris</birth>
+            <death>Mort 31 août 1867, Paris</death>
+            <note>Poète français.</note>
          </person>
-         <person xml:id="de_gourmont_remy">
-            <persName>Remy de Gourmont</persName>
+         
+         <person xml:id="bayard_jean">
+            <persName><forename>Jean</forename> <surname>Bayard</surname></persName>
          </person>
-         <person xml:id="salmon_andré">
-            <persName>André Salmon</persName>
-         </person>
-         <person xml:id="pellerin_jean">
-            <persName>Jean Pellerin</persName>
-         </person>
-         <person xml:id="derème_tristan">
-            <persName>Tristan Derème</persName>
-         </person>
-         <person xml:id="deubel_léon">
-            <persName>Léon Deubel</persName>
-         </person>
-         <person xml:id="clouard_henri">
-            <persName>Henri Clouard</persName>
-         </person>
-         <person xml:id="valette_alfred">
-            <persName>Alfred Valette</persName>
-         </person>
-         <person xml:id="fort_paul">
-            <persName>Paul Fort</persName>
-         </person>
-         <person xml:id="jacob_max">
-            <persName>Max Jacob</persName>
-         </person>
-         <person xml:id="duhamel_georges">
-            <persName>Georges Duhamel</persName>
-         </person>
-         <person xml:id="leautaud_paul">
-            <persName>Paul Leautaud</persName>
-         </person>
-         <person xml:id="fleuret_ferdinand">
-            <persName>Ferdinand Fleuret</persName>
-         </person>
-         <person xml:id="perceau_louis">
-            <persName>Louis Perceau</persName>
-         </person>
+         
          <person xml:id="caro_francis">
-            <persName>Francis Caro</persName>
+            <persName><forename>Francis</forename> <surname>Caro</surname></persName>
+            <birth>Né le 3 juillet 1886 à Nouméa</birth>
+            <death>Mort le 26 mai 1958 à Paris</death>
+            <note>Ecrivain, poète, journaliste et parolier français.</note>
          </person>
+         
+         <person xml:id="clouard_henri">
+            <persName><forename>Henri</forename> <surname>Clouard</surname></persName>
+            <birth>Né le 7 octobre 1889</birth>
+            <death>Mort en janvier 1974</death>
+            <note>Journaliste et critique littéraire français.</note>
+         </person>
+         
+         <person xml:id="de_gonzague_frick_louis">
+            <persName><forename>Louis</forename> <nameLink>de</nameLink> <surname>Gonzague Frick</surname></persName>
+            <birth>Né 13 mars 1883, Paris</birth>
+            <death>Mort 9 avril 1958, Paris</death>
+            <note>Poète, critique littéraire proche des mouvements d'avant-garde et journaliste pour La Phallange</note>
+         </person>
+         
+         <person xml:id="de_gourmont_remy">
+            <persName><forename>Remy</forename> <nameLink>de</nameLink> <surname>Gourmont</surname></persName>
+            <birth>Né en 1858 à Bazoches-au-Houlme, France.</birth>
+            <death>Mort en 1915 à Paris, France.</death>
+            <note>Ecrivain, romancier, journaliste et critique d'art français.</note>
+         </person>
+         
+         <person xml:id="derème_tristan">
+            <persName><forename>Tristan</forename> <surname>Derème</surname></persName>
+            <birth>Né en 1889.</birth>
+            <death>Mort en 1941 à Oloron-Sainte-Marie, France.</death>
+            <note>Poète et écrivain français.</note>
+         </person>
+         
+         <person xml:id="deubel_léon">
+            <persName><forename>Léon</forename> <surname>Deubel</surname></persName>
+            <birth>Né lé 22 mars 1879, Belfort</birth>
+            <death>Mort le 12 juin 1913, Maisons-Alfort</death>
+            <note>Poème français</note>
+         </person>
+         
+         <person xml:id="duhamel_georges">
+            <persName><forename>Georges</forename> <surname>Duhamel</surname></persName>
+            <birth>Né le 30 juin 1884, Paris</birth>
+            <death>Mort le 13 avril 1966, Valmondois</death>
+            <note>Médecin, écrivain et poète français</note>
+         </person>
+         
+         <person xml:id="fleuret_fernand">
+            <persName><forename>Fernand</forename> <surname>Fleuret</surname></persName>
+            <birth>Né le 1ᵉʳ avril 1883 à Gondrecourt</birth>
+            <death>Mort le 18 juin 1945 à Paris</death>
+            <note>Ecrivain et poète français</note>
+         </person>
+         
+         <person xml:id="fort_paul">
+            <persName><forename>Paul</forename> <surname>Fort</surname></persName>
+            <birth>Né en 1872 à Reims, France.</birth>
+            <death>Mort en 1960 à Montlhéry, France.</death>
+            <note>Poète et dramaturge français.</note>
+         </person>
+         
+         <person xml:id="jacob_max">
+            <persName><forename>Max</forename> <surname>Jacob</surname></persName>
+            <birth>12 juillet 1876, Quimper</birth>
+            <death>5 mars 1944, Camp de Drancy</death>
+            <note>Poète moderniste, romancier et peintre français.</note>
+         </person>
+         
+         <person xml:id="laforgue_jules">
+            <persName><forename>Jules</forename> <surname>Laforgue</surname></persName>
+            <birth>Né 16 août 1860, Montevideo (Uruguay)</birth>
+            <death>Mort 20 août 1887, Paris</death>
+            <note>Ecrivain, poète.</note>
+         </person>
+         
+         <person xml:id="leautaud_paul">
+            <persName><forename>Paul</forename> <surname>Leautaud</surname></persName>
+            <birth>Né le 18 janvier 1872, Paris</birth>
+            <death>Mort le 22 février 1956, Châtenay-Malabry</death>
+            <note>Ecrivain et critique dramatique français</note>
+         </person>
+         
+         <person xml:id="mallarmé_stéphane">
+            <persName><forename>Stéphane</forename> <surname>Mallarmé</surname></persName>
+            <birth>Né 18 mars 1842, Paris</birth>
+            <death>Mort 9 septembre 1898, Vulaines-sur-Seine</death>
+            <note>Poète, enseignant, traducteur et critique d'art français.</note>
+         </person>
+         
+         <person xml:id="pellerin_jean">
+            <persName><forename>Jean</forename> <surname>Pellerin</surname></persName>
+            <birth>Né le 24 avril 1885, Pontcharra</birth>
+            <death>Mort le 9 juillet 1921, Le Chatelard</death>
+            <note>Poète français membre de l'École fantaisiste.</note>
+         </person>
+         
+         <person xml:id="perceau_louis">
+            <persName><forename>Louis</forename> <surname>Perceau</surname></persName>
+            <birth>Né le 22 septembre 1883 à Coulon</birth>
+            <death>Mort le 20 avril 1942 à Paris</death>
+            <note>Ecrivain polygraphe français</note>
+         </person>
+         
+         <person xml:id="picard_gaston">
+            <persName><forename>Gaston</forename> <surname>Picard</surname></persName>
+            <birth>Né 18 janvier 1892, Paris</birth>
+            <death>Mort 9 mars 1962, Paris</death>
+            <note>Journaliste</note>
+         </person>
+         
+         <person xml:id="picasso_pablo">
+            <persName><forename>Pablo</forename> <surname>Picasso</surname></persName>
+            <birth>Né en 1881 à Malaga, Espagne.</birth>
+            <death>Mort en 1973 à Mougins, France.</death>
+            <note>Peintre, dessinateur, sculpteur et graveur espagnol.</note>
+         </person>
+         
+         <person xml:id="rimbaud_arthur">
+            <persName><forename>Arthur</forename> <surname>Rimbaud</surname></persName>
+            <birth>Né en 1854 à Charleville-Mézières, France.</birth>
+            <death>Mort en 1891 à Marseille, France.</death>
+            <note>Poète français.</note>
+         </person>
+         
+        
+         <person xml:id="salmon_andré">
+            <persName><forename>André</forename> <surname>Salmon</surname></persName>
+            <birth>Né en 1881 à Paris, France.</birth>
+            <death>Mort en 1969 à Sanary-sur-Mer, France.</death>
+            <note>Ecrivain, poète, romancier, journaliste et critique d'art français.</note>
+         </person>
+         
+         <person xml:id="valette_alfred">
+            <persName><forename>Alfred</forename> <surname>Valette</surname></persName>
+            <birth>Né le 31 juillet 1858, Paris</birth>
+            <death>Mort le 28 septembre 1935, Paris</death>
+            <note>Homme de lettres et éditeur français, fondateur du Mercure de France</note>
+         </person>
+         
       </listPerson>
       
       <listPlace>
          <place xml:id="paris">
+            <country>France</country>
             <placeName>Paris</placeName>
          </place>
          <place xml:id="vladivostock">
+            <country>Russie</country>
             <placeName>Vladivostock</placeName>
          </place>
          <place xml:id="graville">
-            <placeName>Graville</placeName>
+            <country>France</country>
+            <district>
+               <placeName>Graville</placeName>
+            </district>
          </place>
-         <place xml:id="rhin"><placeName>Rhin</placeName></place>
+         <place xml:id="rhin">
+            <placeName>Rhin</placeName>
+         </place>
          <place xml:id="vatican">
+            <country>Italie</country>
             <placeName>Vatican</placeName>
          </place>
       </listPlace>
       
+      
+      
       <listBibl>
-         <head>Référence aux poèmes de Alcools</head>
-         <bibl xml:id="alcools">Alcool</bibl>
-         <bibl xml:id="les_sept_épées">Les sept épées</bibl>
-         <bibl xml:id="crépuscule">Crépuscule</bibl>
-         <bibl xml:id="la_chanson_du_mal_aimé">La Chanson du mal-aimé</bibl>
-         <bibl xml:id="l_ermite">L'Ermite</bibl>
-         <bibl xml:id="zone">Zone</bibl>
-         <bibl xml:id="les_colchiques">Les colchiques</bibl>
-         <bibl xml:id="l_emigrant_de_landor_road">L'Émigrant de Landor Road</bibl>
-         <bibl xml:id="a_la_santé">A la Santé</bibl>
-         <bibl xml:id="mai">Mai</bibl>
-         <bibl xml:id="le_pont_mirabeau">Le Pont Mirabeau</bibl>
-         <bibl xml:id="marie">Marie</bibl>
-         <bibl xml:id="l_adieu">L'Adieu</bibl>
-         <bibl xml:id="poème_lu_au_mariage">Poème lu au mariage d'André Salmon</bibl>
-         <bibl xml:id="le_larron">Le Larron</bibl>
+         <head>Références bibliographiques</head>
+         
+         <listBibl>
+            <head>Référence aux poèmes de Alcools</head>
+            <bibl xml:id="alcools">
+               <author>Guillaume Apollinaire</author>
+               <title>Alcools (1913)</title>
+               
+               <relatedItem>
+                  <listBibl>
+                     <bibl type="poem" xml:id="a_la_santé"><title>A la Santé</title></bibl>
+                     <bibl type="poem" xml:id="crépuscule"><title>Crépuscule</title></bibl>
+                     <bibl type="poem" xml:id="l_adieu"><title>L'Adieu</title></bibl>
+                     <bibl type="poem" xml:id="l_emigrant_de_landor_road"><title>L'Émigrant de Landor Road</title></bibl>
+                     <bibl type="poem" xml:id="l_ermite"><title>L'Ermite</title></bibl>
+                     <bibl type="poem" xml:id="la_chanson_du_mal_aimé"><title>La Chanson du mal-aimé</title></bibl>
+                     <bibl type="poem" xml:id="le_larron"><title>Le Larron</title></bibl>
+                     <bibl type="poem" xml:id="le_pont_mirabeau"><title>Le Pont Mirabeau</title></bibl>
+                     <bibl type="poem" xml:id="les_colchiques"><title>Les colchiques</title></bibl>
+                     <bibl type="poem" xml:id="les_sept_épées"><title>Les sept épées</title></bibl>
+                     <bibl type="poem" xml:id="poème_lu_au_mariage"><title>Poème lu au mariage d'André Salmon</title></bibl>
+                     <bibl type="poem" xml:id="mai"><title>Mai</title></bibl>
+                     <bibl type="poem" xml:id="marie"><title>Marie</title></bibl>
+                     <bibl type="poem" xml:id="zone"><title>Zone</title></bibl>
+                  </listBibl>
+               </relatedItem>
+            </bibl>
       </listBibl>
       
-      <listBibl><head>Référence à la presse</head>
-         <bibl xml:id="mercure_de_france">Mercure de France</bibl>
-         <bibl xml:id="gazette_de_france">Gazette de France</bibl>
-         <bibl xml:id="paris_midi">Paris-Midi</bibl>
-         <bibl xml:id="fantasio">Fantasio</bibl>
-         <bibl xml:id="le_divan">Le Divan</bibl>
-         <bibl xml:id="gil_blas">Gil Blas</bibl>
-         <bibl xml:id="les_chroniques">Les chroniques</bibl>
-         <bibl xml:id="la_phalange">La Phalange</bibl>
-         <bibl xml:id="l_intransigeant">L'Intransigeant</bibl>
-         <bibl xml:id="revue_critique_des_idées">Revue Critique des Idées et des Livres</bibl>
-         <bibl xml:id="courrier_français">Courrier français</bibl>
-         <bibl xml:id="revue_immoraliste">Revue Immoraliste</bibl>
+         <listBibl>
+            <head>Références littéraires</head>
+            
+           <bibl xml:id="l_hérésiarque_et_cie">
+               <author>Guillaume Apollinaire</author>
+               <title>l'Hérésiarque et Cie</title>
+            </bibl>
+            
+            <bibl xml:id="le_bestiaire">
+               <author>Guillaume Apollinaire</author>
+               <title>Le Bestiaire, ou Cortège d’Orphée</title>
+               <relatedItem>
+                  <listBibl>
+                     <bibl type="poem" xml:id="le_chat">
+                        <title>Le Chat</title>
+                     </bibl>
+                  </listBibl>
+               </relatedItem>
+            </bibl>
+            
+            <bibl xml:id="demain_Deubel">
+               <author>Léon Deubel</author>
+               <title>Demain</title>
+            </bibl>
+            
+            <bibl xml:id="le_coeur_supplicié">
+               <author>Arthur Rimbaud</author>
+               <title>Poésie</title>
+               <relatedItem>
+                  <listBibl>
+                     <bibl type="poem">Le coeur supplicié</bibl>
+                  </listBibl>
+               </relatedItem>
+            </bibl>
+            
+            <bibl xml:id="la_côte">
+               <author>Max Jacob</author>
+               <title>La Côte</title>
+            </bibl>
+            
+            <bibl xml:id="saint_matorel">
+               <author>Max Jacob</author>
+               <title>Saint-Matorel</title>
+            </bibl>
+            
+            <bibl xml:id="le_siège_de_jérusalem">
+               <author>Max Jacob</author>
+               <title>Le Siège de Jérusalem</title>
+            </bibl>
+            
+            <bibl xml:id="le_terrain_Bouchaballa">
+               <author>Max Jacob</author>
+               <title>Le Terrain Bouchaballa</title>
+             </bibl>
+            
+            <bibl xml:id="la_chronique_de_Guichin">
+               <author>Max Jacob</author>
+               <title>La Chronique de Guichin</title>
+            </bibl>
+            <bibl xml:id="mémoires_apocryphes">
+               <author>Max Jacob</author>
+               <title>Mémoires apocryphes</title>
+            </bibl>
+            <bibl xml:id="les_oeuvres_mystiques_et_burlesque">
+               <author>Max Jacob</author>
+               <title>Les Oeuvres mystiques et burlesques de Frères Matorel, mort au convent</title>
+            </bibl>
+            <bibl xml:id="la_symbolique_des_évangiles">
+               <author>Max Jacob</author>
+               <title>La Symolique des Evangiles</title>
+            </bibl>
+            
+            <bibl xml:id="le_phanérogramme">
+               <author>Max Jacob</author><title>Le Phanérogramme</title>
+            </bibl>
+            
+         </listBibl>
+      
+      
+      
+      <listBibl>
+         <head>Référence à la presse</head>
+         
+         <bibl xml:id="courrier_français">
+            <title>Courrier français</title>
+         </bibl>
+         
+         <bibl xml:id="fantasio">
+            <title>Fantasio</title>
+         </bibl>
+         
+         <bibl xml:id="gazette_de_france">
+            <title>Gazette de France</title>
+         </bibl>
+         
+         <bibl xml:id="gil_blas">
+            <title>Gil Blas</title>
+         </bibl>
+         
+         <bibl xml:id="l_intransigeant">
+            <title>L'Intransigeant</title>
+         </bibl>
+         
+         <bibl xml:id="la_phalange">
+            <title>La Phalange</title>
+         </bibl>
+         
+         <bibl xml:id="le_divan">
+            <title>Le Divan</title>
+         </bibl>
+         
+         <bibl xml:id="les_chroniques">
+            <title>Les chroniques</title>
+         </bibl>
+         
+         <bibl xml:id="mercure_de_france">
+            <title>Mercure de France</title>
+         </bibl>
+         
+         <bibl xml:id="paris_midi">
+            <title>Paris-Midi</title>
+         </bibl>
+         
+         <bibl xml:id="revue_critique_des_idées">
+            <title>Revue Critique des Idées et des Livres</title>
+         </bibl>
+         
+         <bibl xml:id="revue_immoraliste">
+            <title>Revue Immoraliste</title>
+         </bibl>
          
       </listBibl>
       
-      <listBibl>
-         <head>Référence à d'autres oeuvres</head>
-         <bibl xml:id="demain_Deubel">Demain, Léon Deubel</bibl>
-         <bibl xml:id="le_chat">le chat, dans Le Bestiaire, ou Cortège d’Orphée, Appolinaire</bibl>
-         <bibl xml:id="le_bestiaire">Le Bestiaire, ou Cortège d’Orphée, apollinaire</bibl>
-         <bibl xml:id="le_coeur_supplicié">Le coeur supplicié, Poésie, Rimbaud</bibl>
-         <bibl xml:id="la_côte">La Côte, Max Jacob</bibl>
-         <bibl xml:id="saint_matorel">Saint-Matorel, Max Jacob</bibl>
-         <bibl xml:id="le_siège_de_jérusalem">le Siège de Jérusalem, Max Jacob</bibl>
-         <bibl xml:id="le_terrain_Bouchaballa">Le Terrain Bouchaballa, Max Jacob</bibl>
-         <bibl xml:id="la_chronique_de_Guichin">La Chronique de Guichin, Max Jacob</bibl>
-         <bibl xml:id="mémoires_apocryphes">Mémoires apocryphes, Max Jacob</bibl>
-         <bibl xml:id="les_oeuvres_mystiques_et_burlesque">Les Oeuvres mystiques et burlesques de Frères Matorel, mort au convent, Max Jacob</bibl>
-         <bibl xml:id="la_symbolique_des_évangiles">La Symolique des Evangiles, Max Jacob</bibl>
-         <bibl xml:id="le_phanérogramme">Le Phanérogramme, Max Jacob</bibl>
-         <bibl xml:id="l_hérésiarque_et_cie">l'Hérésiarque et Cie, Apollinaire</bibl>
-         
       </listBibl>
-      
-      
    </standOff>
+   
 </TEI>
