@@ -43,7 +43,7 @@
                      sens de carmen!)</p>
                   <closer>
                      <salute rend="align(center)">Amitiés</salute>
-                     <signed rend="align(center)"><persName ref="#Tharaud">J.J
+                     <signed rend="align(center)"><persName ref="#tharaud_jean_et_jerome">J.J
                         Tharaud</persName></signed>
                   </closer>
                   <pb type="verso" subtype="empty"
@@ -54,8 +54,14 @@
          </text>
    <standOff>
       <listPerson>
-         <person xml:id="Tharaud">
-            <persName><forename>Jean-Jacques</forename><surname>Tharaud</surname></persName>
+         <person xml:id="tharaud_jean_et_jerome">
+            <persName><forename>Jean</forename><surname>Tharaud</surname></persName>
+            <birth>Né en 1877 à Saint-Julien, France.</birth>
+            <death>Mort en 1953 à Paris, France.</death>
+            <note>Écrivain français</note>
+            <persName><forename>Jérôme</forename><surname>Tharaud</surname></persName>
+            <birth>Né en 1874 à Saint-Julien, France.</birth>
+            <death>Mort en 1953 à Varengeville-sur-Mer, France.</death>
             <note>Écrivain français</note>
          </person>
       </listPerson>
