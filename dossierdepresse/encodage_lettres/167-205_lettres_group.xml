@@ -685,18 +685,26 @@
          </person>
          <person xml:id="fleuret_fernand">
             <persName><forename>Fernand</forename><surname>Fleuret</surname></persName>
+            <birth>Né en 1883 à Gondrecourt-le-Château, France.</birth>
+            <death>Mort en 1945 à Paris, France.</death>
             <note>Écrivain et poète français.</note>
          </person>
          <person xml:id="fontainas_andré">
             <persName><forename>André</forename><surname>Fontainas</surname></persName>
+            <birth>Né en 1865 à Bruxelles, Belgique.</birth>
+            <death>Mort en 1948 à Paris, France.</death>
             <note>Poète et un critique français, belge de naissance.</note>
          </person>
          <person xml:id="holbein_hans">
             <persName><forename>Hans</forename><surname>Holbein le Jeune</surname></persName>
+            <birth>Né vers 1497 à Augsbourg, Saint-Empire romain germanique.</birth>
+            <death>Mort en 1543 à Londres, Royaume d'Angleterre.</death>
             <note>Peintre et graveur allemand du XVIe siècle</note>
          </person>
          <person xml:id="léon_xiii">
             <persName>Léon XIII</persName>
+            <birth>Né en 1810 à Carpineto Romano, Empire français.</birth>
+            <death>Mort en 1903 à Rome, Royaume d'Italie.</death>
             <note>Pape de l'Église catholique de 1878 à 1903.</note>
          </person>
          <person xml:id="mac_orlan_pierre">
@@ -705,36 +713,52 @@
                <surname>Dumarchey</surname>
                <addName type="pseudo">Pierre Mac Orlan</addName>
             </persName>
+            <birth>Né en 1882 à Péronne, France.</birth>
+            <death>Mort en 1970 à Saint-Cyr-sur-Morin, France.</death>
             <note>Écrivain, poète, essayiste français</note>
          </person>
          <person xml:id="illisible_name">
             <persName>Nom illisible</persName>
+            <!-- Les dates de naissance et de mort sont inconnues -->
          </person>
          <person xml:id="picasso_pablo">
             <persName><forename>Pablo</forename><surname>Picasso</surname></persName>
+            <birth>Né en 1881 à Malaga, Espagne.</birth>
+            <death>Mort en 1973 à Mougins, France.</death>
             <note>Peintre, dessinateur, sculpteur et graveur espagnol.</note>
          </person>
          <person xml:id="platon">
             <persName>Platon</persName>
+            <birth>Né vers 428/427 av. J.-C. à Athènes, époque classique.</birth>
+            <death>Mort vers 347 av. J.-C. à Ahtènes, époque classique.</death>
             <note>Philosophe antique de la Grèce classique.</note>
          </person>
          <person xml:id="rétif_de_la_bretonne">
             <persName><forename>Nicolas</forename><surname>Rétif de la Bretonne</surname></persName>
+            <birth>Né en 1734 à Sacy, Royaume de France.</birth>
+            <death>Mort en 1806 à Paris, Empire français.</death>
             <note>Écrivain français de la seconde moitié du XVIIe siècle</note>
          </person>
          <person xml:id="rossiard">
+            <!-- Les dates de naissance et de mort sont inconnues -->
             <persName>Rossiard</persName>
          </person>
          <person xml:id="tharaud_jean_jacques">
             <persName><forename>Jean-Jacques</forename><surname>Tharaud</surname></persName>
+            <birth></birth>
+            <death></death>
             <note>Écrivain français</note>
          </person>
          <person xml:id="velasquez_diego">
             <persName><forename>Diego</forename><surname>Vélasquez</surname></persName>
+            <birth>Né en 1599 à Séville, Monarchie espagnole.</birth>
+            <death>Mort en 1660 à Madrid, Monarchie espagnole.</death>
             <note>Peintre baroque espagnol</note>
          </person>
          <person xml:id="wagner_richard">
             <persName><forename>Richard</forename><surname>Wagner</surname></persName>
+            <birth>Né en 1813 à Leipzig, Royaume de Saxe.</birth>
+            <death>Mort en 1883 à Venise, Royaume d'Italie.</death>
             <note>Compositeur, directeur de théâtre, écrivain, chef d'orchestre et polémiste
                allemand de la période romantique</note>
          </person>
