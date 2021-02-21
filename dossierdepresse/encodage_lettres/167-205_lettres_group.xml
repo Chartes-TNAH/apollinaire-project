@@ -63,7 +63,7 @@
                      sens de carmen!)</p>
                   <closer>
                      <salute rend="align(center)">Amitiés</salute>
-                     <signed rend="align(center)"><persName ref="#Tharaud">J.J
+                     <signed rend="align(center)"><persName ref="#tharaud_jerome_et_jean">J.J
                         Tharaud</persName></signed>
                   </closer>
                   <pb type="verso" subtype="empty"
@@ -623,11 +623,11 @@
       <listPerson>
          <person xml:id="ac">
             <persName>A.C</persName>
-            <!-- Personne non identifiée. Par conséquent, les dates de naissance et de mort sont inconnues-->
+            <!-- Personne non identifiée. Par conséquent, les dates de naissance et de mort sont inconnues -->
          </person>
          <person xml:id="abgar_v_oukama">
             <persName>Abgar V Oukâma ou Le Noir</persName>
-            <!-- Les dates de naissance et de mort sont inconnues-->
+            <!-- Les dates de naissance et de mort sont inconnues -->
             <note>Roi d Edesse (15-30 ap. J.-C.). Édesse était la capitale de l'Osroène, un petit
                État d'abord indépendant (132 av. J.-C. - 216 ap. J.-C.) en actuelle Turquie. Cet
                état est devenu province romaine en 216.</note>
@@ -647,7 +647,7 @@
          </person>
          <person xml:id="aspiq">
             <persName>Aspiq</persName>
-            <!-- Personne non identifiée. Par conséquent, les dates de naissance et de mort sont inconnues-->
+            <!-- Personne non identifiée. Par conséquent, les dates de naissance et de mort sont inconnues -->
          </person>
          <person xml:id="balzaguette_léon">
             <persName><forename>Léon</forename><surname>Balzaguette</surname></persName>
@@ -683,7 +683,7 @@
          </person>
          <person xml:id="bounélier">
             <persName>Bounélier</persName>
-            <!-- Personne non identifiée. Par conséquent, les dates de naissance et de mort sont inconnues-->
+            <!-- Personne non identifiée. Par conséquent, les dates de naissance et de mort sont inconnues -->
          </person>
          <person xml:id="carco_francis">
             <persName><forename>Francis</forename><surname>Carco</surname></persName>
@@ -701,7 +701,7 @@
             <persName><forename>Louvigné</forename><surname>du Dezert</surname></persName>
             <note>Poète libertin fictif inventé par <persName ref="#fleuret_ferdinand">Fernand
                   Fleuret</persName></note>
-            <!--Étant un personnage fictif, ses dates de naissance et de décès sont inexistantes.-->
+            <!-- Étant un personnage fictif, ses dates de naissance et de décès sont inexistantes. -->
          </person>
          <person xml:id="dürer_albrecht">
             <persName><forename>Albrecht</forename><surname>Dürer</surname></persName>
@@ -726,7 +726,7 @@
             <persName><forename>Hans</forename><surname>Holbein le Jeune</surname></persName>
             <birth>Né vers 1497 à Augsbourg, Saint-Empire romain germanique.</birth>
             <death>Mort en 1543 à Londres, Royaume d'Angleterre.</death>
-            <note>Peintre et graveur allemand du XVIe siècle</note>
+            <note>Peintre et graveur allemand</note>
          </person>
          <person xml:id="léon_xiii">
             <persName>Léon XIII</persName>
@@ -746,7 +746,7 @@
          </person>
          <person xml:id="illisible_name">
             <persName>Nom illisible</persName>
-            <!-- Les dates de naissance et de mort sont inconnues -->
+            <!-- Personne non identifiée. Les dates de naissance et de mort sont inconnues -->
          </person>
          <person xml:id="picasso_pablo">
             <persName><forename>Pablo</forename><surname>Picasso</surname></persName>
@@ -756,24 +756,28 @@
          </person>
          <person xml:id="platon">
             <persName>Platon</persName>
-            <birth>Né vers 428/427 av. J.-C. à Athènes, époque classique.</birth>
-            <death>Mort vers 347 av. J.-C. à Ahtènes, époque classique.</death>
+            <birth>Né vers 428/427 av. J.-C. à Athènes.</birth>
+            <death>Mort vers 347 av. J.-C. à Ahtènes.</death>
             <note>Philosophe antique de la Grèce classique.</note>
          </person>
          <person xml:id="rétif_de_la_bretonne">
             <persName><forename>Nicolas</forename><surname>Rétif de la Bretonne</surname></persName>
             <birth>Né en 1734 à Sacy, Royaume de France.</birth>
             <death>Mort en 1806 à Paris, Empire français.</death>
-            <note>Écrivain français de la seconde moitié du XVIIe siècle</note>
+            <note>Écrivain français</note>
          </person>
          <person xml:id="rossiard">
-            <!-- Les dates de naissance et de mort sont inconnues -->
+            <!-- Personne non identifiée. Les dates de naissance et de mort sont inconnues -->
             <persName>Rossiard</persName>
          </person>
-         <person xml:id="tharaud_jean_jacques">
-            <persName><forename>Jean-Jacques</forename><surname>Tharaud</surname></persName>
-            <birth></birth>
-            <death></death>
+         <person xml:id="tharaud_jerome_et_jean">
+            <persName><forename>Jérôme</forename><surname>Tharaud</surname></persName>
+            <birth>Né en 1874 à Saint-Julien, France.</birth>
+            <death>Mort en 1953 à Varengeville-sur-Mer, France.</death>
+            <note>Écrivain français</note>
+            <persName><forename>Jean</forename><surname>Tharaud</surname></persName>
+            <birth>Né en 1877 à Saint-Julien, France.</birth>
+            <death>Mort en 1953 à Paris, France.</death>
             <note>Écrivain français</note>
          </person>
          <person xml:id="velasquez_diego">
