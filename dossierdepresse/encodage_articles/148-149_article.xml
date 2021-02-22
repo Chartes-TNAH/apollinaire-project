@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dossier de presse</title>
+            <title>Folio 148-149</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p></p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         
+         <div type="article" n="148, 149" xml:id="article_148-149" sameAs="article1_146">
+            <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f148.item"/>
+            
+            <head>
+               <ref target="#mercure_de_france">
+                  <bibl>
+                     <date rend="bold"><hi rend="align(left)">10</hi> <hi rend="align(center)">1913</hi> <hi rend="align(right">Mai</hi></date>
+                     <title rend="align(center)">
+                        <lb/>BVLLETIN DE LA LIBRAIRIE 
+                        <lb/>DV
+                        <lb/><damage agent="collage"><unclear>M</unclear></damage>ERCVRE DE FRANCE
+                        <lb/>XXVI, RVE DE CONDÉ, PARIS
+                     </title>
+                     <lb/>Publications nouvelles
+                     <lb/><date>Novembre-Mai — 1913</date>
+                  </bibl>
+               </ref>
+               <stamp>Tampon postale de la ville de poitiers
+                  <mentioned>P.P. Poitiers<date>30.5.13</date></mentioned>
+               </stamp>
+            </head>
+            
+            <div type="rubrique" n="1">
+               <head>
+                  <bibl>
+                     <lb/><author rend="align(center) bold tall caps"><persName ref="#apollinaire_guillaume">GUILLAUME APOLLINAIRE</persName></author>
+                     <lb/><title>
+                        <damage agent="collage"><unclear>A</unclear></damage><hi rend="bold">cools</hi>, poèmes (1898-1913). Avec un portrait de l'au-
+                        <lb break="no"/><damage agent="collage"/>teur par <persName ref="#picasso_pablo" rend="caps">PABLO PICASSO</persName></title>. Vol. in-18 ..........  3,50
+                  </bibl>
+             </head>
+               
+               <p>
+                  <lb/><damage agent="collage"/>C'est une chose extrêmement particulière que la poésie de
+                  <lb/><damage agent="collage"/><persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName>. Peut-être est-elle un peu décon-
+                  <lb break="no"/><damage agent="collage"><unclear>cer</unclear></damage>tante, au premier abord, pour le lecteur habitué aux ordi-
+                  <lb break="no"/><damage agent="collage"><unclear>nai</unclear></damage>res volumes de vers. Mais qu'on y prête attention, et alors
+                  <lb/><damage agent="collage"><unclear>le</unclear></damage>charme opère aussitôt. C'est la poésie d'un homme à l'âme
+                  <lb/><damage agent="collage"><unclear>mu</unclear></damage>ltiple, flottante, vagabonde, pleine d'ingénuité aussi. Comme
+                  <lb/><damage agent="collage"><unclear>dan</unclear></damage>s ses nouvelles, par exemple ce curieux <ref target="#l_hérésiarque_et_cie" rend="italique">Hérésiarque et
+                  <lb/><damage agent="collage"><unclear>Cie</unclear></damage></ref>, M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> nous donne dans ses poèmes
+                  <lb/><damage agent="collage"><unclear>l'im</unclear></damage>pression d'un homme qui a tout lu et vu tous les pays,
+                  <lb/><damage agent="collage"><unclear>e</unclear></damage>t il sait nous évoquer de choses, sentiments et paysages,
+                  <lb/><damage agent="collage"><unclear>d</unclear></damage>orées et lointaines. Il s'y ajoute ici le rythme, étrange sou-
+                  <lb break="no"/><damage agent="collage"><unclear>ven</unclear></damage>t, mais souvent pénétrant, comme une musique à la fois
+                  <lb/><damage agent="collage"><unclear>bar</unclear></damage>bare et raffinée, et l'émotion la plus rare, qui font de ce
+                  <lb/><damage agent="collage"><gap reason="illegible"/></damage>, auquel suffirait seule la <hi rend="italic"><ref target="#la_chanson_du_mal_aimé">Chanson du Mal aimé</ref></hi> un
+                  <lb/><damage agent="collage"><gap reason="illegible"/></damage>e tout à fait à part dans la production poétique actuelle.
+               </p>
+               
+               <note type="ref_article" rend="handwritten format(landscape) underlined right">
+                  <persName ref="#leautaud_paul">Paul Leautaud</persName>
+               </note>
+               
+            </div>
+            
+         <div type="rubrique" n="2">
+            <head rend="align(center) bold tall">
+               <bibl>
+                  <lb/><author>GUILLAUME APOLLINAIRE
+                     <lb/><damage><supplied>F</supplied></damage>ERNAND FLEURET et LOUIS PERCEAU</author>
+                  <lb/><title><damage><unclear>L'en</unclear></damage>fer de la Bilbiothèque Nationale. Icono-
+                  <lb/><damage><gap reason="illegible"/></damage>-bibliographie de tous les ouvrages composant cette
+                  <lb/><damage><unclear>cél</unclear></damage>èbre collection.</title> Vol in-8 ................. 7.50
+               </bibl>
+            </head>
+            
+            <note type="ref_article" rend="handwritten format(landscape) right">
+               <persName ref="#leautaud_paul">Leautaud</persName>
+            </note>
+            
+            <p>
+               <lb/><damage><unclear>L'</unclear></damage><hi rend="italic">Enfer</hi> de la Bibliothèque Nationale a été créé sur l'ordre
+         
+               <metamark function="footer" rend="align(center) bold">Envoi franco du Catalogue complet sur demande</metamark>
+               
+               <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f149.item"/>
+
+               <metamark function="header" rend="align(center)">BVLLETIN DE LA LIBRAIRIE<num rend="align(left)">2</num></metamark>
+
+               <lb/>du Premier Consul, sur le modèle de l'<hi rend="italic">Enfer</hi> de la <placeName ref="#vatican">Bibliothè-<damage agent="collage"/>
+               <lb break="no"/>que du Vatican</placeName>. Il contient un certain nombre d'ouvrages qui<damage agent="collage"/>
+               <lb/>n'avaient pas encore été décrits et dont il n'existe aucun cata-<damage agent="collage"/>
+               <lb break="no"/>logue. L'ouvrage de MM. <persName ref="#apollinaire_guillaume">Apollinaire</persName>, <persName ref="#fleuret_ferdinand">Fleuret</persName> et <persName ref="#perceau_louis">Perceau</persName><damage agent="collage"/>
+               <lb/>comble donc une importance lacune bibliographique. Il a de <damage agent="collage"/>
+               <lb/>plus son attrait de pittoresque, de curiosité, d'indiscrétion <damage agent="collage"/>
+               <lb/>même. Tous ces livres, qu'il nous présente et nous décrit <damage agent="collage"/>
+               <lb/>livres condamnables, si l'on veut, ont un mérite qui fait leu<damage agent="collage"><unclear>r</unclear></damage>
+               <lb/>valeur : ils renseignent sur l'histoire des mœurs. A côté d<damage agent="collage"><unclear>e</unclear></damage>
+               <lb/>la littérature morale, en effet, il y a l'autre, et qui n'est pas<damage agent="collage"/>
+               <lb/>socialement et littérairement, un document moindre, on pour<damage agent="collage"><unclear>-</unclear></damage>
+               <lb break="no"/>rait même dire souvent plus véridique. Les satiriques licen<damage agent="collage"><unclear>-</unclear></damage>
+               <lb break="no"/>cieux des XVe, XVIe et XVIIe siècles sont aussi des poètes, après<damage agent="collage"/>
+               <lb/>tout. Les pamphlets et les romans de la Révolution ont leu<damage agent="collage"><unclear>r</unclear></damage>
+               <lb/>intérêt historique. On ne saurait ôter les uns et les autres d<damage agent="collage"><unclear>e</unclear></damage>
+               <lb/>notre littérature sans fausser l'aspect de celle-ci.
+            </p>
+            
+         </div>
+               
+         <div type="rubrique" n="3">
+            <!-- Ne concerne ni Apollinaire, ni Alcools -->
+            <head>
+               <bibl>
+               <author><lb/><hi rend="bold, align(center) tall caps">RENÉ ARCOS</hi></author>
+               <title><lb/><hi rend="bold">L'Ile perdue</hi>, poème dramatique</title>. Vol. in-18. 3,50
+               </bibl>
+            </head>
+         <p>
+            <lb/>Dans ce drame, qui respecte les exigences de la scène<damage agent="collage"/>
+            <lb/>M. René Arcos expose avec lyrisme un conflit d'idées et de sen<damage agent="collage"/>
+            <lb/>timents entre individus supérieurs. Des hommes et des fem<damage agent="collage"/>
+            <lb/>mes ont quitté leur patrie où règne un odieux tyran. Dan<damage agent="collage"/>
+            <lb/>une île lointaine et enchantée, ils commencent une nouvell<damage agent="collage"/>
+            <lb/>vie. L'arrivée d'un de leurs anciens compagnons, qui a tué l<damage agent="collage"/>
+            <lb/>desporte et qui veut les regagner à leur patrie, décide le con<damage agent="collage"/>
+            <lb/>flit. Ils quittent l'île à la fin du poème,à l'exception d'un seu<damage agent="collage"/>
+            <lb/>d'entre eux qui se donne la mort, marquant ainsi de sa chut<damage agent="collage"/>
+            <lb/>la faillite d'un grand rêve.
+         </p>
+         </div>
+            
+         <div type="rubrique" n="3">
+              <!-- Ne concerne ni Apollinaire, ni Alcools -->
+            <head rend="tall">
+               <bibl>
+                  <lb/><author rend="bold, align(center) tall caps">BOTTOM</author>
+                  <lb/><title><hi rend="bold">Ainsi parlait Jéroboam</hi><hi rend="italic"> ou la Finance en ac
+                     <lb break="no"/>tions</hi></title> Vol. petit in-18  .....................  2 
+               </bibl>
+            </head>
+            
+            <p>
+               <lb/>Voici un petit livre qui a eu un vif succès. Jéroboam, c'es<damage agent="collage"/>
+               <lb/>le Zarathoustra de la finance. Assis au café, place de l<damage agent="collage"/>
+               <lb/>Bourse, devant des piles de soucoupes, en considérant d'u<damage agent="collage"/>
+               <lb/>œil narquois ce qu'il appelait la « Boite à finances », il laissa<damage agent="collage"/>
+               <lb/>s'en aller de lui ses sarcasmes, entouré de disciples qu'amu<damage agent="collage"/>
+            </p>
+         </div>
+            
+            <metamark function="footer" rend="align(center) bold">Envoi franco du Catalogue complet sur demande</metamark>
+       
+        </div>
+      </body>
+  </text>
+   
+   
+   <standOff>
+      
+     
+      
+      
+      <listPerson>
+         
+         <person xml:id="apollinaire_guillaume">
+            <persName><forename>Guillaume</forename> <surname>Apollinaire</surname></persName>
+            <birth>Né en 1881 à Malaga, Espagne.</birth>
+            <death>Mort en 1973 à Mougins, France.</death>
+            <note>Peintre, dessinateur, sculpteur et graveur espagnol.</note>
+         </person>
+         
+         <person xml:id="baudelaire_charles">
+            <persName><forename>Charles</forename> <surname>Baudelaire</surname></persName>
+            <birth>Né 9 avril 1821, Paris</birth>
+            <death>Mort 31 août 1867, Paris</death>
+            <note>Poète français.</note>
+         </person>
+         
+         <person xml:id="bayard_jean">
+            <persName><forename>Jean</forename> <surname>Bayard</surname></persName>
+         </person>
+         
+         <person xml:id="carco_francis">
+            <persName><forename>Francis</forename> <surname>Carco</surname></persName>
+            <birth>Né le 3 juillet 1886 à Nouméa</birth>
+            <death>Mort le 26 mai 1958 à Paris</death>
+            <note>Ecrivain, poète, journaliste et parolier français.</note>
+         </person>
+         
+         <person xml:id="clouard_henri">
+            <persName><forename>Henri</forename> <surname>Clouard</surname></persName>
+            <birth>Né le 7 octobre 1889</birth>
+            <death>Mort en janvier 1974</death>
+            <note>Journaliste et critique littéraire français.</note>
+         </person>
+         
+         <person xml:id="de_gonzague_frick_louis">
+            <persName><forename>Louis</forename> <nameLink>de</nameLink> <surname>Gonzague Frick</surname></persName>
+            <birth>Né 13 mars 1883, Paris</birth>
+            <death>Mort 9 avril 1958, Paris</death>
+            <note>Poète, critique littéraire proche des mouvements d'avant-garde et journaliste pour La Phallange</note>
+         </person>
+         
+         <person xml:id="de_gourmont_remy">
+            <persName><forename>Remy</forename> <nameLink>de</nameLink> <surname>Gourmont</surname></persName>
+            <birth>Né en 1858 à Bazoches-au-Houlme, France.</birth>
+            <death>Mort en 1915 à Paris, France.</death>
+            <note>Ecrivain, romancier, journaliste et critique d'art français.</note>
+         </person>
+         
+         <person xml:id="derème_tristan">
+            <persName><forename>Tristan</forename> <surname>Derème</surname></persName>
+            <birth>Né en 1889.</birth>
+            <death>Mort en 1941 à Oloron-Sainte-Marie, France.</death>
+            <note>Poète et écrivain français.</note>
+         </person>
+         
+         <person xml:id="deubel_léon">
+            <persName><forename>Léon</forename> <surname>Deubel</surname></persName>
+            <birth>Né lé 22 mars 1879, Belfort</birth>
+            <death>Mort le 12 juin 1913, Maisons-Alfort</death>
+            <note>Poème français</note>
+         </person>
+         
+         <person xml:id="duhamel_georges">
+            <persName><forename>Georges</forename> <surname>Duhamel</surname></persName>
+            <birth>Né le 30 juin 1884, Paris</birth>
+            <death>Mort le 13 avril 1966, Valmondois</death>
+            <note>Médecin, écrivain et poète français</note>
+         </person>
+         
+         <person xml:id="fleuret_fernand">
+            <persName><forename>Fernand</forename> <surname>Fleuret</surname></persName>
+            <birth>Né le 1ᵉʳ avril 1883 à Gondrecourt</birth>
+            <death>Mort le 18 juin 1945 à Paris</death>
+            <note>Ecrivain et poète français</note>
+         </person>
+         
+         <person xml:id="fort_paul">
+            <persName><forename>Paul</forename> <surname>Fort</surname></persName>
+            <birth>Né en 1872 à Reims, France.</birth>
+            <death>Mort en 1960 à Montlhéry, France.</death>
+            <note>Poète et dramaturge français.</note>
+         </person>
+         
+         <person xml:id="jacob_max">
+            <persName><forename>Max</forename> <surname>Jacob</surname></persName>
+            <birth>12 juillet 1876, Quimper</birth>
+            <death>5 mars 1944, Camp de Drancy</death>
+            <note>Poète moderniste, romancier et peintre français.</note>
+         </person>
+         
+         <person xml:id="laforgue_jules">
+            <persName><forename>Jules</forename> <surname>Laforgue</surname></persName>
+            <birth>Né 16 août 1860, Montevideo (Uruguay)</birth>
+            <death>Mort 20 août 1887, Paris</death>
+            <note>Ecrivain, poète.</note>
+         </person>
+         
+         <person xml:id="leautaud_paul">
+            <persName><forename>Paul</forename> <surname>Leautaud</surname></persName>
+            <birth>Né le 18 janvier 1872, Paris</birth>
+            <death>Mort le 22 février 1956, Châtenay-Malabry</death>
+            <note>Ecrivain et critique dramatique français</note>
+         </person>
+         
+         <person xml:id="mallarmé_stéphane">
+            <persName><forename>Stéphane</forename> <surname>Mallarmé</surname></persName>
+            <birth>Né 18 mars 1842, Paris</birth>
+            <death>Mort 9 septembre 1898, Vulaines-sur-Seine</death>
+            <note>Poète, enseignant, traducteur et critique d'art français.</note>
+         </person>
+         
+         <person xml:id="pellerin_jean">
+            <persName><forename>Jean</forename> <surname>Pellerin</surname></persName>
+            <birth>Né le 24 avril 1885, Pontcharra</birth>
+            <death>Mort le 9 juillet 1921, Le Chatelard</death>
+            <note>Poète français membre de l'École fantaisiste.</note>
+         </person>
+         
+         <person xml:id="perceau_louis">
+            <persName><forename>Louis</forename> <surname>Perceau</surname></persName>
+            <birth>Né le 22 septembre 1883 à Coulon</birth>
+            <death>Mort le 20 avril 1942 à Paris</death>
+            <note>Ecrivain polygraphe français</note>
+         </person>
+         
+         <person xml:id="picard_gaston">
+            <persName><forename>Gaston</forename> <surname>Picard</surname></persName>
+            <birth>Né 18 janvier 1892, Paris</birth>
+            <death>Mort 9 mars 1962, Paris</death>
+            <note>Journaliste</note>
+         </person>
+         
+         <person xml:id="picasso_pablo">
+            <persName><forename>Pablo</forename> <surname>Picasso</surname></persName>
+            <birth>Né en 1881 à Malaga, Espagne.</birth>
+            <death>Mort en 1973 à Mougins, France.</death>
+            <note>Peintre, dessinateur, sculpteur et graveur espagnol.</note>
+         </person>
+         
+         <person xml:id="rimbaud_arthur">
+            <persName><forename>Arthur</forename> <surname>Rimbaud</surname></persName>
+            <birth>Né en 1854 à Charleville-Mézières, France.</birth>
+            <death>Mort en 1891 à Marseille, France.</death>
+            <note>Poète français.</note>
+         </person>
+         
+         <person xml:id="romains_jules">
+            <persName><forename>Jules</forename><surname>Romains</surname></persName>
+            <birth>Né le 26 août 1885, à Saint-Julien-Chapteuil.</birth>
+            <death>Mort le 14 août 1972, à Paris.</death>
+            <note>Ecrivain, philosophe, poète et dramaturge français, membre de l'Académie française.</note>
+         </person>
+         
+         <person xml:id="royere_jean">
+            <persName><forename>Jean</forename><surname>Royère</surname></persName>
+            <birth>Né en 1871 à Aix-en-Provence, France.</birth>
+            <death>Mort en 1956 à Paris, France.</death>
+            <note>Poète et éditeur français.</note>
+         </person>
+        
+         <person xml:id="salmon_andré">
+            <persName><forename>André</forename> <surname>Salmon</surname></persName>
+            <birth>Né en 1881 à Paris, France.</birth>
+            <death>Mort en 1969 à Sanary-sur-Mer, France.</death>
+            <note>Ecrivain, poète, romancier, journaliste et critique d'art français.</note>
+         </person>
+         
+         <person xml:id="valette_alfred">
+            <persName><forename>Alfred</forename> <surname>Valette</surname></persName>
+            <birth>Né le 31 juillet 1858, Paris</birth>
+            <death>Mort le 28 septembre 1935, Paris</death>
+            <note>Homme de lettres et éditeur français, fondateur du Mercure de France</note>
+         </person>
+         
+      </listPerson>
+      
+      <listPlace>
+         <place xml:id="paris">
+            <country>France</country>
+            <placeName>Paris</placeName>
+         </place>
+         <place xml:id="vladivostock">
+            <country>Russie</country>
+            <placeName>Vladivostock</placeName>
+         </place>
+         <place xml:id="graville">
+            <country>France</country>
+            <district>
+               <placeName>Graville</placeName>
+            </district>
+         </place>
+         <place xml:id="rhin">
+            <placeName>Rhin</placeName>
+         </place>
+         <place xml:id="vatican">
+            <country>Italie</country>
+            <placeName>Vatican</placeName>
+         </place>
+      </listPlace>
+      
+      
+      
+      <listBibl>
+         <head>Références bibliographiques</head>
+         
+         <listBibl>
+            <head>Référence aux poèmes de Alcools</head>
+            <bibl>
+               <author>Guillaume Apollinaire</author>
+               <title>Alcools (1913)</title>
+               
+               <relatedItem>
+                  <listBibl>
+                     <bibl type="poem" xml:id="a_la_santé"><title>A la Santé</title></bibl>
+                     <bibl type="poem" xml:id="crépuscule"><title>Crépuscule</title></bibl>
+                     <bibl type="poem" xml:id="l_adieu"><title>L'Adieu</title></bibl>
+                     <bibl type="poem" xml:id="l_emigrant_de_landor_road"><title>L'Émigrant de Landor Road</title></bibl>
+                     <bibl type="poem" xml:id="l_ermite"><title>L'Ermite</title></bibl>
+                     <bibl type="poem" xml:id="la_chanson_du_mal_aimé"><title>La Chanson du mal-aimé</title></bibl>
+                     <bibl type="poem" xml:id="le_larron"><title>Le Larron</title></bibl>
+                     <bibl type="poem" xml:id="le_pont_mirabeau"><title>Le Pont Mirabeau</title></bibl>
+                     <bibl type="poem" xml:id="les_colchiques"><title>Les colchiques</title></bibl>
+                     <bibl type="poem" xml:id="les_sept_épées"><title>Les sept épées</title></bibl>
+                     <bibl type="poem" xml:id="poème_lu_au_mariage"><title>Poème lu au mariage d'André Salmon</title></bibl>
+                     <bibl type="poem" xml:id="mai"><title>Mai</title></bibl>
+                     <bibl type="poem" xml:id="marie"><title>Marie</title></bibl>
+                     <bibl type="poem" xml:id="zone"><title>Zone</title></bibl>
+                  </listBibl>
+               </relatedItem>
+            </bibl>
+      </listBibl>
+      
+         <listBibl>
+            <head>Références littéraires</head>
+            
+           <bibl xml:id="l_hérésiarque_et_cie">
+               <author>Guillaume Apollinaire</author>
+               <title>l'Hérésiarque et Cie</title>
+            </bibl>
+            
+            <bibl xml:id="le_bestiaire">
+               <author>Guillaume Apollinaire</author>
+               <title>Le Bestiaire, ou Cortège d’Orphée</title>
+               <relatedItem>
+                  <listBibl>
+                     <bibl type="poem" xml:id="le_chat">
+                        <title>Le Chat</title>
+                     </bibl>
+                  </listBibl>
+               </relatedItem>
+            </bibl>
+            
+            <bibl xml:id="demain_Deubel">
+               <author>Léon Deubel</author>
+               <title>Demain</title>
+            </bibl>
+            
+            <bibl xml:id="le_coeur_supplicié">
+               <author>Arthur Rimbaud</author>
+               <title>Poésie</title>
+               <relatedItem>
+                  <listBibl>
+                     <bibl type="poem">Le coeur supplicié</bibl>
+                  </listBibl>
+               </relatedItem>
+            </bibl>
+            
+            <bibl xml:id="la_côte">
+               <author>Max Jacob</author>
+               <title>La Côte</title>
+            </bibl>
+            
+            <bibl xml:id="saint_matorel">
+               <author>Max Jacob</author>
+               <title>Saint-Matorel</title>
+            </bibl>
+            
+            <bibl xml:id="le_siège_de_jérusalem">
+               <author>Max Jacob</author>
+               <title>Le Siège de Jérusalem</title>
+            </bibl>
+            
+            <bibl xml:id="le_terrain_Bouchaballa">
+               <author>Max Jacob</author>
+               <title>Le Terrain Bouchaballa</title>
+             </bibl>
+            
+            <bibl xml:id="la_chronique_de_Guichin">
+               <author>Max Jacob</author>
+               <title>La Chronique de Guichin</title>
+            </bibl>
+            <bibl xml:id="mémoires_apocryphes">
+               <author>Max Jacob</author>
+               <title>Mémoires apocryphes</title>
+            </bibl>
+            <bibl xml:id="les_oeuvres_mystiques_et_burlesque">
+               <author>Max Jacob</author>
+               <title>Les Oeuvres mystiques et burlesques de Frères Matorel, mort au convent</title>
+            </bibl>
+            <bibl xml:id="la_symbolique_des_évangiles">
+               <author>Max Jacob</author>
+               <title>La Symolique des Evangiles</title>
+            </bibl>
+            
+            <bibl xml:id="le_phanérogramme">
+               <author>Max Jacob</author><title>Le Phanérogramme</title>
+            </bibl>
+            
+         </listBibl>
+      
+      
+      
+      <listBibl>
+         <head>Référence à la presse</head>
+         
+         <bibl xml:id="courrier_français">
+            <title>Courrier français</title>
+         </bibl>
+         
+         <bibl xml:id="fantasio">
+            <title>Fantasio</title>
+         </bibl>
+         
+         <bibl xml:id="gazette_de_france">
+            <title>Gazette de France</title>
+         </bibl>
+         
+         <bibl xml:id="gil_blas">
+            <title>Gil Blas</title>
+         </bibl>
+         
+         <bibl xml:id="l_intransigeant">
+            <title>L'Intransigeant</title>
+         </bibl>
+         
+         <bibl xml:id="la_phalange">
+            <title>La Phalange</title>
+         </bibl>
+         
+         <bibl xml:id="le_divan">
+            <title>Le Divan</title>
+         </bibl>
+         
+         <bibl xml:id="les_chroniques">
+            <title>Les chroniques</title>
+         </bibl>
+         
+         <bibl xml:id="mercure_de_france">
+            <title>Mercure de France</title>
+         </bibl>
+         
+         <bibl xml:id="paris_midi">
+            <title>Paris-Midi</title>
+         </bibl>
+         
+         <bibl xml:id="revue_critique_des_idées">
+            <title>Revue Critique des Idées et des Livres</title>
+         </bibl>
+         
+         <bibl xml:id="revue_immoraliste">
+            <title>Revue Immoraliste</title>
+         </bibl>
+         
+      </listBibl>
+      
+      </listBibl>
+   </standOff>
+   
+</TEI>
