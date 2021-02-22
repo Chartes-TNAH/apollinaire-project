@@ -85,7 +85,7 @@
                <lb/>ponctuation.
             </p>
             <p>
-               <lb/>Ainsi des <ref target="#alcools" rend="italic">Alcools</ref> : plus de virgules ou de points-virgules
+               <lb/>Ainsi des <hi rend="italic">Alcools</hi> : plus de virgules ou de points-virgules
                <lb/>pour marquer les pauses, fortes ou faibles. Plus d'acco-
                <lb break="no"/>lades, de crochets, de parenthèses, de signe excalamatif,
                <lb/>interrogatif, suspensif... Ce sont là ornements superflus
@@ -97,7 +97,7 @@
                <lb/>biaisé dans l'application de son principe ? Le véritable
                <lb/><hi rend="italic">conjungiste</hi> supprime, non seulement la ponctuation, mais
                <lb/>encore les espaces entre les mots. Dans la prochane édi-
-               <lb break="no"/>tion de <hi rend="italic"><ref target="#alcools">Alcools</ref></hi>, de M. <persName ref="#apollinaire_guillaume">Apollinaire</persName>, il ne faut pas le
+               <lb break="no"/>tion de <hi rend="italic">Alcools</hi>, de M. <persName ref="#apollinaire_guillaume">Apollinaire</persName>, il ne faut pas le
                <lb/>moindre blanc dans les vers de son poème. Une seule ligne,
                <lb/>un seul vers de la première page à la dernière. Ah ! le
                <lb/>bon nougat ! <hi rend="align(right) caps">L'AVEUGLE DU PONT DES ARTS</hi>
@@ -126,7 +126,7 @@
             <p rend="italic">
                <lb/>M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> est, par ses
                <lb/>ouvrages d'érudition, connu, estimé du
-               <lb/>grand public. Ce livre qui paraît <hi rend="roman"><ref target="#alcools">Alcools</ref></hi>,
+               <lb/>grand public. Ce livre qui paraît <hi rend="roman">Alcools</hi>,
                <lb/>et dont tous les lettrés savent déjà les
                <lb/>poèmes, ne peut manquer d'attirer l'atten-
                <lb break="no"/>tion sur une des personnalités les plus
@@ -194,8 +194,8 @@
             <persName><forename>Jean</forename> <surname>Bayard</surname></persName>
          </person>
          
-         <person xml:id="caro_francis">
-            <persName><forename>Francis</forename> <surname>Caro</surname></persName>
+         <person xml:id="carco_francis">
+            <persName><forename>Francis</forename> <surname>Carco</surname></persName>
             <birth>Né le 3 juillet 1886 à Nouméa</birth>
             <death>Mort le 26 mai 1958 à Paris</death>
             <note>Ecrivain, poète, journaliste et parolier français.</note>
@@ -320,6 +320,20 @@
             <note>Poète français.</note>
          </person>
          
+         <person xml:id="romains_jules">
+            <persName><forename>Jules</forename><surname>Romains</surname></persName>
+            <birth>Né le 26 août 1885, à Saint-Julien-Chapteuil.</birth>
+            <death>Mort le 14 août 1972, à Paris.</death>
+            <note>Ecrivain, philosophe, poète et dramaturge français, membre de l'Académie française.</note>
+         </person>
+         
+         <person xml:id="royere_jean">
+            <persName><forename>Jean</forename><surname>Royère</surname></persName>
+            <birth>Né en 1871 à Aix-en-Provence, France.</birth>
+            <death>Mort en 1956 à Paris, France.</death>
+            <note>Poète et éditeur français.</note>
+         </person>
+         
         
          <person xml:id="salmon_andré">
             <persName><forename>André</forename> <surname>Salmon</surname></persName>
@@ -368,7 +382,7 @@
          
          <listBibl>
             <head>Référence aux poèmes de Alcools</head>
-            <bibl xml:id="alcools">
+            <bibl>
                <author>Guillaume Apollinaire</author>
                <title>Alcools (1913)</title>
                
