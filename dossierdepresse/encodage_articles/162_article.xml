@@ -45,7 +45,7 @@
                      ><num>25</num></metamark>
                <lb/>lyrisme, tels que <ref target="#vendémiaire" rend="italic">Vendémiaire</ref>,
                   <ref target="#zone" rend="italic">Zone</ref>, <ref target="#la_maison_des_morts"
-                  rend="italic">La Maison des Morts</ref>, <ref target="#l_Ermite" rend="italic"
+                  rend="italic">La Maison des Morts</ref>, <ref target="#l_ermite" rend="italic"
                   >l’Ermite</ref> : <quote rend="italic">
                   <l>Seigneur, que t’ai-je fait ? Vois. Je suis unicorne ;</l>
                   <l>Pourtant, malgré son bel effroi concupiscent,</l>
@@ -58,8 +58,9 @@
                de ce calibre je resterai longtemps le dernier – ou, au choix, <lb/>le premier, - des
                Béotiens les plus sincères). S’il y a des êtres vivants à la <lb/>surface de la Lune,
                c’est sous cet aspect que je me les représente.</p>
-            <note type="ref_article" rend="handwritten"><ref target="#echo_littéraire_du_boulevard">Echo Littéraire du Boulevard</ref>,
-                  <date when-iso="07-01-1913">1er juillet 1913</date>
+            <note type="ref_article" rend="handwritten"><ref target="#echo_littéraire_du_boulevard"
+                  >Echo Littéraire du Boulevard</ref>, <date when-iso="07-01-1913">1er juillet
+                  1913</date>
                <persName ref="#bachelin_marie">Marie Bachelin</persName></note>
 
          </div>
@@ -71,8 +72,8 @@
                   critique</ref>, nous entretient assez succinctement de <persName
                   ref="#apollinaire_guillaume">M. Guillaume <lb/>Apollinaire</persName> ; mais il
                est vrai que l’auteur des <ref target="#les_disciplines"><hi rend="italic"
-                     >Disciplines</hi></ref> a soin de nous avertir, <lb/>au seuil de la
-               chronique, que les livres vont plus vite que nous. </p>
+                     >Disciplines</hi></ref> a soin de nous avertir, <lb/>au seuil de la chronique,
+               que les livres vont plus vite que nous. </p>
 
             <p>
                <lb/><persName ref="#clouard_henri">M. Clouard</persName> est-il bien sûr que
@@ -100,13 +101,14 @@
                   <l>Mais la mienne arrive en sifflant comme un ouragan</l>
                </quote>
             </p>
-            <note type="ref_article" rend="handwritten"><ref target="#la_phalange">La Phalange</ref></note>
+            <note type="ref_article" rend="handwritten"><ref target="#la_phalange">La
+               Phalange</ref></note>
          </div>
 
          <div type="article" n="162" xml:id="article3_162" xml:lang="fr">
             <p>
-               <lb/>- Ces <hi rend="italic">Alcools</hi> de <persName
-                  ref="#apollinaire_guillaume">Guillaume Apollinaire</persName>
+               <lb/>- Ces <hi rend="italic">Alcools</hi> de <persName ref="#apollinaire_guillaume"
+                  >Guillaume Apollinaire</persName>
                <lb/>sont d’ailleurs d’une émouvante et trou- <lb break="no"/>blante beauté.
                Donnons-en, pour aujourd’hui, <lb/>un extrait, car c’est bien le « livre dont on
                <lb/>parle » : <quote rend="italic align(center)">
@@ -118,7 +120,8 @@
                   <l>Et souviens-toi que je t’attends.</l>
                </quote>
             </p>
-            <note type="ref_article" rend="handwritten"><ref target="#paris-midi">Paris-Midi</ref></note>
+            <note type="ref_article" rend="handwritten"><ref target="#paris-midi"
+               >Paris-Midi</ref></note>
          </div>
       </body>
    </text>
@@ -149,6 +152,12 @@
          <person xml:id="bresil_marc">
             <persName><forename>Marc</forename><surname>Brésil</surname></persName>
             <note>Journaliste pour La Phalange</note>
+         </person>
+         <person xml:id="cahén_fritz_max">
+            <persName><forename>Max</forename><surname>Max Cahén</surname></persName>
+            <birth>Né en 1891 à Saarlouis, Allemagne.</birth>
+            <death>Mort en 1966 à Bonn, Allemagne.</death>
+            <note>Journaliste allemand.</note>
          </person>
          <person xml:id="cappatti_louis">
             <persName><forename>Louis</forename><surname>Cappatti</surname></persName>
@@ -219,12 +228,6 @@
             <birth>Né en 1496 à Cahors, France.</birth>
             <death>Mort en 1544 à Turin, Italie.</death>
             <note>Poète français de la Renaissance.</note>
-         </person>
-         <person xml:id="max_cahén_fritz">
-            <persName><forename>Max</forename><surname>Max Cahén</surname></persName>
-            <birth>Né en 1891 à Saarlouis, Allemagne.</birth>
-            <death>Mort en 1966 à Bonn, Allemagne.</death>
-            <note>Journaliste allemand.</note>
          </person>
          <person xml:id="mercereau_jack">
             <persName><forename>Jack</forename><surname>Mercereau</surname></persName>
@@ -301,14 +304,10 @@
          <place>
             <country xml:id="france">France</country>
             <placeName xml:id="paris">Paris</placeName>
-            <placeName xml:id="boulevard_saint_germain">Boulevard Saint-Germain</placeName>
-            <placeName xml:id="tour_eiffel">Tour Eiffel</placeName>
          </place>
          <place>
             <country>France</country>
             <placeName xml:id="nice">Nice</placeName>
-            <placeName xml:id="quai_félix_faure">Quai Félix-Faure</placeName>
-            <placeName xml:id="rue_gioffredo">Rue Gioffredo</placeName>
          </place>
          <place>
             <country>Allemagne</country>
@@ -327,8 +326,7 @@
             <placeName xml:id="londres">Londres</placeName>
          </place>
          <place>
-            <country>Ukraine</country>
-            <placeName xml:id="ukraine">Ukraine</placeName>
+            <country xml:id="Ukraine">Ukraine</country>
          </place>
       </listPlace>
       <listBibl>
@@ -340,17 +338,24 @@
                   <title>Alcools (1913)</title>
                   <relatedItem>
                      <listBibl>
-                        <bibl><title type="poem" xml:id="vendémiaire">Vendémiaire</title></bibl>
-                        <bibl><title type="poem" xml:id="zone">Zone</title></bibl>
+                        <bibl><title type="poem" xml:id="aubade_chantée_à_laetare_un_an_passé"
+                              >Aubade chantée à Lætare un an passé </title></bibl>
+                        <bibl><title type="poem" xml:id="automne">Automne</title></bibl>
+                        <bibl><title type="poem" xml:id="crépuscule">Crépuscule</title></bibl>
+                        <bibl><title type="poem" xml:id="l_adieu">L'Adieu</title></bibl>
+                        <bibl><title type="poem" xml:id="la_chanson_du_mal_aimé">La Chanson du
+                              mal-aimé</title></bibl>
+                        <bibl><title type="poem" xml:id="la_dame">La Dame</title></bibl>
                         <bibl><title type="poem" xml:id="la_maison_des_morts">La Maison des
                               Morts</title></bibl>
                         <bibl><title type="poem" xml:id="l_ermite">L'Ermite</title></bibl>
-                        <bibl><title type="poem" xml:id="l_adieu">L'Adieu</title></bibl>
+                        <bibl><title type="poem" xml:id="Marie">Marie</title></bibl>
                         <bibl><title type="poem" xml:id="nuit_rhénane">Nuit rhénane</title></bibl>
                         <bibl><title type="poem" xml:id="rhénane_d_automne">Rhénane
                               d'automne</title></bibl>
-                        <bibl><title type="poem" xml:id="automne">Automne</title></bibl>
-                        <bibl><title type="poem" xml:id="la_dame">La Dame</title></bibl>
+                        <bibl><title type="poem" xml:id="salomé">Salomé</title></bibl>
+                        <bibl><title type="poem" xml:id="vendémiaire">Vendémiaire</title></bibl>
+                        <bibl><title type="poem" xml:id="zone">Zone</title></bibl>
                      </listBibl>
                   </relatedItem>
                </bibl>
@@ -379,6 +384,10 @@
                   <bibl type="poem" xml:id="les_fiançailles"><title>Les Fiançailles</title>
                      <author>Guillaume Apollinaire</author>
                      <date when="1908">1908</date></bibl>
+                  <bibl type="poetry" xml:id="le_bestiaire_ou_cortège_d_orphée"><title>Le Bestiaire
+                        ou Cortège d'Orphée</title>
+                     <author>Guillaume Apollinaire</author>
+                     <date>1911</date></bibl>
                   <bibl type="fables" xml:id="fables_d_ésope"><title>Fables d'Ésope</title>
                      <author>Esope</author>
                      <date>VIIe siècle av. J.-C. - VIe siècle av. J.-C.</date>
