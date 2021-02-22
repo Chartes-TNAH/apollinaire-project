@@ -28,7 +28,7 @@
                <lb/>M. <persName ref="#apollinaire_guillaume" rend="caps">GUILLAUME APOLLINAIRE</persName> a le plus grand mépris de ses
                <lb/>contemporains. Il ne les juge pas capables de le com-
                <lb break="no"/>prendre, et son langage leur fait des concessions. Pourquoi
-               <lb/>n'a—t—il pas écrit tous les vers d'<ref target="#alcools">Alcools</ref><note anchored="true" n="1" place="foot">1. Mercure de France.</note>! à la file, tous ses
+               <lb/>n'a—t—il pas écrit tous les vers d'Alcools<note anchored="true" n="1" place="foot">1. Mercure de France.</note>! à la file, tous ses
                <lb/>poèmes à la queue leu leue, sans blancs, sans pagination,
                <lb/>puisqu'il y supprima les points et jusqu'à l'humble virgule ?
                <lb/>Lisez pourtant cette « Marie » :
@@ -108,7 +108,7 @@
             </p>
             
             <note type="ref_article" rend="handwritten" >
-               <ref target="#courrier_français">Courrier Français</ref> <date>22 février 1913</date>
+               <ref target="#courrier_français">Courrier Français</ref> <date when-iso="1913-02-22">22 février 1913</date>
             </note>
             
          </div>
@@ -147,7 +147,7 @@
                <lb/>Nous ne faillirons pas au devoir qui s'im-
                <lb break="no"/>pose à un ami et contemporain des deux
                <lb/>écrivains en cause. L'originalité du poète
-               <lb/>d'<hi rend="italic"><ref target="#alcools">Alcools</ref></hi> nous semble indiscutable. Mais M.
+               <lb/>d'<hi rend="italic">Alcools</hi> nous semble indiscutable. Mais M.
                <lb/><persName ref="#jacob_max">Max Jacob</persName> pousse trop loin le zèle, au gré
                <lb/>de ceux qui furent ses lecteurs toujours amu-
                <lb break="no"/>sés. Au reste, si l'on ouvre, à rebours, le 
@@ -182,7 +182,7 @@
          </p>
             
          <note type="ref_article" rend="handwritten">
-            <ref target="#gil_blas">Gil Blas</ref> <date>2 juillet 1913</date>
+            <ref target="#gil_blas">Gil Blas</ref> <date when-iso="1913-07-02">2 juillet 1913</date>
          </note>
             
          </div>
@@ -216,8 +216,8 @@
             <persName><forename>Jean</forename> <surname>Bayard</surname></persName>
          </person>
          
-         <person xml:id="caro_francis">
-            <persName><forename>Francis</forename> <surname>Caro</surname></persName>
+         <person xml:id="carco_francis">
+            <persName><forename>Francis</forename> <surname>Carco</surname></persName>
             <birth>Né le 3 juillet 1886 à Nouméa</birth>
             <death>Mort le 26 mai 1958 à Paris</death>
             <note>Ecrivain, poète, journaliste et parolier français.</note>
@@ -342,6 +342,20 @@
             <note>Poète français.</note>
          </person>
          
+         <person xml:id="romains_jules">
+            <persName><forename>Jules</forename><surname>Romains</surname></persName>
+            <birth>Né le 26 août 1885, à Saint-Julien-Chapteuil.</birth>
+            <death>Mort le 14 août 1972, à Paris.</death>
+            <note>Ecrivain, philosophe, poète et dramaturge français, membre de l'Académie française.</note>
+         </person>
+         
+         <person xml:id="royere_jean">
+            <persName><forename>Jean</forename><surname>Royère</surname></persName>
+            <birth>Né en 1871 à Aix-en-Provence, France.</birth>
+            <death>Mort en 1956 à Paris, France.</death>
+            <note>Poète et éditeur français.</note>
+         </person>
+         
         
          <person xml:id="salmon_andré">
             <persName><forename>André</forename> <surname>Salmon</surname></persName>
@@ -390,7 +404,7 @@
          
          <listBibl>
             <head>Référence aux poèmes de Alcools</head>
-            <bibl xml:id="alcools">
+            <bibl>
                <author>Guillaume Apollinaire</author>
                <title>Alcools (1913)</title>
                
