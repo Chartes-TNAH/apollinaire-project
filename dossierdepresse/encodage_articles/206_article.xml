@@ -28,12 +28,11 @@
                <lb/>connu <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> ;
                nous y <lb/>fûmes cependant élevés en partie et il <lb/>nous arrive de découvrir que
                nous <lb/>eûmes à quelque intervalle les mêmes <lb/>maîtres. Un souvenir en appelle
-               d'au- <lb break="np"/>tres, et, dans le petit restaurant du <placeName
-                  ref="#boulevard_saint_germain">bou- <lb break="no"/>levard
-                  Saint-Germain</placeName>, où je déjeune <lb/>souvent avec le poète d'<hi
-                  rend="italic">Alcools</hi>, le repas <lb/>s'achève bien des fois que nous
-               parlons <lb/>encore du temps où nous hantions la <lb/>permanence et le jardin qu'on
-               nous in- <lb break="no"/>terdisait en vain. </p>
+               d'au- <lb break="np"/>tres, et, dans le petit restaurant du <placeName ref="#paris"
+                  >bou- <lb break="no"/>levard Saint-Germain</placeName>, où je déjeune <lb/>souvent
+               avec le poète d'<hi rend="italic">Alcools</hi>, le repas <lb/>s'achève bien des fois
+               que nous parlons <lb/>encore du temps où nous hantions la <lb/>permanence et le
+               jardin qu'on nous in- <lb break="no"/>terdisait en vain. </p>
 
             <p>
                <lb/>Je l'avoue : si <persName ref="#apollinaire_guillaume">Guillaume
@@ -43,8 +42,8 @@
                absolu <lb/>de l'exil, et tandis que nos camarades <lb/>déclinaient : rosa, la rose,
                ou tradui- <lb/>saient les <ref target="#fables_d_ésope">fables d'Esope</ref>, un
                rayon de <lb/>soleil glissant sur un pupitre suffisait <lb/>à notre bonheur. Le
-               répétiteur, dans sa <lb/>chaire, somnolait. Du <placeName ref="#quai_félix_faure"
-                  >quai Félix-Faure</placeName>
+               répétiteur, dans sa <lb/>chaire, somnolait. Du <placeName ref="#nice">quai
+                  Félix-Faure</placeName>
                <lb/>arrivait la rumeur des voitures et le <lb/>rayon de soleil tournait ; il
                éblouissait <lb/>les murs blanchis à la chaux... Nous <lb/>attendions... Enfin, le
                tambour du con- <lb break="no"/>cierge roulait sous le préau et nous nous
@@ -53,16 +52,15 @@
             <p>
                <lb/>Le jardin, lui aussi, nous procurait <lb/>des joies profondes. A sa place,
                aujour- <lb break="no"/>d'hui s'élève le bâtiment neuf qui bor- <lb/>de la <placeName
-                  ref="#rue_gioffredo">rue Gioffredo</placeName>. Mais alors les hauts
-               <lb/>eucalyptus, les platanes, les sureaux et <lb/>les orangers, en faisaient une
-               retraite <lb/>délicieuse où l'oeil du surveillant géné- <lb break="no"/>ral ne savait
-               pas nous découvrir. A <lb/>trois ou quatre, nous escaladions les ar- <lb break="no"
-               />bres et, protégés par le feuillage, nous <lb/>restions à califourchon sur une bran-
-                  <lb break="no"/>che pendant toute la durée de la clas- <lb break="no"/>se...
-               Evidemment, la discipline n'y per- <lb/>dait rien, mais nous préférions les
-               <lb/>longs pensums et les retenues du di- <lb break="no"/>manche, qu'on n'omettait
-               pas de nous <lb/>infiger, à l'enseignement du grec, du <lb/>latin et même du
-               français. </p>
+                  ref="#nice">rue Gioffredo</placeName>. Mais alors les hauts <lb/>eucalyptus, les
+               platanes, les sureaux et <lb/>les orangers, en faisaient une retraite <lb/>délicieuse
+               où l'oeil du surveillant géné- <lb break="no"/>ral ne savait pas nous découvrir. A
+               <lb/>trois ou quatre, nous escaladions les ar- <lb break="no"/>bres et, protégés par
+               le feuillage, nous <lb/>restions à califourchon sur une bran- <lb break="no"/>che
+               pendant toute la durée de la clas- <lb break="no"/>se... Evidemment, la discipline
+               n'y per- <lb/>dait rien, mais nous préférions les <lb/>longs pensums et les retenues
+               du di- <lb break="no"/>manche, qu'on n'omettait pas de nous <lb/>infiger, à
+               l'enseignement du grec, du <lb/>latin et même du français. </p>
 
             <p>
                <lb/>N'avons-nous pas gardé dans la vie, <lb/>d'ailleurs, cet amour des choses défen-
@@ -72,14 +70,14 @@
                donné <lb/>son talent dans la littérature actuelle, <lb/>il ne la doit à aucune
                contrainte. Ses li- <lb break="no"/>vres le démontreraient.. Ils sont pleins <lb/>de
                ce naturel aimable qui lui fit écrire <lb/>tant de pages ingénues et savoureuses
-               <lb/>et tant de petits poèmes aussi purs que <lb/>celui-là: <quote
-                  rend="align(center)">
-                  <l>Je demande dans ma maison</l>
-                  <l>Une femme ayant sa raison,</l>
-                  <l>Un Chat passant parmi des livres,</l>
-                  <l>Des amis en toute saison,</l>
-                  <l>Sans lesquels je ne puis pas vivre.</l>
-               </quote>
+               <lb/>et tant de petits poèmes aussi purs que <lb/>celui-là: <ref
+                  target="#le_bestiaire_ou_cortège_d_orphée"><quote rend="align(center)">
+                     <l>Je demande dans ma maison</l>
+                     <l>Une femme ayant sa raison,</l>
+                     <l>Un Chat passant parmi des livres,</l>
+                     <l>Des amis en toute saison,</l>
+                     <l>Sans lesquels je ne puis pas vivre.</l>
+                  </quote></ref>
             </p>
 
             <p>
@@ -93,7 +91,7 @@
                />sailles, ou sous le vent du large, ou <lb/>par les petites pluies méticuleuses de
                <lb/>province, je ne pouvais imaginer, sans <lb/>un serrement de coeur, le soleil et
                le ciel <lb/>si beaux qui, là-bas, sur une ville blan- <lb break="no"/>che, au bord
-               de la mer, se lèvent cha- <lb/>que jour pour le bonheur de tous. </p>
+               de la mer, se lèvent cha- <lb break="no"/>que jour pour le bonheur de tous. </p>
 
             <p>
                <lb/>Une mélancolie poignate s'empare <lb/>à la longue de ces rêves les plus tendres.
@@ -135,25 +133,26 @@
                homme à qui tout s'of- <lb break="no"/>fre, à chaque instant, dans le spectacle
                <lb/>de sa dispersion. Il voudrait, hélas ! <lb/>que la minute qui passe fût
                éternelle. <lb/>Il s'attache aux formes les plus périssa- <lb break="no"/>bles du
-               moment et les supplie de ne <lb/>pas le décevoir. <quote rend="align(center)">
-                  <l>J'ai cueilli ce brin de bruyère.</l>
-                  <l>L'automne est morte, souviens-t'en.</l>
-                  <l>Nous ne nous verrons plus sur terre,</l>
-                  <l>Odeur du temps, brin de bruyère...</l>
-                  <l>Et souviens-toi que je t'attends !</l>
-               </quote>
+               moment et les supplie de ne <lb/>pas le décevoir. <ref target="#l_adieu"><quote
+                     rend="align(center)">
+                     <l>J'ai cueilli ce brin de bruyère.</l>
+                     <l>L'automne est morte, souviens-t'en.</l>
+                     <l>Nous ne nous verrons plus sur terre,</l>
+                     <l>Odeur du temps, brin de bruyère...</l>
+                     <l>Et souviens-toi que je t'attends !</l>
+                  </quote></ref>
             </p>
 
             <p>
                <lb/>Souviens-toi ! Mais il n'est pas dupe. <lb/>Il sait que tout nous échappe et
                nous <lb/>blesse et quand il se plaint il imprime <lb/>à son pathétique un mouvement
-               d'une <lb/>discrétion parfaite. <quote rend="align(center)">
-                  <l>Je passais au bord de la Seine,</l>
-                  <l>Un livre ancien sous le bras.</l>
-                  <l>Le fleuve est pareil à ma peine...</l>
-                  <l>Il s'écoute et ne tarit pas...</l>
-                  <l>Quand donc finira la semaine !</l>
-               </quote>
+               d'une <lb/>discrétion parfaite. <ref target="#marie"><quote rend="align(center)">
+                     <l>Je passais au bord de la Seine,</l>
+                     <l>Un livre ancien sous le bras.</l>
+                     <l>Le fleuve est pareil à ma peine...</l>
+                     <l>Il s'écoute et ne tarit pas...</l>
+                     <l>Quand donc finira la semaine !</l>
+                  </quote></ref>
             </p>
 
             <p>
@@ -234,7 +233,8 @@
                sensibles. N'allons pas plus loin. <lb/>Il suffit que la Poésie reçoive un si bril-
                   <lb break="no"/>lant hommage. </p>
             <p rend="align(right)"><persName ref="#carco_francis">Francis Carco</persName>.</p>
-            <note type="ref_article" rend="handwritten"><ref target="#le_petit_niçois">Le Petit Niçois</ref>
+            <note type="ref_article" rend="handwritten"><ref target="#le_petit_niçois">Le Petit
+                  Niçois</ref>
                <date when-iso="07-31-1913">31 Juillet 1913</date></note>
          </div>
       </body>
@@ -266,6 +266,12 @@
          <person xml:id="bresil_marc">
             <persName><forename>Marc</forename><surname>Brésil</surname></persName>
             <note>Journaliste pour La Phalange</note>
+         </person>
+         <person xml:id="cahén_fritz_max">
+            <persName><forename>Max</forename><surname>Max Cahén</surname></persName>
+            <birth>Né en 1891 à Saarlouis, Allemagne.</birth>
+            <death>Mort en 1966 à Bonn, Allemagne.</death>
+            <note>Journaliste allemand.</note>
          </person>
          <person xml:id="cappatti_louis">
             <persName><forename>Louis</forename><surname>Cappatti</surname></persName>
@@ -336,12 +342,6 @@
             <birth>Né en 1496 à Cahors, France.</birth>
             <death>Mort en 1544 à Turin, Italie.</death>
             <note>Poète français de la Renaissance.</note>
-         </person>
-         <person xml:id="max_cahén_fritz">
-            <persName><forename>Max</forename><surname>Max Cahén</surname></persName>
-            <birth>Né en 1891 à Saarlouis, Allemagne.</birth>
-            <death>Mort en 1966 à Bonn, Allemagne.</death>
-            <note>Journaliste allemand.</note>
          </person>
          <person xml:id="mercereau_jack">
             <persName><forename>Jack</forename><surname>Mercereau</surname></persName>
@@ -418,14 +418,10 @@
          <place>
             <country xml:id="france">France</country>
             <placeName xml:id="paris">Paris</placeName>
-            <placeName xml:id="boulevard_saint_germain">Boulevard Saint-Germain</placeName>
-            <placeName xml:id="tour_eiffel">Tour Eiffel</placeName>
          </place>
          <place>
             <country>France</country>
             <placeName xml:id="nice">Nice</placeName>
-            <placeName xml:id="quai_félix_faure">Quai Félix-Faure</placeName>
-            <placeName xml:id="rue_gioffredo">Rue Gioffredo</placeName>
          </place>
          <place>
             <country>Allemagne</country>
@@ -444,8 +440,7 @@
             <placeName xml:id="londres">Londres</placeName>
          </place>
          <place>
-            <country>Ukraine</country>
-            <placeName xml:id="ukraine">Ukraine</placeName>
+            <country xml:id="Ukraine">Ukraine</country>
          </place>
       </listPlace>
       <listBibl>
@@ -457,17 +452,24 @@
                   <title>Alcools (1913)</title>
                   <relatedItem>
                      <listBibl>
-                        <bibl><title type="poem" xml:id="vendémiaire">Vendémiaire</title></bibl>
-                        <bibl><title type="poem" xml:id="zone">Zone</title></bibl>
+                        <bibl><title type="poem" xml:id="aubade_chantée_à_laetare_un_an_passé"
+                              >Aubade chantée à Lætare un an passé </title></bibl>
+                        <bibl><title type="poem" xml:id="automne">Automne</title></bibl>
+                        <bibl><title type="poem" xml:id="crépuscule">Crépuscule</title></bibl>
+                        <bibl><title type="poem" xml:id="l_adieu">L'Adieu</title></bibl>
+                        <bibl><title type="poem" xml:id="la_chanson_du_mal_aimé">La Chanson du
+                              mal-aimé</title></bibl>
+                        <bibl><title type="poem" xml:id="la_dame">La Dame</title></bibl>
                         <bibl><title type="poem" xml:id="la_maison_des_morts">La Maison des
                               Morts</title></bibl>
                         <bibl><title type="poem" xml:id="l_ermite">L'Ermite</title></bibl>
-                        <bibl><title type="poem" xml:id="l_adieu">L'Adieu</title></bibl>
+                        <bibl><title type="poem" xml:id="Marie">Marie</title></bibl>
                         <bibl><title type="poem" xml:id="nuit_rhénane">Nuit rhénane</title></bibl>
                         <bibl><title type="poem" xml:id="rhénane_d_automne">Rhénane
                               d'automne</title></bibl>
-                        <bibl><title type="poem" xml:id="automne">Automne</title></bibl>
-                        <bibl><title type="poem" xml:id="la_dame">La Dame</title></bibl>
+                        <bibl><title type="poem" xml:id="salomé">Salomé</title></bibl>
+                        <bibl><title type="poem" xml:id="vendémiaire">Vendémiaire</title></bibl>
+                        <bibl><title type="poem" xml:id="zone">Zone</title></bibl>
                      </listBibl>
                   </relatedItem>
                </bibl>
@@ -496,6 +498,10 @@
                   <bibl type="poem" xml:id="les_fiançailles"><title>Les Fiançailles</title>
                      <author>Guillaume Apollinaire</author>
                      <date when="1908">1908</date></bibl>
+                  <bibl type="poetry" xml:id="le_bestiaire_ou_cortège_d_orphée"><title>Le Bestiaire
+                        ou Cortège d'Orphée</title>
+                     <author>Guillaume Apollinaire</author>
+                     <date>1911</date></bibl>
                   <bibl type="fables" xml:id="fables_d_ésope"><title>Fables d'Ésope</title>
                      <author>Esope</author>
                      <date>VIIe siècle av. J.-C. - VIe siècle av. J.-C.</date>
