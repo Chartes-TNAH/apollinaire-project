@@ -70,7 +70,7 @@
                   <lb/><damage agent="collage"><gap reason="illegible"/></damage>e tout à fait à part dans la production poétique actuelle.
                </p>
                
-               <note type="ref_article" rend="handwritten format(landscape) underlign right">
+               <note type="ref_article" rend="handwritten format(landscape) underlined right">
                   <persName ref="#leautaud_paul">Paul Leautaud</persName>
                </note>
                
@@ -193,8 +193,8 @@
             <persName><forename>Jean</forename> <surname>Bayard</surname></persName>
          </person>
          
-         <person xml:id="caro_francis">
-            <persName><forename>Francis</forename> <surname>Caro</surname></persName>
+         <person xml:id="carco_francis">
+            <persName><forename>Francis</forename> <surname>Carco</surname></persName>
             <birth>Né le 3 juillet 1886 à Nouméa</birth>
             <death>Mort le 26 mai 1958 à Paris</death>
             <note>Ecrivain, poète, journaliste et parolier français.</note>
@@ -319,6 +319,19 @@
             <note>Poète français.</note>
          </person>
          
+         <person xml:id="romains_jules">
+            <persName><forename>Jules</forename><surname>Romains</surname></persName>
+            <birth>Né le 26 août 1885, à Saint-Julien-Chapteuil.</birth>
+            <death>Mort le 14 août 1972, à Paris.</death>
+            <note>Ecrivain, philosophe, poète et dramaturge français, membre de l'Académie française.</note>
+         </person>
+         
+         <person xml:id="royere_jean">
+            <persName><forename>Jean</forename><surname>Royère</surname></persName>
+            <birth>Né en 1871 à Aix-en-Provence, France.</birth>
+            <death>Mort en 1956 à Paris, France.</death>
+            <note>Poète et éditeur français.</note>
+         </person>
         
          <person xml:id="salmon_andré">
             <persName><forename>André</forename> <surname>Salmon</surname></persName>
@@ -367,7 +380,7 @@
          
          <listBibl>
             <head>Référence aux poèmes de Alcools</head>
-            <bibl xml:id="alcools">
+            <bibl>
                <author>Guillaume Apollinaire</author>
                <title>Alcools (1913)</title>
                
