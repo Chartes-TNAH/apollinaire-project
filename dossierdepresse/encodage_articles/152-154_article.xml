@@ -24,9 +24,7 @@
             
             <div type="rubrique" n="1">
             <head rend="tall caps">LE MOIS DU POÈTE <lb/>
-               <ref target="#alcools">
                   <bibl><author rend="caps">GUILLAUME APOLLINAIRE</author> : <title rend="caps italic">ALCOOLS</title> (<publisher rend="italic underlign red">Mercure</publisher>.)</bibl>
-               </ref>
             </head>
             
             <p>
@@ -55,7 +53,7 @@
                <lb/>des poésies <hi rend="italic">fugitives</hi>, oh non! Les trois premiers poèmes par exemple, <hi rend="italic"><ref target="#zone">Zone</ref></hi>,
                <lb/>le <hi  rend="italic"><ref target="#le_pont_mirabeau">Pont Mirabeau</ref></hi>, la <hi rend="italic"><ref target="#la_chanson_du_mal_aimée">Chanson du Mal-Aimé</ref></hi>, sont aussi dissemblables que
                <lb/>possible. Chez un artiste personnel, cette diversité peut paraître extraordi-
-               <lb break="no"/>naire, mais c'est parce que la personnalité d'Apollinaire est strictement poéti-
+               <lb break="no"/>naire, mais c'est parce que la personnalité d'<persName ref="#apollinaire_guillaume">Apollinaire</persName> est strictement poéti-
                <lb break="no"/>que, profonde, je veux dire verbale. Elle ne vient pas de l'inspiration, mais
                <lb/>de l'art. Pour <persName ref="#apollinaire_guillaume">Apollinaire</persName>, comme pour <persName ref="#baudelaire_charles">Baudelaire</persName>, l'inspiration n'existe
                <lb/>presque pas : les mots sont tout, j'entends l'<hi rend="caps">EXPRESSION</hi>. Or, chez ce poète
@@ -102,7 +100,7 @@
                <lb/>le mythe, chez <persName>Platon</persName>, imite la Dialectique. Mais il est rare qu'un symbole,
                <lb/>chez un poète symboliste, soit strictement conduit et rigidement tressé. Ce
                <lb/>serait introduire l'ennemi, — le didactisme, la prose, — dans la place. <hi rend="italic"><ref target="#le_larron">Le Larron</ref></hi>
-               <lb/>d'Apollinaire est hermétique d'être un amas de symboles, de lueurs, encore
+               <lb/>d'<persName ref="#apollinaire_guillaume">Apollinaire</persName> est hermétique d'être un amas de symboles, de lueurs, encore
                <lb/>qu'il y ait dans la pensée d'<persName ref="#apollinaire_guillaume">Apollinaire</persName> une ingénuité qui répugne aux simples
                <lb/>intuitions. Sa pensée le possède toujours : mais il s'évade des lacs syllogisti—
                <lb break="no"/>ques par son imagination, hardie et sûre d'elle, et par le goût. Cest un poète
@@ -128,7 +126,7 @@
                </ref>
                <lb/>mais c'est parce que l'hiver est la « saison lucide ». Les émotions ou mieux les
                <lb/>émois de l'enfant revivent dans ses notations avec une force hallucinatoire et
-               <lb/>Apollinaire leur conserve leurs formes conventionnelles d'anges.
+               <lb/><persName ref="#apollinaire_guillaume">Apollinaire</persName> leur conserve leurs formes conventionnelles d'anges.
                <ref target="#la_chanson_du_mal_aimée">
                   <quote rend="align(center) italic">
                      <l>Les dimanches s'y éternisent...</l>
@@ -138,15 +136,15 @@
                <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f154.item"/>
             
                <lb/>L'imagination de l'enfant fait corps avec son intelligence et il réalise en
-               <lb/>les incarnant autour de lui, les idoles métaphysiques et religieuses. Apollinaire
+               <lb/>les incarnant autour de lui, les idoles métaphysiques et religieuses. <persName ref="#apollinaire_guillaume">Apollinaire</persName>
                <lb/>possède cet émoi double et son livre est, comme son âme, religieux. Les huit
                <lb/>jours que dure la « retraite » avant la première communion sont consacrés,
                <lb/>sous la direction du prêtre, à des exercices de méditation. C'est une distraction
                <lb/>perpétuelle des sens flottant sur un effort méditatif de l'esprit gracieux et qui
                <lb/>a la grâce, et n'est—ce pas une image du jeu de contemplation que j'admire
                <lb/>dans cette poésie ingénue, ingénieuse et grande? Elle mérite d'être insultée
-               <lb/>par les admirateurs de <persName>M. J. Romains</persName>.
-               <lb rend="caps align(right)"/><persName>JEAN ROYÈRE</persName>
+               <lb/>par les admirateurs de M. <persName ref="#romains_jules">J. Romains</persName>.
+               <lb rend="caps align(right)"/><persName ref="#royere_jean">JEAN ROYÈRE</persName>
             </p>
                
             </div>
@@ -224,8 +222,8 @@
             <persName><forename>Jean</forename> <surname>Bayard</surname></persName>
          </person>
          
-         <person xml:id="caro_francis">
-            <persName><forename>Francis</forename> <surname>Caro</surname></persName>
+         <person xml:id="carco_francis">
+            <persName><forename>Francis</forename> <surname>Carco</surname></persName>
             <birth>Né le 3 juillet 1886 à Nouméa</birth>
             <death>Mort le 26 mai 1958 à Paris</death>
             <note>Ecrivain, poète, journaliste et parolier français.</note>
@@ -350,6 +348,19 @@
             <note>Poète français.</note>
          </person>
          
+         <person xml:id="romains_jules">
+            <persName><forename>Jules</forename><surname>Romains</surname></persName>
+            <birth>Né le 26 août 1885, à Saint-Julien-Chapteuil.</birth>
+            <death>Mort le 14 août 1972, à Paris.</death>
+            <note>Ecrivain, philosophe, poète et dramaturge français, membre de l'Académie française.</note>
+         </person>
+         
+         <person xml:id="royere_jean">
+            <persName><forename>Jean</forename><surname>Royère</surname></persName>
+            <birth>Né en 1871 à Aix-en-Provence, France.</birth>
+            <death>Mort en 1956 à Paris, France.</death>
+            <note>Poète et éditeur français.</note>
+         </person>
         
          <person xml:id="salmon_andré">
             <persName><forename>André</forename> <surname>Salmon</surname></persName>
@@ -398,7 +409,7 @@
          
          <listBibl>
             <head>Référence aux poèmes de Alcools</head>
-            <bibl xml:id="alcools">
+            <bibl>
                <author>Guillaume Apollinaire</author>
                <title>Alcools (1913)</title>
                
