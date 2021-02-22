@@ -81,7 +81,7 @@
                das modernste <lb/>Leben der Großstadt getreten. Die Automobile knattern über
                <lb/>den Asphalt, die Lichter der Straße slimmern und leuchten, <lb/>die Lippmädels
                ziehen Arm in Arm vorbei und der un- <lb break="no"/>bewegliche <placeName
-                  ref="#tour_eiffel">Eiffelturm</placeName> starrt auf dieses Treiben herab. In
+                  ref="#paris">Eiffelturm</placeName> starrt auf dieses Treiben herab. In
                <lb/>seiner Mitte aber steht der Dichter mit seinen rapiden, oft <lb/>danken und
                Assoziationen. Er sieht die Körper der Toten <lb/>im Leichenschauhause zu <placeName
                   ref="#munich">München</placeName> durch die Scheiben <lb/>grinsen und lädt sie zu
@@ -92,7 +92,8 @@
                Hassischen französischen Brosodie <lb/>ist kaum noch etwas zu merken, und das Ganze
                ist zu einer <lb/>subtilen, eigenwilligen Nervenkunst geworden. </p>
             <p><persName ref="#haas_albert">Albert Haas</persName></p>
-            <note type="ref_article" rend="handwritten"><ref target="#börfen_courrier">Börfen-Courrier</ref>
+            <note type="ref_article" rend="handwritten"><ref target="#börfen_courrier"
+                  >Börfen-Courrier</ref>
                <date when-iso="10-23-1913">23 octobre 1913</date></note>
          </div>
 
@@ -108,13 +109,13 @@
                <l>Und trotte trotte</l>
                <l>Trottet die kleine Maus</l>
             </lg>
-            <p>Uebertragen von <persName ref="#max_cahén_fritz">Fritz Max Cahén</persName></p>
+            <p>Uebertragen von <persName ref="#cahén_fritz_max">Fritz Max Cahén</persName></p>
          </div>
 
          <div type="article" n="201" xml:id="article3_201" xml:lang="de">
             <head><persName ref="#apollinaire_guillaume"><hi rend="bold">Guillaume
-                     Apollinaire</hi></persName>, <ref target="#alcools">Alcools</ref>. Paris,
-               Mercure de France.</head>
+                  Apollinaire</hi></persName>, <ref target="#alcools">Alcools</ref>. Paris, <ref
+                  target="#le_mercure_de_france">Mercure de France</ref>.</head>
 
             <p>
                <lb/>Es ist manches in diesem Buche <persName ref="#apollinaire_guillaume"
@@ -151,8 +152,9 @@
                <lb/>dafür zu zitieren : daß es auf <quote>„die lebendige Empfindung für die Zu- <lb
                      break="no"/>stände”</quote> und auf <quote>„die Fähighkeit sie
                   auszudrücken”</quote> ankomme, um <lb/>Dichter zu sein? </p>
-            <p><persName ref="#max_cahén_fritz">Fritz Max Cahén</persName></p>
-            <note type="ref_article" rend="handwritten"><ref target="#das_beiblatt">Das Beiblatt. Der Buecherei Maiandros</ref>
+            <p><persName ref="#cahén_fritz_max">Fritz Max Cahén</persName></p>
+            <note type="ref_article" rend="handwritten"><ref target="#das_beiblatt">Das Beiblatt.
+                  Der Buecherei Maiandros</ref>
                <date when-iso="11-19-1913">19 Novembre 1913</date></note>
          </div>
 
@@ -160,28 +162,27 @@
             <p>
                <lb/><persName ref="#apollinaire_guillaume">M. Guillaume Apollinaire</persName> s'est
                affirmé, par la publication de son livre <lb/><ref target="#alcools"><hi
-                     rend="italic">Alcools</hi></ref>‚ comme l'un des poètes les plus brulants de
-               sa génération. On connais— <lb break="no"/>sait déja un grand nombre de ces poèmes
-               parus au <ref target="#le_festin_d_ésope"><hi rend="italic">Festin
-                  d'Esope</hi></ref>, à la <ref target="#la_revue_blanche"><hi rend="italic"
-                     >Revue <lb/>Blanche</hi></ref>, au <ref target="#le_mercure_de_france"><hi
-                     rend="italic">Mercure</hi></ref>, à la <ref target="#la_phalange"><hi
-                     rend="italic">Phalange</hi></ref>, aux <ref target="#soirées_de_paris"><hi
-                     rend="italic">Soirées de Paris</hi></ref>, etc., mais ce n'est <lb/>pas sans
-               quelque impatience que l'on attendait qu'ils fussent réunis en recueil. <lb/>La
-               personnalité lyrique de <persName ref="#apollinaire_guillaume">M. Guillaume
-                  Apollinaire</persName> nous est offerte là sous <lb/>ses multiples aspects. Nul
-               mieux que lui ne connaît l'art de la métamorphose, <lb/>le jeu des vers, nul mieux
-               que lui ne sait donner aux mots un sens étoilé. <lb/>Les amateurs d'art moderne
-               trouveront au seuil de ce volume un portrait <lb/>sans égal de <persName
-                  ref="#apollinaire_guillaume">M. Apollinaire</persName> par <persName
-                  ref="#picasso_pablo">M. Picasso</persName>. Le grand peintre espagnol a élaboré
-               <lb/>une synthèse de décoration métaphysique et a réussi à nous montrer <persName
-                  ref="#apollinaire_guillaume">M. Guil— <lb break="no"/>laume Apollinaire</persName>
-               tout a la fois de face, de profil et de dos; cette oeuvre est <lb/>surprenante plus
-               que nous ne saurions dire et tous les admirateurs de <persName
-                  ref="#apollinaire_guillaume">M. Apol— <lb break="no"/>linaire</persName> aimeront
-               avoir ce portrait de notre nouvel Amphion, rendu dans son <lb/>entéléchie. </p>
+                     rend="italic">Alcools</hi></ref>‚ comme l'un des poètes les plus brulants de sa
+               génération. On connais— <lb break="no"/>sait déja un grand nombre de ces poèmes parus
+               au <ref target="#le_festin_d_ésope"><hi rend="italic">Festin d'Esope</hi></ref>, à la
+                  <ref target="#la_revue_blanche"><hi rend="italic">Revue <lb/>Blanche</hi></ref>,
+               au <ref target="#le_mercure_de_france"><hi rend="italic">Mercure</hi></ref>, à la
+                  <ref target="#la_phalange"><hi rend="italic">Phalange</hi></ref>, aux <ref
+                  target="#soirées_de_paris"><hi rend="italic">Soirées de Paris</hi></ref>, etc.,
+               mais ce n'est <lb/>pas sans quelque impatience que l'on attendait qu'ils fussent
+               réunis en recueil. <lb/>La personnalité lyrique de <persName
+                  ref="#apollinaire_guillaume">M. Guillaume Apollinaire</persName> nous est offerte
+               là sous <lb/>ses multiples aspects. Nul mieux que lui ne connaît l'art de la
+               métamorphose, <lb/>le jeu des vers, nul mieux que lui ne sait donner aux mots un sens
+               étoilé. <lb/>Les amateurs d'art moderne trouveront au seuil de ce volume un portrait
+               <lb/>sans égal de <persName ref="#apollinaire_guillaume">M. Apollinaire</persName>
+               par <persName ref="#picasso_pablo">M. Picasso</persName>. Le grand peintre espagnol a
+               élaboré <lb/>une synthèse de décoration métaphysique et a réussi à nous montrer
+                  <persName ref="#apollinaire_guillaume">M. Guil— <lb break="no"/>laume
+                  Apollinaire</persName> tout a la fois de face, de profil et de dos; cette oeuvre
+               est <lb/>surprenante plus que nous ne saurions dire et tous les admirateurs de
+                  <persName ref="#apollinaire_guillaume">M. Apol— <lb break="no"/>linaire</persName>
+               aimeront avoir ce portrait de notre nouvel Amphion, rendu dans son <lb/>entéléchie. </p>
             <p><persName ref="#bresil_marc">MARC BRESIL</persName> et <persName
                   ref="#gonzague_frick_louis_de">LOUIS DE GONZAGUE FRICK</persName></p>
             <note type="ref_article" rend="handwritten"><ref target="#la_phalange">La Phalange</ref>
@@ -216,6 +217,12 @@
          <person xml:id="bresil_marc">
             <persName><forename>Marc</forename><surname>Brésil</surname></persName>
             <note>Journaliste pour La Phalange</note>
+         </person>
+         <person xml:id="cahén_fritz_max">
+            <persName><forename>Max</forename><surname>Max Cahén</surname></persName>
+            <birth>Né en 1891 à Saarlouis, Allemagne.</birth>
+            <death>Mort en 1966 à Bonn, Allemagne.</death>
+            <note>Journaliste allemand.</note>
          </person>
          <person xml:id="cappatti_louis">
             <persName><forename>Louis</forename><surname>Cappatti</surname></persName>
@@ -286,12 +293,6 @@
             <birth>Né en 1496 à Cahors, France.</birth>
             <death>Mort en 1544 à Turin, Italie.</death>
             <note>Poète français de la Renaissance.</note>
-         </person>
-         <person xml:id="max_cahén_fritz">
-            <persName><forename>Max</forename><surname>Max Cahén</surname></persName>
-            <birth>Né en 1891 à Saarlouis, Allemagne.</birth>
-            <death>Mort en 1966 à Bonn, Allemagne.</death>
-            <note>Journaliste allemand.</note>
          </person>
          <person xml:id="mercereau_jack">
             <persName><forename>Jack</forename><surname>Mercereau</surname></persName>
@@ -368,14 +369,10 @@
          <place>
             <country xml:id="france">France</country>
             <placeName xml:id="paris">Paris</placeName>
-            <placeName xml:id="boulevard_saint_germain">Boulevard Saint-Germain</placeName>
-            <placeName xml:id="tour_eiffel">Tour Eiffel</placeName>
          </place>
          <place>
             <country>France</country>
             <placeName xml:id="nice">Nice</placeName>
-            <placeName xml:id="quai_félix_faure">Quai Félix-Faure</placeName>
-            <placeName xml:id="rue_gioffredo">Rue Gioffredo</placeName>
          </place>
          <place>
             <country>Allemagne</country>
@@ -394,8 +391,7 @@
             <placeName xml:id="londres">Londres</placeName>
          </place>
          <place>
-            <country>Ukraine</country>
-            <placeName xml:id="ukraine">Ukraine</placeName>
+            <country xml:id="Ukraine">Ukraine</country>
          </place>
       </listPlace>
       <listBibl>
@@ -407,17 +403,24 @@
                   <title>Alcools (1913)</title>
                   <relatedItem>
                      <listBibl>
-                        <bibl><title type="poem" xml:id="vendémiaire">Vendémiaire</title></bibl>
-                        <bibl><title type="poem" xml:id="zone">Zone</title></bibl>
+                        <bibl><title type="poem" xml:id="aubade_chantée_à_laetare_un_an_passé"
+                              >Aubade chantée à Lætare un an passé </title></bibl>
+                        <bibl><title type="poem" xml:id="automne">Automne</title></bibl>
+                        <bibl><title type="poem" xml:id="crépuscule">Crépuscule</title></bibl>
+                        <bibl><title type="poem" xml:id="l_adieu">L'Adieu</title></bibl>
+                        <bibl><title type="poem" xml:id="la_chanson_du_mal_aimé">La Chanson du
+                              mal-aimé</title></bibl>
+                        <bibl><title type="poem" xml:id="la_dame">La Dame</title></bibl>
                         <bibl><title type="poem" xml:id="la_maison_des_morts">La Maison des
                               Morts</title></bibl>
                         <bibl><title type="poem" xml:id="l_ermite">L'Ermite</title></bibl>
-                        <bibl><title type="poem" xml:id="l_adieu">L'Adieu</title></bibl>
+                        <bibl><title type="poem" xml:id="Marie">Marie</title></bibl>
                         <bibl><title type="poem" xml:id="nuit_rhénane">Nuit rhénane</title></bibl>
                         <bibl><title type="poem" xml:id="rhénane_d_automne">Rhénane
                               d'automne</title></bibl>
-                        <bibl><title type="poem" xml:id="automne">Automne</title></bibl>
-                        <bibl><title type="poem" xml:id="la_dame">La Dame</title></bibl>
+                        <bibl><title type="poem" xml:id="salomé">Salomé</title></bibl>
+                        <bibl><title type="poem" xml:id="vendémiaire">Vendémiaire</title></bibl>
+                        <bibl><title type="poem" xml:id="zone">Zone</title></bibl>
                      </listBibl>
                   </relatedItem>
                </bibl>
@@ -446,6 +449,10 @@
                   <bibl type="poem" xml:id="les_fiançailles"><title>Les Fiançailles</title>
                      <author>Guillaume Apollinaire</author>
                      <date when="1908">1908</date></bibl>
+                  <bibl type="poetry" xml:id="le_bestiaire_ou_cortège_d_orphée"><title>Le Bestiaire
+                        ou Cortège d'Orphée</title>
+                     <author>Guillaume Apollinaire</author>
+                     <date>1911</date></bibl>
                   <bibl type="fables" xml:id="fables_d_ésope"><title>Fables d'Ésope</title>
                      <author>Esope</author>
                      <date>VIIe siècle av. J.-C. - VIe siècle av. J.-C.</date>
