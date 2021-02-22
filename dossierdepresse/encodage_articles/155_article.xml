@@ -68,7 +68,7 @@
             </p>
             <p>
                <lb/>Je n'ai pas attendu que le livre de poè—
-               <lb break="no"/>mes qu'il publie, et qui s'intitule <hi rend="italic"><ref target="#alcools">Alcools</ref></hi>,
+               <lb break="no"/>mes qu'il publie, et qui s'intitule <hi rend="italic">Alcools</hi>,
                <lb/>paraisse pour tenir <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName>
                <lb/>dans une très haute estime. Il la mérite
                <lb/>depuis longtemps, et quand j'aurai dit que
@@ -231,7 +231,7 @@
                <lb/>et discernement. Il. est courtois. Il est cu—
                <lb break="no"/>rieux. Il a du goût et, quand il célèbre
                <lb/>les peintres cubistes, pour tout dire, ou
-               <lb/>vante la beauté de la tour Eiffel, c'est en—
+               <lb/>vante la beauté de la <placeName ref="#paris">tour Eiffel</placeName>, c'est en—
                <lb break="no"/>core un moyen pour lui de se surveiller.
                <lb/>N'a-t—il pas écrit qu'il empruntait au cu-
                <lb break="no"/>bisme une méthode dans l'art de devenir
@@ -241,7 +241,7 @@
             
                <note type="ref_article" rend="handwritten">
                   <ref target="#l_intransigeant">L'Intransigeant</ref> 
-                  <date>30 juillet 1913</date>
+                  <date when-iso="1913-07-30">30 juillet 1913</date>
                </note>
             
          </div>
@@ -277,8 +277,8 @@
             <persName><forename>Jean</forename> <surname>Bayard</surname></persName>
          </person>
          
-         <person xml:id="caro_francis">
-            <persName><forename>Francis</forename> <surname>Caro</surname></persName>
+         <person xml:id="carco_francis">
+            <persName><forename>Francis</forename> <surname>Carco</surname></persName>
             <birth>Né le 3 juillet 1886 à Nouméa</birth>
             <death>Mort le 26 mai 1958 à Paris</death>
             <note>Ecrivain, poète, journaliste et parolier français.</note>
@@ -403,6 +403,19 @@
             <note>Poète français.</note>
          </person>
          
+         <person xml:id="romains_jules">
+            <persName><forename>Jules</forename><surname>Romains</surname></persName>
+            <birth>Né le 26 août 1885, à Saint-Julien-Chapteuil.</birth>
+            <death>Mort le 14 août 1972, à Paris.</death>
+            <note>Ecrivain, philosophe, poète et dramaturge français, membre de l'Académie française.</note>
+         </person>
+         
+         <person xml:id="royere_jean">
+            <persName><forename>Jean</forename><surname>Royère</surname></persName>
+            <birth>Né en 1871 à Aix-en-Provence, France.</birth>
+            <death>Mort en 1956 à Paris, France.</death>
+            <note>Poète et éditeur français.</note>
+         </person>
         
          <person xml:id="salmon_andré">
             <persName><forename>André</forename> <surname>Salmon</surname></persName>
@@ -451,7 +464,7 @@
          
          <listBibl>
             <head>Référence aux poèmes de Alcools</head>
-            <bibl xml:id="alcools">
+            <bibl>
                <author>Guillaume Apollinaire</author>
                <title>Alcools (1913)</title>
                
