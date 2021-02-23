@@ -51,7 +51,7 @@
                   <div type="article" n="146" xml:id="article2_146">
                      <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f146.item"/>
                      
-                     <head rend="caps bold">
+                     <head rend="case(caps) bold">
                         M. <persName ref="#de_gonzague_frick_louis">LOUIS DE GONZAGUE FRICK</persName>
                      </head>
                      
@@ -110,7 +110,7 @@
                         <lb break="no"/>sonnelle pour que nos lecteurs distinguent au
                         <lb/>premier coup d'œil leur véritable origine :
                         <quote>
-                           <title rend="align(center) caps">PRIÈRE DU SOIR</title>
+                           <title rend="align(center) case(caps)">PRIÈRE DU SOIR</title>
                            <l>Une femme qui porte un enfant sur son bras va
                               <lb rend="interligne"/>[faire signe à un autobus</l>
                            <l>Il avait joué <hi rend="italic">Nimbus</hi> placé dans la troisième</l>
@@ -144,7 +144,7 @@
                   <div type="article" n="146" xml:id="article4_146">
                      <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f146.item"/>
                      
-                     <head  rend="align(center) caps bold underline">ALCOOLS</head>
+                     <head  rend="align(center) case(caps) bold underline">ALCOOLS</head>
                      <p>
                         <lb/>Ce livre est orné du portrait de l'au-
                         <lb break="no"/>teur par <persName ref="#picasso_pablo">Pablo Picasso</persName>. Vous verrez un
@@ -200,7 +200,7 @@
                   
                   
                   <!-- Début de l'article : xml:id article_150-151. -->
-                  <metamark rend="center caps">LES CHRONIQUES <num type="pagination" rend="bold align(right)">269</num></metamark>
+                  <metamark rend="center case(caps)">LES CHRONIQUES <num type="pagination" rend="bold align(right)">269</num></metamark>
                   
                   <quote rend="align(center)">
                      <ref target="#crépuscule"><l>Un charlatan crépusculaire</l>
@@ -239,7 +239,7 @@
                   <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f147.item"/>
                   
                   <head>
-                     <lb rend="align(center) bold caps"/>ALCOOL
+                     <lb rend="align(center) bold case(caps)"/>ALCOOL
                      <lb/>Poème, par <hi rend="italic"><persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName></hi>.
                   </head>
                   
@@ -273,7 +273,7 @@
                      <lb break="no"/>tion de <hi rend="italic">Alcools</hi>, de M. <persName ref="#apollinaire_guillaume">Apollinaire</persName>, il ne faut pas le
                      <lb/>moindre blanc dans les vers de son poème. Une seule ligne,
                      <lb/>un seul vers de la première page à la dernière. Ah ! le
-                     <lb/>bon nougat ! <hi rend="align(right) caps">L'AVEUGLE DU PONT DES ARTS</hi>
+                     <lb/>bon nougat ! <hi rend="align(right) case(caps)">L'AVEUGLE DU PONT DES ARTS</hi>
                   </p>
                   
                   <note type="ref_article" rend="handwritten">
@@ -291,7 +291,7 @@
                      <lb rend="bold tall underline"/>Les lettres
                      <lb rend="bold underline"/>Le livre du Jour
                      <bibl>
-                        <lb/><title rend="caps">ALCOOLS</title>, par <author rend="italic">Guillaume Apollinaire</author> (<publisher>Mer-
+                        <lb/><title rend="case(caps)">ALCOOLS</title>, par <author rend="italic">Guillaume Apollinaire</author> (<publisher>Mer-
                            <lb/>cure de France</publisher>).
                      </bibl>
                   </head>
@@ -372,10 +372,10 @@
                   <div type="rubrique" n="1">
                      <head>
                         <bibl>
-                           <lb/><author rend="align(center) bold tall caps"><persName ref="#apollinaire_guillaume">GUILLAUME APOLLINAIRE</persName></author>
+                           <lb/><author rend="align(center) bold tall case(caps)"><persName ref="#apollinaire_guillaume">GUILLAUME APOLLINAIRE</persName></author>
                            <lb/><title>
                               <damage agent="collage"><unclear>A</unclear></damage><hi rend="bold">cools</hi>, poèmes (1898-1913). Avec un portrait de l'au-
-                              <lb break="no"/><damage agent="collage"/>teur par <persName ref="#picasso_pablo" rend="caps">PABLO PICASSO</persName></title>. Vol. in-18 ..........  3,50
+                              <lb break="no"/><damage agent="collage"/>teur par <persName ref="#picasso_pablo" rend="case(caps)">PABLO PICASSO</persName></title>. Vol. in-18 ..........  3,50
                         </bibl>
                      </head>
                      
@@ -451,7 +451,7 @@
                      <!-- Ne concerne ni Apollinaire, ni Alcools -->
                      <head>
                         <bibl>
-                           <author><lb/><hi rend="bold, align(center) tall caps">RENÉ ARCOS</hi></author>
+                           <author><lb/><hi rend="bold, align(center) tall case(caps)">RENÉ ARCOS</hi></author>
                            <title><lb/><hi rend="bold">L'Ile perdue</hi>, poème dramatique</title>. Vol. in-18. 3,50
                         </bibl>
                      </head>
@@ -473,7 +473,7 @@
                      <!-- Ne concerne ni Apollinaire, ni Alcools -->
                      <head rend="tall">
                         <bibl>
-                           <lb/><author rend="bold, align(center) tall caps">BOTTOM</author>
+                           <lb/><author rend="bold, align(center) tall case(caps)">BOTTOM</author>
                            <lb/><title><hi rend="bold">Ainsi parlait Jéroboam</hi><hi rend="italic"> ou la Finance en ac
                               <lb break="no"/>tions</hi></title> Vol. petit in-18  .....................  2 
                         </bibl>
@@ -506,7 +506,7 @@
                   
                   <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f150.item"/>
                   
-                  <metamark><title rend="caps">LES CHRONIQUES</title> <num rend="align(right)">267</num></metamark>
+                  <metamark><title rend="case(caps)">LES CHRONIQUES</title> <num rend="align(right)">267</num></metamark>
                   
                   <div type="rubrique" n="1">
                      <!-- Ne concerne pas Apollinaire -->
@@ -698,8 +698,8 @@
                   <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f152.item"/>
                   
                   <div type="rubrique" n="1">
-                     <head rend="tall caps">LE MOIS DU POÈTE <lb/>
-                        <bibl><author rend="caps">GUILLAUME APOLLINAIRE</author> : <title rend="caps italic">ALCOOLS</title> (<publisher rend="italic underlign red">Mercure</publisher>.)</bibl>
+                     <head rend="tall case(caps)">LE MOIS DU POÈTE <lb/>
+                        <bibl><author rend="case(caps)">GUILLAUME APOLLINAIRE</author> : <title rend="case(caps) italic">ALCOOLS</title> (<publisher rend="italic underline red">Mercure</publisher>.)</bibl>
                      </head>
                      
                      <p>
@@ -731,7 +731,7 @@
                         <lb break="no"/>naire, mais c'est parce que la personnalité d'<persName ref="#apollinaire_guillaume">Apollinaire</persName> est strictement poéti-
                         <lb break="no"/>que, profonde, je veux dire verbale. Elle ne vient pas de l'inspiration, mais
                         <lb/>de l'art. Pour <persName ref="#apollinaire_guillaume">Apollinaire</persName>, comme pour <persName ref="#baudelaire_charles">Baudelaire</persName>, l'inspiration n'existe
-                        <lb/>presque pas : les mots sont tout, j'entends l'<hi rend="caps">EXPRESSION</hi>. Or, chez ce poète
+                        <lb/>presque pas : les mots sont tout, j'entends l'<hi rend="case(caps)">EXPRESSION</hi>. Or, chez ce poète
                         <lb/>de fond si disparate, si inconsistant, on admire une parfaite homogénéité
                         <lb/>d'expression : il use indifféremment des rythmes les plus variés, illustrant
                         <lb/>cette conviction à laquelle je suis peu à peu parvenu que c'est la langue, en
@@ -819,14 +819,14 @@
                         <lb/>a la grâce, et n'est—ce pas une image du jeu de contemplation que j'admire
                         <lb/>dans cette poésie ingénue, ingénieuse et grande? Elle mérite d'être insultée
                         <lb/>par les admirateurs de M. <persName ref="#romains_jules">J. Romains</persName>.
-                        <lb rend="caps align(right)"/><persName ref="#royere_jean">JEAN ROYÈRE</persName>
+                        <lb rend="case(caps) align(right)"/><persName ref="#royere_jean">JEAN ROYÈRE</persName>
                      </p>
                      
                   </div>
                   
                   <div type="rubrique" n="2">
                      <!-- Ne concerne ni Apollinaire, ni Alcools -->
-                     <head rend="align(left) caps underlign">REVUES</head>
+                     <head rend="align(left) case(caps) underline">REVUES</head>
                      <p>
                         <lb/>Voici que, par les soins de M. Henry—D. Davyray, le <hi rend="bold">Merure de France</hi> nous
                         <lb/>donne, d'Oscar Wilde, une lettre tout à la fois hautaine et pitoyable.
@@ -883,7 +883,7 @@
                   <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f155.item"/>
                   <cb n="1"/>
                   
-                  <head rend="align(center) caps">
+                  <head rend="align(center) case(caps)">
                      <lb rend="italic"/>A PROPOS D'UN LIVRE
                      <lb rend="tallest"/><persName ref="#apollinaire_guillaume">GUILLAUME APOLLINATRE</persName>
                   </head>
@@ -1116,7 +1116,7 @@
                <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f156.item"/>
                
                <p>
-                  <lb/>M. <persName ref="#apollinaire_guillaume" rend="caps">GUILLAUME APOLLINAIRE</persName> a le plus grand mépris de ses
+                  <lb/>M. <persName ref="#apollinaire_guillaume" rend="case(caps)">GUILLAUME APOLLINAIRE</persName> a le plus grand mépris de ses
                   <lb/>contemporains. Il ne les juge pas capables de le com-
                   <lb break="no"/>prendre, et son langage leur fait des concessions. Pourquoi
                   <lb/>n'a—t—il pas écrit tous les vers d'Alcools<note anchored="true" n="1" place="foot">1. Mercure de France.</note>! à la file, tous ses
