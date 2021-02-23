@@ -22,7 +22,7 @@
       <group>
          <text>
             <body>
-               <div type="letter" n="165" xml:id="lettre_165" sameAs="#lettre_167-168">
+               <div type="letter" n="165" xml:id="lettre_165" sameAs="#lettre_167-169">
                   <pb type="recto" subtype="copy"
                      facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f165.item.r=Apollinaire%20manuscrits.zoom"
                   />
@@ -47,7 +47,7 @@
                      <address rend="align(top right) case(allcaps)" style="printed">
                         <addrLine><placeName ref="#Paris">17 quai Voltaire</placeName></addrLine>
                      </address>
-                     <dateline><date when="1913-06-14" rend="align(top left)">14 juin
+                     <dateline><date when-iso="1913-06-14" rend="align(top left)">14 juin
                         1913</date></dateline>
                      <salute>Mon cher Ami,</salute>
                   </opener>
@@ -81,7 +81,7 @@
                      <address rend="align(top right)">
                         <addrLine><placeName ref="#Paris">Paris</placeName></addrLine>
                      </address>
-                     <dateline><date when="1913-06-07" rend="align(top left)">7 juin
+                     <dateline><date when-iso="1913-06-07" rend="align(top left)">7 juin
                         1913</date></dateline>
                      <salute>Mon cher Ami,</salute>
                   </opener>
@@ -117,7 +117,7 @@
                      <address rend="align(top left)">
                         <addrLine><placeName ref="#cap_d_ail">Cap d'ail</placeName></addrLine>
                      </address>
-                     <dateline><date when="1913-05-30" rend="align(left)">30 mai
+                     <dateline><date when-iso="1913-05-30" rend="align(left)">30 mai
                         1913</date></dateline>
                      <salute>Mon cher <persName ref="#apollinaire_guillaume"
                         >Guillaume</persName>,</salute>
@@ -182,7 +182,7 @@
                   <pb type="recto"
                      facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f173.item.r=Apollinaire%20manuscrits"/>
                   <p>que vous parviendrez "heureusement aux époques lointaines" où <lb/>verdoie
-                     l'arbre palladien : <lb/>--- Palladis arbor <lb/>Inclinat varias pondere negra
+                     l'arbre palladien : <lb/>...Palladis arbor <lb/>Inclinat varias pondere negra
                      cornas.</p>
                   <p>Vous savez des histoires merveilleuses, à souffler dans la nuque <lb/>des
                      reines, et d'anciennes de chansons de bord où il est <lb/>parlé d'un
@@ -241,7 +241,7 @@
                   <p>veux pas tarder davantage <lb/>à vous remercier de votre <lb/>aimable envoi et
                      à vous féliciter.</p>
                   <closer>
-                     <date when="1913-06-22" rend="align(left)s">22 juin 1913</date>
+                     <date when-iso="1913-06-22" rend="align(left)s">22 juin 1913</date>
                      <signed rend="align(center)"><persName ref="#aimé_henri">Henri
                         Aimé</persName></signed>
                   </closer>
@@ -254,7 +254,7 @@
                   <pb type="verso"
                      facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f177.item.r=Apollinaire%20manuscrits"/>
                   <opener>
-                     <dateline><date when="1913-06-19" rend="align(left)">19 Juin
+                     <dateline><date when-iso="1913-06-19" rend="align(left)">19 Juin
                         13-</date></dateline>
                      <address rend="align(top right)">
                         <addrLine><placeName ref="#curverville">Cuverville</placeName><lb/> par
@@ -266,10 +266,10 @@
                         >Apollinaire</persName>,</salute>
                   </opener>
                   <p>Votre livre, un des rares que j'emporte<lb/> ici avec moi, augmente mes regrets
-                     de vous<lb/> avoir si peu vu cet hiver _ ou même:<lb/> pas du tout. J'aime
+                     de vous<lb/> avoir si peu vu cet hiver - ou même:<lb/> pas du tout. J'aime
                      votre poésie, et<lb/> je m'entends bien avec elle; mon esprit<lb/> s'y sent sur
                      sa pente et s'abandonne<lb/> à vous; vous le menez où il me plait<lb/> d'aller
-                     _ et si piètre causeur que je<lb/> sois il me semble que je m'entendrais<lb/>
+                     - et si piètre causeur que je<lb/> sois il me semble que je m'entendrais<lb/>
                      aussi bien avec vous.</p>
                   <pb type="verso"
                      facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f178.item.r=Apollinaire%20manuscrits"/>
@@ -318,10 +318,10 @@
                   </opener>
                   <p>Voici les lettres, puis <lb break="no"/>que je viens d’acheter les oeuvres
                      <lb/>complètes de cette dame. <lb/>Bien merci pour <hi rend="underligned"
-                        >Alcools</hi> (souligné) <lb/>Je les lis. Il y a des choses <lb/>exquises,
+                        >Alcools</hi><lb/>Je les lis. Il y a des choses <lb/>exquises,
                      et il y en a <lb/>aussi qui demandent <lb/>toute mon attention pour <lb/>que je
                      les comprenne ! ... <lb/>Je sais que vous dites qu'il <lb/>ne faut pas vouloir
-                     tou- <lb/>jours comprendre. Mais <lb/>je ne puis pas faire <lb/>autrement.</p>
+                     tou-<lb break="no"/>jours comprendre. Mais <lb/>je ne puis pas faire <lb/>autrement.</p>
                   <p>Et <persName ref="#rétif_de_la_bretonne">Restif</persName> ? J'ai une
                      <lb/>nouvelle chose de lui <lb/><ref target="#l_enclos_et_les_oiseaux">L'Enclos
                         et les oiseaux</ref>
@@ -399,7 +399,7 @@
                   <cb n="2"/>
                   <p>admiré dans <ref target="#la_phalange">la Phalange</ref> vos<lb/>
                      <ref target="#rhenane">Rhénanes</ref> lorsqu'elles y ont<lb/> paru.</p>
-                  <p>Croyez à toute l'expres-<lb/> sion de ma gratitude, et<lb/> recevez cher
+                  <p>Croyez à toute l'expres-<lb break="no"/>sion de ma gratitude, et<lb/> recevez cher
                      monsieur,<lb/> je vous prie, à l'expression<lb/> de mes sentiments très
                         distingu<unclear reason="illegible">ées</unclear>.</p>
                   <closer><signed><persName ref="#aspiq">Aspiq</persName></signed></closer>
@@ -440,7 +440,7 @@
                      <dateline><date>mercredi</date></dateline>
                      <salute>Mon cher ami,</salute>
                   </opener>
-                  <p>je ne puis aller vous voir tout à l'heu-<lb/> re car je suis accablé de
+                  <p>je ne puis aller vous voir tout à l'heu-<lb break="no"/>re car je suis accablé de
                      besogne. Ce matin j'ai<lb/> pris au <ref target="#mercure_de_france"
                         >Mercure</ref> votre beau livre que l'autre<lb/> nuit, chez <persName
                         ref="#mac_orlan_pierre">Pierre Mac Orlan</persName>, nous avons lu<lb/> avec
@@ -465,7 +465,7 @@
                <div type="letter" n="192, 193" xml:id="lettre_192-193">
                   <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f192.item"/>
                   <opener>
-                     <dateline><date when="1913-06-19">19 Juin 1913</date></dateline>
+                     <dateline><date when-iso="1913-06-19">19 Juin 1913</date></dateline>
                      <stamp>3, RUE LAS-CASES. VIIe.</stamp>
                      <salute>Mon cher ami.</salute></opener>
                   <p>Je viens de rentrer de<lb/> la campagne et de trouver chez moi votre<lb/>
@@ -481,7 +481,7 @@
                   <spanGrp type="postmarked">
                      <span type="postmark" rend="red">République français 10c</span>
                      <span type="stamp">
-                        <date when="1913-06-20"><placeName ref="#paris">Paris</placeName> Ste Anne
+                        <date when-iso="1913-06-20"><placeName ref="#paris">Paris</placeName> Ste Anne
                            20-6-13</date>
                      </span>
                      <span type="receiver">
@@ -527,7 +527,7 @@
                                  >PARIS</placeName>-<placeName ref="#neuilly_sur_seine"
                                  >NEUILLY</placeName></addrLine>
                         </address></stamp>
-                     <dateline><date when="1913-07-01"><stamp>CE</stamp> 1er juillet
+                     <dateline><date when-iso="1913-07-01"><stamp>CE</stamp> 1er juillet
                               <stamp>191</stamp>3</date></dateline>
                      <salute>Mon cher Poète et ami,</salute>
                   </opener>
@@ -580,7 +580,7 @@
                      </address>
                   </closer>
                   <postscript>
-                     <p>Si samedi ne vous convient pas, propo-<lb/> sez-nous un autre jour.</p>
+                     <p>Si samedi ne vous convient pas, propo-<lb break="no"/>sez-nous un autre jour.</p>
                      <p>Jeudi matin.</p>
                   </postscript>
                   <pb type="verso" subtype="empty"
@@ -597,7 +597,7 @@
                   <opener>
                      <salute>Mon cher Poete</salute>
                   </opener>
-                  <p>Comme certaines<lb/> de vos pieces ou vers me plai-<lb/> sent. Je note surtout
+                  <p>Comme certaines<lb/> de vos pieces ou vers me plai-<lb break="no"/> sent. Je note surtout
                         "<ref target="#la_maison_des_morts">La<lb/> maison des morts</ref> &amp;
                         <ref target="#poeme_lu_au_mariage_d_andre_salmon">le poeme<lb/> pour le
                         mariage de Salmon</ref>.<lb/> C'est personnel, vif, aigu,<lb/> vivant.
