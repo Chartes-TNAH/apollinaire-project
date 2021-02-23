@@ -23,8 +23,8 @@
             <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f152.item"/>
             
             <div type="rubrique" n="1">
-            <head rend="tall caps">LE MOIS DU POÈTE <lb/>
-                  <bibl><author rend="caps">GUILLAUME APOLLINAIRE</author> : <title rend="caps italic">ALCOOLS</title> (<publisher rend="italic underlign red">Mercure</publisher>.)</bibl>
+               <head rend="tall case(caps)">LE MOIS DU POÈTE <lb/>
+                  <bibl><author rend="case(caps)">GUILLAUME APOLLINAIRE</author> : <title rend="case(caps) italic">ALCOOLS</title> (<publisher rend="italic underlign red">Mercure</publisher>.)</bibl>
             </head>
             
             <p>
@@ -56,7 +56,7 @@
                <lb break="no"/>naire, mais c'est parce que la personnalité d'<persName ref="#apollinaire_guillaume">Apollinaire</persName> est strictement poéti-
                <lb break="no"/>que, profonde, je veux dire verbale. Elle ne vient pas de l'inspiration, mais
                <lb/>de l'art. Pour <persName ref="#apollinaire_guillaume">Apollinaire</persName>, comme pour <persName ref="#baudelaire_charles">Baudelaire</persName>, l'inspiration n'existe
-               <lb/>presque pas : les mots sont tout, j'entends l'<hi rend="caps">EXPRESSION</hi>. Or, chez ce poète
+               <lb/>presque pas : les mots sont tout, j'entends l'<hi rend="case(caps)">EXPRESSION</hi>. Or, chez ce poète
                <lb/>de fond si disparate, si inconsistant, on admire une parfaite homogénéité
                <lb/>d'expression : il use indifféremment des rythmes les plus variés, illustrant
                <lb/>cette conviction à laquelle je suis peu à peu parvenu que c'est la langue, en
@@ -144,14 +144,14 @@
                <lb/>a la grâce, et n'est—ce pas une image du jeu de contemplation que j'admire
                <lb/>dans cette poésie ingénue, ingénieuse et grande? Elle mérite d'être insultée
                <lb/>par les admirateurs de M. <persName ref="#romains_jules">J. Romains</persName>.
-               <lb rend="caps align(right)"/><persName ref="#royere_jean">JEAN ROYÈRE</persName>
+               <lb rend="case(caps) align(right)"/><persName ref="#royere_jean">JEAN ROYÈRE</persName>
             </p>
                
             </div>
             
             <div type="rubrique" n="2">
             <!-- Ne concerne ni Apollinaire, ni Alcools -->
-               <head rend="align(left) caps underlign">REVUES</head>
+               <head rend="align(left) case(caps) underlined">REVUES</head>
                   <p>
                      <lb/>Voici que, par les soins de M. Henry—D. Davyray, le <hi rend="bold">Merure de France</hi> nous
                      <lb/>donne, d'Oscar Wilde, une lettre tout à la fois hautaine et pitoyable.
