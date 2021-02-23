@@ -68,7 +68,7 @@
 
                   <pb
                      facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f158.item.r=Apollinaire%20manuscrits"/>
-                  <metamark function="header" rend="align(center) caps">A <persName
+                  <metamark function="header" rend="align(center) case(caps)">A <persName
                         ref="#apollinaire_guillaume">GUILLAUME APOLLINAIRE</persName>
                      <num>117</num></metamark>
 
@@ -119,7 +119,7 @@
 
                   <pb
                      facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f160.item.r=Apollinaire%20manuscrits"/>
-                  <metamark function="header" rend="align(center) caps"><num>118</num>
+                  <metamark function="header" rend="align(center) case(caps)"><num>118</num>
                      <ref target="#la_phalange">LA PHALANGE</ref></metamark>
 
                   <l>Dont s‘éclairerait la dernière et verdâtre</l>
@@ -167,7 +167,7 @@
 
                   <pb
                      facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f161.item.r=Apollinaire%20manuscrits"/>
-                  <metamark function="header" rend="align(center) caps">A <persName
+                  <metamark function="header" rend="align(center) case(caps)">A <persName
                         ref="#apollinaire_guillaume">GUILLAUME APOLLINAIRE</persName>
                      <num>119</num></metamark>
 
@@ -223,7 +223,7 @@
             <div>
                <pb
                   facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f164.item.r=Apollinaire%20manuscrits"/>
-               <metamark function="header" rend="align(center) caps"><num>120</num>
+               <metamark function="header" rend="align(center) case(caps)"><num>120</num>
                   <ref target="#la_phalange">LA PHALANGE</ref></metamark>
 
                <head>VII</head>
