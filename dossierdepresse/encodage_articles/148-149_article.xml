@@ -45,10 +45,10 @@
             <div type="rubrique" n="1">
                <head>
                   <bibl>
-                     <lb/><author rend="align(center) bold tall caps"><persName ref="#apollinaire_guillaume">GUILLAUME APOLLINAIRE</persName></author>
+                     <lb/><author rend="align(center) bold tall case(caps)"><persName ref="#apollinaire_guillaume">GUILLAUME APOLLINAIRE</persName></author>
                      <lb/><title>
                         <damage agent="collage"><unclear>A</unclear></damage><hi rend="bold">cools</hi>, poèmes (1898-1913). Avec un portrait de l'au-
-                        <lb break="no"/><damage agent="collage"/>teur par <persName ref="#picasso_pablo" rend="caps">PABLO PICASSO</persName></title>. Vol. in-18 ..........  3,50
+                        <lb break="no"/><damage agent="collage"/>teur par <persName ref="#picasso_pablo" rend="case(caps)">PABLO PICASSO</persName></title>. Vol. in-18 ..........  3,50
                   </bibl>
              </head>
                
@@ -124,7 +124,7 @@
             <!-- Ne concerne ni Apollinaire, ni Alcools -->
             <head>
                <bibl>
-               <author><lb/><hi rend="bold, align(center) tall caps">RENÉ ARCOS</hi></author>
+                  <author><lb/><hi rend="bold align(center) tall case(caps)">RENÉ ARCOS</hi></author>
                <title><lb/><hi rend="bold">L'Ile perdue</hi>, poème dramatique</title>. Vol. in-18. 3,50
                </bibl>
             </head>
@@ -146,7 +146,7 @@
               <!-- Ne concerne ni Apollinaire, ni Alcools -->
             <head rend="tall">
                <bibl>
-                  <lb/><author rend="bold, align(center) tall caps">BOTTOM</author>
+                  <lb/><author rend="bold align(center) tall case(caps)">BOTTOM</author>
                   <lb/><title><hi rend="bold">Ainsi parlait Jéroboam</hi><hi rend="italic"> ou la Finance en ac
                      <lb break="no"/>tions</hi></title> Vol. petit in-18  .....................  2 
                </bibl>
