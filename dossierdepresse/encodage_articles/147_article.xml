@@ -27,7 +27,7 @@
             
               
             <!-- Début de l'article : xml:id article_150-151. -->
-            <metamark rend="center caps">LES CHRONIQUES <num type="pagination" rend="bold align(right)">269</num></metamark>
+            <metamark rend="align(center) case(caps)">LES CHRONIQUES <num type="pagination" rend="bold align(right)">269</num></metamark>
             
             <quote rend="align(center)">
                <ref target="#crépuscule"><l>Un charlatan crépusculaire</l>
@@ -66,7 +66,7 @@
             <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f147.item"/>
             
             <head>
-               <lb rend="align(center) bold caps"/>ALCOOL
+               <lb rend="align(center) bold case(caps)"/>ALCOOL
                <lb/>Poème, par <hi rend="italic"><persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName></hi>.
             </head>
             
@@ -100,7 +100,7 @@
                <lb break="no"/>tion de <hi rend="italic">Alcools</hi>, de M. <persName ref="#apollinaire_guillaume">Apollinaire</persName>, il ne faut pas le
                <lb/>moindre blanc dans les vers de son poème. Une seule ligne,
                <lb/>un seul vers de la première page à la dernière. Ah ! le
-               <lb/>bon nougat ! <hi rend="align(right) caps">L'AVEUGLE DU PONT DES ARTS</hi>
+               <lb/>bon nougat ! <hi rend="align(right) case(caps)">L'AVEUGLE DU PONT DES ARTS</hi>
             </p>
                
             <note type="ref_article" rend="handwritten">
@@ -118,7 +118,7 @@
                <lb rend="bold tall underline"/>Les lettres
                <lb rend="bold underline"/>Le livre du Jour
                <bibl>
-                  <lb/><title rend="caps">ALCOOLS</title>, par <author rend="italic">Guillaume Apollinaire</author> (<publisher>Mer-
+                  <lb/><title rend="case(caps)">ALCOOLS</title>, par <author rend="italic">Guillaume Apollinaire</author> (<publisher>Mer-
                   <lb/>cure de France</publisher>).
                </bibl>
             </head>
