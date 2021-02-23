@@ -23,7 +23,7 @@
             
             <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f150.item"/>
             
-            <metamark><title rend="caps">LES CHRONIQUES</title> <num rend="align(right)">267</num></metamark>
+            <metamark><title rend="case(caps)">LES CHRONIQUES</title> <num rend="align(right)">267</num></metamark>
             
             <div type="rubrique" n="1">
            <!-- Ne concerne pas Apollinaire -->
