@@ -1,0 +1,1661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  
+     <text>
+      <front>
+         <docTitle
+            facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f145.item.r=Apollinaire%20manuscrits.zoom">
+            <titlePart>Apollinaire. Répertoire alphabétique utilisé pour confectionner le dossier de
+               presse de l'Hérésiarque, Alcools, l'Enfer de la Bibliothèque nationale et Le
+               Manifeste de l'Antitradition futuriste.</titlePart>
+         </docTitle>
+         <docAuthor>Guillaume Apollinaire</docAuthor>
+      </front>
+        
+        
+        
+      <group>
+         
+         
+         
+         <text>
+            <body>
+               
+               <div>
+                  
+                  
+                  <div type="article" n="146" xml:id="article1_146" sameAs="article_148-149" >
+                     <pb type="copy" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f146.item"/>
+                     <!-- Je ne peux pas avoir de subtype sans type, donc j'ai passé la valeur copie en type -->
+                  </div>
+                  
+                  
+                  
+                  
+                  <div type="article" n="146" xml:id="article2_146">
+                     <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f146.item"/>
+                     
+                     <head rend="caps bold">
+                        M. <persName ref="#de_gonzague_frick_louis">LOUIS DE GONZAGUE FRICK</persName>
+                     </head>
+                     
+                     <p>
+                        <lb/>M. <persName ref="#de_gonzague_frick_louis">Louis de Gonzague Frick</persName> m'adres-
+                        <lb break="no"/>se la lettre suivante : 
+                        
+                        <quote>
+                           <lb/>Mon cher confrère,
+                           <lb/>A l'encontre de M. <persName ref="#picard_gaston">Gaston Picard</persName>, le
+                           <lb/>prototype de l'informateur littéraire, je
+                           <lb/>suis un enfant de la <placeName ref="#paris">rive droite</placeName>. Je naquis
+                           <lb/>devant les grands <placeName ref="#paris">magasins du Printemps</placeName>,
+                           <lb/>dans ce quartier de la <placeName ref="#paris">gare Saint-Lazare</placeName>
+                           <lb/>qu'occupa le prestige de <persName ref="#mallarmé_stéphane">Stéphane Mallar-
+                              <lb break="no"/>mé</persName>.
+                           <lb/>Le <placeName ref="#paris">quartier Latin</placeName> m'a toujours paru infi-
+                           <lb break="no"/>niment triste et lointain... Il a pleuré là-
+                           <lb/>bas sans rémission sur mon cœur. Collè-
+                           <lb break="no"/>ges, couvents, hôpitaux et prisons ! <placeName ref='#paris'>quar-
+                              <lb break="no"/>tier Latin</placeName>, grave et ennuyeux, tu es la
+                           <lb/>cité de pierre malgré tes popines de fri-
+                           <lb break="no"/>carelles et d'étudiants ; quand te décide-
+                           <lb break="no"/>ras-tu à faire couper tes cheveux, acerso-
+                           <lb break="no"/>come <placeName ref="#paris">quartier Latin</placeName>, à te départir de tes
+                           <lb/> petits airs d'intellectuel, à te vêtir chez
+                           <lb/>des tailleurs modernes, comme l'<hi rend="underlign blue"><ref target="#l_emigrant_de_landor_road" rend="italic">Emi-
+                              <lb break="no"/>grant</ref> de M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName></hi> ? Ah !
+                           <lb break="no"/>radieux sourire de <placeName ref="#paris">Paris</placeName>, comme tu réson-
+                           <lb break="no"/>nes faux sur le <placeName ref="#paris">boulevard Saint-Michel</placeName>. Les
+                           <lb/>ailes de quelque moulin rougeoyant em-
+                           <lb break="no"/>portent mes souvenirs sans faste du <placeName ref="#paris">quar-
+                              <lb break="no"/>tier Latin</placeName>, cependant que les musagètes de
+                           <lb/>ma rive chantent tels que de nouveaux
+                           <lb/>amphions.
+                           <lb/><persName ref="#de_gonzague_frick_louis">Louis de GONZAGUE FRICK</persName>. 
+                        </quote>
+                        
+                        <lb rend="bold align(right)"/><persName ref="#bayard_jean">Jean Bayard</persName>
+                        <lb rend="align(left) italic"/>(A suivre)
+                     </p>
+                     
+                  </div>
+                  
+                  
+                  
+                  <div type="article" n="146" xml:id="article3_146">
+                     <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f146.item"/>
+                     
+                     <head rend="center bold tall italic">Gazette des Lettres</head>
+                     
+                     <p>
+                        <lb/>— Délassements d'été.
+                        <lb/>Quel est l'auteur des vers suivants ? Ils sont
+                        <lb/>inédits mais portent une marque assez per-
+                        <lb break="no"/>sonnelle pour que nos lecteurs distinguent au
+                        <lb/>premier coup d'œil leur véritable origine :
+                        <quote>
+                           <title rend="align(center) caps">PRIÈRE DU SOIR</title>
+                           <l>Une femme qui porte un enfant sur son bras va
+                              <lb rend="interligne"/>[faire signe à un autobus</l>
+                           <l>Il avait joué <hi rend="italic">Nimbus</hi> placé dans la troisième</l>
+                           <l>Et la tente rayée rouge et blanc du roi Makano-
+                              <lb break="no" rend="interligne"/>[nulu aux Iles sous le vent</l>
+                           <l>Tribade au ventre d'agate polie</l>
+                           <l>Une jeune fille est entrée au W.-C. des hommes à 
+                              <lb rend="interligne"/>[la <placeName ref="#vladivostock">gare de Vladivostock</placeName></l>
+                           <l>J'ai mangé avec mes amis le gâteau nommé 
+                              <lb rend="interligne"/>[<hi rend="italic">rossir</hi></l>
+                           <l>Et nous avons gardé sa part au Mannekenpis</l>
+                           <l>Trois mille trois cent soixante dix huit <num>3.378</num></l>
+                           <l>Est-ce une motocyclette ou le reflet de la lune
+                              <lb rend="interligne"/>[qui laboure la mer</l>
+                           <l>La soleil se ferme avec un accordéon</l>
+                           <l>Le prince polonais pleure en voyant jouer la
+                              <lb rend="interligne"/>[<hi rend="italic">Dame de chez Maxim's</hi></l>
+                           <l>Et le disque du phonographe était troué comme
+                              <lb rend="interligne"/>[un fromage de gruyère.</l>
+                        </quote>
+                     </p>
+                     
+                     <note type="ref_article" rend="handwritten format(landscape)">
+                        <ref target="#paris_midi">Paris-Midi</ref>
+                     </note>
+                     
+                     
+                     
+                  </div>
+                  
+                  <div type="article" n="146" xml:id="article4_146">
+                     <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f146.item"/>
+                     
+                     <head  rend="align(center) caps bold underline">ALCOOLS</head>
+                     <p>
+                        <lb/>Ce livre est orné du portrait de l'au-
+                        <lb break="no"/>teur par <persName ref="#picasso_pablo">Pablo Picasso</persName>. Vous verrez un
+                        <lb/>certain nombre de tuyaux de poêle der-
+                        <lb break="no"/>rière lesquels une mèche s'échevèle. Tel
+                        <lb/>est M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> suivant
+                        <lb/>l'esthétique de l'école futuriste dont il
+                        <lb/>apparaît comme l'exégète. Autre singu-
+                        <lb break="no"/>larité : nul signe de ponctuation dans ce
+                        <lb/>volume de poèmes. Voilà bien des re-
+                        <lb break="no"/>cherches de bizarrerie !
+                     </p>
+                     <p>
+                        <lb/>Vous en trouverez d'autres. Vous se-
+                        <lb break="no"/>rez agacé par l'expression volontairement
+                        <lb/>nébuleuse d'une pensée que l'on devine
+                        <lb/>rare, subtile, précieuse. Des mètres bi-
+                        <lb break="no"/>zarres, des vers blancs, des étrangetés
+                        <lb/>laborieuses, un cosmopolitisme forcené,
+                        <lb/>de l'argot, des jurons, de la bohème,
+                        <lb/>d'esprit et de cœur vous choqueront dans
+                        <lb/>ce volume <bibl>(1 vol. in-18, <publisher rend="italic"><hi rend="underline red">Mercure</hi> de Fran-
+                           <lb break="no"/>ce</publisher>)</bibl> où M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> a re-
+                        <lb break="no"/>cueilli ses poèmes de <date>1898</date> à <date>1913</date>. Et avec
+                        <lb/>cela, dans ce désordre, dans cette ivro-
+                        <lb break="no"/>gnerie, on trouvera des vers exquis, 
+                        <lb/>étrangement suggestifs.
+                     </p>
+                     
+                     <note type="ref_article" rend="handwritten" >
+                        <ref target="#gazette_de_france">Gazette de France</ref> <date when-iso="1913-06-27">27 juin 1913</date> [ <placeName>Graville</placeName>
+                     </note>
+                     
+                  </div>
+                  
+               </div>
+               
+            </body>
+            
+         </text>
+         
+         
+         
+         <text>
+            
+            <body>
+               
+               
+               <div type="article" n="147" xml:id="article1_147" sameAs="article_150-151">
+                  <pb type="copy" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f147.item"/>
+                  <!-- Je ne peux pas avoir de subtype sans type, donc j'ai passé la valeur copie en type -->
+                  
+                  
+                  
+                  <!-- Début de l'article : xml:id article_150-151. -->
+                  <metamark rend="center caps">LES CHRONIQUES <num type="pagination" rend="bold align(right)">269</num></metamark>
+                  
+                  <quote rend="align(center)">
+                     <ref target="#crépuscule"><l>Un charlatan crépusculaire</l>
+                        <l>Vante les tours que l'on va faire.</l>
+                        <l>Le ciel sans teinte est constellé</l>
+                        <l>D'astres pâles comme du lait.</l></ref>
+                  </quote>
+                  
+                  <p>
+                     <lb/>Mais je n'ai malheureusement pas la place d'en
+                     <lb/>citer davantage, et je ne puis inventorier toutes
+                     <lb/>les richesses de ce passionnant brocanteur. Je
+                     <lb/>veux dire seulement encore combien j'aime le
+                     <lb/>rythme de certaines complaintes, et, dans la <ref target="#les_sept_épées" rend="italic">Chan-
+                        <lb break="no"/>son des Epées</ref>, combien me ravit la musique de ces
+                     <lb/>cinq vers :
+                     
+                     <quote rend="center">
+                        <l>La quatrième, Malourène,</l>
+                        <l>Est une fleuve vert et doré :</l>
+                        <l>C'est le soir quand les riveraines</l>
+                        <l>Y baignent leurs corps adorés,</l>
+                        <l>Et des chants de rameurs s'y trainent.</l>
+                     </quote>
+                  </p>
+                  <note type="ref_article" rend="handwritten">
+                     <ref target="#le_divan">Le Divan</ref> 
+                     <date>Octobre 1913</date>
+                  </note>
+                  
+               </div>
+               
+               
+               
+               <div type="article" n="147" xml:id="article2_147">
+                  <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f147.item"/>
+                  
+                  <head>
+                     <lb rend="align(center) bold caps"/>ALCOOL
+                     <lb/>Poème, par <hi rend="italic"><persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName></hi>.
+                  </head>
+                  
+                  <p>
+                     <lb/>M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> fait des vers qui
+                     <lb/>godaillent et festionnent agréablement. Mais
+                     <lb/>ce n'est pas là le capital de sa gloire. La
+                     <lb/>vériatable originalité de M. <persName ref="#apollinaire_guillaume">Guillaume Apol-
+                        <lb break="no"/>linaire</persName>, ce qui lui assigne, sans conteste, une place hors
+                     <lb/>de pair dans la troupe tumultueuse et délirante des mâche-
+                     <lb break="no"/>lauriers, c'est qu'il pratique éperdument le <hi rend="italic">conjugo</hi>. J'ai
+                     <lb/>bien dit : le <hi rend="italic">conjungo</hi>, ne souriez pas. Le <hi rend="italic">conjungo</hi> n'est
+                     <lb/>pas du tout ce que vous croyez. Rien n'est grave et austère,
+                     <lb/>sachez-le, comme le <hi rend="italic">conjungo</hi>. C'est simplement une vieille
+                     <lb/>méthode d'écriture qui supprime, comme inutile, toute
+                     <lb/>ponctuation.
+                  </p>
+                  <p>
+                     <lb/>Ainsi des <hi rend="italic">Alcools</hi> : plus de virgules ou de points-virgules
+                     <lb/>pour marquer les pauses, fortes ou faibles. Plus d'acco-
+                     <lb break="no"/>lades, de crochets, de parenthèses, de signe excalamatif,
+                     <lb/>interrogatif, suspensif... Ce sont là ornements superflus
+                     <lb/>dont une muse, honnête et bien buvante, se peut passer.
+                     <lb/>Voilà qui est neuf et hardi à force d'être archaïque.
+                  </p>
+                  <p>
+                     <lb/>Mais pourquoi diable M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> a-t-il
+                     <lb/>biaisé dans l'application de son principe ? Le véritable
+                     <lb/><hi rend="italic">conjungiste</hi> supprime, non seulement la ponctuation, mais
+                     <lb/>encore les espaces entre les mots. Dans la prochane édi-
+                     <lb break="no"/>tion de <hi rend="italic">Alcools</hi>, de M. <persName ref="#apollinaire_guillaume">Apollinaire</persName>, il ne faut pas le
+                     <lb/>moindre blanc dans les vers de son poème. Une seule ligne,
+                     <lb/>un seul vers de la première page à la dernière. Ah ! le
+                     <lb/>bon nougat ! <hi rend="align(right) caps">L'AVEUGLE DU PONT DES ARTS</hi>
+                  </p>
+                  
+                  <note type="ref_article" rend="handwritten">
+                     <ref target="#fantasio">Fantasio</ref> <date>Juillet 1913</date>
+                  </note>
+                  
+               </div>
+               
+               
+               
+               <div type="article" n="147" xml:id="article3_147">
+                  <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f147.item"/>
+                  
+                  <head rend="align(center)">
+                     <lb rend="bold tall underline"/>Les lettres
+                     <lb rend="bold underline"/>Le livre du Jour
+                     <bibl>
+                        <lb/><title rend="caps">ALCOOLS</title>, par <author rend="italic">Guillaume Apollinaire</author> (<publisher>Mer-
+                           <lb/>cure de France</publisher>).
+                     </bibl>
+                  </head>
+                  
+                  <p rend="italic">
+                     <lb/>M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> est, par ses
+                     <lb/>ouvrages d'érudition, connu, estimé du
+                     <lb/>grand public. Ce livre qui paraît <hi rend="roman">Alcools</hi>,
+                     <lb/>et dont tous les lettrés savent déjà les
+                     <lb/>poèmes, ne peut manquer d'attirer l'atten-
+                     <lb break="no"/>tion sur une des personnalités les plus
+                     <lb/>curieuses de la littérature contemporaine.
+                     <lb/>Ces strophes, où une inspiration parfois
+                     <lb/>tourmentée, déroutée, laisse jaillir de très
+                     <lb/>beaux cris, cette bizarrerie et aussi cette
+                     <lb/>maitrise, cette netteté, si parfois elles dé-
+                     <lb break="no"/>concertent ne peuvent que retenir et char-
+                     <lb break="no"/>mer.
+                  </p>
+                  
+                  <p rend="italic">
+                     <lb/>Lorsque parut au <ref target="#mercure_de_france" rend="roman">Mercure</ref>, la <ref target="#la_chanson_du_mal_aimé" rend="roman">Chanson
+                        <lb/>du Mal Aimé</ref>, il y eut quelques sceptiques
+                     <lb/>mais encore plus d'admirateurs. C'était
+                     <lb/>bien là une poésie nouvelle, d'une richesse
+                     <lb/>d'images inconnue. Et ceux qui ont suivi
+                     <lb/>M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> jusqu'à sa der-
+                     <lb break="no"/>nère formule, ce <quote>« poème conversation »</quote>
+                     <lb/>capricieux et évocateur, retrouvent avec
+                     <lb/>joie toutes les étapes de leur enthousiasme.
+                     <lb/>Voici <hi rend="roman">l'Ermite, <ref target="#la_chanson_du_mal_aimé">la Chanson du Mal Aimé</ref>,
+                        <lb/><ref target="#les_colchiques">les Colchiques</ref>, <ref target="#zone">Zones</ref></hi>. Et pour ceux qui
+                     <lb/>lisent <persName ref="#apollinaire_guillaume">Apollinaire</persName> critique d'art, voici un
+                     <lb/>portrait dû à <persName ref="#picasso_pablo">Pablo Picasso</persName>. — J .P.
+                  </p>
+                  
+                  <note type="ref_article" rend="handwritten">
+                     <ref target="#gil_blas">Gil Blas</ref>
+                  </note>
+                  
+               </div>
+               
+            </body>
+            
+         </text>
+         
+         
+         
+         
+         
+         
+         
+         <text>
+            <body>
+               
+               <div type="article" n="148, 149" xml:id="article_148-149" sameAs="article1_146">
+                  <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f148.item"/>
+                  
+                  <head>
+                     <ref target="#mercure_de_france">
+                        <bibl>
+                           <date rend="bold"><hi rend="align(left)">10</hi> <hi rend="align(center)">1913</hi> <hi rend="align(right">Mai</hi></date>
+                           <title rend="align(center)">
+                              <lb/>BVLLETIN DE LA LIBRAIRIE 
+                              <lb/>DV
+                              <lb/><damage agent="collage"><unclear>M</unclear></damage>ERCVRE DE FRANCE
+                              <lb/>XXVI, RVE DE CONDÉ, PARIS
+                           </title>
+                           <lb/>Publications nouvelles
+                           <lb/><date>Novembre-Mai — 1913</date>
+                        </bibl>
+                     </ref>
+                     <stamp>Tampon postale de la ville de poitiers
+                        <mentioned>P.P. Poitiers<date>30.5.13</date></mentioned>
+                     </stamp>
+                  </head>
+                  
+                  <div type="rubrique" n="1">
+                     <head>
+                        <bibl>
+                           <lb/><author rend="align(center) bold tall caps"><persName ref="#apollinaire_guillaume">GUILLAUME APOLLINAIRE</persName></author>
+                           <lb/><title>
+                              <damage agent="collage"><unclear>A</unclear></damage><hi rend="bold">cools</hi>, poèmes (1898-1913). Avec un portrait de l'au-
+                              <lb break="no"/><damage agent="collage"/>teur par <persName ref="#picasso_pablo" rend="caps">PABLO PICASSO</persName></title>. Vol. in-18 ..........  3,50
+                        </bibl>
+                     </head>
+                     
+                     <p>
+                        <lb/><damage agent="collage"/>C'est une chose extrêmement particulière que la poésie de
+                        <lb/><damage agent="collage"/><persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName>. Peut-être est-elle un peu décon-
+                        <lb break="no"/><damage agent="collage"><unclear>cer</unclear></damage>tante, au premier abord, pour le lecteur habitué aux ordi-
+                        <lb break="no"/><damage agent="collage"><unclear>nai</unclear></damage>res volumes de vers. Mais qu'on y prête attention, et alors
+                        <lb/><damage agent="collage"><unclear>le</unclear></damage>charme opère aussitôt. C'est la poésie d'un homme à l'âme
+                        <lb/><damage agent="collage"><unclear>mu</unclear></damage>ltiple, flottante, vagabonde, pleine d'ingénuité aussi. Comme
+                        <lb/><damage agent="collage"><unclear>dan</unclear></damage>s ses nouvelles, par exemple ce curieux <ref target="#l_hérésiarque_et_cie" rend="italique">Hérésiarque et
+                           <lb/><damage agent="collage"><unclear>Cie</unclear></damage></ref>, M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> nous donne dans ses poèmes
+                        <lb/><damage agent="collage"><unclear>l'im</unclear></damage>pression d'un homme qui a tout lu et vu tous les pays,
+                        <lb/><damage agent="collage"><unclear>e</unclear></damage>t il sait nous évoquer de choses, sentiments et paysages,
+                        <lb/><damage agent="collage"><unclear>d</unclear></damage>orées et lointaines. Il s'y ajoute ici le rythme, étrange sou-
+                        <lb break="no"/><damage agent="collage"><unclear>ven</unclear></damage>t, mais souvent pénétrant, comme une musique à la fois
+                        <lb/><damage agent="collage"><unclear>bar</unclear></damage>bare et raffinée, et l'émotion la plus rare, qui font de ce
+                        <lb/><damage agent="collage"><gap reason="illegible"/></damage>, auquel suffirait seule la <hi rend="italic"><ref target="#la_chanson_du_mal_aimé">Chanson du Mal aimé</ref></hi> un
+                        <lb/><damage agent="collage"><gap reason="illegible"/></damage>e tout à fait à part dans la production poétique actuelle.
+                     </p>
+                     
+                     <note type="ref_article" rend="handwritten format(landscape) underlined right">
+                        <persName ref="#leautaud_paul">Paul Leautaud</persName>
+                     </note>
+                     
+                  </div>
+                  
+                  <div type="rubrique" n="2">
+                     <head rend="align(center) bold tall">
+                        <bibl>
+                           <lb/><author>GUILLAUME APOLLINAIRE
+                              <lb/><damage><supplied>F</supplied></damage>ERNAND FLEURET et LOUIS PERCEAU</author>
+                           <lb/><title><damage><unclear>L'en</unclear></damage>fer de la Bilbiothèque Nationale. Icono-
+                              <lb/><damage><gap reason="illegible"/></damage>-bibliographie de tous les ouvrages composant cette
+                              <lb/><damage><unclear>cél</unclear></damage>èbre collection.</title> Vol in-8 ................. 7.50
+                        </bibl>
+                     </head>
+                     
+                     <note type="ref_article" rend="handwritten format(landscape) right">
+                        <persName ref="#leautaud_paul">Leautaud</persName>
+                     </note>
+                     
+                     <p>
+                        <lb/><damage><unclear>L'</unclear></damage><hi rend="italic">Enfer</hi> de la Bibliothèque Nationale a été créé sur l'ordre
+                        
+                        <metamark function="footer" rend="align(center) bold">Envoi franco du Catalogue complet sur demande</metamark>
+                        
+                        <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f149.item"/>
+                        
+                        <metamark function="header" rend="align(center)">BVLLETIN DE LA LIBRAIRIE<num rend="align(left)">2</num></metamark>
+                        
+                        <lb/>du Premier Consul, sur le modèle de l'<hi rend="italic">Enfer</hi> de la <placeName ref="#vatican">Bibliothè-<damage agent="collage"/>
+                           <lb break="no"/>que du Vatican</placeName>. Il contient un certain nombre d'ouvrages qui<damage agent="collage"/>
+                        <lb/>n'avaient pas encore été décrits et dont il n'existe aucun cata-<damage agent="collage"/>
+                        <lb break="no"/>logue. L'ouvrage de MM. <persName ref="#apollinaire_guillaume">Apollinaire</persName>, <persName ref="#fleuret_ferdinand">Fleuret</persName> et <persName ref="#perceau_louis">Perceau</persName><damage agent="collage"/>
+                        <lb/>comble donc une importance lacune bibliographique. Il a de <damage agent="collage"/>
+                        <lb/>plus son attrait de pittoresque, de curiosité, d'indiscrétion <damage agent="collage"/>
+                        <lb/>même. Tous ces livres, qu'il nous présente et nous décrit <damage agent="collage"/>
+                        <lb/>livres condamnables, si l'on veut, ont un mérite qui fait leu<damage agent="collage"><unclear>r</unclear></damage>
+                        <lb/>valeur : ils renseignent sur l'histoire des mœurs. A côté d<damage agent="collage"><unclear>e</unclear></damage>
+                        <lb/>la littérature morale, en effet, il y a l'autre, et qui n'est pas<damage agent="collage"/>
+                        <lb/>socialement et littérairement, un document moindre, on pour<damage agent="collage"><unclear>-</unclear></damage>
+                        <lb break="no"/>rait même dire souvent plus véridique. Les satiriques licen<damage agent="collage"><unclear>-</unclear></damage>
+                        <lb break="no"/>cieux des XVe, XVIe et XVIIe siècles sont aussi des poètes, après<damage agent="collage"/>
+                        <lb/>tout. Les pamphlets et les romans de la Révolution ont leu<damage agent="collage"><unclear>r</unclear></damage>
+                        <lb/>intérêt historique. On ne saurait ôter les uns et les autres d<damage agent="collage"><unclear>e</unclear></damage>
+                        <lb/>notre littérature sans fausser l'aspect de celle-ci.
+                     </p>
+                     
+                  </div>
+                  
+                  <div type="rubrique" n="3">
+                     <!-- Ne concerne ni Apollinaire, ni Alcools -->
+                     <head>
+                        <bibl>
+                           <author><lb/><hi rend="bold, align(center) tall caps">RENÉ ARCOS</hi></author>
+                           <title><lb/><hi rend="bold">L'Ile perdue</hi>, poème dramatique</title>. Vol. in-18. 3,50
+                        </bibl>
+                     </head>
+                     <p>
+                        <lb/>Dans ce drame, qui respecte les exigences de la scène<damage agent="collage"/>
+                        <lb/>M. René Arcos expose avec lyrisme un conflit d'idées et de sen<damage agent="collage"/>
+                        <lb/>timents entre individus supérieurs. Des hommes et des fem<damage agent="collage"/>
+                        <lb/>mes ont quitté leur patrie où règne un odieux tyran. Dan<damage agent="collage"/>
+                        <lb/>une île lointaine et enchantée, ils commencent une nouvell<damage agent="collage"/>
+                        <lb/>vie. L'arrivée d'un de leurs anciens compagnons, qui a tué l<damage agent="collage"/>
+                        <lb/>desporte et qui veut les regagner à leur patrie, décide le con<damage agent="collage"/>
+                        <lb/>flit. Ils quittent l'île à la fin du poème,à l'exception d'un seu<damage agent="collage"/>
+                        <lb/>d'entre eux qui se donne la mort, marquant ainsi de sa chut<damage agent="collage"/>
+                        <lb/>la faillite d'un grand rêve.
+                     </p>
+                  </div>
+                  
+                  <div type="rubrique" n="3">
+                     <!-- Ne concerne ni Apollinaire, ni Alcools -->
+                     <head rend="tall">
+                        <bibl>
+                           <lb/><author rend="bold, align(center) tall caps">BOTTOM</author>
+                           <lb/><title><hi rend="bold">Ainsi parlait Jéroboam</hi><hi rend="italic"> ou la Finance en ac
+                              <lb break="no"/>tions</hi></title> Vol. petit in-18  .....................  2 
+                        </bibl>
+                     </head>
+                     
+                     <p>
+                        <lb/>Voici un petit livre qui a eu un vif succès. Jéroboam, c'es<damage agent="collage"/>
+                        <lb/>le Zarathoustra de la finance. Assis au café, place de l<damage agent="collage"/>
+                        <lb/>Bourse, devant des piles de soucoupes, en considérant d'u<damage agent="collage"/>
+                        <lb/>œil narquois ce qu'il appelait la « Boite à finances », il laissa<damage agent="collage"/>
+                        <lb/>s'en aller de lui ses sarcasmes, entouré de disciples qu'amu<damage agent="collage"/>
+                     </p>
+                  </div>
+                  
+                  <metamark function="footer" rend="align(center) bold">Envoi franco du Catalogue complet sur demande</metamark>
+                  
+               </div>
+               
+            </body>
+            
+         </text>
+         
+         
+         
+         <text>
+            
+            <body>
+               
+               <div type="article" n="150, 151" xml:id="article_150-151" sameAs="article1_147">
+                  
+                  <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f150.item"/>
+                  
+                  <metamark><title rend="caps">LES CHRONIQUES</title> <num rend="align(right)">267</num></metamark>
+                  
+                  <div type="rubrique" n="1">
+                     <!-- Ne concerne pas Apollinaire -->
+                     <p> 
+                        <lb/>avait appartenu à M. de Brenier, mari de Mlle de Vaulserre et comte de
+                        <lb/><hi rend="italic">Vaulserre</hi> ». Quelque beyliste relèvera peut-être dans cette rédaction
+                        <lb/>l'ironie fameuse de Stendhal. FRANCIS ÉON
+                     </p>
+                     
+                     
+                  </div>
+                  
+                  <div type="rubrique" n="2">
+                     
+                     <head rend="align(right)">LES POÈMES</head>
+                     
+                     <p>
+                        <list>
+                           <item>
+                              <bibl>
+                                 <author rend="bold"><persName ref="#apollinaire_guillaume"
+                                    >Guillaume Apollinaire</persName></author>: 
+                                 <title rend="italic">Alcools.</title>
+                                 <pubPlace>Paris</pubPlace>, 
+                                 <publisher>Mer- <lb break="no"/> cure de France</publisher>,
+                                 <date>1913</date>.
+                              </bibl>
+                           </item>
+                           <item>
+                              — <bibl>
+                                 <author rend="bold">Carlos Larronde</author>: 
+                                 <title rend="italic">Le<lb/> Livre d'Heures.</title>
+                                 <pubPlace>Paris</pubPlace>, 
+                                 <publisher>Figuière</publisher>,
+                                 <date>1913</date>.</bibl> 
+                           </item>
+                           <item>
+                              — <bibl>
+                                 <author rend="bold">Auguste <lb/> Gaud</author>
+                                 <title rend="italic">Stances à Jeannie.</title>
+                                 <pubPlace>Paris</pubPlace>, 
+                                 <publisher>Lemerre</publisher>, 
+                                 <date>1913</date>.
+                              </bibl> 
+                           </item>
+                           <item>
+                              — <bibl>
+                                 <author rend="bold">Léon Bocquet</author> : 
+                                 <title rend="italic">La Lumière d'Hellas.</title>
+                                 <pubPlace>Paris</pubPlace>, 
+                                 <publisher>« Le Beffroi »</publisher>,
+                                 <date>1913</date>. 
+                              </bibl> 
+                           </item>
+                           <item>
+                              — <bibl>
+                                 <author rend="bold">André Biguet</author>
+                                 <title rend="italic">Le Feu et <lb/>la Cendre</title>. 
+                                 <pubPlace>Paris</pubPlace>,
+                                 <publisher>Crès</publisher>, 
+                                 <date>1913</date>.</bibl> 
+                           </item>
+                           <item>
+                              — <bibl>
+                                 <author rend="bold">Noël Noüet</author> : 
+                                 <title rend="italic">Les CLoches des Champs</title>. 
+                                 <pubPlace>Paris</pubPlace>, 
+                                 <publisher>« Le Temps pré- <lb break="no"/>sent »</publisher>, 
+                                 <date>1913</date>.
+                              </bibl> 
+                           </item>
+                           <item>
+                              — <bibl>
+                                 <author rend="bold">Philibert Blanc</author>
+                                 <title rend="italic">La Moisson des <lb/>jours</title>.
+                                 <pubPlace>Paris</pubPlace>, 
+                                 <publisher>Figuière</publisher>,
+                                 <date>1913</date>.
+                              </bibl> 
+                           </item>
+                           <item>
+                              — <bibl>
+                                 <author rend="bold">André Delacour</author>
+                                 <lb/><title rend="italic">L'Angoisse</title>. 
+                                 <pubPlace>Paris</pubPlace>,
+                                 <publisher>« Le Temps présent »</publisher>, 
+                                 <date>1913</date>. 
+                              </bibl> 
+                           </item>
+                           <item>
+                              — <lb/><bibl>
+                                 <author rend="bold">Maurice Guyot</author> : 
+                                 <title rend="italic">Le Vent sur la Mer</title>. 
+                                 <pubPlace>Paris</pubPlace>, 
+                                 <lb/><publisher>Oudin</publisher>,
+                                 <date>1912</date>.
+                              </bibl> 
+                           </item>
+                           <item>
+                              — <bibl>
+                                 <author rend="bold">André Lafon</author>
+                                 <title rend="italic">Poèmes</title>. 
+                                 <pubPlace>Paris</pubPlace>, 
+                                 <lb/><publisher>« Le Temps présent»</publisher>, 
+                                 <date>1913</date>.
+                              </bibl>
+                           </item>
+                        </list>   
+                     </p>
+                     
+                     <p>
+                        <lb/>J'ai dû lire depuis un mois bien des livres de vers. 
+                        <lb/>Je ne parlerai point de tous, mais de ceux seule- 
+                        <lb break="no"/>ment où j'ai pris quelque plaisir, quelque intérêt. 
+                     </p>
+                     <p>
+                        <lb/>M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName>, dans la jeune litté- 
+                        <lb break="no"/>rature, fait figure d'original sympathique. J'aime 
+                        <lb/>me le représenter comme un très fin lettré qui
+                        <lb/>s'amuse et qui ne craint pas d'afficher son goût 
+                        <lb/>pour la bizarrerie. Nous savons aussi combien 
+                        
+                        <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f151.item"/>
+                        
+                        <lb/>il excelle à pousser la farce jusqu'à la mystifica-
+                        <lb break="no"/>tion. Nous voilà averti ; et, avant même que de lire
+                        <lb/>ses vers, notons dès le volume ouvert ce nouveau
+                        <lb/>souci de négliger toute ponctuation et qui nous
+                        <lb/>livre deux cents pages sans un point ni une vir-
+                        <lb break="no"/>gule. Du moins sommes-nous récompensés de no-
+                        <lb break="no"/>tre effort : <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> est un poète
+                        <lb/>charmant. Sans doute je ne place pas tout au
+                        <lb/>même rang, mais bien peu de pages sont négligea-
+                        <lb break="no"/>bles dans un livre où nous rencontrons même quel-
+                        <lb break="no"/>ques vers réellement émus :
+                        <ref target="#a_la_santé">
+                           <quote rend="align(center)">
+                              <l>J'écoute les bruits de la ville</l>
+                              <l>Et prisonnier sans horizon,</l>
+                              <l>Je ne vois rien qu'un ciel hostile</l>
+                              <l>Et les murs nus de ma prison.</l>
+                           </quote>
+                        </ref>
+                     </p>
+                     <p>
+                        <lb/>Les fraîches descriptions non plus n'y sont pas
+                        <lb/>rares :
+                        <ref target="#mai">
+                           <quote rend="center">
+                              <l>Le mai, le joli mai, a paré les ruines</l>
+                              <l>De lierre, de vigne vierge et de rosiers ;</l>
+                              <l>Le vent du <placeName ref="#rhin">Rhin</placeName> secoue sur le bord, les osiers</l>
+                              <l>Et les roseaux jaseurs et les fleurs nues des vignes</l>
+                           </quote>
+                        </ref>
+                     </p>
+                     <p>
+                        <lb/>J'aimerai citer encore une Salomé qui dans sa
+                        <lb/>fantaisie est un bref et digne pendant du conte de
+                        <lb/><persName ref="#laforgue_jules">Jules Laforgue</persName>, ou quelque autre poème que la
+                        <lb/>muse funambulesque d'<persName ref="#apollinaire_guillaume">Apollinaire</persName> campe avec
+                        <lb/>tant de verve :
+                        <ref target="#crépuscule">
+                           <quote rend="center">
+                              <l>Frôlée par les ombres des morts,</l>
+                              <l>Sur l'herbe où le jour s'exténue,</l>
+                              <l>L'arlequine s'est mise nue</l>
+                              <l>Et dans l'étang mire son corps</l>
+                           </quote>
+                        </ref>
+                     </p>
+                     <!-- La suite de l'article est xml:id= article1_147 -->
+                     
+                  </div>
+               </div>
+               
+               
+            </body>
+            
+         </text>
+         
+         
+         
+         <text>
+            
+            <body>
+               
+               <div type="article" n="152, 153, 154" xml:id="article_152-154">
+                  <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f152.item"/>
+                  
+                  <div type="rubrique" n="1">
+                     <head rend="tall caps">LE MOIS DU POÈTE <lb/>
+                        <bibl><author rend="caps">GUILLAUME APOLLINAIRE</author> : <title rend="caps italic">ALCOOLS</title> (<publisher rend="italic underlign red">Mercure</publisher>.)</bibl>
+                     </head>
+                     
+                     <p>
+                        <lb/>Voici, recueilli en un in-18 d'à peine deux cents pages, l'œuvre poétique
+                        <lb/>presque entière d'<persName ref="#apollinaire_guillaume">Apollinaire</persName>. Quinze ans de poésie reposent sur ce petit
+                        <lb/>volume. Je ne l'ouvre donc pas sans presque un parti-pris d'admiration. En
+                        <lb/>poésie, abondance signifie stérilité et l'on n'écrit trois volumes en un an que
+                        <lb/>par impuissance de consacrer sa vie à un livre.
+                     </p>
+                     <p>
+                        <lb/><persName ref="#apollinaire_guillaume">Apolllinaire</persName>, évidemment, ne laissera qu'un livre de vers, comme <persName ref="#baudelaire_charles">Baudelaire</persName>
+                        <lb/>et <persName ref="#mallarmé_stéphane">Mallarmé</persName>, comme <persName ref="#rimbaud_arthur">Rimbaud</persName> : c'est une chance considérable d'immortalité,
+                        <lb/>car le vrai poète est celui qui a ce don trop rare de condensation. L'admirable
+                        <lb/>écrivain, <persName ref="#de_gourmont_remy">Remy de Gourmont</persName>, regrette de <hi rend="italic">son</hi> poète, <persName ref="#mallarmé_stéphane">Mallarmé</persName>, qu'il n'ait
+                        <lb/>produit que quelques poèmes, mais du plus grand lyrique combien la postérité
+                        <lb/>retient-elle de vers, par cœur? Or, l'immortalité, <hi rend="italic">en acte</hi>, ne porte que sur ce
+                        <lb/>qui demeure dans la mémoire de quelques siècles : le surplus n'est que de
+                        <lb/>l'immortalité en <hi rend="italic">puissance</hi>.
+                     </p>
+                     <p>
+                        <lb/><persName ref="#apollinaire_guillaume">Apollinaire</persName>, à l'exemple de <persName ref="#mallarmé_stéphane">Mallarmé</persName>, ne refait pas le même poème, et par
+                        <lb/>suite, son livre, complexe, est très riche. Il représente, si l'on veut, vingt
+                        <lb/>volumes, à supposer qu'il y ait vingt types de poèmes différents dans son
+                        <lb/>recueil (je ne les ai pas comptés). Le premier bénéfice est, pour le lecteur, une
+                        <lb/>jouissance de variété. Il a devant lui des poésies <hi rend="italic">dispersées</hi>, qui ne sont pas
+                        <lb/>des poésies <hi rend="italic">fugitives</hi>, oh non! Les trois premiers poèmes par exemple, <hi rend="italic"><ref target="#zone">Zone</ref></hi>,
+                        <lb/>le <hi  rend="italic"><ref target="#le_pont_mirabeau">Pont Mirabeau</ref></hi>, la <hi rend="italic"><ref target="#la_chanson_du_mal_aimée">Chanson du Mal-Aimé</ref></hi>, sont aussi dissemblables que
+                        <lb/>possible. Chez un artiste personnel, cette diversité peut paraître extraordi-
+                        <lb break="no"/>naire, mais c'est parce que la personnalité d'<persName ref="#apollinaire_guillaume">Apollinaire</persName> est strictement poéti-
+                        <lb break="no"/>que, profonde, je veux dire verbale. Elle ne vient pas de l'inspiration, mais
+                        <lb/>de l'art. Pour <persName ref="#apollinaire_guillaume">Apollinaire</persName>, comme pour <persName ref="#baudelaire_charles">Baudelaire</persName>, l'inspiration n'existe
+                        <lb/>presque pas : les mots sont tout, j'entends l'<hi rend="caps">EXPRESSION</hi>. Or, chez ce poète
+                        <lb/>de fond si disparate, si inconsistant, on admire une parfaite homogénéité
+                        <lb/>d'expression : il use indifféremment des rythmes les plus variés, illustrant
+                        <lb/>cette conviction à laquelle je suis peu à peu parvenu que c'est la langue, en
+                        <lb/>poésie, qui est essentielle, non le rythme; la création verbale engendre la
+                        <lb/>création rythmique. Toujours avec le même bonheur, <persName ref="#apollinaire_guillaume">Apollinaire</persName> emploie
+                        <lb/>le vers libre ou le vers régulier, mais chaque fois en poète pur, c'est-à-dire en
+                        <lb/>artisan de mots. Son livre mérite une étude minutieuse à cet unique point
+                        <lb/>de vue : elle serait instructive et compléterait, en l'éclairant, cette question
+                        <lb/>de rythme, débattue presque exclusivement depuis trente ans, tandis qu'on
+                        <lb/>n'a presque rien dit du <hi rend="italic">langage</hi> poétique, comme si l'on n'avait pas encore vu
+                        <lb/>que là est le nœud, le roc de notre esthétique.
+                     </p>
+                     <p>
+                        <lb/>Le second bénéfice, pour le lecteur, est l'obscurité. L'instinct — frondeur,
+                        
+                        <note type="ref_article" rend="handwritten">
+                           <ref target="#la_phalange">La Phalange</ref>
+                        </note>
+                        
+                        <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f153.item"/>
+                        <metamark function="header">LE MOIS DU POÈTE <num type="pagination">505</num></metamark>
+                        
+                        <lb/>mais qu'importe? — du gros public a vu juste sur ce point : il sera difficile,
+                        <lb/>plus tard, de délimiter le <hi rend="italic">Symbolisme</hi>. Les tendances les plus diverses se sont
+                        <lb/>fait jour dans cet art de liberté, mais un certain hermétisme, ou ésotérisme,
+                        <lb/>est commun à tous nos poètes. Le droit à l'obscurité, même à ce que le vulgaire
+                        <lb/>appelle l'incompréhensibilité, est notre plus grande conquête. C'est une
+                        <lb/>conséquence de ce qui précède. La poésie est une certaine manière de dire
+                        <lb/>qui définit une certaine manière de sentir, et partant de penser; mais la fonc-
+                        <lb break="no"/>tion de ce langage n'est pas discursive et son but n'est donc pas la clarté. Le
+                        <lb/>langage poétique est, en soi, obscur pour l'esprit, clair pour les sens : le langage
+                        <lb/>de la prose, qui n'est clair que pour l'esprit, est neutre à l'égard des sens. Ces
+                        <lb/>distinctions, bien entendu, sont théoriques, et, partant, simples, comme des
+                        <lb/>principes. <persName ref="#apollinaire_guillaume">Apollinaire</persName>, assez proche du poète pur, est ainsi un poète assez
+                        <lb/>obscur : métaphoriquement, vous l'appellerez musicien, encore que les deux
+                        <lb/>arts soient spécifiquement très distincts.
+                     </p>
+                     <p>
+                        <lb/>Lorsqu'un symbole conduit le poème, comme dans celui intitulé <hi rend="italic"><ref target="#le_larron">Le Larron</ref></hi>,
+                        <lb/>cette obscurité fondamentale n'est plus que superficielle ou plutôt relative :
+                        <lb/>le mythe, chez <persName>Platon</persName>, imite la Dialectique. Mais il est rare qu'un symbole,
+                        <lb/>chez un poète symboliste, soit strictement conduit et rigidement tressé. Ce
+                        <lb/>serait introduire l'ennemi, — le didactisme, la prose, — dans la place. <hi rend="italic"><ref target="#le_larron">Le Larron</ref></hi>
+                        <lb/>d'<persName ref="#apollinaire_guillaume">Apollinaire</persName> est hermétique d'être un amas de symboles, de lueurs, encore
+                        <lb/>qu'il y ait dans la pensée d'<persName ref="#apollinaire_guillaume">Apollinaire</persName> une ingénuité qui répugne aux simples
+                        <lb/>intuitions. Sa pensée le possède toujours : mais il s'évade des lacs syllogisti—
+                        <lb break="no"/>ques par son imagination, hardie et sûre d'elle, et par le goût. Cest un poète
+                        <lb/>d'un tact très décisif. Cette obscurité est un bénéfice pour le lecteur qu'elle
+                        <lb/>stimule et induit en poésie. Les poètes d'autrefois, les beaux discoureurs,
+                        <lb/>étaient des égoïstes : ils faisaient les beaux devant ñous, comme pout nous
+                        <lb/>« épater ». Les poètes d'aujourd'hui répandent leur poésie : ils nous rendent
+                        <lb/>beaux. C'est au prix de quelque effort, mais avantageux, et qui écarte le pro—
+                        <lb break="no"/>fane.
+                     </p>
+                     <p>
+                        <lb/>Je ne puis, dans un article forcément rapide, approfondir les diverses ques-
+                        <lb break="no"/>tions d'art que pose ce livre, important entre beaucoup. C'est une œuvre et
+                        <lb/>l'on se doit d'en reparler. Je laisse donc de côté l'artiste pour considérer un
+                        <lb/>instant, chez <persName ref="#apollinaire_guillaume">Apollinaire</persName>, la source de sa poésie. C'est le poète, à coup sûr un
+                        <lb/>des plus grands poètes, de l'enfance. Il y a, chez lui, ce don d'émerveillement
+                        <lb/>qui rend cet âge si intense, et l'acuité, la netteté, la fraîcheur des souvenirs.
+                        <lb/>Il écrit
+                        <ref target="#la_chanson_du_mal_aimée">
+                           <quote rend="align(center) italic">
+                              <l>J'ai hiverné dans mon passé</l>
+                           </quote>
+                        </ref>
+                        <lb/>mais c'est parce que l'hiver est la « saison lucide ». Les émotions ou mieux les
+                        <lb/>émois de l'enfant revivent dans ses notations avec une force hallucinatoire et
+                        <lb/><persName ref="#apollinaire_guillaume">Apollinaire</persName> leur conserve leurs formes conventionnelles d'anges.
+                        <ref target="#la_chanson_du_mal_aimée">
+                           <quote rend="align(center) italic">
+                              <l>Les dimanches s'y éternisent...</l>
+                           </quote>
+                        </ref>
+                        
+                        <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f154.item"/>
+                        
+                        <lb/>L'imagination de l'enfant fait corps avec son intelligence et il réalise en
+                        <lb/>les incarnant autour de lui, les idoles métaphysiques et religieuses. <persName ref="#apollinaire_guillaume">Apollinaire</persName>
+                        <lb/>possède cet émoi double et son livre est, comme son âme, religieux. Les huit
+                        <lb/>jours que dure la « retraite » avant la première communion sont consacrés,
+                        <lb/>sous la direction du prêtre, à des exercices de méditation. C'est une distraction
+                        <lb/>perpétuelle des sens flottant sur un effort méditatif de l'esprit gracieux et qui
+                        <lb/>a la grâce, et n'est—ce pas une image du jeu de contemplation que j'admire
+                        <lb/>dans cette poésie ingénue, ingénieuse et grande? Elle mérite d'être insultée
+                        <lb/>par les admirateurs de M. <persName ref="#romains_jules">J. Romains</persName>.
+                        <lb rend="caps align(right)"/><persName ref="#royere_jean">JEAN ROYÈRE</persName>
+                     </p>
+                     
+                  </div>
+                  
+                  <div type="rubrique" n="2">
+                     <!-- Ne concerne ni Apollinaire, ni Alcools -->
+                     <head rend="align(left) caps underlign">REVUES</head>
+                     <p>
+                        <lb/>Voici que, par les soins de M. Henry—D. Davyray, le <hi rend="bold">Merure de France</hi> nous
+                        <lb/>donne, d'Oscar Wilde, une lettre tout à la fois hautaine et pitoyable.
+                        <lb/>Au mois d'avril dernier eut lieu à Londres un procès qu'intenta Lord
+                        <lb/>Alfred—Bruce Douglas à M. Arthur Ransome. Celui—ci avait publié un livre :
+                        <lb/><hi rend="italic">Oscar Wilde a critical Study</hi>, dans lequel se jugeait diffamé le joli Lord Douglas
+                        <lb/>que l'on sait.
+                     </p>
+                     <p>
+                        <lb/>Cette intervention de Lord Douglas fut au reste déplorable. Il se vit débouté
+                        <lb/>de sa plamte condamné aux dépens, et discuté par la presse comme il conve—
+                        <lb break="no"/>nait, peut-être même plus qu'il ne convenait.
+                     </p>
+                     <p>
+                        <lb/>A Paris, les tribunaux correctionnels accueillent assez fréquemment et fus—
+                        <lb break="no"/>tigent quelquefois de ces pâles voyous que ne méprise sans doute pas Lord
+                        <lb/>Douglas, et qui sont sur plus d'un point dignes de lui; il ne saurait être, pour
+                        <lb/>tels bars de Montmartre ou d'ailleurs, question de monopoles de cette sorte.
+                        <lb/>Mais ceux—là, s'ils font aux Phrynés cotées une concurrence évidente, et s'ils
+                        <lb/>recueillent les mêmes bénéfices somptuaires qui faisaient les délices de « Bo—
+                        <lb break="no"/>sey » <note anchored="true">(I) Nom familier de Lord Douglas.</note>, ne s'en targuent pas du moins avec cette inconscience assurée dont
+                        <lb/>fait étalage le mignon d'Oscar Wilde. Pour ce cynisme insolemment bête —
+                        <lb/>et non pour ses faiblesses — ce bardache d'outre—Manche eût reçu à Paris
+                        <lb/>teile leçon qui l'eût sans doute dissuadé d'évoquer à nouveau le charme de
+                        <lb/>son intimité quelque peu démonétisée — pour recourir à une malencontreuse
+                        <lb/>image montmartroise que Lord Douglas n'ignore pas.
+                     </p>
+                     <p>
+                        <lb/>Mais revenons à cette lettre qui nous révèle la générosité d'âme de « Bosey ».
+                        <lb/>Du fond de sa prison, Wilde déplorait que, loin d'être soutenu par son « ami »,
+                        <lb/>il n'eût jamais reçu un mot de lui, alors que Lord Douglas lui dédiait publi—
+                        <lb break="no"/>quement certains poèmes dont eût pu le dispenser la plus élémentaire délica—
+                        <lb break="no"/>tesse. Cette lettre écrite sans violence est désespérée, pénible. Wilde reproche
+                        <lb/>amèrement à son fâcheux correspondant d'avoir provoqué sa disgrâce, et se
+                        <lb/>méprise de s'être laissé acheminer, « par cette fatale et lamentable amitié »,
+                        <lb/>aux pires déchéances.
+                     </p>
+                     
+                  </div>
+                  
+               </div>
+               
+            </body>
+            
+         </text>
+         
+         
+         
+         <text>
+            <body>
+               
+               <div type="article" n="155" xml:id="article_155">
+                  
+                  <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f155.item"/>
+                  <cb n="1"/>
+                  
+                  <head rend="align(center) caps">
+                     <lb rend="italic"/>A PROPOS D'UN LIVRE
+                     <lb rend="tallest"/><persName ref="#apollinaire_guillaume">GUILLAUME APOLLINATRE</persName>
+                  </head>
+                  
+                  <p>
+                     <lb/>Il est passé de mode aujourd'hui, dans
+                     <lb/>les lettres, de cultiver le paradoxe, On
+                     <lb/>peut le déplorer ou non, mais réjouissons—
+                     <lb/>nous de ce que des poètes, comme MM.<persName ref="salmon_andré">An—
+                        <lb break="no"/>dré Salmon</persName>, <persName ref="pellerin_jean">Jean Pellerin</persName>, <persName ref="#derème_tristan">Tristan Derème</persName>.
+                     <lb/>et quelques autres, ne veuillent s'exprimer
+                     <lb/>qu'ingénument. On n'a jamais d'ailleurs
+                     <lb/>plus mal entendu les poètes qu'à présent...!
+                     <lb/>Autrement, un <persName ref="#deubel_léon">Léon Deubel</persName> se serait-il je-
+                     <lb break="no"/>té à l'eau ? et un <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName>
+                     <lb/>se heureterait-il, après quinze ans d'effort,
+                     <lb/>à l'indifférence de la plupart de ses con-
+                     <lb/>frères ?
+                  </p>
+                  <p>
+                     <lb/>Le destin de certains hommes, il est
+                     <lb/>vrai, reste longtemps impénétrable, Hélas !
+                     <lb/><persName ref="#deubel_léon">Léon Beubel</persName> écrivait : 
+                     <ref target="#demain_Deubel">
+                        <quote rend="align(center)">
+                           <l>Demain paraît ! Demain !...</l>
+                        </quote>
+                     </ref>
+                     
+                     <lb/>et <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> soupire : 
+                     <ref target="marie">
+                        <quote rend="align(center)">
+                           <l>Je passais au bord de la Seine,</l>
+                           <l>Un livre ancien sous le bras</l>
+                           <l>Le fleuve est pareil à ma peine :</l>
+                           <l>Il s'écoule et ne tarit pas.</l>
+                           <l>Quand donc finira la semaine ?</l>
+                        </quote>
+                     </ref>
+                  </p>
+                  <p>
+                     <lb/>Je n'ai pas attendu que le livre de poè—
+                     <lb break="no"/>mes qu'il publie, et qui s'intitule <hi rend="italic">Alcools</hi>,
+                     <lb/>paraisse pour tenir <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName>
+                     <lb/>dans une très haute estime. Il la mérite
+                     <lb/>depuis longtemps, et quand j'aurai dit que
+                     <lb/>sa sensibilité mêlée de douceur et d'hor.
+                     <lb/>reur, son tourment du divin, sa candeur
+                     <lb/>embusquée derrière des sourires, ses jeux,
+                     <lb/>ses mépris et ses feintes m'enchantent et
+                     <lb/>m'arrachent à moi—même, je n'aurai sur—
+                     <lb break="no"/>pris personne. Mais n'est—ce pas là tout,
+                     <lb/>l'art d'un poète ?
+                  </p>
+                  <p>
+                     <lb/><persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> a toujours montré
+                     <lb/>qu'il était sensible. Dans <hi rend="italic"><ref target="#le_bestiaire">le Bestiaire, ou
+                        <lb/>Cortège d'Orphée</ref></hi>, il avouait : 
+                     <ref target="#le_chat">
+                        <quote rend="align(center)">
+                           <l>Je souhaite dans ma maison</l>
+                           <l>Une femme ayant sa raison,</l>
+                           <l>Un chat passant parmi les livres</l>
+                           <l>Des amis en toute saison,</l>
+                           <l>Sans lesquels je ne puis pas vivre.</l>
+                        </quote>
+                     </ref>
+                  </p>
+                  <p>
+                     <lb/>Cette franchise d'accent se rencontre
+                     <lb/>sans cesse dans son œuvre :
+                     <ref target="#zone">
+                        <quote>
+                           <l>Tu as fait de douloureux et de joyeux
+                              <lb rend="interligne"/>[voyages,</l>
+                           <l>Avant de t'apercevoir du mensonge et de 
+                              <lb rend="interligne"/>[l'âge ;</l>
+                           <l>Tu as souffert de l'amour à ving et à trente
+                              <lb rend="interligne"/>[ans ;</l>
+                           <l>J'ai vécu comme un fou et j'ai perdu mon
+                              <lb rend="interligne"/>[temps,</l>
+                        </quote>
+                     </ref>
+                     <lb/>écrit-il. Nul mieux que lui ne sait s'en-
+                     <lb break="no"/>chanter de son mal. 
+                  </p>
+                  <p>
+                     <ref target="#le_coeur_supplicié">
+                        <quote>
+                           <l>Prenez mon cœur, qu'il soit sauvé !</l>
+                        </quote>
+                     </ref>
+                     <lb/>suppliait <persName ref="#rimbaud_arthur">Rimbaud</persName>... Ici ? Qu'importe !
+                     <lb/>Les voyages ont entraîné le poète à tra—
+                     <lb break="no"/>vers les réalités et les rèves : ils lui ont
+                     <lb/>révélé le monde et c'est, après avoir vai-
+                     <lb break="no"/>nement tenté d'échapper à leur mysté-
+                     <lb break="no"/>rieuse attraction, qui <persName ref="#apollinaire_guillaume">Guillaume Apolli—
+                        <lb break="no"/>naire</persName> s'est trouvé seul, à <placeName ref="#paris">Paris</placeName>, et que,
+                     <lb/>sous la fenêtre de sa chambre, un violon
+                     <lb/>plaintif jouait un air. Sur cet air, alors,
+                     <lb/>il a composé des vers et il les chante,
+                     <lb/>quelquefois, encore maintenant quand il
+                     <lb/>est d'excellente humeur.
+                     <ref target="#la_chanson_du_mal_aimé">
+                        <quote rend="align(center)">
+                           <l>Mon beau navire, Ô ma mémoire !</l>
+                           <l>Avons—nous assez navigué</l>
+                           <l>Dans une onde mauvaise à boire.</l>
+                           <l>Avons—nous assez divagué</l>
+                           <l>De la belle aube au triste soir.</l>
+                        </quote>
+                     </ref>
+                     <cb n="2"/>
+                     <lb/>C'est <ref target="#la_chanson_du_mal_aimé">la chanson du mal—aimé</ref>.
+                  </p>
+                  <p>
+                     <lb/>Cette chanson domine l'œuvre poétique
+                     <lb/>de <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName>. Elle en est le
+                     <lb/>motif principal, le centre et comme le
+                     <lb/>soutien. Autour d'elle nous voyons se suc—
+                     <lb break="no"/>céder mille paysages, la Vie et la Mort
+                     <lb/>qui se baisent la bouche, des anges et
+                     <lb/>des démons, des guerriers, des femmes,
+                     <lb/>des monstres, des jongleurs, des serpents
+                     <lb/>et des colombes, ainsi que dans les toiles
+                     <lb/>de ces primitifs allemands dont l'âme
+                     <lb/>naïve était comme un double miroir.
+                     <lb/>Nous voyons des tziganes et des men—
+                     <lb break="no"/>diants, des fées et des nains, tout un mon—
+                     <lb break="no"/>de fabuleux dont le cœur est le cœur mê—
+                     <lb break="no"/>me du poète... Salomé peut danser et
+                     <lb/>—souffrir : nous savons qui elle veut char—
+                     <lb break="no"/>mer. Les sorcières de Bohême peuvent me—
+                     <lb break="no"/>ner leur ronde : nous connaissons leurs
+                     <lb/>convoitises... Le poète ne les regarde pas.
+                     <lb/>« Que n'ai—je, s'écrie—t—il, au milieu d'el—
+                     <lb break="no"/>les,
+                     <ref target="#marie">
+                        <quote rend="align(center)">
+                           <l>Un cœur à moi, ce cœur changeant,</l>
+                           <l>Changeant, et puis encor, que sais—je ?</l>
+                        </quote>
+                     </ref>
+                  </p>
+                  <p>
+                     <lb/>Il est sans force devant sa faiblesse. Ail—
+                     <lb break="no"/>leurs, il nous confie :
+                     <ref target="#la_chanson_du_mal_aimé">
+                        <quote rend="align(center)">
+                           <l>Si jamais revient cette femme,</l>
+                           <l>Je lui dirai : « Je suis content ! »</l>
+                        </quote>
+                     </ref>
+                  </p>
+                  <p>
+                     <lb/>Il la cherche en vain. L'a-t—il. vraiment
+                     <lb/>connue ? La reconnaîtrait—il ? En tout cas,
+                     <lb/>il l'honore ainsi :
+                     <ref target="#l_adieu">
+                        <quote rend="center">
+                           <l>J'ai cueilli ce brin de bruyère.</l>
+                           <l>L'automne est morte, souviens—t'en.</l>
+                           <l>Nous ne nous verrons plus sur terre,</l>
+                           <l>Odeur du temps, brin de bruyère,</l>
+                           <l>Et souviens—toi que je t'attends.</l>
+                        </quote>
+                     </ref>
+                  </p>
+                  <p>
+                     <lb/>Or, comme tous ceux qui ont couru le
+                     <lb/>monde, <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> a pensé
+                     <lb/>qu'il lui serait aisé de s'endurcir ou, tout
+                     <lb/>au moins, de se défendre contre soi—même.
+                     <lb/>Je ne sais quelles sont ses illusions, mais
+                     <lb/>l'homme qui a écrit les vers qui suivent
+                     <lb/>ne nous abuse pas :
+                     <ref target="#poème_lu_au_mariage">
+                        <quote>
+                           <l>Nous nous sommes rencontrés dans un
+                              <lb rend="interligne"/>[caveau maudit,</l>
+                           <l>Au temps de notre jeunesse,</l>
+                           <l>Fumant tous deux et mal vêtus, attendant
+                              <lb rend="interligne"/>[l'aube,</l>
+                           <l>Epris, épris des mêmes paroles dont il faudra
+                              <lb rend="interligne"/>[changer le sens,</l>
+                           <l>Trompés, trompés, pauvres petits, et ne
+                              <lb rend="interligne"/>[sachant pas encore rire.</l>
+                        </quote>
+                     </ref>
+                  </p>
+                  <p>
+                     <lb/>On trouve pourtant chez ce <hi rend="italic">voyageur</hi>, à
+                     <lb/>défaut d'une cruauté réfléchie, comme une
+                     <lb/>façon déconcertante de mêler souvent le
+                     <lb/>sublime au grotesque.
+                  </p>
+                  <p>
+                     <lb/>Tout le monde sait cela. Mais nous ne
+                     <lb/>comprendrons jamais jusqu'à quel point
+                     <lb/><persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> veut se donner la
+                     <lb/>comédie. On l'observe. Il parle avec malice
+                     <lb/>et discernement. Il. est courtois. Il est cu—
+                     <lb break="no"/>rieux. Il a du goût et, quand il célèbre
+                     <lb/>les peintres cubistes, pour tout dire, ou
+                     <lb/>vante la beauté de la <placeName ref="#paris">tour Eiffel</placeName>, c'est en—
+                     <lb break="no"/>core un moyen pour lui de se surveiller.
+                     <lb/>N'a-t—il pas écrit qu'il empruntait au cu-
+                     <lb break="no"/>bisme une méthode dans l'art de devenir
+                     <lb/>inhumain ?
+                     <lb/><hi rend="align(right) bold"><persName>Francis Caro</persName>.</hi>
+                  </p>
+                  
+                  <note type="ref_article" rend="handwritten">
+                     <ref target="#l_intransigeant">L'Intransigeant</ref> 
+                     <date when-iso="1913-07-30">30 juillet 1913</date>
+                  </note>
+                  
+               </div>
+               
+            </body>
+         </text>
+      
+      
+      
+      <text>
+         <body>
+            
+            <div type="article" n="156" xml:id="article1_156">
+               <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f156.item"/>
+               
+               <p>
+                  <lb/>M. <persName ref="#apollinaire_guillaume" rend="caps">GUILLAUME APOLLINAIRE</persName> a le plus grand mépris de ses
+                  <lb/>contemporains. Il ne les juge pas capables de le com-
+                  <lb break="no"/>prendre, et son langage leur fait des concessions. Pourquoi
+                  <lb/>n'a—t—il pas écrit tous les vers d'Alcools<note anchored="true" n="1" place="foot">1. Mercure de France.</note>! à la file, tous ses
+                  <lb/>poèmes à la queue leu leue, sans blancs, sans pagination,
+                  <lb/>puisqu'il y supprima les points et jusqu'à l'humble virgule ?
+                  <lb/>Lisez pourtant cette « Marie » :
+                  
+                  <ref target="#marie">
+                     <quote rend="align(center)">
+                        <lg>
+                           <l>Vous y dansiez petite fille</l>
+                           <l>Y danserez—vous mère—grand</l>
+                           <l>C'est la maclotte qui sautille</l>
+                           <l>Toutes les cloches sonneront</l>
+                           <l>Quand donc reviendrez—vous Marie</l>
+                        </lg>
+                        <lg>
+                           <l>Les brebis s'en vont dans la neige</l>
+                           <l>Flocons de laine et ceux d'argent</l>
+                           <l>Des soldats passent et que n'ai—je:</l>
+                           <l>Un cœur à moi ce cœur changeant</l>
+                           <l>Changeant et puis encore que sais—je</l>
+                        </lg>
+                        <lg>
+                           <l>Sais—je où s'on iront tes cheveux</l>
+                           <l>Crépus comme mer qui moutonne</l>
+                           <l>Sais—je où s'en iront tes cheveux</l>
+                           <l>Et tes mains feuilles de l'automne</l>
+                           <l>Que jonchent aussi nos aveux</l>
+                        </lg>
+                        <lg>
+                           <l>Je passais au bord de la Seine</l>
+                           <l>Un livre ancien sous le bras</l>
+                           <l>Le fleuve est pareil à ma peine</l>
+                           <l>Il s'écoule et ne tarit pas</l>
+                           <l>Quand donc finira la semaine</l>
+                        </lg>
+                     </quote>
+                  </ref>
+               </p>
+               
+               <p>
+                  <lb/>Il me semble que M. <persName ref="#apollinaire_guillaume">Apollinaire</persName> se bat les flancs, qu'en
+                  <lb/>dites-vous ? Je croirais volontiers qu'il n'est qu'intelligence
+                  <lb/>érudite, et c'est une mauvaise condition pour la poésie.
+                  <lb/>Vous me dites que tant de poètes sont bêtes...
+               </p>
+               
+               <note type="ref_article" rend="handwritten" >
+                  <date>1913</date> <persName ref="#clouard_henri">Henri Clouard</persName> <ref target="#revue_critique_des_idées">Revue Critique des Idées et des Livres</ref> Octob
+               </note>
+               
+            </div>
+            
+            
+            
+            <div type="article" n="156" xml:id="article2_156">
+               <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f156.item"/>
+               
+               <head rend="align(left) bold">Ça recommence.</head>
+               
+               <p>
+                  <lb/>Une grande nouvelle. M. <persName ref="#apollinaire_guillaume">Guillaume Apolli-
+                     <lb break="no"/>naire</persName> va publier des vers sans ponctuation. Que
+                  <lb/>c'est intéressant, n'est-ce pas ! Il paraît que M.
+                  <lb/><persName ref="#valette_alfred">Alfred Valette</persName>, le mari de Rachilde, s'en est
+                  <lb/>trouvé mal. Tout le <hi rend="italic"><ref target="#mercure_de_france">Mercure de France</ref></hi> en fut
+                  <lb/>bouleversé... Pour si peu... et le cu-cubisme
+                  <lb/>réapparut en vedette, sous les auspices de <persName ref="#picasso_pablo">Pi-
+                     <lb break="no"/>casso</persName>, vous le connaissez ? Il a fait le portrait
+                  <lb/>de M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName>, et ce portrait ser-
+                  <lb break="no"/>vira de frontispice au volume de vers...
+                  <lb/>sans ponctuation... N'y a-t-il pas là de quoi révolu-
+                  <lb break="no"/>tionner la <placeName ref="#paris">rive gauche</placeName>, voire même de ressus-
+                  <lb break="no"/>citer la guerre des Deux-Rives ? Remettez-vous,
+                  <lb/>je vous prie, tout s'est arrangé. Il paraît que
+                  <lb/>les vers sans ponctuations seront désormais le
+                  <lb/>genre vraiment artisse... Qu'en pensez-vous, o 
+                  <lb/><persName ref="#fort_paul">Paul Fort</persName>, prince des poètes ?
+               </p>
+               
+               <note type="ref_article" rend="handwritten" >
+                  <ref target="#courrier_français">Courrier Français</ref> <date when-iso="1913-02-22">22 février 1913</date>
+               </note>
+               
+            </div>
+            
+            
+            
+            <div type="article" n="156" xml:id="article3_156">
+               <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f156.item"/>
+               
+               <head rend="align(center) bold tall">
+                  <lb/>Les Lettres
+                  <lb/>Un héros
+               </head>
+               
+               <p>
+                  <lb/>On n'avait jamais eu à signaler, croyons-
+                  <lb/>nous, le cas d'un écrivain qui, pour obliger
+                  <lb/>un confrère, renie à peu près tous les ouvra-
+                  <lb break="no"/>ges qui composent son oeuvre. M. <persName ref="#jacob_max">Max Ja
+                     <lb break="no"/>cob</persName>, poète, romancier, dramaturge, confé-
+                  <lb break="no"/>rencier, occultiste et peintre de talent, nous
+                  <lb/>semble être le premier héros d'une telle
+                  <lb/>aventure, et il faut entendre ici le mot héros
+                  <lb/>dans son sens absolu. Voici les faits : en
+                  <lb/>un article très discuté, M. <persName ref="#duhamel_georges">Georges Duhamel</persName>,
+                  <lb/>dans <hi rend="italic underligne(blue)"><ref target="#mercure_de_france">Le Mercure de France</ref></hi>, affirma recon-
+                  <lb break="no"/>naître dans les poésies de M. <persName ref="#apollinaire_guillaume">Guillaume
+                     <lb/>Apollinaire</persName> l'influence d'écrivains de la
+                  <lb/>même génération, celle de <date>1898</date>, parmi les-
+                  <lb break="no"/>quels M. <persName ref="#jacob_max">Max Jacob</persName>. Or, ce dernier, adres-
+                  <lb break="no"/>sant une protestation à M. <persName ref="#valette_alfred">Alfred Vallette</persName>,
+                  <lb/>déclare : <quote>« ...M. <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName> n'a
+                     <lb/>pas cessé de publier des vers depuis <date>1898</date>;
+                     <lb/>en <date>1905</date>, je n'écrivais encore en vers ni en
+                     <lb/>prose et mon premier recueil date de <date>1911</date>. »</quote>
+                  <lb/>Nous ne faillirons pas au devoir qui s'im-
+                  <lb break="no"/>pose à un ami et contemporain des deux
+                  <lb/>écrivains en cause. L'originalité du poète
+                  <lb/>d'<hi rend="italic">Alcools</hi> nous semble indiscutable. Mais M.
+                  <lb/><persName ref="#jacob_max">Max Jacob</persName> pousse trop loin le zèle, au gré
+                  <lb/>de ceux qui furent ses lecteurs toujours amu-
+                  <lb break="no"/>sés. Au reste, si l'on ouvre, à rebours, le 
+                  <lb/>recueil publié en <date>1911</date>, <hi rend="italic"><ref target="#la_côte">la Côte</ref></hi>, on lit : Du
+                  <lb/>même auteur : <hi rend="italic"><ref target="#saint_matorel">Saint-Matorel</ref></hi>, <hi rend="italic"><ref target="#le_siège_de_jérusalem">le Siège de 
+                     <lb/>Jérusalem</ref></hi> (suite de <hi rend="italic"><ref target="#saint_matorel">Saint-Matorel</ref></hi>) ; ces ou-
+                  <lb break="no"/>vrages de luxe furent furent publiés dans les trois
+                  <lb/>années précédentes. On lit encore : Manus-
+                  <lb break="no"/>crits achevés : <hi rend="italic"><ref>Le Terrain Bouchaballa</ref></hi>, co-
+                  <lb break="no"/>médie en trois actes; <hi rend="italic"><ref target="#la_chronique_de_Guichin">La Chronique de Gui-
+                     <lb break="no"/>chin</ref></hi>, roman ; <hi rend="italic"><ref target="#mémoires_apocryphes">Mémoires apocryphes</ref></hi>, nouvel-
+                  <lb break="no"/>les ; <hi rend="italic"><ref target="#les_oeuvres_mystiques_et_burlesque">Les Oeuvres mystiques et burlesques de
+                     <lb/>Frères Matorel, mort au convent</ref></hi>; <hi rend="italic"><ref target="#la_symbolique_des_évangiles">La Sym-
+                        <lb break="no"/>bolique des Evangiles</ref></hi>, essai d'exégèse nou-
+                  <lb break="no"/>velle (conférence faite dans les salons du
+                  <lb/>plus moderne des couturiers); <hi rend="italic"><ref target="#le_phanérogramme">Le Phanéro-
+                     <lb break="no"/>gramme</ref></hi>, roman anglo-saxon. A ces oeuvres,
+                  <lb/>il convient d'ajouter les très nombreux et
+                  <lb/>pittoresques poèmes en prose publiés dans
+                  <lb/>diverses revues, notamment l'introuvable
+                  <lb/><hi rend="italique"><ref target="#revue_immoraliste">Revue Immoraliste</ref></hi>, en <date>1905</date>, et lus à la plu-
+                  <lb break="no"/>part des poètes et écrivains qui, de <date>1903</date> à 
+                  <lb/><date>1913</date>, escaladèrent la <placeName ref="#paris">Butte Montmartre</placeName>.
+                  <lb/>Respectueux de la vérité historique littéraire
+                  <lb/>et veillant sur elle comme un gardien de 
+                  <lb/>phare veille sur sa lumière, nous avions le
+                  <lb/>devoir dire ces choses. Ce devoir accom-
+                  <lb break="no"/>pli nous laisse fort à l'aise pour proclamer
+                  <lb/>que M. <persName ref="#jacob_max">Max Jacob</persName> pratique en héros le
+                  <lb/>culte de l'amitié. Toutefois, son sacrifice
+                  <lb/>apparaît bien inutile. - A. S.
+               </p>
+               
+               <note type="ref_article" rend="handwritten">
+                  <ref target="#gil_blas">Gil Blas</ref> <date when-iso="1913-07-02">2 juillet 1913</date>
+               </note>
+               
+            </div>
+         </body>
+         
+      </text>
+      
+      
+      </group>
+   </text>
+   
+   
+   
+   <standOff>
+      
+      <listPerson>
+         
+         <person xml:id="apollinaire_guillaume">
+            <persName><forename>Guillaume</forename> <surname>Apollinaire</surname></persName>
+            <birth>Né en 1881 à Malaga, Espagne.</birth>
+            <death>Mort en 1973 à Mougins, France.</death>
+            <note>Peintre, dessinateur, sculpteur et graveur espagnol.</note>
+         </person>
+         
+         <person xml:id="baudelaire_charles">
+            <persName><forename>Charles</forename> <surname>Baudelaire</surname></persName>
+            <birth>Né 9 avril 1821, Paris</birth>
+            <death>Mort 31 août 1867, Paris</death>
+            <note>Poète français.</note>
+         </person>
+         
+         <person xml:id="bayard_jean">
+            <persName><forename>Jean</forename> <surname>Bayard</surname></persName>
+         </person>
+         
+         <person xml:id="carco_francis">
+            <persName><forename>Francis</forename> <surname>Carco</surname></persName>
+            <birth>Né le 3 juillet 1886 à Nouméa</birth>
+            <death>Mort le 26 mai 1958 à Paris</death>
+            <note>Ecrivain, poète, journaliste et parolier français.</note>
+         </person>
+         
+         <person xml:id="clouard_henri">
+            <persName><forename>Henri</forename> <surname>Clouard</surname></persName>
+            <birth>Né le 7 octobre 1889</birth>
+            <death>Mort en janvier 1974</death>
+            <note>Journaliste et critique littéraire français.</note>
+         </person>
+         
+         <person xml:id="de_gonzague_frick_louis">
+            <persName><forename>Louis</forename> <nameLink>de</nameLink> <surname>Gonzague Frick</surname></persName>
+            <birth>Né 13 mars 1883, Paris</birth>
+            <death>Mort 9 avril 1958, Paris</death>
+            <note>Poète, critique littéraire proche des mouvements d'avant-garde et journaliste pour La Phallange</note>
+         </person>
+         
+         <person xml:id="de_gourmont_remy">
+            <persName><forename>Remy</forename> <nameLink>de</nameLink> <surname>Gourmont</surname></persName>
+            <birth>Né en 1858 à Bazoches-au-Houlme, France.</birth>
+            <death>Mort en 1915 à Paris, France.</death>
+            <note>Ecrivain, romancier, journaliste et critique d'art français.</note>
+         </person>
+         
+         <person xml:id="derème_tristan">
+            <persName><forename>Tristan</forename> <surname>Derème</surname></persName>
+            <birth>Né en 1889.</birth>
+            <death>Mort en 1941 à Oloron-Sainte-Marie, France.</death>
+            <note>Poète et écrivain français.</note>
+         </person>
+         
+         <person xml:id="deubel_léon">
+            <persName><forename>Léon</forename> <surname>Deubel</surname></persName>
+            <birth>Né lé 22 mars 1879, Belfort</birth>
+            <death>Mort le 12 juin 1913, Maisons-Alfort</death>
+            <note>Poème français</note>
+         </person>
+         
+         <person xml:id="duhamel_georges">
+            <persName><forename>Georges</forename> <surname>Duhamel</surname></persName>
+            <birth>Né le 30 juin 1884, Paris</birth>
+            <death>Mort le 13 avril 1966, Valmondois</death>
+            <note>Médecin, écrivain et poète français</note>
+         </person>
+         
+         <person xml:id="fleuret_fernand">
+            <persName><forename>Fernand</forename> <surname>Fleuret</surname></persName>
+            <birth>Né le 1ᵉʳ avril 1883 à Gondrecourt</birth>
+            <death>Mort le 18 juin 1945 à Paris</death>
+            <note>Ecrivain et poète français</note>
+         </person>
+         
+         <person xml:id="fort_paul">
+            <persName><forename>Paul</forename> <surname>Fort</surname></persName>
+            <birth>Né en 1872 à Reims, France.</birth>
+            <death>Mort en 1960 à Montlhéry, France.</death>
+            <note>Poète et dramaturge français.</note>
+         </person>
+         
+         <person xml:id="jacob_max">
+            <persName><forename>Max</forename> <surname>Jacob</surname></persName>
+            <birth>12 juillet 1876, Quimper</birth>
+            <death>5 mars 1944, Camp de Drancy</death>
+            <note>Poète moderniste, romancier et peintre français.</note>
+         </person>
+         
+         <person xml:id="laforgue_jules">
+            <persName><forename>Jules</forename> <surname>Laforgue</surname></persName>
+            <birth>Né 16 août 1860, Montevideo (Uruguay)</birth>
+            <death>Mort 20 août 1887, Paris</death>
+            <note>Ecrivain, poète.</note>
+         </person>
+         
+         <person xml:id="leautaud_paul">
+            <persName><forename>Paul</forename> <surname>Leautaud</surname></persName>
+            <birth>Né le 18 janvier 1872, Paris</birth>
+            <death>Mort le 22 février 1956, Châtenay-Malabry</death>
+            <note>Ecrivain et critique dramatique français</note>
+         </person>
+         
+         <person xml:id="mallarmé_stéphane">
+            <persName><forename>Stéphane</forename> <surname>Mallarmé</surname></persName>
+            <birth>Né 18 mars 1842, Paris</birth>
+            <death>Mort 9 septembre 1898, Vulaines-sur-Seine</death>
+            <note>Poète, enseignant, traducteur et critique d'art français.</note>
+         </person>
+         
+         <person xml:id="pellerin_jean">
+            <persName><forename>Jean</forename> <surname>Pellerin</surname></persName>
+            <birth>Né le 24 avril 1885, Pontcharra</birth>
+            <death>Mort le 9 juillet 1921, Le Chatelard</death>
+            <note>Poète français membre de l'École fantaisiste.</note>
+         </person>
+         
+         <person xml:id="perceau_louis">
+            <persName><forename>Louis</forename> <surname>Perceau</surname></persName>
+            <birth>Né le 22 septembre 1883 à Coulon</birth>
+            <death>Mort le 20 avril 1942 à Paris</death>
+            <note>Ecrivain polygraphe français</note>
+         </person>
+         
+         <person xml:id="picard_gaston">
+            <persName><forename>Gaston</forename> <surname>Picard</surname></persName>
+            <birth>Né 18 janvier 1892, Paris</birth>
+            <death>Mort 9 mars 1962, Paris</death>
+            <note>Journaliste</note>
+         </person>
+         
+         <person xml:id="picasso_pablo">
+            <persName><forename>Pablo</forename> <surname>Picasso</surname></persName>
+            <birth>Né en 1881 à Malaga, Espagne.</birth>
+            <death>Mort en 1973 à Mougins, France.</death>
+            <note>Peintre, dessinateur, sculpteur et graveur espagnol.</note>
+         </person>
+         
+         <person xml:id="rimbaud_arthur">
+            <persName><forename>Arthur</forename> <surname>Rimbaud</surname></persName>
+            <birth>Né en 1854 à Charleville-Mézières, France.</birth>
+            <death>Mort en 1891 à Marseille, France.</death>
+            <note>Poète français.</note>
+         </person>
+         
+         <person xml:id="romains_jules">
+            <persName><forename>Jules</forename><surname>Romains</surname></persName>
+            <birth>Né le 26 août 1885, à Saint-Julien-Chapteuil.</birth>
+            <death>Mort le 14 août 1972, à Paris.</death>
+            <note>Ecrivain, philosophe, poète et dramaturge français, membre de l'Académie française.</note>
+         </person>
+         
+         <person xml:id="royere_jean">
+            <persName><forename>Jean</forename><surname>Royère</surname></persName>
+            <birth>Né en 1871 à Aix-en-Provence, France.</birth>
+            <death>Mort en 1956 à Paris, France.</death>
+            <note>Poète et éditeur français.</note>
+         </person>
+        
+         <person xml:id="salmon_andré">
+            <persName><forename>André</forename> <surname>Salmon</surname></persName>
+            <birth>Né en 1881 à Paris, France.</birth>
+            <death>Mort en 1969 à Sanary-sur-Mer, France.</death>
+            <note>Ecrivain, poète, romancier, journaliste et critique d'art français.</note>
+         </person>
+         
+         <person xml:id="valette_alfred">
+            <persName><forename>Alfred</forename> <surname>Valette</surname></persName>
+            <birth>Né le 31 juillet 1858, Paris</birth>
+            <death>Mort le 28 septembre 1935, Paris</death>
+            <note>Homme de lettres et éditeur français, fondateur du Mercure de France</note>
+         </person>
+         
+      </listPerson>
+      
+      <listPlace>
+         <place xml:id="paris">
+            <country>France</country>
+            <placeName>Paris</placeName>
+         </place>
+         <place xml:id="vladivostock">
+            <country>Russie</country>
+            <placeName>Vladivostock</placeName>
+         </place>
+         <place xml:id="graville">
+            <country>France</country>
+            <district>
+               <placeName>Graville</placeName>
+            </district>
+         </place>
+         <place xml:id="rhin">
+            <placeName>Rhin</placeName>
+         </place>
+         <place xml:id="vatican">
+            <country>Italie</country>
+            <placeName>Vatican</placeName>
+         </place>
+      </listPlace>
+      
+      
+      
+      <listBibl>
+         <head>Références bibliographiques</head>
+         
+         <listBibl>
+            <head>Référence aux poèmes de Alcools</head>
+            <bibl>
+               <author>Guillaume Apollinaire</author>
+               <title>Alcools (1913)</title>
+               
+               <relatedItem>
+                  <listBibl>
+                     <bibl type="poem" xml:id="a_la_santé"><title>A la Santé</title></bibl>
+                     <bibl type="poem" xml:id="crépuscule"><title>Crépuscule</title></bibl>
+                     <bibl type="poem" xml:id="l_adieu"><title>L'Adieu</title></bibl>
+                     <bibl type="poem" xml:id="l_emigrant_de_landor_road"><title>L'Émigrant de Landor Road</title></bibl>
+                     <bibl type="poem" xml:id="l_ermite"><title>L'Ermite</title></bibl>
+                     <bibl type="poem" xml:id="la_chanson_du_mal_aimé"><title>La Chanson du mal-aimé</title></bibl>
+                     <bibl type="poem" xml:id="le_larron"><title>Le Larron</title></bibl>
+                     <bibl type="poem" xml:id="le_pont_mirabeau"><title>Le Pont Mirabeau</title></bibl>
+                     <bibl type="poem" xml:id="les_colchiques"><title>Les colchiques</title></bibl>
+                     <bibl type="poem" xml:id="les_sept_épées"><title>Les sept épées</title></bibl>
+                     <bibl type="poem" xml:id="poème_lu_au_mariage"><title>Poème lu au mariage d'André Salmon</title></bibl>
+                     <bibl type="poem" xml:id="mai"><title>Mai</title></bibl>
+                     <bibl type="poem" xml:id="marie"><title>Marie</title></bibl>
+                     <bibl type="poem" xml:id="zone"><title>Zone</title></bibl>
+                  </listBibl>
+               </relatedItem>
+            </bibl>
+      </listBibl>
+      
+         <listBibl>
+            <head>Références littéraires</head>
+            
+           <bibl xml:id="l_hérésiarque_et_cie">
+               <author>Guillaume Apollinaire</author>
+               <title>l'Hérésiarque et Cie</title>
+            </bibl>
+            
+            <bibl xml:id="le_bestiaire">
+               <author>Guillaume Apollinaire</author>
+               <title>Le Bestiaire, ou Cortège d’Orphée</title>
+               <relatedItem>
+                  <listBibl>
+                     <bibl type="poem" xml:id="le_chat">
+                        <title>Le Chat</title>
+                     </bibl>
+                  </listBibl>
+               </relatedItem>
+            </bibl>
+            
+            <bibl xml:id="demain_Deubel">
+               <author>Léon Deubel</author>
+               <title>Demain</title>
+            </bibl>
+            
+            <bibl xml:id="le_coeur_supplicié">
+               <author>Arthur Rimbaud</author>
+               <title>Poésie</title>
+               <relatedItem>
+                  <listBibl>
+                     <bibl type="poem">Le coeur supplicié</bibl>
+                  </listBibl>
+               </relatedItem>
+            </bibl>
+            
+            <bibl xml:id="la_côte">
+               <author>Max Jacob</author>
+               <title>La Côte</title>
+            </bibl>
+            
+            <bibl xml:id="saint_matorel">
+               <author>Max Jacob</author>
+               <title>Saint-Matorel</title>
+            </bibl>
+            
+            <bibl xml:id="le_siège_de_jérusalem">
+               <author>Max Jacob</author>
+               <title>Le Siège de Jérusalem</title>
+            </bibl>
+            
+            <bibl xml:id="le_terrain_Bouchaballa">
+               <author>Max Jacob</author>
+               <title>Le Terrain Bouchaballa</title>
+             </bibl>
+            
+            <bibl xml:id="la_chronique_de_Guichin">
+               <author>Max Jacob</author>
+               <title>La Chronique de Guichin</title>
+            </bibl>
+            <bibl xml:id="mémoires_apocryphes">
+               <author>Max Jacob</author>
+               <title>Mémoires apocryphes</title>
+            </bibl>
+            <bibl xml:id="les_oeuvres_mystiques_et_burlesque">
+               <author>Max Jacob</author>
+               <title>Les Oeuvres mystiques et burlesques de Frères Matorel, mort au convent</title>
+            </bibl>
+            <bibl xml:id="la_symbolique_des_évangiles">
+               <author>Max Jacob</author>
+               <title>La Symolique des Evangiles</title>
+            </bibl>
+            
+            <bibl xml:id="le_phanérogramme">
+               <author>Max Jacob</author><title>Le Phanérogramme</title>
+            </bibl>
+            
+         </listBibl>
+      
+      
+      
+      <listBibl>
+         <head>Référence à la presse</head>
+         
+         <bibl xml:id="courrier_français">
+            <title>Courrier français</title>
+         </bibl>
+         
+         <bibl xml:id="fantasio">
+            <title>Fantasio</title>
+         </bibl>
+         
+         <bibl xml:id="gazette_de_france">
+            <title>Gazette de France</title>
+         </bibl>
+         
+         <bibl xml:id="gil_blas">
+            <title>Gil Blas</title>
+         </bibl>
+         
+         <bibl xml:id="l_intransigeant">
+            <title>L'Intransigeant</title>
+         </bibl>
+         
+         <bibl xml:id="la_phalange">
+            <title>La Phalange</title>
+         </bibl>
+         
+         <bibl xml:id="le_divan">
+            <title>Le Divan</title>
+         </bibl>
+         
+         <bibl xml:id="les_chroniques">
+            <title>Les chroniques</title>
+         </bibl>
+         
+         <bibl xml:id="mercure_de_france">
+            <title>Mercure de France</title>
+         </bibl>
+         
+         <bibl xml:id="paris_midi">
+            <title>Paris-Midi</title>
+         </bibl>
+         
+         <bibl xml:id="revue_critique_des_idées">
+            <title>Revue Critique des Idées et des Livres</title>
+         </bibl>
+         
+         <bibl xml:id="revue_immoraliste">
+            <title>Revue Immoraliste</title>
+         </bibl>
+         
+      </listBibl>
+      
+      </listBibl>
+   </standOff>
+   
+   
+</TEI>
