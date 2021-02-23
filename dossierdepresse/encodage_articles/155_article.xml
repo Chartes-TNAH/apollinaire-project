@@ -25,7 +25,7 @@
             <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f155.item"/>
             <cb n="1"/>
             
-            <head rend="align(center) caps">
+            <head rend="align(center) case(caps)">
                <lb rend="italic"/>A PROPOS D'UN LIVRE
                <lb rend="tallest"/><persName ref="#apollinaire_guillaume">GUILLAUME APOLLINATRE</persName>
             </head>
