@@ -34,7 +34,7 @@
             <div type="article" n="146" xml:id="article2_146">
                <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f146.item"/>
             
-               <head rend="caps bold">
+               <head rend="case(caps) bold">
                   M. <persName ref="#de_gonzague_frick_louis">LOUIS DE GONZAGUE FRICK</persName>
                </head>
                
@@ -93,7 +93,7 @@
                   <lb break="no"/>sonnelle pour que nos lecteurs distinguent au
                   <lb/>premier coup d'œil leur véritable origine :
                   <quote>
-                     <title rend="align(center) caps">PRIÈRE DU SOIR</title>
+                     <title rend="align(center) case(caps)">PRIÈRE DU SOIR</title>
                      <l>Une femme qui porte un enfant sur son bras va
                         <lb rend="interligne"/>[faire signe à un autobus</l>
                      <l>Il avait joué <hi rend="italic">Nimbus</hi> placé dans la troisième</l>
@@ -127,7 +127,7 @@
             <div type="article" n="146" xml:id="article4_146">
                <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f146.item"/>
             
-               <head  rend="align(center) caps bold underline">ALCOOLS</head>
+               <head  rend="align(center) case(caps) bold underline">ALCOOLS</head>
                <p>
                   <lb/>Ce livre est orné du portrait de l'au-
                   <lb break="no"/>teur par <persName ref="#picasso_pablo">Pablo Picasso</persName>. Vous verrez un
