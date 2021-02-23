@@ -23,7 +23,7 @@
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f200.item.r=Apollinaire%20manuscrits"/>
             <cb n="1" rend="align(left)"/>
 
-            <head rend="align(center) caps">LA LITTERATURE <lb/> ALCOOLS <lb/> PAR <lb/>
+            <head rend="align(center) case(caps)">LA LITTERATURE <lb/> ALCOOLS <lb/> PAR <lb/>
                <hi rend="bold"><persName ref="#apollinaire_guillaume">GUILLAUME
                      APOLLINAIRE</persName></hi></head>
 
