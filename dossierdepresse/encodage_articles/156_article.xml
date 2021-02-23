@@ -25,7 +25,7 @@
             <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f156.item"/>
          
             <p>
-               <lb/>M. <persName ref="#apollinaire_guillaume" rend="caps">GUILLAUME APOLLINAIRE</persName> a le plus grand mépris de ses
+               <lb/>M. <persName ref="#apollinaire_guillaume" rend="case(caps)">GUILLAUME APOLLINAIRE</persName> a le plus grand mépris de ses
                <lb/>contemporains. Il ne les juge pas capables de le com-
                <lb break="no"/>prendre, et son langage leur fait des concessions. Pourquoi
                <lb/>n'a—t—il pas écrit tous les vers d'Alcools<note anchored="true" n="1" place="foot">1. Mercure de France.</note>! à la file, tous ses
