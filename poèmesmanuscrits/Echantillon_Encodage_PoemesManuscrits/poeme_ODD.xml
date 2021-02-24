@@ -375,6 +375,14 @@
                 </elementSpec>
                 <elementSpec ident="gap" mode="change">
                     <attList>
+                        <attDef ident="quantity" mode="change" usage="req"/>
+                        <attDef ident="unit" mode="change" usage="req">
+                            <valList mode="add" type="closed">
+                                <valItem ident="char"/>
+                                <valItem ident="word"/>
+                                <valItem ident="line"/>
+                            </valList>
+                        </attDef>                        
                         <attDef ident="reason" mode="change">
                             <valList mode="add" type="closed">
                                 <valItem ident="illegible"/>
@@ -383,11 +391,6 @@
                         <attDef ident="agent" mode="delete"/>
                         <attDef ident="corresp" mode="delete"/>
                         <attDef ident="facs" mode="delete"/>
-                        <attDef ident="unit" mode="change">
-                            <valList mode="add" type="closed">
-                                <valItem ident="word"/>
-                            </valList>
-                        </attDef>
                     </attList>
                 </elementSpec>
                 <elementSpec ident="add" mode="change">
@@ -427,6 +430,14 @@
                                 <valItem ident="char"/>
                                 <valItem ident="line"/>
                                 <valItem ident="word"/>
+                            </valList>
+                        </attDef>
+                        <attDef ident="rend" mode="change">
+                            <valList mode="add" type="closed">
+                                <valItem ident="line"/>
+                                <valItem ident="overstrike"/>
+                                <valItem ident="overtyped"/>
+                                <valItem ident="strikethrough"/>
                             </valList>
                         </attDef>
                     </attList>
