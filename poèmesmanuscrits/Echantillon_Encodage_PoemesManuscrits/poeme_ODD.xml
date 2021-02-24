@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en"
+    xmlns:s="http://purl.oclc.org/dsdl/schematron">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -134,6 +135,7 @@
                     </attList>
                 </elementSpec>
                 <elementSpec ident="msItemStruct" mode="change">
+                    <!--Force la distribution des balises contenues par msItemStruct en <locus>, <title> puis <note> obligatoirement-->
                     <content>
                         <sequence>
                             <elementRef key="locus" minOccurs="1" maxOccurs="1"/>
@@ -730,6 +732,7 @@
                                 <elementRef key="body" minOccurs="1" maxOccurs="1"/>
                             </sequence>
                             <sequence>
+                                <elementRef key="front" minOccurs="1" maxOccurs="1"/>
                                 <elementRef key="group" minOccurs="1" maxOccurs="1"/>
                             </sequence>
                         </alternate>
@@ -747,6 +750,10 @@
                     </attList>
                 </elementSpec>
                 <elementSpec ident="group" mode="change">
+                    <!--Force la structure en group adoptée dans l'issue #42-->
+                    <content>
+                        <elementRef key="text" minOccurs="1" maxOccurs="unbounded"/>
+                    </content>
                     <attList>
                         <attDef ident="corresp" mode="delete"/>
                         <attDef ident="facs" mode="delete"/>
@@ -780,6 +787,16 @@
                     </attList>
                 </elementSpec>
                 <elementSpec ident="docTitle" mode="change">
+                    <!--Rend obligatoire la référence à un poème indexé précédemment pour chaque docTitle contenu dans l'élément group-->
+                    <constraintSpec scheme="schematron" ident="refReqdocTitle">
+                        <constraint>
+                            <s:rule context="tei:group//tei:docTitle">
+                                <s:assert test="@ref"> Il est obligatoire
+                                    d'ajouter une référence à un poème.
+                                </s:assert>
+                            </s:rule>
+                        </constraint>
+                    </constraintSpec>
                     <attList>
                         <attDef ident="corresp" mode="delete"/>
                         <attDef ident="facs" mode="delete"/>
@@ -801,7 +818,7 @@
                         </attDef>
                     </attList>
                 </elementSpec>
-                <elementSpec ident="front" mode="change">
+                <elementSpec ident="front" mode="change">                   
                     <attList>
                         <attDef ident="corresp" mode="delete"/>
                         <attDef ident="facs" mode="delete"/>
