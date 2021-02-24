@@ -6,18 +6,111 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Le mal aimé</title>
+            <title>Sept poèmes d'Alcools</title>
             <author>Guillaume Apollinaire</author>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>Recueil de versions préparatoires édité dans le cadre d'un exercice évalué (Projet Github) à l'Ecole nationale des chartes.</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <institution><name>Bibliothèque nationale de France. </name>
+                     <stamp xml:id="estampille_bnf_1870" facs="http://bibale.irht.cnrs.fr/44365">
+                        <mentioned>Biblioth. nationale MSS</mentioned>
+                        <dimensions>
+                           <height unit="mm">12</height>
+                        </dimensions>
+                        <note>Petite estampille ovale (en hauteur) du département des manuscrits de
+                           la Bibliothèque nationale (aujourd'hui BnF) après
+                           <date when="1870">1870</date></note>
+                     </stamp></institution>
+                  <repository>BnF. Département des Manuscrits.</repository>
+                  <altIdentifier>
+                     <idno>NAF 25608</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>ark:/12148/btv1b52505641f</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItemStruct n="1" xml:lang="fr" xml:id="le_pont_mirabeau">
+                     <locus>f.1</locus>
+                     <title>Le Pont Mirabeau</title>
+                     <note>Manuscrit autographe</note>
+                  </msItemStruct>
+                  <msItemStruct n="2" xml:lang="fr" xml:id="la_chanson_du_mal_aime">
+                     <locus>ff. 2-14</locus>
+                     <title>La chanson du Mal-Aimé</title>
+                     <note>Manuscrit autographe. Un premier feuillet correspondant aux strophes 1 à 4 est manquant. La fin du poème manque aussi (depuis la strophe 46), à l'exception de la strophe 57. Au verso, fragments manuscrits de <title>La femme assise</title>.</note>
+                  </msItemStruct>
+                  <msItemStruct n="3" xml:lang="fr" xml:id="marizibill">
+                     <locus>f. 15</locus>
+                     <title>Marizibill</title>
+                     <note>Manuscrit autographe</note>
+                  </msItemStruct>
+                  <msItemStruct n="4" xml:lang="fr" xml:id="mai">
+                     <locus>f. 16</locus>
+                     <title>Mai.</title>
+                     <note>Manuscrit autographe signé et daté de Leutesdorf, mai 1902. Avec des indications manuscrites en vue de l'impression dans "Vers et prose".</note>
+                  </msItemStruct>
+                  <msItemStruct n="5" xml:lang="fr" xml:id="les_cloches">
+                     <locus>f. 17</locus>
+                     <title>Les Cloches</title>
+                     <note>Manuscrit autographe signé et daté de Oberpleis, mai 1902.</note>
+                  </msItemStruct>
+                  <msItemStruct n="6" xml:lang="fr" xml:id="p_1909">
+                     <locus>ff. 18-19</locus>
+                     <title>1909</title>
+                     <note>Manuscrit autographe</note>
+                  </msItemStruct>
+                  <msItemStruct n="7" xml:lang="fr" xml:id="a_la_sante">
+                     <locus>ff. 20-23</locus>
+                     <title>A la santé</title>
+                     <note>Manuscrit de premier jet. Au verso, fragments manuscrits de <title>La Femme assise</title></note>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>   
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>Papier, <stamp>utilisation quasi-systématique d'une estampille sur laquelle on lit "Bibliothèque Nationale MSS"
+                           sur les pages du document.</stamp></support>
+                        <extent>
+                           <width unit="mm">250</width>
+                           <height unit="mm">220</height>
+                        </extent>
+                        <foliation>23 feuillets</foliation>
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <p>Reliure demi-chagrin bleu roi</p>
+                  </bindingDesc>
+               </physDesc> 
+            </msDesc>
          </sourceDesc>
       </fileDesc>
+      <profileDesc>
+         <creation>
+            <date>1901-1902</date>
+            <lang xml:lang="fr"/>
+         </creation>
+      </profileDesc>
    </teiHeader>
    <text>
+      <front>
+         <docTitle>
+            <titlePart>Apollinaire</titlePart>
+            <titlePart>Sept poèmes d'Alcools</titlePart>
+         </docTitle>
+      </front>
+      <group>
+         <text>
+            <front>
+               <docTitle ref="la_chanson_du_mal_aime">
+                  <titlePart>La chanson du mal aimé</titlePart>
+               </docTitle>
+            </front>
       <body>
          <msDesc>
             <msIdentifier>
@@ -35,7 +128,7 @@
                </objectDesc>
             </physDesc>
          </msDesc>
-         <div type="poeme" xml:id="la_chanson_du_mal_aime">
+         <div type="poeme" corresp="https://gallica.bnf.fr/ark:/12148/bpt6k1083760/f18">
             <div type="page" n="14">
                <pb type="recto"
                   facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f47.item.r=ManuscritApollinaire"/>
@@ -110,5 +203,7 @@
             </div>
          </div>
       </body>
+         </text>
+      </group>
    </text>
 </TEI>
