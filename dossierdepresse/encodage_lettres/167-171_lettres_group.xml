@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dossier de presse</title>
+            <title type="sub">Proposition d'encodage avec la balise group des lettres
+            167-169 et1 170-171.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <!--
+         Le <front> serait le même que pour les articles car articles et lettres
+         seront encodées dans la même balise <group>
+      --> 
+      <group type="dossier-de-presse">
+         <text>
+            <body>
+               <div type="letter" n="167, 168, 169" xml:id="lettre_167-169">
+                  <!-- 
+                     Cette balise div pourrait être donc supprimée et substitué
+                  par la balise <text> de la balise <group>
+                  -->
+                  <pb type="recto"
+                     facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f167.item.r=Apollinaire%20manuscrits"/>
+                  <opener>
+                     <address rend="align(top right) case(allcaps)" style="printed">
+                        <addrLine><placeName ref="#Paris">17 quai Voltaire</placeName></addrLine>
+                     </address>
+                     <dateline><date when="1913-06-14" rend="align(top left)">14 juin
+                        1913</date></dateline>
+                     <salute>Mon cher Ami,</salute>
+                  </opener>
+                  <p>Nous venons de boire vos <lb/>alcools, ces vers ingénus et <lb/>subtils,
+                     populaires et pleins <lb/>d’art. A chaque instant <lb/>ils entrainent l’esprit
+                     <lb/>très loin dans l’espace ou <lb/>le temps et aussi dans <lb/>des régions
+                     hors de l’espace <lb/>et du temps véritables <lb/>vers de poète, moins </p>
+                  <pb type="verso" subtype="empty"
+                     facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f168.item.r=Apollinaire%20manuscrits"/>
+                  <pb type="recto"
+                     facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f168.item.r=Apollinaire%20manuscrits"/>
+                  <p>compris que sentis, moins <lb/>sentis que rêvés – char<lb break="no"/>mants (au
+                     sens de carmen!)</p>
+                  <closer>
+                     <salute rend="align(center)">Amitiés</salute>
+                     <signed rend="align(center)"><persName ref="#Tharaud">J.J
+                        Tharaud</persName></signed>
+                  </closer>
+                  <pb type="verso" subtype="empty"
+                     facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f169.item.r=Apollinaire%20manuscrits"
+                  />
+               </div>
+            </body>
+         </text>
+         <text>
+            <body>
+               <div type="letter" n="170, 171" xml:id="lettre_170-171">
+                  <pb type="recto"
+                     facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f170.item.r=Apollinaire%20manuscrits"/>
+                  <opener>
+                     <address rend="align(top right)">
+                        <addrLine><placeName ref="#Paris">Paris</placeName></addrLine>
+                     </address>
+                     <dateline><date when="1913-06-07" rend="align(top left)">7 juin
+                        1913</date></dateline>
+                     <salute>Mon cher Ami,</salute>
+                  </opener>
+                  <p>Je reçois ce matin votre livre, et je vous <lb/>remercie tout de suite de la
+                     charmante <lb/>attention, mais tout aussitôt le bibliophile <lb/>(tout est
+                     relatif, hélas!) prend la parole <lb/>et vous signale que, en dépit de
+                     l’attention <lb/>de la couverture, aucun portrait par <persName ref="#Picasso"
+                        >Pablo <lb/>Picasso</persName> n’accompagne mon exemplaire. <lb/>Est-il omis
+                     aux exemplaires de service, ou <lb/>bien est-ce négligence réparable ? Je ne
+                     coupe <lb/>pas les pages du livre, en attendant de savoir, <lb/>et cependant
+                     j’en suis impatient, d’autant <lb/>plus que j’ai au passage reconnu plus d’un
+                     <lb/>titre de poème que j’ai aimé et que je <lb/>relirai avec joie. </p>
+                  <closer>
+                     <salute>Bien cordialement</salute>
+                     <signed><persName ref="#Fontainas">André Fontainas</persName></signed>
+                  </closer>
+                  <postscript>
+                     <p><placeName ref="#Paris">38 rue Desbordes Valmore (XVI<hi rend="sup"
+                           >e</hi>)</placeName></p>
+                  </postscript>
+                  <pb type="verso" subtype="empty"
+                     facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f171.item.r=Apollinaire%20manuscrits"
+                  />
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+   <standOff>
+      <listPerson>
+         <person xml:id="Tharaud">
+            <persName><forename>Jean-Jacques</forename><surname>Tharaud</surname></persName>
+            <note>Écrivain français</note>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place>
+            <country>France</country>
+            <placeName xml:id="Paris">Paris</placeName>
+         </place>
+      </listPlace>
+   </standOff>
+</TEI>

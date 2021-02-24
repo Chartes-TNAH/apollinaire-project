@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lettre_196-197</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="letter" n="196, 197" xml:id="lettre_196-197">
+            <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f196.item.r=Apollinaire%20manuscrits"/>
+            <opener>
+               <stamp>LA VIE DES LETTRES<lb/>
+               COLLECTION ANTHOLOGIQUE ET CRITIQUE<lb/>
+               DE HAUTE LITTÉRATURE ET D'ART<lb/>
+               DIRECTEUR : NICOLAS BEAUDUIN<lb/>
+               <address><addrLine>20, RUE DE CHARTES, PARIS-NEUILLY</addrLine></address></stamp>
+               <dateline><date when="1913-07-01"><stamp>CE</stamp> 1er juillet <stamp>191</stamp>3</date></dateline>
+               <salute>Mon cher Poète et ami,</salute>
+            </opener>
+            <p>Je vous remercie de votre livre de poèmes "Alcool".<lb/>
+               Je n'ai, depuis lontemps, rien lu de plus curieux, de<lb/>
+               plus bizarre, de plus ahurissant, étonnant, - de<lb/>
+               plus fort.</p>
+            <p>Votre érudition est accablante. C'est fou, c'est<lb/>
+               énorme.</p>
+            <p>Rossiard partage mon admiration fervente. Il m'a<lb/>
+               lu tout dernièrement un poeme écrit en votre honneur.<lb/>
+               "Apollinaire est un fastueux danseur" (danseur au sens<lb/>
+               nietzchéen s'entend).</p>
+            <p>Aux pays verts de La vie des Lettres vous trouverez annoncé,<lb/>
+               comme je vous l'avais promis, votre livre sur <hi rend="underlined">le Cubisme</hi>.</p>
+            <p>Encore mille fois merci de l'envoi de votre livre de<lb/>
+                poèmes.</p>
+            <closer>
+               <salute>Et mes deux mains admiratives</salute>
+               <signed>Nicolas Beauduin</signed>
+            </closer>
+            <pb type="verso" subtype="empty" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f197.item.r=Apollinaire%20manuscrits"/>
+         </div>
+      </body>
+  </text>
+</TEI>

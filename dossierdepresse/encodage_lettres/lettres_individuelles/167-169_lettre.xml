@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dossier de presse</title>
+            <title type="sub">Proposition d'encodage avec la balise group des lettres
+            167-169 et1 170-171.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+         <text>
+            <body>
+               <div type="letter" n="167, 168, 169" xml:id="lettre_167-169">                
+                  <pb type="recto"
+                     facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f167.item.r=Apollinaire%20manuscrits"/>
+                  <opener>
+                     <address rend="align(top right) case(allcaps)" style="printed">
+                        <addrLine><placeName ref="#Paris">17 quai Voltaire</placeName></addrLine>
+                     </address>
+                     <dateline><date when="1913-06-14" rend="align(top left)">14 juin
+                        1913</date></dateline>
+                     <salute>Mon cher Ami,</salute>
+                  </opener>
+                  <p>Nous venons de boire vos <lb/>alcools, ces vers ingénus et <lb/>subtils,
+                     populaires et pleins <lb/>d’art. A chaque instant <lb/>ils entrainent l’esprit
+                     <lb/>très loin dans l’espace ou <lb/>le temps et aussi dans <lb/>des régions
+                     hors de l’espace <lb/>et du temps véritables <lb/>vers de poète, moins </p>
+                  <pb type="verso" subtype="empty"
+                     facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f168.item.r=Apollinaire%20manuscrits"/>
+                  <pb type="recto"
+                     facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f168.item.r=Apollinaire%20manuscrits"/>
+                  <p>compris que sentis, moins <lb/>sentis que rêvés – char<lb break="no"/>mants (au
+                     sens de carmen!)</p>
+                  <closer>
+                     <salute rend="align(center)">Amitiés</salute>
+                     <signed rend="align(center)"><persName ref="#tharaud_jean_et_jerome">J.J
+                        Tharaud</persName></signed>
+                  </closer>
+                  <pb type="verso" subtype="empty"
+                     facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f169.item.r=Apollinaire%20manuscrits"
+                  />
+               </div>
+            </body>
+         </text>
+   <standOff>
+      <listPerson>
+         <person xml:id="tharaud_jean_et_jerome">
+            <persName><forename>Jean</forename><surname>Tharaud</surname></persName>
+            <birth>Né en 1877 à Saint-Julien, France.</birth>
+            <death>Mort en 1953 à Paris, France.</death>
+            <note>Écrivain français</note>
+            <persName><forename>Jérôme</forename><surname>Tharaud</surname></persName>
+            <birth>Né en 1874 à Saint-Julien, France.</birth>
+            <death>Mort en 1953 à Varengeville-sur-Mer, France.</death>
+            <note>Écrivain français</note>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place>
+            <country>France</country>
+            <placeName xml:id="Paris">Paris</placeName>
+         </place>
+      </listPlace>
+   </standOff>
+</TEI>

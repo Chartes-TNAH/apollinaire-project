@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lettre_185-186-187</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="letter" n="185, 186, 187" xml:id="lettre_185-187">
+            <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f185.item.r=Apollinaire%20manuscrits"/>
+            <cb n="1"/>
+            <opener>
+               <dateline><date when="1919-06-24">24 juin 1913</date></dateline>
+               <stamp>49, RUE DE LONGCHAMP<lb/>
+                  NEUILLY-S-SEINE</stamp>
+               <salute>Cher Monsieur,</salute>
+            </opener>
+            <p>Je vous remercie<lb/>
+               bien vivement de m'avoir<lb/>
+               envoyé vos poèmes si<lb/> 
+               pleins de fantaisie et<lb/> 
+               de tristesse.</p>
+            <p>J'en connaissais<lb/>
+               déjà plus d'un et j'avais</p>
+            <pb type="verso" subtype="empty" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f186.item.r=Apollinaire%20manuscrits"/>
+            <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f187.item.r=Apollinaire%20manuscrits"/>
+            <cb n="2"/>
+            <p>admiré dans la Phalange vos<lb/>
+               Rhénanes lorsqu'elles y ont<lb/> 
+               paru.</p>
+            <p>Croyez à toute l'expres-<lb/>
+               sion de ma gratitude, et<lb/>
+               recevez cher monsieur,<lb/> 
+               je vous prie, à l'expression<lb/> 
+               de mes sentiments très distingu<unclear reason="illegible">ées</unclear>.</p>
+            <closer><signed>Aspiq</signed></closer>
+         </div>
+      </body>
+  </text>
+</TEI>

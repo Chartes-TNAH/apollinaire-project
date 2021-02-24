@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dossier de presse</title>
+            <title type="sub">Lettre 175-176</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="175, 176" xml:id="lettre_175-176">
+            <pb type="recto"
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f175.item.r=Apollinaire%20manuscrits"/>
+               
+               <p>Si le titre de votre recueil, chez <lb/>Monsieur, a fait tiquer le <lb/><hi
+                     rend="align(center) case(allcaps)" style="printed">DOCTEUR <persName ref="#henri-aimé">HENRI AIMÉ</persName></hi>
+                  <lb/>spécialiste, l'amateur de belles-lettres a pris plaisir à <lb/>lire son
+                  contenu et je ne <lb/><hi rend="align(left) style(italic)" style="printed"><placeName ref="#Paris">15 rue
+                     Châteaubriand (VIII<hi rend="sup">e</hi>)</placeName></hi></p>
+            <pb type="verso"
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f176.item.r=Apollinaire%20manuscrits"/>
+               <p>veux pas tarder davantage <lb/>à vous remercier de votre <lb/>aimable envoi et à
+                  vous féliciter.</p>
+               <closer>
+                  <date when="1913-06-22" rend="align(left)s">22 juin 1913</date>
+                  <signed rend="align(center)"><persName ref="#henri-aimé">Henri Aimé</persName></signed>
+               </closer>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <listPerson>
+         <person xml:id="henri-aimé"><persName><forename>Henri</forename><surname>Aimé</surname></persName>
+            <note>Docteur</note></person>
+      </listPerson>
+      <listPlace>
+         <place><country>France</country>
+         <placeName xml:id="Paris">Paris</placeName></place>
+      </listPlace>
+   </standOff>
+</TEI>
