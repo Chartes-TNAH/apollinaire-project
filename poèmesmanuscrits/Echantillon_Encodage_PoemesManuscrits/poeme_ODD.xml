@@ -546,7 +546,7 @@
                                 <valItem ident="N"/>
                             </valList>
                         </attDef>
-                        <attDef ident="type" mode="change">
+                        <attDef ident="type" mode="change" usage="req">
                             <valList mode="add" type="closed">
                                 <valItem ident="distique"/>
                                 <valItem ident="monostiche"/>
@@ -556,6 +556,7 @@
                                 <valItem ident="tercet"/>
                             </valList>
                         </attDef>
+                        <attDef ident="n" mode="change" usage="req"/>
                     </attList>
                 </elementSpec>
                 <!--Checking module figures-->
