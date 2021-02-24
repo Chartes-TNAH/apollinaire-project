@@ -10,15 +10,23 @@
                 <author>Guillaume Apollinaire</author>
             </titleStmt>
             <publicationStmt>
-                <p>Recueil de versions préparatoires édité dans le cadre d'un exercice évalué
-                    (Projet Github) à l'école nationale des Chartes.</p>
+                <p>Recueil de versions préparatoires édité dans le cadre d'un exercice évalué (Projet Github) à l'Ecole nationale des chartes.</p>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
-                        <repository>Bibliothèque nationale de France. Département des
-                            Manuscrits.</repository>
+                        <institution><name>Bibliothèque nationale de France. </name>
+                            <stamp xml:id="estampille_bnf_1870" facs="http://bibale.irht.cnrs.fr/44365">
+                                <mentioned>Biblioth. nationale MSS</mentioned>
+                                <dimensions>
+                                    <height unit="mm">12</height>
+                                </dimensions>
+                                <note>Petite estampille ovale (en hauteur) du département des manuscrits de
+                                    la Bibliothèque nationale (aujourd'hui BnF) après
+                                    <date when="1870">1870</date></note>
+                            </stamp></institution>
+                        <repository>BnF. Département des Manuscrits.</repository>
                         <altIdentifier>
                             <idno>NAF 25608</idno>
                         </altIdentifier>
@@ -35,10 +43,7 @@
                         <msItemStruct n="2" xml:lang="fr" xml:id="la_chanson_du_mal_aime">
                             <locus>ff. 2-14</locus>
                             <title>La chanson du Mal-Aimé</title>
-                            <note>Manuscrit autographe. Un premier feuillet correspondant aux
-                                strophes 1 à 4 est manquant. La fin du poème manque aussi (depuis la
-                                strophe 46), à l'exception de la strophe 57. Au verso, fragments
-                                manuscrits de <title>La femme assise</title>.</note>
+                            <note>Manuscrit autographe. Un premier feuillet correspondant aux strophes 1 à 4 est manquant. La fin du poème manque aussi (depuis la strophe 46), à l'exception de la strophe 57. Au verso, fragments manuscrits de <title>La femme assise</title>.</note>
                         </msItemStruct>
                         <msItemStruct n="3" xml:lang="fr" xml:id="marizibill">
                             <locus>f. 15</locus>
@@ -48,9 +53,7 @@
                         <msItemStruct n="4" xml:lang="fr" xml:id="mai">
                             <locus>f. 16</locus>
                             <title>Mai.</title>
-                            <note>Manuscrit autographe signé et daté de Leutesdorf, mai 1902. Avec
-                                des indications manuscrites en vue de l'impression dans "Vers et
-                                prose".</note>
+                            <note>Manuscrit autographe signé et daté de Leutesdorf, mai 1902. Avec des indications manuscrites en vue de l'impression dans "Vers et prose".</note>
                         </msItemStruct>
                         <msItemStruct n="5" xml:lang="fr" xml:id="les_cloches">
                             <locus>f. 17</locus>
@@ -65,14 +68,14 @@
                         <msItemStruct n="7" xml:lang="fr" xml:id="a_la_sante">
                             <locus>ff. 20-23</locus>
                             <title>A la santé</title>
-                            <note>Manuscrit de premier jet. Au verso, fragments manuscrits de
-                                    <title>La Femme assise</title></note>
+                            <note>Manuscrit de premier jet. Au verso, fragments manuscrits de <title>La Femme assise</title></note>
                         </msItemStruct>
                     </msContents>
-                    <physDesc>
+                    <physDesc>   
                         <objectDesc form="codex">
                             <supportDesc>
-                                <support>Papier</support>
+                                <support>Papier, <stamp>utilisation quasi-systématique d'une estampille sur laquelle on lit "Bibliothèque Nationale MSS"
+                                    sur les pages du document.</stamp></support>
                                 <extent>
                                     <width unit="mm">250</width>
                                     <height unit="mm">220</height>
@@ -83,14 +86,14 @@
                         <bindingDesc>
                             <p>Reliure demi-chagrin bleu roi</p>
                         </bindingDesc>
-                    </physDesc>
+                    </physDesc> 
                 </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <creation>
                 <date>1901-1902</date>
-                <lang xml:lang="fre"/>
+                <lang xml:lang="fr"/>
             </creation>
         </profileDesc>
     </teiHeader>
