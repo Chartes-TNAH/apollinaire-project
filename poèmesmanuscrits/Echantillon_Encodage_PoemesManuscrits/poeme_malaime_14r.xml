@@ -35,11 +35,14 @@
                </objectDesc>
             </physDesc>
          </msDesc>
-         <div type="poeme">
-            <div type="recto" n="47" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f21">
+         <div type="poeme" xml:id="la_chanson_du_mal_aime">
+            <div type="page" n="14">
+               <pb type="recto"
+                  facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f47.item.r=ManuscritApollinaire"/>
                <head>La lettre écrite au sultan par les cosaques zaporogues</head>
                <p><add place="top">14</add></p>
-		    <p><add place="top">Réponse des cosaques zaporogues au sultan de Constantinople</add></p>
+               <p><add place="top">Réponse des cosaques zaporogues au sultan de
+                  Constantinople</add></p>
 
                <lg type="tercet" n="1">
                   <figure rend="align(margin)">
@@ -49,7 +52,7 @@
                   <l>Quel chevalier es-tu là bas ?</l>
                   <l><subst>
                         <del><gap quantity="1" unit="word" reason="illegible"/></del>
-                     <add place="above"><del rend="strikethrough"><gap quantity="1" unit="word"
+                        <add place="above"><del rend="strikethrough"><gap quantity="1" unit="word"
                                  reason="illegible"/></del></add>
                         <add rend="overtyped">Sultan</add>
                      </subst> de Turcs puants qui manges</l>
@@ -89,9 +92,8 @@
                         <add>t</add>
                      </subst>es médicaments.</l>
                </lg>
-            </div>
-            <div type="verso" n="48"
-               facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f48.item.zoom">
+               <pb type="verso"
+                  facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f48.item.r=ManuscritApollinaire"/>
                <lg type="tercet" n="2">
                   <figure rend="align(margin)">
                      <figDesc>Accolade indiquant qu'il s'agit d'un morceau du poème du

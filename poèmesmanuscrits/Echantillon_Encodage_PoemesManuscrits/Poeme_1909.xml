@@ -31,7 +31,9 @@
             </objectDesc>
              </physDesc> 
          </msDesc>
-         <div type="poeme" n="63" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f63.item.r=Manuscrit%20Apollinaire">
+         <div type="poeme">
+            <div type="page" n="18">
+            <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f63.item.r=ManuscritApollinaire"/>
             <head>1909 <add place="beside">88</add></head>
 		 <p><add place="top">18</add></p>
             <lg type="quintil" n="1">
@@ -84,6 +86,7 @@
                <l><del quantity="1" unit="line" rend="strikethrough">Que je n’aurais pas osé l’aimer</del></l>
                <l>qu’elle me faisait peur.</l>
             </lg>
+         </div>
          </div>
       </body>
   </text>
