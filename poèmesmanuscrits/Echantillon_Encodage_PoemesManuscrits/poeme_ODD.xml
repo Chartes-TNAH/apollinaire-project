@@ -561,15 +561,14 @@
                 <!--Checking module figures-->
                 <moduleRef key="figures" include="figure figDesc"/>
                 <elementSpec ident="figure" mode="change">
+                    <content>
+                        <elementRef key="figDesc" minOccurs="1" maxOccurs="1"/>
+                    </content>
                     <attList>
+                        <attDef ident="rend" mode="change" usage="req"/>
                         <attDef ident="corresp" mode="delete"/>
                         <attDef ident="facs" mode="delete"/>
-                        <attDef ident="place" mode="change">
-                            <valList mode="add" type="closed">
-                                <valItem ident="align(top"/>
-                                <valItem ident="left)"/>
-                            </valList>
-                        </attDef>
+                        <attDef ident="place" mode="change"/>
                         <attDef ident="type" mode="delete"/>
                     </attList>
                 </elementSpec>
@@ -744,6 +743,13 @@
                     </attList>
                 </elementSpec>
                 <elementSpec ident="body" mode="change">
+                    <!--Force la structuration choisie dans l'issue group-->
+                    <content>
+                        <sequence>
+                            <elementRef key="msDesc" minOccurs="1" maxOccurs="1"/>
+                            <elementRef key="div" minOccurs="1" maxOccurs="1"/>
+                        </sequence>
+                    </content>
                     <attList>
                         <attDef ident="corresp" mode="delete"/>
                         <attDef ident="facs" mode="delete"/>
@@ -760,7 +766,7 @@
                         <attDef ident="type" mode="delete"/>
                     </attList>
                 </elementSpec>
-                <elementSpec ident="div" mode="change">
+                <elementSpec ident="div" mode="change">                  
                     <attList>
                         <attDef ident="facs" mode="delete"/>
                         <attDef ident="org" mode="change">
