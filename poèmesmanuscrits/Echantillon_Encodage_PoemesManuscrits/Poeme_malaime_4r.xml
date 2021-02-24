@@ -6,95 +6,192 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Le mal aimé</title>
+                <title>Sept poèmes d'Alcools</title>
                 <author>Guillaume Apollinaire</author>
             </titleStmt>
             <publicationStmt>
-                <p>Publication Information</p>
+                <p>Recueil de versions préparatoires édité dans le cadre d'un exercice évalué
+                    (Projet Github) à l'école nationale des Chartes.</p>
             </publicationStmt>
             <sourceDesc>
-                <p>Information about the source</p>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <repository>Bibliothèque nationale de France. Département des
+                            Manuscrits.</repository>
+                        <altIdentifier>
+                            <idno>NAF 25608</idno>
+                        </altIdentifier>
+                        <altIdentifier>
+                            <idno>ark:/12148/btv1b52505641f</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItemStruct n="1" xml:lang="fr" xml:id="le_pont_mirabeau">
+                            <locus>f.1</locus>
+                            <title>Le Pont Mirabeau</title>
+                            <note>Manuscrit autographe</note>
+                        </msItemStruct>
+                        <msItemStruct n="2" xml:lang="fr" xml:id="la_chanson_du_mal_aime">
+                            <locus>ff. 2-14</locus>
+                            <title>La chanson du Mal-Aimé</title>
+                            <note>Manuscrit autographe. Un premier feuillet correspondant aux
+                                strophes 1 à 4 est manquant. La fin du poème manque aussi (depuis la
+                                strophe 46), à l'exception de la strophe 57. Au verso, fragments
+                                manuscrits de <title>La femme assise</title>.</note>
+                        </msItemStruct>
+                        <msItemStruct n="3" xml:lang="fr" xml:id="marizibill">
+                            <locus>f. 15</locus>
+                            <title>Marizibill</title>
+                            <note>Manuscrit autographe</note>
+                        </msItemStruct>
+                        <msItemStruct n="4" xml:lang="fr" xml:id="mai">
+                            <locus>f. 16</locus>
+                            <title>Mai.</title>
+                            <note>Manuscrit autographe signé et daté de Leutesdorf, mai 1902. Avec
+                                des indications manuscrites en vue de l'impression dans "Vers et
+                                prose".</note>
+                        </msItemStruct>
+                        <msItemStruct n="5" xml:lang="fr" xml:id="les_cloches">
+                            <locus>f. 17</locus>
+                            <title>Les Cloches</title>
+                            <note>Manuscrit autographe signé et daté de Oberpleis, mai 1902.</note>
+                        </msItemStruct>
+                        <msItemStruct n="6" xml:lang="fr" xml:id="p_1909">
+                            <locus>ff. 18-19</locus>
+                            <title>1909</title>
+                            <note>Manuscrit autographe</note>
+                        </msItemStruct>
+                        <msItemStruct n="7" xml:lang="fr" xml:id="a_la_sante">
+                            <locus>ff. 20-23</locus>
+                            <title>A la santé</title>
+                            <note>Manuscrit de premier jet. Au verso, fragments manuscrits de
+                                    <title>La Femme assise</title></note>
+                        </msItemStruct>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc>
+                                <support>Papier</support>
+                                <extent>
+                                    <width unit="mm">250</width>
+                                    <height unit="mm">220</height>
+                                </extent>
+                                <foliation>23 feuillets</foliation>
+                            </supportDesc>
+                        </objectDesc>
+                        <bindingDesc>
+                            <p>Reliure demi-chagrin bleu roi</p>
+                        </bindingDesc>
+                    </physDesc>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <creation>
+                <date>1901-1902</date>
+                <lang xml:lang="fre"/>
+            </creation>
+        </profileDesc>
     </teiHeader>
     <text>
-        <body>
-            <msDesc>
-                <msIdentifier>
-                    <repository>Bibliothèque nationale de France</repository>
-                </msIdentifier>
-                <physDesc>
-                    <objectDesc>
-                        <supportDesc>
-                            <extent>1 page</extent>
-                        </supportDesc>
-                        <layoutDesc>
-                            <layout columns="1">Strophes séparées par un saut de ligne et disposées
-                                sur une seule colonne.</layout>
-                        </layoutDesc>
-                    </objectDesc>
-                </physDesc>
-            </msDesc>
-            <div type="poeme" xml:id="la_chanson_du_mal_aime">       
-                <div type="page" n="4">
-                <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f25.item.r=ManuscritApollinaire"/>
-                <head>La chanson du Mal aimé</head>
-                    <figure place="align(top left)">
-                        <figDesc>Grande rature ronde</figDesc>
-                    </figure>
-                    <p><add place="top right">4</add></p>
-                    <lg type="quintil" n="1">
-                        <l>Adieu, faux Amour qui t’éloignes </l>
-                        <l>
-                            <del>
-                                <gap quantity="3" unit="word" reason="illegible"/>
-                            </del> je l’ai perdue</l>
-                        <l><del><unclear reason="illegible">Da</unclear></del>ns une forêt
-                                    d’Allema<del><unclear reason="illegible">gne</unclear></del></l>
-                        <l>
-                            <del><gap quantity="1" unit="word" reason="illegible"/></del>gît
-                            sanglant, le cou <del><gap quantity="1" unit="word" reason="illegible"
-                                /></del></l>
-                        <l><unclear>D</unclear>errière les sept montagnes</l>
-                        <figure rend="align(left)">
-                            <figDesc>Points alignés horizontalement</figDesc>
-                        </figure>
-                    </lg>
+        <front>
+            <docTitle>
+                <titlePart>Apollinaire</titlePart>
+                <titlePart>Sept poèmes d'Alcools</titlePart>
+            </docTitle>
+        </front>
+        <group>
+            <text>
+                <front>
+                    <docTitle ref="#la_chanson_du_mal_aime">
+                        <titlePart>La chanson du mal aimé</titlePart>
+                    </docTitle>
+                </front>
 
-                    <lg type="quintil" n="2">
-                        <l><del><unclear>V</unclear></del>ous qui aimez, vous n’avez</l>
+                <body>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Bibliothèque nationale de France</repository>
+                        </msIdentifier>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>1 page</extent>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1">Strophes séparées par un saut de ligne et
+                                        disposées sur une seule colonne.</layout>
+                                </layoutDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                    <div type="poeme">
+                        <div type="page" n="4">
+                            <pb type="recto"
+                                facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f25.item.r=ManuscritApollinaire"/>
+                            <head>La chanson du Mal aimé</head>
+                            <figure place="align(top left)">
+                                <figDesc>Grande rature ronde</figDesc>
+                            </figure>
+                            <p><add place="top right">4</add></p>
+                            <lg type="quintil" n="1">
+                                <l>Adieu, faux Amour qui t’éloignes </l>
+                                <l>
+                                    <del>
+                                        <gap quantity="3" unit="word" reason="illegible"/>
+                                    </del> je l’ai perdue</l>
+                                <l><del><unclear reason="illegible">Da</unclear></del>ns une forêt
+                                            d’Allema<del><unclear reason="illegible"
+                                        >gne</unclear></del></l>
+                                <l>
+                                    <del><gap quantity="1" unit="word" reason="illegible"/></del>gît
+                                    sanglant, le cou <del><gap quantity="1" unit="word"
+                                            reason="illegible"/></del></l>
+                                <l><unclear>D</unclear>errière les sept montagnes</l>
+                                <figure rend="align(left)">
+                                    <figDesc>Points alignés horizontalement</figDesc>
+                                </figure>
+                            </lg>
 
-                        <l><subst>
-                                <del quantity="6" unit="word" rend="overtyped">Connu d’Amour de cette sor<unclear>te</unclear></del>
-                                <add> vu, couché dans les feuilles
-                                        m<unclear>ortes</unclear></add>
-                            </subst></l>
-                        <l><subst>
-                                <del quantity="4" unit="word" rend="overtyped">D’Amour aime jusqu’au t<unclear>répas</unclear></del>
-                                <add>Mon <del quantity="1" unit="word"
-                                        rend="strikethrough">pauvre</del> Amour après son
-                                    trépas</add>
-                            </subst></l>
-                        <l>
-                            <del><gap quantity="1" unit="word" reason="illegible"/></del> coeurs
-                            bougent <del><gap quantity="1" unit="word" reason="illegible"/></del>
-                            portes,</l>
-                        <l> Vous n’aimez p<unclear>a</unclear>s, vou<unclear>s</unclear>
-                                n'<unclear>aim</unclear>ez pas…</l>
-                    </lg>
+                            <lg type="quintil" n="2">
+                                <l><del><unclear>V</unclear></del>ous qui aimez, vous n’avez</l>
 
-                    <lg type="septain" n="1">
-                        <l>Voie lactée ô sœur lumineuse</l>
-                        <l>Des blancs ruisseaux de Chanaan</l>
-                        <pb type="verso" facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f26.item.r=ManuscritApollinaire"/>
-                        <l>Je me souviens d’une autre année,</l>
-                        <l>C’était l’aube d’un jour d’avril.</l>
-                        <l>J’ai chanté ma joie bien-aimée,</l>
-                        <l>Chanté l’amour à voix virile,</l>
-                        <l> Au moment d’amour de l’année.</l>
-                    </lg>
-            </div>
-            </div>
-        </body>
+                                <l><subst>
+                                        <del quantity="6" unit="word" rend="overtyped">Connu d’Amour
+                                            de cette sor<unclear>te</unclear></del>
+                                        <add> vu, couché dans les feuilles
+                                            m<unclear>ortes</unclear></add>
+                                    </subst></l>
+                                <l><subst>
+                                        <del quantity="4" unit="word" rend="overtyped">D’Amour aime
+                                            jusqu’au t<unclear>répas</unclear></del>
+                                        <add>Mon <del quantity="1" unit="word" rend="strikethrough"
+                                                >pauvre</del> Amour après son trépas</add>
+                                    </subst></l>
+                                <l>
+                                    <del><gap quantity="1" unit="word" reason="illegible"/></del>
+                                    coeurs bougent <del><gap quantity="1" unit="word"
+                                            reason="illegible"/></del> portes,</l>
+                                <l> Vous n’aimez p<unclear>a</unclear>s, vou<unclear>s</unclear>
+                                        n'<unclear>aim</unclear>ez pas…</l>
+                            </lg>
+
+                            <lg type="septain" n="1">
+                                <l>Voie lactée ô sœur lumineuse</l>
+                                <l>Des blancs ruisseaux de Chanaan</l>
+                                <pb type="verso"
+                                    facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f26.item.r=ManuscritApollinaire"/>
+                                <l>Je me souviens d’une autre année,</l>
+                                <l>C’était l’aube d’un jour d’avril.</l>
+                                <l>J’ai chanté ma joie bien-aimée,</l>
+                                <l>Chanté l’amour à voix virile,</l>
+                                <l> Au moment d’amour de l’année.</l>
+                            </lg>
+                        </div>
+                    </div>
+                </body>
+            </text>
+        </group>
     </text>
 </TEI>
