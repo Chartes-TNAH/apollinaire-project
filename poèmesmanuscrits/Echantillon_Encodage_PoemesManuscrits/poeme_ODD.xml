@@ -722,6 +722,18 @@
                     </attList>
                 </elementSpec>
                 <elementSpec ident="text" mode="change">
+                    <!--Règle permettant de forcer la structure group lors de l'encodage-->
+                    <content>
+                        <alternate>
+                            <sequence preserveOrder="true">
+                                <elementRef key="front" minOccurs="1" maxOccurs="1"/>
+                                <elementRef key="body" minOccurs="1" maxOccurs="1"/>
+                            </sequence>
+                            <sequence>
+                                <elementRef key="group" minOccurs="1" maxOccurs="1"/>
+                            </sequence>
+                        </alternate>
+                    </content>
                     <attList>
                         <attDef ident="corresp" mode="delete"/>
                         <attDef ident="facs" mode="delete"/>
