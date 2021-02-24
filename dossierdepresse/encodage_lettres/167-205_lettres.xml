@@ -37,7 +37,7 @@
                <address rend="align(top right) case(allcaps)" style="printed">
                   <addrLine><placeName ref="#paris">17 quai Voltaire</placeName></addrLine>
                </address>
-               <dateline><date when="1913-06-14" rend="align(top left)">14 juin
+               <dateline><date when-iso="1913-06-14" rend="align(top left)">14 juin
                   1913</date></dateline>
                <salute>Mon cher Ami,</salute>
             </opener>
@@ -66,7 +66,7 @@
                <address rend="align(top right)">
                   <addrLine><placeName ref="#paris">Paris</placeName></addrLine>
                </address>
-               <dateline><date when="1913-06-07" rend="align(top left)">7 juin
+               <dateline><date when-iso="1913-06-07" rend="align(top left)">7 juin
                   1913</date></dateline>
                <salute>Mon cher Ami,</salute>
             </opener>
@@ -96,7 +96,7 @@
                <address rend="align(top left)">
                   <addrLine><placeName ref="#cap_d_ail">Cap d'ail</placeName></addrLine>
                </address>
-               <dateline><date when="1913-05-30" rend="align(left)">30 mai 1913</date></dateline>
+               <dateline><date when-iso="1913-05-30" rend="align(left)">30 mai 1913</date></dateline>
                <salute>Mon cher <persName ref="#apollinaire_guillaume"
                   >Guillaume</persName>,</salute>
             </opener>
@@ -205,7 +205,7 @@
             <p>veux pas tarder davantage <lb/>à vous remercier de votre <lb/>aimable envoi et à vous
                féliciter.</p>
             <closer>
-               <date when="1913-06-22" rend="align(left)s">22 juin 1913</date>
+               <date when-iso="1913-06-22" rend="align(left)s">22 juin 1913</date>
                <signed rend="align(center)"><persName ref="#aimé_henri">Henri
                   Aimé</persName></signed>
             </closer>
@@ -214,7 +214,7 @@
             <pb type="verso"
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f177.item.r=Apollinaire%20manuscrits"/>
             <opener>
-               <dateline><date when="1913-06-19" rend="align(left)">19 Juin 13-</date></dateline>
+               <dateline><date when-iso="1913-06-19" rend="align(left)">19 Juin 13-</date></dateline>
                <address rend="align(top right)">
                   <addrLine><placeName ref="#curverville">Cuverville</placeName><lb/> par <placeName
                         ref="#criquetot_l_esneval">Criquetot L'Esneval</placeName><lb/> 8<hi
@@ -322,7 +322,7 @@
                facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f185.item.r=Apollinaire%20manuscrits"/>
             <cb n="1"/>
             <opener>
-               <dateline><date when="1919-06-24">24 juin 1913</date></dateline>
+               <dateline><date when-iso="1919-06-24">24 juin 1913</date></dateline>
                <stamp>49, RUE DE LONGCHAMP<lb/>
                   <placeName ref="#neuilly_sur_seine">NEUILLY-S-SEINE</placeName></stamp>
                <salute>Cher Monsieur,</salute>
@@ -386,7 +386,7 @@
          <div type="letter" n="192, 193" xml:id="lettre_192-193">
             <pb type="recto" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f192.item"/>
             <opener>
-               <dateline><date when="1913-06-19">19 Juin 1913</date></dateline>
+               <dateline><date when-iso="1913-06-19">19 Juin 1913</date></dateline>
                <stamp>3, RUE LAS-CASES. VIIe.</stamp>
                <salute>Mon cher ami.</salute></opener>
             <p>Je viens de rentrer de<lb/> la campagne et de trouver chez moi votre<lb/> livre. Je
@@ -402,7 +402,7 @@
             <spanGrp type="postmarked">
                <span type="postmark" rend="red">République français 10c</span>
                <span type="stamp">
-                  <date when="1913-06-20"><placeName ref="#paris">Paris</placeName> Ste Anne
+                  <date when-iso="1913-06-20"><placeName ref="#paris">Paris</placeName> Ste Anne
                      20-6-13</date>
                </span>
                <span type="receiver">
@@ -440,7 +440,7 @@
                            >PARIS</placeName>-<placeName ref="#neuilly_sur_seine"
                            >NEUILLY</placeName></addrLine>
                   </address></stamp>
-               <dateline><date when="1913-07-01"><stamp>CE</stamp> 1er juillet
+               <dateline><date when-iso="1913-07-01"><stamp>CE</stamp> 1er juillet
                      <stamp>191</stamp>3</date></dateline>
                <salute>Mon cher Poète et ami,</salute>
             </opener>

@@ -384,7 +384,7 @@
                      facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f185.item.r=Apollinaire%20manuscrits"/>
                   <cb n="1"/>
                   <opener>
-                     <dateline><date when="1919-06-24">24 juin 1913</date></dateline>
+                     <dateline><date when-iso="1919-06-24">24 juin 1913</date></dateline>
                      <stamp rend="case(allcaps)">49, RUE DE LONGCHAMP<lb/>
                         <placeName ref="#neuilly_sur_seine">NEUILLY-S-SEINE</placeName></stamp>
                      <salute>Cher Monsieur,</salute>
