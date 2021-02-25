@@ -363,6 +363,8 @@
                         <attDef ident="part" mode="change">
                             <valList mode="add" type="closed">
                                 <valItem ident="N"/>
+                                <valItem ident="I"/>
+                                <valItem ident="F"/>
                             </valList>
                         </attDef>
                     </attList>
@@ -408,6 +410,8 @@
                                 <valItem ident="beside"/>
                                 <valItem ident="right"/>
                                 <valItem ident="top"/>
+                                <valItem ident="margin"/>
+                                <valItem ident="below"/>
                             </valList>
                         </attDef>
                         <attDef ident="type" mode="delete"/>
