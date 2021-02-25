@@ -134,10 +134,10 @@
                             <pb type="recto"
                                 facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f25.item.r=ManuscritApollinaire"/>
                             <head>La chanson du Mal aimé</head>
-                            <figure place="align(top left)">
+                            <figure rend="align(top left)">
                                 <figDesc>Grande rature ronde</figDesc>
                             </figure>
-                            <p><add place="top right">4</add></p>
+                            <p><add rend="top right">4</add></p>
                             <lg type="quintil" n="1">
                                 <l>Adieu, faux Amour qui t’éloignes </l>
                                 <l>
