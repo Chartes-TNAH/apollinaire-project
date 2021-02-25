@@ -402,7 +402,7 @@
                                 <valItem ident="unremarkable"/>
                             </valList>
                         </attDef>
-                        <attDef ident="place" mode="change">
+                        <attDef ident="rend" mode="change">
                             <valList mode="add" type="closed">
                                 <valItem ident="above"/>
                                 <valItem ident="beside"/>
@@ -411,8 +411,14 @@
                             </valList>
                         </attDef>
                         <attDef ident="type" mode="delete"/>
-                        <attDef ident="unit" mode="delete"/>
-                        <attDef ident="quantity" mode="delete"/>
+                        <attDef ident="unit">
+                            <valList mode="add" type="closed">
+                                <valItem ident="char"/>
+                                <valItem ident="line"/>
+                                <valItem ident="word"/>
+                            </valList>
+                        </attDef>
+                      <attDef ident="quantity" mode="delete"/>
                     </attList>
                 </elementSpec>
                 <elementSpec ident="del" mode="change">
