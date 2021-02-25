@@ -506,13 +506,14 @@
                 <elementSpec ident="pb" mode="change">
                     <attList>
                         <attDef ident="corresp" mode="delete"/>
-                        <attDef ident="type" mode="change">
+                        <attDef ident="type" mode="change" usage="req">
                             <valList mode="add" type="closed">
                                 <valItem ident="recto"/>
                                 <valItem ident="verso"/>
                             </valList>
                         </attDef>
                         <attDef ident="spanTo" mode="delete"/>
+                        <attDef ident="facs" mode="change" usage="req"/>
                     </attList>
                 </elementSpec>
                 <elementSpec ident="author" mode="change">
@@ -784,7 +785,21 @@
                         <attDef ident="type" mode="delete"/>
                     </attList>
                 </elementSpec>
-                <elementSpec ident="div" mode="change">  
+                <elementSpec ident="div" mode="change">
+                    <content>
+                        <alternate>
+                            <sequence>
+                                <elementRef key="div" minOccurs="1" maxOccurs="unbounded"/>
+                            </sequence>
+                            <sequence>
+                                <elementRef key="pb" minOccurs="1" maxOccurs="2"/>
+                                <elementRef key="head" minOccurs="1" maxOccurs="1"/>
+                                <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
+                                <elementRef key="lg" minOccurs="1" maxOccurs="unbounded"/>
+                                <elementRef key="figure" minOccurs="0" maxOccurs="unbounded"/>
+                            </sequence>
+                        </alternate>
+                    </content>
                     <constraintSpec scheme="schematron" ident="divtypecorresp">
                         <constraint>
                             <s:rule context="tei:body/tei:div">
