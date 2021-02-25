@@ -411,14 +411,14 @@
                             </valList>
                         </attDef>
                         <attDef ident="type" mode="delete"/>
-                        <attDef ident="unit">
+                        <attDef ident="unit" mode="change" usage="opt">
                             <valList mode="add" type="closed">
                                 <valItem ident="char"/>
-                                <valItem ident="line"/>
                                 <valItem ident="word"/>
+                                <valItem ident="line"/>
                             </valList>
-                        </attDef>
-                      <attDef ident="quantity" mode="delete"/>
+                        </attDef>                      
+                        <attDef ident="quantity" mode="delete"/>
                     </attList>
                 </elementSpec>
                 <elementSpec ident="del" mode="change">
@@ -431,7 +431,7 @@
                             </valList>
                         </attDef>
                         <attDef ident="type" mode="delete"/>
-                        <attDef ident="unit" mode="change">
+                        <attDef ident="unit" mode="change" usage="opt">
                             <valList mode="add" type="closed">
                                 <valItem ident="char"/>
                                 <valItem ident="line"/>
@@ -784,7 +784,23 @@
                         <attDef ident="type" mode="delete"/>
                     </attList>
                 </elementSpec>
-                <elementSpec ident="div" mode="change">                  
+                <elementSpec ident="div" mode="change">  
+                    <constraintSpec scheme="schematron" ident="divtypecorresp">
+                        <constraint>
+                            <s:rule context="tei:body/tei:div">
+                                <s:assert test="@type='poeme' and @corresp"> La première division doit être composée d'un attribut type de valeur poème et d'un attribut corresp associant le poème manuscrit à sa version éditée
+                                </s:assert>
+                            </s:rule>
+                        </constraint>
+                    </constraintSpec>
+                    <constraintSpec scheme="schematron" ident="divtypen">
+                        <constraint>
+                            <s:rule context="tei:div/tei:div">
+                                <s:assert test="@type='page' and @n"> La première division doit être composée d'un attribut type de valeur page et d'un attribut n 
+                                </s:assert>
+                            </s:rule>
+                        </constraint>
+                    </constraintSpec>
                     <attList>
                         <attDef ident="facs" mode="delete"/>
                         <attDef ident="org" mode="change">
