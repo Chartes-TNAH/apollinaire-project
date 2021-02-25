@@ -74,15 +74,11 @@
                </msContents>
                <physDesc>   
                   <objectDesc form="codex">
-                     <supportDesc>
-                        <support>Papier, <stamp>utilisation quasi-systématique d'une estampille sur laquelle on lit "Bibliothèque Nationale MSS"
-                           sur les pages du document.</stamp></support>
                         <extent>
                            <width unit="mm">250</width>
                            <height unit="mm">220</height>
                         </extent>
                         <foliation>23 feuillets</foliation>
-                     </supportDesc>
                   </objectDesc>
                   <bindingDesc>
                      <p>Reliure demi-chagrin bleu roi</p>
