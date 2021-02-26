@@ -137,7 +137,7 @@
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f21.item.r=ManuscritApollinaire.zoom"/>
                      <head><add rend="top">La Chanson du Mal-aimé</add></head>
-                     <p><add rend="top right">2</add></p>
+                     <p><add rend="align(top right)">2</add></p>
                      <lg type="quintil" n="1">
                         <l>C’était son regard d’inhumaine</l>
                         <l>La cicatrice à son cou nu</l>
@@ -158,9 +158,9 @@
                         <l>Quand il la retrouva plus pâle</l>
                         <l><subst>
                               <del quantity="2" unit="word" rend="strikethrough">De l’amour</del>
-                              <add rend="above"><del quantity="2" unit="word" rend="strikethrough"
+                              <add rend="align(above)"><del quantity="2" unit="word" rend="strikethrough"
                                     >larmes d'</del></add>
-                              <add rend="margin">D'attente et d'amour</add>
+                              <add rend="align(margin)">D'attente et d'amour</add>
                            </subst> yeux pâlis</l>
                         <l>Caressant sa gazelle mâle</l>
                      </lg>
@@ -175,7 +175,7 @@
                   <div type="page" n="3">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f23.item.r=ManuscritApollinaire"/>
-                     <p><add rend="top right">3</add></p>
+                     <p><add rend="align(top right)">3</add></p>
                      <lg type="quintil" n="5">
                         <l><del quantity="6" unit="word" rend="strikethrough">Ma maîtresse aux
                               beautés sans nombre</del></l>
@@ -188,7 +188,7 @@
                      <lg type="quintil" n="6">
                         <l>J’ai hiverné dans mon passé</l>
                         <l><del quantity="1" unit="word" rend="strikethrough">Que</del><add
-                              place="above">Re</add>vienne le soleil de Pâques</l>
+                              rend="align(above)">Re</add>vienne le soleil de Pâques</l>
                         <l>Pour chauffer un cœur plus glacé</l>
                         <l>Que les quarante de Sébaste</l>
                         <l>Moins que ma vie, martyrisés</l>
@@ -207,7 +207,7 @@
                   <div type="page" n="4">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f25.item.r=ManuscritApollinaire"/>
-                     <p><add rend="top right">4</add></p>
+                     <p><add rend="align(top right)">4</add></p>
                      <lg type="quintil" n="7">
                         <figure rend="align(top left)">
                            <figDesc>Grande rature ronde</figDesc>
@@ -264,7 +264,7 @@
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f29.item.r=ManuscritApollinaire"/>
                      <head>Aubade chantée à Laetare, un an passé</head>
-                     <p><add rend="top right">5</add></p>
+                     <p><add rend="align(top right)">5</add></p>
                      <lg type="quintil" n="9">
                         <l>C’est le printemps, viens-t’en Pâquette,</l>
                         <l>Te promener au bois joli.</l>
@@ -290,7 +290,7 @@
                   <div type="page" n="6">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f31.item.r=ManuscritApollinaire"/>
-                     <p><add rend="top right">6</add></p>
+                     <p><add rend="align(top right)">6</add></p>
                      <lg type="quintil" n="12">
                         <l>Beaucoup de ces dieux ont péri,</l>
                         <l>C’est sur eux que pleurent les saules ;</l>
@@ -326,13 +326,13 @@
                   <div type="page" n="7">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f33.item.r=ManuscritApollinaire.zoom"/>
-                     <p><add rend="top right">7</add></p>
+                     <p><add rend="align(top right)">7</add></p>
                      <lg type="quintil" n="20">
                         <l>"Portez comme un joug le Croissant</l>
                         <l>"Q<subst>
                               <del quantity="3" unit="word" rend="strikethrough">ui fait
                                  trembler</del>
-                              <add rend="above">’interrogent</add>
+                              <add rend="align(above)">’interrogent</add>
                            </subst> les astrologues,</l>
                         <l>"Je suis le Sultan tout-puissant,</l>
                         <l>"Ô mes Cosaques Zaporogues,</l>
@@ -356,12 +356,12 @@
                   <div type="page" n="8">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f35.item.r=ManuscritApollinaire.zoom"/>
-                     <p><add rend="top right">8</add></p>
+                     <p><add rend="align(top right)">8</add></p>
                      <lg type="quintil" n="23">
                         <l><subst>
                               <del quantity="1" unit="line" rend="strikethrough">Voie lactée ô sœur
                                  lumineuse</del>
-                              <add rend="top">Adieu, faux Amour qui s’éloigne</add>
+                              <add rend="align(top)">Adieu, faux Amour qui s’éloigne</add>
                            </subst></l>
                         <l>Le cher Amour je l’ai perdu</l>
                         <l>Derrière le Dans une forêt d’Allemagne</l>
@@ -393,7 +393,7 @@
                   <div type="page" n="9">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f37.item.r=ManuscritApollinaire"/>
-                     <p><add rend="top right">9</add></p>
+                     <p><add rend="align(top right)">9</add></p>
                      <lg type="quintil" n="27">
                         <l>Mon cœur et ma tête se vident,</l>
                         <l>Tout le ciel s’écoule par eux ;</l>
@@ -406,7 +406,10 @@
                         <l>Ma colombe, ma blanche rade</l>
                         <l>Ô marguerite exfoliée</l>
                         <l>Mon île au loin, ma Désirade</l>
-                        <l>Mon[subst. ma] rose, mon giroflier…</l>
+                        <l><subst>
+                              <del quantity="1" unit="word" rend="overtyped">Mon</del>
+				<add>Ma</add>
+                           </subst> rose, mon giroflier…</l>
                      </lg>
                      <lg type="quintil" n="29">
                         <l>Les satyres et les pyraustes,</l>
@@ -451,7 +454,7 @@
                         <l>Je t’ai menée souviens-t-en bien,</l>
                         <l>Ténébreuse épouse <subst>
                               <del quantity="2" unit="word" rend="strikethrough">que j'aime</del>
-                              <add rend="above"/>
+                              <add rend="rend="align(above)"/>
                            </subst></l>
                         <l>Tu es à moi en n’étant rien</l>
                         <l>Ô mon ombre, en deuil de moi-même…</l>
@@ -459,7 +462,7 @@
                      <lg type="quintil" n="34">
                         <l><subst>
                               <del quantity="2" unit="word" rend="strikethrough">Mort d’</del>
-                              <add rend="above">L’hiver</add>
+                              <add rend="rend="align(above)">L’hiver</add>
                            </subst> est mort tout enneigé,</l>
                         <l>On a brûlé les ruches blanches.</l>
                         <l>Dans les jardins et les vergers</l>
@@ -470,7 +473,7 @@
                   <div type="page" n="11">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f41.item.r=ManuscritApollinaire"/>
-                     <p><add rend="top">11</add></p>
+                     <p><add rend="rend="align(top)">11</add></p>
                      <lg type="quintil" n="35">
                         <l>Morts d’éternels argyraspides !</l>
                         <l>La neige aux boucliers d’argent,</l>
@@ -496,8 +499,8 @@
                   <div type="page" n="12">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f43.item.r=ManuscritApollinaire"/>
-                     <head><add rend="top">Les sept épées</add></head>
-                     <p><add rend="top">14</add></p>
+                     <head><add rend="rend="align(top)">Les sept épées</add></head>
+                     <p><add rend="rend="align(top)">14</add></p>
                      <lg type="quintil" n="38">
                         <l>La première est toute d’argent</l>
                         <l>Et son nom tremblant c’est Pâline ;</l>
@@ -511,7 +514,7 @@
                         <l>Les dieux s’en servent à leurs noces ;</l>
                         <l>Elle a tué trente <subst>
                               <del quantity="2" unit="word" rend="strikethrough">Bed’Rie</del>
-                              <add rend="below">Bé-Rieux</add>
+                              <add rend="rend="align(below)">Bé-Rieux</add>
                            </subst></l>
                         <l>Et fut douée par Carabosse.</l>
                      </lg>
@@ -533,7 +536,7 @@
                   <div type="page" n="13">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f45.item.r=ManuscritApollinaire"/>
-                     <p><add rend="top">13</add></p>
+                     <p><add rend="rend="align(top)">13</add></p>
                      <lg type="quintil" n="42">
                         <l><delSpan spanTo="#b" quantity="2" unit="line" rend="strikethrough"/>Monde
                            souffrant de mon orgueil</l>
@@ -549,8 +552,8 @@
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f47.item.r=ManuscritApollinaire"/>
                      <head>La lettre écrite au sultan par les cosaques zaporogues</head>
-                     <p><add rend="top">14</add></p>
-                     <p><add rend="top">Réponse des cosaques zaporogues au sultan de
+                     <p><add rend="rend="align(top)">14</add></p>
+                     <p><add rend="rend="align(top)">Réponse des cosaques zaporogues au sultan de
                            Constantinople</add></p>
                      <lg type="tercet" n="1">
                         <figure rend="align(margin)">
@@ -560,7 +563,7 @@
                         <l>Quel chevalier es-tu là bas ?</l>
                         <l><subst>
                               <del><gap quantity="1" unit="word" reason="illegible"/></del>
-                           <add rend="above"><del rend="overtyped"><gap quantity="1"
+                           <add rend="rend="align(above)"><del rend="overtyped"><gap quantity="1"
                                        unit="word" reason="illegible"/></del></add>
                               <add>Sultan</add>
                            </subst> de Turcs puants qui manges</l>
