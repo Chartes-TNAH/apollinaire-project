@@ -428,7 +428,7 @@
                   <div type="page" n="10">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f39.item.r=ManuscritApollinaire"/>
-                     <p><add place="top">10</add></p>
+                     <p><add rend="top">10</add></p>
                      <lg type="quintil" n="31">
                         <l>Malheur ! Dieu pâle, aux yeux d’ivoire</l>
                         <l>Tes prêtres fous t’ont-ils paré ?</l>
@@ -470,7 +470,7 @@
                   <div type="page" n="11">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f41.item.r=ManuscritApollinaire"/>
-                     <p><add place="top">11</add></p>
+                     <p><add rend="top">11</add></p>
                      <lg type="quintil" n="35">
                         <l>Morts d’éternels argyraspides !</l>
                         <l>La neige aux boucliers d’argent,</l>
