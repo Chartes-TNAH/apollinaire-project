@@ -771,7 +771,7 @@
                     <!--Force la structuration choisie dans l'issue group-->
                     <content>
                         <sequence>
-                            <elementRef key="msDesc" minOccurs="1" maxOccurs="1"/>
+                            <elementRef key="msDesc" minOccurs="0" maxOccurs="unbounded"/>
                             <elementRef key="div" minOccurs="1" maxOccurs="1"/>
                         </sequence>
                     </content>
