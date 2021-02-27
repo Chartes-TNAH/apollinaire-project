@@ -775,7 +775,7 @@
                     <content>
                         <sequence>
                             <elementRef key="msDesc" minOccurs="0" maxOccurs="unbounded"/>
-                            <elementRef key="div" minOccurs="1" maxOccurs="1"/>
+                            <elementRef key="div" minOccurs="1" maxOccurs="unbounded"/>
                         </sequence>
                     </content>
                     <attList>
