@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sept poèmes d'Alcools</title>
+            <author>Guillaume Apollinaire</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Recueil de versions préparatoires éditées dans le cadre d'un exercice évalué (Projet
+               Github) à l'Ecole nationale des chartes.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <institution><name>Bibliothèque nationale de France. </name>
+                     <stamp xml:id="estampille_bnf_1870" facs="http://bibale.irht.cnrs.fr/44365">
+                        <mentioned>Biblioth. nationale MSS</mentioned>
+                        <dimensions>
+                           <height unit="mm">12</height>
+                        </dimensions>
+                        <note>Petite estampille ovale (en hauteur) du département des manuscrits de
+                           la Bibliothèque nationale (aujourd'hui BnF) après <date when="1870"
+                              >1870</date></note>
+                     </stamp></institution>
+                  <repository>BnF. Département des Manuscrits.</repository>
+                  <altIdentifier>
+                     <idno>NAF 25608</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>ark:/12148/btv1b52505641f</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItemStruct n="1" xml:lang="fr" xml:id="le_pont_mirabeau">
+                     <locus>f.1</locus>
+                     <title>Le Pont Mirabeau</title>
+                     <note>Manuscrit autographe</note>
+                  </msItemStruct>
+                  <msItemStruct n="2" xml:lang="fr" xml:id="la_chanson_du_mal_aime">
+                     <locus>ff. 2-14</locus>
+                     <title>La chanson du Mal-Aimé</title>
+                     <note>Manuscrit autographe. Un premier feuillet correspondant aux strophes 1 à
+                        4 est manquant. La fin du poème manque aussi (depuis la strophe 46), à
+                        l'exception de la strophe 57. Au verso, fragments manuscrits de <title>La
+                           femme assise</title>.</note>
+                  </msItemStruct>
+                  <msItemStruct n="3" xml:lang="fr" xml:id="marizibill">
+                     <locus>f. 15</locus>
+                     <title>Marizibill</title>
+                     <note>Manuscrit autographe</note>
+                  </msItemStruct>
+                  <msItemStruct n="4" xml:lang="fr" xml:id="mai">
+                     <locus>f. 16</locus>
+                     <title>Mai.</title>
+                     <note>Manuscrit autographe signé et daté de Leutesdorf, mai 1902. Avec des
+                        indications manuscrites en vue de l'impression dans "Vers et prose".</note>
+                  </msItemStruct>
+                  <msItemStruct n="5" xml:lang="fr" xml:id="les_cloches">
+                     <locus>f. 17</locus>
+                     <title>Les Cloches</title>
+                     <note>Manuscrit autographe signé et daté de Oberpleis, mai 1902.</note>
+                  </msItemStruct>
+                  <msItemStruct n="6" xml:lang="fr" xml:id="p_1909">
+                     <locus>ff. 18-19</locus>
+                     <title>1909</title>
+                     <note>Manuscrit autographe</note>
+                  </msItemStruct>
+                  <msItemStruct n="7" xml:lang="fr" xml:id="a_la_sante">
+                     <locus>ff. 20-23</locus>
+                     <title>A la santé</title>
+                     <note>Manuscrit de premier jet. Au verso, fragments manuscrits de <title>La
+                           Femme assise</title></note>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <extent>
+                           <width unit="mm">250</width>
+                           <height unit="mm">220</height>
+                        </extent>
+                        <foliation>23 feuillets</foliation>
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <p>Reliure demi-chagrin bleu roi</p>
+                  </bindingDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date>1901-1902</date>
+            <lang xml:lang="fr"/>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart>Apollinaire</titlePart>
+            <titlePart>Sept poèmes d'Alcools</titlePart>
+         </docTitle>
+      </front>
+      <group>
+         <text>
+            <front>
+               <docTitle ref="#a_la_sante">
+                  <titlePart>A la santé</titlePart>
+                  <titlePart>Manuscrit de premier jet</titlePart>
+               </docTitle>
+            </front>
+            <body>
+               <msDesc>
+                  <msIdentifier>
+                     <repository>Bibliothèque nationale de France</repository>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>4 pages</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1">Sur les trois premières pages, strophes séparées par
+                              un saut de ligne et disposées sur une seule colonne. Au milieu de la
+                              quatrième page, strophes disposées sur trois colonnes.</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+               <div type="poeme" corresp="http://gallica.bnf.fr/ark:/12148/bpt6k1co083760/f150.item">
+                  <div type="page" n="20">
+                     <pb type="recto"
+                        facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f69.item.r=Manuscrit%20Apollinaire"/>
+                     <lg type="huitain" n="1">
+                        <delSpan spanTo="#p_20a" unit="line" quantity="11" rend="strikethrough"/>
+                        <l>Cette cellule</l>
+                        <l>O vous qui viviez, avant moi</l>
+                        <l>Seul dans cette</l>
+                        <l>O sinistres prédecesseurs</l>
+                        <l>Qui dans ma cellule vécûtes</l>
+                        <l><del rend="strikethrough" unit="word" quantity="4">J'ai vu
+                           la</del>Assassins, escrocs et <add rend="overtyped" unit="word"
+                              quantity="1">maquereaux</add> voleurs</l>
+                        <l>Pour que l'on crut ce que vous fûtes</l>
+                        <l>vous gravîtes ce que vous fûtes</l>
+                        <l><del rend="strikethrough" unit="word" quantity="3">Et vos crimes</del>O
+                           crimes, crimes et douleurs.</l>
+                        <anchor xml:id="p_20a"/>
+                     </lg>
+                     <lg type="quintil" n="1">
+                        <delSpan spanTo="#p_20b" unit="line" quantity="5" rend="strikethrough"/>
+                        <l>Sur la ferrure de ma couche</l>
+                        <l>Dédé des joyeux garnements</l>
+                        <l><del rend="strikethrough" unit="word" quantity="2">A gravé</del>Près son
+                           nom mit meurtre et ma bouche</l>
+                        <l><del rend="strikethrough" unit="word" quantity="2">Respire
+                              là</del><del>Respire</del>Respire au dessus quand j'attends</l>
+                        <l>Je m'endormis comme une souche</l>
+                        <anchor xml:id="p_20b"/>
+                     </lg>
+                     <lg type="tercet" n="1">
+                        <delSpan spanTo="#p_20c" unit="line" quantity="5" rend="strikethrough"/>
+                        <l>Un nom que je n'ai pas pu lire</l>
+                        <l><del rend="strikethrough" unit="word" quantity="2">Est suivi</del></l>
+                        <l>Un autre qui se dit la</l>
+                        <l><del rend="strikethrough" unit="word" quantity="2">Lugubre lit</del></l>
+                        <l>Je couche en lugubre lit</l>
+                        <anchor xml:id="p_20c"/>
+                     </lg>
+                     <lg type="septain" n="1">
+                        <delSpan spanTo="#p_20d" unit="line" quantity="7"/>
+                        <l>Dans une fosse comme un ours</l>
+                        <l>Chaque matin je me promène,</l>
+                        <l>Tournons, tournons, tournons toujours !</l>
+                        <l>Quand donc finira la semaine ?</l>
+                        <l>Comment finiront tes amours ! </l>
+                        <l>Vienne la nuit, sonne l'heure</l>
+                        <l>Les jours s'en vont, je demeure</l>
+                        <anchor xml:id="p_20d"/>
+                        <figure rend="(align)margin-left">
+                           <figDesc>Dessin d'un arbre</figDesc>
+                        </figure>
+                     </lg>
+                  </div>
+               </div>
+            </body>
+         </text>
+         <text>
+            <front>
+               <docTitle>
+                  <titlePart>La Femme Assise. Fragments.</titlePart>
+               </docTitle>
+            </front>
+            <body>
+               <msDesc>
+                  <msIdentifier>
+                     <repository>Bibliothèque nationale de France</repository>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>4 pages</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1">Prose écrite en continu sur une seule
+                              colonne.</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+               <div type="prose">
+                  <div type="page" n="20">
+                     <pb type="verso"
+                        facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f70.item.r=Manuscrit%20Apollinaire"/>
+                     <p> les uniformes des militaires et la silhouette angélique de la femme qui
+                        m'entraînait, elle tenait maintenant de la main gauche le mouchoir taché de
+                        mon sang et ce linge me fit songer à Christ et à la Sainte Véronique. <del
+                           unit="word" quantity="1" rend="strikethrough">et</del> Cette édifiante
+                        pensée m'occupa le temps que vous mîmes à traverser le <add
+                           rend="highlighted">boulevard</add> et à gagner juste à temps pour n'être
+                        pas la proie des soldats une rue adjacente. <gap rend="strikethrough"
+                           reason="illegible" unit="word" quantity="1"/> Vous venez de lire, frère
+                        Brigham, comment j'échappai pour ainsi dire miracu leusement à la fureur
+                        disciplinée des militaires et je vous prie d'excuser la digression qui <del
+                           rend="strikethrough" unit="word" quantity="3">il me tarde</del> suit à
+                        propos des femmes françaises. On pourrait dire <del rend="strikethrough"
+                           unit="word" quantity="2">qu'elle</del> d'elle ce que je vous <add
+                           rend="align(below)" unit="word" quantity="2">écrivais naguère</add><del
+                           rend="strikethrough" unit="word" quantity="2">ai dit</del> dit <add
+                           rend="align(below)" unit="word" quantity="2">au sujet</add> des prêtres
+                        catholiques. Il valent mieux que ceux de n'importe quelle religion et nulle
+                        part sauf dans notre Eglise on ne rencontre autant de Saints. Rien d'
+                        étonnant puisque le catholicisme est la vrai religion qui a succédé au
+                        prosaïsme et <del rend="strikethrough" unit="word" quantity="1">elle</del>
+                        <add rend="align(below)" unit="word" quantity="1">qui</add> a détenu la
+                        vérité jusqu'à l'apparition de l'ange moroni à <del rend="strikethrough"
+                           unit="word" quantity="2">notre frère</del> Joseph Smith. <add
+                           rend="surrounded" unit="word" quantity="3">caractères plus petits</add>
+                     </p>
+                  </div>
+               </div>
+            </body>
+         </text>
+         <text>
+            <front>
+               <docTitle ref="#a_la_sante">
+                  <titlePart>A la santé</titlePart>
+               </docTitle>
+            </front>
+            <body>
+               <div type="poeme" corresp="https://gallica.bnf.fr/ark:/12148/bpt6k1083760/f150.item">
+                  <div type="page" n="21">
+                     <pb type="recto"
+                        facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f71.item.r=Manuscrit%20Apollinaire"/>
+                     <lg type="huitain" n="2">
+                        <delSpan spanTo="#p_21a" unit="line" quantity="10" rend="strikethrough"/>
+                        <l><del unit="word" quantity="1" rend="strikethrough">Voila</del></l>
+                        <l><gap reason="illegible" unit="word" quantity="2"/><unclear unit="word"
+                              quantity="2" reason="illegible">du tout</unclear>chaque matin</l>
+                        <l><subst>
+                              <del unit="word" quantity="6" rend="strikethrough">La porte est close
+                                 et je</del>
+                              <add unit="word" quantity="7" rend="align(above)">La porte est close
+                                 le jour meurt</add>
+                           </subst></l>
+                        <l>Dans les couloirs s'en vont viennent</l>
+                        <l>Dans la cellule d'à côté</l>
+                        <l>On y fait couler la fontaine</l>
+                        <l>Revenez ô beaux jours d'été</l>
+                        <l>Et qu'encore je me promène</l>
+                        <l>Et c'est pour nous mettre en gaité.</l>
+                        <anchor xml:id="p_21a"/>
+                     </lg>
+                     <lg type="quintil" n="2">
+                        <delSpan spanTo="#p_21b" unit="line" quantity="6" rend="strikethrough"/>
+                        <l>Que le geolier aille et revienne</l>
+                        <l><subst>
+                              <add unit="word" quantity="3" rend="align(above)">Avec les clefs <gap
+                                    unit="word" quantity="1" reason="illegible"/></add>
+                              <del unit="word" quantity="7" rend="strikethrough">Avec les clefs
+                                 qu'il fait tinter</del>
+                           </subst></l>
+                        <l>Quand donc finira la semaine!</l>
+                        <l>Vienne la nuit, sonne l'heure</l>
+                        <l>Les jours s'en vont, je demeure.</l>
+                        <anchor xml:id="p_21b"/>
+                     </lg>
+                     <lg type="monostiche" n="1">
+                        <l>Le jour est long comme cent ans</l>
+                     </lg>
+                  </div>
+               </div>
+            </body>
+         </text>
+         <text>
+            <front>
+               <docTitle>
+                  <titlePart>La Femme Assise. Fragments.</titlePart>
+               </docTitle>
+            </front>
+            <body>
+               <div type="prose">
+                  <div type="page" n="21">
+                     <pb type="verso"
+                        facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f72.item.r=Manuscrit%20Apollinaire"/>
+                     <p> retardataire que ces compagnons appelaient tout en ne se saignant plus à
+                        venir(malgré leur insouciance:interligne) la <del unit="char" quantity="3"
+                           rend="strikethrough">rep</del> rechercher dans le <del unit="char"
+                           quantity="5" rend="strikethrough">site d</del> lieu dangereux où elle se
+                        tenait volontaire ment <subst>
+                           <add unit="word" quantity="4" rend="align(above)">afin de me
+                              secourir</add>
+                           <del unit="word" quantity="3" rend="strikethrough">étanchant mon
+                              sang</del>
+                        </subst> Les <del unit="word" quantity="1" rend="strikethrough"
+                           >soldats</del> bataillons <del unit="char" quantity="3"
+                           rend="strikethrough">pen</del> arrivaient en courant, rythmant leur pas
+                        et le<del unit="char" quantity="2">ur</del> bruit cadencé que faisaient
+                        leurs pieds, s'approchait <del>sourd et</del><gap unit="word" quantity="1"
+                           rend="strikethrough"/>
+                        <add unit="word" quantity="3" rend="align(margin)">sinistre comme
+                           une</add><add unit="word" quantity="2" rend="align(above)">danse
+                           macabre</add> L'ange Paméla ne s'en souciait pas. <del unit="word"
+                           quantity="1" rend="strikethrough">et</del> Je pensai que j'allai mourir
+                        avec elle. Cette fin romanesque m'enthousiasma un moment et je songeai à
+                        crier lorsque les baïonnettes m'atteindrait un "Vive la République!" qui
+                        destiné dans ma bouche à glorifier <add unit="word" quantity="1"
+                           rend="align(margin)">légitimement</add> nos Etats-Unis devait paraître
+                        (elle était là une plaisanterie mortuaire que je trouvai excellente) <gap
+                           unit="word" quantity="1" rend="strikethrough"/> aux soldats <del
+                           unit="word" quantity="2" rend="strikethrough">qui voulai</del>
+                        <add unit="word" quantity="1" rend="align(margin)">qui</add> allaient
+                        devenir mes bourreaux, une <gap unit="word" quantity="1" reason="deleted"/>
+                        apologie <add unit="word" quantity="2" rend="highlighted">in
+                           extremis</add><add unit="word" quantity="2" rend="overtyped">d'un</add>
+                        du régime populaire contre lequel ils combattaient. [Mais, la main qui avait
+                        essuyé ma face me prit le poignet et m'entraîna, je distinguai confusément
+                     </p>
+                  </div>
+               </div>
+            </body>
+         </text>
+         <text>
+            <front>
+               <docTitle ref="#a_la_sante">
+                  <titlePart>À la santé</titlePart>
+               </docTitle>
+            </front>
+            <body>
+               <div type="poeme" corresp="http://gallica.bnf.fr/ark:/12148/bpt6k1co083760/f150.item">
+                  <div type="page" n="22">
+                     <pb type="recto"
+                        facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f73.item.r=Manuscrit%20Apollinaire"/>
+                     <p><add rend="top">22</add></p>
+                     <delSpan spanTo="#p_22a" unit="line" quantity="28" rend="strikethrough"/>
+                     <lg type="huitin" n="3">
+                        <l>Que je m'ennuie entre ces quatre murs tous nus</l>
+                        <l><del unit="word" quantity="3" rend="strikethrough">Où se mêlent</del> Et
+                           peints de couleurs pâles</l>
+                        <l><subst>
+                              <del unit="line" quantity="1" rend="strikethrough">Une mouche sur mon
+                                 papier à pas menus</del>
+                              <add>Une mouche sur le papier à pas menus</add>
+                           </subst></l>
+                        <l>Parcourt mes lignes inégales.</l>
+
+                        <delSpan spanTo="#p_22b" unit="line" quantity="3" rend="strikethrough"/>
+                        <l>Mais les couloirs où crie</l>
+                        <l>Dans les couloirs</l>
+                        <l>Cette chaise illisible où je m'assieds</l>
+                        <anchor xml:id="p_22b"/>
+                        <l><add xml:id="a1" rend="align(below)">Que deviendrai-je ? ô Dieu qui connais ma
+                              douleur</add></l>
+                        <substJoin target="#p_22b #a1"/>
+                        <figure rend="align(margin)">
+                           <figDesc>8 A la santé Alcools 181</figDesc>
+                        </figure>
+                        <l>Toi qui me l'as donnée</l>
+                        <l>Prends en pitié mes yeux sans larmes, ma pâleur</l>
+                        <l>Le bruit de ma chaise enchaînée</l>
+                     </lg>
+
+                     <lg type="quatrain" n="1">
+                        <delSpan spanTo="#p_22c" unit="line" quantity="3" rend="strikethrough"/>
+                        <l>Prends en pitié le<del unit="char" quantity="1" rend="strikethrough"
+                              >s</del> coeur<del unit="char" quantity="1" rend="strikethrough"
+                              >s</del> de qui veut bien m'aimer</l>
+                        <l>Et puis que ceux qui souffrent</l>
+                        <l>Accuse de moi seul</l>
+                        <anchor xml:id="p_22c"/>
+                        <l><add xml:id="a2" rend="align(below)">Et tous ces pauvres coeurs battant dans la
+                              prison</add></l>
+                        <substJoin target="#p_22c #a2"/>
+                        <l>L'amour qui m'acccompagne</l>
+                        <l>Prends en pitié surtout ma débile raison</l>
+                        <figure rend="align(margin)">
+                           <figDesc>9 7bre</figDesc>
+                        </figure>
+                        <l>Et ce désespoir qui la gagne</l>
+                     </lg>
+
+                     <figure rend="align(center)">
+                        <figDesc>Ligne horizontale sur toute la page</figDesc>
+                     </figure>
+
+                     <lg type="quatrain" n="2">
+                        <l>Je viens de recevoir des lettres</l>
+                        <l>Vous ne m'abandonnez donc pas</l>
+                        <l>Jésus que l'on emprissonna</l>
+                        <l>Et que les Douze abandonnèrent</l>
+                     </lg>
+
+                     <lg type="quatrain" n="3">
+                        <l>Je viens de retrouver la foi</l>
+                        <l>Comme aux beaux jours de mon enfance</l>
+                        <l><subst>
+                              <del unit="line" quantity="1" rend="strikethrough">et bien plus
+                                 fermement</del>
+                              <add rend="overtyped">Seigneur ! Agrées mes louanges</add>
+                           </subst></l>
+                        <l>Je crois en vous, je crois, je crois.</l>
+                     </lg>
+                     <anchor xml:id="p_22a"/>
+                  </div>
+               </div>
+            </body>
+         </text>
+         <text>
+            <front>
+               <docTitle>
+                  <titlePart>La Femme Assise. Fragments.</titlePart>
+               </docTitle>
+            </front>
+            <body>
+               <div type="prose">
+                  <div type="page" n="22">
+                     <pb type="verso"
+                        facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f74.item.r=Manuscrit%20Apollinaire"/>
+                     <p><add rend="top">66</add></p>
+                     <p>
+                        <del unit="word" quantity="1" rend="strikethrough">et</del> Cette
+                        constitution patriarcale convien drait parfaitement <subst>
+                           <del unit="word" quantity="1" rend="strikethrough">dans</del>
+                           <add rend="align(above)">à</add>
+                        </subst> ce pays qu'elle regénérerait en y résoldant peut-être la question
+                        sociale, supprimant ces luttes intestines, ces idéologies malsaines qui
+                        apauvrissent les corps et les esprits. Au lieu de cela, l'adultère en créant
+                        une polygamie clandestine, la prostitution en faisant de l'acte de chair une
+                        chose honteuse, détruisent le bonheur que l'homme époruve à procréer
+                        entraînent les hommes à des folies, jettent sur la terre de misérables
+                        enfants sans famille, sans destinée et voués au mépris pour leur
+                        illégitimité.</p>
+                     <p>La femme qui m'avait entraîné<del unit="char" quantity="1"
+                           rend="strikethrough">e</del>, me fît courir <del rend="strikethrough"
+                              ><gap reason="illegible" unit="word" quantity="1"/></del> longtemps.
+                        Nous nous trouvâmes <del unit="word" quantity="2" rend="strikethrough">bien
+                           bientôt</del> enfin devant une maison et prié de monter je suivis mon
+                        sauveur. <subst>
+                           <add rend="align(margin)">dans un</add>
+                           <del unit="char" quantity="1" rend="strikethrough"> L'</del>
+                        </subst> appartement <del unit="word" quantity="5" rend="strikethrough">où
+                           je fus introduit était</del> élégant et celle qui m'y avait gracieusement
+                        introduit me dit ; [" Mon père et mon frère sont des ouvriers. <del
+                           unit="char" quantity="3" rend="strikethrough">con</del> Ils se <del
+                           unit="char" quantity="5" rend="strikethrough">trouv</del> battent <subst>
+                           <del unit="word" quantity="3" rend="strikethrough">à la <gap unit="char"
+                                 quantity="6" reason="illegible"/></del>
+                           <add rend="align(below)">contre la tyrannie.</add>
+                        </subst></p>
+                  </div>
+               </div>
+            </body>
+         </text>
+         <text>
+            <front>
+               <docTitle ref="a_la_sante">
+                  <titlePart>À la santé</titlePart>
+               </docTitle>
+            </front>
+            <body>
+               <div type="poeme" corresp="http://gallica.bnf.fr/ark:/12148/bpt6k1co083760/f150.item">
+                  <div type="page" n="23">
+                     <pb type="recto"
+                        facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f73.item.r=Manuscrit%20Apollinaire"/>
+                     <p><add rend="top">23</add></p>
+                     <delSpan spanTo="#p_23a" unit="line" quantity="28" rend="strikethrough"/>
+                     <lg>
+                              <delSpan spanTo="#p_23b" unit="line" quantity="2" rend="strikethrough"/><l>Vierge plus douce
+                                 que le sucre</l>
+                              <l>Vierge qui m'avez
+                                 protégé</l>
+                        <anchor xml:id="p_23b"/>
+                              <l><add xml:id="a3" rend="align(below)">Et Je viens de dire un <subst>
+                                    <del unit="word" quantity="1" rend="strikethrough"
+                                       >chapelet</del>
+                                    <add rend="overtyped">rosaire</add>
+                                 </subst></add>
+                                 <substJoin target="#p_23b #a3"/>
+                           </l>
+                        <l>Avec mes doigts pour chapelet</l>
+                        <l>O Vierge Sainte écoutez les</l>
+                        <figure rend="align(margin)">
+                           <figDesc>9 7bre</figDesc>
+                        </figure>
+                        <l><del unit="word" quantity="1" rend="strikethrough"/>, mes pauvres
+                           prières</l>
+                     </lg>
+
+                     <figure rend="align(center)">
+                        <figDesc>Ligne horizontale sur toute la page</figDesc>
+                     </figure>
+
+                     <lg type="quatrain" rend="align(left)" n="4">
+                        <l>Pauvre maman</l>
+                        <l>Mon pauvre frère</l>
+                        <l><del unit="line" quantity="1" rend="strikethrough">Que de
+                           tourments</del></l>
+                        <l>Pardonnez moi</l>
+                        <l>Pardonnez-moi!</l>
+                     </lg>
+                     <lg type="quatrain" n="5" rend="align(center)">
+                        <l>Et vous Marie</l>
+                        <l><del rend="strikethrough"><gap unit="line" quantity="1"
+                                 reason="illegible"/></del></l>
+                        <l>O mon amie</l>
+                        <l>Pardonnez-moi</l>
+                        <l>Pardonnez-moi</l>
+                     </lg>
+                     <lg type="quatrain" n="6" rend="align(right)">
+                        <l> Vous qui m'aimez</l>
+                        <l>
+                           <del rend="strikethrough"><gap unit="line" quantity="1"
+                                 reason="illegible"/></del></l>
+                        <l>O mes amis</l>
+                        <l>Priez pour moi</l>
+                        <l>Priez pour moi</l>
+                     </lg>
+                     <figure rend="align(margin)">
+                        <figDesc>9 7 (nbre) souligné</figDesc>
+                     </figure>
+
+                     <figure rend="align(center)">
+                        <figDesc>Ligne horizontale sur toute la page</figDesc>
+                     </figure>
+
+                     <lg type="quintil" n="2">
+                        <l><subst>
+                              <del unit="word" quantity="2" rend="strikethrough">Quand moi</del>
+                              <add rend="align(below)">Je suis</add>
+                           </subst> Guillaume Apollinaire</l>
+                        <l><unclear/> d'un nom slave pour vrai nom</l>
+                        <l>Ma <del unit="word" quantity="2" rend="strikethrough">est <gap
+                                 unit="char" quantity="2" reason="illegible"/></del> vie est triste
+                           toute entière</l>
+                        <l>Un écho répond toujours non</l>
+                        <l><gap unit="word" quantity="1" reason="illegible"/>je dis une prière.</l>
+                     </lg>
+
+                     <lg type="10" n="1">
+                        <l>A la prison de la Santé</l>
+                        <l>J'habite une pauvre cellule</l>
+                        <l>Nous sommes encore en été :</l>
+                        <l>Une chaleur de canicule</l>
+                        <l>Un prisonnier bien embêté</l>
+                        <l>que lentement <add rend="above">passent</add> les heures,</l>
+                        <l><subst>
+                              <del unit="line" quantity="1" rend="strikethrough">Et toutes les
+                                 heu</del>
+                              <add rend="overtyped">comme passe un enterrement <del unit="char"
+                                    quantity="1" rend="strikethrough">!</del> !</add>
+                           </subst></l>
+                        <l>Tu pleureras l'heure où tu pleures</l>
+                        <l>qui passera trop vitement</l>
+                        <l><subst>
+                              <del unit="line" quantity="1" rend="strikethrough">Guillaume avant que
+                                 tu ne meures</del>
+                              <add rend="align(below)">comme passent toutes les heures</add>
+                           </subst></l>
+                     </lg>
+                     <anchor xml:id="p_23a"/>
+                  </div>
+               </div>
+            </body>
+         </text>
+         <text>
+            <front>
+               <docTitle>
+                  <titlePart>La Femme Assise. Fragments.</titlePart>
+               </docTitle>
+            </front>
+            <body>
+               <div type="prose">
+                  <div type="page" n="23">
+                     <pb type="verso"
+                        facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f76.item.r=Manuscrit%20Apollinaire"/>
+                     <p><subst>
+                           <add rend="top">65</add>
+                           <del rend="strikethrough">45</del>
+                        </subst></p>
+                     <p>Et j'ai été bien souvent charmé par les vérités que les préfets catholiques
+                        s'efforcent de propager avec un courage et une bonne foi inexprimables. [De
+                        mêmes les femmes : elles sont ici excellentes comme <add
+                           rend="align(margin)">santé</add><add rend="align(below)">travail</add>
+                        courage, grâce, goût, bon sens <add rend="align(below)">et bonne
+                           humeur,</add> et celles que s'écartent de cette retenue qui convient au
+                        beau sexe y sont plutôt amenées par les vices des institutions <subst>
+                           <del unit="word" quantity="3" rend="strikethrough">nulle part, la</del>
+                           <add rend="overtyped">que par leurs propres</add>
+                        </subst>
+                        <add rend="align(margin">penchants.[nulle part, la</add> polygammie ne
+                        serait peut-être aussi utile<del unit="char" quantity="1"
+                           rend="strikethrough">s</del> qu'ici où l'on a complètement perdu la
+                        notion du mariage. La liberté dans l'amour apparaît comme un droit
+                        incontestable à beaucoup de socialistes et la polyandrie est admise par
+                        Fourier même et dans le mariage et aussi dans le célibat par l'institution
+                        émi nemment immorale du bayadérisme [La polygamie est la santé pour l'homme
+                        et pour la femme, elle supprime la prostitution <del unit="char"
+                           quantity="3" rend="strikethrough">et l</del> les malheurs et les maladies
+                        qu'elle entraine, elle augmente la majesté de l'homme, en satisfaisant son
+                        goût innée pour la domination.</p>
+                  </div>
+               </div>
+            </body>
+         </text>
+         <text>
+            <front>
+               <docTitle ref="#les_cloches">
+                  <titlePart>Les Cloches</titlePart>
+               </docTitle>
+            </front>
+            <body>
+               <msDesc>
+                  <msIdentifier>
+                     <repository>Bibliothèque nationale de France</repository>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>1 page</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1">Strophes séparées par un saut de ligne et disposées
+                              sur une seule colonne.</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+               <div type="poeme" corresp="https://gallica.bnf.fr/ark:/12148/bpt6k1083760/f117.item">
+                  <div type="page" n="17">
+                     <pb type="recto"
+                        facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f59.item.r=Manuscrit%20Apollinaire"/>
+                     <head rend="highlighted">Les cloches<add unit="word" quantity="5"
+                           rend="surrounded">ce titre en caractères gras</add></head>
+                     <lg type="quatrain" n="1">
+                        <l>Un beau tsigane, mon amant,</l>
+                        <l>Ecoute les cloches qui sonnent.</l>
+                        <l>Nous vous aimions éperdument</l>
+                        <l>Croyant n'être vus de personne.</l>
+                     </lg>
+                     <lg type="quatrain" n="2">
+                        <l><del unit="word" quantity="2" rend="strikethrough">Nous
+                           pensions</del></l>
+                        <l>Mais, nous étions bien mal cachés:</l>
+                        <l>Toutes les cloches à la ronde</l>
+                        <l>Nous ont vu du haut des clochers</l>
+                        <l>Et le disent à tout le monde.</l>
+                     </lg>
+                     <lg type="quatrain" n="3">
+                        <l>Demain, Cyprien et Henri,</l>
+                        <l>Marie, Ursule et Catherine,</l>
+                        <l>La boulangère et son mari</l>
+                        <l>Et puis Gertrude ma cousine</l>
+                     </lg>
+                     <lg type="quatrain" n="4">
+                        <l>Souriront quand je passerai</l>
+                        <l>Je ne saurai plus où me mettre</l>
+                        <l>Tu seras loin. Je pleurerai</l>
+                        <l>Et même, j'en mourrai peut-être.</l>
+                     </lg>
+                     <p><placeName>Oberpleis</placeName>, <date>mai 1902</date></p>
+                     <p rend="surrounded"><persName>Guillaume Apollinaire</persName></p>
+                     <p rend="surrounded">Faire suivre la pièce suivante</p>
+                  </div>
+               </div>
+            </body>
+         </text>
+         <text>
+            <front>
+               <docTitle ref="#p_1909">
+                  <titlePart>1909</titlePart>
+               </docTitle>
+            </front>
+            <body>
+               <msDesc>
+                  <msIdentifier>
+                     <repository>Bibliothèque nationale de France</repository>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>2 pages</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1">Strophes séparées par un saut de ligne et disposées
+                              sur une seule colonne.</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+               <div type="poeme" corresp="https://gallica.bnf.fr/ark:/12148/bpt6k1083760/f148.item">
+                  <div type="page" n="18">
+                     <pb type="recto"
+                        facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f65.item.r=Manuscrit%20Apollinaire"/>
+                     <lg type="quintil" n="1">
+                        <l>La dame avait une robe</l>
+                        <l>En ottoman violine</l>
+                        <l>Et sa tunique brodée d’or</l>
+                        <l>Était composée de deux panneaux</l>
+                        <l> S’attachant sur l’épaule.</l>
+                     </lg>
+                     <lg type="quintil" n="2">
+                        <l>Les yeux dansants comme des anges</l>
+                        <l>Elle riait, elle riait</l>
+                        <l>Elle avait un visage aux couleurs de France</l>
+                        <l>Les yeux bleus, les dents blanches et les lèvres très rouges</l>
+                        <l>Elle avait un visage aux couleurs de France.</l>
+                     </lg>
+                     <lg type="septain" n="1">
+                        <l> Elle était décolletée en rond</l>
+                        <l>Et coiffée à la Récamier</l>
+                        <l>Avec de beaux bras nus.</l>
+                        <l><delSpan spanTo="#l7" quantity="4" unit="lines"/>Pareils au col
+                           candide</l>
+                        <l>De l’amant divin et ailé</l>
+                        <l>De cette Léda solitaire</l>
+                        <l>Que deux étoiles appellent ma mère<anchor xml:id="l7"/></l>
+                     </lg>
+                     <lg type="monostiche" n="1">
+                        <l> - N’entendra-t-on jamais sonner minuit <del><gap quantity="1"
+                                 unit="word" reason="illegible"/></del></l>
+                     </lg>
+                     <lg type="quatrain" n="1">
+                        <l>La dame en robe d’ottoman violine</l>
+                        <l>Et en tunique brodée d’or</l>
+                        <l> Décolletée en rond</l>
+                        <l><subst>
+                              <add>Promène</add>
+                              <del>promenait</del>
+                           </subst> ses boucles</l>
+                     </lg>
+                     <div type="page" n="19">
+                        <pb type="recto"
+                           facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f65.item.r=Manuscrit%20Apollinaire"/>
+                        <lg type="quatrain" n="2">
+                           <l>Son bandeau d’or</l>
+                           <l>Et traînant ses petits souliers à boucles</l>
+                           <l>Elle était si belle</l>
+                           <l>Que je n’aurais pas osé l’aimer.</l>
+                        </lg>
+                        <lg type="quintil" n="3">
+                           <l>J’aimais les flammes atroces dans les quartiers énormes</l>
+                           <l>Où naissaient chaque jour quelques êtres nouveaux</l>
+                           <l>Le fer était leur sang, la flamme leur cerveau.</l>
+                           <l>J’aimais, j’aimais le peuple habile des machines</l>
+                           <l> de luxe et la beauté ne sont que son écume.</l>
+                        </lg>
+                        <lg type="distique" n="1">
+                           <l>Cette femme était si belle</l>
+                           <l><del unit="word" quantity="8" rend="strikethrough">Que je n’aurais pas
+                                 osé l’aimer</del></l>
+                           <l>qu’elle me faisait peur.</l>
+                        </lg>
+                     </div>
+                  </div>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>
