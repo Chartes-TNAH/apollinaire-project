@@ -406,13 +406,14 @@
                         </attDef>
                         <attDef ident="rend" mode="change">
                             <valList mode="add" type="closed">
-                                <valItem ident="align(above)"/>
-                                      <valItem ident="align(beside)"/>
-                                      <valItem ident="align(right)"/>
-                                      <valItem ident="align(top)"/>
-                                      <valItem ident="align(margin)"/>
-                                      <valItem ident="align(below)"/>
-                            </valList>
+                        <valItem ident="align(above)"/>
+                        <valItem ident="align(beside)"/>
+                        <valItem ident="align(right)"/>
+                        <valItem ident="align(top)"/>
+                        <valItem ident="align(margin)"/>
+                        <valItem ident="align(below)"/>
+                        <valItem ident="surrounded"/>
+                     </valList>
                         </attDef>
                         <attDef ident="type" mode="delete"/>
                         <attDef ident="unit" mode="change" usage="opt">
