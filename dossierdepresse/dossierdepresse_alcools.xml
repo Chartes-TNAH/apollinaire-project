@@ -1055,7 +1055,7 @@
                      <lb/>qu'il lui serait aisé de s'endurcir ou, tout <lb/>au moins, de se défendre
                      contre soi-même. <lb/>Je ne sais quelles sont ses illusions, mais <lb/>l'homme
                      qui a écrit les vers qui suivent <lb/>ne nous abuse pas : <ref
-                        target="#poème_lu_au_mariage">
+                        target="#poeme_lu_au_mariage_d_andre_salmon">
                         <quote>
                            <l>Nous nous sommes rencontrés dans un <lb rend="interline"/>[caveau
                               maudit,</l>
@@ -1749,7 +1749,7 @@
                      facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f173.item.r=Apollinaire%20manuscrits"/>
                   <p>Votre <ref target="#salomé">Salomé</ref> est une estampe charmante de <persName
                         ref="#dürer_albrecht">Dürer</persName> ou <lb/>d'<persName
-                        ref="#holbein_hans">Holbein</persName>; quant au <ref target="#larron"
+                           ref="#holbein_hans">Holbein</persName>; quant au <ref target="#le_larron"
                         >Larron</ref>, c'est un chef d'oeuvre. Il <lb/>contient les raisons
                      philosophiques et charnelles de notre <lb/>détachement du christ, que nous
                      eussions <hi rend="strikethrough">aisément</hi> suivi, s'il <lb/>avait chanté
@@ -1770,7 +1770,7 @@
                      couleur de prune, suivi des menins de <lb/>Belcini, dont le beau déhanchement
                      et la braguette <lb/>rebondie séduisent les Sept Sages. Il y a aussi
                      <lb/>l'arépin, Palmeran d'Olive, Jésus, escorté <lb/>des Ménades, les deux <ref
-                        target="#larron">Larrons</ref>, avec des boucles matelottes <lb/>aux
+                        target="#le_larron">Larrons</ref>, avec des boucles matelottes <lb/>aux
                      oreilles, et <ref target="#salomé">Salomé</ref> toute nue, poilue <lb/>jusqu'au
                      nombril, et sa mère, atournée en <lb/><persName ref="#vélasquez_diego"
                         >Vélasquez</persName>; les zannis <gap quantity="7" unit="char"
@@ -1796,8 +1796,8 @@
                         reason="illegible"/>
                      <add place="above">encore</add>: "Le poncif, c'est <lb/>le génie." Aussi ai-je
                      regretté de vous voir abandonner <lb/>celui de <ref target="#salomé"
-                        >Salomé</ref>, du <ref target="#le_mal_aimé">mal-aimé</ref> et du <ref
-                        target="#larron">Larron</ref>, que vous <lb/>aviez si heureusement créé.
+                        >Salomé</ref>, du <ref target="#la_chanson_du_mal_aimé">mal-aimé</ref> et du <ref
+                           target="#le_larron">Larron</ref>, que vous <lb/>aviez si heureusement créé.
                      C'est peut être que l'archaïsme <lb/>m'en séduit plus que le modernisme des
                      autres pièces, <lb/>où vit mon époque si contraire à mes goûts, et si
                      <lb/>contraintes à vous autres poètes. Mais cette appréciation <lb/>est trop
@@ -2336,7 +2336,7 @@
                      divine et féconde fan— <lb break="no"/>taisie antique. Le poète <persName
                         ref="#royère_jean">Jean Royère</persName>
                      <lb/>écrit dans <ref target="#la_phalange">la Phalange</ref> : <quote>« <ref
-                           target="#larron">Le Larron</ref>
+                        target="#le_larron">Le Larron</ref>
                         <lb/>(un des poèmes d'<hi rend="italic">Alcools</hi> est herméti— <lb
                            break="no"/> que d'être un amas de symboles, de <lb/>lueurs, encore qu'il
                         y ait dans la pen— <lb break="no"/>sée d'<persName
@@ -3541,6 +3541,155 @@
                allemand de la période romantique</note>
          </person>
       </listPerson>
+      
+      
+      <listPlace>
+         <place>
+            <country xml:id="france">France</country>
+            <placeName xml:id="cap_d_ail">Cap d'ail</placeName>
+            <placeName xml:id="cuverville">Cuverville</placeName>
+            <placeName xml:id="criquetot_l_esneval">Criquetot L'Esneval</placeName>
+            <placeName xml:id="graville">Quartier Graville au Havre</placeName>
+            <placeName xml:id="neuilly_sur_seine">Neuilly-sur-Seine</placeName>
+            <placeName xml:id="nice">Nice</placeName>
+            <placeName xml:id="paris">Paris</placeName>
+         </place>
+         <place>
+            <country>Allemagne</country>
+            <placeName xml:id="rhin">Rhin</placeName>
+            <placeName xml:id="munich">Munich</placeName>
+            <placeName xml:id="coblence"><orig>Coblentz</orig>
+               <reg>Coblence</reg></placeName>
+         </place>
+         <place>
+            <country>Italie</country>
+            <placeName xml:id="vatican">Vatican</placeName>
+         </place>
+         <place>
+            <country>Pays-Bas</country>
+            <placeName xml:id="amsterdam">Amsterdam</placeName>
+         </place>
+         <place>
+            <country>République Tchèque</country>
+            <placeName xml:id="prague">Prague</placeName>
+         </place>
+         <place>
+            <country>Royaume-Uni</country>
+            <placeName xml:id="londres">Londres</placeName>
+         </place>
+         <place>
+            <country>Russie</country>
+            <placeName xml:id="vladivostock">Vladivostock</placeName>
+         </place>
+         
+         <place>
+            <country xml:id="ukraine">Ukraine</country>
+         </place>
+      </listPlace>
+      
+      
+      
+      <listBibl>
+         <head>Références bibliographiques</head>
+         
+         <listBibl>
+            <head>Référence aux poèmes de Alcools</head>
+            <bibl>
+               <author>Guillaume Apollinaire</author>
+               <title>Alcools (1913)</title>
+               <relatedItem>
+                  <listBibl>
+                     <bibl type="poem" xml:id="aubade_chantée_à_laetare_un_an_passé">
+                        <title>Aubade chantée à Lætare un an passé </title>
+                     </bibl>
+                     <bibl type="poem" xml:id="a_la_santé">
+                        <title>A la Santé</title>
+                     </bibl>
+                     <bibl type="poem" xml:id="automne">
+                        <title>Automne</title>
+                     </bibl>
+                     <bibl type="poem" xml:id="crépuscule">
+                        <title>Crépuscule</title>
+                     </bibl>
+                     <bibl type="poem" xml:id="l_adieu">
+                        <title>L'Adieu</title>
+                     </bibl>
+                     <bibl type="poem" xml:id="la_chanson_du_mal_aimé">
+                        <title>La Chanson du mal-aimé</title>
+                     </bibl>
+                     <bibl type="poem" xml:id="la_dame">
+                        <title>La Dame</title>
+                     </bibl>
+                     <bibl type="poem" xml:id="la_maison_des_morts">
+                        <title>La Maison des Morts</title>
+                     </bibl>
+                     <bibl type="poem" xml:id="l_emigrant_de_landor_road">
+                        <title>L'Émigrant de Landor Road</title>
+                     </bibl>
+                     <bibl type="poem" xml:id="l_ermite">
+                        <title>L'Ermite</title>
+                     </bibl>
+                     <bibl type="poem" xml:id="le_larron">
+                        <title>Le Larron</title>
+                     </bibl>
+                     <bibl type="poem" xml:id="le_pont_mirabeau">
+                        <title>Le Pont Mirabeau</title>
+                     </bibl>
+                     <bibl type="poem" xml:id="le_voyageur">
+                        <title>Le voyageur</title>
+                     </bibl>
+                     <bibl type="poem" xml:id="les_colchiques">
+                        <title>Les colchiques</title>
+                     </bibl>
+                     <bibl type="poem" xml:id="les_fiançailles">
+                        <title>Les fiançailles</title>
+                     </bibl>
+                     <bibl type="poem" xml:id="les_sept_épées">
+                        <title>Les sept épées</title>
+                     </bibl>
+                     <bibl type="poem" xml:id="poeme_lu_au_mariage_d_andre_salmon">
+                        <title>Poème lu au mariage d'André Salmon</title>
+                     </bibl>
+                     <bibl type="poem" xml:id="mai">
+                        <title>Mai</title>
+                     </bibl>
+                     <bibl type="poem" xml:id="marie">
+                        <title>Marie</title>
+                     </bibl>
+                     <bibl type="poem" xml:id="nuit_rhénane">
+                        <title>Nuit rhénane</title>
+                     </bibl>
+                     <bibl>
+                        <title type="poem" xml:id="rhenane">Rhénane</title>
+                     </bibl>
+                     <bibl type="poem" xml:id="rhénane_d_automne">
+                        <title>Rhénane d'automne</title>
+                     </bibl>
+                     <bibl type="poem" xml:id="salomé">
+                        <title>Salomé</title>
+                     </bibl>
+                     <bibl type="poem" xml:id="schinderhannes">
+                        <title>Schinderhannes</title>
+                     </bibl>
+                     <bibl type="poem" xml:id="vendémiaire">
+                        <title>Vendémiaire</title>
+                     </bibl>
+                     <bibl type="poem" xml:id="zone">
+                        <title>Zone</title>
+                     </bibl>
+                  </listBibl>
+               </relatedItem>
+            </bibl>
+         </listBibl>
+         
+         
+         
+      </listBibl>
+          
+     
+      
+      
+      
       
       
    </standOff>
