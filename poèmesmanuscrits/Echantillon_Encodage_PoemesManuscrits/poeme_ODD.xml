@@ -464,8 +464,6 @@
                         <attDef ident="agent" mode="delete"/>
                         <attDef ident="corresp" mode="delete"/>
                         <attDef ident="facs" mode="delete"/>
-                        <attDef ident="unit" mode="delete"/>
-                        <attDef ident="quantity" mode="delete"/>
                     </attList>
                 </elementSpec>
                 <elementSpec ident="name" mode="change">
