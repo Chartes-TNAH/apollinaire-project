@@ -831,6 +831,7 @@
                             <valList mode="add" type="closed">
                                 <valItem ident="page"/>
                                 <valItem ident="poeme"/>
+                                <valItem ident="prose"/>
                             </valList>
                         </attDef>
                     </attList>
