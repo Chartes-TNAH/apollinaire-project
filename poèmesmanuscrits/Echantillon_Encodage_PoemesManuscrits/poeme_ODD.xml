@@ -388,6 +388,7 @@
                         <attDef ident="reason" mode="change">
                             <valList mode="add" type="closed">
                                 <valItem ident="illegible"/>
+                                <valItem ident="deleted"/>
                             </valList>
                         </attDef>
                         <attDef ident="agent" mode="delete"/>
