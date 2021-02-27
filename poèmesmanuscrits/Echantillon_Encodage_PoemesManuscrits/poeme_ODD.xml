@@ -409,9 +409,14 @@
                             <valList mode="add" type="closed">
                         <valItem ident="align(above)"/>
                         <valItem ident="align(beside)"/>
-                        <valItem ident="align(right)"/>
                         <valItem ident="align(top)"/>
+                        <valItem ident="align(left)"/>
+                        <valItem ident="align(right)"/>
+                        <valItem ident="align(top-right)"/>
+                        <valItem ident="align(top-left)"/>
                         <valItem ident="align(margin)"/>
+                        <valItem ident="align(margin-left)"/>
+                        <valItem ident="align(margin-right)"/>
                         <valItem ident="align(below)"/>
                         <valItem ident="surrounded"/>
                      </valList>
