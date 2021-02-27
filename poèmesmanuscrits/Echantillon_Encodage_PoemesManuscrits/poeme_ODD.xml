@@ -419,6 +419,7 @@
                         <valItem ident="align(margin-right)"/>
                         <valItem ident="align(below)"/>
                         <valItem ident="surrounded"/>
+                        <valItem ident="overtyped"/>
                      </valList>
                         </attDef>
                         <attDef ident="type" mode="delete"/>
