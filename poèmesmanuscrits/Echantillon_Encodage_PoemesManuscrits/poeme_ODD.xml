@@ -578,6 +578,8 @@
                                 <valItem ident="septain"/>
                                 <valItem ident="tercet"/>
                                 <valItem ident="sizain"/>
+                                <valItem ident="huitain"/>
+                                <valItem ident="dizain"/>
                             </valList>
                         </attDef>
                         <attDef ident="n" mode="change" usage="req"/>
