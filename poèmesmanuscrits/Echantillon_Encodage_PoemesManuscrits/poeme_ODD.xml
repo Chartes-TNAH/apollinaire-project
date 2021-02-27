@@ -428,8 +428,7 @@
                                 <valItem ident="word"/>
                                 <valItem ident="line"/>
                             </valList>
-                        </attDef>                      
-                        <attDef ident="quantity" mode="delete"/>
+                        </attDef>
                     </attList>
                 </elementSpec>
                 <elementSpec ident="del" mode="change">
