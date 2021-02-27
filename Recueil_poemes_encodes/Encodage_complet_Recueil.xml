@@ -46,7 +46,7 @@
                      <title>La chanson du Mal-Aimé</title>
                      <note>Manuscrit autographe. Un premier feuillet correspondant aux strophes 1 à
                         4 est manquant. La fin du poème manque aussi (depuis la strophe 46), à
-                        l'exception de la strophe 57. Au verso, fragments manuscrits de <title>La
+                        l'exception de la strophe 57. Au verso, fragments manuscrits de <title xml:id="la_femme_assise">La
                            femme assise</title>.</note>
                   </msItemStruct>
                   <msItemStruct n="3" xml:lang="fr" xml:id="marizibill">
@@ -1044,7 +1044,7 @@
          </text>
          <text>
             <front>
-               <docTitle>
+               <docTitle ref="#la_femme_assise">
                   <titlePart>La Femme Assise. Fragments.</titlePart>
                </docTitle>
             </front>
@@ -1151,7 +1151,7 @@
          </text>
          <text>
             <front>
-               <docTitle>
+               <docTitle ref="#la_femme_assise">
                   <titlePart>La Femme Assise. Fragments.</titlePart>
                </docTitle>
             </front>
@@ -1286,7 +1286,7 @@
          </text>
          <text>
             <front>
-               <docTitle>
+               <docTitle ref="#la_femme_assise">
                   <titlePart>La Femme Assise. Fragments.</titlePart>
                </docTitle>
             </front>
