@@ -24,6 +24,10 @@
                   <forename>Hugo</forename>
                   <surname>Scheithauer</surname>
                </persName>
+               <persName>
+                  <forename>Axelle</forename>
+                  <surname>Lecroq</surname>
+               </persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -34,13 +38,22 @@
             <msDesc>
                <msIdentifier>
                   <country>France</country>
-                  <repository>Bibliothèque nationale de France. Département des
-                     Manuscrits.</repository>
+                  <institution><name>Bibliothèque nationale de France. </name>
+                     <stamp xml:id="estampille_bnf_1870" facs="http://bibale.irht.cnrs.fr/44365">
+                        <mentioned>Biblioth. nationale MSS</mentioned>
+                        <dimensions>
+                           <height unit="mm">12</height>
+                        </dimensions>
+                        <note>Petite estampille ovale (en hauteur) du département des manuscrits de
+                           la Bibliothèque nationale (aujourd'hui BnF) après
+                           <date when="1870">1870</date></note>
+                     </stamp></institution>
+                  <repository>BnF. Département des Manuscrits.</repository>
                   <altIdentifier>
-                     <idno>NAF 25632</idno>
+                     <idno>NAF 25608</idno>
                   </altIdentifier>
                   <altIdentifier>
-                     <idno>ark:/12148/btv1b525088021</idno>
+                     <idno>ark:/12148/btv1b52505641f</idno>
                   </altIdentifier>
                </msIdentifier>
                <physDesc>
