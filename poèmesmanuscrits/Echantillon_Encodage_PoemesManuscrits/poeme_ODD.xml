@@ -464,6 +464,8 @@
                         <attDef ident="agent" mode="delete"/>
                         <attDef ident="corresp" mode="delete"/>
                         <attDef ident="facs" mode="delete"/>
+                        <attDef ident="unit" mode="delete"/>
+                        <attDef ident="quantity" mode="delete"/>
                     </attList>
                 </elementSpec>
                 <elementSpec ident="name" mode="change">
@@ -793,6 +795,13 @@
                     </attList>
                 </elementSpec>
                 <elementSpec ident="div" mode="change">
+                    <content>
+                        <elementRef key="pb" minOccurs="1" maxOccurs="unbounded"/>
+                        <elementRef key="head" minOccurs="0" maxOccurs="unbounded"/>
+                        <elementRef key="p" minOccurs="0" maxOccurs="unbounded"/>
+                        <elementRef key="lg" minOccurs="0" maxOccurs="unbounded"/>
+                        <elementRef key="figure" minOccurs="0" maxOccurs="unbounded"/>
+                    </content>
                     <constraintSpec scheme="schematron" ident="divtypecorresp">
                         <constraint>
                             <s:rule context="tei:body/tei:div">
