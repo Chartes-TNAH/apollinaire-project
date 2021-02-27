@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-model href="out/poeme_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/poeme_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sept poèmes d'Alcools</title>
+            <author>Guillaume Apollinaire</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Recueil de versions préparatoires édité dans le cadre d'un exercice évalué (Projet Github) à l'Ecole nationale des chartes.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <institution><name>Bibliothèque nationale de France. </name>
+                     <stamp xml:id="estampille_bnf_1870" facs="http://bibale.irht.cnrs.fr/44365">
+                        <mentioned>Biblioth. nationale MSS</mentioned>
+                        <dimensions>
+                           <height unit="mm">12</height>
+                        </dimensions>
+                        <note>Petite estampille ovale (en hauteur) du département des manuscrits de
+                           la Bibliothèque nationale (aujourd'hui BnF) après
+                           <date when="1870">1870</date></note>
+                     </stamp></institution>
+                  <repository>BnF. Département des Manuscrits.</repository>
+                  <altIdentifier>
+                     <idno>NAF 25608</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>ark:/12148/btv1b52505641f</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItemStruct n="1" xml:lang="fr" xml:id="le_pont_mirabeau">
+                     <locus>f.1</locus>
+                     <title>Le Pont Mirabeau</title>
+                     <note>Manuscrit autographe</note>
+                  </msItemStruct>
+                  <msItemStruct n="2" xml:lang="fr" xml:id="la_chanson_du_mal_aime">
+                     <locus>ff. 2-14</locus>
+                     <title>La chanson du Mal-Aimé</title>
+                     <note>Manuscrit autographe. Un premier feuillet correspondant aux strophes 1 à 4 est manquant. La fin du poème manque aussi (depuis la strophe 46), à l'exception de la strophe 57. Au verso, fragments manuscrits de <title>La femme assise</title>.</note>
+                  </msItemStruct>
+                  <msItemStruct n="3" xml:lang="fr" xml:id="marizibill">
+                     <locus>f. 15</locus>
+                     <title>Marizibill</title>
+                     <note>Manuscrit autographe</note>
+                  </msItemStruct>
+                  <msItemStruct n="4" xml:lang="fr" xml:id="mai">
+                     <locus>f. 16</locus>
+                     <title>Mai.</title>
+                     <note>Manuscrit autographe signé et daté de Leutesdorf, mai 1902. Avec des indications manuscrites en vue de l'impression dans "Vers et prose".</note>
+                  </msItemStruct>
+                  <msItemStruct n="5" xml:lang="fr" xml:id="les_cloches">
+                     <locus>f. 17</locus>
+                     <title>Les Cloches</title>
+                     <note>Manuscrit autographe signé et daté de Oberpleis, mai 1902.</note>
+                  </msItemStruct>
+                  <msItemStruct n="6" xml:lang="fr" xml:id="p_1909">
+                     <locus>ff. 18-19</locus>
+                     <title>1909</title>
+                     <note>Manuscrit autographe</note>
+                  </msItemStruct>
+                  <msItemStruct n="7" xml:lang="fr" xml:id="a_la_sante">
+                     <locus>ff. 20-23</locus>
+                     <title>A la santé</title>
+                     <note>Manuscrit de premier jet. Au verso, fragments manuscrits de <title>La Femme assise</title></note>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>   
+                  <objectDesc form="codex">
+                        <extent>
+                           <width unit="mm">250</width>
+                           <height unit="mm">220</height>
+                        </extent>
+                        <foliation>23 feuillets</foliation>
+                  </objectDesc>
+                  <bindingDesc>
+                     <p>Reliure demi-chagrin bleu roi</p>
+                  </bindingDesc>
+               </physDesc> 
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date>1901-1902</date>
+            <lang xml:lang="fr"/>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart>Apollinaire</titlePart>
+            <titlePart>Sept poèmes d'Alcools</titlePart>
+         </docTitle>
+      </front>
+      <group>
+         <text>
+            <front>
+               <docTitle ref="la_chanson_du_mal_aime">
+                  <titlePart>La chanson du mal aimé</titlePart>
+               </docTitle>
+            </front>
+      <body>
+         <msDesc>
+            <msIdentifier>
+               <repository>Bibliothèque nationale de France</repository>
+            </msIdentifier>
+            <physDesc>
+               <objectDesc>
+                  <supportDesc>
+                     <extent>2 pages</extent>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1">Strophes séparées par un saut de ligne et disposées sur une
+                        seule colonne.</layout>
+                  </layoutDesc>
+               </objectDesc>
+            </physDesc>
+         </msDesc>
+         <div type="poeme" corresp="https://gallica.bnf.fr/ark:/12148/bpt6k1083760/f18">
+            <div type="page" n="14">
+               <pb type="recto"
+                  facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f47.item.r=ManuscritApollinaire"/>
+               <head>La lettre écrite au sultan par les cosaques zaporogues</head>
+               <p><add rend="top">14</add></p>
+               <p><add rend="top">Réponse des cosaques zaporogues au sultan de
+                  Constantinople</add></p>
+
+               <lg type="tercet" n="1">
+                  <figure rend="align(margin)">
+                     <figDesc>Accolade regroupant les trois vers notée "2" puis corrigée en
+                        "3".</figDesc>
+                  </figure>
+                  <l>Quel chevalier es-tu là bas ?</l>
+                  <l><subst>
+                        <del><gap quantity="1" unit="word" reason="illegible"/></del>
+                        <add rend="above"><del rend="strikethrough"><gap quantity="1" unit="word"
+                                 reason="illegible"/></del></add>
+                        <add rend="overtyped">Sultan</add>
+                     </subst> de Turcs puants qui manges</l>
+                  <l>Ce que Satan chie aux sabbats</l>
+               </lg>
+               <lg type="distique" n="1">
+                  <l><del quantity="3" unit="word" rend="strikethrough">Nous n’ain</del></l>
+                  <l><del quantity="2" unit="word" rend="strikethrough">Cornu commes</del></l>
+                  <figure rend="align(margin)">
+                     <figDesc>Autre accolade regroupant mes deux vers suivants, notés "2" et "1", et
+                        avec un nombre barré.</figDesc>
+                  </figure>
+                  <l>Cornu comme les mauvais anges</l>
+                  <l>Plus criminel que Barrabas</l>
+                  <l><del quantity="3" unit="word" rend="strikethrough">Ne réponds rien</del></l>
+               </lg>
+               <l>Poisson <subst>
+                     <del rend="overtyped"><gap quantity="1" unit="word" reason="illegible"/></del>
+                     <add>pourri</add>
+                  </subst> de Salonique,</l>
+               <l>Gemmes de cabochons affreux</l>
+               <l>Des yeux creuvés à coup de piques</l>
+               <l>Ta <subst>
+                     <del quantity="2" unit="char" rend="overtyped">fi</del>
+                     <add>pourri</add>
+                  </subst> fit un pet foireux</l>
+               <l>Et tu naquis de sa colique</l>
+               <l><del quantity="3" unit="word" rend="strikethrough">Ne réponds rien</del></l>
+               <lg type="quintil" n="1">
+                  <l>Bourreau de l’Arménie, amant</l>
+                  <l>De femmes que des soldats fourent</l>
+                  <l>Groin de cochon, cul de jument</l>
+                  <l><del quantity="2" unit="word" rend="strikethrough">Tes riches</del></l>
+                  <l>Tes richesses garde<del rend="strikethrough">nt</del> les toutes</l>
+                  <l>Pour payer <subst>
+                        <del quantity="1" unit="char" rend="overtyped">d</del>
+                        <add>t</add>
+                     </subst>es médicaments.</l>
+               </lg>
+               <pb type="verso"
+                  facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f48.item.r=ManuscritApollinaire"/>
+               <lg type="tercet" n="2">
+                  <figure rend="align(margin)">
+                     <figDesc>Accolade indiquant qu'il s'agit d'un morceau du poème du
+                        Mal-Aimé</figDesc>
+                  </figure>
+                  <l><del quantity="6" unit="word" rend="strikethrough">L’amour un jour je l’ai
+                        perdu</del></l>
+                  <l><del quantity="6" unit="word" rend="strikethrough">Au fond d’une forêt d’une
+                        Germaine</del></l>
+                  <l>Pour incanter l’amour perdu</l>
+                  <l>Le violon à la vie en peine</l>
+                  <l>Et à cordes de pendus</l>
+               </lg>
+            </div>
+         </div>
+      </body>
+         </text>
+      </group>
+   </text>
+</TEI>
