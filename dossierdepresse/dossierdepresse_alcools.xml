@@ -2981,4 +2981,567 @@
         </text>
      </group>
   </text>
+   <standOff>
+      <listPerson>
+         <person xml:id="ac">
+            <persName>A.C</persName>
+            <!-- Personne non identifiée. Par conséquent, les dates de naissance et de mort sont inconnues -->
+         </person>
+         
+         <person xml:id="abgar_v_oukama">
+            <persName>Abgar V Oukâma ou Le Noir</persName>
+            <!-- Les dates de naissance et de mort sont inconnues -->
+            <note>Roi d Edesse (15-30 ap. J.-C.). Édesse était la capitale de l'Osroène, un petit
+               État d'abord indépendant (132 av. J.-C. - 216 ap. J.-C.) en actuelle Turquie. Cet
+               état est devenu province romaine en 216.</note>
+         </person>
+         
+         <person xml:id="aimé_henri">
+            <persName><forename>Henri</forename><surname>Aimé</surname></persName>
+            <birth>Né le 2 août 1872 à Nancy, France.</birth>
+            <death>Décédé le 14 mai 1942 à Paris, France.</death>
+            <note>Médecin spécialiste des maladies nerveuses, il exercie à Paris. Il est également
+               Chevalier de la légion d'honneur.</note>
+         </person>
+
+         <person xml:id="apollinaire_guillaume">
+            <persName><forename>Guillaume</forename><surname>Apollinaire</surname></persName>
+            <birth>Né en 1880 à Rome, Italie.</birth>
+            <death>Mort en 1918 à Paris, France.</death>
+            <note>Poète et écrivain français.</note>
+         </person>
+         
+         <person xml:id="aspiq">
+            <persName>Aspiq</persName>
+            <!-- Personne non identifiée. Par conséquent, les dates de naissance et de mort sont inconnues -->
+         </person>
+         
+         <person xml:id="balzaguette_léon">
+            <persName><forename>Léon</forename><surname>Balzaguette</surname></persName>
+            <birth>Né le 8 mai 1873 à Paris.</birth>
+            <death>Décédé le 31 décembre 1928 à Paris.</death>
+            <note>Écrivain, critique littéraire, biographe et traducteur français.</note>
+         </person>
+         
+         <person xml:id="bardesane_d_edesse">
+            <persName>Bardesane d'Édesse ou Bar-Daïsan</persName>
+            <birth>Né le 11 juillet 154 à Édesse, actuelle Syrie.</birth>
+            <death>Mort en 222 à Édesse, actuelle Syrie.</death>
+            <note>Philosophe et poète chrétien de Syrie, né en 154 à Édesse, mort en 222 dans la
+               même ville.</note>
+         </person>
+
+         <person xml:id="bachelin_marie">
+            <persName>
+               <forename>Marie</forename>
+               <surname>Bachelin</surname>
+            </persName>
+            <note>Journaliste pour l'Echo Littéraire du Boulevard.</note>
+         </person>
+
+         <person xml:id="bataille_henry">
+            <persName>
+               <forename>Henry</forename>
+               <surname>Bataille</surname>
+            </persName>
+            <birth>Né en 1872 à Nîmes, France.</birth>
+            <death>Mort en1922 à Rueil-Malmaison, France.</death>
+            <note>Dramaturge, poète et lithographe français.</note>
+         </person>
+
+         <person xml:id="baudelaire_charles">
+            <persName><forename>Charles</forename>
+               <surname>Baudelaire</surname></persName>
+            <birth>Né 9 avril 1821, Paris, France.</birth>
+            <death>Mort 31 août 1867, Paris, France.</death>
+            <note>Poète français.</note>
+         </person>
+
+         <person xml:id="bayard_jean">
+            <persName><forename>Jean</forename>
+               <surname>Bayard</surname></persName>
+         </person>
+         
+         <person xml:id="beauduin_nicolas">
+            <persName><forename>Nicolas</forename><surname>Beauduin</surname></persName>
+            <birth>Né le 10 septembre 1880 à Poix-de-Picardie, France.</birth>
+            <death>Décédé le 5 septembre 1960 aux Corvées-les-Yys, France.</death>
+            <note>Poète et romancier français, directeur de la revue littéraire "La vie des
+               lettres"</note>
+         </person>
+         
+         <person xml:id="boutet_frederic">
+            <persName><forename>Frédéric</forename><surname>Boutet</surname></persName>
+            <birth>Né le 5 novembre 1874 à Bourges, France.</birth>
+            <death>Décède le 31 janvier 1941 à Arcachon, France.</death>
+            <note>Nouvelliste et romancier français.</note>
+         </person>
+         
+         <person xml:id="bounélier">
+            <persName>Bounélier</persName>
+            <!-- Personne non identifiée. Par conséquent, les dates de naissance et de mort sont inconnues -->
+         </person>
+
+         <person xml:id="brentano_clemens">
+            <persName>
+               <forename>Clemens</forename>
+               <surname>Brentano</surname>
+            </persName>
+            <birth>Né en 1778.</birth>
+            <death>Mort en 1842.</death>
+            <note>Poète et écrivain allemand.</note>
+         </person>
+
+         <person xml:id="bresil_marc">
+            <persName>
+               <forename>Marc</forename>
+               <surname>Brésil</surname>
+            </persName>
+            <note>Journaliste pour La Phalange.</note>
+         </person>
+        
+         <person xml:id="cahén_fritz_max">
+            <persName>
+               <forename>Max</forename>
+               <surname>Max Cahén</surname>
+            </persName>
+            <birth>Né en 1891 à Saarlouis, Allemagne.</birth>
+            <death>Mort en 1966 à Bonn, Allemagne.</death>
+            <note>Journaliste allemand.</note>
+         </person>
+
+         <person xml:id="cappatti_louis">
+            <persName>
+               <forename>Louis</forename>
+               <surname>Cappatti</surname>
+            </persName>
+            <birth>Né en 1886 à la Trinité-Victor, France.</birth>
+            <death>Mort en 1966 à Nice, France.</death>
+            <note>H>omme de lettres, historien, critique d'art.</note>
+         </person>
+
+         <person xml:id="carco_francis">
+            <persName><forename>Francis</forename>
+               <surname>Carco</surname></persName>
+            <birth>Né le 3 juillet 1886 à Nouméa, Nouvelle-Calédonie.</birth>
+            <death>Mort le 26 mai 1958 à Paris, France.</death>
+            <note>Ecrivain, poète, journaliste et parolier français.</note>
+         </person>
+
+         <person xml:id="clouard_henri">
+            <persName><forename>Henri</forename>
+               <surname>Clouard</surname></persName>
+            <birth>Né le 7 octobre 1889</birth>
+            <death>Mort en janvier 1974</death>
+            <note>Journaliste et critique littéraire français.</note>
+         </person>
+         
+         <person xml:id="de_chamaillard_ernest">
+            <persName><forename>Ernest</forename><surname>de Chamaillard</surname></persName>
+            <birth>Né le 9 décembre 1862 à Gourlizon, France.</birth>
+            <death>Décédé le 30 septembre 1931 à Eaubonne, France.</death>
+            <note>Peintre français.</note>
+         </person>
+
+         <person xml:id="de_gonzague_frick_louis">
+            <persName><forename>Louis</forename>
+               <nameLink>de</nameLink>
+               <surname>Gonzague Frick</surname></persName>
+            <birth>Né 13 mars 1883, Paris, France.</birth>
+            <death>Mort 9 avril 1958, Paris, France.</death>
+            <note>Poète, critique littéraire proche des mouvements d'avant-garde et journaliste pour
+               La Phallange.</note>
+         </person>
+
+         <person xml:id="de_gourmont_remy">
+            <persName><forename>Remy</forename>
+               <nameLink>de</nameLink>
+               <surname>Gourmont</surname></persName>
+            <birth>Né en 1858 à Bazoches-au-Houlme, France.</birth>
+            <death>Mort en 1915 à Paris, France.</death>
+            <note>Ecrivain, romancier, journaliste et critique d'art français.</note>
+         </person>
+
+         <person xml:id="derème_tristan">
+            <persName><forename>Tristan</forename>
+               <surname>Derème</surname></persName>
+            <birth>Né en 1889.</birth>
+            <death>Mort en 1941 à Oloron-Sainte-Marie, France.</death>
+            <note>Poète et écrivain français.</note>
+         </person>
+
+         <person xml:id="deubel_léon">
+            <persName><forename>Léon</forename>
+               <surname>Deubel</surname></persName>
+            <birth>Né lé 22 mars 1879, Belfort, France.</birth>
+            <death>Mort le 12 juin 1913, Maisons-Alfort, France.</death>
+            <note>Poème français.</note>
+         </person>
+         
+         <person xml:id="du_dézert_louvigné">
+            <persName><forename>Louvigné</forename><surname>du Dezert</surname></persName>
+            <note>Poète libertin fictif inventé par <persName ref="#fleuret_ferdinand">Fernand
+               Fleuret</persName></note>
+            <!-- Étant un personnage fictif, ses dates de naissance et de décès sont inexistantes. -->
+         </person>
+
+         <person xml:id="duhamel_georges">
+            <persName><forename>Georges</forename>
+               <surname>Duhamel</surname></persName>
+            <birth>Né le 30 juin 1884, Paris, France.</birth>
+            <death>Mort le 13 avril 1966, Valmondois, France.</death>
+            <note>Médecin, écrivain et poète français.</note>
+         </person>
+         
+         <person xml:id="dürer_albrecht">
+            <persName><forename>Albrecht</forename><surname>Dürer</surname></persName>
+            <birth>Né le 21 mai 1471 à Nuremberg, Allemagne.</birth>
+            <death>Décédé le 6 avril 1528 à Nuremberg, Allemagne.</death>
+            <note>Dessinateur, graveur et peintre allemand de la Renaissance. Il est également connu
+               comme théoricien de la géométrie et de la perspective linéaire.</note>
+         </person>
+
+         <person xml:id="fleuret_fernand">
+            <persName><forename>Fernand</forename>
+               <surname>Fleuret</surname></persName>
+            <birth>Né le 1ᵉʳ avril 1883 à Gondrecourt</birth>
+            <death>Mort le 18 juin 1945 à Paris</death>
+            <note>Ecrivain et poète français.</note>
+         </person>
+         
+         <person xml:id="fontainas_andré">
+            <persName><forename>André</forename><surname>Fontainas</surname></persName>
+            <birth>Né en 1865 à Bruxelles, Belgique.</birth>
+            <death>Mort en 1948 à Paris, France.</death>
+            <note>Poète et un critique français, belge de naissance.</note>
+         </person>
+
+         <person xml:id="fort_paul">
+            <persName><forename>Paul</forename>
+               <surname>Fort</surname></persName>
+            <birth>Né en 1872 à Reims, France.</birth>
+            <death>Mort en 1960 à Montlhéry, France.</death>
+            <note>Poète et dramaturge français.</note>
+         </person>
+
+         <person xml:id="goethe_johann_wolfgang_von">
+            <persName>
+               <forename>Johann Wolfgang</forename>
+               <nameLink>von</nameLink>
+               <surname>Goethe</surname>
+            </persName>
+            <birth>Né en 1749 à Francfort, Allemagne.</birth>
+            <death>Mort en 1832 à Weimar, Allemagne.</death>
+            <note>Romancier, dramaturge, poète, scientifique, théoricien de l'art et homme
+               d'Etat.</note>
+         </person>
+
+         <person xml:id="gourmont_remy_de">
+            <persName>
+               <forename>Remy</forename>
+               <nameLink>de</nameLink>
+               <surname>Gourmont</surname>
+            </persName>
+            <birth>Né en 1858 à Bazoches-au-Houlme, France.</birth>
+            <death>Mort en 1915 à Paris, France.</death>
+            <note>Ecrivain, romancier, journaliste et critique d'art français.</note>
+         </person>
+
+         <person xml:id="haas_albert">
+            <persName>
+               <forename>Albert</forename>
+               <surname>Haas</surname>
+            </persName>
+         </person>
+         
+         <person xml:id="holbein_hans">
+            <persName><forename>Hans</forename><surname>Holbein le Jeune</surname></persName>
+            <birth>Né vers 1497 à Augsbourg, Saint-Empire romain germanique.</birth>
+            <death>Mort en 1543 à Londres, Royaume d'Angleterre.</death>
+            <note>Peintre et graveur allemand</note>
+         </person>
+
+         <person xml:id="ingres_jean-auguste-dominique">
+            <persName>
+               <forename>Jean-Auguste-Dominique</forename>
+               <surname>Ingres</surname>
+            </persName>
+            <birth>Né en 1780 à Montauban, France.</birth>
+            <death>Mort en 1867 à Paris, France.</death>
+            <note>Peintre français.</note>
+         </person>
+
+         <person xml:id="jacob_max">
+            <persName><forename>Max</forename>
+               <surname>Jacob</surname></persName>
+            <birth>12 juillet 1876, Quimper, France.</birth>
+            <death>5 mars 1944, Camp de Drancy, France.</death>
+            <note>Poète moderniste, romancier et peintre français.</note>
+         </person>
+
+         <person xml:id="laforgue_jules">
+            <persName><forename>Jules</forename>
+               <surname>Laforgue</surname></persName>
+            <birth>Né 16 août 1860, Montevideo, Uruguay.</birth>
+            <death>Mort 20 août 1887, Paris, France.</death>
+            <note>Ecrivain, poète.</note>
+         </person>
+
+         <person xml:id="lavaud_guy">
+            <persName>
+               <forename>Guy</forename>
+               <surname>Lavaud</surname>
+            </persName>
+            <birth>Né en 1883 à Terrasson, France.</birth>
+            <death>Mort en 1958 à Saint-Germain-en-Laye, France.</death>
+            <note>Poète symboliste français.</note>
+         </person>
+
+         <person xml:id="leautaud_paul">
+            <persName><forename>Paul</forename>
+               <surname>Leautaud</surname></persName>
+            <birth>Né le 18 janvier 1872, Paris, France.</birth>
+            <death>Mort le 22 février 1956, Châtenay-Malabry, France.</death>
+            <note>Ecrivain et critique dramatique français.</note>
+         </person>
+         
+         <person xml:id="léon_xiii">
+            <persName>Léon XIII</persName>
+            <birth>Né en 1810 à Carpineto Romano, Empire français.</birth>
+            <death>Mort en 1903 à Rome, Royaume d'Italie.</death>
+            <note>Pape de l'Église catholique de 1878 à 1903.</note>
+         </person>
+         
+         <person xml:id="mac_orlan_pierre">
+            <persName>
+               <forename>Pierre</forename>
+               <surname>Dumarchey</surname>
+               <addName type="pseudo">Pierre Mac Orlan</addName>
+            </persName>
+            <birth>Né en 1882 à Péronne, France.</birth>
+            <death>Mort en 1970 à Saint-Cyr-sur-Morin, France.</death>
+            <note>Écrivain, poète, essayiste français</note>
+         </person>
+
+         <person xml:id="mallarmé_stéphane">
+            <persName><forename>Stéphane</forename>
+               <surname>Mallarmé</surname></persName>
+            <birth>Né 18 mars 1842, Paris, France.</birth>
+            <death>Mort 9 septembre 1898, Vulaines-sur-Seine, France.</death>
+            <note>Poète, enseignant, traducteur et critique d'art français.</note>
+         </person>
+
+         <person xml:id="marot_clément">
+            <persName>
+               <forename>Clément</forename>
+               <surname>Marot</surname>
+            </persName>
+            <birth>Né en 1496 à Cahors, France.</birth>
+            <death>Mort en 1544 à Turin, Italie.</death>
+            <note>Poète français de la Renaissance.</note>
+         </person>
+
+         <person xml:id="mercereau_jack">
+            <persName>
+               <forename>Jack</forename>
+               <surname>Mercereau</surname>
+            </persName>
+            <note>Journaliste pour Paris-Journal</note>
+         </person>
+
+         <person xml:id="merrill_stuart">
+            <persName>
+               <forename>Stuart</forename>
+               <surname>Merrill</surname>
+            </persName>
+            <birth>Né en 1863 à Hempstead, New York, Etats-Unis d'Amérique.</birth>
+            <death>Mort en 1915 à Versailles, France.</death>
+            <note>Poète américain.</note>
+         </person>
+
+         <person xml:id="musset_alfred_de">
+            <persName>
+               <forename>Alfred</forename>
+               <nameLink>de</nameLink>
+               <surname>Musset</surname>
+            </persName>
+            <birth>Né en 1810 à Paris, France.</birth>
+            <death>Mort en 1857 à Paris, France.</death>
+            <note>Poète, dramaturge et romancier français.</note>
+         </person>
+         
+         <person xml:id="illisible_name">
+            <persName>Nom illisible</persName>
+            <!-- Personne non identifiée. Les dates de naissance et de mort sont inconnues -->
+         </person>
+
+         <person xml:id="pellerin_jean">
+            <persName><forename>Jean</forename>
+               <surname>Pellerin</surname></persName>
+            <birth>Né le 24 avril 1885, Pontcharra, France.</birth>
+            <death>Mort le 9 juillet 1921, Le Chatelard, France.</death>
+            <note>Poète français membre de l'École fantaisiste.</note>
+         </person>
+
+         <person xml:id="perceau_louis">
+            <persName><forename>Louis</forename>
+               <surname>Perceau</surname></persName>
+            <birth>Né le 22 septembre 1883 à Coulon, France.</birth>
+            <death>Mort le 20 avril 1942 à Paris, France.</death>
+            <note>Ecrivain polygraphe français.</note>
+         </person>
+
+         <person xml:id="picard_gaston">
+            <persName><forename>Gaston</forename>
+               <surname>Picard</surname></persName>
+            <birth>Né 18 janvier 1892, Paris, France.</birth>
+            <death>Mort 9 mars 1962, Paris, France.</death>
+            <note>Journaliste.</note>
+         </person>
+
+         <person xml:id="picasso_pablo">
+            <persName><forename>Pablo</forename>
+               <surname>Picasso</surname></persName>
+            <birth>Né en 1881 à Malaga, Espagne.</birth>
+            <death>Mort en 1973 à Mougins, France.</death>
+            <note>Peintre, dessinateur, sculpteur et graveur espagnol.</note>
+         </person>
+         
+         <person xml:id="platon">
+            <persName>Platon</persName>
+            <birth>Né vers 428/427 av. J.-C. à Athènes, actuelle Grèce.</birth>
+            <death>Mort vers 347 av. J.-C. à Athènes, actuelle Grèce.</death>
+            <note>Philosophe antique de la Grèce classique.</note>
+         </person>
+
+         <person xml:id="poussin_nicolas">
+            <persName>
+               <forename>Nicolas</forename>
+               <surname>Poussin</surname>
+            </persName>
+            <birth>Né en 1594 au hameau de Villers, France.</birth>
+            <death>Mort en 1665 à Rome, Italie.</death>
+            <note>Peintre français.</note>
+         </person>
+         
+         <person xml:id="rétif_de_la_bretonne">
+            <persName><forename>Nicolas</forename><surname>Rétif de la Bretonne</surname></persName>
+            <birth>Né en 1734 à Sacy, Royaume de France.</birth>
+            <death>Mort en 1806 à Paris, Empire français.</death>
+            <note>Écrivain français</note>
+         </person>
+
+         <person xml:id="rimbaud_arthur">
+            <persName><forename>Arthur</forename>
+               <surname>Rimbaud</surname></persName>
+            <birth>Né en 1854 à Charleville-Mézières, France.</birth>
+            <death>Mort en 1891 à Marseille, France.</death>
+            <note>Poète français.</note>
+         </person>
+
+         <person xml:id="roinard_paul-napoléon">
+            <persName>
+               <forename>Paul-Napoléon</forename>
+               <surname>Roinard</surname>
+            </persName>
+            <birth>Né en 1856 à Neufchâtel-en-Bray, France.</birth>
+            <death>Mort en 1930 à Courbevoie, France.</death>
+            <note>Poète anarchiste français.</note>
+         </person>
+
+         <person xml:id="romains_jules">
+            <persName><forename>Jules</forename><surname>Romains</surname></persName>
+            <birth>Né le 26 août 1885, à Saint-Julien-Chapteuil, France.</birth>
+            <death>Mort le 14 août 1972, à Paris, France.</death>
+            <note>Ecrivain, philosophe, poète et dramaturge français, membre de l'Académie
+               française.</note>
+         </person>
+         
+         <person xml:id="rossiard">
+            <!-- Personne non identifiée. Les dates de naissance et de mort sont inconnues -->
+            <persName>Rossiard</persName>
+         </person>
+
+         <person xml:id="royere_jean">
+            <persName><forename>Jean</forename><surname>Royère</surname></persName>
+            <birth>Né en 1871 à Aix-en-Provence, France.</birth>
+            <death>Mort en 1956 à Paris, France.</death>
+            <note>Poète et éditeur français.</note>
+         </person>
+
+         <person xml:id="salmon_andré">
+            <persName><forename>André</forename>
+               <surname>Salmon</surname></persName>
+            <birth>Né en 1881 à Paris, France.</birth>
+            <death>Mort en 1969 à Sanary-sur-Mer, France.</death>
+            <note>Ecrivain, poète, romancier, journaliste et critique d'art français.</note>
+         </person>
+
+         <person xml:id="taine_hippolyte">
+            <persName>
+               <forename>Hippolyte</forename>
+               <surname>Taine</surname>
+            </persName>
+            <birth>Né en 1828 à Vouziers, France.</birth>
+            <death>Mort en 1893 à Paris, France.</death>
+            <note>Philosophe et historien français.</note>
+         </person>
+         
+         <person xml:id="tharaud_jerome_et_jean">
+            <persName><forename>Jérôme</forename><surname>Tharaud</surname></persName>
+            <birth>Né en 1874 à Saint-Julien, France.</birth>
+            <death>Mort en 1953 à Varengeville-sur-Mer, France.</death>
+            <note>Écrivain français</note>
+            <persName><forename>Jean</forename><surname>Tharaud</surname></persName>
+            <birth>Né en 1877 à Saint-Julien, France.</birth>
+            <death>Mort en 1953 à Paris, France.</death>
+            <note>Écrivain français</note>
+         </person>
+
+         <person xml:id="valette_alfred">
+            <persName><forename>Alfred</forename>
+               <surname>Valette</surname></persName>
+            <birth>Né le 31 juillet 1858, Paris, France.</birth>
+            <death>Mort le 28 septembre 1935, Paris, France.</death>
+            <note>Homme de lettres et éditeur français, fondateur du Mercure de France.</note>
+         </person>
+         
+         <person xml:id="velasquez_diego">
+            <persName><forename>Diego</forename><surname>Vélasquez</surname></persName>
+            <birth>Né en 1599 à Séville, Monarchie espagnole.</birth>
+            <death>Mort en 1660 à Madrid, Monarchie espagnole.</death>
+            <note>Peintre baroque espagnol</note>
+         </person>
+
+         <person xml:id="verlaine_paul">
+            <persName>
+               <forename>Paul</forename>
+               <surname>Verlaine</surname>
+            </persName>
+            <birth>Né en 1844 à Metz, Francce.</birth>
+            <death>Mort en 1896 à Paris, France.</death>
+            <note>Poète français.</note>
+         </person>
+
+         <person xml:id="villon_françois">
+            <persName>
+               <forename>François</forename>
+               <surname>Villon</surname>
+            </persName>
+            <birth>Né en 1431 à Paris, France.</birth>
+            <death>Mort après 1463.</death>
+            <note>Célèbre poète français de la fin du Moyen Âge.</note>
+         </person>
+         
+         <person xml:id="wagner_richard">
+            <persName><forename>Richard</forename><surname>Wagner</surname></persName>
+            <birth>Né en 1813 à Leipzig, Royaume de Saxe.</birth>
+            <death>Mort en 1883 à Venise, Royaume d'Italie.</death>
+            <note>Compositeur, directeur de théâtre, écrivain, chef d'orchestre et polémiste
+               allemand de la période romantique</note>
+         </person>
+      </listPerson>
+      
+      
+   </standOff>
 </TEI>
