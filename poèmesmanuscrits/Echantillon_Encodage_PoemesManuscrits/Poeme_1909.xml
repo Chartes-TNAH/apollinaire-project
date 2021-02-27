@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-model href="out/poeme_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/poeme_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -74,8 +74,6 @@
                <physDesc>   
                   <objectDesc form="codex">
                      <supportDesc>
-                        <support>Papier, <stamp>utilisation quasi-systématique d'une estampille sur laquelle on lit "Bibliothèque Nationale MSS"
-                           sur les pages du document.</stamp></support>
                         <extent>
                            <width unit="mm">250</width>
                            <height unit="mm">220</height>
@@ -132,8 +130,8 @@
                   <div type="page" n="18">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f63.item.r=ManuscritApollinaire"/>
-                     <head>1909 <add place="beside">88</add></head>
-                     <p><add place="top">18</add></p>
+                     <head>1909 <add rend="beside">88</add></head>
+                     <p><add rend="top">18</add></p>
                      <lg type="quintil" n="1">
                         <l>La dame avait une robe</l>
                         <l>En ottoman violine</l>

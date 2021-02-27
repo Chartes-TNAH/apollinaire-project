@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+
+<?xml-model href="out/poeme_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/poeme_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -73,15 +74,11 @@
                </msContents>
                <physDesc>   
                   <objectDesc form="codex">
-                     <supportDesc>
-                        <support>Papier, <stamp>utilisation quasi-systématique d'une estampille sur laquelle on lit "Bibliothèque Nationale MSS"
-                           sur les pages du document.</stamp></support>
                         <extent>
                            <width unit="mm">250</width>
                            <height unit="mm">220</height>
                         </extent>
                         <foliation>23 feuillets</foliation>
-                     </supportDesc>
                   </objectDesc>
                   <bindingDesc>
                      <p>Reliure demi-chagrin bleu roi</p>
@@ -133,8 +130,8 @@
                <pb type="recto"
                   facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f47.item.r=ManuscritApollinaire"/>
                <head>La lettre écrite au sultan par les cosaques zaporogues</head>
-               <p><add place="top">14</add></p>
-               <p><add place="top">Réponse des cosaques zaporogues au sultan de
+               <p><add rend="top">14</add></p>
+               <p><add rend="top">Réponse des cosaques zaporogues au sultan de
                   Constantinople</add></p>
 
                <lg type="tercet" n="1">
@@ -145,7 +142,7 @@
                   <l>Quel chevalier es-tu là bas ?</l>
                   <l><subst>
                         <del><gap quantity="1" unit="word" reason="illegible"/></del>
-                        <add place="above"><del rend="strikethrough"><gap quantity="1" unit="word"
+                        <add rend="above"><del rend="strikethrough"><gap quantity="1" unit="word"
                                  reason="illegible"/></del></add>
                         <add rend="overtyped">Sultan</add>
                      </subst> de Turcs puants qui manges</l>
