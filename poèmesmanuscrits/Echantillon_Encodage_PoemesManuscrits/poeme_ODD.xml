@@ -801,12 +801,19 @@
                 </elementSpec>
                 <elementSpec ident="div" mode="change">
                     <content>
-                        <elementRef key="pb" minOccurs="1" maxOccurs="unbounded"/>
-                        <elementRef key="head" minOccurs="0" maxOccurs="unbounded"/>
-                        <elementRef key="p" minOccurs="0" maxOccurs="unbounded"/>
+                  <alternate>
+                     <sequence>
+                        <elementRef key="div" minOccurs="1" maxOccurs="unbounded"/>
+                     </sequence>
+                     <sequence>
+                        <elementRef key="pb" minOccurs="1" maxOccurs="2"/>
+                        <elementRef key="head" minOccurs="0" maxOccurs="1"/>
+                        <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
                         <elementRef key="lg" minOccurs="0" maxOccurs="unbounded"/>
                         <elementRef key="figure" minOccurs="0" maxOccurs="unbounded"/>
-                    </content>
+                     </sequence>
+                  </alternate>
+               </content>
                     <constraintSpec scheme="schematron" ident="divtypecorresp">
                         <constraint>
                             <s:rule context="tei:body/tei:div">
