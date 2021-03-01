@@ -681,7 +681,7 @@
                 <!--Checking module verse-->
                 <!--Checking module transcr-->
                 <classRef key="att.global.facs"/>
-                <moduleRef key="transcr" include="delSpan subst"/>
+                <moduleRef key="transcr" include="delSpan subst substJoin"/>
                 <elementSpec ident="delSpan" mode="change">
                     <attList>
                         <attDef ident="corresp" mode="delete"/>
@@ -710,6 +710,20 @@
                         </attDef>
                         <attDef ident="unit" mode="delete"/>
                         <attDef ident="quantity" mode="delete"/>
+                    </attList>
+                </elementSpec>
+                <elementSpec ident="substJoin" mode="change">
+                    <attList>
+                        <attDef ident="corresp" mode="delete"/>
+                        <attDef ident="facs" mode="delete"/>
+                        <attDef ident="status" mode="change">
+                            <valList mode="add" type="closed">
+                                <valItem ident="unremarkable"/>
+                            </valList>
+                        </attDef>
+                        <attDef ident="unit" mode="delete"/>
+                        <attDef ident="quantity" mode="delete"/>
+                        <attDef ident="target" mode="change" usage="req"/>
                     </attList>
                 </elementSpec>
                 <!--Checking module linking-->
