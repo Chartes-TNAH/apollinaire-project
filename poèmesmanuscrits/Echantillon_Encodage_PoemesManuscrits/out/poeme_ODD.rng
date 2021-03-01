@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<grammar xmlns:xlink="http://www.w3.org/1999/xlink"
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
          xmlns:tei="http://www.tei-c.org/ns/1.0"
          xmlns:teix="http://www.tei-c.org/ns/Examples"
-         xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2021-02-27T10:48:36Z. .
-TEI Edition: Version 4.1.0. Last updated on
-	19th August 2020, revision b414ba550
-TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.1.0/
+Schema generated from ODD source 2021-02-28T08:24:28Z. .
+TEI Edition: Version 3.6.0. Last updated on
+	16th July 2019, revision daa3cc0b9
+TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.6.0/
   
 --><!---->
    <define name="macro.paraContent">
@@ -38,17 +38,8 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.1.0/
          <choice>
             <text/>
             <ref name="model.gLike"/>
-            <ref name="model.attributable"/>
+            <ref name="model.qLike"/>
             <ref name="model.phrase"/>
-            <ref name="model.global"/>
-         </choice>
-      </zeroOrMore>
-   </define>
-   <define name="macro.phraseSeq.limited">
-      <zeroOrMore>
-         <choice>
-            <text/>
-            <ref name="model.limitedPhrase"/>
             <ref name="model.global"/>
          </choice>
       </zeroOrMore>
@@ -87,6 +78,13 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.1.0/
             </list>
          </attribute>
       </optional>
+   </define>
+   <define name="att.ranging.attributes">
+      <ref name="att.ranging.attribute.atLeast"/>
+      <ref name="att.ranging.attribute.atMost"/>
+      <ref name="att.ranging.attribute.min"/>
+      <ref name="att.ranging.attribute.max"/>
+      <ref name="att.ranging.attribute.confidence"/>
    </define>
    <define name="att.ranging.attribute.atLeast">
       <optional>
@@ -152,6 +150,34 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.1.0/
          </attribute>
       </optional>
    </define>
+   <define name="att.dimensions.attributes">
+      <ref name="att.ranging.attributes"/>
+      <ref name="att.dimensions.attribute.unit"/>
+      <ref name="att.dimensions.attribute.quantity"/>
+   </define>
+   <define name="att.dimensions.attribute.unit">
+      <optional>
+         <attribute name="unit">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">names the unit used for the measurement
+Suggested values include: 1] cm (centimetres); 2] mm (millimetres); 3] in (inches); 4] line; 5] char (characters)</a:documentation>
+            <choice>
+               <value>cm</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(centimetres) </a:documentation>
+               <value>mm</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(millimetres) </a:documentation>
+               <value>in</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(inches) </a:documentation>
+               <value>line</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">lines of text</a:documentation>
+               <value>char</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(characters) characters of text</a:documentation>
+               <data type="token">
+                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+               </data>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
    <define name="att.dimensions.attribute.quantity">
       <optional>
          <attribute name="quantity">
@@ -185,7 +211,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.1.0/
          <attribute name="break">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates whether or not the element bearing this attribute should be considered to mark the end of an orthographic token in the same way as whitespace.</a:documentation>
             <data type="token">
-               <param name="pattern">[^\p{C}\p{Z}]+</param>
+               <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
             </data>
          </attribute>
       </optional>
@@ -213,34 +239,31 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.1.0/
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="oddbyexample-att.datable.w3c-att-datable-w3c-when-constraint-rule-1">
       <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[@when]">
-         <sch:report test="@notBefore|@notAfter|@from|@to" role="nonfatal">The @when attribute cannot be used with any other att.datable.w3c attributes.</sch:report>
+        <sch:report test="@notBefore|@notAfter|@from|@to" role="nonfatal">The @when attribute cannot be used with any other att.datable.w3c attributes.</sch:report>
       </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="oddbyexample-att.datable.w3c-att-datable-w3c-from-constraint-rule-2">
       <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[@from]">
-         <sch:report test="@notBefore" role="nonfatal">The @from and @notBefore attributes cannot be used together.</sch:report>
+        <sch:report test="@notBefore" role="nonfatal">The @from and @notBefore attributes cannot be used together.</sch:report>
       </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="oddbyexample-att.datable.w3c-att-datable-w3c-to-constraint-rule-3">
       <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[@to]">
-         <sch:report test="@notAfter" role="nonfatal">The @to and @notAfter attributes cannot be used together.</sch:report>
+        <sch:report test="@notAfter" role="nonfatal">The @to and @notAfter attributes cannot be used together.</sch:report>
       </sch:rule>
    </pattern>
    <define name="att.datable.attributes">
@@ -372,7 +395,7 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.1.0/
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -495,7 +518,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
                      <value>inspace</value>
                      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">in a predefined space, for example left by an earlier scribe.</a:documentation>
                      <data type="token">
-                        <param name="pattern">[^\p{C}\p{Z}]+</param>
+                        <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
                      </data>
                   </choice>
                </oneOrMore>
@@ -506,12 +529,11 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="oddbyexample-att.typed-subtypeTyped-constraint-rule-4">
       <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[@subtype]">
-         <sch:assert test="@type">The <sch:name/> element should not be categorized in detail with @subtype unless also categorized in general with @type</sch:assert>
+        <sch:assert test="@type">The <sch:name/> element should not be categorized in detail with @subtype unless also categorized in general with @type</sch:assert>
       </sch:rule>
    </pattern>
    <define name="att.pointing.attributes">
@@ -537,13 +559,12 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="oddbyexample-att.pointing-targetLang-targetLang-constraint-rule-5">
       <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[not(self::tei:schemaSpec)][@targetLang]">
-         <sch:assert test="@target">@targetLang should only be used on <sch:name/> if @target is specified.</sch:assert>
-      </sch:rule>
+            <sch:assert test="@target">@targetLang should only be used on <sch:name/> if @target is specified.</sch:assert>
+          </sch:rule>
    </pattern>
    <define name="att.pointing.attribute.target">
       <optional>
@@ -580,7 +601,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
          <attribute name="sortKey">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the sort key for this element in an index, list or group which contains it.</a:documentation>
             <data type="token">
-               <param name="pattern">[^\p{C}\p{Z}]+</param>
+               <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
             </data>
          </attribute>
       </optional>
@@ -596,7 +617,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -629,15 +650,14 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="oddbyexample-att.spanning-spanTo-spanTo-2-constraint-rule-6">
       <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 context="tei:*[@spanTo]">
-         <sch:assert test="id(substring(@spanTo,2)) and following::*[@xml:id=substring(current()/@spanTo,2)]">
+            <sch:assert test="id(substring(@spanTo,2)) and following::*[@xml:id=substring(current()/@spanTo,2)]">
 The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow the current element <sch:name/>
-         </sch:assert>
-      </sch:rule>
+                  </sch:assert>
+          </sch:rule>
    </pattern>
    <define name="att.timed.attributes">
       <empty/>
@@ -1115,7 +1135,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
    <define name="model.quoteLike_sequenceRepeatable">
       <notAllowed/>
    </define>
-   <define name="model.attributable">
+   <define name="model.qLike">
       <choice>
          <ref name="model.quoteLike"/>
       </choice>
@@ -1294,7 +1314,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="model.labelLike"/>
          <ref name="model.listLike"/>
          <ref name="model.stageLike"/>
-         <ref name="model.attributable"/>
+         <ref name="model.qLike"/>
       </choice>
    </define>
    <define name="model.phrase">
@@ -1344,7 +1364,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="creation"/>
       </choice>
    </define>
-   <define name="model.resource">
+   <define name="model.resourceLike">
       <choice>
          <ref name="text"/>
       </choice>
@@ -1475,6 +1495,8 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
                      <choice>
                         <value>illegible</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>deleted</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                      </choice>
                   </oneOrMore>
                </list>
@@ -1501,6 +1523,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="att.editLike.attribute.instant"/>
          <ref name="att.written.attribute.hand"/>
          <ref name="att.placement.attributes"/>
+         <ref name="att.dimensions.attribute.quantity"/>
          <ref name="att.ranging.attribute.atLeast"/>
          <ref name="att.ranging.attribute.atMost"/>
          <ref name="att.ranging.attribute.min"/>
@@ -1525,6 +1548,14 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
                         <value>align(below)</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>surrounded</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>align(top-right)</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>align(top-left)</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>highlighted</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>overtyped</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                      </choice>
                   </oneOrMore>
@@ -1644,11 +1675,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          <ref name="att.global.responsibility.attribute.resp"/>
          <ref name="att.global.source.attribute.source"/>
          <ref name="att.editLike.attributes"/>
-         <ref name="att.ranging.attribute.atLeast"/>
-         <ref name="att.ranging.attribute.atMost"/>
-         <ref name="att.ranging.attribute.min"/>
-         <ref name="att.ranging.attribute.max"/>
-         <ref name="att.ranging.attribute.confidence"/>
+         <ref name="att.dimensions.attributes"/>
          <optional>
             <attribute name="reason">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates why the material is hard to transcribe.</a:documentation>
@@ -2055,6 +2082,10 @@ Elements]</a:documentation>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>sizain</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>huitain</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>dizain</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             </choice>
          </attribute>
          <empty/>
@@ -2096,7 +2127,7 @@ Elements]</a:documentation>
    </define>
    <define name="msDesc">
       <element name="msDesc">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(manuscript description) contains a description of a single identifiable manuscript or other text-bearing object such as early printed books. [10.1. Overview]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(manuscript description) contains a description of a single identifiable manuscript or other text-bearing object. [10.1. Overview]</a:documentation>
          <group>
             <ref name="msIdentifier"/>
             <zeroOrMore>
@@ -2159,9 +2190,19 @@ Elements]</a:documentation>
                <report xmlns:s="http://purl.oclc.org/dsdl/schematron" test="count(tei:width)&gt; 1">
 The element <name/> may appear once only
       </report>
+            </rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="oddbyexample-dimensions-duplicateDim-constraint-report-9">
+            <rule context="tei:dimensions">
                <report xmlns:s="http://purl.oclc.org/dsdl/schematron" test="count(tei:height)&gt; 1">
 The element <name/> may appear once only
       </report>
+            </rule>
+         </pattern>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="oddbyexample-dimensions-duplicateDim-constraint-report-10">
+            <rule context="tei:dimensions">
                <report xmlns:s="http://purl.oclc.org/dsdl/schematron" test="count(tei:depth)&gt; 1">
 The element <name/> may appear once only
       </report>
@@ -2360,7 +2401,7 @@ The element <name/> may appear once only
    <define name="institution">
       <element name="institution">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains the name of an organization such as a university or library, with which a manuscript or other object is identified, generally its holding institution. [10.4. The Manuscript Identifier]</a:documentation>
-         <ref name="macro.phraseSeq.limited"/>
+         <ref name="macro.xtext"/>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.attribute.xmllang"/>
@@ -2379,7 +2420,7 @@ The element <name/> may appear once only
    <define name="repository">
       <element name="repository">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains the name of a repository within which manuscripts or other objects are stored, possibly forming part of an institution. [10.4. The Manuscript Identifier]</a:documentation>
-         <ref name="macro.phraseSeq.limited"/>
+         <ref name="macro.xtext"/>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.attribute.xmllang"/>
@@ -2741,7 +2782,7 @@ The element <name/> may appear once only
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -2755,7 +2796,7 @@ The element <name/> may appear once only
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -2769,7 +2810,7 @@ The element <name/> may appear once only
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -2783,7 +2824,7 @@ The element <name/> may appear once only
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -2797,7 +2838,7 @@ The element <name/> may appear once only
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -2999,7 +3040,7 @@ The element <name/> may appear once only
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -3032,7 +3073,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
                         <value>inspace</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">in a predefined space, for example left by an earlier scribe.</a:documentation>
                         <data type="token">
-                           <param name="pattern">[^\p{C}\p{Z}]+</param>
+                           <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
                         </data>
                      </choice>
                   </oneOrMore>
@@ -3231,7 +3272,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
    </define>
    <define name="sourceDesc">
       <element name="sourceDesc">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(source description) describes the source(s) from which an electronic text was derived or generated, typically a bibliographic description in the case of a digitized text, or a phrase such as "born digital" for a text which has no previous existence. [2.2.7. The Source Description]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(source description) describes the source from which an electronic text was derived or generated, typically a bibliographic description in the case of a digitized text, or a phrase such as "born digital" for a text which has no previous existence. [2.2.7. The Source Description]</a:documentation>
          <choice>
             <oneOrMore>
                <ref name="model.pLike"/>
@@ -3346,19 +3387,13 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddbyexample-delSpan-spanTo-constraint-assert-5">
             <rule context="tei:delSpan">
-               <assert xmlns:xi="http://www.w3.org/2001/XInclude"
-                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
-                       test="@spanTo">The @spanTo attribute of <name/> is required.</assert>
+               <assert xmlns:s="http://purl.oclc.org/dsdl/schematron" test="@spanTo">The @spanTo attribute of <name/> is required.</assert>
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddbyexample-delSpan-spanTo_fr-constraint-assert-6">
             <rule context="tei:delSpan">
-               <assert xmlns:xi="http://www.w3.org/2001/XInclude"
-                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
-                       test="@spanTo">L'attribut spanTo est requis.</assert>
+               <assert xmlns:s="http://purl.oclc.org/dsdl/schematron" test="@spanTo">L'attribut spanTo est requis.</assert>
             </rule>
          </pattern>
          <ref name="att.global.attribute.xmlid"/>
@@ -3407,7 +3442,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
    </define>
    <define name="subst">
       <element name="subst">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(substitution) groups one or more deletions (or surplus text) with one or more additions when the combination is to be regarded as a single intervention in the text. [11.3.1.5. Substitutions]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(substitution) groups one or more deletions with one or more additions when the combination is to be regarded as a single intervention in the text. [11.3.1.5. Substitutions]</a:documentation>
          <oneOrMore>
             <choice>
                <ref name="add"/>
@@ -3418,11 +3453,9 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddbyexample-subst-substContents1-constraint-assert-7">
             <rule context="tei:subst">
-               <assert xmlns:xi="http://www.w3.org/2001/XInclude"
-                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
-                       test="child::tei:add and (child::tei:del or child::tei:surplus)">
-                  <name/> must have at least one child add and at least one child del or surplus</assert>
+               <assert xmlns:s="http://purl.oclc.org/dsdl/schematron"
+                       test="child::tei:add and child::tei:del">
+                  <name/> must have at least one child add and at least one child del</assert>
             </rule>
          </pattern>
          <ref name="att.global.attribute.xmlid"/>
@@ -3479,41 +3512,22 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
    </define>
    <define name="TEI">
       <element name="TEI">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI document) contains a single TEI-conformant document, combining a single TEI header with one or more members of the model.resource class. Multiple <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> elements may be combined within a <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> (or <code xmlns="http://www.w3.org/1999/xhtml">&lt;teiCorpus&gt;</code>) element. [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI document) contains a single TEI-conformant document, combining a single TEI header with one or more members of the model.resourceLike class. Multiple <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> elements may be combined to form a <code xmlns="http://www.w3.org/1999/xhtml">&lt;teiCorpus&gt;</code> element. [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
          <group>
             <ref name="teiHeader"/>
-            <choice>
-               <group>
-                  <oneOrMore>
-                     <ref name="model.resource"/>
-                  </oneOrMore>
-                  <zeroOrMore>
-                     <ref name="TEI"/>
-                  </zeroOrMore>
-               </group>
-               <oneOrMore>
-                  <ref name="TEI"/>
-               </oneOrMore>
-            </choice>
+            <oneOrMore>
+               <ref name="model.resourceLike"/>
+            </oneOrMore>
          </group>
-         <sch:ns xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                 xmlns="http://www.tei-c.org/ns/1.0"
-                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
-                 prefix="tei"
-                 uri="http://www.tei-c.org/ns/1.0"/>
-         <sch:ns xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                 xmlns="http://www.tei-c.org/ns/1.0"
-                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
-                 prefix="xs"
-                 uri="http://www.w3.org/2001/XMLSchema"/>
-         <sch:ns xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                 xmlns="http://www.tei-c.org/ns/1.0"
-                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
-                 prefix="rng"
-                 uri="http://relaxng.org/ns/structure/1.0"/>
+         <ns xmlns="http://purl.oclc.org/dsdl/schematron"
+             prefix="tei"
+             uri="http://www.tei-c.org/ns/1.0"/>
+         <ns xmlns="http://purl.oclc.org/dsdl/schematron"
+             prefix="xs"
+             uri="http://www.w3.org/2001/XMLSchema"/>
+         <ns xmlns="http://purl.oclc.org/dsdl/schematron"
+             prefix="rng"
+             uri="http://relaxng.org/ns/structure/1.0"/>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
          <ref name="att.global.attribute.xmllang"/>
@@ -3563,7 +3577,9 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
       <element name="body">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text body) contains the whole body of a single unitary text, excluding any front or back matter. [4. Default Text Structure]</a:documentation>
          <group>
-            <ref name="msDesc"/>
+            <zeroOrMore>
+               <ref name="msDesc"/>
+            </zeroOrMore>
             <ref name="div"/>
          </group>
          <ref name="att.global.attribute.xmlid"/>
@@ -3624,9 +3640,9 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
                <oneOrMore>
                   <ref name="p"/>
                </oneOrMore>
-               <oneOrMore>
+               <zeroOrMore>
                   <ref name="lg"/>
-               </oneOrMore>
+               </zeroOrMore>
                <zeroOrMore>
                   <ref name="figure"/>
                </zeroOrMore>
@@ -3637,19 +3653,19 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
             <s:rule xmlns="http://www.tei-c.org/ns/1.0"
                     xmlns:s="http://purl.oclc.org/dsdl/schematron"
                     context="tei:body/tei:div">
-               <s:assert test="@type='poeme' and @corresp"> La première division doit être
+                        <s:assert test="@type='poeme' and @corresp"> La première division doit être
                            composée d'un attribut type de valeur poème et d'un attribut corresp
                            associant le poème manuscrit à sa version éditée </s:assert>
-            </s:rule>
+                     </s:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddbyexample-div-divtypen-constraint-rule-8">
             <s:rule xmlns="http://www.tei-c.org/ns/1.0"
                     xmlns:s="http://purl.oclc.org/dsdl/schematron"
                     context="tei:div/tei:div">
-               <s:assert test="@type='page' and @n"> La première division doit être
+                        <s:assert test="@type='page' and @n"> La première division doit être
                            composée d'un attribut type de valeur page et d'un attribut n </s:assert>
-            </s:rule>
+                     </s:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddbyexample-div-abstractModel-structure-l-constraint-report-12">
@@ -3724,6 +3740,8 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>poeme</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>prose</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                </choice>
             </attribute>
          </optional>
@@ -3751,9 +3769,9 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
             <s:rule xmlns="http://www.tei-c.org/ns/1.0"
                     xmlns:s="http://purl.oclc.org/dsdl/schematron"
                     context="tei:group//tei:docTitle">
-               <s:assert test="@ref"> Il est obligatoire d'ajouter une référence à un
+                        <s:assert test="@ref"> Il est obligatoire d'ajouter une référence à un
                            poème. </s:assert>
-            </s:rule>
+                     </s:rule>
          </pattern>
          <ref name="att.global.attribute.xmlid"/>
          <ref name="att.global.attribute.n"/>
@@ -3793,6 +3811,8 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
                        a:defaultValue="main">
                <a:documentation>specifies the role of this subdivision of the title.</a:documentation>
                <choice>
+                  <value>main</value>
+                  <a:documentation/>
                   <value>main</value>
                   <a:documentation/>
                </choice>
@@ -3887,7 +3907,25 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
    </define>
    <define name="att.lexicographic.attributes">
       <ref name="att.datcat.attributes"/>
+      <ref name="att.lexicographic.attribute.norm"/>
+      <ref name="att.lexicographic.attribute.orig"/>
       <ref name="att.lexicographic.attribute.opt"/>
+   </define>
+   <define name="att.lexicographic.attribute.norm">
+      <optional>
+         <attribute name="norm">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(normalized) gives a normalized form of information given by the source text in a non-normalized form</a:documentation>
+            <data type="string"/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="att.lexicographic.attribute.orig">
+      <optional>
+         <attribute name="orig">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(original) gives the original string or is the empty string when the element does not appear in the source text.</a:documentation>
+            <data type="string"/>
+         </attribute>
+      </optional>
    </define>
    <define name="att.lexicographic.attribute.opt">
       <optional>
