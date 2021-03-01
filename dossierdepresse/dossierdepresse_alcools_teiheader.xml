@@ -14,8 +14,8 @@
                <surname>Apollinaire</surname>
             </author>
             <respStmt>
-               <resp>Encodage réalisé dans le cadre d'un projet github</resp>
-               <!-- à compléter -->
+               <resp>Responsables de l'encodage du dossier de presse au sein du projet collectif
+                  "Apollinaire" réalisé dans le cadre d'un cours de github.</resp>
                <persName>
                   <forename>Doriane</forename>
                   <surname>Hare</surname>
@@ -49,8 +49,8 @@
                            <height unit="mm">12</height>
                         </dimensions>
                         <note>Petite estampille ovale (en hauteur) du département des manuscrits de
-                           la Bibliothèque nationale (aujourd'hui BnF) après
-                           <date when="1870">1870</date></note>
+                           la Bibliothèque nationale (aujourd'hui BnF) après <date when="1870"
+                              >1870</date></note>
                      </stamp></institution>
                   <repository>BnF. Département des Manuscrits.</repository>
                   <altIdentifier>
