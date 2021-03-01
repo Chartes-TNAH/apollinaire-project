@@ -1455,7 +1455,7 @@
                               <del unit="word" quantity="2" rend="strikethrough">Quand moi</del>
                               <add rend="align(below)">Je suis</add>
                            </subst> Guillaume Apollinaire</l>
-                        <l><unclear/> d'un nom slave pour vrai nom</l>
+                        <l><unclear unit="char" quantity="5" reason="illegible"/> d'un nom slave pour vrai nom</l>
                         <l>Ma <del unit="word" quantity="2" rend="strikethrough">est <gap
                                  unit="char" quantity="2" reason="illegible"/></del> vie est triste
                            toute entière</l>
