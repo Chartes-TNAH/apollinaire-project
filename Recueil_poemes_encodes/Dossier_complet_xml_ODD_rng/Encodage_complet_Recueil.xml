@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
 <?xml-model href="out/poeme_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/poeme_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -67,7 +65,7 @@
                   <msItemStruct n="7" xml:lang="fr" xml:id="a_la_sante">
                      <locus>ff. 20-23</locus>
                      <title>A la santé</title>
-                     <note>Manuscrit de premier jet. Au verso, fragments manuscrits de <title>La
+                     <note>Manuscrit de premier jet. Au verso, fragments manuscrits de <title xml:id="la_femme_assise">La
                            Femme assise</title></note>
                   </msItemStruct>
                </msContents>
@@ -1083,7 +1081,7 @@
          </text>
          <text>
             <front>
-               <docTitle>
+               <docTitle ref="#la_femme_assise">
                   <titlePart>La Femme Assise. Fragments.</titlePart>
                </docTitle>
             </front>
@@ -1207,7 +1205,7 @@
          </text>
          <text>
             <front>
-               <docTitle>
+               <docTitle ref="#la_femme_assise">
                   <titlePart>La Femme Assise. Fragments.</titlePart>
                </docTitle>
             </front>
@@ -1336,7 +1334,7 @@
          </text>
          <text>
             <front>
-               <docTitle>
+               <docTitle ref="#la_femme_assise">
                   <titlePart>La Femme Assise. Fragments.</titlePart>
                </docTitle>
             </front>
@@ -1490,7 +1488,7 @@
          </text>
          <text>
             <front>
-               <docTitle>
+               <docTitle ref="#la_femme_assise">
                   <titlePart>La Femme Assise. Fragments.</titlePart>
                </docTitle>
             </front>
