@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="out/poeme_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -17,16 +17,9 @@
             <msDesc>
                <msIdentifier>
                   <country>France</country>
-                  <institution><name>Bibliothèque nationale de France. </name>
-                     <stamp xml:id="estampille_bnf_1870" facs="http://bibale.irht.cnrs.fr/44365">
-                        <mentioned>Biblioth. nationale MSS</mentioned>
-                        <dimensions>
-                           <height unit="mm">12</height>
-                        </dimensions>
-                        <note>Petite estampille ovale (en hauteur) du département des manuscrits de
-                           la Bibliothèque nationale (aujourd'hui BnF) après <date when="1870"
-                              >1870</date></note>
-                     </stamp></institution>
+                  <institution>
+                     
+                  </institution>
                   <repository>BnF. Département des Manuscrits.</repository>
                   <altIdentifier>
                      <idno>NAF 25608</idno>
@@ -74,12 +67,21 @@
                      <locus>ff. 20-23</locus>
                      <title>A la santé</title>
                      <note>Manuscrit de premier jet. Au verso, fragments manuscrits de <title>La
-                        Femme assise</title></note>
+                           Femme assise</title></note>
                   </msItemStruct>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc>
+                        <support><stamp xml:id="estampille_bnf_1870" facs="http://bibale.irht.cnrs.fr/44365">
+                           <mentioned>Biblioth. nationale MSS</mentioned>
+                           <dimensions>
+                              <height unit="mm">12</height>
+                           </dimensions>
+                           <note>Petite estampille ovale (en hauteur) du département des manuscrits de
+                              la Bibliothèque nationale (aujourd'hui BnF) après <date when="1870"
+                                 >1870</date></note>
+                        </stamp></support>
                         <extent>
                            <width unit="mm">250</width>
                            <height unit="mm">220</height>
@@ -114,39 +116,61 @@
                <docTitle ref="#le_pont_mirabeau">
                   <titlePart>Le Pont Mirabeau</titlePart>
                   <titlePart>Manuscrit autographe</titlePart>
-               </docTitle> 
+               </docTitle>
             </front>
             <body>
+               <msDesc>
+                  <msIdentifier>
+                     <repository>Bibliothèque nationale de France</repository>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>1 page</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1">Strophes séparées par un saut de ligne et disposées
+                              sur une seule colonne.</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
                <div type="poeme" corresp="https://gallica.bnf.fr/ark:/12148/bpt6k1083760/f16.item">
                   <div type="page" n="1">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f17.item.r=Manuscrit%20Apollinaire"/>
+                     <p><add rend="align(top-right)">1</add></p>
                      <lg type="tercet" n="1">
-                    <l>Sous le pont Mirabeau coule la Seine</l>
-                    <l>Et nos amours faut-il qu'il m'en souvienne?</l>
-                    <l>La joie venait toujours après la peine.</l>
+                        <l>Sous le pont Mirabeau coule la Seine</l>
+                        <l>Et nos amours faut-il qu'il m'en souvienne?</l>
+                        <l>La joie venait toujours après la peine.</l>
                      </lg>
                      <lg type="distique" n="1">
-                    <l>Vienne la nuit, sonne l'heure,</l>
-                    <l>Les jours s'en vont, je demeure.</l>
-                   </lg>
+                        <l>Vienne la nuit, sonne l'heure,</l>
+                        <l>Les jours s'en vont, je demeure.</l>
+                     </lg>
                      <lg type="tercet" n="1">
-                      <l><del unit="word" quantity="1" rend="strikethrough">Viens</del>Les mains dans les mains, <del unit="word" quantity="1" rend="strikethrough">et</del>restons face à face,</l>
-                      <l>Tandis que sous le pont de nos bras passe</l>
-                      <l>Des éternels regards l'onde si lasse.</l>
+                        <l><del unit="word" quantity="1" rend="strikethrough">Viens</del>Les mains
+                           dans les mains, <del unit="word" quantity="1" rend="strikethrough"
+                              >et</del>restons face à face,</l>
+                        <l>Tandis que sous le pont de nos bras passe</l>
+                        <l>Des éternels regards l'onde si lasse.</l>
                      </lg>
                      <lg type="distique" n="2">
                         <l>Vienne la nuit, sonne l'heure,</l>
                         <l>Les jours s'en vont, je demeure.</l>
                      </lg>
                      <lg type="tercet" n="3">
-                       <l>L'amour s'en <subst><del unit="word" quantity="2" rend="overtyped">est allé</del><add unit="word" quantity="1" rend="overtyped">va</add></subst></l> 
-                       <l>L'amour s'en va; comme la vie est lente</l>
+                        <l>L'amour s'en <subst>
+                              <del unit="word" quantity="2" rend="overtyped">est allé</del>
+                              <add>va</add>
+                           </subst></l>
+                        <l>L'amour s'en va; comme la vie est lente</l>
                         <l>Et comme l'espérance est violente!</l>
                      </lg>
                      <lg type="distique" n="3">
-                      <l>Vienne la nuit, sonne l'heure,</l>
-                      <l>Les jours s'en vont, je demeure.</l>
+                        <l>Vienne la nuit, sonne l'heure,</l>
+                        <l>Les jours s'en vont, je demeure.</l>
                      </lg>
                      <lg type="tercet" n="4">
                         <l>Passent les jours et passent les semaines,</l>
@@ -161,7 +185,7 @@
                </div>
             </body>
          </text>
-                  <text>
+         <text>
             <front>
                <docTitle ref="#la_chanson_du_mal_aime">
                   <titlePart>La Chanson du mal-aimé</titlePart>
@@ -188,8 +212,8 @@
                   <div type="page" n="2">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f21.item.r=ManuscritApollinaire.zoom"/>
-                     <head><add rend="top">La Chanson du Mal-aimé</add></head>
-                     <p><add rend="align(top right)">2</add></p>
+                     <head><add rend="align(top)">La Chanson du Mal-aimé</add></head>
+                     <p><add rend="align(top-right)">2</add></p>
                      <lg type="quintil" n="1">
                         <l>C’était son regard d’inhumaine</l>
                         <l>La cicatrice à son cou nu</l>
@@ -210,8 +234,8 @@
                         <l>Quand il la retrouva plus pâle</l>
                         <l><subst>
                               <del quantity="2" unit="word" rend="strikethrough">De l’amour</del>
-                              <add rend="align(above)"><del quantity="2" unit="word" rend="strikethrough"
-                                    >larmes d'</del></add>
+                              <add rend="align(above)"><del quantity="2" unit="word"
+                                    rend="strikethrough">larmes d'</del></add>
                               <add rend="align(margin)">D'attente et d'amour</add>
                            </subst> yeux pâlis</l>
                         <l>Caressant sa gazelle mâle</l>
@@ -227,7 +251,7 @@
                   <div type="page" n="3">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f23.item.r=ManuscritApollinaire"/>
-                     <p><add rend="align(top right)">3</add></p>
+                     <p><add rend="align(top-right)">3</add></p>
                      <lg type="quintil" n="5">
                         <l><del quantity="6" unit="word" rend="strikethrough">Ma maîtresse aux
                               beautés sans nombre</del></l>
@@ -259,7 +283,7 @@
                   <div type="page" n="4">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f25.item.r=ManuscritApollinaire"/>
-                     <p><add rend="align(top right)">4</add></p>
+                     <p><add rend="align(top-right)">4</add></p>
                      <lg type="quintil" n="7">
                         <figure rend="align(top left)">
                            <figDesc>Grande rature ronde</figDesc>
@@ -269,27 +293,33 @@
                            <del>
                               <gap quantity="3" unit="word" reason="illegible"/>
                            </del> je l’ai perdue</l>
-                        <l><del><unclear unit="char" quantity="2" reason="illegible">Da</unclear></del>ns une forêt
-                                 d’Allema<del><unclear unit="char" quantity="3" reason="illegible">gne</unclear></del></l>
+                        <l><del><unclear unit="char" quantity="2" reason="illegible"
+                              >Da</unclear></del>ns une forêt d’Allema<del><unclear unit="char"
+                                 quantity="3" reason="illegible">gne</unclear></del></l>
                         <l>
                            <del><gap quantity="1" unit="word" reason="illegible"/></del>gît
                            sanglant, le cou <del><gap quantity="1" unit="word" reason="illegible"
                               /></del></l>
-                        <l><unclear unit="char" quantity="1" reason="illegible">D</unclear>errière les sept montagnes</l>
+                        <l><unclear unit="char" quantity="1" reason="illegible">D</unclear>errière
+                           les sept montagnes</l>
                         <figure rend="align(left)">
                            <figDesc>Points alignés horizontalement</figDesc>
                         </figure>
                      </lg>
                      <lg type="quintil" n="8">
-                        <l><del><unclear unit="char" quantity="1" reason="illegible">V</unclear></del>ous qui aimez, vous n’avez</l>
+                        <l><del><unclear unit="char" quantity="1" reason="illegible"
+                              >V</unclear></del>ous qui aimez, vous n’avez</l>
                         <l><subst>
                               <del quantity="6" unit="word" rend="overtyped">Connu d’Amour de cette
-                                    sor<unclear unit="char" quantity="2" reason="illegible">te</unclear></del>
-                              <add> vu, couché dans les feuilles m<unclear unit="char" quantity="4" reason="illegible">ortes</unclear></add>
+                                    sor<unclear unit="char" quantity="2" reason="illegible"
+                                    >te</unclear></del>
+                              <add> vu, couché dans les feuilles m<unclear unit="char" quantity="4"
+                                    reason="illegible">ortes</unclear></add>
                            </subst></l>
                         <l><subst>
                               <del quantity="4" unit="word" rend="overtyped">D’Amour aime jusqu’au
-                                    t<unclear unit="char" quantity="4" reason="illegible">répas</unclear></del>
+                                    t<unclear unit="char" quantity="4" reason="illegible"
+                                    >répas</unclear></del>
                               <add>Mon <del quantity="1" unit="word" rend="strikethrough"
                                     >pauvre</del> Amour après son trépas</add>
                            </subst></l>
@@ -297,8 +327,10 @@
                            <del><gap quantity="1" unit="word" reason="illegible"/></del> coeurs
                            bougent <del><gap quantity="1" unit="word" reason="illegible"/></del>
                            portes,</l>
-                        <l> Vous n’aimez p<unclear unit="char" quantity="1" reason="illegible">a</unclear>s, vou<unclear unit="char" quantity="1" reason="illegible">s</unclear>
-                              n'<unclear unit="char" quantity="3" reason="illegible">aim</unclear>ez pas…</l>
+                        <l> Vous n’aimez p<unclear unit="char" quantity="1" reason="illegible"
+                              >a</unclear>s, vou<unclear unit="char" quantity="1" reason="illegible"
+                              >s</unclear> n'<unclear unit="char" quantity="3" reason="illegible"
+                              >aim</unclear>ez pas…</l>
                      </lg>
                      <lg type="septain" n="1">
                         <l>Voie lactée ô sœur lumineuse</l>
@@ -316,7 +348,7 @@
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f29.item.r=ManuscritApollinaire"/>
                      <head>Aubade chantée à Laetare, un an passé</head>
-                     <p><add rend="align(top right)">5</add></p>
+                     <p><add rend="align(top-right)">5</add></p>
                      <lg type="quintil" n="9">
                         <l>C’est le printemps, viens-t’en Pâquette,</l>
                         <l>Te promener au bois joli.</l>
@@ -342,7 +374,7 @@
                   <div type="page" n="6">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f31.item.r=ManuscritApollinaire"/>
-                     <p><add rend="align(top right)">6</add></p>
+                     <p><add rend="align(top-right)">6</add></p>
                      <lg type="quintil" n="12">
                         <l>Beaucoup de ces dieux ont péri,</l>
                         <l>C’est sur eux que pleurent les saules ;</l>
@@ -378,7 +410,7 @@
                   <div type="page" n="7">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f33.item.r=ManuscritApollinaire.zoom"/>
-                     <p><add rend="align(top right)">7</add></p>
+                     <p><add rend="align(top-right)">7</add></p>
                      <lg type="quintil" n="20">
                         <l>"Portez comme un joug le Croissant</l>
                         <l>"Q<subst>
@@ -408,7 +440,7 @@
                   <div type="page" n="8">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f35.item.r=ManuscritApollinaire.zoom"/>
-                     <p><add rend="align(top right)">8</add></p>
+                     <p><add rend="align(top-right)">8</add></p>
                      <lg type="quintil" n="23">
                         <l><subst>
                               <del quantity="1" unit="line" rend="strikethrough">Voie lactée ô sœur
@@ -445,7 +477,7 @@
                   <div type="page" n="9">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f37.item.r=ManuscritApollinaire"/>
-                     <p><add rend="align(top right)">9</add></p>
+                     <p><add rend="align(top-right)">9</add></p>
                      <lg type="quintil" n="27">
                         <l>Mon cœur et ma tête se vident,</l>
                         <l>Tout le ciel s’écoule par eux ;</l>
@@ -460,7 +492,7 @@
                         <l>Mon île au loin, ma Désirade</l>
                         <l><subst>
                               <del quantity="1" unit="word" rend="overtyped">Mon</del>
-				<add>Ma</add>
+                              <add>Ma</add>
                            </subst> rose, mon giroflier…</l>
                      </lg>
                      <lg type="quintil" n="29">
@@ -483,7 +515,7 @@
                   <div type="page" n="10">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f39.item.r=ManuscritApollinaire"/>
-                     <p><add rend="top">10</add></p>
+                     <p><add rend="align(top)">10</add></p>
                      <lg type="quintil" n="31">
                         <l>Malheur ! Dieu pâle, aux yeux d’ivoire</l>
                         <l>Tes prêtres fous t’ont-ils paré ?</l>
@@ -506,7 +538,7 @@
                         <l>Je t’ai menée souviens-t-en bien,</l>
                         <l>Ténébreuse épouse <subst>
                               <del quantity="2" unit="word" rend="strikethrough">que j'aime</del>
-                              <add rend="align(above)"></add>
+                              <add rend="align(above)"/>
                            </subst></l>
                         <l>Tu es à moi en n’étant rien</l>
                         <l>Ô mon ombre, en deuil de moi-même…</l>
@@ -615,7 +647,7 @@
                         <l>Quel chevalier es-tu là bas ?</l>
                         <l><subst>
                               <del><gap quantity="1" unit="word" reason="illegible"/></del>
-                           <add rend="align(above)"><del rend="overtyped"><gap quantity="1"
+                              <add rend="align(above)"><del rend="overtyped"><gap quantity="1"
                                        unit="word" reason="illegible"/></del></add>
                               <add>Sultan</add>
                            </subst> de Turcs puants qui manges</l>
@@ -633,19 +665,22 @@
                         <l><del quantity="3" unit="word" rend="strikethrough">Ne réponds
                            rien</del></l>
                      </lg>
-                     <lg type="sizain" n="1"><l>Poisson <subst>
-                           <del rend="overtyped"><gap quantity="1" unit="word" reason="illegible"
-                              /></del>
-                           <add>pourri</add>
-                        </subst> de Salonique,</l>
-                     <l>Gemmes de cabochons affreux</l>
-                     <l>Des yeux creuvés à coup de piques</l>
-                     <l>Ta <subst>
-                           <del quantity="2" unit="char" rend="overtyped">fi</del>
-                           <add>pourri</add>
-                        </subst> fit un pet foireux</l>
-                     <l>Et tu naquis de sa colique</l>
-                     <l><del quantity="3" unit="word" rend="strikethrough">Ne réponds rien</del></l></lg>
+                     <lg type="sizain" n="1">
+                        <l>Poisson <subst>
+                              <del rend="overtyped"><gap quantity="1" unit="word" reason="illegible"
+                                 /></del>
+                              <add>pourri</add>
+                           </subst> de Salonique,</l>
+                        <l>Gemmes de cabochons affreux</l>
+                        <l>Des yeux creuvés à coup de piques</l>
+                        <l>Ta <subst>
+                              <del quantity="2" unit="char" rend="overtyped">fi</del>
+                              <add>pourri</add>
+                           </subst> fit un pet foireux</l>
+                        <l>Et tu naquis de sa colique</l>
+                        <l><del quantity="3" unit="word" rend="strikethrough">Ne réponds
+                           rien</del></l>
+                     </lg>
                      <lg type="quintil" n="43">
                         <l>Bourreau de l’Arménie, amant</l>
                         <l>De femmes que des soldats fourent</l>
@@ -744,7 +779,7 @@
                   </div>
                </div>
             </body>
-         </text>        
+         </text>
          <text>
             <front>
                <docTitle ref="#mai">
@@ -773,8 +808,8 @@
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f55.item.r=Manuscrit%20Apollinaire"/>
                      <head>Mai<figure rend="align(top)">
-                        <figDesc>Bulle indiquant "Le titre en caratères gras"</figDesc>
-                     </figure></head>
+                           <figDesc>Bulle indiquant "Le titre en caratères gras"</figDesc>
+                        </figure></head>
                      <p><add rend="align(top)">16</add></p>
                      <p><add rend="align(top)">1805</add></p>
                      <lg n="1" type="quatrain">
@@ -810,6 +845,8 @@
             <front>
                <docTitle ref="#les_cloches">
                   <titlePart>Les Cloches</titlePart>
+                  <titlePart>Oberpleis, mai 1902</titlePart>
+                  <titlePart>Guillaume Apollinaire</titlePart>
                </docTitle>
             </front>
             <body>
@@ -834,7 +871,8 @@
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f59.item.r=Manuscrit%20Apollinaire"/>
                      <head rend="highlighted">Les cloches<add unit="word" quantity="5"
-                        rend="surrounded">ce titre en caractères gras</add></head>
+                           rend="surrounded">ce titre en caractères gras</add></head>
+                     <p><add rend="align(top)">17</add></p>
                      <lg type="quatrain" n="1">
                         <l>Un beau tsigane, mon amant,</l>
                         <l>Ecoute les cloches qui sonnent.</l>
@@ -861,9 +899,6 @@
                         <l>Tu seras loin. Je pleurerai</l>
                         <l>Et même, j'en mourrai peut-être.</l>
                      </lg>
-                     <p><placeName>Oberpleis</placeName>, <date>mai 1902</date></p>
-                     <p rend="surrounded"><persName>Guillaume Apollinaire</persName></p>
-                     <p rend="surrounded">Faire suivre la pièce suivante</p>
                   </div>
                </div>
             </body>
@@ -895,6 +930,7 @@
                   <div type="page" n="18">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f65.item.r=Manuscrit%20Apollinaire"/>
+                     <p><add rend="align(top)">18</add></p>
                      <lg type="quintil" n="1">
                         <l>La dame avait une robe</l>
                         <l>En ottoman violine</l>
@@ -913,7 +949,7 @@
                         <l> Elle était décolletée en rond</l>
                         <l>Et coiffée à la Récamier</l>
                         <l>Avec de beaux bras nus.</l>
-                        <l><delSpan spanTo="#l7" quantity="4" unit="lines"/>Pareils au col
+                        <l><delSpan spanTo="#l7" quantity="4" unit="line"/>Pareils au col
                            candide</l>
                         <l>De l’amant divin et ailé</l>
                         <l>De cette Léda solitaire</l>
@@ -921,20 +957,22 @@
                      </lg>
                      <lg type="monostiche" n="1">
                         <l> - N’entendra-t-on jamais sonner minuit <del><gap quantity="1"
-                           unit="word" reason="illegible"/></del></l>
+                                 unit="word" reason="illegible"/></del></l>
                      </lg>
                      <lg type="quatrain" n="1">
                         <l>La dame en robe d’ottoman violine</l>
                         <l>Et en tunique brodée d’or</l>
                         <l> Décolletée en rond</l>
                         <l><subst>
-                           <add>Promène</add>
-                           <del>promenait</del>
-                        </subst> ses boucles</l>
+                              <del unit="word" quantity="1" rend="overtyped">promenait</del>
+                              <add>Promène</add>                              
+                           </subst> ses boucles</l>
                      </lg>
+                  </div>
                      <div type="page" n="19">
                         <pb type="recto"
                            facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f65.item.r=Manuscrit%20Apollinaire"/>
+                        <p><add rend="align(top)">19</add></p>
                         <lg type="quatrain" n="2">
                            <l>Son bandeau d’or</l>
                            <l>Et traînant ses petits souliers à boucles</l>
@@ -951,12 +989,11 @@
                         <lg type="distique" n="1">
                            <l>Cette femme était si belle</l>
                            <l><del unit="word" quantity="8" rend="strikethrough">Que je n’aurais pas
-                              osé l’aimer</del></l>
+                                 osé l’aimer</del></l>
                            <l>qu’elle me faisait peur.</l>
                         </lg>
                      </div>
                   </div>
-               </div>
             </body>
          </text>
          <text>
@@ -988,6 +1025,7 @@
                   <div type="page" n="20">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f69.item.r=Manuscrit%20Apollinaire"/>
+                     <p><add rend="align(top-right)">20</add></p>
                      <lg type="huitain" n="1">
                         <delSpan spanTo="#p_20a" unit="line" quantity="11" rend="strikethrough"/>
                         <l>Cette cellule</l>
@@ -1034,7 +1072,7 @@
                         <l>Vienne la nuit, sonne l'heure</l>
                         <l>Les jours s'en vont, je demeure</l>
                         <anchor xml:id="p_20d"/>
-                        <figure rend="(align)margin-left">
+                        <figure rend="align(margin left)">
                            <figDesc>Dessin d'un arbre</figDesc>
                         </figure>
                      </lg>
@@ -1105,10 +1143,27 @@
                </docTitle>
             </front>
             <body>
+               <msDesc>
+                  <msIdentifier>
+                     <repository>Bibliothèque nationale de France</repository>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>1 page</extent>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout columns="1">Vers écrits sur une seule
+                              colonne.</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
                <div type="poeme" corresp="https://gallica.bnf.fr/ark:/12148/bpt6k1083760/f150.item">
                   <div type="page" n="21">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f71.item.r=Manuscrit%20Apollinaire"/>
+                     <p><add rend="align(top-right)">21</add></p>
                      <lg type="huitain" n="2">
                         <delSpan spanTo="#p_21a" unit="line" quantity="10" rend="strikethrough"/>
                         <l><del unit="word" quantity="1" rend="strikethrough">Voila</del></l>
@@ -1208,9 +1263,9 @@
                   <div type="page" n="22">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f73.item.r=Manuscrit%20Apollinaire"/>
-                     <p><add rend="top">22</add></p>
-                     <delSpan spanTo="#p_22" unit="line" quantity="28" rend="strikethrough"/>
-                     <lg type="huitin" n="3">
+                     <p><add rend="align(top)">22</add></p>          
+                     <lg type="huitain" n="3">
+                        <delSpan spanTo="#p_22" unit="line" quantity="28" rend="strikethrough"/>
                         <l>Que je m'ennuie entre ces quatre murs tous nus</l>
                         <l><del unit="word" quantity="3" rend="strikethrough">Où se mêlent</del> Et
                            peints de couleurs pâles</l>
@@ -1256,12 +1311,10 @@
                            <figDesc>9 7bre</figDesc>
                         </figure>
                         <l>Et ce désespoir qui la gagne</l>
+                        <figure rend="align(center)">
+                           <figDesc>Ligne horizontale sur toute la page</figDesc>
+                        </figure>
                      </lg>
-
-                     <figure rend="align(center)">
-                        <figDesc>Ligne horizontale sur toute la page</figDesc>
-                     </figure>
-
                      <lg type="quatrain" n="2">
                         <l>Je viens de recevoir des lettres</l>
                         <l>Vous ne m'abandonnez donc pas</l>
@@ -1275,11 +1328,11 @@
                         <l><subst>
                               <del unit="line" quantity="1" rend="strikethrough">et bien plus
                                  fermement:barré)</del>
-                              <add rend="below">Seigneur ! Agrées mes louanges</add>
+                              <add rend="align(below)">Seigneur ! Agrées mes louanges</add>
                            </subst></l>
                         <l>Je crois en vous, je crois, je crois.</l>
+                        <anchor xml:id="p_22"/>
                      </lg>
-                     <anchor xml:id="p_22"/>
                   </div>
                </div>
             </body>
@@ -1295,7 +1348,8 @@
                   <div type="page" n="22">
                      <pb type="verso"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f74.item.r=Manuscrit%20Apollinaire"/>
-                     <p><add rend="top">66</add></p>
+                     <p><add rend="align(top-right)">66</add></p>
+                     <p><add rend="align(top-right)">22</add></p>
                      <p>
                         <del unit="word" quantity="1" rend="strikethrough">et</del> Cette
                         constitution patriarcale convien drait parfaitement <subst>
@@ -1341,9 +1395,9 @@
                   <div type="page" n="23">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f73.item.r=Manuscrit%20Apollinaire"/>
-                     <p><add rend="top">23</add></p>
-                     <delSpan spanTo="#p_23" unit="line" quantity="28" rend="strikethrough"/>
-                     <lg>
+                     <p><add rend="align(top)">23</add></p>
+                     <lg type="quatrain" n="3">
+                        <delSpan spanTo="#p_23" unit="line" quantity="28" rend="strikethrough"/>
                         <l><subst>
                               <del unit="line" quantity="1" rend="strikethrough">Vierge plus douce
                                  que le sucre</del>
@@ -1362,12 +1416,10 @@
                         </figure>
                         <l><del unit="word" quantity="1" rend="strikethrough"/>, mes pauvres
                            prières</l>
+                        <figure rend="align(center)">
+                           <figDesc>Ligne horizontale sur toute la page</figDesc>
+                        </figure>
                      </lg>
-
-                     <figure rend="align(center)">
-                        <figDesc>Ligne horizontale sur toute la page</figDesc>
-                     </figure>
-
                      <lg type="quatrain" rend="align(left)" n="4">
                         <l>Pauvre maman</l>
                         <l>Mon pauvre frère</l>
@@ -1392,15 +1444,13 @@
                         <l>O mes amis</l>
                         <l>Priez pour moi</l>
                         <l>Priez pour moi</l>
+                        <figure rend="align(margin)">
+                           <figDesc>9 7 (nbre) souligné</figDesc>
+                        </figure>
+                        <figure rend="align(center)">
+                           <figDesc>Ligne horizontale sur toute la page</figDesc>
+                        </figure>
                      </lg>
-                     <figure rend="align(margin)">
-                        <figDesc>9 7 (nbre) souligné</figDesc>
-                     </figure>
-
-                     <figure rend="align(center)">
-                        <figDesc>Ligne horizontale sur toute la page</figDesc>
-                     </figure>
-
                      <lg type="quintil" n="2">
                         <l><subst>
                               <del unit="word" quantity="2" rend="strikethrough">Quand moi</del>
@@ -1414,17 +1464,17 @@
                         <l><gap unit="word" quantity="1" reason="illegible"/>je dis une prière.</l>
                      </lg>
 
-                     <lg type="10" n="1">
+                     <lg type="dizain" n="1">
                         <l>A la prison de la Santé</l>
                         <l>J'habite une pauvre cellule</l>
                         <l>Nous sommes encore en été :</l>
                         <l>Une chaleur de canicule</l>
                         <l>Un prisonnier bien embêté</l>
-                        <l>que lentement <add rend="above">passent</add> les heures,</l>
+                        <l>que lentement <add rend="align(above)">passent</add> les heures,</l>
                         <l><subst>
-                              <del unit="line" quantity="1" rend="strikethrough">Et toutes les
+                           <del unit="line" quantity="1" rend="overtyped">Et toutes les
                                  heu</del>
-                              <add rend="overtyped">comme passe un enterrement <del unit="char"
+                              <add>comme passe un enterrement <del unit="char"
                                     quantity="1" rend="strikethrough">!</del> !</add>
                            </subst></l>
                         <l>Tu pleureras l'heure où tu pleures</l>
@@ -1434,8 +1484,8 @@
                                  tu ne meures</del>
                               <add rend="align(below)">comme passent toutes les heures</add>
                            </subst></l>
+                        <anchor xml:id="p_23"/>
                      </lg>
-                     <anchor xml:id="p_23"/>
                   </div>
                </div>
             </body>
@@ -1451,35 +1501,35 @@
                   <div type="page" n="23">
                      <pb type="verso"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f76.item.r=Manuscrit%20Apollinaire"/>
-                     <p><subst><add rend="top">65</add><del rend="strikethrough">45</del></subst></p>
-                     <p>Et j'ai été bien souvent charmé par les
-                        vérités que les préfets catholiques s'efforcent
-                        de propager avec un courage et une
-                        bonne foi inexprimables. [De mêmes les
-                        femmes : elles sont ici excellentes comme
-                        <add rend="align(margin)">santé</add><add rend="align(below)">travail</add> courage, grâce, goût, bon sens <add rend="align(below)">et bonne humeur,</add> et celles
-                        que s'écartent de cette retenue qui convient
-                        au beau sexe y sont plutôt amenées par
-                        les vices des institutions <subst><del unit="word" quantity="3" rend="strikethrough">nulle part, la</del><add rend="overtyped">que par leurs propres</add></subst>
-                        <add rend="align(margin">penchants.[nulle part, la</add> polygammie ne serait peut-être aussi
-                        utile<del unit="char" quantity="1" rend="strikethrough">s</del> qu'ici où l'on a complètement
-                        perdu la notion du mariage. La liberté
-                        dans l'amour apparaît comme un droit
-                        incontestable à beaucoup de socialistes
-                        et la polyandrie est admise par Fourier
-                        même et dans le mariage et aussi
-                        dans le célibat par l'institution émi
-                        nemment immorale du bayadérisme
-                        [La polygamie est la santé pour l'homme
-                        et pour la femme, elle supprime la
-                        prostitution <del unit="char" quantity="3" rend="strikethrough">et l</del> les malheurs et
-                        les maladies qu'elle entraine, elle augmente
-                        la majesté de l'homme, en satisfaisant
-                        son goût innée pour la domination.</p>
+                     <p><subst>
+                           <add rend="align(top)">65</add>
+                           <del rend="strikethrough">45</del>
+                        </subst></p>
+                     <p>Et j'ai été bien souvent charmé par les vérités que les préfets catholiques
+                        s'efforcent de propager avec un courage et une bonne foi inexprimables. [De
+                        mêmes les femmes : elles sont ici excellentes comme <add
+                           rend="align(margin)">santé</add><add rend="align(below)">travail</add>
+                        courage, grâce, goût, bon sens <add rend="align(below)">et bonne
+                           humeur,</add> et celles que s'écartent de cette retenue qui convient au
+                        beau sexe y sont plutôt amenées par les vices des institutions <subst>
+                           <del unit="word" quantity="3" rend="strikethrough">nulle part, la</del>
+                           <add rend="overtyped">que par leurs propres</add>
+                        </subst>
+                        <add rend="align(margin)">penchants.[nulle part, la</add> polygammie ne
+                        serait peut-être aussi utile<del unit="char" quantity="1"
+                           rend="strikethrough">s</del> qu'ici où l'on a complètement perdu la
+                        notion du mariage. La liberté dans l'amour apparaît comme un droit
+                        incontestable à beaucoup de socialistes et la polyandrie est admise par
+                        Fourier même et dans le mariage et aussi dans le célibat par l'institution
+                        émi nemment immorale du bayadérisme [La polygamie est la santé pour l'homme
+                        et pour la femme, elle supprime la prostitution <del unit="char"
+                           quantity="3" rend="strikethrough">et l</del> les malheurs et les maladies
+                        qu'elle entraine, elle augmente la majesté de l'homme, en satisfaisant son
+                        goût innée pour la domination.</p>
                   </div>
                </div>
             </body>
-         </text>         
+         </text>
       </group>
    </text>
 </TEI>
