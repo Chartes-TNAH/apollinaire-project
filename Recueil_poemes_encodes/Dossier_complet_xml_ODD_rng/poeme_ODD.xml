@@ -420,6 +420,7 @@
                         <valItem ident="align(below)"/>
                         <valItem ident="surrounded"/>
                         <valItem ident="overtyped"/>
+                        <valItem ident="highlighted"/>
                      </valList>
                         </attDef>
                         <attDef ident="type" mode="delete"/>
@@ -469,8 +470,6 @@
                         <attDef ident="agent" mode="delete"/>
                         <attDef ident="corresp" mode="delete"/>
                         <attDef ident="facs" mode="delete"/>
-                        <attDef ident="unit" mode="delete"/>
-                        <attDef ident="quantity" mode="delete"/>
                     </attList>
                 </elementSpec>
                 <elementSpec ident="name" mode="change">
@@ -828,10 +827,10 @@
                      </sequence>
                   </alternate>
                </content>
-                    <constraintSpec scheme="schematron" ident="divtypecorresp">
+                    <constraintSpec scheme="schematron" ident="typepoemeprose">
                         <constraint>
                             <s:rule context="tei:body/tei:div">
-                                <s:assert test="@type='poeme' and @corresp"> La première division doit être composée d'un attribut type de valeur poème et d'un attribut corresp associant le poème manuscrit à sa version éditée
+                                <s:assert test="@type='poeme' or @type='prose'"> La première division doit être composée d'un attribut type de valeur poème ou de valeur prose
                                 </s:assert>
                             </s:rule>
                         </constraint>
@@ -841,6 +840,13 @@
                             <s:rule context="tei:div/tei:div">
                                 <s:assert test="@type='page' and @n"> La première division doit être composée d'un attribut type de valeur page et d'un attribut n 
                                 </s:assert>
+                            </s:rule>
+                        </constraint>
+                    </constraintSpec>
+                    <constraintSpec scheme="schematron" ident="divcorresp">
+                        <constraint>
+                            <s:rule context="tei:body/tei:div[@type='poeme']">
+                                <s:assert test="@corresp">Une division ayant poeme comme valeur de l'attribut type doit également avoir un attribut corresp liant le poème à sa version éditée</s:assert>
                             </s:rule>
                         </constraint>
                     </constraintSpec>
