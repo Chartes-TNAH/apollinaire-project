@@ -671,7 +671,7 @@
                         <l>Poisson <subst>
                               <del rend="overtyped"><gap quantity="1" unit="word" reason="illegible"
                                  /></del>
-                              <add>pourri</add>
+                           <add quantity="1" unit="word" rend="overtyped">pourri</add>
                            </subst> de Salonique,</l>
                         <l>Gemmes de cabochons affreux</l>
                         <l>Des yeux creuvés à coup de piques</l>
