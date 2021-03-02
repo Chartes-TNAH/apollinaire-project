@@ -385,8 +385,8 @@
                                 <valItem ident="line"/>
                             </valList>
                         </attDef>                        
-                        <attDef ident="reason" mode="change">
-                            <valList mode="add" type="closed">
+                        <attDef ident="reason" mode="change" usage="req">
+                            <valList mode="add" type="closed" >
                                 <valItem ident="illegible"/>
                                 <valItem ident="deleted"/>
                             </valList>
@@ -405,7 +405,7 @@
                                 <valItem ident="unremarkable"/>
                             </valList>
                         </attDef>
-                        <attDef ident="rend" mode="change">
+                        <attDef ident="rend" mode="change" usage="req">
                             <valList mode="add" type="closed">
                         <valItem ident="align(above)"/>
                         <valItem ident="align(beside)"/>
