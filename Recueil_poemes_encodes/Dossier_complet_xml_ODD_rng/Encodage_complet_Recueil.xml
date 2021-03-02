@@ -165,7 +165,7 @@
                      <lg type="tercet" n="3">
                         <l>L'amour s'en <subst>
                               <del unit="word" quantity="2" rend="overtyped">est allé</del>
-                              <add>va</add>
+                              <add unit="word" quantity="1" rend="overtyped">va</add>
                            </subst></l>
                         <l>L'amour s'en va; comme la vie est lente</l>
                         <l>Et comme l'espérance est violente!</l>
@@ -315,15 +315,17 @@
                               <del quantity="6" unit="word" rend="overtyped">Connu d’Amour de cette
                                     sor<unclear unit="char" quantity="2" reason="illegible"
                                     >te</unclear></del>
-                              <add> vu, couché dans les feuilles m<unclear unit="char" quantity="4"
-                                    reason="illegible">ortes</unclear></add>
+                              <add quantity="5" unit="word" rend="overtyped"> vu, couché dans les
+                                 feuilles m<unclear unit="char" quantity="4" reason="illegible"
+                                    >ortes</unclear></add>
                            </subst></l>
                         <l><subst>
                               <del quantity="4" unit="word" rend="overtyped">D’Amour aime jusqu’au
                                     t<unclear unit="char" quantity="4" reason="illegible"
                                     >répas</unclear></del>
-                              <add>Mon <del quantity="1" unit="word" rend="strikethrough"
-                                    >pauvre</del> Amour après son trépas</add>
+                              <add quantity="6" unit="word" rend="align(below)">Mon <del
+                                    quantity="1" unit="word" rend="strikethrough">pauvre</del> Amour
+                                 après son trépas</add>
                            </subst></l>
                         <l>
                            <del><gap quantity="1" unit="word" reason="illegible"/></del> coeurs
@@ -388,7 +390,7 @@
                         <l>Moi, qui sais des lais pour les reines,</l>
                         <l><subst>
                               <del quantity="1" unit="char" rend="overtyped">D</del>
-                              <add>L</add>
+                              <add quantity="1" unit="char" rend="overtyped">L</add>
                            </subst>es complaintes de mes années,</l>
                         <l>Des hymnes d’esclave aux murènes,</l>
                         <l>La romance du mal-aimé</l>
@@ -494,7 +496,7 @@
                         <l>Mon île au loin, ma Désirade</l>
                         <l><subst>
                               <del quantity="1" unit="word" rend="overtyped">Mon</del>
-                              <add>Ma</add>
+                              <add quantity="1" unit="word" rend="overtyped">Ma</add>
                            </subst> rose, mon giroflier…</l>
                      </lg>
                      <lg type="quintil" n="29">
@@ -528,7 +530,7 @@
                      <lg type="quintil" n="32">
                         <l>Et toi qui me suis en rampan<subst>
                               <del quantity="1" unit="char" rend="overtyped">s</del>
-                              <add>t</add>
+                              <add quantity="1" unit="char" rend="overtyped">t</add>
                            </subst></l>
                         <l>Dieu de mes dieux morts en automne</l>
                         <l>Tu mesures combien d’empans</l>
@@ -649,9 +651,10 @@
                         <l>Quel chevalier es-tu là bas ?</l>
                         <l><subst>
                               <del><gap quantity="1" unit="word" reason="illegible"/></del>
-                              <add rend="align(above)"><del rend="overtyped"><gap quantity="1"
-                                       unit="word" reason="illegible"/></del></add>
-                              <add>Sultan</add>
+                              <add quantity="1" unit="word" rend="align(above)"><del
+                                    rend="overtyped"><gap quantity="1" unit="word"
+                                       reason="illegible"/></del></add>
+                              <add quantity="1" unit="word" rend="overtyped">Sultan</add>
                            </subst> de Turcs puants qui manges</l>
                         <l>Ce que Satan chie aux sabbats</l>
                      </lg>
@@ -671,7 +674,7 @@
                         <l>Poisson <subst>
                               <del rend="overtyped"><gap quantity="1" unit="word" reason="illegible"
                                  /></del>
-                           <add quantity="1" unit="word" rend="overtyped">pourri</add>
+                              <add quantity="1" unit="word" rend="overtyped">pourri</add>
                            </subst> de Salonique,</l>
                         <l>Gemmes de cabochons affreux</l>
                         <l>Des yeux creuvés à coup de piques</l>
@@ -691,7 +694,7 @@
                         <l>Tes richesses garde<del rend="strikethrough">nt</del> les toutes</l>
                         <l>Pour payer <subst>
                               <del quantity="1" unit="char" rend="overtyped">d</del>
-                              <add>t</add>
+                              <add quantity="1" unit="char" rend="overtyped">t</add>
                            </subst>es médicaments.</l>
                      </lg>
                      <lg type="tercet" n="2">
