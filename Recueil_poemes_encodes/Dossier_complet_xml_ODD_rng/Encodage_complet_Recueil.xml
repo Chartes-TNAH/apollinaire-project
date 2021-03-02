@@ -970,7 +970,7 @@
                         <l> Décolletée en rond</l>
                         <l><subst>
                               <del unit="word" quantity="1" rend="overtyped">promenait</del>
-                              <add>Promène</add>
+                              <add unit="word" quantity="1" rend="overtyped">Promène</add>
                            </subst> ses boucles</l>
                      </lg>
                   </div>
@@ -1276,7 +1276,8 @@
                         <l><subst>
                               <del unit="line" quantity="1" rend="strikethrough">Une mouche sur mon
                                  papier à pas menus</del>
-                              <add>Une mouche sur le papier à pas menus</add>
+                              <add unit="line" quantity="1" rend="align(below)">Une mouche sur le
+                                 papier à pas menus</add>
                            </subst></l>
                         <l>Parcourt mes lignes inégales.</l>
                         <l><subst>
@@ -1286,7 +1287,8 @@
                                  couloirs</del>
                               <del unit="line" quantity="1" rend="strikethrough">Cette chaise
                                  illisible où je m'assieds</del>
-                              <add>Que deviendrai-je ? ô Dieu qui connais ma douleur</add>
+                              <add unit="line" quantity="1" rend="align(below)">Que deviendrai-je ?
+                                 ô Dieu qui connais ma douleur</add>
                            </subst></l>
                         <figure rend="align(margin)">
                            <figDesc>8 A la santé Alcools 181</figDesc>
@@ -1391,10 +1393,10 @@
                </docTitle>
             </front>
             <body>
-               <div type="poeme" corresp="http://gallica.bnf.fr/ark:/12148/bpt6k1co083760/f150.item">
+               <div type="poeme" corresp="http://gallica.bnf.fr/ark:/12148/bpt6k1co083760/f75.item">
                   <div type="page" n="23">
                      <pb type="recto"
-                        facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f73.item.r=Manuscrit%20Apollinaire"/>
+                        facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f75.item.r=Manuscrit%20Apollinaire"/>
                      <p><add rend="align(top)">23</add></p>
                      <lg type="quatrain" n="3">
                         <delSpan spanTo="#p_23a" unit="line" quantity="28" rend="strikethrough"/>
@@ -1472,8 +1474,9 @@
                         <l>que lentement <add rend="align(above)">passent</add> les heures,</l>
                         <l><subst>
                               <del unit="line" quantity="1" rend="overtyped">Et toutes les heu</del>
-                              <add>comme passe un enterrement <del unit="char" quantity="1"
-                                    rend="strikethrough">!</del> !</add>
+                              <add unit="line" quantity="1" rend="align(below)">comme passe un
+                                 enterrement <del unit="char" quantity="1" rend="strikethrough"
+                                    >!</del> !</add>
                            </subst></l>
                         <l>Tu pleureras l'heure où tu pleures</l>
                         <l>qui passera trop vitement</l>
