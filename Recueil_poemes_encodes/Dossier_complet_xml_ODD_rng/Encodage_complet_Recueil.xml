@@ -1233,7 +1233,7 @@
                            rend="strikethrough">pen</del> arrivaient en courant, rythmant leur pas
                         et le<del unit="char" quantity="2">ur</del> bruit cadencé que faisaient
                         leurs pieds, s'approchait <del>sourd et</del><gap unit="word" quantity="1"
-                           rend="strikethrough"/>
+                           rend="strikethrough" reason="deleted"/>
                         <add unit="word" quantity="3" rend="align(margin)">sinistre comme
                            une</add><add unit="word" quantity="2" rend="align(above)">danse
                            macabre</add> L'ange Paméla ne s'en souciait pas. <del unit="word"
@@ -1243,8 +1243,8 @@
                         destiné dans ma bouche à glorifier <add unit="word" quantity="1"
                            rend="align(margin)">légitimement</add> nos Etats-Unis devait paraître
                         (elle était là une plaisanterie mortuaire que je trouvai excellente) <gap
-                           unit="word" quantity="1" rend="strikethrough"/> aux soldats <del
-                           unit="word" quantity="2" rend="strikethrough">qui voulai</del>
+                           unit="word" quantity="1" rend="strikethrough" reason="deleted"/> aux
+                        soldats <del unit="word" quantity="2" rend="strikethrough">qui voulai</del>
                         <add unit="word" quantity="1" rend="align(margin)">qui</add> allaient
                         devenir mes bourreaux, une <gap unit="word" quantity="1" reason="deleted"/>
                         apologie <add unit="word" quantity="2" rend="highlighted">in
