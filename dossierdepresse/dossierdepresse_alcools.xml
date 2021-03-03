@@ -3,19 +3,119 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Répertoire alphabétique utilisé pour confectionner le dossier de presse de
+               l'Hérésiarque, Alcools, l'Enfer de la Bibliothèque nationale et Le Manifeste de
+               l'Antitradition futuriste.</title>
+            <author ref="https://data.bnf.fr/11888978/guillaume_apollinaire/">
+               <forename>Guillaume</forename>
+               <surname>Apollinaire</surname>
+            </author>
+            <respStmt>
+               <resp>Responsables de l'encodage du dossier de presse au sein du projet collectif
+                  "Apollinaire" réalisé dans le cadre d'un cours de github.</resp>
+               <persName>
+                  <forename>Doriane</forename>
+                  <surname>Hare</surname>
+               </persName>
+               <persName>
+                  <forename>Hugo</forename>
+                  <surname>Scheithauer</surname>
+               </persName>
+               <persName>
+                  <forename>Axelle</forename>
+                  <surname>Lecroq</surname>
+               </persName>
+               <persName>
+                  <forename>Léa</forename>
+                  <surname>Perissier</surname>
+               </persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>Les documents (coupures de presse et correspondances) ont été collés sur les pages
+               par les soins d'Apollinaire.</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <institution><name>Bibliothèque nationale de France. </name>
+                     <stamp xml:id="estampille_bnf_1870" facs="http://bibale.irht.cnrs.fr/44365">
+                        <mentioned>Biblioth. nationale MSS</mentioned>
+                        <dimensions>
+                           <height unit="mm">12</height>
+                        </dimensions>
+                        <note>Petite estampille ovale (en hauteur) du département des manuscrits de
+                           la Bibliothèque nationale (aujourd'hui BnF) après <date when="1870"
+                              >1870</date></note>
+                     </stamp></institution>
+                  <repository>BnF. Département des Manuscrits.</repository>
+                  <altIdentifier>
+                     <idno>NAF 25632</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>ark:/12148/btv1b525088021</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="manuscript">
+                     <supportDesc>
+                        <support>Papier, <stamp>utilisation quasi-systématique d'une <ref target="#estampille_bnf_1870">estampille</ref> sur
+                           laquelle on lit "Bibliothèque Nationale MSS" sur les pages du
+                           document.</stamp></support>
+                        <extent>
+                           <width unit="mm">275</width>
+                           <height unit="mm">230</height>
+                        </extent>
+                        <foliation>154 feuillets</foliation>
+                     </supportDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <p>Couverture cartonnée beige à dos de percaline noire</p>
+                  </bindingDesc>
+               </physDesc>
+            </msDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Répertoire alphabétique utilisé pour confectionner le dossier de presse de
+                     l'Hérésiarque, Alcools, l'Enfer de la Bibliothèque nationale et Le Manifeste de
+                     l'Antitradition futuriste.</title>
+                  <author ref="https://data.bnf.fr/11888978/guillaume_apollinaire/">
+                     <forename>Guillaume</forename>
+                     <surname>Apollinaire</surname>
+                  </author>
+               </titleStmt>
+               <publicationStmt>
+                  <p>Les documents (coupures de presse et correspondances) ont été collés sur les
+                     pages par les soins d'Apollinaire.</p>
+               </publicationStmt>
+               <seriesStmt>
+                  <title>Répertoire alphabétique utilisé pour confectionner le dossier de presse de
+                     l'Hérésiarque, Alcools, l'Enfer de la Bibliothèque nationale et Le Manifeste de
+                     l'Antitradition futuriste.</title>
+                  <biblScope unit="manuscript"
+                     facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f1.item.r=Apollinaire%20manuscrits"
+                     >Répertoire alphabétique utilisé pour confectionner le dossier de presse de
+                     l'Hérésiarque, Alcools, l'Enfer de la Bibliothèque nationale et Le Manifeste de
+                     l'Antitradition futuriste.</biblScope>
+                  <biblScope unit="part"
+                     facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f145.item.r=Apollinaire%20manuscrits"
+                     >Alcools</biblScope>
+               </seriesStmt>
+            </biblFull>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+      <profileDesc>
+         <creation>
+            <date>1901-2000</date>
+            <country key="FR">France</country>
+            <lang xml:lang="fr"/>
+         </creation>
+      </profileDesc>
+   </teiHeader>
   <text>
      <front>
         <docTitle facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f145">
