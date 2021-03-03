@@ -3781,15 +3781,235 @@
                </relatedItem>
             </bibl>
          </listBibl>
-         
-         
-         
+         <listBibl>
+            <head>Références littéraires</head>
+            <bibl xml:id="l_hérésiarque_et_cie">
+               <author>Guillaume Apollinaire</author>
+               <title>l'Hérésiarque et Cie</title>
+            </bibl>
+            <bibl xml:id="le_bestiaire_ou_cortège_d_orphée">
+               <author>Guillaume Apollinaire</author>
+               <title>Le Bestiaire, ou Cortège d’Orphée</title>
+               <date>1911</date>
+               <relatedItem>
+                  <listBibl>
+                     <bibl type="poem" xml:id="le_chat">
+                        <title>Le Chat</title>
+                     </bibl>
+                  </listBibl>
+               </relatedItem>
+            </bibl>
+            <bibl type="biography" xml:id="walt_whitman_l_homme_et_son_oeuvre">
+               <title>Walt Whitman: l'homme et son oeuvre</title>
+               <author>
+                  <persName ref="#balzaguette_léon">Léon Balzaguette</persName>
+               </author>
+               <editor>
+                  <name ref="#mercure_de_france">Mercure de France</name>
+               </editor>
+               <pubPlace>Paris</pubPlace>
+               <date when="1908">1908</date>
+               <note
+                  facs="https://gallica.bnf.fr/ark:/12148/bpt6k96692828.r=walt%20whitman%20l%27homme%20et%20son%20oeuvre?rk=21459;2"
+                  >La 3e édition, datant de 1926, est disponible sur Gallica</note>
+            </bibl>
+            <bibl type="fiction" xml:id="la_légende_de_la_mort">
+               <title>La légende de la mort en Basse-Bretagne</title>
+               <author>Anatole Le Braz</author>
+               <editor>
+                  <name>Honoré Champion</name>
+               </editor>
+               <pubPlace>Paris</pubPlace>
+               <date when="1893">1893</date>
+            </bibl>
+            <bibl type="novel" xml:id="godwi">
+               <title>Godwi</title>
+               <author>Clemens Brentano</author>
+               <date>1801</date>
+            </bibl>
+            <bibl type="shortstory" xml:id="l_enclos_et_les_oiseaux">
+               <title>L'enclos et les oiseaux</title>
+               <author>
+                  <persName ref="#rétif_de_la_bretonne">Rétif de la Bretonne</persName>
+               </author>
+            </bibl>
+            <bibl type="literary_criticism" xml:id="les_disciplines">
+               <title>Les disciplines : nécessité littéraire et sociale d'une renaissance
+                  classique</title>
+               <author>Henri Clouard</author>
+               <editor>
+                  <name>M. Rivière</name>
+               </editor>
+               <pubPlace>Paris</pubPlace>
+               <date when="1913">1913</date>
+            </bibl>
+            <bibl type="poem" xml:id="demain_Deubel">
+               <author>Léon Deubel</author>
+               <title>Demain</title>
+            </bibl>
+            <bibl type="fables" xml:id="fables_d_ésope">
+               <title>Fables d'Ésope</title>
+               <author>Esope</author>
+               <date>VIIe siècle av. J.-C. - VIe siècle av. J.-C.</date>
+            </bibl>
+            <bibl type="songs" xml:id="la_côte">
+               <author>Max Jacob</author>
+               <title>La Côte : reccueil de chants celtiques</title>
+               <date>1911</date>
+            </bibl>
+            <bibl type="novel" xml:id="saint_matorel">
+               <author>Max Jacob</author>
+               <title>Saint-Matorel</title>
+               <date>1911</date>
+            </bibl>
+            <bibl type="novel" xml:id="le_siège_de_jérusalem">
+               <author>Max Jacob</author>
+               <title>Le Siège de Jérusalem</title>
+               <date>1914</date>
+            </bibl>
+            <bibl type="play" xml:id="le_terrain_Bouchaballa">
+               <author>Max Jacob</author>
+               <title>Le Terrain Bouchaballa</title>
+               <date>1922</date>
+            </bibl>
+            <bibl xml:id="la_chronique_de_Guichin">
+               <author>Max Jacob</author>
+               <title>La Chronique de Guichin</title>
+            </bibl>
+            <bibl xml:id="mémoires_apocryphes">
+               <author>Max Jacob</author>
+               <title>Mémoires apocryphes</title>
+            </bibl>
+            <bibl type="poem" xml:id="les_oeuvres_mystiques_et_burlesque">
+               <author>Max Jacob</author>
+               <title>Les Oeuvres mystiques et burlesques de Frères Matorel, mort au convent</title>
+               <date when="1912">1912</date>
+            </bibl>
+            <bibl type="conference" xml:id="la_symbolique_des_évangiles">
+               <author>Max Jacob</author>
+               <title>La Symolique des Evangiles</title>
+               <date when="1912">1912</date>
+            </bibl>
+            <bibl xml:id="le_phanérogramme">
+               <author>Max Jacob</author>
+               <title>Le Phanérogramme</title>
+            </bibl>
+            <bibl type="poetry" xml:id="floraison_des_eaux">
+               <title>La floraison des eaux</title>
+               <author>Guy Lavaud</author>
+               <editor>Bibliothèque de l'Occident</editor>
+               <pubPlace>Paris</pubPlace>
+               <date when="1907">1907</date>
+            </bibl>
+            <bibl type="poetry" xml:id="du_livre_de_la_mort">
+               <title>Du livre de la mort</title>
+               <author>Guy Lavaud</author>
+               <editor>La Phalange</editor>
+               <pubPlace>Paris</pubPlace>
+               <date when="1908">1908</date>
+            </bibl>
+            <bibl xml:id="le_coeur_supplicié">
+               <author>Arthur Rimbaud</author>
+               <title>Poésie</title>
+               <relatedItem>
+                  <listBibl>
+                     <bibl type="poem">Le coeur supplicié</bibl>
+                  </listBibl>
+               </relatedItem>
+            </bibl>
+         </listBibl>
+         <listBibl>
+            <head>Revues et journaux</head>
+            <listBibl>
+               <bibl type="journal" xml:id="börfen_courrier">
+                  <title>Börfen-Courrier</title>
+               </bibl>
+               <bibl type="magazine" xml:id="courrier_français">
+                  <title>Courrier français</title>
+               </bibl>
+               <bibl type="journal" xml:id="das_beiblatt">
+                  <title>Das Beiblatt. Der Buecherei Maiandros</title>
+               </bibl>
+               <bibl type="journal" xml:id="echo_littéraire_du_boulevard">
+                  <title>Echo Littéraire du Boulevard</title>
+               </bibl>
+               <bibl type="magazine" xml:id="fantasio">
+                  <title>Fantasio</title>
+               </bibl>
+               <bibl type="journal" xml:id="gazette_de_france">
+                  <title>Gazette de France</title>
+               </bibl>
+               <bibl type="journal" xml:id="gil_blas">
+                  <title>Gil Blas</title>
+               </bibl>
+               <bibl type="newspaper" xml:id="l_instransigeant">
+                  <title>L'Intransigeant</title>
+                  <note> Quotidien qui a paru à Paris de <date from="1880" to="1948">1880 à
+                     1948</date> . <persName ref="#apollinaire_guillaume">Apollinaire</persName>
+                     fait parti des collaborateurs notoires du quotidien en tant que critique d'art
+                     de 1910 à 1914. </note>
+               </bibl>
+               <bibl type="journal" xml:id="la_démocratie_sociale">
+                  <title>La démocratie sociale</title>
+               </bibl>
+               <bibl type="review" xml:id="la_phalange">
+                  <title>La Phalange</title>
+                  <note> Revue littéraire, <date from="1906" to="1939">crée en 1906. Sa parution a
+                     duré jusqu'en 1939</date> . La revue accueille dans ses pages <persName
+                        ref="#carco_francis">Francis Carco</persName> et <persName
+                           ref="#apollinaire_guillaume">Apollinaire</persName> , en autres. </note>
+               </bibl>
+               <bibl type="literary_magazine" xml:id="la_revue_blanche">
+                  <title>La Revue Blanche</title>
+               </bibl>
+               <bibl type="journal" xml:id="revue_critique">
+                  <title>La Revue Critique</title>
+               </bibl>
+               <bibl type="review" xml:id="la_vie_des_lettres">
+                  <title>La vie des lettres</title>
+                  <note> Revue littéraire dirigé par <persName ref="#beauduin_nicolas">Nicolas
+                     Beauduin</persName> . La première série de cette revue paraît entre d' <date
+                        from="1913" to="1914">avril 1913 et juillet 1914</date> . </note>
+               </bibl>
+               <bibl type="literary_magazine" xml:id="le_divan">
+                  <title>Le Divan</title>
+               </bibl>
+               <bibl type="literary_magazine" xml:id="le_festin_d_ésope">
+                  <title>Le Festin d'Esope</title>
+                  <note>Fondée et dirigée par Guillaume Apollinaire, la revue est parue de novembre
+                     1903 à août 1904.</note>
+               </bibl>
+               <bibl type="journal" xml:id="le_petit_niçois">
+                  <title>Le Petit Niçois</title>
+               </bibl>
+               <bibl xml:id="les_chroniques">
+                  <title>Les chroniques</title>
+               </bibl>
+               <bibl type="review" xml:id="mercure_de_france">
+                  <title>Le mercure de France</title>
+                  <note> Revue française fondée en <date from="1672" to="1954">1672 sous le nom de
+                     Mercure galent, elle devient Mercure de France en 1724 et disparue en
+                     1954</date> . Elle a évolué en maison d'édition à la fin du XIXe siècle.
+                  </note>
+               </bibl>
+               <bibl type="journal" xml:id="paris_midi">
+                  <title>Paris-Midi</title>
+               </bibl>
+               <bibl type="journal" xml:id="paris-journal">
+                  <title>Paris-Journal</title>
+               </bibl>
+               <bibl type="literary_magazine" xml:id="revue_critique_des_idées">
+                  <title>Revue Critique des Idées et des Livres</title>
+               </bibl>
+               <bibl type="literary_magazine" xml:id="revue_immoraliste">
+                  <title>La Revue Immoraliste</title>
+               </bibl>
+               <bibl type="literary_magazine" xml:id="soirées_de_paris">
+                  <title>Soirée de Paris</title>
+               </bibl>
+            </listBibl>
+         </listBibl>
       </listBibl>
-          
-     
-      
-      
-      
       
       
    </standOff>
