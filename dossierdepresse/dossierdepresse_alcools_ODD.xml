@@ -1083,8 +1083,8 @@
                      <attDef ident="org" mode="delete"/>
                      <attDef ident="sample" mode="delete"/>
                      <attDef ident="part" mode="delete"/>
-                     <attDef ident="type" mode="change" usage="req">
-                        <valList mode="add" type="closed">
+                     <attDef ident="type" mode="change" usage="rec">
+                        <valList mode="add" type="open">
                            <valItem ident="article"/>
                            <valItem ident="letter"/>
                            <valItem ident="rubrique"/>
