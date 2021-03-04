@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2021-03-03T16:01:18Z. .
+Schema generated from ODD source 2021-03-04T09:37:40Z. .
 TEI Edition: Version 4.0.0. Last updated on
 	13th February 2020, revision ccd19b0ba
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 4.0.0/
@@ -2014,17 +2014,6 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
          <ref name="att.global.source.attribute.source"/>
          <ref name="att.declaring.attributes"/>
          <ref name="att.written.attributes"/>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="part"
-                       a:defaultValue="N">
-               <a:documentation>specifies whether or not its parent element is fragmented in some way, typically by some other overlapping structure: for example a speech which is divided between two or more verse stanzas, a paragraph which is split across a page division, a verse line which is divided between two speakers.</a:documentation>
-               <choice>
-                  <value>N</value>
-                  <a:documentation/>
-               </choice>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
@@ -2321,17 +2310,6 @@ Suggested values include: 1] illegible; 2] inaudible; 3] faded; 4] background_no
          <ref name="att.datable.custom.attribute.datingPoint"/>
          <ref name="att.datable.custom.attribute.datingMethod"/>
          <ref name="att.editLike.attributes"/>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="full"
-                       a:defaultValue="yes">
-               <a:documentation>indicates whether the name component is given in full, as an abbreviation or simply as an initial.</a:documentation>
-               <choice>
-                  <value>yes</value>
-                  <a:documentation/>
-               </choice>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
@@ -2985,17 +2963,6 @@ Elements]</a:documentation>
          <ref name="att.sortable.attributes"/>
          <ref name="att.docStatus.attributes"/>
          <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="default"
-                       a:defaultValue="false">
-               <a:documentation>indicates whether or not this element is selected by default when its parent is selected.</a:documentation>
-               <choice>
-                  <value>false</value>
-                  <a:documentation/>
-               </choice>
-            </attribute>
-         </optional>
-         <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
                <choice>
@@ -3068,17 +3035,6 @@ Elements]</a:documentation>
          <ref name="att.global.responsibility.attribute.resp"/>
          <ref name="att.global.source.attribute.source"/>
          <ref name="att.sortable.attributes"/>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="default"
-                       a:defaultValue="false">
-               <a:documentation>indicates whether or not this element is selected by default when its parent is selected.</a:documentation>
-               <choice>
-                  <value>false</value>
-                  <a:documentation/>
-               </choice>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
@@ -3156,17 +3112,6 @@ relatedItem element must be empty</sch:report>
          <ref name="att.global.responsibility.attribute.cert"/>
          <ref name="att.global.responsibility.attribute.resp"/>
          <ref name="att.global.source.attribute.source"/>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="part"
-                       a:defaultValue="N">
-               <a:documentation>specifies whether or not its parent element is fragmented in some way, typically by some other overlapping structure: for example a speech which is divided between two or more verse stanzas, a paragraph which is split across a page division, a verse line which is divided between two speakers.</a:documentation>
-               <choice>
-                  <value>N</value>
-                  <a:documentation/>
-               </choice>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
@@ -3235,39 +3180,6 @@ relatedItem element must be empty</sch:report>
          <ref name="att.global.responsibility.attribute.resp"/>
          <ref name="att.global.source.attribute.source"/>
          <ref name="att.declaring.attributes"/>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="org"
-                       a:defaultValue="uniform">
-               <a:documentation>(organization) specifies how the content of the division is organized.</a:documentation>
-               <choice>
-                  <value>uniform</value>
-                  <a:documentation/>
-               </choice>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="sample"
-                       a:defaultValue="complete">
-               <a:documentation>indicates whether this division is a sample of the original source and if so, from which part.</a:documentation>
-               <choice>
-                  <value>complete</value>
-                  <a:documentation/>
-               </choice>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="part"
-                       a:defaultValue="N">
-               <a:documentation>specifies whether or not its parent element is fragmented in some way, typically by some other overlapping structure: for example a speech which is divided between two or more verse stanzas, a paragraph which is split across a page division, a verse line which is divided between two speakers.</a:documentation>
-               <choice>
-                  <value>N</value>
-                  <a:documentation/>
-               </choice>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
@@ -3873,17 +3785,6 @@ The element <name/> may appear once only
          <ref name="att.datable.custom.attribute.datingMethod"/>
          <ref name="att.editLike.attributes"/>
          <ref name="att.canonical.attribute.ref"/>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="full"
-                       a:defaultValue="yes">
-               <a:documentation>indicates whether the name component is given in full, as an abbreviation or simply as an initial.</a:documentation>
-               <choice>
-                  <value>yes</value>
-                  <a:documentation/>
-               </choice>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
@@ -3904,17 +3805,6 @@ The element <name/> may appear once only
          <ref name="att.global.responsibility.attribute.cert"/>
          <ref name="att.global.responsibility.attribute.resp"/>
          <ref name="att.global.source.attribute.source"/>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="full"
-                       a:defaultValue="yes">
-               <a:documentation>indicates whether the name component is given in full, as an abbreviation or simply as an initial.</a:documentation>
-               <choice>
-                  <value>yes</value>
-                  <a:documentation/>
-               </choice>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
@@ -3935,17 +3825,6 @@ The element <name/> may appear once only
          <ref name="att.global.responsibility.attribute.cert"/>
          <ref name="att.global.responsibility.attribute.resp"/>
          <ref name="att.global.source.attribute.source"/>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="full"
-                       a:defaultValue="yes">
-               <a:documentation>indicates whether the name component is given in full, as an abbreviation or simply as an initial.</a:documentation>
-               <choice>
-                  <value>yes</value>
-                  <a:documentation/>
-               </choice>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
@@ -3987,17 +3866,6 @@ The element <name/> may appear once only
          <ref name="att.global.responsibility.attribute.resp"/>
          <ref name="att.global.source.attribute.source"/>
          <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="full"
-                       a:defaultValue="yes">
-               <a:documentation>indicates whether the name component is given in full, as an abbreviation or simply as an initial.</a:documentation>
-               <choice>
-                  <value>yes</value>
-                  <a:documentation/>
-               </choice>
-            </attribute>
-         </optional>
-         <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
                <choice>
@@ -4035,17 +3903,6 @@ The element <name/> may appear once only
          <ref name="att.global.responsibility.attribute.resp"/>
          <ref name="att.global.source.attribute.source"/>
          <ref name="att.canonical.attribute.ref"/>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="full"
-                       a:defaultValue="yes">
-               <a:documentation>indicates whether the name component is given in full, as an abbreviation or simply as an initial.</a:documentation>
-               <choice>
-                  <value>yes</value>
-                  <a:documentation/>
-               </choice>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
@@ -4201,17 +4058,6 @@ The element <name/> may appear once only
          <ref name="att.global.responsibility.attribute.resp"/>
          <ref name="att.global.source.attribute.source"/>
          <ref name="att.sortable.attributes"/>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="default"
-                       a:defaultValue="false">
-               <a:documentation>indicates whether or not this element is selected by default when its parent is selected.</a:documentation>
-               <choice>
-                  <value>false</value>
-                  <a:documentation/>
-               </choice>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
@@ -4246,17 +4092,6 @@ The element <name/> may appear once only
          <ref name="att.global.responsibility.attribute.resp"/>
          <ref name="att.global.source.attribute.source"/>
          <ref name="att.sortable.attributes"/>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="default"
-                       a:defaultValue="false">
-               <a:documentation>indicates whether or not this element is selected by default when its parent is selected.</a:documentation>
-               <choice>
-                  <value>false</value>
-                  <a:documentation/>
-               </choice>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
@@ -4655,17 +4490,6 @@ The element <name/> may appear once only
          <ref name="att.global.responsibility.attribute.cert"/>
          <ref name="att.global.responsibility.attribute.resp"/>
          <ref name="att.global.source.attribute.source"/>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="default"
-                       a:defaultValue="false">
-               <a:documentation>indicates whether or not this element is selected by default when its parent is selected.</a:documentation>
-               <choice>
-                  <value>false</value>
-                  <a:documentation/>
-               </choice>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
@@ -4708,17 +4532,6 @@ The element <name/> may appear once only
          <ref name="att.global.source.attribute.source"/>
          <ref name="att.sortable.attributes"/>
          <ref name="att.docStatus.attributes"/>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="default"
-                       a:defaultValue="false">
-               <a:documentation>indicates whether or not this element is selected by default when its parent is selected.</a:documentation>
-               <choice>
-                  <value>false</value>
-                  <a:documentation/>
-               </choice>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
@@ -5359,49 +5172,12 @@ The attributes @to and @from on <name/> may each contain only a single value</re
          <ref name="att.declaring.attributes"/>
          <ref name="att.written.attributes"/>
          <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="org"
-                       a:defaultValue="uniform">
-               <a:documentation>(organization) specifies how the content of the division is organized.</a:documentation>
-               <choice>
-                  <value>uniform</value>
-                  <a:documentation/>
-               </choice>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="sample"
-                       a:defaultValue="complete">
-               <a:documentation>indicates whether this division is a sample of the original source and if so, from which part.</a:documentation>
-               <choice>
-                  <value>complete</value>
-                  <a:documentation/>
-               </choice>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="part"
-                       a:defaultValue="N">
-               <a:documentation>specifies whether or not its parent element is fragmented in some way, typically by some other overlapping structure: for example a speech which is divided between two or more verse stanzas, a paragraph which is split across a page division, a verse line which is divided between two speakers.</a:documentation>
-               <choice>
-                  <value>N</value>
-                  <a:documentation/>
-               </choice>
-            </attribute>
-         </optional>
-         <optional>
             <attribute name="type">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
-               <choice>
-                  <value>article</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>letter</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>rubrique</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               </choice>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.
+Sample values include: 1] article; 2] letter; 3] rubrique</a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
             </attribute>
          </optional>
          <empty/>
@@ -5631,17 +5407,6 @@ The attributes @to and @from on <name/> may each contain only a single value</re
          <ref name="att.global.responsibility.attribute.cert"/>
          <ref name="att.global.responsibility.attribute.resp"/>
          <ref name="att.global.source.attribute.source"/>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="type"
-                       a:defaultValue="main">
-               <a:documentation>specifies the role of this subdivision of the title.</a:documentation>
-               <choice>
-                  <value>main</value>
-                  <a:documentation/>
-               </choice>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
