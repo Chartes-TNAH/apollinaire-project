@@ -1024,11 +1024,6 @@
                </elementSpec>
                <elementSpec ident="spanGrp" mode="change">
                   <attList>
-                     <attDef ident="type" mode="change">
-                        <valList mode="add" type="closed">
-                           <valItem ident="postmarked"/>
-                        </valList>
-                     </attDef>
                      <attDef ident="sameAs" mode="delete"/>
                      <attDef ident="facs" mode="delete"/>
                      <attDef ident="type" mode="change">
