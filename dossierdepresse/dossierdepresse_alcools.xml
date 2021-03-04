@@ -1384,7 +1384,7 @@
                   <head>A <persName ref="#apollinaire_guillaume">Guillaume Apollinaire</persName>
                      <lb/> prose rythmée pour chanter ses vers.</head>
 
-                  <div>
+                  <div type="strophe">
                      <head rend="align(center)">I</head>
                      <lg>
                         <l>Au paradis des lyres,</l>
@@ -1411,7 +1411,7 @@
                      </lg>
                   </div>
 
-                  <div>
+                  <div type="strophe">
                      <head rend="align(center)">II</head>
                      <lg>
                         <l>Expert en l'art de distiller</l>
@@ -1450,7 +1450,7 @@
                      </lg>
                   </div>
 
-                  <div>
+                  <div type="strophe">
                      <head rend="align(center)">III</head>
                      <lg>
                         <l>Sphinx lépidoptère au vol variant,</l>
@@ -1486,7 +1486,7 @@
                      </lg>
                   </div>
 
-                  <div>
+                  <div type="strophe">
                      <head rend="align(center)">IV</head>
                      <lg>
                         <l>Il est le danseur plastique et prestigieux</l>
@@ -1512,7 +1512,7 @@
                      </lg>
                   </div>
 
-                  <div>
+                  <div type="strophe">
                      <head rend="align(center)">V</head>
                      <lg>
                         <l>Désinvolte et le plus fabuleux Kaiser</l>
@@ -1545,7 +1545,7 @@
                      </lg>
                   </div>
 
-                  <div>
+                  <div type="strophe">
                      <head rend="align(center)">VI</head>
                      <lg>
                         <l>Après, de sylphiques retombées à terre</l>
@@ -1573,7 +1573,7 @@
                         sameAs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f161.item"/>
                   </div>
 
-                  <div>
+                  <div type="strophe">
                      <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f164.item"/>
                      <metamark function="header" rend="align(center) case(allcaps)"><num>120</num>
                         <ref target="#la_phalange">LA PHALANGE</ref></metamark>
