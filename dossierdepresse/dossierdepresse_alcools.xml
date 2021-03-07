@@ -3170,8 +3170,8 @@
             <persName><forename>Nicolas</forename><surname>Beauduin</surname></persName>
             <birth>Né le 10 septembre 1880 à Poix-de-Picardie, France.</birth>
             <death>Décédé le 5 septembre 1960 aux Corvées-les-Yys, France.</death>
-            <note>Poète et romancier français, directeur de la revue littéraire La vie des
-               lettres.</note>
+            <note>Poète et romancier français, directeur de la revue littéraire <ref target="#la_vie_des_lettres">La vie des
+               lettres</ref>.</note>
          </person>
 
          <person xml:id="boutet_frederic">
@@ -3210,7 +3210,7 @@
                <surname>Max Cahén</surname>
             </persName>
             <birth>Né en 1891 à Saarlouis, Allemagne.</birth>
-            <death>Mort en 1966 à Bonne, Allemagne.</death>
+            <death>Mort en 1966 à Bonn, Allemagne.</death>
             <note>Journaliste allemand.</note>
          </person>
 
