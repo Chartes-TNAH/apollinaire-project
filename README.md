@@ -6,7 +6,7 @@ Ce repository a été créé dans le cadre d'un cours git, dispensé par M. Clé
 - [Doriane Hare](https://github.com/D0riane)
 - [Hugo Scheithauer](https://github.com/HugoSchtr)
 - [Juliette Janes](https://github.com/Juliettejns)
-- [Léa Périssier](https://github.com/leaprs)
+- [Léa Perissier](https://github.com/leaprs)
 - [Pauline Breton-Chauvet](https://github.com/PaulineChauvet)
 
 ## Le projet Apollinaire
