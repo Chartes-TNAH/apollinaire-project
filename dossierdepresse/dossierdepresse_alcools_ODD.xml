@@ -30,7 +30,7 @@
                <p>Le but de ce projet est de comprendre les différentes étapes d’un poème, de son
                   embryogenèse jusqu’à la réception lors de sa publication. Cela s'est fait par la
                   transcription et l’encodage en XML-TEI du corpus ci-dessus afin de restituer
-                  l’embryogenèse de l'œuvre dans sa matérialité que dans sa dimension sémantique.
+                  l’embryogenèse de l'œuvre dans sa matérialité et dans sa dimension sémantique.
                </p>
             </div2>
             <div2>
@@ -49,10 +49,22 @@
                <p>Cette édition pourrait être réutilisée dans le cadre de recherches sur l'histoire
                   de la littérature et des arts en général au début du XXe siècle. En effet,
                   l'indexation des noms et des lieux dans le dossier de presse permet l'émergence du
-                  milieu aristique dont Guillaume Apolinnaire fait partie : par les lettres tantôt
+                  milieu aristique dont Guillaume Apollinaire fait partie : par les lettres tantôt
                   familières, tantôt cordiales, les relations entre les acteurs de ce milieu sont
                   identifiés ; par les articles, la presse artistique de cette époque est donnée à
                   voir.</p>
+               <p>Plus précisément les nombreuses lettres pourraient permettre de détailler la
+                  sphère littéraire, sociale, amicale et intellectuelle de Guillaume Apollinaire. En
+                  effet, ce dernier a envoyé personnellement son oeuvre et il en est remercié dans
+                  diverses lettres. Le cercle d'amis semble large et éclectique. Cette édition
+                  pourrait permettre de détailler les relations qu'Apollinaire entrenait et avec
+                  qui. Il serait ainsi possible de mieux comprendre son oeuvre et ses influences,
+                  probablement palpables dans ses écrits.</p>
+               <p>La diffusion d'une oeuvre et plus précisément ici, celle d'Alcools, peut être
+                  touchée du doigt par l'index des noms de lieux. Les parutions d'articles à
+                  l'étranger sont nombreuses. L'index des lieux permet ainsi de voir où, à
+                  défaut d'être lu par la population, est il critiqué en Europe et par conséquent
+                  réceptionné par la sphère littéraire europénne.</p>
             </div2>
          </div1>
          <div1>
@@ -112,8 +124,8 @@
                   <p>Pour les lettres, il s'agissait de : <list>
                         <item>représenter la structure sémantique d'une lettre</item>
                         <item>signaler le recto ou verso en renvoyant à la numérisation</item>
-                        <item>proposer un élément pour encoder les pages blanches et les copies
-                           afin de respecter l'intégrité du dossier</item>
+                        <item>proposer un élément pour encoder les pages blanches et les copies afin
+                           de respecter l'intégrité du dossier</item>
                      </list></p>
                   <p>Quant aux articles, il a été souhaité de : <list>
                         <item>représenter la structure sémantique de l'article</item>
