@@ -3,7 +3,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Édition numérique du dossier de presse</title>
+            <title type="short">Édition numérique du projet Apollinaire</title>
+            <title type="subtitle">Dossier de presse</title>
             <author>Axelle Lecroq</author>
             <author>Hugo Scheithauer</author>
             <author>Doriane Hare</author>
@@ -23,7 +24,216 @@
    <text>
       <body>
          <div1>
+            <head>Le projet</head>
+            <div2>
+               <head>Présentation du projet</head>
+               <p>Le but de ce projet est de comprendre les différentes étapes d’un poème, de son
+                  embryogenèse jusqu’à la réception lors de sa publication. Cela s'est fait par la
+                  transcription et l’encodage en XML-TEI du corpus ci-dessus afin de restituer
+                  l’embryogenèse de l'œuvre dans sa matérialité que dans sa dimension sémantique.
+               </p>
+            </div2>
+            <div2>
+               <head>Le corpus</head>
+               <p>Le corpus se compose de divers documents disponibles sur Gallica : </p>
+               <p>- <ref
+                     target="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f37.item.r=Manuscrit%20Apollinaire#"
+                     >Les versions préparatoires manuscrites de sept poemes du recueil</ref>.</p>
+               <p> - <ref
+                     target="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f145.item.r=Apollinaire%20manuscrits"
+                     >Un dossier de presse</ref> qui présente la réception du recueil à travers des
+                  lettres et coupures de presse, toutes rassemblées par Apollinaire lui-même. </p>
+            </div2>
+            <div2>
+               <head>Exploitations possibles du projet</head>
+            </div2>
+         </div1>
+         <div1>
             <head>Guide de l'encodage du dossier de presse - Alcools</head>
+            <div2>
+               <head>Structure générale</head>
+               <div3>
+                  <head>Le choix de la balise <gi>group</gi></head>
+               </div3>
+               <div3>
+                  <head>Encodage individuel des lettres et articles : les balises <gi>div</gi> et
+                        <gi>pb</gi></head>
+               </div3>
+            </div2>
+            <div2>
+               <head>Normalisation des <att>xml:id</att></head>
+               <div3>
+                  <head><att>xml:id</att> des documents</head>
+                  <p>Les <att>xml:id</att> ne peuvent commencer par un entier, ainsi le type de
+                     document est indiqué en premier suivi du numéro de folio. Tout comme pour le
+                     nommage des fichiers .xml, il a été décidé de garder l'intervalle pour les
+                        <att>xml:id</att> et d'utiliser les underscore.</p>
+                  <p>Pour les lettres, cela se fait comme suit: </p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <div type="letter" n="166" xml:id="lettre_166"/>
+                  </egXML>
+                  <p>Pour les articles, il existe deux présentations différentes. En effet,
+                     plusieurs articles sont collées sur le même folio bien qu'ils soient
+                     indépendant des uns et des autres. Il existe aussi le cas où une première
+                     partie d'article se situe sur un folio et la seconde partie sur le folio
+                     suivant. Cela a impliqué deux utilisations d'<att>xml:id</att>.</p>
+                  <p>Pour le premier cas, un numéro est attribué à l'article en question et le
+                     numéro de folio est indiqué à la suite d'un underscore, comme suit :</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <div type="article" n="146" xml:id="article2_146"/>
+                  </egXML>
+                  <p>Pour le second cas, celui où l'article est séparé sur deux folios différents,
+                     l'article n'a pas de numéro attribué mais est accompagné des deux numéros de
+                     folio sur lesquels il apparait. Cela permet de garder l'entité sémantique de
+                     l'article dans l'encodage XML.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <div type="article" n="148, 149" xml:id="article_148-149"/>
+                  </egXML>
+               </div3>
+               <div3>
+                  <head><att>xml:id</att> des personnes, lieux et références
+                     bibliographiques.</head>
+                  <p>Il a été choisi d'utiliser exclusivement les miniscules dans les
+                        <att>xml:id</att> pour tous les noms propres et de représenter chaque espace
+                     par un underscore dans un but d'homogénisation avec le choix fait sur les
+                        <att>xml:id</att> des documents.</p>
+                  <p>Dans le corpus, les noms de personnes apparaissent dans les signatures et les
+                     adresses des lettres reçues par Apollinaire mais aussi dans les articles en
+                     tant que rédacteur, journaliste ou encore en tant que personne à laquelle il
+                     est fait référence.</p>
+                  <p>Quand il a été possible, ces personnes ont été identifiées et apparaissent dans
+                     l'index prévu. L'<att>xml:id</att> présente d'abord le nom de famille suivi du
+                     ou des prénoms après un underscore :</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <person xml:id="musset_alfred_de"/>
+                  </egXML>
+                  <p>Ces choix ont également été utilisé dans les noms des lieux qui apparaissent
+                     dans les adresses des lettres ainsi que les articles :</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <placeName xml:id="criquetot_l_esneval"/>
+                  </egXML>
+                  <p>Les noms des poèmes provenant du recueil <hi>Alcools</hi> référencés dans les
+                     corps de lettre ou dans les articles se présentent donc ainsi : </p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <bibl type="poem" xml:id="a_la_santé"/>
+                  </egXML>
+               </div3>
+            </div2>
+            <div2>
+               <head>Les index</head>
+               <p>Tous les index sont encodés dans le <gi>standOff</gi> placé après la balise
+                     <gi>text</gi>. Dans ce projet, trois index sont à distinguer: <specList>
+                     <specDesc key="listPerson"/>
+                     <specDesc key="listPlace"/>
+                     <specDesc key="listBibl"/>
+                  </specList></p>
+               <div3>
+                  <head>L'index de personnes</head>
+                  <p>Dans le dossier de presse, de nombreux noms apparaissent : les envoyeurs de
+                     lettres, les rédacteurs d'articles, les poètes et autres personnes de lettres
+                     au sein-même des articles, des auteurs divers et variés, les personnes de tout
+                     status dans les lettres. Ces personnes sont toutes référencées au sein de cet
+                     index général.</p>
+                  <p>Les dates et lieux de naissance et de décès ont été indiqués si connus. Au sein
+                     de la balise <gi>note</gi>, le status, le métier ou toutes autres informations
+                     intéressantes pour la compréhension du corpus y a été inscrite.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <person xml:id="aimé_henri">
+                        <persName><forename>Henri</forename><surname>Aimé</surname></persName>
+                        <birth>Né le 2 août 1872 à Nancy, France.</birth>
+                        <death>Décédé le 14 mai 1942 à Paris, France.</death>
+                        <note>Médecin spécialiste des maladies nerveuses, il exerce à Paris. Il est
+                           également Chevalier de la légion d'honneur.</note>
+                     </person>
+                  </egXML>
+                  <p>Parfois, les signatures ne permettaient pas d'identifié les personnes ayant
+                     envoyé la lettre. Ainsi, les initiales ont été indexées comme suit : </p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <person xml:id="ac">
+                        <persName>A.C</persName>
+                        <!-- Personne non identifiée. Par conséquent, les dates de naissance et de mort sont inconnues -->
+                     </person>
+                  </egXML>
+                  <p>Une entrée au sein de l'index permet de notifier que le nom est illisible. La
+                     personne n'a ainsi pas pu être identifiée:</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <person xml:id="illisible_name">
+                        <persName>Nom illisible</persName>
+                        <!-- Personne non identifiée.-->
+                     </person>
+                  </egXML>
+               </div3>
+               <div3>
+                  <head>Index de lieux</head>
+                  <p>L'index de lieux se situe dans la balise <gi>listPlace</gi>. Chaque nom de
+                     ville est enregistrée dans une balise <gi>placeName</gi>, elle-même encodée au
+                     sein d'une balise <gi>place</gi>. Le pays est par ailleurs encodé dans une
+                     balise <gi>country</gi>. Toutes les villes sont ainsi relié au pays dans
+                     lequelle elles se situent.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <place>
+                        <country>Royaume-Uni</country>
+                        <placeName xml:id="londres">Londres</placeName>
+                     </place>
+                  </egXML>
+               </div3>
+               <div3>
+                  <head>Index des références bibliographiques</head>
+                  <p>L'index des références bibliographiques est encodé au sein de la balise
+                        <gi>listBibl</gi>. Cet index se compose en trois sous-index, tous les trois
+                     encodés dans une balise <gi>listBibl</gi> : les références aux poèmes
+                        d'<hi>Alcools</hi>, les références littéraires puis les revues et journaux. </p>
+                  <p>Concernant l'index des références à <hi>Alcools</hi>, celles-ci sont toutes
+                     encodées dans une <gi>listBibl</gi> qui se trouve dans une <gi>relatedItem</gi>
+                     puisqu'il s'agit de poèmes qui appartiennent au même recueil.</p>
+                  <p>L'index se présente donc ainsi :</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <bibl>
+                        <author>Guillaume Apollinaire</author>
+                        <title>Alcools (1913)</title>
+                        <relatedItem>
+                           <listBibl>
+                              <bibl type="poem" xml:id="aubade_chantée_à_laetare_un_an_passé">
+                                 <title>Aubade chantée à Lætare un an passé </title>
+                              </bibl>
+                              <bibl type="poem" xml:id="a_la_santé">
+                                 <title>A la Santé</title>
+                              </bibl>
+                           </listBibl>
+                        </relatedItem>
+                     </bibl>
+                  </egXML>
+                  <p>Au sein de l'index des références littéraires, chaque référence est encodé dans
+                     une balise <gi>bibl</gi> avec les informations permettant de retrouver
+                     facilement l'oeuvre en question. Le titre, le nom de l'auteur, l'édition, date
+                     de publication, et l'édition sont autant d'informations qui apparaissent pour
+                     chacune des références sans des balises adaptées. Cela se présente ainsi:</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <bibl type="biography" xml:id="walt_whitman_l_homme_et_son_oeuvre">
+                        <title>Walt Whitman: l'homme et son oeuvre</title>
+                        <author>
+                           <persName ref="#balzaguette_léon">Léon Balzaguette</persName>
+                        </author>
+                        <editor>
+                           <name ref="#mercure_de_france">Mercure de France</name>
+                        </editor>
+                        <pubPlace>Paris</pubPlace>
+                        <date when="1908">1908</date>
+                        <note
+                           facs="https://gallica.bnf.fr/ark:/12148/bpt6k96692828.r=walt%20whitman%20l%27homme%20et%20son%20oeuvre?rk=21459;2"
+                           >La 3e édition, datant de 1926, est disponible sur Gallica</note>
+                     </bibl>
+                  </egXML>
+                  <p>Par ailleurs, les revues et journaux sont encodés individuellement dans une
+                     balise <gi>bibl</gi>. Le genre de parution apparaît dans l'attribut
+                        <att>type</att>. Une entrée dans cet index se présente comme suit :</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <bibl type="journal" xml:id="echo_littéraire_du_boulevard">
+                        <title>Echo Littéraire du Boulevard</title>
+                     </bibl>
+                  </egXML>
+               </div3>
+            </div2>
          </div1>
          <div1>
             <head>Tableau des éléments utilisés</head>
