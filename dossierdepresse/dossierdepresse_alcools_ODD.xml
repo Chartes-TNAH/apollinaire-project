@@ -110,15 +110,15 @@
                   <p>Ces deux éléments ont été utilisés afin de répondre à divers besoins en
                      fonction de la nature du document encodé.</p>
                   <p>Pour les lettres, il s'agissait de : <list>
-                        <item>- représenter la structure sémantique d'une lettre</item>
-                        <item>- signaler le recto ou verso en renvoyant à la numérisation</item>
-                        <item>- proposer un élément pour encoder les pages blanches et les copies
+                        <item>représenter la structure sémantique d'une lettre</item>
+                        <item>signaler le recto ou verso en renvoyant à la numérisation</item>
+                        <item>proposer un élément pour encoder les pages blanches et les copies
                            afin de respecter l'intégrité du dossier</item>
                      </list></p>
                   <p>Quant aux articles, il a été souhaité de : <list>
-                        <item>- représenter la structure sémantique de l'article</item>
-                        <item>- renvoyer l'article à la numérisation</item>
-                        <item>- proposer un élément afin de signifier les articles présents sur
+                        <item>représenter la structure sémantique de l'article</item>
+                        <item>renvoyer l'article à la numérisation</item>
+                        <item>proposer un élément afin de signifier les articles présents sur
                            différents folios</item>
                      </list></p>
                   <p>Pour répondre à ces impératifs, il a été décidé d'utiliser les éléments
