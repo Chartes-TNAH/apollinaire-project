@@ -65,6 +65,12 @@
                   l'étranger sont nombreuses. L'index des lieux permet ainsi de voir où, à défaut
                   d'être lu par la population, est il critiqué en Europe et par conséquent
                   réceptionné par la sphère littéraire europénne.</p>
+               <p>Les articles de presse quant à eux donnent un panorama des critiques positives
+                  qu'a reçu Alcools. Ils permettent ainsi de tisser un réseau de journalistes et
+                  d'auteurs, mais aussi de revues, ayant soutenu Apollinaire. L'indexation du nom
+                  des oeuvres littéraires mentionnées dans les articles permet aussi de prendre
+                  connaissance des oeuvres auxquelles a été comparé, voire associé, le recueil de
+                  poèmes d'Apollinaire.</p>
             </div2>
          </div1>
          <div1>
@@ -335,8 +341,8 @@
                         </relatedItem>
                      </bibl>
                   </egXML>
-                  <p>Au sein de l'index des références littéraires, chaque référence est encodée dans
-                     une balise <gi>bibl</gi> avec les informations permettant de retrouver
+                  <p>Au sein de l'index des références littéraires, chaque référence est encodée
+                     dans une balise <gi>bibl</gi> avec les informations permettant de retrouver
                      facilement l'oeuvre en question. Le titre, le nom de l'auteur, l'édition, date
                      de publication, et l'édition sont autant d'informations qui apparaissent pour
                      chacune des références dans des balises adaptées. Cela se présente ainsi:</p>
