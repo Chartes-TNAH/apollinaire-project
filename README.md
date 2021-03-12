@@ -1,4 +1,4 @@
-Ce repository a été créé dans le cadre d'un cours git, dispensé par M. Thibault Clérice pour le master2 TNAH à l'Ecole nationale des chartes.
+Ce repository a été créé dans le cadre d'un cours git, dispensé par M. Thibault Clérice pour le master 2 TNAH à l'Ecole nationale des chartes.
 
 ## Les contributeurs
 - [Arsène Georges](https://github.com/ArsGeo)
@@ -17,10 +17,10 @@ Les choix spécifiques d'encodage en XML-TEI doivent permettre l'exportation et 
 
 ### Le corpus
 Le corpus se compose de plusieurs types de source - manuscrite et imprimée - tous disponibles sous forme numérique sur Gallica:
-- les [versions préparatoires manuscrites de septs poèmes] du recueil *Alcools*, édité pour la première fois en 1913:
-(https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f37.item.r=Manuscrit%20Apollinaire#)
-- un [dossier de presse] constitué par Guillaume Apollinaire lui-même. Il regroupe articles de périodiques et lettres reçues à l'occasion de la diffusion et de la réception d'Alcools. 
-(https://gallica.bnf.fr/ark:/12148/btv1b525088021/f145.item.r=Apollinaire%20manuscrits)
+- les [versions préparatoires manuscrites de septs poèmes](https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f37.item.r=Manuscrit%20Apollinaire#) du recueil *Alcools*, édité pour la première fois en 1913:
+
+- un [dossier de presse](https://gallica.bnf.fr/ark:/12148/btv1b525088021/f145.item.r=Apollinaire%20manuscrits) constitué par Guillaume Apollinaire lui-même. Il regroupe articles de périodiques et lettres reçues à l'occasion de la diffusion et de la réception d'Alcools. 
+
 
 ### Feuille de route
 1. Transcriptions des folios des versions préparatoires et du dossier de presse : les transcriptions de textes manuscrits ont été effectuées par tous les contributeurs. Les articles de presse ont été quant à eux océrisés.
