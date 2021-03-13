@@ -43,7 +43,24 @@
                                                         
                                                         Nous avons volontairement privilégié la description génétique de la source sur les données inhérentes à l’analyse littéraire. C’est pourquoi nous n’avons pas utilisé les éléments qu’offre la TEI pour l’encodage approfondi des informations métriques et prosodiques. Nous avons tout de même caractérisé et numéroté chaque strophe – structurée dans un <lg> - selon son type (distique, tercet, quatrain, etc.) afin de faciliter une exportation sélective de ces données. 
                                                             Les ajouts, suppressions, corrections et substitutions ont été systématiquement encodés à l’aide des éléments <add>, <addSpan> (pour de longs extraits de texte), <del>, <delSpan>, <subst> et <substJoin>, et leurs attributs @unit, @quantity et @rend. 
+                                                                Encodage des corrections dans le texte
+                                                                De nombreux corrections, faites par Apollinaire, sont visibles dans les poèmes manuscrits. Afin de les encoder de la meilleure façon qui soit, nous avons utilisés les balises suivantes:
+                                                                liste des balises
                                                                 
+                                                                Chacune de ces balises doit prendre pour attributs:
+                                                                liste des attributs
+                                                                @unit donne le type d'éléments encodés et prend pour valeurs <val>char</val>, <val>word</val> et <val>line</val> tandis que @quantity permet de signaler le nombre d'éléments concernés par la balise et prend pour valeur un nombre. L'attribut @rend permet de donner plus d'indications sur la place et l'aspect de la suppression de l'ajout, avec des valeurs du type <val>align(top(right))</val> ou <val>overtyped</val> par exemple.
+                                                                
+                                                                La balise <add> est utilisé pour encoder les ajouts de texte tandis que <del> permet de matérialiser les suppressions dans le texte. Lorsque Apolinaire supprime un élément pour le remplacer par un autre, on associe ces deux balises à la balise <subst> qui permet de présenter les substitutions sous la forme:
+                                                                    EXEMPLE
+                                                                    
+                                                                    Si les ajouts ou suppressions de texte sont sur plusieurs lignes, on utilise les balises <addSpan> et <delSpan> au lieu de <add> et <del>. Dans ce cas là, lorsqu'il y a une substitution, on l'encode en utilisant <substJoin> de cette façon:
+                                                                        EXEMPLE + détailler
+                                                                        
+                                                                        Encodage des éléments dégradés dans le texte:
+                                                                        Dans le cas d'un élément manquant et totalement illisible dans la transcription du poème du à la dégradation du texte, on utilise une association des balises <del> et <gap>, avec les mêmes attributs que les autres balises de ce type:
+                                                                            EXEMPLE. 
+                                                                            Si l'élément est un peu plus lisible et l'on devine ce qu'il veut dire, on l'encode avec la balise <unclear>, encore une fois associée aux mêmes attributs.     
                                                                 
             </div1>
             <div1>
