@@ -381,7 +381,7 @@
                     </elementSpec>
                     <!--Checking module namesdates-->
                     <classRef key="model.persNamePart"/>
-                    <moduleRef key="namesdates" include="country"/>
+                    <moduleRef key="namesdates" include="country persName "/>
                     <elementSpec ident="country" mode="change">
                         <attList>
                             <attDef ident="corresp" mode="delete"/>
@@ -389,6 +389,20 @@
                             <attDef ident="ref" mode="delete"/>
                             <attDef ident="type" mode="delete"/>
                             <attDef ident="when" mode="delete"/>
+                        </attList>
+                    </elementSpec>
+                    <elementSpec ident="persName" mode="change">
+                        <attList>
+                            <attDef ident="sameAs" mode="delete"/>
+                            <attDef ident="facs" mode="delete"/>
+                            <attDef ident="when" mode="delete"/>
+                            <attDef ident="from" mode="delete"/>
+                            <attDef ident="to" mode="delete"/>
+                            <attDef ident="when-iso" mode="delete"/>
+                            <attDef ident="full" mode="delete"/>
+                            <attDef ident="key" mode="delete"/>
+                            <attDef ident="type" mode="delete"/>
+                            <attDef ident="subtype" mode="delete"/>
                         </attList>
                     </elementSpec>
                     <!--Checking module dictionaries-->
@@ -522,7 +536,7 @@
                     </classSpec>
                     <!--Checking module core-->
                     <moduleRef key="core"
-                        include="p mentioned gap add del unclear name date head note pb author title l lg"/>
+                        include="p mentioned gap add del unclear name date head note pb author respStmt resp title l lg"/>
                     <elementSpec ident="p" mode="change">
                         <attList>
                             <attDef ident="corresp" mode="delete"/>
@@ -697,7 +711,26 @@
                         <attList>
                             <attDef ident="corresp" mode="delete"/>
                             <attDef ident="facs" mode="delete"/>
+                        </attList>
+                    </elementSpec>
+                    <elementSpec ident="respStmt" mode="change">
+                        <attList>
+                            <attDef ident="sameAs" mode="delete"/>
+                            <attDef ident="facs" mode="delete"/>
+                            <attDef ident="key" mode="delete"/>
                             <attDef ident="ref" mode="delete"/>
+                        </attList>
+                    </elementSpec>
+                    <elementSpec ident="resp" mode="change">
+                        <attList>
+                            <attDef ident="sameAs" mode="delete"/>
+                            <attDef ident="facs" mode="delete"/>
+                            <attDef ident="key" mode="delete"/>
+                            <attDef ident="ref" mode="delete"/>
+                            <attDef ident="when" mode="delete"/>
+                            <attDef ident="from" mode="delete"/>
+                            <attDef ident="to" mode="delete"/>
+                            <attDef ident="when-iso" mode="delete"/>
                         </attList>
                     </elementSpec>
                     <elementSpec ident="title" mode="change">
