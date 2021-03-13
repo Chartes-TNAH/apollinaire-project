@@ -1,4 +1,4 @@
-Ce repository a été créé dans le cadre d'un cours git, dispensé par M. Thibault Clérice pour le master 2 TNAH à l'Ecole nationale des chartes.
+Ce repository a été créé dans le cadre d'un module git, dispensé par M. Thibault Clérice pour le master 2 TNAH à l'Ecole nationale des chartes.
 
 ## Les contributeurs
 - [Arsène Georges](https://github.com/ArsGeo)
