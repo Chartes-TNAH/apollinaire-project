@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="out/poeme_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/poeme_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -18,7 +17,16 @@
                <msIdentifier>
                   <country>France</country>
                   <institution>
-                     
+                     <name>Bibliothèque nationale de France</name>
+                     <stamp xml:id="estampille_bnf_1870" facs="http://bibale.irht.cnrs.fr/44365">
+                        <mentioned>Biblioth. nationale MSS</mentioned>
+                        <dimensions>
+                           <height unit="mm">12</height>
+                        </dimensions>
+                        <note>Petite estampille ovale (en hauteur) du département des manuscrits de
+                           la Bibliothèque nationale (aujourd'hui BnF) après <date when="1870"
+                              >1870</date></note>
+                     </stamp>
                   </institution>
                   <repository>BnF. Département des Manuscrits.</repository>
                   <altIdentifier>
@@ -66,22 +74,16 @@
                   <msItemStruct n="7" xml:lang="fr" xml:id="a_la_sante">
                      <locus>ff. 20-23</locus>
                      <title>A la santé</title>
-                     <note>Manuscrit de premier jet. Au verso, fragments manuscrits de <title>La
-                           Femme assise</title></note>
+                     <note>Manuscrit de premier jet. Au verso, fragments manuscrits de <title
+                           xml:id="la_femme_assise">La Femme assise</title></note>
                   </msItemStruct>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc>
-                        <support><stamp xml:id="estampille_bnf_1870" facs="http://bibale.irht.cnrs.fr/44365">
-                           <mentioned>Biblioth. nationale MSS</mentioned>
-                           <dimensions>
-                              <height unit="mm">12</height>
-                           </dimensions>
-                           <note>Petite estampille ovale (en hauteur) du département des manuscrits de
-                              la Bibliothèque nationale (aujourd'hui BnF) après <date when="1870"
-                                 >1870</date></note>
-                        </stamp></support>
+                        <support>Papier, <stamp>utilisation quasi-systématique d'une estampille sur
+                              laquelle on lit "Bibliothèque Nationale MSS" sur les pages du
+                              document.</stamp></support>
                         <extent>
                            <width unit="mm">250</width>
                            <height unit="mm">220</height>
@@ -163,7 +165,7 @@
                      <lg type="tercet" n="3">
                         <l>L'amour s'en <subst>
                               <del unit="word" quantity="2" rend="overtyped">est allé</del>
-                              <add>va</add>
+                              <add unit="word" quantity="1" rend="overtyped">va</add>
                            </subst></l>
                         <l>L'amour s'en va; comme la vie est lente</l>
                         <l>Et comme l'espérance est violente!</l>
@@ -313,15 +315,17 @@
                               <del quantity="6" unit="word" rend="overtyped">Connu d’Amour de cette
                                     sor<unclear unit="char" quantity="2" reason="illegible"
                                     >te</unclear></del>
-                              <add> vu, couché dans les feuilles m<unclear unit="char" quantity="4"
-                                    reason="illegible">ortes</unclear></add>
+                              <add quantity="5" unit="word" rend="overtyped"> vu, couché dans les
+                                 feuilles m<unclear unit="char" quantity="4" reason="illegible"
+                                    >ortes</unclear></add>
                            </subst></l>
                         <l><subst>
                               <del quantity="4" unit="word" rend="overtyped">D’Amour aime jusqu’au
                                     t<unclear unit="char" quantity="4" reason="illegible"
                                     >répas</unclear></del>
-                              <add>Mon <del quantity="1" unit="word" rend="strikethrough"
-                                    >pauvre</del> Amour après son trépas</add>
+                              <add quantity="6" unit="word" rend="align(below)">Mon <del
+                                    quantity="1" unit="word" rend="strikethrough">pauvre</del> Amour
+                                 après son trépas</add>
                            </subst></l>
                         <l>
                            <del><gap quantity="1" unit="word" reason="illegible"/></del> coeurs
@@ -386,7 +390,7 @@
                         <l>Moi, qui sais des lais pour les reines,</l>
                         <l><subst>
                               <del quantity="1" unit="char" rend="overtyped">D</del>
-                              <add>L</add>
+                              <add quantity="1" unit="char" rend="overtyped">L</add>
                            </subst>es complaintes de mes années,</l>
                         <l>Des hymnes d’esclave aux murènes,</l>
                         <l>La romance du mal-aimé</l>
@@ -492,7 +496,7 @@
                         <l>Mon île au loin, ma Désirade</l>
                         <l><subst>
                               <del quantity="1" unit="word" rend="overtyped">Mon</del>
-                              <add>Ma</add>
+                              <add quantity="1" unit="word" rend="overtyped">Ma</add>
                            </subst> rose, mon giroflier…</l>
                      </lg>
                      <lg type="quintil" n="29">
@@ -526,7 +530,7 @@
                      <lg type="quintil" n="32">
                         <l>Et toi qui me suis en rampan<subst>
                               <del quantity="1" unit="char" rend="overtyped">s</del>
-                              <add>t</add>
+                              <add quantity="1" unit="char" rend="overtyped">t</add>
                            </subst></l>
                         <l>Dieu de mes dieux morts en automne</l>
                         <l>Tu mesures combien d’empans</l>
@@ -647,9 +651,10 @@
                         <l>Quel chevalier es-tu là bas ?</l>
                         <l><subst>
                               <del><gap quantity="1" unit="word" reason="illegible"/></del>
-                              <add rend="align(above)"><del rend="overtyped"><gap quantity="1"
-                                       unit="word" reason="illegible"/></del></add>
-                              <add>Sultan</add>
+                              <add quantity="1" unit="word" rend="align(above)"><del
+                                    rend="overtyped"><gap quantity="1" unit="word"
+                                       reason="illegible"/></del></add>
+                              <add quantity="1" unit="word" rend="overtyped">Sultan</add>
                            </subst> de Turcs puants qui manges</l>
                         <l>Ce que Satan chie aux sabbats</l>
                      </lg>
@@ -669,13 +674,13 @@
                         <l>Poisson <subst>
                               <del rend="overtyped"><gap quantity="1" unit="word" reason="illegible"
                                  /></del>
-                              <add>pourri</add>
+                              <add quantity="1" unit="word" rend="overtyped">pourri</add>
                            </subst> de Salonique,</l>
                         <l>Gemmes de cabochons affreux</l>
                         <l>Des yeux creuvés à coup de piques</l>
                         <l>Ta <subst>
                               <del quantity="2" unit="char" rend="overtyped">fi</del>
-                              <add>pourri</add>
+                              <add quantity="2" unit="char" rend="overtyped">mère</add>
                            </subst> fit un pet foireux</l>
                         <l>Et tu naquis de sa colique</l>
                         <l><del quantity="3" unit="word" rend="strikethrough">Ne réponds
@@ -689,7 +694,7 @@
                         <l>Tes richesses garde<del rend="strikethrough">nt</del> les toutes</l>
                         <l>Pour payer <subst>
                               <del quantity="1" unit="char" rend="overtyped">d</del>
-                              <add>t</add>
+                              <add quantity="1" unit="char" rend="overtyped">t</add>
                            </subst>es médicaments.</l>
                      </lg>
                      <lg type="tercet" n="2">
@@ -965,35 +970,35 @@
                         <l> Décolletée en rond</l>
                         <l><subst>
                               <del unit="word" quantity="1" rend="overtyped">promenait</del>
-                              <add>Promène</add>                              
+                              <add unit="word" quantity="1" rend="overtyped">Promène</add>
                            </subst> ses boucles</l>
                      </lg>
                   </div>
-                     <div type="page" n="19">
-                        <pb type="recto"
-                           facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f65.item.r=Manuscrit%20Apollinaire"/>
-                        <p><add rend="align(top)">19</add></p>
-                        <lg type="quatrain" n="2">
-                           <l>Son bandeau d’or</l>
-                           <l>Et traînant ses petits souliers à boucles</l>
-                           <l>Elle était si belle</l>
-                           <l>Que je n’aurais pas osé l’aimer.</l>
-                        </lg>
-                        <lg type="quintil" n="3">
-                           <l>J’aimais les flammes atroces dans les quartiers énormes</l>
-                           <l>Où naissaient chaque jour quelques êtres nouveaux</l>
-                           <l>Le fer était leur sang, la flamme leur cerveau.</l>
-                           <l>J’aimais, j’aimais le peuple habile des machines</l>
-                           <l> de luxe et la beauté ne sont que son écume.</l>
-                        </lg>
-                        <lg type="distique" n="1">
-                           <l>Cette femme était si belle</l>
-                           <l><del unit="word" quantity="8" rend="strikethrough">Que je n’aurais pas
-                                 osé l’aimer</del></l>
-                           <l>qu’elle me faisait peur.</l>
-                        </lg>
-                     </div>
+                  <div type="page" n="19">
+                     <pb type="recto"
+                        facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f65.item.r=Manuscrit%20Apollinaire"/>
+                     <p><add rend="align(top)">19</add></p>
+                     <lg type="quatrain" n="2">
+                        <l>Son bandeau d’or</l>
+                        <l>Et traînant ses petits souliers à boucles</l>
+                        <l>Elle était si belle</l>
+                        <l>Que je n’aurais pas osé l’aimer.</l>
+                     </lg>
+                     <lg type="quintil" n="3">
+                        <l>J’aimais les flammes atroces dans les quartiers énormes</l>
+                        <l>Où naissaient chaque jour quelques êtres nouveaux</l>
+                        <l>Le fer était leur sang, la flamme leur cerveau.</l>
+                        <l>J’aimais, j’aimais le peuple habile des machines</l>
+                        <l> de luxe et la beauté ne sont que son écume.</l>
+                     </lg>
+                     <lg type="distique" n="1">
+                        <l>Cette femme était si belle</l>
+                        <l><del unit="word" quantity="8" rend="strikethrough">Que je n’aurais pas
+                              osé l’aimer</del></l>
+                        <l>qu’elle me faisait peur.</l>
+                     </lg>
                   </div>
+               </div>
             </body>
          </text>
          <text>
@@ -1082,7 +1087,7 @@
          </text>
          <text>
             <front>
-               <docTitle>
+               <docTitle ref="#la_femme_assise">
                   <titlePart>La Femme Assise. Fragments.</titlePart>
                </docTitle>
             </front>
@@ -1153,8 +1158,7 @@
                            <extent>1 page</extent>
                         </supportDesc>
                         <layoutDesc>
-                           <layout columns="1">Vers écrits sur une seule
-                              colonne.</layout>
+                           <layout columns="1">Vers écrits sur une seule colonne.</layout>
                         </layoutDesc>
                      </objectDesc>
                   </physDesc>
@@ -1206,7 +1210,7 @@
          </text>
          <text>
             <front>
-               <docTitle>
+               <docTitle ref="#la_femme_assise">
                   <titlePart>La Femme Assise. Fragments.</titlePart>
                </docTitle>
             </front>
@@ -1229,7 +1233,7 @@
                            rend="strikethrough">pen</del> arrivaient en courant, rythmant leur pas
                         et le<del unit="char" quantity="2">ur</del> bruit cadencé que faisaient
                         leurs pieds, s'approchait <del>sourd et</del><gap unit="word" quantity="1"
-                           rend="strikethrough"/>
+                           rend="strikethrough" reason="deleted"/>
                         <add unit="word" quantity="3" rend="align(margin)">sinistre comme
                            une</add><add unit="word" quantity="2" rend="align(above)">danse
                            macabre</add> L'ange Paméla ne s'en souciait pas. <del unit="word"
@@ -1239,8 +1243,8 @@
                         destiné dans ma bouche à glorifier <add unit="word" quantity="1"
                            rend="align(margin)">légitimement</add> nos Etats-Unis devait paraître
                         (elle était là une plaisanterie mortuaire que je trouvai excellente) <gap
-                           unit="word" quantity="1" rend="strikethrough"/> aux soldats <del
-                           unit="word" quantity="2" rend="strikethrough">qui voulai</del>
+                           unit="word" quantity="1" rend="strikethrough" reason="deleted"/> aux
+                        soldats <del unit="word" quantity="2" rend="strikethrough">qui voulai</del>
                         <add unit="word" quantity="1" rend="align(margin)">qui</add> allaient
                         devenir mes bourreaux, une <gap unit="word" quantity="1" reason="deleted"/>
                         apologie <add unit="word" quantity="2" rend="highlighted">in
@@ -1263,16 +1267,17 @@
                   <div type="page" n="22">
                      <pb type="recto"
                         facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f73.item.r=Manuscrit%20Apollinaire"/>
-                     <p><add rend="align(top)">22</add></p>          
+                     <p><add rend="align(top)">22</add></p>
                      <lg type="huitain" n="3">
-                        <delSpan spanTo="#p_22" unit="line" quantity="28" rend="strikethrough"/>
+                        <delSpan spanTo="#p_22a" unit="line" quantity="28" rend="strikethrough"/>
                         <l>Que je m'ennuie entre ces quatre murs tous nus</l>
                         <l><del unit="word" quantity="3" rend="strikethrough">Où se mêlent</del> Et
                            peints de couleurs pâles</l>
                         <l><subst>
                               <del unit="line" quantity="1" rend="strikethrough">Une mouche sur mon
                                  papier à pas menus</del>
-                              <add>Une mouche sur le papier à pas menus</add>
+                              <add unit="line" quantity="1" rend="align(below)">Une mouche sur le
+                                 papier à pas menus</add>
                            </subst></l>
                         <l>Parcourt mes lignes inégales.</l>
                         <l><subst>
@@ -1282,7 +1287,8 @@
                                  couloirs</del>
                               <del unit="line" quantity="1" rend="strikethrough">Cette chaise
                                  illisible où je m'assieds</del>
-                              <add>Que deviendrai-je ? ô Dieu qui connais ma douleur</add>
+                              <add unit="line" quantity="1" rend="align(below)">Que deviendrai-je ?
+                                 ô Dieu qui connais ma douleur</add>
                            </subst></l>
                         <figure rend="align(margin)">
                            <figDesc>8 A la santé Alcools 181</figDesc>
@@ -1293,18 +1299,14 @@
                      </lg>
 
                      <lg type="quatrain" n="1">
-                        <l><subst>
-                              <del unit="line" quantity="1" rend="strikethrough">Prends en pitié
-                                    le<del unit="char" quantity="1" rend="strikethrough">s</del>
-                                    coeur<del unit="char" quantity="1" rend="strikethrough">s</del>
-                                 de qui veut bien m'aimer</del>
-                              <del unit="line" quantity="1" rend="strikethrough">Et puis que ceux
-                                 qui souffrent</del>
-                              <del unit="line" quantity="1" rend="strikethrough">Accuse de moi
-                                 seul</del>
-                              <add rend="align(below)">Et tous ces pauvres coeurs battant dans la
-                                 prison</add>
-                           </subst></l>
+                        <delSpan spanTo="#p_22b" unit="line" quantity="3" rend="strikethrough"/>
+                        <l>Mais les couloirs où crie</l>
+                        <l>Dans les couloirs</l>
+                        <l>Cette chaise illisible où je m'assieds</l>
+                        <anchor xml:id="p_22b"/>
+                        <l><add xml:id="a1" rend="align(below)">Que deviendrai-je ? ô Dieu qui
+                              connais ma douleur</add></l>
+                        <substJoin target="#p_22b #a1"/>
                         <l>L'amour qui m'acccompagne</l>
                         <l>Prends en pitié surtout ma débile raison</l>
                         <figure rend="align(margin)">
@@ -1327,11 +1329,11 @@
                         <l>Comme aux beaux jours de mon enfance</l>
                         <l><subst>
                               <del unit="line" quantity="1" rend="strikethrough">et bien plus
-                                 fermement:barré)</del>
+                                 fermement</del>
                               <add rend="align(below)">Seigneur ! Agrées mes louanges</add>
                            </subst></l>
                         <l>Je crois en vous, je crois, je crois.</l>
-                        <anchor xml:id="p_22"/>
+                        <anchor xml:id="p_22a"/>
                      </lg>
                   </div>
                </div>
@@ -1339,7 +1341,7 @@
          </text>
          <text>
             <front>
-               <docTitle>
+               <docTitle ref="#la_femme_assise">
                   <titlePart>La Femme Assise. Fragments.</titlePart>
                </docTitle>
             </front>
@@ -1391,24 +1393,22 @@
                </docTitle>
             </front>
             <body>
-               <div type="poeme" corresp="http://gallica.bnf.fr/ark:/12148/bpt6k1co083760/f150.item">
+               <div type="poeme" corresp="http://gallica.bnf.fr/ark:/12148/bpt6k1co083760/f75.item">
                   <div type="page" n="23">
                      <pb type="recto"
-                        facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f73.item.r=Manuscrit%20Apollinaire"/>
+                        facs="https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f75.item.r=Manuscrit%20Apollinaire"/>
                      <p><add rend="align(top)">23</add></p>
                      <lg type="quatrain" n="3">
-                        <delSpan spanTo="#p_23" unit="line" quantity="28" rend="strikethrough"/>
-                        <l><subst>
-                              <del unit="line" quantity="1" rend="strikethrough">Vierge plus douce
-                                 que le sucre</del>
-                              <del unit="line" quantity="1" rend="strikethrough">Vierge qui m'avez
-                                 protégé</del>
-                              <add rend="align(below)">Et Je viens de dire un <subst>
-                                    <del unit="word" quantity="1" rend="strikethrough"
-                                       >chapelet</del>
-                                    <add rend="overtyped">rosaire</add>
-                                 </subst></add>
-                           </subst></l>
+                        <delSpan spanTo="#p_23a" unit="line" quantity="28" rend="strikethrough"/>
+                        <delSpan spanTo="#p_23b" unit="line" quantity="2" rend="strikethrough"/>
+                        <l>Vierge plus douce que le sucre</l>
+                        <l>Vierge qui m'avez protégé</l>
+                        <anchor xml:id="p_23b"/>
+                        <l><add xml:id="a2" rend="align(below)">Et Je viens de dire un <subst>
+                                 <del unit="word" quantity="1" rend="strikethrough">chapelet</del>
+                                 <add rend="overtyped">rosaire</add>
+                              </subst></add>
+                           <substJoin target="#p_23b #a2"/></l>
                         <l>Avec mes doigts pour chapelet</l>
                         <l>O Vierge Sainte écoutez les</l>
                         <figure rend="align(margin)">
@@ -1456,7 +1456,8 @@
                               <del unit="word" quantity="2" rend="strikethrough">Quand moi</del>
                               <add rend="align(below)">Je suis</add>
                            </subst> Guillaume Apollinaire</l>
-                        <l><unclear/> d'un nom slave pour vrai nom</l>
+                        <l><unclear unit="char" quantity="5" reason="illegible"/> d'un nom slave
+                           pour vrai nom</l>
                         <l>Ma <del unit="word" quantity="2" rend="strikethrough">est <gap
                                  unit="char" quantity="2" reason="illegible"/></del> vie est triste
                            toute entière</l>
@@ -1472,10 +1473,10 @@
                         <l>Un prisonnier bien embêté</l>
                         <l>que lentement <add rend="align(above)">passent</add> les heures,</l>
                         <l><subst>
-                           <del unit="line" quantity="1" rend="overtyped">Et toutes les
-                                 heu</del>
-                              <add>comme passe un enterrement <del unit="char"
-                                    quantity="1" rend="strikethrough">!</del> !</add>
+                              <del unit="line" quantity="1" rend="overtyped">Et toutes les heu</del>
+                              <add unit="line" quantity="1" rend="align(below)">comme passe un
+                                 enterrement <del unit="char" quantity="1" rend="strikethrough"
+                                    >!</del> !</add>
                            </subst></l>
                         <l>Tu pleureras l'heure où tu pleures</l>
                         <l>qui passera trop vitement</l>
@@ -1484,7 +1485,7 @@
                                  tu ne meures</del>
                               <add rend="align(below)">comme passent toutes les heures</add>
                            </subst></l>
-                        <anchor xml:id="p_23"/>
+                        <anchor xml:id="p_23a"/>
                      </lg>
                   </div>
                </div>
@@ -1492,7 +1493,7 @@
          </text>
          <text>
             <front>
-               <docTitle>
+               <docTitle ref="#la_femme_assise">
                   <titlePart>La Femme Assise. Fragments.</titlePart>
                </docTitle>
             </front>
