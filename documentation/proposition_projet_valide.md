@@ -17,9 +17,9 @@ Création collaborative d’un set de données avec utilisation de Github.
 
 Il se compose en divers documents à encoder disponibles sur Gallica autour du recueil de poèmes Alcools d’Apollinaire:
 
-* Les versions préparatoires manuscrites de 7 poèmes du recueil: https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f37.item.r=Manuscrit%20Apollinaire#
+* Les [versions préparatoires manuscrites de 7 poèmes du recueil](https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f37.item.r=Manuscrit%20Apollinaire#)
 * Leur version définitive publiée
-* La réception du recueil à travers divers documents dont lettres, coupures de presse… rassemblés par l’auteur lui-même :  https://gallica.bnf.fr/ark:/12148/btv1b525088021/f145.item.r=Apollinaire%20manuscrits
+* La [réception du recueil à travers divers documents dont lettres, coupures de presse… rassemblés par l’auteur lui-même](https://gallica.bnf.fr/ark:/12148/btv1b525088021/f145.item.r=Apollinaire%20manuscrits)
 
 ## Notre proposition 
 

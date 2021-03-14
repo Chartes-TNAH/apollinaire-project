@@ -1,5 +1,5 @@
 # POÈMES MANUSCRITS
-lien: https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f15.item.r=Manuscrit%20Apollinaire.zoom
+[Lien vers Gallica](https://gallica.bnf.fr/ark:/12148/btv1b52505641f/f15.item.r=Manuscrit%20Apollinaire.zoom)
 	 
 1. Le pont mirabeau : 1 page à transcrire
   * 1r : Axelle
@@ -28,16 +28,12 @@ Océrisation de ces 7 poèmes.
 5. Les cloches
 6. 1909
 7. À la santé
-
-
 => récupération des versions publiées de ces 7 poèmes par Axelle
-lien de l'édition en ligne : http://www.crdp-strasbourg.fr/je_lis_libre/livres/Apollinaire_Alcools.pdf
+[Édition en ligne](http://www.crdp-strasbourg.fr/je_lis_libre/livres/Apollinaire_Alcools.pdf)
 
 
 # RÉCEPTION DU RECUEIL
-lien : https://gallica.bnf.fr/ark:/12148/btv1b525088021/f145.item.r=Apollinaire%20manuscrits
-
-Contient des textes imprimés et des textes manuscrits.
+[Le recueil](https://gallica.bnf.fr/ark:/12148/btv1b525088021/f145.item.r=Apollinaire%20manuscrits) contient des textes imprimés et des textes manuscrits.
 	
 * f145-f152 (f145 manuscrit, f146-f152 imprimés) : Léa
 * f153-f161 (imprimés) : Hugo
