@@ -1,4 +1,4 @@
-﻿Bonnes pratiques en TEI pour l’encodage des suppressions
+# Bonnes pratiques en TEI pour l’encodage des suppressions
 
 Les degrés d'incertitude sur ce qui est encore lisible peuvent être indiqués par l'emploi de l'élément certainty (voir 21 Certainty, Precision, and Responsibility).
 Cet élément doit être utilisé pour la suppression de courtes séquences de texte, généralement des mots ou des expressions. Il faut utiliser l'élément delSpan pour les séquences de texte plus longues, celles qui contiennent des divisions structurelles, et celles qui contiennent un chevauchement d'ajouts et de suppressions.
