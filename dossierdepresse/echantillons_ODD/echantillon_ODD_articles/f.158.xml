@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>f. 158</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Essai encodage pour échantillon</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>https://gallica.bnf.fr/ark:/12148/btv1b525088021/f158.item</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="page" n="f.158">
+            <pb n="f.158" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f158.item"/>
+            <div type="article" xml:id="article1-f158" xml:lang="fr">
+               <!-- valeur du xml:id à modifier après discussion sur les index.  -->
+               <head>
+                  <hi rend="caps">A GUILLAUME APOLLINAIRE</hi>
+                  <num rend="right">117</num>
+               </head>
+               
+               <p rend="italic">
+                  <lb/>Puis virtuose du pas de quatre <lb/>Du cavalier seul <lb/>Et de la mesure
+                  classique ; <lb/>Il tricote des jarrets,
+                  <lb/>Gavotte sur deux temps à la française, <lb/>Valse sur trois à la viennoise,
+                  <lb/>Fait des ronds de jambe, <lb/>Se campe, se cambre, <lb/>Se dandine, s‘étire
+                  <lb/>Et, soudain, en ascension, <lb/>Comme Apollonius de Tyane dans Ephèse
+                  <lb/>Il reste en l'air, y oscille et
+                  vire, <lb/>Sorte de lampe diaphane, <lb/>Et pareil à cette chrysalide <lb/>Que
+                  suspend aux branches hautes <lb/>La chenille dite : Vanesse du grand Paon du Jour,
+                  <lb/><persName>Apollinaire</persName> est un fastueux danseur.
+       -
+               </p>
+               
+               <p rend="italic">
+                  <num rend="center">III</num>
+                  <lb/>Sphinx lépidoptère au vol variant, <lb/>Tour à tour couleur de l‘Ornéode,
+                  <lb/>Du Panthoüs, des Vulcains, de l‘Atropos, <lb/>Du Morpho—Ménélas, de la
+                  Danaïde, <lb/>De l‘Amaryllis ou de la Saturnie, <lb/>Du Polyommate Dispar ou du
+                  Papillon Flambé, <lb/>Tout à coup il devient quelque immatériel Argus <lb/>Qui
+                  poudroie et semble nimber d‘idéal <lb/>Ses ailes d‘un bleu violet <lb/>Flammées de
+                  vert, <lb/>Ocellées d‘ocre <lb/>Et cernées d‘or. <lb/>Et voilà qu‘au milieu des
+                  Elus, ses précurseurs, <lb/>Il tourbillonne ainsi qu‘une immense fleur de punch
+               </p>
+            </div>
+            <note type="ref_article" rend="handwritten" hand="#Apollinaire">La Phalange</note>
+             </div>
+      </body>
+   </text>
+   <standOff>
+      <listPerson>
+         <person xml:id="Apollinaire">
+            <persName><forename>Guillaume</forename><surname>Apollinaire</surname></persName>
+         </person>
+      </listPerson>
+   </standOff>
+</TEI>

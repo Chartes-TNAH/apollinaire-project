@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="out/echantillon_lettres_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/echantillon_lettres_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dossier de presse - échantillon lettres pour prototype ODD</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="letter">
+            <div type="recto" n="177" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f177.item.r=Apollinaire%20manuscrits">
+               <span type="page_number" rend="top_right">72</span>
+               <opener>
+                  <dateline><date when="1913-06-19" rend="top_left">19 Juin 13-</date></dateline>
+                  <address rend="top_right"><addrLine>Cuverville<lb/>
+                     par Criquetot L'Esneval<lb/>
+                     8<hi rend="sup">me</hi> Inf<hi rend="sup">rie</hi></addrLine></address>
+                  <salute>Mon cher Apollinaire,</salute>
+               </opener>
+               <p>Votre livre, un des rares que j'emporte<lb/>
+                  ici avec moi, augmente mes regrets de vous<lb/>
+                  avoir si peu vu cet hiver _ ou même:<lb/>
+                  pas du tout. J'aime votre poésie, et<lb/>
+                  je m'entends bien avec elle; mon esprit<lb/>
+                  s'y sent sur sa pente et s'abandonne<lb/>
+                  à vous; vous le menez où il me plait<lb/>
+                  d'aller _ et si piètre causeur que je<lb/>
+                  sois il me semble que je m'entendrais<lb/>
+                  aussi bien avec vous.</p>
+            </div>
+            <div type="verso" n="178" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f178.item.r=Apollinaire%20manuscrits">
+               <pb n="2"/> 
+               <span type="page_number" rend="top_right">73</span>
+               <p>Je regrette aussi que la N.R.F. n'ait<lb/>
+                  jamais revu votre nom à nos sommaires,<lb/>
+                  depuis le jour de la note sur le Romains!</p>
+               <p>Et je suis reparti un peu triste, l'autre<lb/>
+                  soir, des ballets russes, de ne vous avoir<lb/>
+                  qu'entrevu. Car c'était bien vous, n'est-<lb/>
+                  ce pas?</p>
+               <p>Vous êtes cause que Merrille, puis<lb/> 
+                  Bazalgette, ont écrit de bien pompeuses<lb/> 
+                  absurdités au sujet de Whitman; j'ai<lb/>
+                  soigneusement découpé tout cela, puis<lb/>
+                  épinglé au verso de votre chronique;<lb/>
+                  je ressortirai cela quelque jour.</p> 
+               <pb n="1"/>
+               <closer>
+                  <salute>Au revoir mon cher Apollinaire; croyez à ma<lb/>
+                     bien attentive affection</salute>
+                  <signed><gap quantity="8" unit="char" reason="illegible"/></signed>
+               </closer>
+               <postscript>
+                  <p>Un mot de vous qui me disait ce que vous<lb/> 
+                     devenez me ferait plaisir</p>
+               </postscript>
+            </div>
+         </div>
+         <div type="letter">
+            <div type="recto" n="192" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f192.item">
+               <opener>
+                  <dateline><date when="1913-06-19">19 Juin 1913</date></dateline>
+                  <stamp>3, RUE LAS-CASES. VIIe.</stamp>
+                  <salute>Mon cher ami.</salute></opener>
+               <p><lb/> Je viens de rentrer de
+                  <lb/>la campagne et de trouver chez moi votre
+                  <lb/>livre. Je vous en remercie bien
+                  <lb/>cordialement. Ce que j'en ai déjà lu
+                  <lb/>hier soir m'intéresse extrèmement
+                  <lb/>autout par le fond que par la forme.
+                  <lb/>Je vous en reparlerai quand j'aurai
+                  <lb/>tout lu et que nous nous reverrons
+                  <lb/>ce qui sera bientôt, j'espère,</p>
+               <closer><salute rend="center">Bien cordialement à vous.</salute>
+                  <signed rend="center">frédéric Boutet.</signed>
+               </closer>
+            </div>
+            <div type="verso" n="193" facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f193.item">
+               <spanGrp type="postmarked">
+                  <span type="postmark" rend="red">République français 10c</span>
+                  <span type="stamp">
+                     <date when="1913-06-20">Paris Ste Anne 20-6-13</date>
+                  </span>
+                  <span type="receiver">
+                     <address>
+                        <persName>Monsieur Guillaume Apollinaire</persName>
+                        <street>202 Boulevard St Germain</street>
+                        <settlement>Paris</settlement>
+                     </address>
+                  </span>
+               </spanGrp>
+            </div>
+         </div>
+         <div type="letter">
+            <div type="recto" n="198"
+               facs="https://gallica.bnf.fr/ark:/12148/btv1b525088021/f198.item.r=Apollinaire%20manuscrits">
+               <spanGrp>
+                  <span type="page_number" rend="top_right">82</span>
+                  <span type="gratitude" rend="top_left">
+                     Votre volume de<lb/>
+                     vers me charme de plus<lb/>
+                     en plus et je sais combien<lb/>
+                     est rare l'édition<lb/>
+                     que vous m'avez<lb/>
+                     si aimablement offerte.<lb/>
+                     Merci donc<lb/>
+                     encore une<lb/>
+                     fois.<lb/>
+                  </span>
+               </spanGrp>
+               <opener>
+                  <salute>Mon cher ami</salute>
+               </opener>
+               <p>Voilà le temps qui passe, et nous ne<lb/>
+                  sommes plus pour bien longtemps<lb/>
+                  à Paris. Or nous serions très heureux<lb/>
+                  de passer encore quelques bons<lb/>
+                  moments <del rend="crossed">aV vous</del> avec vous.</p>
+               <p>Voulez-vous venir déjeuner<lb/>
+                  samedi matin, chez Baty ... ou<lb/>
+                  ailleurs si vous préférez. (vers midi ?)</p>
+               <closer>
+                  <salute>Amitiés de nous trois</salute>
+                  <signed rend="center">S de Chamaillares</signed>
+                  <address>
+                     <addrLine rend="center">3 Rue Joseph Bara</addrLine>
+                  </address>
+               </closer>
+               <postscript>
+                  <p>Si samedi ne vous convient pas, propo-<lb/>
+                     sez-nous un autre jour.</p>
+                  <p>Jeudi matin.</p>
+               </postscript>
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>
